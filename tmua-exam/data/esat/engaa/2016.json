@@ -25,7 +25,7 @@
         "b": "2 alpha and 1 beta",
         "c": "2 alpha and 2 beta",
         "d": "1 alpha and 2 beta",
-        "e": "3 beta ( )"
+        "e": "3 beta 5 ( )"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -48,12 +48,12 @@
     {
       "question": "The graph shown of quantity y against quantity x represents the motion of a body. y 10 0 0.0 2.0 x (The scales on both axes are in the appropriate S.I. units, and the gravitational field strength g is 10Nkg–1.) Which two of the following could the graph represent? 1 kinetic energy against velocity for an object of mass 10kg undergoing free-fall 2 potential energy against height for an object of mass 20kg being lifted by a constant external force 3 velocity against time for an object of mass 20kg being accelerated by a resultant force of 100N 4 work done by an external force of 5N against distance moved for an object of mass 12kg being moved at constant speed by (and in the direction of) the external force",
       "answers": {
-        "a": "1 and",
-        "b": "1 and",
-        "c": "1 and",
-        "d": "2 and",
-        "e": "2 and",
-        "f": "3 and"
+        "a": "1 and 2",
+        "b": "1 and 3",
+        "c": "1 and 4",
+        "d": "2 and 3",
+        "e": "2 and 4",
+        "f": "3 and 4 7"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -81,7 +81,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 9"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -169,7 +169,7 @@
     {
       "question": "The quantities x and y are positive. x is inversely proportional to the square root of y. When x = 8, y = 9. What is the value of y when x = 6? 3",
       "answers": {
-        "a": "Option unavailable",
+        "a": "Option unavailable 2",
         "b": "2 81",
         "c": "Option unavailable",
         "d": "Option unavailable",
@@ -281,11 +281,11 @@
     {
       "question": "Which one of the following is a simplification of 4+ ? x2 −2x 2",
       "answers": {
-        "a": "3− x",
-        "b": "3+ x",
-        "c": "4− x",
-        "d": "4+ x",
-        "e": "5− x",
+        "a": "3− x 2",
+        "b": "3+ x 2",
+        "c": "4− x 2",
+        "d": "4+ x 2",
+        "e": "5− x 2",
         "f": "5+ x"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -309,8 +309,8 @@
     {
       "question": "During summer activities week 120 students each chose one activity from swimming, archery, and tennis. 46 of the students were girls. 2 36 of the students chose tennis, and of these were boys; 25 girls chose swimming, and 27 3 students chose archery. 3",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable",
+        "a": "Option unavailable 9",
+        "b": "Option unavailable 4",
         "c": "Option unavailable",
         "d": "Option unavailable",
         "e": "Option unavailable"
@@ -391,10 +391,10 @@
     {
       "question": "When x=2 is substituted in the expression x3 + px2 +qx+ p2 the result is 0. When x=1 is substituted into the same expression, the result is −3.5. Find all possible value(s) of p. 6",
       "answers": {
-        "a": "p=−1±",
+        "a": "p=−1± 3",
         "b": "p = 1 or p = −3",
-        "c": "p =",
-        "d": "p =1±",
+        "c": "p = 1",
+        "d": "p =1± 7",
         "e": "there are no values for p"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -410,7 +410,7 @@
         "e": "1 and 2 only",
         "f": "3 and 4 only",
         "g": "1, 2 and 5 only",
-        "h": "1, 2, 3, 4 and"
+        "h": "1, 2, 3, 4 and 5 30"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -448,10 +448,10 @@
     {
       "question": "The first term of a convergent geometric series is 8. The fifth term is 2. The sixth term is real and positive. What is the sum to infinity of this series? a (The sum to infinity of a convergent geometric series is given by , where a is the first term 1−r and r is the common ratio.) ( )",
       "answers": {
-        "a": "81+ ( )",
-        "b": "81− ( )",
-        "c": "82+ ( )",
-        "d": "82−",
+        "a": "81+ 2 ( )",
+        "b": "81− 2 ( )",
+        "c": "82+ 2 ( )",
+        "d": "82− 2",
         "e": "16 85 4",
         "f": "Option unavailable 5 4 −1 85 4",
         "g": "Option unavailable 5 4 +1 33"
@@ -475,12 +475,12 @@
     {
       "question": "Tangents are drawn from a point P to a circle of radius 10cm. The centre of the circle is C and the distance PC is 20cm. P .C Which one of the following is an expression for the shaded area in square centimetres? 100( )",
       "answers": {
-        "a": "3 3 −π 100( )",
-        "b": "3 5 −π 50( )",
-        "c": "6 3−π 50( )",
-        "d": "6 5−π 50( )",
-        "e": "3−2π 50( )",
-        "f": "2π−"
+        "a": "3 3 −π 3 100( )",
+        "b": "3 5 −π 3 50( )",
+        "c": "6 3−π 3 50( )",
+        "d": "6 5−π 3 50( )",
+        "e": "3−2π 3 50( )",
+        "f": "2π− 3 3 35"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -557,9 +557,9 @@
         "a": "− 3 13",
         "b": "− 6 5",
         "c": "− 6 5",
-        "d": "Option unavailable",
-        "e": "Option unavailable",
-        "f": "Option unavailable"
+        "d": "Option unavailable 6 13",
+        "e": "Option unavailable 6 8",
+        "f": "Option unavailable 3 39"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -571,8 +571,8 @@
         "b": "2mg(b − a)",
         "c": "−mg(b+a)",
         "d": "mg(a+b)",
-        "e": "3 mg(a − b)",
-        "f": "1 mg(a − b)"
+        "e": "3 mg(a − b) 2",
+        "f": "1 mg(a − b) 2 40"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"

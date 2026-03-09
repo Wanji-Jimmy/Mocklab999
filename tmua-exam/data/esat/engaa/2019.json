@@ -26,7 +26,7 @@
         "d": "4.8Ω",
         "e": "150Ω",
         "f": "600Ω",
-        "g": "750Ω"
+        "g": "750Ω 5"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -34,13 +34,13 @@
     {
       "question": "The equation gives y in terms of x: ⎛ x⎞ 2 y=3−4⎜1− ⎟ ⎝ 2⎠ Which one of the following is a rearrangement for x in terms of y? 3− y",
       "answers": {
-        "a": "x=−2 ± 4− y",
-        "b": "x=−2 ± 3− y",
-        "c": "x=1± 3− y",
-        "d": "x=1± 3− y",
-        "e": "x=2 ± 4− y",
-        "f": "x=2 ± 3+ y",
-        "g": "x=2 ±"
+        "a": "x=−2 ± 2 4 4− y",
+        "b": "x=−2 ± 2 3 3− y",
+        "c": "x=1± 4 3− y",
+        "d": "x=1± 2 4 3− y",
+        "e": "x=2 ± 2 4 4− y",
+        "f": "x=2 ± 2 3 3+ y",
+        "g": "x=2 ± 2 4 6"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -69,7 +69,7 @@
         "d": "120%",
         "e": "224%",
         "f": "240%",
-        "g": "400%"
+        "g": "400% 7"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -121,7 +121,7 @@
         "c": "Option unavailable x(x+1) 4x2 −4x−1",
         "d": "Option unavailable x(x−1) 4x2 −4x+1",
         "e": "Option unavailable x(x−1) 12x3 −8x2 −x+1",
-        "f": "Option unavailable x(3x−1)(x−1)"
+        "f": "Option unavailable x(3x−1)(x−1) 9"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -157,7 +157,7 @@
       "question": "The radioactive isotope X becomes the stable isotope Y after a succession of decays involving only the emission of alpha and beta (β –) particles. During the decay of one nucleus from X to Y, a total of seven particles are emitted. It is known that more of these particles are alpha particles than beta particles. The atomic number of X is Z and the mass number of X is A. Which row in the table could give the atomic number and the mass number of Y? atomic number of Y mass number of Y",
       "answers": {
         "a": "Z – 2 A –",
-        "b": "Z – 5 A –",
+        "b": "Z – 5 A – 8",
         "c": "Z – 8 A –",
         "d": "Z – 10 A –",
         "e": "Z – 11 A –"
@@ -264,10 +264,10 @@
       "question": "A sample initially contains equal numbers of atoms of a radioactive isotope X and a stable isotope Y. Isotope X has a half-life of 3 years and decays in a single stage to the stable isotope Y. What is the ratio : number of atoms of X number of atoms of Y in the sample 6 years later?",
       "answers": {
         "a": "The sample contains only isotope Y.",
-        "b": "1 :",
-        "c": "1 :",
-        "d": "1 :",
-        "e": "7 : NOTE: questions in this part that are not covered by the ESAT content specification are indicated by a cross through the question number."
+        "b": "1 : 7",
+        "c": "1 : 4",
+        "d": "1 : 3",
+        "e": "7 : 4 18 NOTE: questions in this part that are not covered by the ESAT content specification are indicated by a cross through the question number."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -361,7 +361,7 @@
         "b": "or 3 2 2 3 2 2",
         "c": "or 2 3",
         "d": "3 or 2 2",
-        "e": "3 or"
+        "e": "3 or 2 23"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -373,8 +373,8 @@
         "b": "35 3N",
         "c": "40 3N",
         "d": "80N",
-        "e": "80 3N",
-        "f": "280 N"
+        "e": "80 3N 3",
+        "f": "280 N 3 24"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -383,8 +383,8 @@
       "question": "An equilateral triangle of side 8cm is drawn so that its vertices lie on the circumference of a circle, as shown in the diagram. 8cm What is the total of the three areas shaded in the diagram, in cm2?",
       "answers": {
         "a": "8(2π−3) ( )",
-        "b": "24 π− ( )",
-        "c": "48 4π− 16( )",
+        "b": "24 π− 3 ( )",
+        "c": "48 4π− 3 16( )",
         "d": "4π−6−3 3 3 16( )",
         "e": "4π−3 3 3 25"
       },
@@ -434,11 +434,11 @@
     {
       "question": "For a particular function f(x), it is given that: 2 4 ∫ 2f(x)dx + ∫ f (x)dx = 4 –2 2 and also: 2 4 ∫ 5f(x)dx – ∫ f (x)dx = 7 –2 –2 4 Find the value of ∫ f (x)dx 2 1",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable",
-        "c": "Option unavailable",
-        "d": "Option unavailable",
-        "e": "Option unavailable"
+        "a": "Option unavailable 3 11",
+        "b": "Option unavailable 7 11",
+        "c": "Option unavailable 6 13",
+        "d": "Option unavailable 6 13",
+        "e": "Option unavailable 3 28"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -462,7 +462,7 @@
       "answers": {
         "a": "70",
         "b": "162 2835",
-        "c": "Option unavailable",
+        "c": "Option unavailable 4",
         "d": "3024",
         "e": "5670",
         "f": "15120",
@@ -503,7 +503,7 @@
         "b": "cos β = cos α sin–1 ⎜ ⎝α ⎟ ⎠",
         "c": "sinβ = sin2α",
         "d": "β = 90 – (90 – α)2",
-        "e": "β =",
+        "e": "β = 0",
         "f": "β = α"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -514,10 +514,10 @@
       "answers": {
         "a": "x < –1",
         "b": "x > –1",
-        "c": "–1 < x <",
-        "d": "x < –1 or x >",
-        "e": "x <",
-        "f": "x >"
+        "c": "–1 < x < 4",
+        "d": "x < –1 or x > 4",
+        "e": "x < 4",
+        "f": "x > 4 32"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -529,7 +529,7 @@
         "b": "768N",
         "c": "800N",
         "d": "832N",
-        "e": "960N END OF TEST"
+        "e": "960N"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"

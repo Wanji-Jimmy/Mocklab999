@@ -26,7 +26,7 @@
         "e": "36N",
         "f": "49N",
         "g": "81N",
-        "h": "4900N"
+        "h": "4900N 4"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -34,14 +34,14 @@
     {
       "question": "Find the complete set of values of x that satisfy the inequality 3 1 (5 – x) – (6 – x) – x < 0 4 2 1",
       "answers": {
-        "a": "x <",
-        "b": "x >",
-        "c": "x <",
-        "d": "x >",
-        "e": "x <",
-        "f": "x >",
-        "g": "x <",
-        "h": "x >"
+        "a": "x < 3 1",
+        "b": "x > 3 3",
+        "c": "x < 5 3",
+        "d": "x > 5 3",
+        "e": "x < 4 3",
+        "f": "x > 4 3",
+        "g": "x < 2 3",
+        "h": "x > 2"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -56,7 +56,7 @@
         "e": "0.75C",
         "f": "1.5C",
         "g": "9.0C",
-        "h": "18C"
+        "h": "18C 5"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -83,7 +83,7 @@
         "c": "0.4m",
         "d": "0.5m",
         "e": "0.6m",
-        "f": "1.0m"
+        "f": "1.0m 7"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -112,7 +112,7 @@
         "e": "576J",
         "f": "864J",
         "g": "576000J",
-        "h": "864000J"
+        "h": "864000J 8"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -120,12 +120,12 @@
     {
       "question": "A rectangle PQRS has length (2x – 1)cm and width (x + 1)cm as shown on the diagram. The larger rectangle has an area of 360cm2. 3cm Q R (x + 1)cm P S (2x – 1)cm 3cm What is the ratio of PQ to PS?",
       "answers": {
-        "a": "1 :",
-        "b": "4 :",
-        "c": "5 :",
+        "a": "1 : 2",
+        "b": "4 : 7",
+        "c": "5 : 8",
         "d": "7 :",
         "e": "10 :",
-        "f": "17 :"
+        "f": "17 : 9"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -150,8 +150,8 @@
         "b": "65",
         "c": "80",
         "d": "120 40 3",
-        "e": "25 + 64 3",
-        "f": "40+",
+        "e": "25 + 3 64 3",
+        "f": "40+ 3",
         "g": "25+ 40 3",
         "h": "64+ 40 3 11"
       },
@@ -200,12 +200,12 @@
     {
       "question": "The variables x and y are related by the equation: 2y3+1 x = 5 − 1− 2y3 Which of the following is a rearrangement to make y the subject? x−4",
       "answers": {
-        "a": "y = 8x−48 x−6",
-        "b": "y = 8x−32 x−2",
-        "c": "y = x−6 x−3",
-        "d": "y = x−4 x−4",
-        "e": "y = 2x−12 x−6",
-        "f": "y = 2x−8 15"
+        "a": "y = 3 8x−48 x−6",
+        "b": "y = 3 8x−32 x−2",
+        "c": "y = 3 x−6 x−3",
+        "d": "y = 3 x−4 x−4",
+        "e": "y = 3 2x−12 x−6",
+        "f": "y = 3 2x−8 15"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -226,13 +226,13 @@
     {
       "question": "Three different numbers are chosen at random from 1, 2, 3, 4 , 5. What is the probability that the three numbers form the three sides of a right-angled triangle? 1",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable",
-        "c": "Option unavailable",
-        "d": "Option unavailable",
-        "e": "Option unavailable",
-        "f": "Option unavailable",
-        "g": "Option unavailable"
+        "a": "Option unavailable 1",
+        "b": "Option unavailable 3",
+        "c": "Option unavailable 1",
+        "d": "Option unavailable 3 2",
+        "e": "Option unavailable 5 2",
+        "f": "Option unavailable 3 4",
+        "g": "Option unavailable 5 17"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -283,12 +283,12 @@
     {
       "question": "Find the value of 4 2x2−3  dx x x 1 19",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable",
-        "c": "Option unavailable",
-        "d": "Option unavailable",
-        "e": "Option unavailable",
-        "f": "Option unavailable"
+        "a": "Option unavailable 3 37",
+        "b": "Option unavailable 3 53",
+        "c": "Option unavailable 3 73",
+        "d": "Option unavailable 4 81",
+        "e": "Option unavailable 4 87",
+        "f": "Option unavailable 4"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -322,13 +322,13 @@
     {
       "question": "A stone is thrown vertically upwards from the surface of the Earth and reaches a maximum height h. The same stone is thrown vertically upwards from the surface of the Moon, with the same initial speed. What is the maximum height reached by the stone thrown on the Moon? (gravitational field strength on the Earth = 10Nkg–1; gravitational field strength on the Moon = 1.6Nkg–1; air resistance may be ignored) 10 ",
       "answers": {
-        "a": "  h 1.6 10 ",
+        "a": "  h 1.6 10  2",
         "b": "  h 1.6  10 ",
-        "c": "  h 3.2  10 ",
+        "c": "  h 3.2  10  2",
         "d": "  h 3.2  10 ",
-        "e": "  h 8.4  10 ",
+        "e": "  h 8.4  10  2",
         "f": "  h 8.4  20 ",
-        "g": "  h 1.6  20 ",
+        "g": "  h 1.6  20  2",
         "h": "  h 1.6"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -350,11 +350,11 @@
     {
       "question": "A ray of light is incident on a boundary between a vacuum and medium X at an angle θ as shown: incident ray reflected ray vacuum θ medium X refracted ray The incident ray is partially reflected and partially refracted. The angle between the reflected and refracted rays is 90°. What is the refractive index of medium X?",
       "answers": {
-        "a": "sinθ",
+        "a": "sinθ 1",
         "b": "Option unavailable sinθ",
-        "c": "cosθ",
+        "c": "cosθ 1",
         "d": "Option unavailable cosθ",
-        "e": "tanθ",
+        "e": "tanθ 1",
         "f": "Option unavailable tanθ"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -363,12 +363,12 @@
     {
       "question": "Which one of the following expressions is equal to ( 2+ 20 )2 ( 1+ 5 )3",
       "answers": {
-        "a": "5 – 5 −1",
-        "b": "Option unavailable 6 ( 5 5 −1 )",
+        "a": "5 – 1 5 −1",
+        "b": "Option unavailable 2 6 ( 5 5 −1 )",
         "c": "Option unavailable 3 ( 5 5 −1 )",
         "d": "Option unavailable −22 +10 2+11 5 − 4 10",
-        "e": "Option unavailable −22 +10 2 +11 5 − 4 10",
-        "f": "Option unavailable"
+        "e": "Option unavailable 2 −22 +10 2 +11 5 − 4 10",
+        "f": "Option unavailable 4 27"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -383,7 +383,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 28"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -391,11 +391,11 @@
     {
       "question": "Evaluate ∞  1 1 1   r + r + r  2 3 4  r=2 21",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable",
+        "a": "Option unavailable 3",
+        "b": "Option unavailable 4 13",
         "c": "Option unavailable 157",
         "d": "Option unavailable 120 11",
-        "e": "Option unavailable",
+        "e": "Option unavailable 6 23",
         "f": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -417,12 +417,12 @@
     {
       "question": "What is the complete set of real values of x for which x2( x2+4 ) < 21",
       "answers": {
-        "a": "– 3 < x <",
-        "b": "– 7 < x <",
-        "c": "x < – 3 or x >",
-        "d": "x < – 7 or x >",
-        "e": "– 7 < x < – 3 or 3 < x <",
-        "f": "x < – 7 or – 3 < x < 3 or x >"
+        "a": "– 3 < x < 3",
+        "b": "– 7 < x < 7",
+        "c": "x < – 3 or x > 3",
+        "d": "x < – 7 or x > 7",
+        "e": "– 7 < x < – 3 or 3 < x < 7",
+        "f": "x < – 7 or – 3 < x < 3 or x > 7 30"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -528,11 +528,11 @@
       "question": "Find the sum of the real solutions to the equation 2 x −( 2 )x+6 +12 =0",
       "answers": {
         "a": "8",
-        "b": "16 4+",
-        "c": "2 2 6+",
+        "b": "16 4+ 2",
+        "c": "2 2 6+ 2",
         "d": "2 2",
-        "e": "1+ 1log 2 2",
-        "f": "4 + 2log"
+        "e": "1+ 1log 3 2 2",
+        "f": "4 + 2log 3 2"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -547,7 +547,7 @@
         "e": "3.2 ×10−5m",
         "f": "6.4 ×10−5m",
         "g": "3.2 ×10−4m",
-        "h": "6.4 ×10−4m END OF TEST"
+        "h": "6.4 ×10−4m"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"

@@ -1,5 +1,3 @@
-Copyright © UCLES 2018
-*1111111111* *6913907059*
 NATURAL SCIENCES D568/11
 ADMISSIONS ASSESSMENT
 Wednesday 31 October 2018 80 minutes
@@ -32,6 +30,7 @@ Dictionaries and calculators may NOT be used.
 Please wait to be told you may begin before turning this page.
 This question paper consists of 74 printed pages and 6 blank pages.
 PV2
+Copyright © UCLES 2018
 BLANK PAGE
 2
 Paper content
@@ -440,9 +439,6 @@ PART B Physics
 0
 0 10 20 30 40 50 60 70 80 90 100 110 120
 time /s
-25
-1–sm/
-deeps
 What is the average speed of the bus during this time?
 A 3.0ms–1
 B 4.5ms–1
@@ -451,6 +447,7 @@ D 8.0ms–1
 E 9.0ms–1
 F 11ms–1
 G 12ms–1
+25
 PART B Physics
 23 A filament lamp working at its operating voltage converts electrical energy at a rate of 100W.
 The lamp has an efficiency of 5.0%.
@@ -522,22 +519,14 @@ PART B Physics
 A radiation detector is placed very near to a sample of the radioactive isotope in a laboratory.
 The count rate on the detector changes as time elapses. The graph shows how the measured
 count rate changes with time.
-80
-150
-28
-etunim
-rep
-stnuoc
-/
-etar
-tnuoc
 120
 100
+80
 60
 40
 20
 0
-0 50 100 200 250 300 350 400
+0 50 100 150 200 250 300 350 400
 time / minutes
 What is the background count rate and what is the half-life of the isotope?
 background count rate half-life of isotope
@@ -550,6 +539,7 @@ E 120 40
 F 120 50
 G 120 60
 H 120 65
+28
 PART B Physics
 28 A rock falling vertically experiences an air resistance force of 12N at an instant when its
 acceleration is 2.0ms–2 downwards.
@@ -599,8 +589,6 @@ The distance–time graph for the skydiver is shown below.
 0
 0 1 2 3 4 5 6 7 8 9 10 11 12
 time/s
-31
-m/ecnatsid
 The air resistance F (in N) acting on the skydiver travelling at velocity v (in ms–1) is given by the
 equation
 F = kv2
@@ -611,6 +599,7 @@ B 0.40
 C 0.63
 D 2.5
 E 20
+31
 PART B Physics
 32 A source generates water waves of fixed frequency that have a wavelength of 1.5cm.
 As they cross a boundary into shallower water their frequency does not change, but their speed
@@ -1264,21 +1253,9 @@ PART D Biology
 67 A student investigated the rate of oxygen bubble release from a pondweed plant at different
 temperatures. The rates are shown below, with two sections of the graph marked X and Y.
 In each investigation all other factors were kept constant.
-temperature / °C
-61
-esaeler
-elbbub
-negyxo
-fo
-etar
-etunim
-rep
-selbbub
-/
-deewdnop
-ni
 Y
 X
+temperature / °C
 Which of the following statements about sections X and Y is/are correct?
 1 In section X, the kinetic energy of the reaction molecules is increasing with
 increasing temperature.
@@ -1294,6 +1271,7 @@ E 1 and 2 only
 F 1 and 4 only
 G 2 and 3 only
 H 3 and 4 only
+61
 PART D Biology
 68 The diagram below shows a circular piece of bacterial DNA called a plasmid that has been
 made recombinant by the insertion of a plant gene for herbicide resistance.

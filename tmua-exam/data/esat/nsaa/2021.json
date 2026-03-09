@@ -8,8 +8,8 @@
       "answers": {
         "a": "Option unavailable 125x7y2 1",
         "b": "Option unavailable 125x6y2 1",
-        "c": "Option unavailable 25x6y",
-        "d": "Option unavailable 25x4y",
+        "c": "Option unavailable 25x6y 1",
+        "d": "Option unavailable 25x4y 1",
         "e": "Option unavailable 5x3 1",
         "f": "Option unavailable 5x2 y",
         "g": "Option unavailable x2",
@@ -21,13 +21,13 @@
     {
       "question": "Which of the following is a simplification of x + 3x2 2 − 12x2+ x −1 where x > 1? 7x −1",
       "answers": {
-        "a": "Option unavailable 4x −1 7x −",
+        "a": "Option unavailable 4x −1 7x − 2",
         "b": "Option unavailable 4x −1 7x +1",
-        "c": "Option unavailable 4x +1 7x +",
+        "c": "Option unavailable 4x +1 7x + 2",
         "d": "Option unavailable 4x +1 9x −1",
-        "e": "Option unavailable 4x −1 9x −",
+        "e": "Option unavailable 4x −1 9x − 2",
         "f": "Option unavailable 4x −1 9x +1",
-        "g": "Option unavailable 4x +1 9x +",
+        "g": "Option unavailable 4x +1 9x + 2",
         "h": "Option unavailable 4x +1 7"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -54,11 +54,11 @@
         "a": "3y + 4x =",
         "b": "3y – 4x =",
         "c": "3y – 4x = –7",
-        "d": "3y – 4x =",
+        "d": "3y – 4x = 7",
         "e": "4y + 3x =",
         "f": "4y – 3x =",
         "g": "3y + 4x =",
-        "h": "3y – 4x ="
+        "h": "3y – 4x = 8"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -67,12 +67,12 @@
       "question": "Two solid cylinders, P and Q, are shown, where x > y. Q P x y x y Cylinder P has diameter x and height y. Cylinder Q has diameter y and height x. What is the positive difference between the total surface areas of P and Q?",
       "answers": {
         "a": "0 π",
-        "b": "(x2 – y2) π",
-        "c": "(x2 – y2)",
+        "b": "(x2 – y2) 4 π",
+        "c": "(x2 – y2) 2",
         "d": "π(x2 – y2)",
         "e": "2π(x2 – y2) π",
-        "f": "xy(x – y)",
-        "g": "πxy(x – y)"
+        "f": "xy(x – y) 4",
+        "g": "πxy(x – y) 9"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -163,9 +163,9 @@
       "question": "An online company sells storage containers. The following items are available: capacity of container number available 2 litres 2 3 litres 3 7 litres 4 8 litres 1 What is the probability that the two containers will have a combined capacity of exactly 10 litres? 7",
       "answers": {
         "a": "Option unavailable",
-        "b": "Option unavailable",
+        "b": "Option unavailable 7",
         "c": "Option unavailable",
-        "d": "Option unavailable",
+        "d": "Option unavailable 7",
         "e": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -192,9 +192,9 @@
         "b": "3.5sin55°",
         "c": "3.5sin70°",
         "d": "7sin55° 3.5",
-        "e": "Option unavailable sin40°",
+        "e": "Option unavailable sin40° 7",
         "f": "Option unavailable sin80° 3.5",
-        "g": "Option unavailable sin20°",
+        "g": "Option unavailable sin20° 7",
         "h": "Option unavailable sin40°"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -203,12 +203,12 @@
     {
       "question": "Charlie has a bowl containing red sweets and green sweets only. The sweets are identical in all respects except colour. There are nine sweets in total in the bowl. Charlie eats two sweets from the bowl at random. 5 The probability of Charlie not eating any green sweets is 12 What is the probability that Charlie eats two green sweets? 2",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable",
-        "c": "Option unavailable",
-        "d": "Option unavailable",
-        "e": "Option unavailable",
-        "f": "Option unavailable",
+        "a": "Option unavailable 1",
+        "b": "Option unavailable 1",
+        "c": "Option unavailable 9 4",
+        "d": "Option unavailable 1",
+        "e": "Option unavailable 6 1",
+        "f": "Option unavailable 4 7",
         "g": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -218,13 +218,13 @@
       "question": "The following right-angled triangles have the same hypotenuse length. 60° ycm 45° xcm Which of the following is a correct expression for y in terms of x?",
       "answers": {
         "a": "y = 2x 2x",
-        "b": "y = 2x",
-        "c": "y = 2x",
-        "d": "y =",
+        "b": "y = 2 2x",
+        "c": "y = 3 2x",
+        "d": "y = 6",
         "e": "y = 6x 6x",
-        "f": "y = 6 x",
-        "g": "y = 6x",
-        "h": "y ="
+        "f": "y = 2 6 x",
+        "g": "y = 3 6x",
+        "h": "y = 6 18"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -232,11 +232,11 @@
     {
       "question": "The greatest diagonal distance between the two vertices of a cuboid, as shown in the diagram, is 77 cm. The sides of this smaller cuboid are 2cm, 3cm and xcm. What is the value of x, in cm? 5",
       "answers": {
-        "a": "Option unavailable",
+        "a": "Option unavailable 2",
         "b": "5 5 2",
-        "c": "Option unavailable",
+        "c": "Option unavailable 2",
         "d": "5 2 102",
-        "e": "Option unavailable",
+        "e": "Option unavailable 2",
         "f": "102 19"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -390,7 +390,7 @@
         "a": "⎜ ⎟ P ⎝20⎠ ⎛19⎞",
         "b": "⎜ ⎟P ⎝20⎠",
         "c": "P ⎛20⎞",
-        "d": "⎜ ⎟P ⎝19⎠ ⎛20⎞",
+        "d": "⎜ ⎟P ⎝19⎠ ⎛20⎞ 2",
         "e": "⎜ ⎟ P ⎝19⎠"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -464,7 +464,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 34"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -513,11 +513,11 @@
     {
       "question": "A radioactive nuclide X decays in a single stage to a stable nuclide R. When a rock formed it contained equal numbers of atoms of all four nuclides X, Y, R and S. The half-life of X is T years and the half-life of Y is 2T years. number of atomsofR What is the value of at a time 4T years after the rock has formed? number of atomsof S (Assume that no other processes add or remove X, Y, R or S from the rock during this time.) 1",
       "answers": {
-        "a": "Option unavailable",
+        "a": "Option unavailable 4 17",
         "b": "Option unavailable",
-        "c": "Option unavailable",
-        "d": "Option unavailable",
-        "e": "Option unavailable",
+        "c": "Option unavailable 6",
+        "d": "Option unavailable 5 5",
+        "e": "Option unavailable 4",
         "f": "2 37"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -554,12 +554,12 @@
     {
       "question": "A pulse of ultrasound travels from one end of a solid uniform rod of length L, starting at time t = 0. The pulse is partially reflected by a crack in the rod and partially by the far end of the rod. These two reflected pulses travel back along the rod, arriving at the end from which they started at times t and t , where t > t . 1 2 2 1 What is the distance between the crack and the far end of the rod? t",
       "answers": {
-        "a": "1 L t t",
-        "b": "2 L t t",
-        "c": "1 L 2t t",
-        "d": "2 L 2t (t − t )",
-        "e": "2 1 L t (t − t )",
-        "f": "2 1 L 2t"
+        "a": "1 L t 2 t",
+        "b": "2 L t 1 t",
+        "c": "1 L 2t 2 t",
+        "d": "2 L 2t 1 (t − t )",
+        "e": "2 1 L t 2 (t − t )",
+        "f": "2 1 L 2t 2 39 40 41"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -591,7 +591,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -649,13 +649,13 @@
       "question": "X is a gaseous element. X can react explosively with hydrogen to produce a single product. When dissolved in water, this product forms an acidic aqueous solution Y. When aqueous silver nitrate is added to solution Y, a white precipitate forms. Solution Y reacts with substance Z to form two products only. One of these products forms a white precipitate when aqueous sodium hydroxide is added to it. Which of the following could be X and Z? X Z",
       "answers": {
         "a": "Br CaCO 2 3",
-        "b": "Br CuO",
-        "c": "Br Mg",
+        "b": "Br CuO 2",
+        "c": "Br Mg 2",
         "d": "Cl CaCO 2 3",
-        "e": "Cl CuO",
-        "f": "Cl Mg",
+        "e": "Cl CuO 2",
+        "f": "Cl Mg 2",
         "g": "O CaCO 2 3",
-        "h": "O Mg"
+        "h": "O Mg 2 46"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -682,7 +682,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 47"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -690,19 +690,19 @@
     {
       "question": "Chlorine gas reacts with hot concentrated aqueous sodium hydroxide to form sodium chloride, sodium chlorate(V) and water. The unbalanced ionic equation for this reaction is: uCl + vOH– → wCl– + xClO – + yH O 2 3 2 What is the simplest ratio of w:x in the balanced equation?",
       "answers": {
-        "a": "1 :",
-        "b": "1 :",
-        "c": "2 :",
-        "d": "1 :",
-        "e": "5 :",
-        "f": "1 :",
-        "g": "7 :"
+        "a": "1 : 1",
+        "b": "1 : 2",
+        "c": "2 : 1",
+        "d": "1 : 5",
+        "e": "5 : 1",
+        "f": "1 : 7",
+        "g": "7 : 1 48"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "An experiment was carried out to separate the four amino acids present in a mixture of amino acids. placed in solvent 1 and left until the solvent nearly reached the top of the paper. The paper was then thoroughly dried and turned by 90°. The procedure was then repeated with solvent 2. The amino acids were then identified with reference to known R values in the respective f solvents. The final positions of the amino acids on the chromatograph are shown on the following diagram. 49 solvent front 2 Which of the following statements is correct?",
+      "question": "An experiment was carried out to separate the four amino acids present in a mixture of amino acids. placed in solvent 1 and left until the solvent nearly reached the top of the paper. The paper was then thoroughly dried and turned by 90°. The procedure was then repeated with solvent 2. The amino acids were then identified with reference to known R values in the respective f solvents. The final positions of the amino acids on the chromatograph are shown on the following diagram. Which of the following statements is correct?",
       "answers": {
         "a": "Leucine travels further relative to the solvent front in solvent 2 than in solvent 1.",
         "b": "Lysine has a greater R value in solvent 1 than it has in solvent 2. f",
@@ -718,8 +718,8 @@
       "answers": {
         "a": "N 2",
         "b": "NO",
-        "c": "NO",
-        "d": "NO",
+        "c": "NO 2",
+        "d": "NO 3",
         "e": "N O 2 5"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -838,7 +838,7 @@
         "c": "2 and 3 only",
         "d": "1, 2 and 3 only",
         "e": "2, 3 and 4 only",
-        "f": "1, 2, 3 and"
+        "f": "1, 2, 3 and 4"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -893,7 +893,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 61"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -908,7 +908,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 62"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
@@ -923,7 +923,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 63"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -938,7 +938,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 64"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -979,7 +979,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 66"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -994,7 +994,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 67"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -1009,7 +1009,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 68"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
@@ -1061,7 +1061,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 72"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -1106,7 +1106,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 75 76"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"

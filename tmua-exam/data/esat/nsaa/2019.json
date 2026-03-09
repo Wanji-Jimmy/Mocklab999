@@ -27,7 +27,7 @@
         "e": "x < 1.2",
         "f": "x > 1.2",
         "g": "x <",
-        "h": "x >"
+        "h": "x > 6"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
@@ -35,13 +35,13 @@
     {
       "question": "The equation gives y in terms of x: ⎛ x⎞ 2 y=3−4⎜1− ⎟ ⎝ 2⎠ Which one of the following is a rearrangement for x in terms of y? 3− y",
       "answers": {
-        "a": "x=−2 ± 4− y",
-        "b": "x=−2 ± 3− y",
-        "c": "x=1± 3− y",
-        "d": "x=1± 3− y",
-        "e": "x=2 ± 4− y",
-        "f": "x=2 ± 3+ y",
-        "g": "x=2 ±"
+        "a": "x=−2 ± 2 4 4− y",
+        "b": "x=−2 ± 2 3 3− y",
+        "c": "x=1± 4 3− y",
+        "d": "x=1± 2 4 3− y",
+        "e": "x=2 ± 2 4 4− y",
+        "f": "x=2 ± 2 3 3+ y",
+        "g": "x=2 ± 2 4"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -55,7 +55,7 @@
         "d": "120%",
         "e": "224%",
         "f": "240%",
-        "g": "400%"
+        "g": "400% 7"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -81,7 +81,7 @@
         "c": "Option unavailable x(x+1) 4x2 −4x−1",
         "d": "Option unavailable x(x−1) 4x2 −4x+1",
         "e": "Option unavailable x(x−1) 12x3 −8x2 −x+1",
-        "f": "Option unavailable x(3x−1)(x−1)"
+        "f": "Option unavailable x(3x−1)(x−1) 8"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -197,11 +197,11 @@
       "question": "Box A contains exactly 10 balls, of which 6 are red and 4 are blue. Box B contains exactly 15 balls, of which 3 are red and 12 are blue. All the balls are identical in every respect, apart from colour. One of the two boxes is chosen at random by tossing two fair coins, as follows: “If both coins show heads, box A is selected. Otherwise box B is selected.” One ball is then randomly taken from the selected box. What is the probability that a red ball is taken? 9",
       "answers": {
         "a": "Option unavailable 400 3",
-        "b": "Option unavailable",
-        "c": "Option unavailable",
-        "d": "Option unavailable",
-        "e": "Option unavailable",
-        "f": "Option unavailable 323",
+        "b": "Option unavailable 3",
+        "c": "Option unavailable 2",
+        "d": "Option unavailable 5 1",
+        "e": "Option unavailable 2 4",
+        "f": "Option unavailable 5 323",
         "g": "Option unavailable 400 14"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -230,7 +230,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 16"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -331,7 +331,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 24"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -407,7 +407,7 @@
       "question": "The radioactive isotope X becomes the stable isotope Y after a succession of decays involving only the emission of alpha and beta (β–) particles. During the decay of one nucleus from X to Y, a total of seven particles are emitted. It is known that more of these particles are alpha particles than beta particles. The atomic number of X is Z and the mass number of X is A. Which row in the table could give the atomic number and the mass number of Y? atomic number of Y mass number of Y",
       "answers": {
         "a": "Z – 2 A –",
-        "b": "Z – 5 A –",
+        "b": "Z – 5 A – 8",
         "c": "Z – 8 A –",
         "d": "Z – 10 A –",
         "e": "Z – 11 A –"
@@ -458,13 +458,13 @@
       "answer": "f"
     },
     {
-      "question": "The graph shows how a car’s velocity changes in 85 seconds. time/s 31 1–sm/yticolev 16 14 12 10 8 6 4 2 0 0 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 What proportion of the total distance is travelled at constant velocity? 5",
+      "question": "The graph shows how a car’s velocity changes in 85 seconds. 16 14 12 10 8 6 4 2 0 0 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 time/s What proportion of the total distance is travelled at constant velocity? 5",
       "answers": {
-        "a": "Option unavailable",
+        "a": "Option unavailable 5",
         "b": "Option unavailable",
         "c": "Option unavailable",
-        "d": "Option unavailable",
-        "e": "Option unavailable",
+        "d": "Option unavailable 8",
+        "e": "Option unavailable 9 16",
         "f": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -509,7 +509,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -524,7 +524,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 36"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -543,7 +543,7 @@
       "answer": "e"
     },
     {
-      "question": "A mass spectrometer is a device that can measure the mass of isotopes. It shows this data as a spectrum, giving both the relative mass and the percentage abundance of each isotope. The charts indicate the relative mass and percentage abundance for lithium atoms, carbon atoms and oxygen atoms found in a sample taken from a nuclear reactor. 80 80 70 70 60 60 50 50 40 40 30 30 20 20 10 10 0 0 5 6 7 8 11 13 14 relative mass of carbon atoms 38 egatnecrep ecnadnuba 12 relative mass of lithium atoms 80 70 60 50 40 30 20 10 0 15 16 17 18 19 egatnecrep egatnecrep ecnadnuba ecnadnuba relative mass of oxygen atoms Using this data, what is the largest possible relative molar mass of lithium carbonate?",
+      "question": "A mass spectrometer is a device that can measure the mass of isotopes. It shows this data as a spectrum, giving both the relative mass and the percentage abundance of each isotope. The charts indicate the relative mass and percentage abundance for lithium atoms, carbon atoms and oxygen atoms found in a sample taken from a nuclear reactor. 80 80 70 70 60 60 50 50 40 40 30 30 20 20 10 10 0 0 5 6 7 8 11 12 13 14 relative mass of relative mass of lithium atoms carbon atoms 80 70 60 50 40 30 20 10 0 15 16 17 18 19 relative mass of oxygen atoms Using this data, what is the largest possible relative molar mass of lithium carbonate?",
       "answers": {
         "a": "35",
         "b": "38",
@@ -551,7 +551,7 @@
         "d": "67",
         "e": "74",
         "f": "75",
-        "g": "81"
+        "g": "81 38"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -574,12 +574,12 @@
     {
       "question": "A simple ion of an element with atomic number x has a mass number of (2x + 2). The ion has a charge of –2. How many protons, neutrons and electrons are present in this ion? protons neutrons electrons",
       "answers": {
-        "a": "x – 2 x + 4 x –",
+        "a": "x – 2 x + 4 x – 2",
         "b": "x – 2 x + 4 x",
-        "c": "x – 2 x + 4 x +",
-        "d": "x x + 2 x –",
+        "c": "x – 2 x + 4 x + 2",
+        "d": "x x + 2 x – 2",
         "e": "x x + 2 x",
-        "f": "x x + 2 x +"
+        "f": "x x + 2 x + 2 39"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -606,7 +606,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 40"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -641,11 +641,11 @@
     {
       "question": "0.005mol of a chloride of element X was dissolved in water and then reacted with excess silver nitrate solution to form a precipitate of silver chloride, AgCl. This precipitate is the only product of this reaction that contains chlorine. After filtering, washing and drying, the mass of the precipitate was recorded to be 1.435g. Which of the following could be the formula of the chloride of X? (M value: AgCl = 143.5) r",
       "answers": {
-        "a": "X Cl",
-        "b": "X Cl",
+        "a": "X Cl 5",
+        "b": "X Cl 2",
         "c": "XCl",
-        "d": "XCl",
-        "e": "XCl"
+        "d": "XCl 2",
+        "e": "XCl 5"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -735,7 +735,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 47 48 49"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -818,13 +818,13 @@
         "d": "3 only",
         "e": "1 and 2 only",
         "f": "1 and 3 only",
-        "g": "1, 2 and"
+        "g": "1, 2 and 3 54"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
     },
     {
-      "question": "A student carried out an investigation using the diffusion of a gas along a tube to model movement of gases in the air space of a leaf. An alkaline gas was released from a solution that evaporated from the cotton wool. As the gas diffused, it caused damp litmus paper to change colour. The time was recorded when each piece of litmus paper changed colour. The apparatus and a graph of the results are shown below. cotton wool releasing gas cork cork pieces of damp litmus paper at 2cm intervals distance from cotton wool/cm 55 repap sumtil rof nekat emit s/ruoloc egnahc ot 80 70 60 50 40 30 20 10 0 0 2 4 6 8 10 12 14 16 18 Which of the following statements about the investigation is/are correct? 1 The dependent variable has been plotted on the x-axis. 2 If diffusion of the gas was slower, the graph line would become steeper. 3 If a more concentrated solution was used in an identical set of apparatus, the data collected would result in a line on the graph below the points plotted for the original gas.",
+      "question": "A student carried out an investigation using the diffusion of a gas along a tube to model movement of gases in the air space of a leaf. An alkaline gas was released from a solution that evaporated from the cotton wool. As the gas diffused, it caused damp litmus paper to change colour. The time was recorded when each piece of litmus paper changed colour. The apparatus and a graph of the results are shown below. cotton wool releasing gas cork cork pieces of damp litmus paper at 2cm intervals 80 70 60 50 40 30 20 10 0 0 2 4 6 8 10 12 14 16 18 distance from cotton wool/cm Which of the following statements about the investigation is/are correct? 1 The dependent variable has been plotted on the x-axis. 2 If diffusion of the gas was slower, the graph line would become steeper. 3 If a more concentrated solution was used in an identical set of apparatus, the data collected would result in a line on the graph below the points plotted for the original gas.",
       "answers": {
         "a": "none of them",
         "b": "1 only",
@@ -860,7 +860,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 57"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -875,7 +875,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -890,7 +890,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 58"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
@@ -905,7 +905,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 59"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -920,7 +920,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 60"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -943,12 +943,12 @@
     {
       "question": "The graphs below show the oxygen uptake before, during and after a period of strenuous physical exercise. Which shaded area correctly represents the additional oxygen taken in to repay the oxygen debt acquired through anaerobic respiration?",
       "answers": {
-        "a": "rest exercise rest time 62 ekatpu negyxo",
-        "b": "rest exercise rest time ekatpu negyxo",
-        "c": "rest exercise rest time ekatpu negyxo",
-        "d": "rest exercise rest time ekatpu negyxo",
-        "e": "rest exercise rest time ekatpu negyxo",
-        "f": "rest exercise rest time ekatpu negyxo"
+        "a": "rest exercise rest",
+        "b": "rest exercise rest time time",
+        "c": "rest exercise rest",
+        "d": "rest exercise rest time time",
+        "e": "rest exercise rest",
+        "f": "rest exercise rest time time 62"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -963,13 +963,13 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 63"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
     },
     {
-      "question": "An investigation was carried out on the effect of substrate concentration on an enzyme-controlled reaction. Four different concentrations of substrate were tested. In each case, the concentration of product was measured at regular intervals following the introduction of the substrate. All the other variables were kept constant. The results obtained are shown on the graph. Key 5.0 mmol dm–3 1.0 mmol dm–3 0.50 mmol dm–3 0.25 mmol dm–3 0.8 0.7 0.6 0.5 0.4 0.3 0.2 0.1 0 0 20 40 60 80 100 120 64 noitartnecnoc tcudorp stinu yrartibra/ time/seconds Which of the following statements is/are correct? 1 As substrate concentration increases, the time taken to produce 0.2 arbitrary units of product increases. 2 Doubling the substrate concentration always doubles the rate of the reaction. 3 The average rate of reaction for a substrate concentration of 1.0mmoldm–3 is 0.005 arbitrary units per second.",
+      "question": "An investigation was carried out on the effect of substrate concentration on an enzyme-controlled reaction. Four different concentrations of substrate were tested. In each case, the concentration of product was measured at regular intervals following the introduction of the substrate. All the other variables were kept constant. The results obtained are shown on the graph. Key 5.0 mmol dm–3 1.0 mmol dm–3 0.50 mmol dm–3 0.25 mmol dm–3 0.8 0.7 0.6 0.5 0.4 0.3 0.2 0.1 0 0 20 40 60 80 100 120 time/seconds Which of the following statements is/are correct? 1 As substrate concentration increases, the time taken to produce 0.2 arbitrary units of product increases. 2 Doubling the substrate concentration always doubles the rate of the reaction. 3 The average rate of reaction for a substrate concentration of 1.0mmoldm–3 is 0.005 arbitrary units per second.",
       "answers": {
         "a": "none of them",
         "b": "1 only",
@@ -978,7 +978,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 64"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -1061,7 +1061,7 @@
         "b": "or 3 2 2 3 2 2",
         "c": "or 2 3",
         "d": "3 or 2 2",
-        "e": "3 or"
+        "e": "3 or 2"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -1098,8 +1098,8 @@
         "b": "35 3N",
         "c": "40 3N",
         "d": "80N",
-        "e": "80 3N",
-        "f": "280 N"
+        "e": "80 3N 3",
+        "f": "280 N 3 72"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -1134,11 +1134,11 @@
     {
       "question": "For a particular function f(x), it is given that: 2 ( ) 4 ( ) ∫ 2f x dx + ∫ f x dx = 4 –2 2 and also: 2 ( ) 4 ( ) ∫ 5f x dx – ∫ f x dx = 7 –2 –2 4 ( ) Find the value of ∫ f x dx 2 1",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable",
-        "c": "Option unavailable",
-        "d": "Option unavailable",
-        "e": "Option unavailable"
+        "a": "Option unavailable 3 11",
+        "b": "Option unavailable 7 11",
+        "c": "Option unavailable 6 13",
+        "d": "Option unavailable 6 13",
+        "e": "Option unavailable 3"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -1161,7 +1161,7 @@
       "answers": {
         "a": "70",
         "b": "162 2835",
-        "c": "Option unavailable",
+        "c": "Option unavailable 4",
         "d": "3024",
         "e": "5670",
         "f": "15120",
@@ -1214,10 +1214,10 @@
       "answers": {
         "a": "x < –1",
         "b": "x > –1",
-        "c": "–1 < x <",
-        "d": "x < –1 or x >",
-        "e": "x <",
-        "f": "x >"
+        "c": "–1 < x < 4",
+        "d": "x < –1 or x > 4",
+        "e": "x < 4",
+        "f": "x > 4"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"

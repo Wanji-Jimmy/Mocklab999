@@ -31,7 +31,6 @@ Please wait to be told you may begin before turning this page.
 This question paper consists of 73 printed pages and 3 blank pages.
 PV4
 © UCLES 2016
-*3413281959*
 2
 Paper content
 PART A Mathematics ............................................................................................................................. 3
@@ -907,11 +906,6 @@ hydrogen peroxide.
 experiment W
 experiment Z
 time
-© UCLES 2016
-negyxo
-fo
-emulov
-latot
 Assuming all other conditions are kept constant, which one of the following options would lead
 to the results shown?
 experiment W experiment Z
@@ -924,6 +918,7 @@ D 2.0g manganese(IV) oxide used 1.0g manganese(IV) oxide used
 100cm3 of 1.0moldm–3 hydrogen
 E 25cm3 of 2.0moldm–3 hydrogen peroxide
 peroxide
+© UCLES 2016
 37
 PART C Chemistry
 45 Two of the following equations represent redox reactions:

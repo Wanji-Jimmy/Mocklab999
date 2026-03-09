@@ -1,4 +1,3 @@
-*3080781908*
 NATURAL SCIENCES D568/11
 ADMISSIONS ASSESSMENT
 2023 60 minutes
@@ -1448,7 +1447,7 @@ colourless in a different length of time. The results of the reaction in all sev
 plotted on a graph.
 Which option correctly identifies the shape of the graph of the results, the limiting factor during
 the experiment and an explanation for the change in colour of the pH indicator?
-substrate concentration
+substrate concentration substrate concentration
 the limiting factor the limiting factor
 the limiting factor is the limiting factor is
 is substrate is substrate
@@ -1462,28 +1461,6 @@ increase decrease increase decrease increase decrease increase decrease
 in pH in pH in pH in pH in pH in pH in pH in pH
 A B C D E F G H
 59
-rotacidni
-Hp
-rof
-nekat
-emit
-s
-/
-sselruoloc
-ot
-egnahc
-ot substrate concentration
-rotacidni
-Hp
-rof
-nekat
-emit
-s
-/
-sselruoloc
-ot
-egnahc
-ot
 PART D Biology
 72 Even when sufficient oxygen is available, yeast will respire anaerobically using glucose as a
 substrate. However, if its source of glucose runs out and oxygen is available, yeast can switch
@@ -1643,14 +1620,6 @@ lung diaphragm
 –6.5
 0 1 2 3 4
 time / s
-66
-stinu
-yrartibra
-/
-X
-ecaps
-ni
-erusserp
 Which of the following statements is/are correct?
 1 The person is breathing out between 0 and 1.5 seconds.
 2 The diaphragm is relaxing between 2 and 3 seconds.
@@ -1664,6 +1633,7 @@ E 1 and 2 only
 F 1 and 3 only
 G 2 and 3 only
 H 1, 2 and 3
+66
 PART D Biology
 79 In a mammal, an impulse travels along a neurone of length 45cm in 3.0 ×10–3 seconds.
 Transmission across the synapse to another neurone takes 4.0 ×10–10 seconds. The synapse

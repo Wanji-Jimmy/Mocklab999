@@ -8,8 +8,8 @@
       "answers": {
         "a": "1",
         "b": "3 5",
-        "c": "Option unavailable",
-        "d": "Option unavailable",
+        "c": "Option unavailable 3 7",
+        "d": "Option unavailable 3",
         "e": "3 3",
         "f": "9"
       },
@@ -46,13 +46,13 @@
     {
       "question": "A fruit stall sells apples costing £x each, and pears costing £y each. Sam bought 2 apples and 5 pears, and the total cost of these was £P. Lesley bought 3 apples and 2 pears, and the total cost of these was £Q. Which of the following is an expression for the cost, in pounds (£), of a pear? 2Q−3P",
       "answers": {
-        "a": "Option unavailable 2Q−3P",
+        "a": "Option unavailable 3 2Q−3P",
         "b": "Option unavailable Q−P",
-        "c": "Option unavailable Q−P",
+        "c": "Option unavailable 3 Q−P",
         "d": "Option unavailable P−Q",
-        "e": "Option unavailable 3P−2Q",
-        "f": "Option unavailable 3P−2Q",
-        "g": "Option unavailable"
+        "e": "Option unavailable 3 3P−2Q",
+        "f": "Option unavailable 3 3P−2Q",
+        "g": "Option unavailable 9"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -60,14 +60,14 @@
     {
       "question": "P is directly proportional to Q squared. When P is 2, Q is 4. Q is inversely proportional to R. When Q is 2, R is 5. What is P in terms of R? 5",
       "answers": {
-        "a": "P = R",
-        "b": "P = 4R",
+        "a": "P = R 5",
+        "b": "P = 4R 1",
         "c": "P = 800R2 5",
         "d": "P = 4R2 25",
         "e": "P = 2R2 800",
         "f": "P = R2 R2",
         "g": "P = 25R2",
-        "h": "P ="
+        "h": "P = 2 10"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -88,11 +88,11 @@
     {
       "question": "Which one of the following is a simplification of ( ) x2 9x2 −4 2− x3(2−3x) 2",
       "answers": {
-        "a": "−1− x",
-        "b": "−1+ x",
-        "c": "5− x",
-        "d": "5+ x",
-        "e": "5− x",
+        "a": "−1− x 2",
+        "b": "−1+ x 2",
+        "c": "5− x 2",
+        "d": "5+ x 3",
+        "e": "5− x 3",
         "f": "5+ x"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -101,12 +101,12 @@
     {
       "question": "The parallelogram OPQR, labelled clockwise, is in the first quadrant (x≥0, y≥0) with O at the origin. 3a The point R has coordinates ,0 and the point Q has coordinates (2a, a+1). 2 The area of OPQR is 9 square units. What are the coordinates of point P? 3",
       "answers": {
-        "a": ",1+",
+        "a": ",1+ 3 2",
         "b": "(1, 3)",
         "c": "(1.5, 4)",
         "d": "(2, 3)",
         "e": "(3, 4) ( )",
-        "f": "2 3,1+"
+        "f": "2 3,1+ 3"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -271,7 +271,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 22"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -279,12 +279,12 @@
     {
       "question": "Table 1 gives the approximate frequency ranges of sections of the electromagnetic spectrum. Table 1 radio infrared visible ultraviolet gamma type of wave microwaves X-rays waves waves light waves rays approximate 3.0×109 3.0×1012 4.3×1014 7.5×1014 3.0×1017 frequency <3.0×109 to to to to to >3.0×1019 range /Hz 3.0×1012 4.3×1014 7.5×1014 3.0×1017 3.0×1019 Table 2 gives information about two different types of wave in air. Waves 1 to 3 are longitudinal waves formed by an object vibrating. Waves 4 to 6 are electromagnetic waves. The speed of sound in air is 300ms–1. The speed of light in air is 3.0×108ms–1. Table 2 wave type of wave wavelength /m 1 longitudinal 1.0×10–4 2 longitudinal 1.0×10–2 3 longitudinal 1.0×10–1 4 electromagnetic 5.0×10–7 5 electromagnetic 5.0×10–1 6 electromagnetic 1.0×103",
       "answers": {
-        "a": "wave 1 and wave",
-        "b": "wave 1 and wave",
-        "c": "wave 2 and wave",
-        "d": "wave 2 and wave",
-        "e": "wave 3 and wave",
-        "f": "wave 3 and wave"
+        "a": "wave 1 and wave 4",
+        "b": "wave 1 and wave 5",
+        "c": "wave 2 and wave 5",
+        "d": "wave 2 and wave 6",
+        "e": "wave 3 and wave 4",
+        "f": "wave 3 and wave 6 23"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -334,9 +334,9 @@
         "a": "w + y = 240",
         "b": "z = 240 − (w + y)",
         "c": "x = 40 − z",
-        "d": "94 = 54 + x +",
+        "d": "94 = 54 + x + 1",
         "e": "240 = 54 + x",
-        "f": "94 = w + y +"
+        "f": "94 = w + y + 1 26"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -423,12 +423,12 @@
     {
       "question": "Consider the following four calculations: 1 (200kgms–1)÷(5ms–1) 2 (200J)÷(5m) 3 (200kgm–3)÷(5m3) 4 (200N)÷(5ms–2) Which two calculations result in the answer 40kg?",
       "answers": {
-        "a": "1 and",
-        "b": "1 and",
-        "c": "1 and",
-        "d": "2 and",
-        "e": "2 and",
-        "f": "3 and"
+        "a": "1 and 2",
+        "b": "1 and 3",
+        "c": "1 and 4",
+        "d": "2 and 3",
+        "e": "2 and 4",
+        "f": "3 and 4 31"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -443,7 +443,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 32"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -497,7 +497,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 37"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -525,7 +525,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 39"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
@@ -540,7 +540,7 @@
         "e": "2 only",
         "f": "2 or 3 only",
         "g": "3 only",
-        "h": "1, 2 or"
+        "h": "1, 2 or 3 40"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -555,7 +555,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 41"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -563,12 +563,12 @@
     {
       "question": "Element X has atomic number 20. Consider only the simple oxide of X. Which of the following options identifies the formula, the type of bonding and the acid-base character of the oxide of element X? type of bonding in acid-base character formula of oxide oxide of oxide",
       "answers": {
-        "a": "X O ionic basic",
-        "b": "X O covalent basic",
+        "a": "X O ionic basic 2",
+        "b": "X O covalent basic 2",
         "c": "XO ionic basic",
         "d": "XO covalent acidic",
-        "e": "XO ionic acidic",
-        "f": "XO covalent acidic",
+        "e": "XO ionic acidic 2",
+        "f": "XO covalent acidic 2",
         "g": "X O ionic basic 2 3",
         "h": "X O covalent acidic 2 3"
       },
@@ -606,8 +606,8 @@
       "answers": {
         "a": "Cu2+(aq) + 2e– → Cu(s) Cu(s) → Cu2+(aq) + 2e–",
         "b": "Cu(s) → Cu2+(aq) + 2e– Cu2+(aq) + 2e– → Cu(s)",
-        "c": "2Cl–(aq) → Cl (g) + 2e– Cu2+(aq) + 2e– → Cu(s)",
-        "d": "Cu2+(aq) + 2e– → Cu(s) 2Cl–(aq) → Cl (g) + 2e–",
+        "c": "2Cl–(aq) → Cl (g) + 2e– Cu2+(aq) + 2e– → Cu(s) 2",
+        "d": "Cu2+(aq) + 2e– → Cu(s) 2Cl–(aq) → Cl (g) + 2e– 2",
         "e": "Cu(s) → Cu2+(aq) + 2e– 2OH–(aq) → H (g) + O (g) + 2e– 2 2"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -636,13 +636,13 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 45"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "Magnesium reacts with sulfuric acid according to the following chemical equation: Mg(s) + H SO (aq) → MgSO (aq) + H (g) 2 4 4 2 Line P on each graph shows how the volume of hydrogen formed changes with time when 1.2g of magnesium reacts with 40cm3 of 1.0moldm–3 sulfuric acid at 20°C. r Two further experiments were carried out and the volumes of hydrogen formed were plotted. Experiment Q: 1.2g of magnesium + 40cm3 of 2.0moldm–3 sulfuric acid at 20°C Experiment R: 1.2g of magnesium + 40cm3 of 0.5moldm–3 sulfuric acid at 20°C experiment Q time /s 3mc/ negordyh fo emulov experiment R time /s 3mc/ negordyh fo emulov 3 2 1 P P 4 5 0 0 0 0 Which lines show how the volume of hydrogen formed will change with time in each experiment? experiment Q experiment R",
+      "question": "Magnesium reacts with sulfuric acid according to the following chemical equation: Mg(s) + H SO (aq) → MgSO (aq) + H (g) 2 4 4 2 Line P on each graph shows how the volume of hydrogen formed changes with time when 1.2g of magnesium reacts with 40cm3 of 1.0moldm–3 sulfuric acid at 20°C. r Two further experiments were carried out and the volumes of hydrogen formed were plotted. Experiment Q: 1.2g of magnesium + 40cm3 of 2.0moldm–3 sulfuric acid at 20°C Experiment R: 1.2g of magnesium + 40cm3 of 0.5moldm–3 sulfuric acid at 20°C experiment Q experiment R 3 2 1 P P 4 5 0 0 0 time /s 0 time /s Which lines show how the volume of hydrogen formed will change with time in each experiment? experiment Q experiment R",
       "answers": {
         "a": "1 4",
         "b": "1 5",
@@ -677,13 +677,13 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 48"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
     },
     {
-      "question": "Silver nitrate solution reacts with zinc powder in an exothermic reaction: 2AgNO (aq) + Zn(s) → 2Ag(s) + Zn(NO ) (aq) 3 3 2 The graph shows the maximum temperature rise as different masses of zinc react with separate 50.0cm3 samples of 0.100moldm–3 silver nitrate solution. esir erutarepmet Y mass of zinc What is the mass of zinc at the position labelled Y?",
+      "question": "Silver nitrate solution reacts with zinc powder in an exothermic reaction: 2AgNO (aq) + Zn(s) → 2Ag(s) + Zn(NO ) (aq) 3 3 2 The graph shows the maximum temperature rise as different masses of zinc react with separate 50.0cm3 samples of 0.100moldm–3 silver nitrate solution. Y mass of zinc What is the mass of zinc at the position labelled Y?",
       "answers": {
         "a": "0.163g",
         "b": "0.325g",
@@ -736,7 +736,7 @@
   ],
   "partDBiology": [
     {
-      "question": "The graph shows the concentration of lactic acid in the blood of two students at rest, then carrying out the same level of exercise for 15 minutes, and then at rest again. rest exercise rest student P student Q time/minutes stinu yrartibra / noitartnecnoc dica citcal 100 50 0 0 Which of the following statements correctly describe(s) the two students? 1 Student P’s oxygen debt is repaid much quicker than student Q’s. 2 Student P has a lower oxygen debt than student Q. 3 Student P has a higher level of fitness than student Q.",
+      "question": "The graph shows the concentration of lactic acid in the blood of two students at rest, then carrying out the same level of exercise for 15 minutes, and then at rest again. rest exercise rest 100 student P 50 student Q 0 0 time/minutes Which of the following statements correctly describe(s) the two students? 1 Student P’s oxygen debt is repaid much quicker than student Q’s. 2 Student P has a lower oxygen debt than student Q. 3 Student P has a higher level of fitness than student Q.",
       "answers": {
         "a": "none of them",
         "b": "1 only",
@@ -745,7 +745,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 55"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -787,7 +787,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -802,7 +802,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 58"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -843,7 +843,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 60"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -877,13 +877,13 @@
       "answer": "b"
     },
     {
-      "question": "The diagram shows the apparatus used to investigate the movement of molecules across a partially permeable membrane. Sucrose is unable to cross the partially permeable membrane. capillary tube level P concentrated sucrose solution glass tube partially permeable water membrane Which graph correctly shows how the height of solution in the capillary tube changes over 15 minutes?",
+      "question": "The diagram shows the apparatus used to investigate the movement of molecules across a partially permeable membrane. Sucrose is unable to cross the partially permeable membrane. capillary tube level P concentrated sucrose solution glass tube partially permeable water membrane Which graph correctly shows how the height of solution in the capillary tube changes over 15 minutes? 0 0 0 0 time 0 time 0 time 0 0 0 time 0 time 63",
       "answers": {
-        "a": "time P level fo thgieh",
-        "b": "0 0 P level fo thgieh",
-        "c": "0 0 time time P level fo thgieh 0 0",
-        "d": "time P level fo thgieh",
-        "e": "0 0 time P level fo thgieh 0 0 63"
+        "a": "Option A (diagram/text unavailable in PDF text extraction).",
+        "b": "Option B (diagram/text unavailable in PDF text extraction).",
+        "c": "Option C (diagram/text unavailable in PDF text extraction).",
+        "d": "Option D (diagram/text unavailable in PDF text extraction).",
+        "e": "Option E (diagram/text unavailable in PDF text extraction)."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -902,7 +902,7 @@
       "answer": "c"
     },
     {
-      "question": "Three different coloured leaves were collected: a dark green leaf, a light green leaf and a yellow leaf. Each leaf had 16 discs of 1cm diameter cut from it. The discs were treated with sodium hydrogen carbonate solution to replace all the air from the spaces within the leaf. Sodium hydrogen carbonate solution is a source of carbon dioxide. To start the experiment, each group of discs was then placed in a beaker of sodium hydrogen carbonate. At the beginning of the experiment all of the discs sank. Each beaker was illuminated for 30 minutes by being placed 10cm in front of a lamp that provided the same wavelengths of light as sunlight. It was observed that some of the leaf discs floated. The number of floating leaf discs was counted every minute for 15 minutes. The results are shown in the graph. (All other variables were kept constant.) 18 16 Key dark green leaf discs 14 12 light green leaf discs 10 yellow leaf discs 8 6 4 2 0 0 5 10 15 time /minutes scsid gnitaolf fo rebmun Which of the following statements is/are correct? 1 The average rate of photosynthesis was highest in the darkest leaves. 2 At 5 minutes 25% of the light green discs remained at the bottom of the beaker. 3 The reciprocal of the time taken for a quarter of the discs of a particular colour to float can be a measure of the relative rate of photosynthesis.",
+      "question": "Three different coloured leaves were collected: a dark green leaf, a light green leaf and a yellow leaf. Each leaf had 16 discs of 1cm diameter cut from it. The discs were treated with sodium hydrogen carbonate solution to replace all the air from the spaces within the leaf. Sodium hydrogen carbonate solution is a source of carbon dioxide. To start the experiment, each group of discs was then placed in a beaker of sodium hydrogen carbonate. At the beginning of the experiment all of the discs sank. Each beaker was illuminated for 30 minutes by being placed 10cm in front of a lamp that provided the same wavelengths of light as sunlight. It was observed that some of the leaf discs floated. The number of floating leaf discs was counted every minute for 15 minutes. The results are shown in the graph. (All other variables were kept constant.) 18 16 Key dark green leaf discs 14 12 light green leaf discs 10 yellow leaf discs 8 6 4 2 0 0 5 10 15 time /minutes Which of the following statements is/are correct? 1 The average rate of photosynthesis was highest in the darkest leaves. 2 At 5 minutes 25% of the light green discs remained at the bottom of the beaker. 3 The reciprocal of the time taken for a quarter of the discs of a particular colour to float can be a measure of the relative rate of photosynthesis.",
       "answers": {
         "a": "none of them",
         "b": "1 only",
@@ -911,7 +911,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 65"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -926,13 +926,13 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 66"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
     },
     {
-      "question": "The diagram shows the start of an experiment on the effect of light direction on young shoots. All of the shoots were growing vertically. All of the shoots were the same distance from the light source. All of the shoots were continually exposed to the light from one side for 24 hours. (All other variables were kept constant.) direction of light view from above P Q R view from side control tip of shoot shoot covered with removed opaque sheath (tip exposed) Every six hours, the distance between the light source and the top of each shoot was measured. The distance from the light source relative to the position at the start of the experiment was plotted on the following graphs. graph 1 graph 2 graph 3 + + + 0 0 0 6 12 18 24 6 12 18 24 6 12 18 24 time / hrs time / hrs time / hrs pot eht fo ecnatsid evitaler ecruos thgil morf toohs eht fo pot eht fo ecnatsid evitaler ecruos thgil morf toohs eht fo pot eht fo ecnatsid evitaler ecruos thgil morf toohs eht fo Which row represents the responses of the shoots to the light over 24 hours? P Q R",
+      "question": "The diagram shows the start of an experiment on the effect of light direction on young shoots. All of the shoots were growing vertically. All of the shoots were the same distance from the light source. All of the shoots were continually exposed to the light from one side for 24 hours. (All other variables were kept constant.) direction of light view from above P Q R view from side control tip of shoot shoot covered with removed opaque sheath (tip exposed) Every six hours, the distance between the light source and the top of each shoot was measured. The distance from the light source relative to the position at the start of the experiment was plotted on the following graphs. graph 1 graph 2 graph 3 + + + 0 0 0 6 12 18 24 6 12 18 24 6 12 18 24 time / hrs time / hrs time / hrs Which row represents the responses of the shoots to the light over 24 hours? P Q R",
       "answers": {
         "a": "1 2 1",
         "b": "1 3 1",
@@ -955,13 +955,13 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 68"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
     },
     {
-      "question": "A power station released warm water into a river. This is an example of water pollution because the temperature of the river water was increased. species. The student studied two graphs. Graph 1 showed the oxygen required by the pollution indicator species for survival and graph 2 showed the effect of temperature on the oxygen dissolved in the water. graph 2 16 14 12 10 8 6 4 2 0 0 5 10 15 20 25 30 temperature of water /°C negyxo devlossid stinu yrartibra/ 50 45 40 35 30 25 20 15 10 5 0 0 5 10 15 20 25 30 temperature of water /°C lavivrus rof deriuqer negyxo stinu yrartibra/ graph 1 The student wrote the following statements: 1 As the oxygen required by the pollution indicator species for survival increases, the water temperature rises. 2 There is less dissolved oxygen available to the pollution indicator species as the water temperature rises. 3 The pollution indicator species will survive better in water at 30°C than at 5°C because it has a greater oxygen uptake at 30°C. Which of the student’s conclusions could be correct using only the information provided?",
+      "question": "A power station released warm water into a river. This is an example of water pollution because the temperature of the river water was increased. species. The student studied two graphs. Graph 1 showed the oxygen required by the pollution indicator species for survival and graph 2 showed the effect of temperature on the oxygen dissolved in the water. graph 1 graph 2 50 45 40 16 35 14 30 12 25 10 20 8 15 6 10 4 5 2 0 0 0 5 10 15 20 25 30 0 5 10 15 20 25 30 temperature of water /°C temperature of water /°C The student wrote the following statements: 1 As the oxygen required by the pollution indicator species for survival increases, the water temperature rises. 2 There is less dissolved oxygen available to the pollution indicator species as the water temperature rises. 3 The pollution indicator species will survive better in water at 30°C than at 5°C because it has a greater oxygen uptake at 30°C. Which of the student’s conclusions could be correct using only the information provided?",
       "answers": {
         "a": "none of them",
         "b": "1 only",
@@ -970,7 +970,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 69"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -985,7 +985,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and NOTE: questions in this part that are not covered by the ESAT content specification are indicated by a cross through the question number."
+        "h": "1, 2 and 3 70 71 NOTE: questions in this part that are not covered by the ESAT content specification are indicated by a cross through the question number."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -996,13 +996,13 @@
       "question": "Which one of the following is a simplification of 2 3+ 3 1− 6−2 3 3",
       "answers": {
         "a": "− 4 3",
-        "b": "Option unavailable 3 3",
+        "b": "Option unavailable 4 3 3",
         "c": "− − 4 7 3 3",
         "d": "− 4 7 3",
-        "e": "− −",
+        "e": "− − 3 4 3",
         "f": "− 3 4 3",
         "g": "− 2 3",
-        "h": "Option unavailable"
+        "h": "Option unavailable 2 73"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -1047,11 +1047,11 @@
     {
       "question": "Which of the following is a solution to the equation 3 (2x+1) −6(3 x )=0?",
       "answers": {
-        "a": "log",
-        "b": "log",
+        "a": "log 3 2",
+        "b": "log 2 3",
         "c": "2",
-        "d": "log",
-        "e": "Option unavailable"
+        "d": "log 2 10 2",
+        "e": "Option unavailable 3 75"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -1115,7 +1115,7 @@
         "b": "3.6J",
         "c": "4.0J",
         "d": "7.2J",
-        "e": "8.0J"
+        "e": "8.0J 1"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -1222,7 +1222,7 @@
         "b": "F(t − t ) − mu 2 1",
         "c": "F(t − t ) + mu 2 1",
         "d": "mv − mu",
-        "e": "Ft − mu"
+        "e": "Ft − mu 2 83 84"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"

@@ -8,8 +8,8 @@
       "answers": {
         "a": "Option unavailable 125x7y2 1",
         "b": "Option unavailable 125x6y2 1",
-        "c": "Option unavailable 25x6y",
-        "d": "Option unavailable 25x4y",
+        "c": "Option unavailable 25x6y 1",
+        "d": "Option unavailable 25x4y 1",
         "e": "Option unavailable 5x3 1",
         "f": "Option unavailable 5x2 y",
         "g": "Option unavailable x2",
@@ -26,7 +26,7 @@
         "c": "0.83ρ",
         "d": "1.00ρ",
         "e": "1.20ρ",
-        "f": "1.44ρ"
+        "f": "1.44ρ 5"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -41,7 +41,7 @@
         "e": "q= 12p 3r−6",
         "f": "q= 4p pr−8",
         "g": "q= 12p 3pr−24",
-        "h": "q= 4p"
+        "h": "q= 4p 6"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -56,7 +56,7 @@
         "e": "75%",
         "f": "80%",
         "g": "91%",
-        "h": "100%"
+        "h": "100% 7"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -65,12 +65,12 @@
       "question": "Two solid cylinders, P and Q, are shown, where x > y. Q P x y x y Cylinder P has diameter x and height y. Cylinder Q has diameter y and height x. What is the positive difference between the total surface areas of P and Q?",
       "answers": {
         "a": "0 π",
-        "b": "(x2 – y2) π",
-        "c": "(x2 – y2)",
+        "b": "(x2 – y2) 4 π",
+        "c": "(x2 – y2) 2",
         "d": "π(x2 – y2)",
         "e": "2π(x2 – y2) π",
-        "f": "xy(x – y)",
-        "g": "πxy(x – y)"
+        "f": "xy(x – y) 4",
+        "g": "πxy(x – y) 8"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -95,7 +95,7 @@
         "b": "lower than original higher than original",
         "c": "higher than original lower than original",
         "d": "higher than original higher than original",
-        "e": "the same as original the same as original"
+        "e": "the same as original the same as original 9"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -106,7 +106,7 @@
         "a": "⎜ ⎟ P ⎝20⎠ ⎛19⎞",
         "b": "⎜ ⎟P ⎝20⎠",
         "c": "P ⎛20⎞",
-        "d": "⎜ ⎟P ⎝19⎠ ⎛20⎞",
+        "d": "⎜ ⎟P ⎝19⎠ ⎛20⎞ 2",
         "e": "⎜ ⎟ P ⎝19⎠"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -199,12 +199,12 @@
     {
       "question": "Charlie has a bowl containing red sweets and green sweets only. The sweets are identical in all respects except colour. There are nine sweets in total in the bowl. Charlie eats two sweets from the bowl at random. 5 The probability of Charlie not eating any green sweets is 12 What is the probability that Charlie eats two green sweets? 2",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable",
-        "c": "Option unavailable",
-        "d": "Option unavailable",
-        "e": "Option unavailable",
-        "f": "Option unavailable",
+        "a": "Option unavailable 1",
+        "b": "Option unavailable 1",
+        "c": "Option unavailable 9 4",
+        "d": "Option unavailable 1",
+        "e": "Option unavailable 6 1",
+        "f": "Option unavailable 4 7",
         "g": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -213,11 +213,11 @@
     {
       "question": "A radioactive nuclide X decays in a single stage to a stable nuclide R. When a rock formed it contained equal numbers of atoms of all four nuclides X, Y, R and S. The half-life of X is T years and the half-life of Y is 2T years. number of atomsofR What is the value of at a time 4T years after the rock has formed? number of atomsof S (Assume that no other processes add or remove X, Y, R or S from the rock during this time.) 1",
       "answers": {
-        "a": "Option unavailable",
+        "a": "Option unavailable 4 17",
         "b": "Option unavailable",
-        "c": "Option unavailable",
-        "d": "Option unavailable",
-        "e": "Option unavailable",
+        "c": "Option unavailable 6",
+        "d": "Option unavailable 5 5",
+        "e": "Option unavailable 4",
         "f": "2 17"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -226,11 +226,11 @@
     {
       "question": "The greatest diagonal distance between the two vertices of a cuboid, as shown in the diagram, is 77 cm. The sides of this smaller cuboid are 2cm, 3cm and xcm. What is the value of x, in cm? 5",
       "answers": {
-        "a": "Option unavailable",
+        "a": "Option unavailable 2",
         "b": "5 5 2",
-        "c": "Option unavailable",
+        "c": "Option unavailable 2",
         "d": "5 2 102",
-        "e": "Option unavailable",
+        "e": "Option unavailable 2",
         "f": "102 18"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -267,12 +267,12 @@
     {
       "question": "A pulse of ultrasound travels from one end of a solid uniform rod of length L, starting at time t = 0. The pulse is partially reflected by a crack in the rod and partially by the far end of the rod. These two reflected pulses travel back along the rod, arriving at the end from which they started at times t and t , where t > t . 1 2 2 1 What is the distance between the crack and the far end of the rod? t",
       "answers": {
-        "a": "1 L t t",
-        "b": "2 L t t",
-        "c": "1 L 2t t",
-        "d": "2 L 2t (t − t )",
-        "e": "2 1 L t (t − t )",
-        "f": "2 1 L 2t NOTE: questions in this part that are not covered by the ESAT content specification are indicated by a cross through the question number."
+        "a": "1 L t 2 t",
+        "b": "2 L t 1 t",
+        "c": "1 L 2t 2 t",
+        "d": "2 L 2t 1 (t − t )",
+        "e": "2 1 L t 2 (t − t )",
+        "f": "2 1 L 2t 2 21 22 NOTE: questions in this part that are not covered by the ESAT content specification are indicated by a cross through the question number."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -362,11 +362,11 @@
       "question": "The line x = 1 divides the circle x2 + y2 = 4 into two segments. What is the area of the smaller segment? 2π 3",
       "answers": {
         "a": "− 3 2 2π",
-        "b": "− 3 3 π",
+        "b": "− 3 3 π 1",
         "c": "− 2 2 π",
         "d": "−1 2 1",
-        "e": "π−",
-        "f": "π−1 4π",
+        "e": "π− 2",
+        "f": "π−1 4π 3",
         "g": "− 3 2 4π",
         "h": "− 3 3 28"
       },
@@ -441,11 +441,11 @@
     {
       "question": "A geometric progression has first term u = a and common ratio r. 1 8 The sum to infinity of the geometric progression is 5 3 The sum to infinity of the even-numbered terms (u + u + u + L) is 2 4 6 5 What is the value of a + r? 3",
       "answers": {
-        "a": "Option unavailable",
+        "a": "Option unavailable 5 31",
         "b": "Option unavailable",
-        "c": "Option unavailable",
-        "d": "Option unavailable",
-        "e": "Option unavailable"
+        "c": "Option unavailable 5 28",
+        "d": "Option unavailable 5 67",
+        "e": "Option unavailable 8"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -492,14 +492,14 @@
     {
       "question": "Evaluate 3 3 3 3 + + + L + 27 + 21 24 + 18 21+ 15 9 + 3 3 2",
       "answers": {
-        "a": "Option unavailable",
+        "a": "Option unavailable 2",
         "b": "3 2 3 3",
-        "c": "Option unavailable",
+        "c": "Option unavailable 2",
         "d": "3",
-        "e": "1+ ( )",
-        "f": "3 1+ 3 ⎛ 2⎞",
+        "e": "1+ 2 ( )",
+        "f": "3 1+ 2 3 ⎛ 2⎞",
         "g": "⎜1+ ⎟ ⎜ ⎟ 3 2 ⎝ ⎠ ⎛ 2⎞",
-        "h": "3 ⎜1+ ⎟ ⎜ ⎟ ⎝ ⎠"
+        "h": "3 ⎜1+ ⎟ ⎜ ⎟ 2 ⎝ ⎠"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
@@ -536,13 +536,13 @@
       "question": "Two trolleys are free to move on a smooth one-dimensional track. A light spring is compressed between the two stationary trolleys, the trolleys are released and then separate. The trolleys have masses m and 4m and the work done by the spring as it expands is W. Assume that no work is done against frictional forces. What is the difference in kinetic energy between the two trolleys when the spring has expanded?",
       "answers": {
         "a": "0 W",
-        "b": "Option unavailable W",
-        "c": "Option unavailable W",
-        "d": "Option unavailable 3W",
-        "e": "Option unavailable 3W",
-        "f": "Option unavailable 4W",
-        "g": "Option unavailable",
-        "h": "W END OF TEST"
+        "b": "Option unavailable 5 W",
+        "c": "Option unavailable 4 W",
+        "d": "Option unavailable 2 3W",
+        "e": "Option unavailable 5 3W",
+        "f": "Option unavailable 4 4W",
+        "g": "Option unavailable 5",
+        "h": "W 36 37 38 39 40"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"

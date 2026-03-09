@@ -1,5 +1,3 @@
-© UCLES 2017
-(cid:6)(cid:13)(cid:14)(cid:15)(cid:12)(cid:16)(cid:14)(cid:18)(cid:17)(cid:19)(cid:17)(cid:6)
 NATURAL SCIENCES D568/11
 ADMISSIONS ASSESSMENT
 Thursday 2 November 2017 80 minutes
@@ -32,6 +30,7 @@ Dictionaries and calculators may NOT be used.
 Please wait to be told you may begin before turning this page.
 This question paper consists of 77 printed pages and 7 blank pages.
 PV5
+© UCLES 2017
 2
 BLANK PAGE
 © UCLES 2017
@@ -960,19 +959,7 @@ r
 Two further experiments were carried out and the volumes of hydrogen formed were plotted.
 Experiment Q: 1.2g of magnesium + 40cm3 of 2.0moldm–3 sulfuric acid at 20°C
 Experiment R: 1.2g of magnesium + 40cm3 of 0.5moldm–3 sulfuric acid at 20°C
-experiment Q
-time /s
-© UCLES 2017 [Turn over
-3mc/
-negordyh
-fo
-emulov
-experiment R
-time /s
-3mc/
-negordyh
-fo
-emulov
+experiment Q experiment R
 3
 2
 1
@@ -980,7 +967,7 @@ P
 P 4
 5
 0 0
-0 0
+0 time /s 0 time /s
 Which lines show how the volume of hydrogen formed will change with time in each
 experiment?
 experiment Q experiment R
@@ -990,6 +977,7 @@ C 2 4
 D 2 5
 E 3 4
 F 3 5
+© UCLES 2017 [Turn over
 46
 PART C Chemistry
 49 Nitrogen and hydrogen react together to form ammonia as shown below:
@@ -1035,9 +1023,6 @@ PART C Chemistry
 3 3 2
 The graph shows the maximum temperature rise as different masses of zinc react with
 separate 50.0cm3 samples of 0.100moldm–3 silver nitrate solution.
-© UCLES 2017
-esir
-erutarepmet
 Y
 mass of zinc
 What is the mass of zinc at the position labelled Y?
@@ -1049,6 +1034,7 @@ C 0.650g
 D 1.63g
 E 3.25g
 F 6.50g
+© UCLES 2017
 49
 PART C Chemistry
 52 Natural samples of copper contain two isotopes: 63Cu which has a relative isotopic mass of
@@ -1116,20 +1102,12 @@ PART D Biology
 55 The graph shows the concentration of lactic acid in the blood of two students at rest, then
 carrying out the same level of exercise for 15 minutes, and then at rest again.
 rest exercise rest
-student P
-student Q
-time/minutes
-© UCLES 2017
-stinu
-yrartibra
-/
-noitartnecnoc
-dica
-citcal
 100
+student P
 50
+student Q
 0
-0
+0 time/minutes
 Which of the following statements correctly describe(s) the two students?
 1 Student P’s oxygen debt is repaid much quicker than student Q’s.
 2 Student P has a lower oxygen debt than student Q.
@@ -1142,6 +1120,7 @@ E 1 and 2 only
 F 1 and 3 only
 G 2 and 3 only
 H 1, 2 and 3
+© UCLES 2017
 55
 PART D Biology
 56 Spontaneous mutations occur in the genetic material of all living organisms.
@@ -1329,44 +1308,13 @@ partially permeable
 water membrane
 Which graph correctly shows how the height of solution in the capillary tube changes over
 15 minutes?
-A
-time
+A B C
+0 0 0
+0 time 0 time 0 time
+D E
+0 0
+0 time 0 time
 © UCLES 2017
-P
-level
-fo
-thgieh
-B
-0
-0
-P
-level
-fo
-thgieh
-C
-0
-0 time time
-P
-level
-fo
-thgieh
-0
-0
-D
-time
-P
-level
-fo
-thgieh
-E
-0
-0 time
-P
-level
-fo
-thgieh
-0
-0
 63
 PART D Biology
 66 The diagram shows the life cycle of a simple type of plant.
@@ -1417,11 +1365,6 @@ dark green leaf discs
 0
 0 5 10 15
 time /minutes
-© UCLES 2017
-scsid
-gnitaolf
-fo
-rebmun
 Which of the following statements is/are correct?
 1 The average rate of photosynthesis was highest in the darkest leaves.
 2 At 5 minutes 25% of the light green discs remained at the bottom of the beaker.
@@ -1435,6 +1378,7 @@ E 1 and 2 only
 F 1 and 3 only
 G 2 and 3 only
 H 1, 2 and 3
+© UCLES 2017
 65
 PART D Biology
 68 A student carried out an experiment to investigate the effect of enzyme concentration on the
@@ -1498,40 +1442,6 @@ graph 1 graph 2 graph 3
 0 0 0
 6 12 18 24 6 12 18 24 6 12 18 24
 time / hrs time / hrs time / hrs
-© UCLES 2017
-pot
-eht
-fo
-ecnatsid
-evitaler
-ecruos
-thgil
-morf
-toohs
-eht
-fo
-pot
-eht
-fo
-ecnatsid
-evitaler
-ecruos
-thgil
-morf
-toohs
-eht
-fo
-pot
-eht
-fo
-ecnatsid
-evitaler
-ecruos
-thgil
-morf
-toohs
-eht
-fo
 Which row represents the responses of the shoots to the light over 24 hours?
 P Q R
 A 1 2 1
@@ -1541,6 +1451,7 @@ D 2 1 3
 E 2 2 1
 F 3 1 3
 G 3 2 2
+© UCLES 2017
 67
 PART D Biology
 70 The table shows some of the genetic codes for amino acids:
@@ -1589,43 +1500,20 @@ species.
 The student studied two graphs. Graph 1 showed the oxygen required by the pollution indicator
 species for survival and graph 2 showed the effect of temperature on the oxygen dissolved in
 the water.
-graph 2
-16
-14
-12
-10
-8
-6
-4
-2
-0
-0 5 10 15 20 25 30
-temperature of water /°C
-© UCLES 2017
-negyxo
-devlossid
-stinu
-yrartibra/
+graph 1 graph 2
 50
 45
-40
-35
-30
-25
-20
-15
-10
-5
-0
-0 5 10 15 20 25 30
-temperature of water /°C
-lavivrus
-rof
-deriuqer
-negyxo
-stinu
-yrartibra/
-graph 1
+40 16
+35 14
+30 12
+25 10
+20 8
+15 6
+10 4
+5 2
+0 0
+0 5 10 15 20 25 30 0 5 10 15 20 25 30
+temperature of water /°C temperature of water /°C
 The student wrote the following statements:
 1 As the oxygen required by the pollution indicator species for survival increases, the
 water temperature rises.
@@ -1642,6 +1530,7 @@ E 1 and 2 only
 F 1 and 3 only
 G 2 and 3 only
 H 1, 2 and 3
+© UCLES 2017
 69
 PART D Biology
 72 In a monohybrid cross, two heterozygotes were allowed to mate and the resulting offspring

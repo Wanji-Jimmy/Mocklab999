@@ -1,4 +1,3 @@
-*1111111111* *0624614274*
 NATURAL SCIENCES D568/11
 ADMISSIONS ASSESSMENT
 November 2021 60 minutes
@@ -1047,10 +1046,6 @@ f
 solvents.
 The final positions of the amino acids on the chromatograph are shown on the following
 diagram.
-49
-solvent
-front
-2
 Which of the following statements is correct?
 A Leucine travels further relative to the solvent front in solvent 2 than in solvent 1.
 B Lysine has a greater R value in solvent 1 than it has in solvent 2.
@@ -1059,6 +1054,7 @@ C Solvent 1 alone could be used to separate all four amino acids.
 D Solvent 2 alone could be used to separate all four amino acids.
 E The R value of tyrosine in solvent 1 is 0.6 and in solvent 2 is 0.7.
 f
+49
 PART C Chemistry
 52 A reaction between copper and nitric acid produces a blue solution of copper(II) nitrate, water
 and substance X only.

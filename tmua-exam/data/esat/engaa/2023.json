@@ -8,10 +8,10 @@
       "answers": {
         "a": "R = 5r",
         "b": "R = 12r",
-        "c": "R = 2 5r",
-        "d": "R = 10 r",
-        "e": "R = 10r",
-        "f": "R = 10 r",
+        "c": "R = 2 5r 1",
+        "d": "R = 10 r 2",
+        "e": "R = 10r 3",
+        "f": "R = 10 r 2",
         "g": "R = 15r"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -25,7 +25,7 @@
         "c": "0.20m",
         "d": "5.0m",
         "e": "10m",
-        "f": "20m"
+        "f": "20m 4"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -38,7 +38,7 @@
         "c": "x = s – p− y q−r",
         "d": "x = – s p− y q−r",
         "e": "x = s – y− p q−r",
-        "f": "x = – s y− p"
+        "f": "x = – s y− p 5"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -61,12 +61,12 @@
     {
       "question": "X N Y M P W Z WXYZ is a square of side length 1. : : WM MX = 1 2 : : XN NY = 3 1 : : YP PZ = 4 1 What is the area of triangle MNP? 1",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable",
-        "c": "Option unavailable",
+        "a": "Option unavailable 3 2",
+        "b": "Option unavailable 5 9",
+        "c": "Option unavailable 1",
         "d": "Option unavailable",
         "e": "Option unavailable",
-        "f": "Option unavailable"
+        "f": "Option unavailable 7"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -81,7 +81,7 @@
         "e": "2.4N",
         "f": "3.0N",
         "g": "30N",
-        "h": "60N"
+        "h": "60N 8"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -119,10 +119,10 @@
       "answers": {
         "a": "46%",
         "b": "57%",
-        "c": "613%",
-        "d": "662%",
+        "c": "613% 5",
+        "d": "662% 3",
         "e": "77%",
-        "f": "831%"
+        "f": "831% 3"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -171,10 +171,10 @@
         "b": "14 +7 2 42−7 2",
         "c": "Option unavailable 42+7 2",
         "d": "Option unavailable 7 2",
-        "e": "Option unavailable",
+        "e": "Option unavailable 3",
         "f": "7 2",
-        "g": "4 –",
-        "h": "4 +"
+        "g": "4 – 2",
+        "h": "4 + 2"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
@@ -235,7 +235,7 @@
         "a": "A 5 3",
         "b": "A 5 3",
         "c": "A 4",
-        "d": "1A",
+        "d": "1A 3",
         "e": "A 10 3",
         "f": "A 5 16"
       },
@@ -245,9 +245,9 @@
     {
       "question": "Find the maximum value of 2 sinx × 3–sinx where 0° ≤ x ≤ 360° 2",
       "answers": {
-        "a": "Option unavailable",
+        "a": "Option unavailable 3",
         "b": "1 3",
-        "c": "Option unavailable",
+        "c": "Option unavailable 2",
         "d": "2",
         "e": "3",
         "f": "6"
@@ -279,7 +279,7 @@
         "b": "–21",
         "c": "–3 3",
         "d": "− 5 3",
-        "e": "Option unavailable",
+        "e": "Option unavailable 5",
         "f": "3",
         "g": "21",
         "h": "39"
@@ -302,10 +302,10 @@
     {
       "question": "An arithmetic progression has first term a and common difference d. The sum of the first 9 terms plus the sum of the first 10 terms is equal to the sum of the first 11 terms. Which of the following is a correct expression for a in terms of d? 13",
       "answers": {
-        "a": "a = − d",
-        "b": "a = − d",
-        "c": "a = − d",
-        "d": "a = − d",
+        "a": "a = − d 4 15",
+        "b": "a = − d 4 16",
+        "c": "a = − d 3 19",
+        "d": "a = − d 3",
         "e": "a = –7d",
         "f": "a = –8d"
       },
@@ -386,10 +386,10 @@
       "answers": {
         "a": "2",
         "b": "7 2",
-        "c": "3 –",
+        "c": "3 – 2",
         "d": "3 –7 2",
         "e": "4 –3 2",
-        "f": "4 2 –",
+        "f": "4 2 – 6",
         "g": "4 2 –",
         "h": "7 2–"
       },
@@ -414,10 +414,10 @@
       "question": "Which of the following is equal to 3− 5 x2 ∫ dx 3− 5 −(3− 5)",
       "answers": {
         "a": "0 2",
-        "b": "Option unavailable",
-        "c": "Option unavailable",
+        "b": "Option unavailable 3 8",
+        "c": "Option unavailable 3",
         "d": "4 28−12 5",
-        "e": "Option unavailable",
+        "e": "Option unavailable 3",
         "f": "28−12 5"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -444,9 +444,9 @@
         "b": "–4 7",
         "c": "− 5",
         "d": "–1 9",
-        "e": "Option unavailable",
+        "e": "Option unavailable 5",
         "f": "2 14",
-        "g": "Option unavailable",
+        "g": "Option unavailable 5",
         "h": "3 28"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -462,7 +462,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 29"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -470,10 +470,10 @@
     {
       "question": "Find the real value of x that satisfies log (x2 + 3x + 2) = 2 + log (x2 + 2x) 3 3 1",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable",
-        "c": "Option unavailable",
-        "d": "Option unavailable",
+        "a": "Option unavailable 8 1",
+        "b": "Option unavailable 7 1",
+        "c": "Option unavailable 6 1",
+        "d": "Option unavailable 2",
         "e": "2",
         "f": "7"
       },
@@ -488,7 +488,7 @@
         "c": "320Ω",
         "d": "400Ω",
         "e": "1280Ω",
-        "f": "1600Ω ⎛2 x⎞"
+        "f": "1600Ω ⎛2 x⎞ 8"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -496,9 +496,9 @@
     {
       "question": "What is the constant term in the simplified binomial expansion of ⎜ + ⎟ ? ⎝ x 4⎠ 7",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable",
-        "c": "Option unavailable",
+        "a": "Option unavailable 2 35",
+        "b": "Option unavailable 8 1",
+        "c": "Option unavailable 7",
         "d": "Option unavailable 256 35",
         "e": "Option unavailable 1024 1",
         "f": "Option unavailable 2048 31"
@@ -512,8 +512,8 @@
         "a": "2d ⎜ −1⎟ ⎝ 3 ⎠ ⎛ 2 ⎞",
         "b": "d ⎜ −1⎟ ⎝ 3 ⎠",
         "c": "d( 2− 3 ) 4d",
-        "d": "Option unavailable 2d",
-        "e": "Option unavailable"
+        "d": "Option unavailable 3 2d",
+        "e": "Option unavailable 3 32"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -521,9 +521,9 @@
     {
       "question": "Given that x2 + y2 = 1 what is the greatest possible value of 2x + 3y? 7",
       "answers": {
-        "a": "Option unavailable",
+        "a": "Option unavailable 2",
         "b": "3 5 2",
-        "c": "Option unavailable",
+        "c": "Option unavailable 2",
         "d": "7",
         "e": "10 13 10",
         "f": "Option unavailable",

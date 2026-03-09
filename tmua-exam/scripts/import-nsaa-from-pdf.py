@@ -9,6 +9,7 @@ import pdfplumber
 OPTION_RE = re.compile(r"^\(?([A-H])(?:[\)\.]|\s|$)\s*(.*)$")
 CID_RE = re.compile(r"\(cid:\d+\)")
 TRAILING_PAGE_NUMBER_RE = re.compile(r"^(.+\D)\s+\d{1,2}$")
+TRAILING_PAPER_CODE_RE = re.compile(r"^(.+\D)\s+\d{3}\s+\d{3}$")
 STANDALONE_OPTION_TOKEN_RE = re.compile(r"(?:(?<=^)|(?<=\s))([A-H])(?=\s|$)")
 PURE_OPTION_LABEL_LINE_RE = re.compile(r"^(?:[A-H]\s+){1,}[A-H]$")
 
@@ -20,6 +21,7 @@ INLINE_NOISE_PATTERNS = [
   re.compile(r"\s*Answer\s+Key.*$", re.IGNORECASE),
   re.compile(r"\s*BLANK\s+PAGE.*$", re.IGNORECASE),
   re.compile(r"\s*PART\s+[A-E]\b.*$", re.IGNORECASE),
+  re.compile(r"\s*END\s+OF\s+TEST.*$", re.IGNORECASE),
 ]
 
 NOISE_LINE_PATTERNS = [
@@ -40,7 +42,9 @@ def extract_text(pdf_path: Path) -> str:
   pages = []
   with pdfplumber.open(str(pdf_path)) as pdf:
     for page in pdf.pages:
-      pages.append(page.extract_text() or "")
+      # Drop rotated chart-axis glyphs that become reversed token noise in plain text extraction.
+      filtered_page = page.filter(lambda obj: obj.get("object_type") != "char" or obj.get("upright", True))
+      pages.append(filtered_page.extract_text() or "")
   return "\n".join(pages)
 
 
@@ -177,9 +181,15 @@ def parse_inline_options(block_lines: list[str]) -> tuple[str, dict[str, str]] |
 
 def sanitize_option_text(value: str) -> str:
   cleaned = clean_fragment(value)
+  paper_code = TRAILING_PAPER_CODE_RE.match(cleaned)
+  if paper_code:
+    cleaned = clean_fragment(paper_code.group(1))
   page_like = TRAILING_PAGE_NUMBER_RE.match(cleaned)
   if page_like:
-    return clean_fragment(page_like.group(1))
+    candidate = page_like.group(1)
+    trailing_number = cleaned.rsplit(" ", 1)[-1]
+    if trailing_number.isdigit() and 10 <= int(trailing_number) <= 99:
+      return clean_fragment(candidate)
   return cleaned
 
 
@@ -270,6 +280,9 @@ def is_valid_fallback_candidate(text: str, question_number: int, start: int, end
       return False
 
     if OPTION_RE.match(candidate):
+      return False
+
+    if re.match(r"^(PART|SECTION|INSTRUCTIONS|BLANK\s+PAGE|©)\b", candidate, re.IGNORECASE):
       return False
 
     if re.match(r"^[A-Za-z(]", candidate):

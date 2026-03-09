@@ -8,8 +8,8 @@
       "answers": {
         "a": "1",
         "b": "3 5",
-        "c": "Option unavailable",
-        "d": "Option unavailable",
+        "c": "Option unavailable 3 7",
+        "d": "Option unavailable 3",
         "e": "3 3",
         "f": "9 5"
       },
@@ -26,7 +26,7 @@
         "e": "750m",
         "f": "1400m",
         "g": "1800m",
-        "h": "1900m"
+        "h": "1900m 6"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -54,7 +54,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 7"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -81,7 +81,7 @@
         "c": "12kJ",
         "d": "16kJ",
         "e": "21kJ",
-        "f": "33kJ"
+        "f": "33kJ 9"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -89,12 +89,12 @@
     {
       "question": "A fruit stall sells apples costing £x each, and pears costing £y each. Sam bought 2 apples and 5 pears, and the total cost of these was £P. Lesley bought 3 apples and 2 pears, and the total cost of these was £Q. Which of the following is an expression for the cost, in pounds (£), of a pear? 2Q−3P",
       "answers": {
-        "a": "Option unavailable 2Q−3P",
+        "a": "Option unavailable 3 2Q−3P",
         "b": "Option unavailable Q−P",
-        "c": "Option unavailable Q−P",
+        "c": "Option unavailable 3 Q−P",
         "d": "Option unavailable P−Q",
-        "e": "Option unavailable 3P−2Q",
-        "f": "Option unavailable 3P−2Q",
+        "e": "Option unavailable 3 3P−2Q",
+        "f": "Option unavailable 3 3P−2Q",
         "g": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -116,14 +116,14 @@
     {
       "question": "P is directly proportional to Q squared. When P is 2, Q is 4. Q is inversely proportional to R. When Q is 2, R is 5. What is P in terms of R? 5",
       "answers": {
-        "a": "P = R",
-        "b": "P = 4R",
+        "a": "P = R 5",
+        "b": "P = 4R 1",
         "c": "P = 800R2 5",
         "d": "P = 4R2 25",
         "e": "P = 2R2 800",
         "f": "P = R2 R2",
         "g": "P = 25R2",
-        "h": "P ="
+        "h": "P = 2 11"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -134,9 +134,9 @@
         "a": "w + y = 240",
         "b": "z = 240 − (w + y)",
         "c": "x = 40 − z",
-        "d": "94 = 54 + x +",
+        "d": "94 = 54 + x + 1",
         "e": "240 = 54 + x",
-        "f": "94 = w + y +"
+        "f": "94 = w + y + 1"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -144,11 +144,11 @@
     {
       "question": "Which one of the following is a simplification of ( ) x2 9x2 −4 2− x3(2−3x) 2",
       "answers": {
-        "a": "−1− x",
-        "b": "−1+ x",
-        "c": "5− x",
-        "d": "5+ x",
-        "e": "5− x",
+        "a": "−1− x 2",
+        "b": "−1+ x 2",
+        "c": "5− x 2",
+        "d": "5+ x 3",
+        "e": "5− x 3",
         "f": "5+ x"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -321,7 +321,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 19"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -385,13 +385,13 @@
       "question": "Which one of the following is a simplification of 2 3+ 3 1− 6−2 3 3",
       "answers": {
         "a": "− 4 3",
-        "b": "Option unavailable 3 3",
+        "b": "Option unavailable 4 3 3",
         "c": "− − 4 7 3 3",
         "d": "− 4 7 3",
-        "e": "− −",
+        "e": "− − 3 4 3",
         "f": "− 3 4 3",
         "g": "− 2 3",
-        "h": "Option unavailable"
+        "h": "Option unavailable 2 25"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -439,11 +439,11 @@
     {
       "question": "Which of the following is a solution to the equation 3 (2x+1) −6(3 x )=0?",
       "answers": {
-        "a": "log",
-        "b": "log",
+        "a": "log 3 2",
+        "b": "log 2 3",
         "c": "2",
-        "d": "log",
-        "e": "Option unavailable"
+        "d": "log 2 10 2",
+        "e": "Option unavailable 3"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -463,8 +463,8 @@
     {
       "question": "The diagram shows the outline of a keyhole consisting of three straight sides and an arc from a circle. The sides PQ and RS are both 18mm in length and when extended meet at the centre of the π circle O forming an angle of radians. 6 The longer arc from Q to R has length 22πmm. O Q R P S What is the area, in mm2, of the keyhole as shaded in the diagram? 841",
       "answers": {
-        "a": "121π+ 841 3",
-        "b": "121π+",
+        "a": "121π+ 4 841 3",
+        "b": "121π+ 4",
         "c": "132π+225",
         "d": "132π+225 3",
         "e": "144π+225",
@@ -546,12 +546,12 @@
     {
       "question": "In triangle PQR PQ =4xcm QR =(8−3x)cm ∠PQR= 60° What is the maximum value of the area, in cm2, of triangle PQR? 8 3",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable 69 3",
+        "a": "Option unavailable 3 16",
+        "b": "Option unavailable 3 69 3",
         "c": "Option unavailable 16 3",
-        "d": "Option unavailable",
-        "e": "Option unavailable 32 3",
-        "f": "Option unavailable"
+        "d": "Option unavailable 3 32",
+        "e": "Option unavailable 3 32 3",
+        "f": "Option unavailable 3"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -590,7 +590,7 @@
         "e": "1.3s",
         "f": "2.0s",
         "g": "2.5s",
-        "h": "3.0s"
+        "h": "3.0s 1"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -669,7 +669,7 @@
         "b": "mgsinθ",
         "c": "mgcosθ",
         "d": "µmgsinθ",
-        "e": "µmgcosθ"
+        "e": "µmgcosθ 1"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -681,10 +681,10 @@
         "b": "y=sin + 2 4 x π",
         "c": "y=sin − 2 8 x π",
         "d": "y=sin + 2 8 π",
-        "e": "y=sin 2x− π",
-        "f": "y=sin 2x+ π",
-        "g": "y=sin 2x− π",
-        "h": "y=sin 2x+"
+        "e": "y=sin 2x− 4 π",
+        "f": "y=sin 2x+ 4 π",
+        "g": "y=sin 2x− 2 π",
+        "h": "y=sin 2x+ 2 41"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
@@ -696,7 +696,7 @@
         "b": "F(t − t ) − mu 2 1",
         "c": "F(t − t ) + mu 2 1",
         "d": "mv − mu",
-        "e": "Ft − mu"
+        "e": "Ft − mu 2"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -715,13 +715,13 @@
       "answer": "b"
     },
     {
-      "question": "The acceleration versus time graph is for a ball dropped from rest, falling vertically and bouncing on the ground. 0 0.0 00..11 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 1.1 1.2 1.3 1.4 1.5 -10 time /s 2–sm/ noitarelecca The time of contact with the ground can be ignored. What is the speed of the ball immediately after hitting the ground for the first time, and what is the maximum height reached by the ball after the first bounce? (gravitational field strength = 10Nkg–1) speed /ms–1 height /m",
+      "question": "The acceleration versus time graph is for a ball dropped from rest, falling vertically and bouncing on the ground. 0 0.0 00..11 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 1.1 1.2 1.3 1.4 1.5 -10 time /s The time of contact with the ground can be ignored. What is the speed of the ball immediately after hitting the ground for the first time, and what is the maximum height reached by the ball after the first bounce? (gravitational field strength = 10Nkg–1) speed /ms–1 height /m",
       "answers": {
         "a": "4.00 0.80",
         "b": "4.00 1.25",
         "c": "5.00 0.80",
         "d": "5.00 1.25",
-        "e": "8.00 3.20 END OF TEST"
+        "e": "8.00 3.20 43 44"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"

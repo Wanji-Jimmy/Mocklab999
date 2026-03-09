@@ -8,10 +8,10 @@
       "answers": {
         "a": "R = 5r",
         "b": "R = 12r",
-        "c": "R = 2 5r",
-        "d": "R = 10 r",
-        "e": "R = 10r",
-        "f": "R = 10 r",
+        "c": "R = 2 5r 1",
+        "d": "R = 10 r 2",
+        "e": "R = 10r 3",
+        "f": "R = 10 r 2",
         "g": "R = 15r"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -27,7 +27,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 6"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -61,12 +61,12 @@
     {
       "question": "X N Y M P W Z WXYZ is a square of side length 1. WM:MX = 1:2 XN:NY = 3:1 YP:PZ = 4:1 What is the area of triangle MNP? 1",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable",
-        "c": "Option unavailable",
+        "a": "Option unavailable 3 2",
+        "b": "Option unavailable 5 9",
+        "c": "Option unavailable 1",
         "d": "Option unavailable",
         "e": "Option unavailable",
-        "f": "Option unavailable"
+        "f": "Option unavailable 8"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -74,13 +74,13 @@
     {
       "question": "Which of the following is a simplification of 4x−8 x−6 ÷ x2 +4x−12 x3 −36x 1",
       "answers": {
-        "a": "Option unavailable",
+        "a": "Option unavailable 4 1",
         "b": "Option unavailable 4x",
         "c": "4",
         "d": "4x 4x ( x+6 )",
         "e": "( x−6 ) 4x ( x− 6 )",
-        "f": "( x+ )",
-        "g": "Option unavailable x ( x+ )2 4",
+        "f": "( x+ 6 ) 4",
+        "g": "Option unavailable x ( x+ 6 )2 4",
         "h": "Option unavailable x ( x−6 )2"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -104,14 +104,14 @@
     {
       "question": "The solutions of the equation 3x2 – 6x – 2 = 0 are p and q, where p > q. What is the value of 3p + 2q? 2",
       "answers": {
-        "a": "–10–",
-        "b": "–10–",
-        "c": "–5–",
-        "d": "–5–",
-        "e": "5+",
-        "f": "5+",
-        "g": "10+",
-        "h": "10+"
+        "a": "–10– 3 2",
+        "b": "–10– 3 3 1",
+        "c": "–5– 3 1",
+        "d": "–5– 3 3 1",
+        "e": "5+ 3 1",
+        "f": "5+ 3 3 2",
+        "g": "10+ 3 2",
+        "h": "10+ 3 3"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -121,10 +121,10 @@
       "answers": {
         "a": "46%",
         "b": "57%",
-        "c": "613%",
-        "d": "662%",
+        "c": "613% 5",
+        "d": "662% 3",
         "e": "77%",
-        "f": "831%"
+        "f": "831% 3 10"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -132,7 +132,7 @@
     {
       "question": "Two of the angles of a triangle are 90° and θ, where tanθ = 2 The length of the hypotenuse of the triangle is3 6cm. What is the area of the triangle, in cm2? 9 2",
       "answers": {
-        "a": "Option unavailable",
+        "a": "Option unavailable 2",
         "b": "9 2",
         "c": "9 3",
         "d": "9 6",
@@ -162,8 +162,8 @@
         "b": "− 6",
         "c": "1 18",
         "d": "Option unavailable",
-        "e": "Option unavailable",
-        "f": "Option unavailable",
+        "e": "Option unavailable 7 5",
+        "f": "Option unavailable 2",
         "g": "6"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -176,10 +176,10 @@
         "b": "14 +7 2 42−7 2",
         "c": "Option unavailable 42+7 2",
         "d": "Option unavailable 7 2",
-        "e": "Option unavailable",
+        "e": "Option unavailable 3",
         "f": "7 2",
-        "g": "4 –",
-        "h": "4 +"
+        "g": "4 – 2",
+        "h": "4 + 2 12"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
@@ -245,8 +245,8 @@
         "b": "− 4 3",
         "c": "− 2",
         "d": "6 31",
-        "e": "Option unavailable",
-        "f": "Option unavailable"
+        "e": "Option unavailable 4 27",
+        "f": "Option unavailable 2"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -254,9 +254,9 @@
     {
       "question": "Find the maximum value of 2 sinx × 3–sinx where 0° ≤ x ≤ 360° 2",
       "answers": {
-        "a": "Option unavailable",
+        "a": "Option unavailable 3",
         "b": "1 3",
-        "c": "Option unavailable",
+        "c": "Option unavailable 2",
         "d": "2",
         "e": "3",
         "f": "6 15"
@@ -267,14 +267,14 @@
     {
       "question": "Two bags contain counters which are identical except for colour. The first bag contains 3 blue and 2 yellow counters. The second bag contains x red, 1 blue and 2 yellow counters. yellow is 0.2. What is the probability that this counter is red? 1",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable",
-        "c": "Option unavailable",
-        "d": "Option unavailable",
-        "e": "Option unavailable",
-        "f": "Option unavailable",
-        "g": "Option unavailable",
-        "h": "Option unavailable"
+        "a": "Option unavailable 4 3",
+        "b": "Option unavailable 3",
+        "c": "Option unavailable 1",
+        "d": "Option unavailable 3 2",
+        "e": "Option unavailable 3 7",
+        "f": "Option unavailable 8",
+        "g": "Option unavailable 3",
+        "h": "Option unavailable 4 16 17"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -344,8 +344,8 @@
         "b": "6.0",
         "c": "10",
         "d": "17 20",
-        "e": "Option unavailable",
-        "f": "Option unavailable"
+        "e": "Option unavailable 3 40",
+        "f": "Option unavailable 3 21"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -368,14 +368,14 @@
     {
       "question": "The nuclide symbol for helium-3 is 3He. 2 This nuclide of X decays by a single beta (β–) emission to form a nuclide of element Z. What is the nuclide symbol for this nuclide of Z?",
       "answers": {
-        "a": "8Z",
-        "b": "8Z",
-        "c": "12Z",
-        "d": "8Z",
-        "e": "12Z",
-        "f": "16Z",
-        "g": "7Z",
-        "h": "16Z"
+        "a": "8Z 2",
+        "b": "8Z 4",
+        "c": "12Z 4",
+        "d": "8Z 5",
+        "e": "12Z 5",
+        "f": "16Z 5",
+        "g": "7Z 8",
+        "h": "16Z 8"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -518,7 +518,7 @@
         "a": "A 5 3",
         "b": "A 5 3",
         "c": "A 4",
-        "d": "1A",
+        "d": "1A 3",
         "e": "A 10 3",
         "f": "A 5 31"
       },
@@ -602,7 +602,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -639,7 +639,7 @@
         "b": "more favourably more protons is found in Period 3 is a halogen",
         "c": "less favourably one more proton",
         "d": "is found in Period 3 shell of electrons one fewer proton",
-        "e": "more favourably more protons atomic number is found in Period"
+        "e": "more favourably more protons atomic number is found in Period 3"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -647,10 +647,10 @@
     {
       "question": "A simple ion of an element has a mass number x, an atomic number and a charge of –1. 2 How many protons, neutrons and electrons are present in this ion? protons neutrons electrons x−1 x−1 x−1",
       "answers": {
-        "a": "Option unavailable 2 2 2 x−1 x+ 1 x+",
+        "a": "Option unavailable 2 2 2 x−1 x+ 1 x+ 1",
         "b": "Option unavailable 2 2 2 x−1 x+ 1 x−1",
-        "c": "Option unavailable 2 2 2 x−1 x−1 x+",
-        "d": "Option unavailable 2 2 2 x+ 1 x−1 x+",
+        "c": "Option unavailable 2 2 2 x−1 x−1 x+ 1",
+        "d": "Option unavailable 2 2 2 x+ 1 x−1 x+ 1",
         "e": "Option unavailable 2 2 2 x+ 1 x−1 x−1",
         "f": "Option unavailable 2 2 2"
       },
@@ -707,7 +707,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 40"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -736,7 +736,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 42"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -849,7 +849,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 50"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -864,7 +864,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 51"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -879,7 +879,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 52"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -909,7 +909,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 54"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -939,7 +939,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 56"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -954,7 +954,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 57"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -969,13 +969,13 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 58"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "A scientist was investigating the effect of substrate concentration on lipase enzyme activity Two test tubes were set up: • one containing a sample of full-fat milk mixed with an alkaline solution, and a pH indicator • one containing lipase The pH indicator turned the alkaline milk sample pink. Both tubes were incubated in a water bath set to an optimum temperature for lipase until the contents had reached this temperature. The scientist then added the lipase to the tube with the milk sample and measured the time taken for the indicator to turn colourless. This colour change was caused by an increase in concentration of one of the products of the reaction. Further samples of the milk were diluted, and added to the same quantity of alkaline solution and pH indicator, to produce another six different substrate concentrations, and the experiment was repeated. All other variables were kept constant. The scientist found that each substrate concentration caused the pH indicator to change to colourless in a different length of time. The results of the reaction in all seven tubes were plotted on a graph. Which option correctly identifies the shape of the graph of the results, the limiting factor during the experiment and an explanation for the change in colour of the pH indicator? substrate concentration the limiting factor the limiting factor the limiting factor is the limiting factor is is substrate is substrate temperature temperature concentration concentration the the the the the the the the indicator indicator indicator indicator indicator indicator indicator indicator changes changes changes changes changes changes changes changes due to an due to a due to an due to a due to an due to a due to an due to a increase decrease increase decrease increase decrease increase decrease in pH in pH in pH in pH in pH in pH in pH in pH 59 rotacidni Hp rof nekat emit s / sselruoloc ot egnahc ot substrate concentration rotacidni Hp rof nekat emit s / sselruoloc ot egnahc ot",
+      "question": "A scientist was investigating the effect of substrate concentration on lipase enzyme activity Two test tubes were set up: • one containing a sample of full-fat milk mixed with an alkaline solution, and a pH indicator • one containing lipase The pH indicator turned the alkaline milk sample pink. Both tubes were incubated in a water bath set to an optimum temperature for lipase until the contents had reached this temperature. The scientist then added the lipase to the tube with the milk sample and measured the time taken for the indicator to turn colourless. This colour change was caused by an increase in concentration of one of the products of the reaction. Further samples of the milk were diluted, and added to the same quantity of alkaline solution and pH indicator, to produce another six different substrate concentrations, and the experiment was repeated. All other variables were kept constant. The scientist found that each substrate concentration caused the pH indicator to change to colourless in a different length of time. The results of the reaction in all seven tubes were plotted on a graph. Which option correctly identifies the shape of the graph of the results, the limiting factor during the experiment and an explanation for the change in colour of the pH indicator? substrate concentration substrate concentration the limiting factor the limiting factor the limiting factor is the limiting factor is is substrate is substrate temperature temperature concentration concentration the the the the the the the the indicator indicator indicator indicator indicator indicator indicator indicator changes changes changes changes changes changes changes changes due to an due to a due to an due to a due to an due to a due to an due to a increase decrease increase decrease increase decrease increase decrease in pH in pH in pH in pH in pH in pH in pH in pH 59",
       "answers": {
         "a": "Option A (diagram/text unavailable in PDF text extraction).",
         "b": "Option B (diagram/text unavailable in PDF text extraction).",
@@ -996,7 +996,7 @@
         "b": "1, 2 and 4 only",
         "c": "1, 3 and 4 only",
         "d": "2, 3 and 4 only",
-        "e": "1, 2, 3 and"
+        "e": "1, 2, 3 and 4 60"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -1011,7 +1011,7 @@
         "e": "3, 5 and 6 only",
         "f": "1, 2, 3 and 4 only",
         "g": "3, 4, 5 and 6 only",
-        "h": "1, 2, 3, 4, 5, 6 and"
+        "h": "1, 2, 3, 4, 5, 6 and 7 61"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -1026,7 +1026,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 62"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -1041,7 +1041,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 63"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -1056,7 +1056,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 64"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -1071,13 +1071,13 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 65"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "The graph shows the change in the pressure in the space X between the wall of the thorax and the lungs (as shown in the diagram) during one complete breathing cycle. wall of thorax –2.5 –3.5 –4.5 –5.5 X lung diaphragm –6.5 0 1 2 3 4 time / s 66 stinu yrartibra / X ecaps ni erusserp Which of the following statements is/are correct? 1 The person is breathing out between 0 and 1.5 seconds. 2 The diaphragm is relaxing between 2 and 3 seconds. 3 The rate of breathing is 15 breaths per minute. (Assume the person continues breathing at the same rate.)",
+      "question": "The graph shows the change in the pressure in the space X between the wall of the thorax and the lungs (as shown in the diagram) during one complete breathing cycle. wall of thorax –2.5 –3.5 –4.5 –5.5 X lung diaphragm –6.5 0 1 2 3 4 time / s Which of the following statements is/are correct? 1 The person is breathing out between 0 and 1.5 seconds. 2 The diaphragm is relaxing between 2 and 3 seconds. 3 The rate of breathing is 15 breaths per minute. (Assume the person continues breathing at the same rate.)",
       "answers": {
         "a": "none of them",
         "b": "1 only",
@@ -1086,7 +1086,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and"
+        "h": "1, 2 and 3 66"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"

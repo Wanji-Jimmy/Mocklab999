@@ -31,7 +31,7 @@ export default function PaperScreen({
 }: PaperScreenProps) {
   const [stemImageFailed, setStemImageFailed] = useState(false)
   const hasPlaceholderOptions = hasDiagramPlaceholderOption(question)
-  const officialPdfUrl = hasPlaceholderOptions ? getOfficialPdfUrl(question) : null
+  const officialPdfUrl = getOfficialPdfUrl(question)
 
   useEffect(() => {
     setStemImageFailed(false)
@@ -83,15 +83,22 @@ export default function PaperScreen({
           ))}
         </div>
       )}
-      {hasPlaceholderOptions && officialPdfUrl && (
-        <div className="mb-4 rounded-lg border border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-900">
-          Some options in this question are diagram-based and could not be fully extracted.
+      {officialPdfUrl && (
+        <div
+          className={`mb-4 rounded-lg px-4 py-3 text-sm ${
+            hasPlaceholderOptions
+              ? 'border border-amber-300 bg-amber-50 text-amber-900'
+              : 'border border-slate-300 bg-slate-50 text-slate-700'
+          }`}
+        >
+          {hasPlaceholderOptions
+            ? 'Some options in this question are diagram-based and could not be fully extracted.'
+            : 'Need to verify original symbols/notation?'}
           {' '}
           <a href={officialPdfUrl} target="_blank" rel="noreferrer" className="font-semibold underline">
             Open official question PDF
           </a>
-          {' '}
-          for full figures.
+          {hasPlaceholderOptions ? ' for full figures.' : '.'}
         </div>
       )}
 

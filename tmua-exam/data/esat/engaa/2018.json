@@ -38,8 +38,8 @@
         "a": "10",
         "b": "6 + 2 2",
         "c": "5",
-        "d": "3 +",
-        "e": "Option unavailable 3 1",
+        "d": "3 + 2 5",
+        "e": "Option unavailable 2 3 1",
         "f": "+ 2 2 2 5"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -54,7 +54,7 @@
         "d": "0.40A",
         "e": "0.50A",
         "f": "2.0A",
-        "g": "6.0A"
+        "g": "6.0A 6"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -64,10 +64,10 @@
       "answers": {
         "a": "–1 1",
         "b": "− 7 1",
-        "c": "Option unavailable",
-        "d": "Option unavailable",
+        "c": "Option unavailable 9 1",
+        "d": "Option unavailable 8",
         "e": "1 5",
-        "f": "Option unavailable",
+        "f": "Option unavailable 4",
         "g": "2",
         "h": "5"
       },
@@ -84,7 +84,7 @@
         "e": "It has a minimum frequency of 2.7 ×1014Hz",
         "f": "It has a minimum frequency of 4.3 ×1014Hz",
         "g": "It has a minimum frequency of 7.5 ×1014Hz",
-        "h": "It has a minimum frequency of 1.0 ×1015Hz"
+        "h": "It has a minimum frequency of 1.0 ×1015Hz 7"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -173,7 +173,7 @@
         "a": "Option unavailable 640 1 π",
         "b": "Option unavailable",
         "c": "40π 1125",
-        "d": "Option unavailable π",
+        "d": "Option unavailable π 8",
         "e": "250π",
         "f": "10000π",
         "g": "225000π",
@@ -183,7 +183,7 @@
       "answer": "e"
     },
     {
-      "question": "A radioactive isotope decays in a single step to a stable isotope. The count rate on the detector changes as time elapses. The graph shows how the measured count rate changes with time. 80 150 13 etunim rep stnuoc / etar tnuoc 120 100 60 40 20 0 0 50 100 200 250 300 350 400 time / minutes What is the background count rate and what is the half-life of the isotope? background count rate half-life of isotope / counts per minute / minutes",
+      "question": "A radioactive isotope decays in a single step to a stable isotope. The count rate on the detector changes as time elapses. The graph shows how the measured count rate changes with time. 120 100 80 60 40 20 0 0 50 100 150 200 250 300 350 400 time / minutes What is the background count rate and what is the half-life of the isotope? background count rate half-life of isotope / counts per minute / minutes",
       "answers": {
         "a": "20 40",
         "b": "20 50",
@@ -192,7 +192,7 @@
         "e": "120 40",
         "f": "120 50",
         "g": "120 60",
-        "h": "120 65"
+        "h": "120 65 13"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -291,13 +291,13 @@
       "answer": "c"
     },
     {
-      "question": "A skydiver of weight 1000N falls vertically. The distance–time graph for the skydiver is shown below. 500 400 300 200 100 0 0 1 2 3 4 5 6 7 8 9 10 11 12 time/s 19 m/ecnatsid The air resistance F (in N) acting on the skydiver travelling at velocity v (in ms–1) is given by the equation where k (in Nm–2s2) is a constant. What is the numerical value of k for the skydiver?",
+      "question": "A skydiver of weight 1000N falls vertically. The distance–time graph for the skydiver is shown below. 500 400 300 200 100 0 0 1 2 3 4 5 6 7 8 9 10 11 12 time/s The air resistance F (in N) acting on the skydiver travelling at velocity v (in ms–1) is given by the equation where k (in Nm–2s2) is a constant. What is the numerical value of k for the skydiver?",
       "answers": {
         "a": "0.050",
         "b": "0.40",
         "c": "0.63",
         "d": "2.5",
-        "e": "20"
+        "e": "20 19"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -305,10 +305,10 @@
     {
       "question": "s cm h cm b cm The vertical height hcm of an isosceles triangle is 3cm longer than the base length of bcm. The sloping side is of length scm. The area of the triangle is 14cm2. There is one value of s which satisfies these conditions. Within which range does this value of s lie?",
       "answers": {
-        "a": "5 < s <",
-        "b": "6 < s <",
-        "c": "7 < s <",
-        "d": "8 < s <",
+        "a": "5 < s < 6",
+        "b": "6 < s < 7",
+        "c": "7 < s < 8",
+        "d": "8 < s < 9",
         "e": "9 < s <",
         "f": "10 < s <"
       },
@@ -333,11 +333,11 @@
     {
       "question": "The first five terms of a sequence in order are: 2 17 42 77 122 The nth term of this sequence is pn2 + q where p and q are integers. p−q What is the value of ? p+q 1",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable",
+        "a": "Option unavailable 4 1",
+        "b": "Option unavailable 2",
         "c": "1 23",
         "d": "Option unavailable",
-        "e": "Option unavailable",
+        "e": "Option unavailable 7",
         "f": "2",
         "g": "4",
         "h": "14 22"
@@ -362,10 +362,10 @@
     {
       "question": "A bag contains 6 red and 6 green sweets. The sweets are identical apart from their colour. If the sweet is red, the child stops taking sweets. If the sweet is green, it is not replaced and the child takes another sweet. This continues until a red sweet is taken at which point the child stops taking sweets. What is the probability that the child takes more green sweets than red sweets? 3",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable",
-        "c": "Option unavailable",
-        "d": "Option unavailable",
+        "a": "Option unavailable 5",
+        "b": "Option unavailable 3",
+        "c": "Option unavailable 1",
+        "d": "Option unavailable 2 8",
         "e": "Option unavailable",
         "f": "Option unavailable"
       },
@@ -382,7 +382,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and NOTE: questions in this part that are not covered by the ESAT content specification are indicated by a cross through the question number."
+        "h": "1, 2 and 3 25 26 NOTE: questions in this part that are not covered by the ESAT content specification are indicated by a cross through the question number."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -392,11 +392,11 @@
     {
       "question": "Curve C has equation y = 9 – x2 Line L has equation y = 5 What is the area enclosed between C and L? 32",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable",
-        "c": "Option unavailable 122",
-        "d": "Option unavailable 152",
-        "e": "Option unavailable"
+        "a": "Option unavailable 3 62",
+        "b": "Option unavailable 3 92",
+        "c": "Option unavailable 3 122",
+        "d": "Option unavailable 3 152",
+        "e": "Option unavailable 3"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -447,10 +447,10 @@
       "answers": {
         "a": "–2",
         "b": "–1 1",
-        "c": "Option unavailable",
-        "d": "Option unavailable",
-        "e": "Option unavailable",
-        "f": "Option unavailable",
+        "c": "Option unavailable 4 1",
+        "d": "Option unavailable 3 1",
+        "e": "Option unavailable 2 3",
+        "f": "Option unavailable 4",
         "g": "1",
         "h": "2"
       },
@@ -474,7 +474,7 @@
       "answers": {
         "a": "π 10 5 2",
         "b": "π 4",
-        "c": "2π",
+        "c": "2π 5",
         "d": "π 2 31"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -551,8 +551,8 @@
         "b": "3",
         "c": "4",
         "d": "6",
-        "e": "log (3!)",
-        "f": "log"
+        "e": "log (3!) 2",
+        "f": "log 2 34"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -575,7 +575,7 @@
       "question": "Circle C has equation (x + 3)2 + (y – 2)2 = 5 The length of the tangent from the circle C to the point P is 5 3 What is the shortest distance from P to C?",
       "answers": {
         "a": "5 3",
-        "b": "5 3 +",
+        "b": "5 3 + 5",
         "c": "3 5",
         "d": "5",
         "e": "10 35"
@@ -600,7 +600,7 @@
       "question": "The points A (–3,2), B (1,3) and C (–1,u) are such that the distances AC and AB are related by: AC = 2AB What are the possible values of u?",
       "answers": {
         "a": "2 and –6",
-        "b": "–2 and",
+        "b": "–2 and 6",
         "c": "6 and –10",
         "d": "–6 and",
         "e": "2+2 13 and 2–2 13",
@@ -612,13 +612,13 @@
     {
       "question": "A metal ball suspended from a steel cable is held at rest by a horizontal force P. The cable makes an angle of 30° to the vertical as shown in the diagram. The cable exerts a force T on the ball. 30° P What is the magnitude of P? T",
       "answers": {
-        "a": "Option unavailable",
+        "a": "Option unavailable 2",
         "b": "T",
         "c": "2T T",
-        "d": "Option unavailable T",
-        "e": "Option unavailable 2T",
-        "f": "Option unavailable 3T",
-        "g": "Option unavailable"
+        "d": "Option unavailable 2 T",
+        "e": "Option unavailable 3 2T",
+        "f": "Option unavailable 3 3T",
+        "g": "Option unavailable 2 37"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -655,9 +655,9 @@
         "a": "– 2 9",
         "b": "– 2 22",
         "c": "– 29 7",
-        "d": "Option unavailable",
-        "e": "Option unavailable",
-        "f": "Option unavailable"
+        "d": "Option unavailable 5",
+        "e": "Option unavailable 2 7",
+        "f": "Option unavailable 2"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -720,7 +720,7 @@
         "b": "180m",
         "c": "320m",
         "d": "500m",
-        "e": "900m END OF TEST"
+        "e": "900m"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
