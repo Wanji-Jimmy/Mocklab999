@@ -4,28 +4,46 @@
   "source": "official-pdf-auto-parse",
   "mandatoryMath": [
     {
-      "question": "Simplify fully 5xy2 × (5x2y)–3 × 5x2y where x and y are positive. 1 A 125x7y2 1 B 125x6y2 1 C 25x6y 1 D 25x4y 1 E 5x3 1 F 5x2 y G x2",
+      "question": "Simplify fully 5xy2 × (5x2y)–3 × 5x2y where x and y are positive. 1",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "Option unavailable 125x7y2 1",
+        "b": "Option unavailable 125x6y2 1",
+        "c": "Option unavailable 25x6y",
+        "d": "Option unavailable 25x4y",
+        "e": "Option unavailable 5x3 1",
+        "f": "Option unavailable 5x2 y",
+        "g": "Option unavailable x2",
+        "h": "5xy2 6"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "Which of the following is a simplification of x + 3x2 2 − 12x2+ x −1 where x > 1? 7x −1 A 4x −1 7x − 2 B 4x −1 7x +1 C 4x +1 7x + 2 D 4x +1 9x −1 E 4x −1 9x − 2 F 4x −1 9x +1 G 4x +1 9x + 2 H 4x +1 7 PART A Mathematics",
+      "question": "Which of the following is a simplification of x + 3x2 2 − 12x2+ x −1 where x > 1? 7x −1",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "Option unavailable 4x −1 7x −",
+        "b": "Option unavailable 4x −1 7x +1",
+        "c": "Option unavailable 4x +1 7x +",
+        "d": "Option unavailable 4x +1 9x −1",
+        "e": "Option unavailable 4x −1 9x −",
+        "f": "Option unavailable 4x −1 9x +1",
+        "g": "Option unavailable 4x +1 9x +",
+        "h": "Option unavailable 4x +1 7"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
     },
     {
-      "question": "Which of the following is a rearrangement of p 3 4 + = 2 q r so that q is the subject? 2r A q= 24−3pr 3r B q= 2r−p 6r C q= 4−p 6r D q= 8−pr r−2 E q= 12p 3r−6 F q= 4p pr−8 G q= 12p 3pr−24 H q= 4p",
+      "question": "Which of the following is a rearrangement of p 3 4 + = 2 q r so that q is the subject? 2r",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "Option unavailable q= 24−3pr 3r",
+        "b": "Option unavailable q= 2r−p 6r",
+        "c": "Option unavailable q= 4−p 6r",
+        "d": "Option unavailable q= 8−pr r−2",
+        "e": "Option unavailable q= 12p 3r−6",
+        "f": "Option unavailable q= 4p pr−8",
+        "g": "Option unavailable q= 12p 3pr−24",
+        "h": "Option unavailable q= 4p"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -33,14 +51,14 @@
     {
       "question": "A circle has its centre at (0,0). What is the equation of the tangent that touches the circle at the point (4,3)?",
       "answers": {
-        "a": "3y + 4x = 25",
-        "b": "3y – 4x = 25",
+        "a": "3y + 4x =",
+        "b": "3y – 4x =",
         "c": "3y – 4x = –7",
-        "d": "3y – 4x = 7",
-        "e": "4y + 3x = 24",
-        "f": "4y – 3x = 24",
-        "g": "3y + 4x = 24",
-        "h": "3y – 4x = 24 8 PART A Mathematics"
+        "d": "3y – 4x =",
+        "e": "4y + 3x =",
+        "f": "4y – 3x =",
+        "g": "3y + 4x =",
+        "h": "3y – 4x ="
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -49,12 +67,12 @@
       "question": "Two solid cylinders, P and Q, are shown, where x > y. Q P x y x y Cylinder P has diameter x and height y. Cylinder Q has diameter y and height x. What is the positive difference between the total surface areas of P and Q?",
       "answers": {
         "a": "0 π",
-        "b": "(x2 – y2) 4 π",
-        "c": "(x2 – y2) 2",
+        "b": "(x2 – y2) π",
+        "c": "(x2 – y2)",
         "d": "π(x2 – y2)",
         "e": "2π(x2 – y2) π",
-        "f": "xy(x – y) 4",
-        "g": "πxy(x – y) 9 PART A Mathematics"
+        "f": "xy(x – y)",
+        "g": "πxy(x – y)"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -81,7 +99,7 @@
         "b": "lower than original higher than original",
         "c": "higher than original lower than original",
         "d": "higher than original higher than original",
-        "e": "the same as original the same as original 10 PART A Mathematics"
+        "e": "the same as original the same as original"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -96,20 +114,20 @@
         "e": "222",
         "f": "223",
         "g": "224",
-        "h": "225 11 PART A Mathematics"
+        "h": "225 11"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
     },
     {
-      "question": "S R 8cm 8cm P T Q 4cm [diagram not to scale] SQT is a right-angled triangle with the right angle at Q. : : The point R is on SQ such that SR RQ = 1 3 QRP is a right-angled triangle with the right angle at Q. PR = ST = 8cm QT = 4cm What is the length of PQ, in cm?",
+      "question": "S R 8cm 8cm P T Q 4cm SQT is a right-angled triangle with the right angle at Q. : : The point R is on SQ such that SR RQ = 1 3 QRP is a right-angled triangle with the right angle at Q. PR = ST = 8cm QT = 4cm What is the length of PQ, in cm?",
       "answers": {
         "a": "2 3",
         "b": "4 3",
         "c": "19",
         "d": "37",
         "e": "55",
-        "f": "61 12 PART A Mathematics"
+        "f": "61 12"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -136,16 +154,19 @@
         "d": "0",
         "e": "2",
         "f": "12",
-        "g": "43 13 PART A Mathematics"
+        "g": "43 13"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
     },
     {
-      "question": "An online company sells storage containers. The following items are available: capacity of container number available 2 litres 2 3 litres 3 7 litres 4 8 litres 1",
+      "question": "An online company sells storage containers. The following items are available: capacity of container number available 2 litres 2 3 litres 3 7 litres 4 8 litres 1 What is the probability that the two containers will have a combined capacity of exactly 10 litres? 7",
       "answers": {
         "a": "Option unavailable",
-        "b": "Option unavailable"
+        "b": "Option unavailable",
+        "c": "Option unavailable",
+        "d": "Option unavailable",
+        "e": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -159,53 +180,64 @@
         "d": "6 3−10",
         "e": "14 2−20",
         "f": "15 3−26",
-        "g": "21 3−38 15 PART A Mathematics"
+        "g": "21 3−38 15"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
     },
     {
-      "question": "P, Q and R are points on the circumference of a circle with centre O as shown in the diagram. O P 7 cm 140° Q R [diagram not to scale] Angle PQR = 140° PR = 7cm Which of the following expressions gives the radius of the circle, in cm?",
+      "question": "P, Q and R are points on the circumference of a circle with centre O as shown in the diagram. O P 7 cm 140° Q R Angle PQR = 140° PR = 7cm Which of the following expressions gives the radius of the circle, in cm?",
       "answers": {
         "a": "7sin10°",
         "b": "3.5sin55°",
         "c": "3.5sin70°",
-        "d": "7sin55° 3.5 E sin40° 7 F sin80° 3.5 G sin20° 7 H sin40° 16 PART A Mathematics"
+        "d": "7sin55° 3.5",
+        "e": "Option unavailable sin40°",
+        "f": "Option unavailable sin80° 3.5",
+        "g": "Option unavailable sin20°",
+        "h": "Option unavailable sin40°"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "Charlie has a bowl containing red sweets and green sweets only. The sweets are identical in all respects except colour. There are nine sweets in total in the bowl. Charlie eats two sweets from the bowl at random. 5 The probability of Charlie not eating any green sweets is 12 What is the probability that Charlie eats two green sweets? 2 A 27 1 B 12 1 C 9 4 D 27 1 E 6 1 F 4 7 G 12 17 PART A Mathematics",
+      "question": "Charlie has a bowl containing red sweets and green sweets only. The sweets are identical in all respects except colour. There are nine sweets in total in the bowl. Charlie eats two sweets from the bowl at random. 5 The probability of Charlie not eating any green sweets is 12 What is the probability that Charlie eats two green sweets? 2",
       "answers": {
         "a": "Option unavailable",
-        "b": "Option unavailable"
+        "b": "Option unavailable",
+        "c": "Option unavailable",
+        "d": "Option unavailable",
+        "e": "Option unavailable",
+        "f": "Option unavailable",
+        "g": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
     },
     {
-      "question": "The following right-angled triangles have the same hypotenuse length. 60° ycm 45° xcm [diagram not to scale] Which of the following is a correct expression for y in terms of x?",
+      "question": "The following right-angled triangles have the same hypotenuse length. 60° ycm 45° xcm Which of the following is a correct expression for y in terms of x?",
       "answers": {
         "a": "y = 2x 2x",
-        "b": "y = 2 2x",
-        "c": "y = 3 2x",
-        "d": "y = 6",
+        "b": "y = 2x",
+        "c": "y = 2x",
+        "d": "y =",
         "e": "y = 6x 6x",
-        "f": "y = 2 6 x",
-        "g": "y = 3 6x",
-        "h": "y = 6 18 PART A Mathematics"
+        "f": "y = 6 x",
+        "g": "y = 6x",
+        "h": "y ="
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
     },
     {
-      "question": "The greatest diagonal distance between the two vertices of a cuboid, as shown in the diagram, is 77 cm.",
+      "question": "The greatest diagonal distance between the two vertices of a cuboid, as shown in the diagram, is 77 cm. The sides of this smaller cuboid are 2cm, 3cm and xcm. What is the value of x, in cm? 5",
       "answers": {
-        "a": "similar cuboid has all its lengths exactly half the lengths of the original cuboid. The sides of this smaller cuboid are 2cm, 3cm and xcm. What is the value of x, in cm? 5 A 2",
-        "b": "5 5 2 C 2",
-        "d": "5 2 102 E 2",
-        "f": "102 19 PART A Mathematics"
+        "a": "Option unavailable",
+        "b": "5 5 2",
+        "c": "Option unavailable",
+        "d": "5 2 102",
+        "e": "Option unavailable",
+        "f": "102 19"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -219,7 +251,7 @@
         "d": "25",
         "e": "28",
         "f": "50",
-        "g": "56 20 PART A Mathematics"
+        "g": "56 20"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -227,8 +259,14 @@
     {
       "question": "A car journey is m miles long. One kilometre is equivalent to x miles. The car uses one litre of fuel to travel a distance of f kilometres. Fuel for the car costs p pence per litre. Which of the following expressions gives the cost of fuel for this journey, in pounds? (There are 100 pence in one pound.)",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "100fmpx 100fmp",
+        "b": "Option unavailable x 100mpx",
+        "c": "Option unavailable f 100mp",
+        "d": "Option unavailable fx fmpx",
+        "e": "Option unavailable 100 fmp",
+        "f": "Option unavailable 100x mpx",
+        "g": "Option unavailable 100f mp",
+        "h": "Option unavailable 100fx"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
@@ -242,7 +280,7 @@
         "d": "3",
         "e": "4",
         "f": "5",
-        "g": "infinitely many 22 PART B Physics PART B Physics 23 PART B Physics"
+        "g": "infinitely many"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -259,7 +297,7 @@
         "e": "108W",
         "f": "405W",
         "g": "1620W",
-        "h": "6480W 24 PART B Physics"
+        "h": "6480W"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -272,7 +310,7 @@
         "c": "0.83ρ",
         "d": "1.00ρ",
         "e": "1.20ρ",
-        "f": "1.44ρ 25 PART B Physics"
+        "f": "1.44ρ"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -299,7 +337,7 @@
         "b": "1.25ms–2",
         "c": "1.50ms–2",
         "d": "2.00ms–2",
-        "e": "2.60ms–2 26 PART B Physics"
+        "e": "2.60ms–2 26"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -314,7 +352,7 @@
         "e": "less than f equal to λ equal to c",
         "f": "less than f equal to λ less than c",
         "g": "less than f greater than λ equal to c",
-        "h": "less than f greater than λ less than c 27 PART B Physics"
+        "h": "less than f greater than λ less than c"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -347,19 +385,19 @@
       "answer": "c"
     },
     {
-      "question": "28 PART B Physics 28 A set of decorative lights consists of 20 lamps connected in series to a dc supply of constant voltage. The total power transferred by all the lamps is P. The set is designed so that if one of the lamps fails, that lamp becomes short-circuited and it then has zero resistance. The remaining lamps are still lit. If this happens, with the set connected to the same supply, what is the new total power transferred by the remaining 19 lamps? (Assume that the resistance of each functioning lamp remains constant.) ⎛19⎞ 2",
+      "question": "A set of decorative lights consists of 20 lamps connected in series to a dc supply of constant voltage. The total power transferred by all the lamps is P. The set is designed so that if one of the lamps fails, that lamp becomes short-circuited and it then has zero resistance. The remaining lamps are still lit. If this happens, with the set connected to the same supply, what is the new total power transferred by the remaining 19 lamps? (Assume that the resistance of each functioning lamp remains constant.) ⎛19⎞ 2",
       "answers": {
         "a": "⎜ ⎟ P ⎝20⎠ ⎛19⎞",
         "b": "⎜ ⎟P ⎝20⎠",
         "c": "P ⎛20⎞",
-        "d": "⎜ ⎟P ⎝19⎠ ⎛20⎞ 2",
+        "d": "⎜ ⎟P ⎝19⎠ ⎛20⎞",
         "e": "⎜ ⎟ P ⎝19⎠"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
     },
     {
-      "question": "29 PART B Physics 29 A train accelerates from rest along a straight, horizontal section of track. The force exerted on the train due to its motors is constant and there is a constant friction force of 1.8 ×107N. The graph shows how the momentum of the train changes with time. 14 momentum /106kgms–1 12 10 8 6 4 2 0 0 1 2 3 4 time /s What is the force exerted on the train due to its motors?",
+      "question": "A train accelerates from rest along a straight, horizontal section of track. The force exerted on the train due to its motors is constant and there is a constant friction force of 1.8 ×107N. The graph shows how the momentum of the train changes with time. 14 momentum /106kgms–1 12 10 8 6 4 2 0 0 1 2 3 4 time /s What is the force exerted on the train due to its motors?",
       "answers": {
         "a": "3.0 ×106N",
         "b": "6.0 ×106N",
@@ -374,11 +412,11 @@
       "answer": "e"
     },
     {
-      "question": "30 PART B Physics 30 A ship travels into a wave that is travelling in the opposite direction to the ship. The ship has a horizontal speed of 8.0ms–1. The speed of the wave is 3.0ms–1. The front of the ship rises and falls with a time period of 8.0s. What is the wavelength of the wave? 3",
+      "question": "A ship travels into a wave that is travelling in the opposite direction to the ship. The ship has a horizontal speed of 8.0ms–1. The speed of the wave is 3.0ms–1. The front of the ship rises and falls with a time period of 8.0s. What is the wavelength of the wave? 3",
       "answers": {
         "a": "m 8 5",
         "b": "m 8",
-        "c": "1.0m 11",
+        "c": "1.0m",
         "d": "m 8",
         "e": "24m",
         "f": "40m",
@@ -389,17 +427,20 @@
       "answer": "h"
     },
     {
-      "question": "31 PART B Physics 31 A 6.0V battery is connected to an 8.0Ω resistor and a filament lamp as shown in the circuit diagram. 6.0V Ω 8.0 A The reading on the ammeter is 0.25A. Which graph is a possible V–I graph for the filament lamp?",
+      "question": "A 6.0V battery is connected to an 8.0Ω resistor and a filament lamp as shown in the circuit diagram. 6.0V Ω 8.0 A The reading on the ammeter is 0.25A. Which graph is a possible V–I graph for the filament lamp?",
       "answers": {
-        "a": "V /V B V /V 2.0 4.0 0 0 0 0.25 0 0.25 I /A I /A",
-        "c": "V /V D V /V 2.0 6.0 0 0 0 0.25 0 0.25 I /A I /A",
-        "e": "V /V F V /V 4.0 6.0 0 0 0 0.25 0 0.25 I /A I /A"
+        "a": "V /V",
+        "b": "V /V 2.0 4.0 0 0 0 0.25 0 0.25 I /A I /A",
+        "c": "V /V",
+        "d": "V /V 2.0 6.0 0 0 0 0.25 0 0.25 I /A I /A",
+        "e": "V /V",
+        "f": "V /V 4.0 6.0 0 0 0 0.25 0 0.25 I /A I /A 32"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
     },
     {
-      "question": "32 PART B Physics 32 A uniform, horizontal magnetic field has magnetic field strength 0.60T and a direction from west to east.",
+      "question": "A uniform, horizontal magnetic field has magnetic field strength 0.60T and a direction from west to east. The wire carries a constant current. The wire has length 0.40m and mass 0.018kg. The resultant force acting vertically on the wire is zero. What are the magnitude and direction of the current in the wire? (gravitational field strength = 10Nkg–1) magnitude of current /A direction of current",
       "answers": {
         "a": "0.012 from north to south",
         "b": "0.012 from south to north",
@@ -414,7 +455,7 @@
       "answer": "g"
     },
     {
-      "question": "33 PART B Physics 33 The wavelength range of visible light is 400-700nm. Light with a frequency of 6.0 ×1014Hz is green. Microwaves used in cooking have a wavelength of 12cm. Which of the following statements is/are correct? 1 Light with a frequency of 7.5 ×1014Hz is red. 2 Microwaves used in cooking have a frequency of 2.5 ×109Hz. 3 Electromagnetic radiation with a frequency of 2.5 ×1015Hz can be used in thermal imaging of a building. (speed of light = 3.0 ×108ms–1)",
+      "question": "The wavelength range of visible light is 400-700nm. Light with a frequency of 6.0 ×1014Hz is green. Microwaves used in cooking have a wavelength of 12cm. Which of the following statements is/are correct? 1 Light with a frequency of 7.5 ×1014Hz is red. 2 Microwaves used in cooking have a frequency of 2.5 ×109Hz. 3 Electromagnetic radiation with a frequency of 2.5 ×1015Hz can be used in thermal imaging of a building. (speed of light = 3.0 ×108ms–1)",
       "answers": {
         "a": "none of them",
         "b": "1 only",
@@ -423,13 +464,13 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
     },
     {
-      "question": "34 PART B Physics 34 There is a high-speed straight railway line between two cities that are 60km apart. The train stops at both cities. The train accelerates at a uniform rate of 1.5ms–2 to a maximum speed of 120ms–1. When braking, it decelerates at a uniform rate of 2.0ms–2. What is the minimum time taken by the train to travel from one city to the other?",
+      "question": "There is a high-speed straight railway line between two cities that are 60km apart. The train stops at both cities. The train accelerates at a uniform rate of 1.5ms–2 to a maximum speed of 120ms–1. When braking, it decelerates at a uniform rate of 2.0ms–2. What is the minimum time taken by the train to travel from one city to the other?",
       "answers": {
         "a": "140s",
         "b": "355s",
@@ -443,16 +484,22 @@
       "answer": "e"
     },
     {
-      "question": "35 PART B Physics 35 A metal block has mass M. Heat is transferred to the block at a constant rate P. The graph shows how the change in temperature ∆T of the block from its initial temperature varies with time t. change in temperature ∆T 0 0 time t The gradient of the line is k. Which expression gives the specific heat capacity of the metal from which the block is made? (Assume that no heat is transferred out of the block during the time interval shown by the graph.) 1 A MPk M B Pk Mk C P P D Mk PM E k Pk F M k G MP",
+      "question": "A metal block has mass M. Heat is transferred to the block at a constant rate P. The graph shows how the change in temperature ∆T of the block from its initial temperature varies with time t. change in temperature ∆T 0 0 time t The gradient of the line is k. Which expression gives the specific heat capacity of the metal from which the block is made? (Assume that no heat is transferred out of the block during the time interval shown by the graph.) 1",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "Option unavailable MPk M",
+        "b": "Option unavailable Pk Mk",
+        "c": "Option unavailable P P",
+        "d": "Option unavailable Mk PM",
+        "e": "Option unavailable k Pk",
+        "f": "Option unavailable M k",
+        "g": "Option unavailable MP",
+        "h": "MPk"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
     },
     {
-      "question": "36 PART B Physics 36 A skydiver of mass 80kg is accelerating vertically downwards through the air. At one instant in time the skydiver has a speed of 5.0ms–1. After travelling a further distance of 20m downwards the skydiver’s speed has increased to 10ms–1. What is the average force of air resistance acting on the skydiver over the 20m? (gravitational field strength = 10Nkg–1)",
+      "question": "A skydiver of mass 80kg is accelerating vertically downwards through the air. At one instant in time the skydiver has a speed of 5.0ms–1. After travelling a further distance of 20m downwards the skydiver’s speed has increased to 10ms–1. What is the average force of air resistance acting on the skydiver over the 20m? (gravitational field strength = 10Nkg–1)",
       "answers": {
         "a": "600N",
         "b": "650N",
@@ -464,10 +511,14 @@
       "answer": "b"
     },
     {
-      "question": "A radioactive nuclide X decays in a single stage to a stable nuclide R.",
+      "question": "A radioactive nuclide X decays in a single stage to a stable nuclide R. When a rock formed it contained equal numbers of atoms of all four nuclides X, Y, R and S. The half-life of X is T years and the half-life of Y is 2T years. number of atomsofR What is the value of at a time 4T years after the rock has formed? number of atomsof S (Assume that no other processes add or remove X, Y, R or S from the rock during this time.) 1",
       "answers": {
-        "a": "radioactive nuclide Y decays in a single stage to a stable nuclide S. When a rock formed it contained equal numbers of atoms of all four nuclides X, Y, R and S. The half-life of X is T years and the half-life of Y is 2T years. number of atomsofR What is the value of at a time 4T years after the rock has formed? number of atomsof S (Assume that no other processes add or remove X, Y, R or S from the rock during this time.) 1 A 4 17 B 20 31 C 28 6 D 5 5 E 4",
-        "f": "2 37 PART B Physics"
+        "a": "Option unavailable",
+        "b": "Option unavailable",
+        "c": "Option unavailable",
+        "d": "Option unavailable",
+        "e": "Option unavailable",
+        "f": "2 37"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -495,7 +546,7 @@
         "e": "100Pa",
         "f": "400Pa",
         "g": "420Pa",
-        "h": "500Pa 38 PART B Physics"
+        "h": "500Pa"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -503,12 +554,12 @@
     {
       "question": "A pulse of ultrasound travels from one end of a solid uniform rod of length L, starting at time t = 0. The pulse is partially reflected by a crack in the rod and partially by the far end of the rod. These two reflected pulses travel back along the rod, arriving at the end from which they started at times t and t , where t > t . 1 2 2 1 What is the distance between the crack and the far end of the rod? t",
       "answers": {
-        "a": "1 L t 2 t",
-        "b": "2 L t 1 t",
-        "c": "1 L 2t 2 t",
-        "d": "2 L 2t 1 (t − t )",
-        "e": "2 1 L t 2 (t − t )",
-        "f": "2 1 L 2t 2 39 BLANK PAGE 40 PART C Chemistry PART C Chemistry"
+        "a": "1 L t t",
+        "b": "2 L t t",
+        "c": "1 L 2t t",
+        "d": "2 L 2t (t − t )",
+        "e": "2 1 L t (t − t )",
+        "f": "2 1 L 2t"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -516,7 +567,7 @@
   ],
   "partCChemistry": [
     {
-      "question": "41 PART C Chemistry 41 The following equations represent the reactions of four metals M, Q, R and T: M(s) + HCl(aq) → no reaction R(s) + TSO (aq) → RSO (aq) + T(s) 4 4 M(s) + QNO (aq) → MNO (aq) + Q(s) 3 3 T(s) + 2HCl(aq) → TCl (aq) + H (g) 2 2 Which option lists the order of reactivity of the four metals, from the most to the least reactive?",
+      "question": "The following equations represent the reactions of four metals M, Q, R and T: M(s) + HCl(aq) → no reaction R(s) + TSO (aq) → RSO (aq) + T(s) 4 4 M(s) + QNO (aq) → MNO (aq) + Q(s) 3 3 T(s) + 2HCl(aq) → TCl (aq) + H (g) 2 2 Which option lists the order of reactivity of the four metals, from the most to the least reactive?",
       "answers": {
         "a": "M, Q, R, T",
         "b": "M, R, T, Q",
@@ -531,7 +582,7 @@
       "answer": "f"
     },
     {
-      "question": "42 PART C Chemistry 42 Consider the following three ions of calcium observed in mass spectrometry: 40Ca2+ 42Ca2+ 43Ca+ Which of the following statements is/are correct? 1 All three ions have the electron configuration 2,8,8 2 42Ca2+ has more neutrons than 40Ca2+ 3 42Ca2+ has more protons than 43Ca+",
+      "question": "Consider the following three ions of calcium observed in mass spectrometry: 40Ca2+ 42Ca2+ 43Ca+ Which of the following statements is/are correct? 1 All three ions have the electron configuration 2,8,8 2 42Ca2+ has more neutrons than 40Ca2+ 3 42Ca2+ has more protons than 43Ca+",
       "answers": {
         "a": "none of them",
         "b": "1 only",
@@ -540,7 +591,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -552,19 +603,19 @@
         "b": "24.3",
         "c": "24.5",
         "d": "24.8",
-        "e": "25.0 43 PART C Chemistry"
+        "e": "25.0 43"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
     },
     {
-      "question": "A portion of the Periodic Table is given: H Li C O F Na Si Cl K Br Which one of these trends is correct?",
+      "question": "A portion of the Periodic Table is given: Li C O F Na Si Cl K Br Which one of these trends is correct?",
       "answers": {
         "a": "Boiling point: K > Na > Li",
         "b": "Electrical conductivity: NaCl(l) > NaCl(s) > Na(s)",
         "c": "Reactivity: Br > Cl > F 2 2 2",
         "d": "Melting point: SiO > H O > Na O 2 2 2",
-        "e": "Number of double bonds per molecule: CO > O > H O 2 2 2 44 PART C Chemistry"
+        "e": "Number of double bonds per molecule: CO > O > H O 2 2 2 44"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -576,7 +627,7 @@
         "b": "An endothermic reaction occurs after xcm3 of hydrochloric acid is added.",
         "c": "The reaction rate decreases as the acid is used up.",
         "d": "The sodium hydroxide has been neutralised by xcm3 hydrochloric acid.",
-        "e": "The sodium hydroxide becomes a weaker base as the volume of the resulting solution increases. 45 PART C Chemistry"
+        "e": "The sodium hydroxide becomes a weaker base as the volume of the resulting solution increases."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -584,9 +635,12 @@
     {
       "question": "Which one of the following represents the repeating unit of poly(pent-2-ene)?",
       "answers": {
-        "a": "B",
-        "c": "D",
-        "e": "F"
+        "a": "Option A (diagram/text unavailable in PDF text extraction).",
+        "b": "Option B (diagram/text unavailable in PDF text extraction).",
+        "c": "Option C (diagram/text unavailable in PDF text extraction).",
+        "d": "Option D (diagram/text unavailable in PDF text extraction).",
+        "e": "Option E (diagram/text unavailable in PDF text extraction).",
+        "f": "Option F (diagram/text unavailable in PDF text extraction)."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -595,13 +649,13 @@
       "question": "X is a gaseous element. X can react explosively with hydrogen to produce a single product. When dissolved in water, this product forms an acidic aqueous solution Y. When aqueous silver nitrate is added to solution Y, a white precipitate forms. Solution Y reacts with substance Z to form two products only. One of these products forms a white precipitate when aqueous sodium hydroxide is added to it. Which of the following could be X and Z? X Z",
       "answers": {
         "a": "Br CaCO 2 3",
-        "b": "Br CuO 2",
-        "c": "Br Mg 2",
+        "b": "Br CuO",
+        "c": "Br Mg",
         "d": "Cl CaCO 2 3",
-        "e": "Cl CuO 2",
-        "f": "Cl Mg 2",
+        "e": "Cl CuO",
+        "f": "Cl Mg",
         "g": "O CaCO 2 3",
-        "h": "O Mg 2 46 PART C Chemistry"
+        "h": "O Mg"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -619,16 +673,16 @@
       "answer": "d"
     },
     {
-      "question": "The table shows the reagents in three organic reactions. Which of the rows correctly show(s) the product(s) obtained from the specified reactants? reactants product(s) 1 CH CH=CH and HBr 1,2-dibromopropane (only) 3 2",
+      "question": "The table shows the reagents in three organic reactions. Which of the rows correctly show(s) the product(s) obtained from the specified reactants? reactants product(s) 1 CH CH=CH and HBr 1,2-dibromopropane (only) 3 2 2 2 5 3 methyl propanoate and water presence of an H+(aq) catalyst 3 C H OH and Na sodium ethanoate and hydrogen 2 5",
       "answers": {
-        "c": "2 only",
         "a": "none of them",
         "b": "1 only",
+        "c": "2 only",
         "d": "3 only",
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 47 PART C Chemistry"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -636,25 +690,25 @@
     {
       "question": "Chlorine gas reacts with hot concentrated aqueous sodium hydroxide to form sodium chloride, sodium chlorate(V) and water. The unbalanced ionic equation for this reaction is: uCl + vOH– → wCl– + xClO – + yH O 2 3 2 What is the simplest ratio of w:x in the balanced equation?",
       "answers": {
-        "a": "1 : 1",
-        "b": "1 : 2",
-        "c": "2 : 1",
-        "d": "1 : 5",
-        "e": "5 : 1",
-        "f": "1 : 7",
-        "g": "7 : 1 48 PART C Chemistry"
+        "a": "1 :",
+        "b": "1 :",
+        "c": "2 :",
+        "d": "1 :",
+        "e": "5 :",
+        "f": "1 :",
+        "g": "7 :"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "An experiment was carried out to separate the four amino acids present in a mixture of amino acids.",
+      "question": "An experiment was carried out to separate the four amino acids present in a mixture of amino acids. placed in solvent 1 and left until the solvent nearly reached the top of the paper. The paper was then thoroughly dried and turned by 90°. The procedure was then repeated with solvent 2. The amino acids were then identified with reference to known R values in the respective f solvents. The final positions of the amino acids on the chromatograph are shown on the following diagram. 49 solvent front 2 Which of the following statements is correct?",
       "answers": {
         "a": "Leucine travels further relative to the solvent front in solvent 2 than in solvent 1.",
         "b": "Lysine has a greater R value in solvent 1 than it has in solvent 2. f",
         "c": "Solvent 1 alone could be used to separate all four amino acids.",
         "d": "Solvent 2 alone could be used to separate all four amino acids.",
-        "e": "The R value of tyrosine in solvent 1 is 0.6 and in solvent 2 is 0.7. f PART C Chemistry"
+        "e": "The R value of tyrosine in solvent 1 is 0.6 and in solvent 2 is 0.7. f"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -664,8 +718,8 @@
       "answers": {
         "a": "N 2",
         "b": "NO",
-        "c": "NO 2",
-        "d": "NO 3",
+        "c": "NO",
+        "d": "NO",
         "e": "N O 2 5"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -678,7 +732,7 @@
         "b": "12.5cm3",
         "c": "20.0cm3",
         "d": "25.0cm3",
-        "e": "100cm3 50 PART C Chemistry"
+        "e": "100cm3 50"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -693,7 +747,7 @@
         "e": "73.0°C",
         "f": "100°C",
         "g": "200°C",
-        "h": "223°C 51 PART C Chemistry"
+        "h": "223°C"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -718,33 +772,33 @@
         "b": "110dm3",
         "c": "111dm3",
         "d": "125dm3",
-        "e": "200dm3 52 PART C Chemistry"
+        "e": "200dm3 52"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
     },
     {
-      "question": "The electrolysis of molten potassium chloride in an inert atmosphere produces potassium at the negative electrode and chlorine at the positive electrode. The electrolysis of aqueous copper(II) sulfate solution deposits copper on the negative electrode. The masses of potassium, chlorine and copper produced or deposited in these experiments were recorded. Assume that the same number of electrons is transferred during the electrolysis of molten potassium chloride and aqueous copper(II) sulfate solution. Which of the following gives the elements arranged in order of the mass produced/deposited during these electrolysis experiments, from lowest mass to highest mass? (A values: Cl = 35.5; K = 39.0; Cu = 63.5) r",
+      "question": "The electrolysis of molten potassium chloride in an inert atmosphere produces potassium at the negative electrode and chlorine at the positive electrode. The electrolysis of aqueous copper(II) sulfate solution deposits copper on the negative electrode. The masses of potassium, chlorine and copper produced or deposited in these experiments were recorded. Assume that the same number of electrons is transferred during the electrolysis of molten potassium chloride and aqueous copper(II) sulfate solution. Which of the following gives the elements arranged in order of the mass produced/deposited during these electrolysis experiments, from lowest mass to highest mass?",
       "answers": {
         "a": "chlorine, copper, potassium",
         "b": "chlorine, potassium, copper",
         "c": "copper, chlorine, potassium",
         "d": "copper, potassium, chlorine",
         "e": "potassium, chlorine, copper",
-        "f": "potassium, copper, chlorine 53 PART C Chemistry"
+        "f": "potassium, copper, chlorine"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
     },
     {
-      "question": "0.500g of magnesium (an excess) was added to dilute hydrochloric acid. The following graph shows the total volume of the gas released over time as the reaction progresses. All volumes were measured in cm3 at room temperature and pressure. What is the mass of magnesium remaining after two seconds? (A value: Mg = 24. Assume that the volume of one mole of gas at room temperature and r pressure is 24.0dm3.)",
+      "question": "0.500g of magnesium (an excess) was added to dilute hydrochloric acid. The following graph shows the total volume of the gas released over time as the reaction progresses. All volumes were measured in cm3 at room temperature and pressure. What is the mass of magnesium remaining after two seconds?",
       "answers": {
         "a": "0.024g",
         "b": "0.036g",
         "c": "0.048g",
         "d": "0.452g",
         "e": "0.464g",
-        "f": "0.476g 54 PART C Chemistry"
+        "f": "0.476g"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -769,7 +823,7 @@
         "b": "1g 3g 6g 10g 15g",
         "c": "3g 6g 9g 12g 15g",
         "d": "11g 12g 13g 14g 15g",
-        "e": "6g 10g 13g 15g 15g 55 BLANK PAGE 56 PART D Biology PART D Biology 57 PART D Biology"
+        "e": "6g 10g 13g 15g 15g"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -784,7 +838,7 @@
         "c": "2 and 3 only",
         "d": "1, 2 and 3 only",
         "e": "2, 3 and 4 only",
-        "f": "1, 2, 3 and 4"
+        "f": "1, 2, 3 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -796,7 +850,7 @@
         "b": "It may have no nucleus.",
         "c": "It may contain chloroplasts.",
         "d": "It contains X and Y chromosomes.",
-        "e": "It is not able to respire. 58 PART D Biology"
+        "e": "It is not able to respire."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -811,7 +865,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 only 59 PART D Biology"
+        "h": "1, 2 and 3 only"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -824,7 +878,7 @@
         "c": "insulin adrenaline glucagon adrenaline",
         "d": "insulin insulin glucagon",
         "e": "glucagon insulin glucagon",
-        "f": "glucagon glucagon insulin 60 PART D Biology"
+        "f": "glucagon glucagon insulin"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -839,7 +893,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 61 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -854,7 +908,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 62 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
@@ -869,7 +923,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 63 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -884,7 +938,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 64 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -902,12 +956,15 @@
       "answer": "b"
     },
     {
-      "question": "One strand of a section of DNA has the following sequence of bases: AATCGGTCTTGCGGCCAAGGCCCTT The complementary strand is not shown. The charts show the proportions of the four bases A, C, G and T. Which chart shows the correct proportions of bases for this section of double-stranded DNA? (Assume no mutations.)",
+      "question": "One strand of a section of DNA has the following sequence of bases: AATCGGTCTTGCGGCCAAGGCCCTT The complementary strand is not shown. The charts show the proportions of the four bases A, C, G and T. Which chart shows the correct proportions of bases for this section of double-stranded DNA? (Assume no mutations.) T C C T G T G 65",
       "answers": {
-        "a": "A",
-        "c": "C C A T G T G",
-        "g": "T 65 PART D Biology",
-        "d": "E F"
+        "a": "Option A (diagram/text unavailable in PDF text extraction).",
+        "b": "Option B (diagram/text unavailable in PDF text extraction).",
+        "c": "Option C (diagram/text unavailable in PDF text extraction).",
+        "d": "Option D (diagram/text unavailable in PDF text extraction).",
+        "e": "Option E (diagram/text unavailable in PDF text extraction).",
+        "f": "Option F (diagram/text unavailable in PDF text extraction).",
+        "g": "Option G (diagram/text unavailable in PDF text extraction)."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -922,7 +979,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 66 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -937,7 +994,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 67 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -952,7 +1009,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 68 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
@@ -965,7 +1022,7 @@
         "c": "37.5%",
         "d": "50%",
         "e": "62.5%",
-        "f": "75% 69 PART D Biology"
+        "f": "75%"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -977,7 +1034,7 @@
         "b": "Some cancers result from divisions like that shown for stem cell 1.",
         "c": "The total number of stem cells increases if they divide like stem cell 2.",
         "d": "Stem cells in adults divide like stem cell 3.",
-        "e": "The total number of stem cells is maintained if they divide like stem cell 3. 70 PART D Biology"
+        "e": "The total number of stem cells is maintained if they divide like stem cell 3."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -985,15 +1042,17 @@
     {
       "question": "A fungus feeds by releasing amylase onto starchy food. The soluble products of the breakdown of starch are absorbed by the fungus. Test tubes were set up containing a mixture of starch solution and fungus. Each test tube was maintained at a different temperature between 5°C and 45°C. Samples of the mixture were removed early in the experiments to determine the initial rates of this enzyme-catalysed reaction. The results were plotted. All of the other variables were kept constant. Which graph shows the expected results?",
       "answers": {
-        "a": "rate of B rate of reaction reaction 0 0 5 45 5 45 temperature/°C temperature/°C",
-        "c": "rate of D rate of reaction reaction 0 0 5 45 5 45 temperature / °C temperature / °C",
-        "e": "rate of reaction 0 5 45 temperature/°C 71 PART D Biology"
+        "a": "rate of",
+        "b": "rate of reaction reaction 0 0 5 45 5 45 temperature/°C temperature/°C",
+        "c": "rate of",
+        "d": "rate of reaction reaction 0 0 5 45 5 45 temperature / °C temperature / °C",
+        "e": "rate of reaction 0 5 45 temperature/°C 71"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "Red blood cells are produced by stem cells in the bone marrow.",
+      "question": "Red blood cells are produced by stem cells in the bone marrow. The person has a consistent average total blood volume of 0.006m3. Their total red blood cell count does not change and, on average, red blood cells have a lifespan of 100 days. Which of the following statements is/are correct? 1 Red blood cells are phagocytic cells. 2 The average rate of production of red blood cells is 1 ×1010 cells per hour. 3 The stem cells that produce red blood cells do not have nuclei.",
       "answers": {
         "a": "none of them",
         "b": "1 only",
@@ -1002,7 +1061,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 72 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -1017,7 +1076,7 @@
         "e": "P and Q only",
         "f": "P and R only",
         "g": "P and S only",
-        "h": "Q and R only 73 PART D Biology"
+        "h": "Q and R only"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -1032,13 +1091,13 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 4 only",
-        "h": "3 and 4 only 74 PART D Biology"
+        "h": "3 and 4 only"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
     },
     {
-      "question": "The kite diagram shows the distribution of dandelions and daisies along a transect in a field.",
+      "question": "The kite diagram shows the distribution of dandelions and daisies along a transect in a field. Each square on the vertical axis represents 1 plant. For example, in the quadrat centred at 5m there were 6 daisies. daisies 0 dandelions 0 0 5 10 15 20 25 30 distance/m Which of the following statements about the data is/are correct? 1 Across the transect, the number of dandelions is proportional to the number of daisies. 2 Repeating the experiment along a different transect would result in an identical pattern. 3 The density of dandelions at 5m is 36 plants per square metre.",
       "answers": {
         "a": "none of them",
         "b": "1 only",
@@ -1047,7 +1106,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 75 76"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"

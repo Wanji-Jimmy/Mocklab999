@@ -26,8 +26,8 @@
         "d": "x > –2.5",
         "e": "x < 1.2",
         "f": "x > 1.2",
-        "g": "x < 10",
-        "h": "x > 10 6 PART A Mathematics"
+        "g": "x <",
+        "h": "x >"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
@@ -35,22 +35,27 @@
     {
       "question": "The equation gives y in terms of x: ⎛ x⎞ 2 y=3−4⎜1− ⎟ ⎝ 2⎠ Which one of the following is a rearrangement for x in terms of y? 3− y",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "x=−2 ± 4− y",
+        "b": "x=−2 ± 3− y",
+        "c": "x=1± 3− y",
+        "d": "x=1± 3− y",
+        "e": "x=2 ± 4− y",
+        "f": "x=2 ± 3+ y",
+        "g": "x=2 ±"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "4 4− y",
+      "question": "The resistance to the motion of a car is directly proportional to the square of the speed of the car. The car increases its speed by 20%. What is the percentage increase in the resistance to the motion of the car?",
       "answers": {
+        "a": "20%",
         "b": "24%",
         "c": "44%",
         "d": "120%",
         "e": "224%",
         "f": "240%",
-        "g": "400% 7 PART A Mathematics",
-        "a": "20%"
+        "g": "400%"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -69,10 +74,14 @@
       "answer": "e"
     },
     {
-      "question": "Which of the following is a simplification of x(3x+1) 4− x2(3x2 −2x−1) 12x3 −8x2 −7x−1 A x(3x−1)(x−1) 4x2 +4x−1 B x(x+1) 4x2 +4x+1 C x(x+1) 4x2 −4x−1 D x(x−1) 4x2 −4x+1 E x(x−1) 12x3 −8x2 −x+1 F x(3x−1)(x−1) 8 PART A Mathematics",
+      "question": "Which of the following is a simplification of x(3x+1) 4− x2(3x2 −2x−1) 12x3 −8x2 −7x−1",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "Option unavailable x(3x−1)(x−1) 4x2 +4x−1",
+        "b": "Option unavailable x(x+1) 4x2 +4x+1",
+        "c": "Option unavailable x(x+1) 4x2 −4x−1",
+        "d": "Option unavailable x(x−1) 4x2 −4x+1",
+        "e": "Option unavailable x(x−1) 12x3 −8x2 −x+1",
+        "f": "Option unavailable x(3x−1)(x−1)"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -90,7 +99,7 @@
       "answer": "b"
     },
     {
-      "question": "The diagram shows a right-angled triangle, with sides of length x + 4, 2x + 2 and 3x, all in cm. x + 4 3x 2x + 2 [diagram not to scale] What is the area, in cm2, of the triangle?",
+      "question": "The diagram shows a right-angled triangle, with sides of length x + 4, 2x + 2 and 3x, all in cm. x + 4 3x 2x + 2 What is the area, in cm2, of the triangle?",
       "answers": {
         "a": "10",
         "b": "12",
@@ -98,13 +107,13 @@
         "d": "36",
         "e": "40",
         "f": "54",
-        "g": "70"
+        "g": "70 9"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
     },
     {
-      "question": "9 PART A Mathematics 9 Given that 92x−1 × 1 = 81x 27x what is the value of x? 2",
+      "question": "Given that 92x−1 × 1 = 81x 27x what is the value of x? 2",
       "answers": {
         "a": "− 3 2",
         "b": "− 5 1",
@@ -122,13 +131,13 @@
         "b": "4 2 1",
         "c": "5 3",
         "d": "8",
-        "e": "14 10 PART A Mathematics"
+        "e": "14 10"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
     },
     {
-      "question": "Q S 3 cm 4 cm 4 cm 3 cm P R T [diagram not to scale] The diagram shows two congruent right-angled triangles PQR and TSR with right angles at Q and S, respectively. PQ = TS = 3cm QR = SR = 4cm PRT is a straight line. What is the length, in cm, of QS?",
+      "question": "Q S 3 cm 4 cm 4 cm 3 cm P R T The diagram shows two congruent right-angled triangles PQR and TSR with right angles at Q and S, respectively. PQ = TS = 3cm QR = SR = 4cm PRT is a straight line. What is the length, in cm, of QS?",
       "answers": {
         "a": "4",
         "b": "3 2",
@@ -136,7 +145,7 @@
         "d": "4 2",
         "e": "6.4",
         "f": "8.2",
-        "g": "10 11 PART A Mathematics"
+        "g": "10 11"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -164,7 +173,7 @@
         "c": "1",
         "d": "9",
         "e": "14",
-        "f": "17 12 PART A Mathematics"
+        "f": "17 12"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -179,35 +188,40 @@
         "e": "(1,–11)",
         "f": "(4,–1)",
         "g": "(7,1)",
-        "h": "(8,10) 13 PART A Mathematics"
+        "h": "(8,10)"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
     },
     {
-      "question": "Box A contains exactly 10 balls, of which 6 are red and 4 are blue. Box B contains exactly 15 balls, of which 3 are red and 12 are blue. All the balls are identical in every respect, apart from colour. One of the two boxes is chosen at random by tossing two fair coins, as follows: “If both coins show heads, box A is selected. Otherwise box B is selected.” One ball is then randomly taken from the selected box. What is the probability that a red ball is taken? 9 A 400 3 B 25 3 C 10 2 D 5 1 E 2 4 F 5 323 G 400 14 PART A Mathematics",
+      "question": "Box A contains exactly 10 balls, of which 6 are red and 4 are blue. Box B contains exactly 15 balls, of which 3 are red and 12 are blue. All the balls are identical in every respect, apart from colour. One of the two boxes is chosen at random by tossing two fair coins, as follows: “If both coins show heads, box A is selected. Otherwise box B is selected.” One ball is then randomly taken from the selected box. What is the probability that a red ball is taken? 9",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "Option unavailable 400 3",
+        "b": "Option unavailable",
+        "c": "Option unavailable",
+        "d": "Option unavailable",
+        "e": "Option unavailable",
+        "f": "Option unavailable 323",
+        "g": "Option unavailable 400 14"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
     },
     {
-      "question": "Three towns Ryeton, Tonbridge and Uphampton are represented on the diagram by the points labelled R, T and U, respectively. North T R U [diagram not to scale] The distance from Tonbridge to Ryeton is the same as the distance from Tonbridge to Uphampton. Uphampton is south of Tonbridge. Ryeton is on a bearing of 210° from Tonbridge. What is the bearing of Uphampton from Ryeton?",
+      "question": "Three towns Ryeton, Tonbridge and Uphampton are represented on the diagram by the points labelled R, T and U, respectively. North T R U The distance from Tonbridge to Ryeton is the same as the distance from Tonbridge to Uphampton. Uphampton is south of Tonbridge. Ryeton is on a bearing of 210° from Tonbridge. What is the bearing of Uphampton from Ryeton?",
       "answers": {
         "a": "030°",
         "b": "075°",
         "c": "105°",
         "d": "150°",
         "e": "300°",
-        "f": "345° 15 PART A Mathematics"
+        "f": "345°"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
     },
     {
-      "question": "A list of five numbers has mean x, median y and range z.",
+      "question": "A list of five numbers has mean x, median y and range z. Which of the following statements must be true? 1 The median of the six numbers cannot be one of the numbers in the list. 2 The mean of the six numbers is greater than x. 3 The range of the six numbers is greater than z.",
       "answers": {
         "a": "none of them",
         "b": "1 only",
@@ -216,19 +230,20 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 16 PART A Mathematics"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
     },
     {
-      "question": "18 h 12cm [diagram not to scale]",
+      "question": "h 12cm The volume of the pyramid, in cm3, is equal to the total surface area of the pyramid, in cm2. What is the value of h? 1 (volume of pyramid = × area of base × vertical height) 3 72",
       "answers": {
-        "a": "solid pyramid has a square base of side length 12cm and a vertical height of hcm. The volume of the pyramid, in cm3, is equal to the total surface area of the pyramid, in cm2. What is the value of h? 1 (volume of pyramid = × area of base × vertical height) 3 72 A 35",
+        "a": "Option unavailable",
         "b": "2 3",
-        "c": "6 144 D 23",
+        "c": "6 144",
+        "d": "Option unavailable",
         "e": "8",
-        "f": "2 21 17 BLANK PAGE 18 PART B Physics PART B Physics"
+        "f": "2 21 17 18 19"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -236,7 +251,7 @@
   ],
   "partBPhysics": [
     {
-      "question": "19 PART B Physics 19 A transverse wave is travelling through a medium. The distance between successive wave peaks is 8.4cm and the total distance travelled by a particle during one complete oscillation is 5.6cm. What is the amplitude and wavelength of the wave? amplitude/cm wavelength/cm",
+      "question": "A transverse wave is travelling through a medium. The distance between successive wave peaks is 8.4cm and the total distance travelled by a particle during one complete oscillation is 5.6cm. What is the amplitude and wavelength of the wave? amplitude/cm wavelength/cm",
       "answers": {
         "a": "1.4 4.2",
         "b": "1.4 8.4",
@@ -245,13 +260,13 @@
         "e": "2.8 4.2",
         "f": "2.8 8.4",
         "g": "4.2 2.8",
-        "h": "4.2 5.6"
+        "h": "4.2 5.6 20"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
     },
     {
-      "question": "20 PART B Physics 20 A builder lifts bags of cement onto the back of a lorry. Each bag has a mass of 25kg. It takes the builder 2.5 minutes to load ten bags. 1.5m bag of cement 25kg 2.0m [diagram not to scale] What are the total work done, T, on the ten bags and the average power required for T? (gravitational field strength = 10Nkg–1) total work done T /J average power /W",
+      "question": "A builder lifts bags of cement onto the back of a lorry. Each bag has a mass of 25kg. It takes the builder 2.5 minutes to load ten bags. 1.5m bag of cement 25kg 2.0m What are the total work done, T, on the ten bags and the average power required for T? (gravitational field strength = 10Nkg–1) total work done T /J average power /W",
       "answers": {
         "a": "375 2.5",
         "b": "375 150",
@@ -260,13 +275,13 @@
         "e": "3750 25",
         "f": "3750 1500",
         "g": "6250 42",
-        "h": "6250 2500"
+        "h": "6250 2500 21"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "21 PART B Physics 21 The current–voltage graph for a diode is shown. current /mA 16 14 12 10 8 6 4 2 0 –0.6 –0.4 –0.2 0 0.2 0.4 0.6 0.8 1.0 1.2 1.4 voltage /V The diode is connected in series with a resistor and a 6.0V battery. The current in the circuit is 8.0mA. What is the resistance of the resistor? (Assume that the battery has negligible resistance.)",
+      "question": "The current–voltage graph for a diode is shown. current /mA 16 14 12 10 8 6 4 2 0 –0.6 –0.4 –0.2 0 0.2 0.4 0.6 0.8 1.0 1.2 1.4 voltage /V The diode is connected in series with a resistor and a 6.0V battery. The current in the circuit is 8.0mA. What is the resistance of the resistor? (Assume that the battery has negligible resistance.)",
       "answers": {
         "a": "0.15Ω",
         "b": "0.60Ω",
@@ -280,7 +295,7 @@
       "answer": "f"
     },
     {
-      "question": "22 PART B Physics 22 Two electromagnetic waves P and Q travel in a vacuum and the ratio of their wavelengths is: wavelengthof P = 1.0 ×108 wavelength of Q Which row in the table shows the ratio of their speeds, the ratio of their frequencies, and identifies the possible natures of P and Q? speed of P frequency of P nature of P nature of Q speed of Q frequency of Q",
+      "question": "Two electromagnetic waves P and Q travel in a vacuum and the ratio of their wavelengths is: wavelengthof P = 1.0 ×108 wavelength of Q Which row in the table shows the ratio of their speeds, the ratio of their frequencies, and identifies the possible natures of P and Q? speed of P frequency of P nature of P nature of Q speed of Q frequency of Q",
       "answers": {
         "a": "1.0 1.0 ×10–8 microwave X-ray",
         "b": "1.0 1.0 ×10–8 microwave radio wave",
@@ -301,7 +316,7 @@
         "b": "39°C",
         "c": "54°C",
         "d": "75°C",
-        "e": "96°C 23 PART B Physics"
+        "e": "96°C"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -316,7 +331,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 24 PART B Physics"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -342,7 +357,7 @@
         "c": "6000W",
         "d": "24000W",
         "e": "120000W",
-        "f": "9600000W 25 PART B Physics"
+        "f": "9600000W"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -355,7 +370,7 @@
         "c": "3.0g",
         "d": "9.0g",
         "e": "27g",
-        "f": "36g 26 PART B Physics"
+        "f": "36g"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -370,13 +385,13 @@
         "e": "0.80 4.0 20",
         "f": "0.80 4.0 40",
         "g": "0.80 8.0 20",
-        "h": "0.80 8.0 40 27 PART B Physics"
+        "h": "0.80 8.0 40 27"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
     },
     {
-      "question": "A U-shaped permanent magnet rests on a balance.",
+      "question": "A U-shaped permanent magnet rests on a balance. perpendicular to the horizontal magnetic field. There is a current of 2.0A in the wire and the reading on the balance is 202g. When the direction of the 2.0A current is reversed, the reading changes to 198g. What is the strength of the magnetic field? (gravitational field strength = 10Nkg–1)",
       "answers": {
         "a": "0.020T",
         "b": "0.040T",
@@ -391,11 +406,11 @@
     {
       "question": "The radioactive isotope X becomes the stable isotope Y after a succession of decays involving only the emission of alpha and beta (β–) particles. During the decay of one nucleus from X to Y, a total of seven particles are emitted. It is known that more of these particles are alpha particles than beta particles. The atomic number of X is Z and the mass number of X is A. Which row in the table could give the atomic number and the mass number of Y? atomic number of Y mass number of Y",
       "answers": {
-        "a": "Z – 2 A – 12",
-        "b": "Z – 5 A – 8",
-        "c": "Z – 8 A – 20",
-        "d": "Z – 10 A – 24",
-        "e": "Z – 11 A – 16 28 PART B Physics"
+        "a": "Z – 2 A –",
+        "b": "Z – 5 A –",
+        "c": "Z – 8 A –",
+        "d": "Z – 10 A –",
+        "e": "Z – 11 A –"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -422,7 +437,7 @@
         "d": "7.0V",
         "e": "8.0V",
         "f": "9.0V",
-        "g": "10V 29 PART B Physics"
+        "g": "10V"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -437,22 +452,26 @@
         "e": "300 0 2.0",
         "f": "300 0 200",
         "g": "300 4.0 ×104 2.0",
-        "h": "300 4.0 ×104 200 30 PART B Physics"
+        "h": "300 4.0 ×104 200 30"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
     },
     {
-      "question": "The graph shows how a car’s velocity changes in 85 seconds. time/s 31 1–sm/yticolev 16 14 12 10 8 6 4 2 0 0 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 What proportion of the total distance is travelled at constant velocity? 5 A 29 5 B 17 12 C 17 24 D 29 8 E 9 16 F 17 PART B Physics",
+      "question": "The graph shows how a car’s velocity changes in 85 seconds. time/s 31 1–sm/yticolev 16 14 12 10 8 6 4 2 0 0 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 What proportion of the total distance is travelled at constant velocity? 5",
       "answers": {
         "a": "Option unavailable",
-        "b": "Option unavailable"
+        "b": "Option unavailable",
+        "c": "Option unavailable",
+        "d": "Option unavailable",
+        "e": "Option unavailable",
+        "f": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
     },
     {
-      "question": "A block is designed with a cylindrical channel to accommodate a hot-water pipe. The block is 100cm long and it has a square cross-section of side 22.0cm with a cylindrical hole in the middle, as shown in the diagram: [diagram not to scale] The diameter of the cylindrical hole is 14.0cm and the density of the material from which the block is made is 0.100gcm–3. What is the mass of the block? 22 (take π to be ) 7",
+      "question": "A block is designed with a cylindrical channel to accommodate a hot-water pipe. The block is 100cm long and it has a square cross-section of side 22.0cm with a cylindrical hole in the middle, as shown in the diagram: The diameter of the cylindrical hole is 14.0cm and the density of the material from which the block is made is 0.100gcm–3. What is the mass of the block? 22 (take π to be ) 7",
       "answers": {
         "a": "1.32kg",
         "b": "3.30kg",
@@ -461,7 +480,7 @@
         "e": "132kg",
         "f": "330kg",
         "g": "1320kg",
-        "h": "3300kg 32 PART B Physics"
+        "h": "3300kg"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -473,7 +492,7 @@
         "b": "1:7",
         "c": "1:4",
         "d": "1:3",
-        "e": "7:4 33 BLANK PAGE 34 PART C Chemistry PART C Chemistry 35 PART C Chemistry"
+        "e": "7:4 33 34 35"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -490,7 +509,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -505,7 +524,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 36 PART C Chemistry"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -518,7 +537,7 @@
         "c": "0.67",
         "d": "0.75",
         "e": "0.80",
-        "f": "0.90 37 PART C Chemistry"
+        "f": "0.90 37"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -532,7 +551,7 @@
         "d": "67",
         "e": "74",
         "f": "75",
-        "g": "81 PART C Chemistry"
+        "g": "81"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -555,18 +574,18 @@
     {
       "question": "A simple ion of an element with atomic number x has a mass number of (2x + 2). The ion has a charge of –2. How many protons, neutrons and electrons are present in this ion? protons neutrons electrons",
       "answers": {
-        "a": "x – 2 x + 4 x – 2",
+        "a": "x – 2 x + 4 x –",
         "b": "x – 2 x + 4 x",
-        "c": "x – 2 x + 4 x + 2",
-        "d": "x x + 2 x – 2",
+        "c": "x – 2 x + 4 x +",
+        "d": "x x + 2 x –",
         "e": "x x + 2 x",
-        "f": "x x + 2 x + 2 39 PART C Chemistry"
+        "f": "x x + 2 x +"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
     },
     {
-      "question": "A 116g sample of an oxide of iron contains 84g of iron. Which of the following is the empirical formula of this oxide of iron? (A values: O = 16; Fe = 56) r",
+      "question": "A 116g sample of an oxide of iron contains 84g of iron. Which of the following is the empirical formula of this oxide of iron?",
       "answers": {
         "a": "FeO",
         "b": "Fe O 2 2",
@@ -587,13 +606,13 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 40 PART C Chemistry"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
     },
     {
-      "question": "X is an anhydrous salt of iron containing one type of cation and one type of anion. An aqueous solution of X gives a white precipitate when aqueous barium chloride is added in the presence of hydrochloric acid. On adding aqueous sodium hydroxide to an aqueous solution of X, a brown precipitate formed immediately. The relative atomic mass of iron is 56, and its atomic number is 26. What is the relative molar mass of X? (A values: C = 12; N = 14; O = 16; S = 32; Cl = 35.5; Br = 80) r",
+      "question": "X is an anhydrous salt of iron containing one type of cation and one type of anion. An aqueous solution of X gives a white precipitate when aqueous barium chloride is added in the presence of hydrochloric acid. On adding aqueous sodium hydroxide to an aqueous solution of X, a brown precipitate formed immediately. The relative atomic mass of iron is 56, and its atomic number is 26. What is the relative molar mass of X?",
       "answers": {
         "a": "127",
         "b": "152",
@@ -608,13 +627,13 @@
       "answer": "h"
     },
     {
-      "question": "In the electrolysis of dilute sulfuric acid, hydrogen gas is formed at the negative electrode (cathode) and oxygen gas is formed at the positive electrode (anode). If 100g of hydrogen gas is formed in the electrolysis of dilute sulfuric acid, what mass of oxygen gas is also formed? (A values: H = 1; O = 16) r",
+      "question": "In the electrolysis of dilute sulfuric acid, hydrogen gas is formed at the negative electrode (cathode) and oxygen gas is formed at the positive electrode (anode). If 100g of hydrogen gas is formed in the electrolysis of dilute sulfuric acid, what mass of oxygen gas is also formed?",
       "answers": {
         "a": "50g",
         "b": "100g",
         "c": "200g",
         "d": "800g",
-        "e": "1600g 41 PART C Chemistry"
+        "e": "1600g"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -622,11 +641,11 @@
     {
       "question": "0.005mol of a chloride of element X was dissolved in water and then reacted with excess silver nitrate solution to form a precipitate of silver chloride, AgCl. This precipitate is the only product of this reaction that contains chlorine. After filtering, washing and drying, the mass of the precipitate was recorded to be 1.435g. Which of the following could be the formula of the chloride of X? (M value: AgCl = 143.5) r",
       "answers": {
-        "a": "X Cl 5",
-        "b": "X Cl 2",
+        "a": "X Cl",
+        "b": "X Cl",
         "c": "XCl",
-        "d": "XCl 2",
-        "e": "XCl 5"
+        "d": "XCl",
+        "e": "XCl"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -638,19 +657,19 @@
         "b": "28",
         "c": "30",
         "d": "32",
-        "e": "36 42 PART C Chemistry"
+        "e": "36 42"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
     },
     {
-      "question": "A 2.40g lump of magnesium was added to 500cm3 of a 2.00moldm–3 solution of HCl in a conical flask that was on an electronic balance. The neck of the flask was plugged with cotton wool, and the decrease in mass of the flask and its contents was recorded at regular intervals. The mass of the hydrogen released (equal to the mass loss recorded) was plotted against time. The result is line 1 on the graph. Which of the following experiments performed under the same conditions would give line 2? (A value: Mg = 24.0) r",
+      "question": "A 2.40g lump of magnesium was added to 500cm3 of a 2.00moldm–3 solution of HCl in a conical flask that was on an electronic balance. The neck of the flask was plugged with cotton wool, and the decrease in mass of the flask and its contents was recorded at regular intervals. The mass of the hydrogen released (equal to the mass loss recorded) was plotted against time. The result is line 1 on the graph. Which of the following experiments performed under the same conditions would give line 2?",
       "answers": {
         "a": "a 2.40g lump of magnesium added to 500cm3 of 2.00moldm–3 H SO 2 4",
         "b": "2.40g of magnesium powder added to 500cm3 of 2.00moldm–3 HCl",
         "c": "a 2.40g lump of magnesium added to 1000cm3 of 2.00moldm–3 HCl",
         "d": "a 4.80g lump of magnesium added to 500cm3 of 2.00moldm–3 HCl",
-        "e": "4.80g of magnesium powder added to 500cm3 of 2.00moldm–3 HCl 43 PART C Chemistry"
+        "e": "4.80g of magnesium powder added to 500cm3 of 2.00moldm–3 HCl"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -663,7 +682,7 @@
         "c": "distil the lower layer at 100°C",
         "d": "distil the upper layer at 51°C",
         "e": "distil the upper layer at 65°C",
-        "f": "distil the upper layer at 100°C 44 PART C Chemistry"
+        "f": "distil the upper layer at 100°C"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -688,7 +707,7 @@
         "b": "2.5%",
         "c": "10%",
         "d": "32%",
-        "e": "50% 45 PART C Chemistry"
+        "e": "50%"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -701,7 +720,7 @@
         "c": "+990kJmol–1",
         "d": "–990kJmol–1",
         "e": "+1080kJmol–1",
-        "f": "–1080kJmol–1 46 PART C Chemistry"
+        "f": "–1080kJmol–1 46"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -716,7 +735,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 47 BLANK PAGE 48 PART D Biology PART D Biology 49 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -745,7 +764,7 @@
         "b": "Endocrine glands secrete enzymes into the bloodstream.",
         "c": "Embryonic stem cells divide by meiosis to form all cell types.",
         "d": "Receptor cells send chemical impulses along neurones.",
-        "e": "The stomach wall contains a tissue that enables movement of food. 50 PART D Biology"
+        "e": "The stomach wall contains a tissue that enables movement of food."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -758,7 +777,7 @@
         "c": "phosphate sugar base nucleotide",
         "d": "phosphate sugar base DNA strand",
         "e": "sugar phosphate base nucleotide",
-        "f": "sugar phosphate fatty acid DNA strand 51 PART D Biology"
+        "f": "sugar phosphate fatty acid DNA strand"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -771,7 +790,7 @@
         "c": "restricted narrow small",
         "d": "extensive narrow small",
         "e": "restricted broad small",
-        "f": "extensive broad small 52 PART D Biology"
+        "f": "extensive broad small"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -785,13 +804,13 @@
         "d": "1840",
         "e": "4600",
         "f": "18400",
-        "g": "45000 53 PART D Biology"
+        "g": "45000 53"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
     },
     {
-      "question": "The photomicrograph shows a section through the wall of a human bronchus, one of the tubes which carries air towards the lungs.",
+      "question": "The photomicrograph shows a section through the wall of a human bronchus, one of the tubes which carries air towards the lungs. in two different layers in the wall of the bronchus. Two different types of cells are found in this single layer. Goblet cells, which synthesise and secrete the protein in mucus, and cells with cilia, which sweep mucus that has trapped dust and dirt away from the lungs. and secretes a protein that then surrounds the cells. The student used these observations to write some conclusions. Which of the following conclusions is/are correct? 1 The two different layers are both tissues. 2 The bronchus can be described as an organ. 3 Amino acids are found in the cytoplasm of cells in each layer.",
       "answers": {
         "a": "none of them",
         "b": "1 only",
@@ -799,7 +818,7 @@
         "d": "3 only",
         "e": "1 and 2 only",
         "f": "1 and 3 only",
-        "g": "1, 2 and 3 54 PART D Biology"
+        "g": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -813,7 +832,7 @@
         "d": "3 only",
         "e": "1 and 2 only",
         "f": "1 and 3 only",
-        "g": "2 and 3 only PART D Biology"
+        "g": "2 and 3 only"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -826,7 +845,7 @@
         "c": "1 1 1",
         "d": "2 1 0",
         "e": "2 1 1",
-        "f": "2 2 0 56 PART D Biology"
+        "f": "2 2 0 56"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -841,7 +860,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 57 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -856,7 +875,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -871,7 +890,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 58 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
@@ -886,7 +905,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 59 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -901,7 +920,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 60 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -916,7 +935,7 @@
         "e": "4 12",
         "f": "4 14",
         "g": "6 7",
-        "h": "6 12 61 PART D Biology"
+        "h": "6 12 61"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -929,7 +948,7 @@
         "c": "rest exercise rest time ekatpu negyxo",
         "d": "rest exercise rest time ekatpu negyxo",
         "e": "rest exercise rest time ekatpu negyxo",
-        "f": "rest exercise rest time ekatpu negyxo PART D Biology"
+        "f": "rest exercise rest time ekatpu negyxo"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -944,7 +963,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 63 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
@@ -959,7 +978,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -974,7 +993,7 @@
         "e": "Leu-Trp-Trp-Leu-Arg-Pro-Pro-Leu-Leu-Trp-Leu-Trp-Val-Val-Val-Val-Leu",
         "f": "Leu-Leu-Trp-Trp-Leu-Arg-Pro-Pro-Leu-Leu-Trp-Leu-Val-Val-Trp-Trp-Val",
         "g": "Leu-Val-Trp-Trp-Leu-Leu-Pro-Pro-Leu-Leu-Trp-Leu-Val-Val-Trp-Trp-Leu",
-        "h": "Leu-Val-Trp-Trp-Leu-Arg-Pro-Pro-Leu-Leu-Trp-Leu-Val-Val-Trp-Trp-Leu 65 BLANK PAGE 66 PART E Advanced Mathematics and Advanced Physics PART E Advanced Mathematics and Advanced Physics NOTE: questions in this part that are not covered by the ESAT content specification are indicated by a cross through the question number. 67 PART E Advanced Mathematics and Advanced Physics"
+        "h": "Leu-Val-Trp-Trp-Leu-Arg-Pro-Pro-Leu-Leu-Trp-Leu-Val-Val-Trp-Trp-Leu NOTE: questions in this part that are not covered by the ESAT content specification are indicated by a cross through the question number."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
@@ -1002,7 +1021,7 @@
         "c": "8.00 ×104m3",
         "d": "6.48 ×107m3",
         "e": "7.20 ×107m3",
-        "f": "8.00 ×107m3 68 PART E Advanced Mathematics and Advanced Physics"
+        "f": "8.00 ×107m3 68"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -1030,7 +1049,7 @@
         "e": "25 25000",
         "f": "25 50000",
         "g": "25 100000",
-        "h": "25 125000 69 PART E Advanced Mathematics and Advanced Physics"
+        "h": "25 125000 69"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -1042,7 +1061,7 @@
         "b": "or 3 2 2 3 2 2",
         "c": "or 2 3",
         "d": "3 or 2 2",
-        "e": "3 or 2"
+        "e": "3 or"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -1055,7 +1074,7 @@
         "c": "0.80V",
         "d": "3.2V",
         "e": "5.0V",
-        "f": "20V 70 PART E Advanced Mathematics and Advanced Physics"
+        "f": "20V"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -1067,7 +1086,7 @@
         "b": "24 π− 3 ( )",
         "c": "48 4 π− 3 16( )",
         "d": "4 π−6−3 3 3 16( )",
-        "e": "4 π−3 3 3 71 PART E Advanced Mathematics and Advanced Physics"
+        "e": "4 π−3 3 3 71"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -1079,8 +1098,8 @@
         "b": "35 3N",
         "c": "40 3N",
         "d": "80N",
-        "e": "80 3N 3",
-        "f": "280 N 3 72 PART E Advanced Mathematics and Advanced Physics"
+        "e": "80 3N",
+        "f": "280 N"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -1088,8 +1107,12 @@
     {
       "question": "Which one of the following is the real solution of the equation 3×5 2x+1− 5 x − 2=0 ⎛1⎞",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "x=log ⎜ ⎟ 5 ⎝3⎠ ⎛2⎞",
+        "b": "Option unavailable x=log ⎜ ⎟ 5 ⎝5⎠",
+        "c": "Option unavailable x=log ⎜ ⎛3 ⎟ ⎞ 5 ⎝5⎠",
+        "d": "Option unavailable x=log ⎜ ⎛2 ⎟ ⎞ 5 ⎝3⎠",
+        "e": "Option unavailable x=log ⎜ ⎛5 ⎟ ⎞ 5 ⎝3⎠",
+        "f": "Option unavailable x=log ⎜ ⎛5 ⎟ ⎞ 5 ⎝2⎠"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -1103,16 +1126,19 @@
         "d": "60°",
         "e": "72°",
         "f": "90°",
-        "g": "120° 74 PART E Advanced Mathematics and Advanced Physics"
+        "g": "120°"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
     },
     {
-      "question": "For a particular function f(x), it is given that: 2 ( ) 4 ( ) ∫ 2f x dx + ∫ f x dx = 4 –2 2 and also: 2 ( ) 4 ( ) ∫ 5f x dx – ∫ f x dx = 7 –2 –2 4 ( ) Find the value of ∫ f x dx 2 1 A 3 11 B 7 11 C 6 13 D 6 13 E 3",
+      "question": "For a particular function f(x), it is given that: 2 ( ) 4 ( ) ∫ 2f x dx + ∫ f x dx = 4 –2 2 and also: 2 ( ) 4 ( ) ∫ 5f x dx – ∫ f x dx = 7 –2 –2 4 ( ) Find the value of ∫ f x dx 2 1",
       "answers": {
         "a": "Option unavailable",
-        "b": "Option unavailable"
+        "b": "Option unavailable",
+        "c": "Option unavailable",
+        "d": "Option unavailable",
+        "e": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -1125,7 +1151,7 @@
         "c": "320m",
         "d": "2000m",
         "e": "3200m",
-        "f": "4000m 75 PART E Advanced Mathematics and Advanced Physics"
+        "f": "4000m"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -1134,11 +1160,12 @@
       "question": "Given that f(x) = ∫ x( 3+2t )7dt 0 what is the coefficient of x4 in the expansion of f(x) in powers of x?",
       "answers": {
         "a": "70",
-        "b": "162 2835 C 4",
+        "b": "162 2835",
+        "c": "Option unavailable",
         "d": "3024",
         "e": "5670",
         "f": "15120",
-        "g": "22680 76 PART E Advanced Mathematics and Advanced Physics"
+        "g": "22680 76"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -1152,7 +1179,7 @@
         "d": "100Ω",
         "e": "200Ω",
         "f": "600Ω",
-        "g": "1000Ω 77 PART E Advanced Mathematics and Advanced Physics"
+        "g": "1000Ω"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -1177,7 +1204,7 @@
         "c": "4.0 ×10–4J",
         "d": "8.0 ×10–3J",
         "e": "4.0 ×10–2J",
-        "f": "1.6 ×10–2J 78 PART E Advanced Mathematics and Advanced Physics"
+        "f": "1.6 ×10–2J"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -1187,10 +1214,10 @@
       "answers": {
         "a": "x < –1",
         "b": "x > –1",
-        "c": "–1 < x < 4",
-        "d": "x < –1 or x > 4",
-        "e": "x < 4",
-        "f": "x > 4"
+        "c": "–1 < x <",
+        "d": "x < –1 or x >",
+        "e": "x <",
+        "f": "x >"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -1202,7 +1229,7 @@
         "b": "768N",
         "c": "800N",
         "d": "832N",
-        "e": "960N 79 80"
+        "e": "960N"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"

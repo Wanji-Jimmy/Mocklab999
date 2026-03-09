@@ -25,6 +25,32 @@ function placeholderRatio(rows) {
   return placeholders / rows.length
 }
 
+function hasNoiseArtifact(text) {
+  return /(©\s*UCLES|Turn\s+over|Question\s+Paper|Answer\s+Key|BLANK\s+PAGE|\(cid:\d+\))/i.test(String(text || ''))
+}
+
+function noiseRatio(rows) {
+  if (!rows.length) return 1
+  const noisy = rows.filter((row) => {
+    const stem = String(row.question || '')
+    const options = Object.values(row.answers || {}).join(' ')
+    return hasNoiseArtifact(stem) || hasNoiseArtifact(options)
+  }).length
+  return noisy / rows.length
+}
+
+function shortStemRatio(rows) {
+  if (!rows.length) return 1
+  const shortRows = rows.filter((row) => String(row.question || '').trim().length < 20).length
+  return shortRows / rows.length
+}
+
+function lowOptionRatio(rows) {
+  if (!rows.length) return 1
+  const lowOptionRows = rows.filter((row) => Object.keys(row.answers || {}).length < 4).length
+  return lowOptionRows / rows.length
+}
+
 function validateEngaa(year) {
   const filePath = path.join(rootDir, 'data', 'esat', 'engaa', `${year}.json`)
   const data = readJson(filePath)
@@ -34,13 +60,19 @@ function validateEngaa(year) {
   const l1ShapeOk = all.every(hasL1Shape)
   const nonEmptyPapers = p1.length > 0 && p2.length > 0
   const ratio = placeholderRatio(all)
-  const qaPassed = nonEmptyPapers && l1ShapeOk && ratio <= 0.35
+  const noisy = noiseRatio(all)
+  const shortStem = shortStemRatio(all)
+  const lowOption = lowOptionRatio(all)
+  const qaPassed = nonEmptyPapers && l1ShapeOk && ratio <= 0.35 && noisy <= 0.03 && shortStem <= 0.08 && lowOption <= 0.1
   return {
     exam: 'ENGAA',
     year,
     counts: { paper1: p1.length, paper2: p2.length, total: all.length },
     l1ShapeOk,
     placeholderRatio: Number(ratio.toFixed(3)),
+    noiseRatio: Number(noisy.toFixed(3)),
+    shortStemRatio: Number(shortStem.toFixed(3)),
+    lowOptionRatio: Number(lowOption.toFixed(3)),
     qaPassed,
   }
 }
@@ -62,7 +94,10 @@ function validateNsaa(year) {
     partD.length > 0 &&
     (partEYears.has(year) ? partE.length > 0 : true)
   const ratio = placeholderRatio(all)
-  const qaPassed = requiredPartsOk && l1ShapeOk && ratio <= 0.35
+  const noisy = noiseRatio(all)
+  const shortStem = shortStemRatio(all)
+  const lowOption = lowOptionRatio(all)
+  const qaPassed = requiredPartsOk && l1ShapeOk && ratio <= 0.35 && noisy <= 0.03 && shortStem <= 0.08 && lowOption <= 0.1
   return {
     exam: 'NSAA',
     year,
@@ -76,6 +111,9 @@ function validateNsaa(year) {
     },
     l1ShapeOk,
     placeholderRatio: Number(ratio.toFixed(3)),
+    noiseRatio: Number(noisy.toFixed(3)),
+    shortStemRatio: Number(shortStem.toFixed(3)),
+    lowOptionRatio: Number(lowOption.toFixed(3)),
     qaPassed,
   }
 }

@@ -8,37 +8,30 @@
       "answers": {
         "a": "R = 5r",
         "b": "R = 12r",
-        "c": "R = 2 5r 1",
-        "d": "R = 10 r"
+        "c": "R = 2 5r",
+        "d": "R = 10 r",
+        "e": "R = 10r",
+        "f": "R = 10 r",
+        "g": "R = 15r"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
     },
     {
-      "question": "2",
+      "question": "A spaceship of mass 10000kg is moving at 2.0ms–1 relative to a space station. The spaceship is captured by a robotic arm attached to the space station and brought to rest by a force of 1000N. How far will the spaceship move in its initial direction relative to the space station while the force is being applied? (Assume that the acceleration of the space station is negligible.)",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "0.050m",
+        "b": "0.10m",
+        "c": "0.20m",
+        "d": "5.0m",
+        "e": "10m",
+        "f": "20m"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
     },
     {
-      "question": "3",
-      "answers": {
-        "f": "20m",
-        "g": "R = 15r 2 A spaceship of mass 10000kg is moving at 2.0ms–1 relative to a space station. The spaceship is captured by a robotic arm attached to the space station and brought to rest by a force of 1000N. How far will the spaceship move in its initial direction relative to the space station while the force is being applied? (Assume that the acceleration of the space station is negligible.)",
-        "a": "0.050m",
-        "b": "0.10m",
-        "c": "0.20m",
-        "d": "5.0m",
-        "e": "10m"
-      },
-      "explanation": "Explanation pending (official PDF import).",
-      "answer": "c"
-    },
-    {
-      "question": "4 3 Which of the following is a correct rearrangement of q−r y = p – s−x to make x the subject? q−r",
+      "question": "Which of the following is a correct rearrangement of q−r y = p – s−x to make x the subject? q−r",
       "answers": {
         "a": "x = s – p+ y q−r",
         "b": "x = – s p+ y q−r",
@@ -48,10 +41,10 @@
         "f": "x = – s y− p"
       },
       "explanation": "Explanation pending (official PDF import).",
-      "answer": "f"
+      "answer": "c"
     },
     {
-      "question": "5 4 A circuit is set up as shown. All three resistors are identical. When the switch is open, the reading on the ammeter is 1.0A and the power transferred from the battery is 1.0W. A The switch is now closed. What is the new reading on the ammeter and what is the new power transferred from the battery? ammeter reading / A power transferred / W",
+      "question": "A circuit is set up as shown. All three resistors are identical. When the switch is open, the reading on the ammeter is 1.0A and the power transferred from the battery is 1.0W. The switch is now closed. What is the new reading on the ammeter and what is the new power transferred from the battery? ammeter reading / A power transferred / W",
       "answers": {
         "a": "0.67 0.67",
         "b": "0.67 1.3",
@@ -60,55 +53,76 @@
         "e": "1.0 1.0",
         "f": "1.0 1.5",
         "g": "1.0 2.0",
-        "h": "1.0 3.0"
+        "h": "1.0 3.0 6"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
     },
     {
-      "question": "6 5 X N Y M P W Z [diagram not to scale] WXYZ is a square of side length 1. : : WM MX = 1 2 : : XN NY = 3 1 : : YP PZ = 4 1 What is the area of triangle MNP? 1 A 3 2 B 5 9 C 20 1 D 30 19 E 60 23 F 60",
+      "question": "X N Y M P W Z WXYZ is a square of side length 1. : : WM MX = 1 2 : : XN NY = 3 1 : : YP PZ = 4 1 What is the area of triangle MNP? 1",
       "answers": {
         "a": "Option unavailable",
-        "b": "Option unavailable"
+        "b": "Option unavailable",
+        "c": "Option unavailable",
+        "d": "Option unavailable",
+        "e": "Option unavailable",
+        "f": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
-      "answer": "b"
+      "answer": "f"
     },
     {
-      "question": "7 6 A spring is initially unstretched. A force F is used to stretch the spring. The extension x and the energy E stored in the stretched spring are measured for different values of F. The graph shows how the energy E, in J, varies with the extension squared, x2, in cm2.",
+      "question": "A spring is initially unstretched. A force F is used to stretch the spring. The extension x and the energy E stored in the stretched spring are measured for different values of F. The graph shows how the energy E, in J, varies with the extension squared, x2, in cm2. 0.015 0 0 25 x2/cm2 What is the magnitude of F when the spring stores 0.015J of energy?",
       "answers": {
-        "e": "2.4N",
         "a": "0.30N",
         "b": "0.60N",
         "c": "1.2N",
         "d": "1.5N",
+        "e": "2.4N",
         "f": "3.0N",
         "g": "30N",
         "h": "60N"
       },
       "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "Given that 2(x−2) 27 3 = (81)2 (2x−3) 9 what is the value of x?",
+      "answers": {
+        "a": "0",
+        "b": "2.5",
+        "c": "3",
+        "d": "6",
+        "e": "7.5",
+        "f": "9",
+        "g": "10.5",
+        "h": "12"
+      },
+      "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
     },
     {
-      "question": "8 7 Given that 2(x−2) 27 3 = (81)2 (2x−3)",
+      "question": "A solid, cylindrical metal bar has a uniform cross-sectional area of 12cm2 and a volume of 180cm3. The bar rests on a horizontal surface on one of its circular faces. The pressure on the surface due to the bar is 0.45Ncm–2. What is the density of the metal, in gcm–3? (gravitational field strength = 10Nkg–1)",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "2.5gcm–3",
+        "b": "3.0gcm–3",
+        "c": "3.75gcm–3",
+        "d": "7.5gcm–3",
+        "e": "15gcm–3",
+        "f": "33gcm–3 9"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
     },
     {
-      "question": "9 what is the value of x?",
+      "question": "Last year, the salary of the coach of a football club was 80% of the salary of the star player. At the start of the new year, the coach received a 15% increase in salary and the star player received a 38% increase in salary. What percentage of the star player’s new salary is the coach’s new salary?",
       "answers": {
         "a": "46%",
         "b": "57%",
-        "c": "613% 5",
-        "d": "662% 3",
+        "c": "613%",
+        "d": "662%",
         "e": "77%",
-        "f": "831% 3",
-        "g": "10.5",
-        "h": "12 8 A solid, cylindrical metal bar has a uniform cross-sectional area of 12cm2 and a volume of 180cm3. The bar rests on a horizontal surface on one of its circular faces. The pressure on the surface due to the bar is 0.45Ncm–2. What is the density of the metal, in gcm–3? (gravitational field strength = 10Nkg–1)"
+        "f": "831%"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -121,7 +135,7 @@
         "c": "3 days",
         "d": "4 days",
         "e": "6 days",
-        "f": "12 days 10"
+        "f": "12 days"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -141,8 +155,10 @@
     {
       "question": "A large, flat, metal plate is coated on one side with a layer of thermally insulating material of the same thickness a as the metal plate. The uninsulated top surface of the metal plate is maintained at a constant temperature T . 1 The bottom surface of the insulating material is maintained at a constant, lower temperature T . 2 The system is in equilibrium. The diagram shows this arrangement. metal plate T 1 T 2 insulating material Which graph could show how the temperature varies with distance from the top surface of the metal plate to the bottom surface of the insulating material?",
       "answers": {
-        "a": "temperature B temperature T T 1 1 T T 2 2 0 a 2a 0 a 2a distance from top distance from top of metal plate of metal plate",
-        "c": "temperature D temperature T T 1 1 T T 2 2 0 a 2a 0 a 2a distance from top distance from top of metal plate of metal plate",
+        "a": "temperature",
+        "b": "temperature T T 1 1 T T 2 2 0 a 2a 0 a 2a distance from top distance from top of metal plate of metal plate",
+        "c": "temperature",
+        "d": "temperature T T 1 1 T T 2 2 0 a 2a 0 a 2a distance from top distance from top of metal plate of metal plate",
         "e": "temperature T 1 T 2 0 a 2a distance from top of metal plate 12"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -152,10 +168,13 @@
       "question": "Two objects X and Y are similar. The surface area of object Y is double the surface area of object X. The volume of object Y is 7 2cm3 more than the volume of object X. What is the volume of object X, in cm3?",
       "answers": {
         "a": "14 –7 2",
-        "b": "14 +7 2 42−7 2 C 17 42+7 2 D 17 7 2 E 3",
+        "b": "14 +7 2 42−7 2",
+        "c": "Option unavailable 42+7 2",
+        "d": "Option unavailable 7 2",
+        "e": "Option unavailable",
         "f": "7 2",
-        "g": "4 – 2",
-        "h": "4 + 2"
+        "g": "4 –",
+        "h": "4 +"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
@@ -167,7 +186,7 @@
         "b": "6600V",
         "c": "22000V",
         "d": "110000V",
-        "e": "550000V 13"
+        "e": "550000V"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -198,14 +217,14 @@
       "answer": "d"
     },
     {
-      "question": "X and Y are the end-points of a line segment. Point P has coordinates (–8,5). ⎯⎯→ ⎛ 4 ⎞ P lies on the line segment XY such that XP : PY is 1 : 2 and XP = ⎜ ⎟ ⎝−3⎠ ⎯⎯→ ⎛7⎞",
+      "question": "X and Y are the end-points of a line segment. Point P has coordinates (–8,5). ⎯⎯→ ⎛ 4 ⎞ P lies on the line segment XY such that XP : PY is 1 : 2 and XP = ⎜ ⎟ ⎝−3⎠ ⎯⎯→ ⎛7⎞ ⎜ ⎟ ⎝6⎠ What are the coordinates of point Q?",
       "answers": {
         "a": "(7,5)",
         "b": "(3,8)",
         "c": "(1,–12)",
         "d": "(–3,–10)",
         "e": "(–7,–7)",
-        "f": "(–11,–4) 15"
+        "f": "(–11,–4)"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -216,7 +235,7 @@
         "a": "A 5 3",
         "b": "A 5 3",
         "c": "A 4",
-        "d": "1A 3",
+        "d": "1A",
         "e": "A 10 3",
         "f": "A 5 16"
       },
@@ -224,9 +243,11 @@
       "answer": "b"
     },
     {
-      "question": "Find the maximum value of 2 sinx × 3–sinx where 0° ≤ x ≤ 360° 2 A 3",
+      "question": "Find the maximum value of 2 sinx × 3–sinx where 0° ≤ x ≤ 360° 2",
       "answers": {
-        "b": "1 3 C 2",
+        "a": "Option unavailable",
+        "b": "1 3",
+        "c": "Option unavailable",
         "d": "2",
         "e": "3",
         "f": "6"
@@ -244,7 +265,7 @@
         "e": "288cm3",
         "f": "315cm3",
         "g": "360cm3",
-        "h": "405cm3 17 BLANK PAGE 18 PART B Advanced Mathematics and Advanced Physics NOTE: questions in this part that are not covered by the ESAT content specification are indicated by a cross through the question number. 19"
+        "h": "405cm3 17 18 NOTE: questions in this part that are not covered by the ESAT content specification are indicated by a cross through the question number."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -257,7 +278,8 @@
         "a": "–39",
         "b": "–21",
         "c": "–3 3",
-        "d": "− 5 3 E 5",
+        "d": "− 5 3",
+        "e": "Option unavailable",
         "f": "3",
         "g": "21",
         "h": "39"
@@ -266,13 +288,13 @@
       "answer": "h"
     },
     {
-      "question": "Two pipes contain air at the same temperature and pressure.",
+      "question": "Two pipes contain air at the same temperature and pressure. other end. The lowest frequency of stationary sound wave that can be formed in this pipe is 4000Hz. The second pipe has the same length as the first pipe, but is open at both ends. What is the lowest frequency of stationary sound wave that can be formed in the second pipe?",
       "answers": {
         "a": "1000Hz",
         "b": "2000Hz",
         "c": "4000Hz",
         "d": "8000Hz",
-        "e": "16000Hz 20"
+        "e": "16000Hz"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -280,10 +302,10 @@
     {
       "question": "An arithmetic progression has first term a and common difference d. The sum of the first 9 terms plus the sum of the first 10 terms is equal to the sum of the first 11 terms. Which of the following is a correct expression for a in terms of d? 13",
       "answers": {
-        "a": "a = − d 4 15",
-        "b": "a = − d 4 16",
-        "c": "a = − d 3 19",
-        "d": "a = − d 3",
+        "a": "a = − d",
+        "b": "a = − d",
+        "c": "a = − d",
+        "d": "a = − d",
         "e": "a = –7d",
         "f": "a = –8d"
       },
@@ -299,7 +321,7 @@
         "d": "78Ns",
         "e": "117Ns",
         "f": "234Ns",
-        "g": "900Ns 21"
+        "g": "900Ns"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -308,9 +330,11 @@
       "question": "The first three terms of a convergent geometric progression are: 2p, p – 3, p – 7 What is the sum to infinity of this progression?",
       "answers": {
         "a": "–54",
-        "b": "–27 C −131 2",
+        "b": "–27",
+        "c": "Option unavailable −131 2",
         "d": "–2",
-        "e": "2 F 131 2",
+        "e": "2",
+        "f": "Option unavailable 131 2",
         "g": "27",
         "h": "54"
       },
@@ -327,20 +351,20 @@
         "e": "6750W",
         "f": "9000W",
         "g": "13500W",
-        "h": "9000 3 W 22"
+        "h": "9000 3 W"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
     },
     {
-      "question": "The diagram shows a circle with centre O. 55° 40° O x [diagram not to scale] What is the value of x?",
+      "question": "The diagram shows a circle with centre O. 55° 40° O x What is the value of x?",
       "answers": {
         "a": "40°",
         "b": "50°",
         "c": "55°",
         "d": "70°",
         "e": "75°",
-        "f": "80° 23"
+        "f": "80°"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -352,7 +376,7 @@
         "b": "16W",
         "c": "24W",
         "d": "32W",
-        "e": "40W 24"
+        "e": "40W"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -362,18 +386,18 @@
       "answers": {
         "a": "2",
         "b": "7 2",
-        "c": "3 – 2",
+        "c": "3 –",
         "d": "3 –7 2",
         "e": "4 –3 2",
-        "f": "4 2 – 6",
-        "g": "4 2 – 12",
-        "h": "7 2– 18 25"
+        "f": "4 2 –",
+        "g": "4 2 –",
+        "h": "7 2–"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
     },
     {
-      "question": "Two identical, uniform, thin planks, each of mass 40kg, are propped up against one another in equilibrium on a rough surface as shown. Each plank is at an angle of 30° to the vertical. 30°30° P [diagram not to scale] What is the magnitude of the friction force at point P? (gravitational field strength = 10Nkg−1)",
+      "question": "Two identical, uniform, thin planks, each of mass 40kg, are propped up against one another in equilibrium on a rough surface as shown. Each plank is at an angle of 30° to the vertical. 30°30° P What is the magnitude of the friction force at point P? (gravitational field strength = 10Nkg−1)",
       "answers": {
         "a": "100N 200",
         "b": "N 3",
@@ -381,7 +405,7 @@
         "d": "200 3 N 400",
         "e": "N 3",
         "f": "400N",
-        "g": "400 3 N 26"
+        "g": "400 3 N"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -389,15 +413,18 @@
     {
       "question": "Which of the following is equal to 3− 5 x2 ∫ dx 3− 5 −(3− 5)",
       "answers": {
-        "a": "0 2 B 3 8 C 3",
-        "d": "4 28−12 5 E 3",
+        "a": "0 2",
+        "b": "Option unavailable",
+        "c": "Option unavailable",
+        "d": "4 28−12 5",
+        "e": "Option unavailable",
         "f": "28−12 5"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "Three blocks P, Q and R are in contact on a horizontal surface as shown. P Q R 20N 4.0kg 2.0kg 2.0kg The mass of P is 4.0kg and the masses of Q and R are each 2.0kg.",
+      "question": "Three blocks P, Q and R are in contact on a horizontal surface as shown. P Q R 20N 4.0kg 2.0kg 2.0kg The mass of P is 4.0kg and the masses of Q and R are each 2.0kg. The friction force between P and the surface is 2.0N, and the friction forces between Q and R and the surface are each 1.0N. What is the magnitude of the force that R exerts on Q?",
       "answers": {
         "a": "2.0N",
         "b": "5.0N",
@@ -405,7 +432,7 @@
         "d": "12N",
         "e": "15N",
         "f": "17N",
-        "g": "19N 27"
+        "g": "19N"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -416,15 +443,17 @@
         "a": "–5",
         "b": "–4 7",
         "c": "− 5",
-        "d": "–1 9 E 5",
-        "f": "2 14 G 5",
+        "d": "–1 9",
+        "e": "Option unavailable",
+        "f": "2 14",
+        "g": "Option unavailable",
         "h": "3 28"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
     },
     {
-      "question": "An object is released from rest at a height H above the ground and falls freely in a uniform gravitational field. At time t after being released, it has fallen a distance s and is at a height h above the ground, travelling at speed v. s H h The graph shows two quantities plotted. y 0 0 x Which of the rows show(s) a possible pair of quantities for the axes? (Assume that air resistance is negligible.) y-axis x-axis 1 h t 2 kinetic energy h 3 gravitational potential energy s",
+      "question": "An object is released from rest at a height H above the ground and falls freely in a uniform gravitational field. At time t after being released, it has fallen a distance s and is at a height h above the ground, travelling at speed v. s h The graph shows two quantities plotted. y 0 0 x Which of the rows show(s) a possible pair of quantities for the axes? (Assume that air resistance is negligible.) y-axis x-axis 1 h t 2 kinetic energy h 3 gravitational potential energy s",
       "answers": {
         "a": "none of them",
         "b": "1 only",
@@ -433,14 +462,18 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 29"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
     },
     {
-      "question": "Find the real value of x that satisfies log (x2 + 3x + 2) = 2 + log (x2 + 2x) 3 3 1 A 8 1 B 7 1 C 6 1 D 2",
+      "question": "Find the real value of x that satisfies log (x2 + 3x + 2) = 2 + log (x2 + 2x) 3 3 1",
       "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable",
+        "c": "Option unavailable",
+        "d": "Option unavailable",
         "e": "2",
         "f": "7"
       },
@@ -455,16 +488,20 @@
         "c": "320Ω",
         "d": "400Ω",
         "e": "1280Ω",
-        "f": "1600Ω 30 ⎛2 x⎞ 8"
+        "f": "1600Ω ⎛2 x⎞"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "What is the constant term in the simplified binomial expansion of ⎜ + ⎟ ? ⎝ x 4⎠ 7 A 2 35 B 8 1 C 16 7 D 256 35 E 1024 1 F 2048 31",
+      "question": "What is the constant term in the simplified binomial expansion of ⎜ + ⎟ ? ⎝ x 4⎠ 7",
       "answers": {
         "a": "Option unavailable",
-        "b": "Option unavailable"
+        "b": "Option unavailable",
+        "c": "Option unavailable",
+        "d": "Option unavailable 256 35",
+        "e": "Option unavailable 1024 1",
+        "f": "Option unavailable 2048 31"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -474,18 +511,24 @@
       "answers": {
         "a": "2d ⎜ −1⎟ ⎝ 3 ⎠ ⎛ 2 ⎞",
         "b": "d ⎜ −1⎟ ⎝ 3 ⎠",
-        "c": "d( 2− 3 ) 4d D 3 2d E 3 32"
+        "c": "d( 2− 3 ) 4d",
+        "d": "Option unavailable 2d",
+        "e": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
     },
     {
-      "question": "Given that x2 + y2 = 1 what is the greatest possible value of 2x + 3y? 7 A 2",
+      "question": "Given that x2 + y2 = 1 what is the greatest possible value of 2x + 3y? 7",
       "answers": {
-        "b": "3 5 2 C 2",
+        "a": "Option unavailable",
+        "b": "3 5 2",
+        "c": "Option unavailable",
         "d": "7",
-        "e": "10 13 10 F 10",
-        "g": "13 12 13 H 13"
+        "e": "10 13 10",
+        "f": "Option unavailable",
+        "g": "13 12 13",
+        "h": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -499,7 +542,7 @@
         "d": "120J",
         "e": "240J",
         "f": "256J",
-        "g": "512J 33 BLANK PAGE 34 BLANK PAGE 35 BLANK PAGE 36"
+        "g": "512J"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"

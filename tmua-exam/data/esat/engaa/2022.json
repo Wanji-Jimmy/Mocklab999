@@ -4,10 +4,14 @@
   "source": "official-pdf-auto-parse",
   "paper1": [
     {
-      "question": "Which one of the following is a simplification of  1  2 3x2z y   y3     3xz2 A y4 3xz2 B y5 1 9x2z2 C y5 9xz2 D y4 9xz2 E y5 5 9x2z2 F y5",
+      "question": "Which one of the following is a simplification of  1  2 3x2z y   y3     3xz2",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "Option unavailable y4 3xz2",
+        "b": "Option unavailable y5 1 9x2z2",
+        "c": "Option unavailable y5 9xz2",
+        "d": "Option unavailable y4 9xz2",
+        "e": "Option unavailable y5 5 9x2z2",
+        "f": "Option unavailable y5"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -22,47 +26,57 @@
         "e": "36N",
         "f": "49N",
         "g": "81N",
-        "h": "4900N 4"
+        "h": "4900N"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
     },
     {
-      "question": "Find the complete set of values of x that satisfy the inequality 3 1 (5 – x) – (6 – x) – x < 0",
+      "question": "Find the complete set of values of x that satisfy the inequality 3 1 (5 – x) – (6 – x) – x < 0 4 2 1",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "x <",
+        "b": "x >",
+        "c": "x <",
+        "d": "x >",
+        "e": "x <",
+        "f": "x >",
+        "g": "x <",
+        "h": "x >"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
     },
     {
-      "question": "2 1",
+      "question": "Two identical resistors are connected in parallel to a 6.0V battery. The two resistors dissipate a total power of 0.15W. One of these resistors is removed from the circuit and connected to a 12V battery. How much charge passes through this resistor in 6.0 minutes?",
       "answers": {
-        "a": "x < 3 1",
-        "b": "x > 3 3",
-        "c": "x <"
+        "a": "0.025C",
+        "b": "0.050C",
+        "c": "0.15C",
+        "d": "0.30C",
+        "e": "0.75C",
+        "f": "1.5C",
+        "g": "9.0C",
+        "h": "18C"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
     },
     {
-      "question": "5 3",
+      "question": "Rob keeps a record of what he earns each day. On Monday, he earned 50% less than he earned on Sunday. On Tuesday, he earned 20% more than he earned on Monday. On Wednesday, he earned 30% less than he earned on Tuesday. On Wednesday, he earned £84. How much did Rob earn on Sunday?",
       "answers": {
+        "a": "£15.12",
+        "b": "£35.28",
+        "c": "£117.60",
         "d": "£200",
         "e": "£210",
         "f": "£300",
-        "g": "£1200",
-        "h": "18C 5 5 Rob keeps a record of what he earns each day. On Monday, he earned 50% less than he earned on Sunday. On Tuesday, he earned 20% more than he earned on Monday. On Wednesday, he earned 30% less than he earned on Tuesday. On Wednesday, he earned £84. How much did Rob earn on Sunday?",
-        "a": "£15.12",
-        "b": "£35.28",
-        "c": "£117.60"
+        "g": "£1200 6"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
     },
     {
-      "question": "6 6 Ultrasound is used to find a crack inside a cuboid block of metal. An ultrasound probe is held in contact with the top surface of the metal block and perpendicular to the surface. A short pulse of ultrasound is sent into the metal block at time t = 0ms and reflects from both the crack and the bottom surface of the metal block. ultrasound probe metal block crack The times between the emission of the ultrasound pulse and the return of the reflections to the probe, and the strengths of the reflected pulses, are measured. The results are shown on the graph. strength of reflected pulse 0 0 0.1 0.2 0.3 time/ms The speed of ultrasound in the metal is 5000ms–1. What is the distance between the bottom surface of the metal block and the crack?",
+      "question": "Ultrasound is used to find a crack inside a cuboid block of metal. An ultrasound probe is held in contact with the top surface of the metal block and perpendicular to the surface. A short pulse of ultrasound is sent into the metal block at time t = 0ms and reflects from both the crack and the bottom surface of the metal block. ultrasound probe metal block crack The times between the emission of the ultrasound pulse and the return of the reflections to the probe, and the strengths of the reflected pulses, are measured. The results are shown on the graph. strength of reflected pulse 0 0 0.1 0.2 0.3 time/ms The speed of ultrasound in the metal is 5000ms–1. What is the distance between the bottom surface of the metal block and the crack?",
       "answers": {
         "a": "0.2m",
         "b": "0.3m",
@@ -75,10 +89,15 @@
       "answer": "a"
     },
     {
-      "question": "7 7 Which one of the following is a simplification of 5x2 −17x −12 x2 + x −12 ÷ 25x2 −9 x2 − x − 6 (x−4)(x+2) A (x−3)(x+4) (x−3)(x+2) B (5x−3)(x+3) (x−4)(x+2) C (5x−3)(x+4) (x−4)(x−3) D (5x−3)(x−6) (x+2) E (5x+3) (x+4)(x−6) F (5x+3)(x+2) (x−3)(x+2) G (5x+3)(x+3)",
+      "question": "Which one of the following is a simplification of 5x2 −17x −12 x2 + x −12 ÷ 25x2 −9 x2 − x − 6 (x−4)(x+2)",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "Option unavailable (x−3)(x+4) (x−3)(x+2)",
+        "b": "Option unavailable (5x−3)(x+3) (x−4)(x+2)",
+        "c": "Option unavailable (5x−3)(x+4) (x−4)(x−3)",
+        "d": "Option unavailable (5x−3)(x−6) (x+2)",
+        "e": "Option unavailable (5x+3) (x+4)(x−6)",
+        "f": "Option unavailable (5x+3)(x+2) (x−3)(x+2)",
+        "g": "Option unavailable (5x+3)(x+3)"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -93,20 +112,20 @@
         "e": "576J",
         "f": "864J",
         "g": "576000J",
-        "h": "864000J 8"
+        "h": "864000J"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
     },
     {
-      "question": "A rectangle PQRS has length (2x – 1)cm and width (x + 1)cm as shown on the diagram.",
+      "question": "A rectangle PQRS has length (2x – 1)cm and width (x + 1)cm as shown on the diagram. The larger rectangle has an area of 360cm2. 3cm Q R (x + 1)cm P S (2x – 1)cm 3cm What is the ratio of PQ to PS?",
       "answers": {
-        "a": "1 : 2",
-        "b": "4 : 7",
-        "c": "5 : 8",
-        "d": "7 : 11",
-        "e": "10 : 17",
-        "f": "17 : 31 9"
+        "a": "1 :",
+        "b": "4 :",
+        "c": "5 :",
+        "d": "7 :",
+        "e": "10 :",
+        "f": "17 :"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -125,14 +144,14 @@
       "answer": "d"
     },
     {
-      "question": "PQRS is a trapezium as shown. Q R 40m 30° P S [diagram not to scale] 5 tan RSQ = 8 What is the length of PS, in metres?",
+      "question": "PQRS is a trapezium as shown. Q R 40m 30° P S 5 tan RSQ = 8 What is the length of PS, in metres?",
       "answers": {
         "a": "45",
         "b": "65",
         "c": "80",
         "d": "120 40 3",
-        "e": "25 + 3 64 3",
-        "f": "40+ 3",
+        "e": "25 + 64 3",
+        "f": "40+",
         "g": "25+ 40 3",
         "h": "64+ 40 3 11"
       },
@@ -146,20 +165,22 @@
         "b": "between 0mm and 6.0mm above equilibrium",
         "c": "0mm",
         "d": "between 0mm and 6.0mm below equilibrium",
-        "e": "6.0mm below equilibrium 12"
+        "e": "6.0mm below equilibrium"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
     },
     {
-      "question": "A solid cylinder has radius rcm and height hcm.",
+      "question": "A solid cylinder has radius rcm and height hcm. The total surface area of the cylinder is equal to four times the total surface area of the cube. Which of the following is an expression for h in terms of r? 18 ",
       "answers": {
         "a": " − 2 r  π  18 ",
-        "b": " − 1 r  π  27r C π 27 ",
+        "b": " − 1 r  π  27r",
+        "c": "Option unavailable π 27 ",
         "d": " − 1 r  π  27 ",
-        "e": " − 1 r 4π  108r F π 108 ",
+        "e": " − 1 r 4π  108r",
+        "f": "Option unavailable π 108 ",
         "g": " − 1 r  π  108 1",
-        "h": " −  r  π 2 13"
+        "h": " −  r  π 2"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -171,7 +192,7 @@
         "b": "51°C",
         "c": "150°C",
         "d": "170°C",
-        "e": "480°C 14"
+        "e": "480°C"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -179,12 +200,12 @@
     {
       "question": "The variables x and y are related by the equation: 2y3+1 x = 5 − 1− 2y3 Which of the following is a rearrangement to make y the subject? x−4",
       "answers": {
-        "a": "y = 3 8x−48 x−6",
-        "b": "y = 3 8x−32 x−2",
-        "c": "y = 3 x−6 x−3",
-        "d": "y = 3 x−4 x−4",
-        "e": "y = 3 2x−12 x−6",
-        "f": "y = 3 2x−8 15"
+        "a": "y = 8x−48 x−6",
+        "b": "y = 8x−32 x−2",
+        "c": "y = x−6 x−3",
+        "d": "y = x−4 x−4",
+        "e": "y = 2x−12 x−6",
+        "f": "y = 2x−8 15"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -192,31 +213,39 @@
     {
       "question": "A bar magnet is placed at position X close to one end of a coil and on the axis of the coil as shown. The graph shows how the velocity of the magnet varies as it is then moved rapidly to position Y and back to position X. velocity away position X position Y from coil 0 time The magnetic field of the bar magnet still affects the coil when the magnet is at position Y. Which graph represents how the induced voltage in the coil changes as the magnet moves?",
       "answers": {
-        "a": "induced B induced voltage voltage 0 0 time time",
-        "c": "induced D induced voltage voltage 0 0 time time",
-        "e": "induced F induced voltage voltage 0 0 time time 16"
+        "a": "induced",
+        "b": "induced voltage voltage 0 0 time time",
+        "c": "induced",
+        "d": "induced voltage voltage 0 0 time time",
+        "e": "induced",
+        "f": "induced voltage voltage 0 0 time time 16"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
     },
     {
-      "question": "Three different numbers are chosen at random from 1, 2, 3, 4 , 5. What is the probability that the three numbers form the three sides of a right-angled triangle? 1 A 15 1 B 10 3 C 10 1 D 3 2 E 5 2 F 3 4 G 5 17",
+      "question": "Three different numbers are chosen at random from 1, 2, 3, 4 , 5. What is the probability that the three numbers form the three sides of a right-angled triangle? 1",
       "answers": {
         "a": "Option unavailable",
-        "b": "Option unavailable"
+        "b": "Option unavailable",
+        "c": "Option unavailable",
+        "d": "Option unavailable",
+        "e": "Option unavailable",
+        "f": "Option unavailable",
+        "g": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "A small slider of mass 30g is at rest near the bottom of a frictionless slope and in contact with a light uncompressed spring as shown. spring slider height [diagram not to scale] The spring is compressed by 5.0cm and the slider remains in contact with it. The spring is released and causes the slider to rise up the slope to a maximum vertical height of 20cm. The slider is replaced with one of mass 20g. The spring is now compressed by 15cm, and the new slider remains in contact with it. To what maximum vertical height does this new slider rise after it is released? (the spring obeys Hooke’s law; assume that air resistance is negligible)",
+      "question": "A small slider of mass 30g is at rest near the bottom of a frictionless slope and in contact with a light uncompressed spring as shown. spring slider height The spring is compressed by 5.0cm and the slider remains in contact with it. The spring is released and causes the slider to rise up the slope to a maximum vertical height of 20cm. The slider is replaced with one of mass 20g. The spring is now compressed by 15cm, and the new slider remains in contact with it. To what maximum vertical height does this new slider rise after it is released? (the spring obeys Hooke’s law; assume that air resistance is negligible)",
       "answers": {
         "a": "40cm",
         "b": "60cm",
         "c": "90cm",
         "d": "120cm",
         "e": "180cm",
-        "f": "270cm 18"
+        "f": "270cm"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -237,14 +266,14 @@
       "answer": "d"
     },
     {
-      "question": "A tall, smooth cylinder contains air at atmospheric pressure of 1.00 ×105Pa. The density of the air in the cylinder is 1.20kgm–3.",
+      "question": "A tall, smooth cylinder contains air at atmospheric pressure of 1.00 ×105Pa. The density of the air in the cylinder is 1.20kgm–3. compressing the air until the piston rests in equilibrium. The mass of the piston is 50.0kg and its cross-sectional area is 0.0200m2. What is the density of the air in the cylinder when the piston rests in equilibrium? (gravitational field strength = 10Nkg–1; assume that the air behaves as an ideal gas and that the temperature remains constant)",
       "answers": {
         "a": "0.960kgm–3",
         "b": "1.20kgm–3",
         "c": "1.25kgm–3",
         "d": "1.28kgm–3",
         "e": "1.50kgm–3",
-        "f": "4.80kgm–3 19 BLANK PAGE 20 PART B Advanced Mathematics and Advanced Physics NOTE: questions in this part that are not covered by the ESAT content specification are indicated by a cross through the question number."
+        "f": "4.80kgm–3 19 20 NOTE: questions in this part that are not covered by the ESAT content specification are indicated by a cross through the question number."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -252,10 +281,14 @@
   ],
   "paper2": [
     {
-      "question": "21 21 Find the value of 4 2x2−3  dx x x 1 19 A 3 37 B 3 53 C 3 73 D 4 81 E 4 87 F 4",
+      "question": "Find the value of 4 2x2−3  dx x x 1 19",
       "answers": {
         "a": "Option unavailable",
-        "b": "Option unavailable"
+        "b": "Option unavailable",
+        "c": "Option unavailable",
+        "d": "Option unavailable",
+        "e": "Option unavailable",
+        "f": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -268,7 +301,7 @@
         "c": "200Hz",
         "d": "450Hz",
         "e": "600Hz",
-        "f": "1200Hz 22"
+        "f": "1200Hz"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -281,7 +314,7 @@
         "c": "5x 10x−x2 −20",
         "d": "15x",
         "e": "25x",
-        "f": "5x(10 – x) 23"
+        "f": "5x(10 – x)"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -289,14 +322,14 @@
     {
       "question": "A stone is thrown vertically upwards from the surface of the Earth and reaches a maximum height h. The same stone is thrown vertically upwards from the surface of the Moon, with the same initial speed. What is the maximum height reached by the stone thrown on the Moon? (gravitational field strength on the Earth = 10Nkg–1; gravitational field strength on the Moon = 1.6Nkg–1; air resistance may be ignored) 10 ",
       "answers": {
-        "a": "  h 1.6 10  2",
+        "a": "  h 1.6 10 ",
         "b": "  h 1.6  10 ",
-        "c": "  h 3.2  10  2",
+        "c": "  h 3.2  10 ",
         "d": "  h 3.2  10 ",
-        "e": "  h 8.4  10  2",
+        "e": "  h 8.4  10 ",
         "f": "  h 8.4  20 ",
-        "g": "  h 1.6  20  2",
-        "h": "  h 1.6 24"
+        "g": "  h 1.6  20 ",
+        "h": "  h 1.6"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -309,7 +342,7 @@
         "c": "W Z Y X",
         "d": "Y W X Z",
         "e": "Y W Z X",
-        "f": "Y Z W X 25"
+        "f": "Y Z W X"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -317,9 +350,12 @@
     {
       "question": "A ray of light is incident on a boundary between a vacuum and medium X at an angle θ as shown: incident ray reflected ray vacuum θ medium X refracted ray The incident ray is partially reflected and partially refracted. The angle between the reflected and refracted rays is 90°. What is the refractive index of medium X?",
       "answers": {
-        "a": "sinθ 1 B sinθ",
-        "c": "cosθ 1 D cosθ",
-        "e": "tanθ 1 F tanθ 26"
+        "a": "sinθ",
+        "b": "Option unavailable sinθ",
+        "c": "cosθ",
+        "d": "Option unavailable cosθ",
+        "e": "tanθ",
+        "f": "Option unavailable tanθ"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -327,8 +363,12 @@
     {
       "question": "Which one of the following expressions is equal to ( 2+ 20 )2 ( 1+ 5 )3",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "5 – 5 −1",
+        "b": "Option unavailable 6 ( 5 5 −1 )",
+        "c": "Option unavailable 3 ( 5 5 −1 )",
+        "d": "Option unavailable −22 +10 2+11 5 − 4 10",
+        "e": "Option unavailable −22 +10 2 +11 5 − 4 10",
+        "f": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -343,16 +383,20 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 28"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
     },
     {
-      "question": "Evaluate ∞  1 1 1   r + r + r  2 3 4  r=2 21 A 40 3 B 4 13 C 12 157 D 120 11 E 6 23 F 12",
+      "question": "Evaluate ∞  1 1 1   r + r + r  2 3 4  r=2 21",
       "answers": {
         "a": "Option unavailable",
-        "b": "Option unavailable"
+        "b": "Option unavailable",
+        "c": "Option unavailable 157",
+        "d": "Option unavailable 120 11",
+        "e": "Option unavailable",
+        "f": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -365,7 +409,7 @@
         "c": "2R",
         "d": "3R",
         "e": "8R",
-        "f": "9R 29"
+        "f": "9R"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -373,12 +417,12 @@
     {
       "question": "What is the complete set of real values of x for which x2( x2+4 ) < 21",
       "answers": {
-        "a": "– 3 < x < 3",
-        "b": "– 7 < x < 7",
-        "c": "x < – 3 or x > 3",
-        "d": "x < – 7 or x > 7",
-        "e": "– 7 < x < – 3 or 3 < x < 7",
-        "f": "x < – 7 or – 3 < x < 3 or x > 7 30"
+        "a": "– 3 < x <",
+        "b": "– 7 < x <",
+        "c": "x < – 3 or x >",
+        "d": "x < – 7 or x >",
+        "e": "– 7 < x < – 3 or 3 < x <",
+        "f": "x < – 7 or – 3 < x < 3 or x >"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -390,7 +434,7 @@
         "b": "2.16%",
         "c": "20.0%",
         "d": "21.6%",
-        "e": "60.0% 31"
+        "e": "60.0%"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -410,7 +454,7 @@
       "answer": "d"
     },
     {
-      "question": "A uniform metre ruler has a mass of 100g and is 1.00m long.",
+      "question": "A uniform metre ruler has a mass of 100g and is 1.00m long. fixed at the 100cm mark. The ruler is balanced on a pivot. When the ruler is balanced, what distance is the pivot from the 0cm mark?",
       "answers": {
         "a": "15cm",
         "b": "20cm",
@@ -419,7 +463,7 @@
         "e": "65cm",
         "f": "75cm",
         "g": "80cm",
-        "h": "85cm 32"
+        "h": "85cm"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -449,7 +493,7 @@
         "e": "1.0 from Y to X",
         "f": "2.0 from Y to X",
         "g": "2.25 from Y to X",
-        "h": "6.0 from Y to X 34"
+        "h": "6.0 from Y to X"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -484,11 +528,11 @@
       "question": "Find the sum of the real solutions to the equation 2 x −( 2 )x+6 +12 =0",
       "answers": {
         "a": "8",
-        "b": "16 4+ 2",
-        "c": "2 2 6+ 2",
+        "b": "16 4+",
+        "c": "2 2 6+",
         "d": "2 2",
-        "e": "1+ 1log 3 2 2",
-        "f": "4 + 2log 3 2"
+        "e": "1+ 1log 2 2",
+        "f": "4 + 2log"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -503,7 +547,7 @@
         "e": "3.2 ×10−5m",
         "f": "6.4 ×10−5m",
         "g": "3.2 ×10−4m",
-        "h": "6.4 ×10−4m END OF TEST 36 BLANK PAGE 37 BLANK PAGE 38 BLANK PAGE 39 40"
+        "h": "6.4 ×10−4m END OF TEST"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"

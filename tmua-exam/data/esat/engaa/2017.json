@@ -7,9 +7,11 @@
       "question": "Evaluate ( 12+ 3 )2 ( 12− 3 )2",
       "answers": {
         "a": "1",
-        "b": "3 5 C 3 7 D 3",
+        "b": "3 5",
+        "c": "Option unavailable",
+        "d": "Option unavailable",
         "e": "3 3",
-        "f": "9 © UCLES 2017 5"
+        "f": "9 5"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -24,7 +26,7 @@
         "e": "750m",
         "f": "1400m",
         "g": "1800m",
-        "h": "1900m © UCLES 2017 [Turn over 6"
+        "h": "1900m"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -52,21 +54,21 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 © UCLES 2017 7"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
     },
     {
-      "question": "The equation gives y in terms of x: (cid:167)x (cid:183) 2 y=3(cid:168) −1(cid:184) −5 (cid:169)2 (cid:185) Which one of the following is a rearrangement for x in terms of y? y−5",
+      "question": "The equation gives y in terms of x: x 2 y=3 −1 −5 2 Which one of the following is a rearrangement for x in terms of y? y−5",
       "answers": {
         "a": "x=2±2 3 y+5",
         "b": "x=2±2 3 y+5",
         "c": "x=2±3 3 y+5",
         "d": "x=−2±2 3 y+5",
-        "e": "x=−2±3 2 (cid:167)y+5(cid:183) 2",
-        "f": "x=2+2(cid:168) (cid:184) (cid:169) 3 (cid:185) (cid:167)y+5(cid:183) 2",
-        "g": "x=−2+2(cid:168) (cid:184) (cid:169) 3 (cid:185) © UCLES 2017 [Turn over 8"
+        "e": "x=−2±3 2 y+5 2",
+        "f": "x=2+2 3 y+5 2",
+        "g": "x=−2+2 3 8"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -79,16 +81,21 @@
         "c": "12kJ",
         "d": "16kJ",
         "e": "21kJ",
-        "f": "33kJ © UCLES 2017 9"
+        "f": "33kJ"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
     },
     {
-      "question": "A fruit stall sells apples costing £x each, and pears costing £y each. Sam bought 2 apples and 5 pears, and the total cost of these was £P. Lesley bought 3 apples and 2 pears, and the total cost of these was £Q. Which of the following is an expression for the cost, in pounds (£), of a pear? 2Q−3P A 3 2Q−3P B 11 Q−P C 3 Q−P D 11 P−Q E 3 3P−2Q F 3 3P−2Q G 11",
+      "question": "A fruit stall sells apples costing £x each, and pears costing £y each. Sam bought 2 apples and 5 pears, and the total cost of these was £P. Lesley bought 3 apples and 2 pears, and the total cost of these was £Q. Which of the following is an expression for the cost, in pounds (£), of a pear? 2Q−3P",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "Option unavailable 2Q−3P",
+        "b": "Option unavailable Q−P",
+        "c": "Option unavailable Q−P",
+        "d": "Option unavailable P−Q",
+        "e": "Option unavailable 3P−2Q",
+        "f": "Option unavailable 3P−2Q",
+        "g": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -101,7 +108,7 @@
         "c": "24mm",
         "d": "6.0cm",
         "e": "12cm",
-        "f": "24cm © UCLES 2017 [Turn over 10"
+        "f": "24cm"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -109,27 +116,27 @@
     {
       "question": "P is directly proportional to Q squared. When P is 2, Q is 4. Q is inversely proportional to R. When Q is 2, R is 5. What is P in terms of R? 5",
       "answers": {
-        "a": "P = R 5",
-        "b": "P = 4R 1",
+        "a": "P = R",
+        "b": "P = 4R",
         "c": "P = 800R2 5",
         "d": "P = 4R2 25",
         "e": "P = 2R2 800",
         "f": "P = R2 R2",
-        "g": "P = 50 25R2",
-        "h": "P = 2 © UCLES 2017 11"
+        "g": "P = 25R2",
+        "h": "P ="
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "When a plutonium-239 nucleus absorbs a neutron it undergoes nuclear fission. One particular fission reaction results in the creation of xenon and zirconium as daughter nuclei. The nuclear equation for this reaction is shown but with some non-zero integers replaced by the letters w, x, y and z. 1(cid:81)+ 239 Pu → w Xe + y Zr + z 1 n 0 94 54 x 0 Which equation is correct?",
+      "question": "When a plutonium-239 nucleus absorbs a neutron it undergoes nuclear fission. One particular fission reaction results in the creation of xenon and zirconium as daughter nuclei. The nuclear equation for this reaction is shown but with some non-zero integers replaced by the letters w, x, y and z. 1 + 239 Pu → w Xe + y Zr + z 1 n 0 94 54 x 0 Which equation is correct?",
       "answers": {
         "a": "w + y = 240",
         "b": "z = 240 − (w + y)",
         "c": "x = 40 − z",
-        "d": "94 = 54 + x + 1",
+        "d": "94 = 54 + x +",
         "e": "240 = 54 + x",
-        "f": "94 = w + y + 1"
+        "f": "94 = w + y +"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -137,18 +144,18 @@
     {
       "question": "Which one of the following is a simplification of ( ) x2 9x2 −4 2− x3(2−3x) 2",
       "answers": {
-        "a": "−1− x 2",
-        "b": "−1+ x 2",
-        "c": "5− x 2",
-        "d": "5+ x 3",
-        "e": "5− x 3",
-        "f": "5+ x © UCLES 2017 [Turn over"
+        "a": "−1− x",
+        "b": "−1+ x",
+        "c": "5− x",
+        "d": "5+ x",
+        "e": "5− x",
+        "f": "5+ x"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
     },
     {
-      "question": "12 12 An electric motor is connected to a constant 12V d.c. supply. The motor is used to lift a mass of 20kg by means of a rope and pulley. The mass is lifted vertically through a height of 6.0m in a time of 5.0s. The complete lifting system (motor, rope and pulley) is 80% efficient. pulley rope 6.0m motor mass 20 kg What is the current in the electric motor? (gravitational field strength = 10Nkg–1)",
+      "question": "An electric motor is connected to a constant 12V d.c. supply. The motor is used to lift a mass of 20kg by means of a rope and pulley. The mass is lifted vertically through a height of 6.0m in a time of 5.0s. The complete lifting system (motor, rope and pulley) is 80% efficient. pulley rope 6.0m motor mass 20 kg What is the current in the electric motor? (gravitational field strength = 10Nkg–1)",
       "answers": {
         "a": "1.6A",
         "b": "2.0A",
@@ -167,7 +174,7 @@
         "b": "−1.75",
         "c": "−1.5",
         "d": "−0.5",
-        "e": "−0.25 © UCLES 2017 13"
+        "e": "−0.25 13"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -196,7 +203,7 @@
         "d": "2X +2Y",
         "e": "2X +Y −35",
         "f": "2X +3Y −35",
-        "g": "2X +Y +35 © UCLES 2017 [Turn over 14"
+        "g": "2X +Y +35 14"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -223,7 +230,7 @@
         "d": "18",
         "e": "21",
         "f": "24",
-        "g": "27 © UCLES 2017 15"
+        "g": "27 15"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -236,7 +243,7 @@
         "c": "2(x −x) 2 1 t −t 2 1",
         "d": "8(x −x) 2 1 3(t −t ) 2 1",
         "e": "3(x −x) 2 1 t −t 2 1",
-        "f": "6(x −x) 2 1 t −t 2 1 © UCLES 2017 [Turn over 16"
+        "f": "6(x −x) 2 1 t −t 2 1 16"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -273,7 +280,7 @@
         "b": "100°",
         "c": "110°",
         "d": "120°",
-        "e": "140° © UCLES 2017 17"
+        "e": "140°"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -291,7 +298,7 @@
       "answer": "c"
     },
     {
-      "question": "A pet shop has 4 female rabbits and x male rabbits for sale.",
+      "question": "A pet shop has 4 female rabbits and x male rabbits for sale. chosen. 1 The probability that both the chosen rabbits are male is . 3 What is the value of x?",
       "answers": {
         "a": "2",
         "b": "4",
@@ -299,7 +306,7 @@
         "d": "8",
         "e": "9",
         "f": "11",
-        "g": "12 © UCLES 2017 [Turn over 18"
+        "g": "12 18"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -314,35 +321,39 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 © UCLES 2017 19"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
     },
     {
-      "question": "25 x O The diagram shows a square with side of length xcm. A circle is drawn with centre O which lies at the mid-point of one of the sides of the square. This side forms part of a diameter of the circle. The circle passes through two corners of the square as shown. What is the area, in cm2, of the shaded part of the semi-circle?",
+      "question": "x O The diagram shows a square with side of length xcm. A circle is drawn with centre O which lies at the mid-point of one of the sides of the square. This side forms part of a diameter of the circle. The circle passes through two corners of the square as shown. What is the area, in cm2, of the shaded part of the semi-circle?",
       "answers": {
         "a": "(π−1)x2",
-        "b": "(cid:168) (cid:167)π−2 (cid:184) (cid:183) x2 (cid:169) 2 (cid:185)",
-        "c": "(cid:168) (cid:167)3π−2 (cid:184) (cid:183) x2 (cid:169) 2 (cid:185)",
-        "d": "(cid:168) (cid:167)3π−4 (cid:184) (cid:183) x2 (cid:169) 4 (cid:185)",
-        "e": "(cid:168) (cid:167)5π−4 (cid:184) (cid:183) x2 (cid:169) 4 (cid:185)",
-        "f": "(cid:168) (cid:167)5π−8 (cid:184) (cid:183) x2 (cid:169) 8 (cid:185) © UCLES 2017 [Turn over 20"
+        "b": "Option unavailable π−2 x2 2",
+        "c": "Option unavailable 3π−2 x2 2",
+        "d": "Option unavailable 3π−4 x2 4",
+        "e": "Option unavailable 5π−4 x2 4",
+        "f": "Option unavailable 5π−8 x2 8 20"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
     },
     {
-      "question": "Two radioactive sources X and Y have half-lives of 3.0 hours and 2.0 hours respectively. The product of the decay of both of the sources is a stable isotope of the element Z. Six hours ago a mixture contained the same number of atoms of both X and Y, and no other atoms. What fraction of the mixture is now made up of atoms of Z? 10 A 16 11 B 16 12 C 16 13 D 16 14 E 16 15 F 16 © UCLES 2017 21",
+      "question": "Two radioactive sources X and Y have half-lives of 3.0 hours and 2.0 hours respectively. The product of the decay of both of the sources is a stable isotope of the element Z. Six hours ago a mixture contained the same number of atoms of both X and Y, and no other atoms. What fraction of the mixture is now made up of atoms of Z? 10",
       "answers": {
         "a": "Option unavailable",
-        "b": "Option unavailable"
+        "b": "Option unavailable",
+        "c": "Option unavailable",
+        "d": "Option unavailable",
+        "e": "Option unavailable",
+        "f": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
     },
     {
-      "question": "A cylindrical hollow metal pipe is 16cm long. It has an external diameter of 10cm and an internal diameter of 8cm. The density of the metal from which the pipe is made is 8 grams per cm3. [diagram not to scale] 8cm 16cm 10 cm What is the mass of the pipe in grams?",
+      "question": "A cylindrical hollow metal pipe is 16cm long. It has an external diameter of 10cm and an internal diameter of 8cm. The density of the metal from which the pipe is made is 8 grams per cm3. 8cm 16cm 10 cm What is the mass of the pipe in grams?",
       "answers": {
         "a": "8π",
         "b": "16π",
@@ -351,7 +362,7 @@
         "e": "128π",
         "f": "512π",
         "g": "1152π",
-        "h": "4608π © UCLES 2017 [Turn over 22"
+        "h": "4608π"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -363,7 +374,7 @@
         "b": "kinetic energy of car X = 0.96 × kinetic energy of car Y",
         "c": "kinetic energy of car X = 1.20 × kinetic energy of car Y",
         "d": "kinetic energy of car X = 1.44 × kinetic energy of car Y",
-        "e": "kinetic energy of car X = 1.80 × kinetic energy of car Y © UCLES 2017 23 PART B Advanced Mathematics and Advanced Physics NOTE: questions in this part that are not covered by the ESAT content specification are indicated by a cross through the question number. © UCLES 2017 [Turn over 24"
+        "e": "kinetic energy of car X = 1.80 × kinetic energy of car Y NOTE: questions in this part that are not covered by the ESAT content specification are indicated by a cross through the question number."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -371,27 +382,29 @@
   ],
   "paper2": [
     {
-      "question": "Which one of the following is a simplification of 2 (cid:167) 3+ 3 (cid:183) 1−(cid:168) (cid:184) (cid:168) (cid:184) (cid:169)6−2 3(cid:185) 3",
+      "question": "Which one of the following is a simplification of 2 3+ 3 1− 6−2 3 3",
       "answers": {
-        "a": "− 4 3 B 4 3 3",
+        "a": "− 4 3",
+        "b": "Option unavailable 3 3",
         "c": "− − 4 7 3 3",
         "d": "− 4 7 3",
-        "e": "− − 3 4 3",
+        "e": "− −",
         "f": "− 3 4 3",
-        "g": "− 2 3 H 2 © UCLES 2017 25"
+        "g": "− 2 3",
+        "h": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "The diagram shows a crane being used on a building site. The crane is perfectly balanced about P. [diagram not to scale] 10m 10m P counterweight = 2000kg load = 400kg weight of the horizontal section of the crane The load is now moved to the left by 5.0m. To keep the crane perfectly balanced about P, how far does the counterweight have to move, and in which direction? (gravitational field strength = 10Nkg–1)",
+      "question": "The diagram shows a crane being used on a building site. The crane is perfectly balanced about P. 10m 10m P counterweight = 2000kg load = 400kg weight of the horizontal section of the crane The load is now moved to the left by 5.0m. To keep the crane perfectly balanced about P, how far does the counterweight have to move, and in which direction? (gravitational field strength = 10Nkg–1)",
       "answers": {
         "a": "1.0m to the left",
         "b": "1.0m to the right",
         "c": "3.0m to the left",
         "d": "3.0m to the right",
         "e": "4.0m to the left",
-        "f": "4.0m to the right © UCLES 2017 [Turn over 26"
+        "f": "4.0m to the right"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -403,7 +416,7 @@
         "b": "2",
         "c": "3",
         "d": "4",
-        "e": "8 © UCLES 2017 27"
+        "e": "8 27"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -411,9 +424,14 @@
     {
       "question": "A ball is thrown vertically upwards in still air and is then caught at the same height when it comes back down. Which velocity–time graph shows this complete motion? (Take upwards as positive, and ignore air resistance.)",
       "answers": {
-        "a": "B C velocity velocity velocity + + + 0 0 0 0 time 0 time 0 time – – –",
-        "d": "E F velocity velocity velocity + + + 0 0 0 0 time 0 time 0 time – – –",
-        "g": "H velocity velocity + + 0 0 0 time 0 time – – © UCLES 2017 [Turn over 28"
+        "a": "Option A (diagram/text unavailable in PDF text extraction).",
+        "b": "Option B (diagram/text unavailable in PDF text extraction).",
+        "c": "Option C (diagram/text unavailable in PDF text extraction).",
+        "d": "Option D (diagram/text unavailable in PDF text extraction).",
+        "e": "Option E (diagram/text unavailable in PDF text extraction).",
+        "f": "Option F (diagram/text unavailable in PDF text extraction).",
+        "g": "Option G (diagram/text unavailable in PDF text extraction).",
+        "h": "Option H (diagram/text unavailable in PDF text extraction)."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -421,10 +439,11 @@
     {
       "question": "Which of the following is a solution to the equation 3 (2x+1) −6(3 x )=0?",
       "answers": {
-        "a": "log 3 2",
-        "b": "log 2 3",
+        "a": "log",
+        "b": "log",
         "c": "2",
-        "d": "log 2 10 2 E 3"
+        "d": "log",
+        "e": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -436,35 +455,41 @@
         "b": "It is perpendicular to its motion.",
         "c": "It is zero.",
         "d": "It is equal to its weight.",
-        "e": "It is equal to the drag acting on the aircraft. © UCLES 2017 29"
+        "e": "It is equal to the drag acting on the aircraft."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
     },
     {
-      "question": "The diagram shows the outline of a keyhole consisting of three straight sides and an arc from a circle. The sides PQ and RS are both 18mm in length and when extended meet at the centre of the π circle O forming an angle of radians. 6 The longer arc from Q to R has length 22πmm. [diagram not to scale] O Q R P S What is the area, in mm2, of the keyhole as shaded in the diagram? 841",
+      "question": "The diagram shows the outline of a keyhole consisting of three straight sides and an arc from a circle. The sides PQ and RS are both 18mm in length and when extended meet at the centre of the π circle O forming an angle of radians. 6 The longer arc from Q to R has length 22πmm. O Q R P S What is the area, in mm2, of the keyhole as shaded in the diagram? 841",
       "answers": {
-        "a": "121π+ 4 841 3",
-        "b": "121π+ 4",
+        "a": "121π+ 841 3",
+        "b": "121π+",
         "c": "132π+225",
         "d": "132π+225 3",
         "e": "144π+225",
-        "f": "144π+225 3 © UCLES 2017 [Turn over 30"
+        "f": "144π+225 3 30"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
     },
     {
-      "question": "A horizontal, uniform bar of mass 60kg is 4.0m long and is pivoted at one end. The bar is held in equilibrium by a force F at the other end of the bar, acting at an angle of 60° to the horizontal. [diagram not to scale] F pivot 60o Which expression gives the magnitude of F in newtons? (gravitational field strength = 10Nkg–1) 30 A sin60° 30 B cos60° 60 C sin60° 60 D cos60° 300 E sin60° 300 F cos60° 600 G sin60° 600 H cos60° © UCLES 2017 31",
+      "question": "A horizontal, uniform bar of mass 60kg is 4.0m long and is pivoted at one end. The bar is held in equilibrium by a force F at the other end of the bar, acting at an angle of 60° to the horizontal. pivot 60o Which expression gives the magnitude of F in newtons? (gravitational field strength = 10Nkg–1) 30",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "Option unavailable sin60°",
+        "b": "Option unavailable cos60°",
+        "c": "Option unavailable sin60°",
+        "d": "Option unavailable cos60° 300",
+        "e": "Option unavailable sin60° 300",
+        "f": "Option unavailable cos60° 600",
+        "g": "Option unavailable sin60° 600",
+        "h": "Option unavailable cos60°"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "It is given that y=8p and z=(cid:168) (cid:167)1 (cid:184) (cid:183) 2q where p and q are real numbers. (cid:169)2(cid:185) (cid:167) y3 (cid:183) Which of the following expressions is a simplification of log (cid:168) (cid:184)? 2(cid:168) (cid:169) z2 (cid:184) (cid:185)",
+      "question": "It is given that y=8p and z= 1 2q where p and q are real numbers. 2 y3 Which of the following expressions is a simplification of log ? 2 z2",
       "answers": {
         "a": "6p−4q",
         "b": "6p+4q",
@@ -486,7 +511,7 @@
         "c": "25.6ms–1",
         "d": "32.0ms–1",
         "e": "36.2ms–1",
-        "f": "39.3ms–1 © UCLES 2017 [Turn over 32"
+        "f": "39.3ms–1 32"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -499,7 +524,7 @@
         "c": "p=3 and q=−8",
         "d": "p=−9 and q=24",
         "e": "p=9 and q=24",
-        "f": "p=9 and q=−24 © UCLES 2017 33"
+        "f": "p=9 and q=−24 33"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -513,16 +538,20 @@
         "d": "2.0N",
         "e": "5.0N",
         "f": "10N",
-        "g": "20N © UCLES 2017 [Turn over 34"
+        "g": "20N"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
     },
     {
-      "question": "In triangle PQR PQ =4xcm QR =(8−3x)cm ∠PQR= 60° What is the maximum value of the area, in cm2, of triangle PQR? 8 3 A 3 16 B 3 69 3 C 16 16 3 D 3 32 E 3 32 3 F 3",
+      "question": "In triangle PQR PQ =4xcm QR =(8−3x)cm ∠PQR= 60° What is the maximum value of the area, in cm2, of triangle PQR? 8 3",
       "answers": {
         "a": "Option unavailable",
-        "b": "Option unavailable"
+        "b": "Option unavailable 69 3",
+        "c": "Option unavailable 16 3",
+        "d": "Option unavailable",
+        "e": "Option unavailable 32 3",
+        "f": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -534,7 +563,7 @@
         "b": "3.6J",
         "c": "4.0J",
         "d": "7.2J",
-        "e": "8.0J © UCLES 2017 35 dy"
+        "e": "8.0J dy"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -552,7 +581,7 @@
       "answer": "e"
     },
     {
-      "question": "A stone is fired vertically upwards at a speed of 13ms–1 on a still day from the top of a 6.0m high cliff. It then falls down and lands at the bottom of the cliff. [diagram not to scale] stone 13ms–1 6.0m From when the stone passes the top of the cliff on the way down, how long does it take to reach the ground at the bottom of the cliff? (air resistance can be ignored; gravitational field strength = 10Nkg–1)",
+      "question": "A stone is fired vertically upwards at a speed of 13ms–1 on a still day from the top of a 6.0m high cliff. It then falls down and lands at the bottom of the cliff. stone 13ms–1 6.0m From when the stone passes the top of the cliff on the way down, how long does it take to reach the ground at the bottom of the cliff? (air resistance can be ignored; gravitational field strength = 10Nkg–1)",
       "answers": {
         "a": "0.40s 6.0",
         "b": "s 6.5",
@@ -561,7 +590,7 @@
         "e": "1.3s",
         "f": "2.0s",
         "g": "2.5s",
-        "h": "3.0s © UCLES 2017 [Turn over 36 1"
+        "h": "3.0s"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -573,7 +602,7 @@
         "b": "π, π 6 3 7 11",
         "c": "π, π 6 6 5 7",
         "d": "π, π 4 4",
-        "e": "there are no values of x in this range © UCLES 2017 37"
+        "e": "there are no values of x in this range"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -588,7 +617,7 @@
         "e": "76.8 32",
         "f": "76.8 320",
         "g": "76.8 3200",
-        "h": "76.8 32000 © UCLES 2017 [Turn over 38"
+        "h": "76.8 32000 38"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -600,7 +629,7 @@
         "b": "– 2",
         "c": "–1",
         "d": "8",
-        "e": "26 © UCLES 2017 39"
+        "e": "26 39"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -628,7 +657,7 @@
         "c": "0<x<1, x>4",
         "d": "x<0, 1<x<4",
         "e": "x<1, x>4",
-        "f": "1<x<4 © UCLES 2017 [Turn over 40"
+        "f": "1<x<4 40"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -640,34 +669,34 @@
         "b": "mgsinθ",
         "c": "mgcosθ",
         "d": "µmgsinθ",
-        "e": "µmgcosθ 1"
+        "e": "µmgcosθ"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
     },
     {
-      "question": "The curve y=sinx is stretched by a scale factor of parallel to the x-axis and then translated 2 π by in the negative x-direction. 4 What is the equation of the new curve? (cid:167)x π(cid:183)",
+      "question": "The curve y=sinx is stretched by a scale factor of parallel to the x-axis and then translated 2 π by in the negative x-direction. 4 What is the equation of the new curve? x π",
       "answers": {
-        "a": "y=sin(cid:168) − (cid:184) (cid:169)2 4(cid:185) (cid:167)x π(cid:183)",
-        "b": "y=sin(cid:168) + (cid:184) (cid:169)2 4(cid:185) (cid:167)x π(cid:183)",
-        "c": "y=sin(cid:168) − (cid:184) (cid:169)2 8(cid:185) (cid:167)x π(cid:183)",
-        "d": "y=sin(cid:168) + (cid:184) (cid:169)2 8(cid:185) (cid:167) π(cid:183)",
-        "e": "y=sin(cid:168)2x− (cid:184) (cid:169) 4(cid:185) (cid:167) π(cid:183)",
-        "f": "y=sin(cid:168)2x+ (cid:184) (cid:169) 4(cid:185) (cid:167) π(cid:183)",
-        "g": "y=sin(cid:168)2x− (cid:184) (cid:169) 2(cid:185) (cid:167) π(cid:183)",
-        "h": "y=sin(cid:168)2x+ (cid:184) (cid:169) 2(cid:185) © UCLES 2017 41"
+        "a": "y=sin − 2 4 x π",
+        "b": "y=sin + 2 4 x π",
+        "c": "y=sin − 2 8 x π",
+        "d": "y=sin + 2 8 π",
+        "e": "y=sin 2x− π",
+        "f": "y=sin 2x+ π",
+        "g": "y=sin 2x− π",
+        "h": "y=sin 2x+"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
     },
     {
-      "question": "The graph shows how the horizontal force on a tennis ball of mass m varies during a shot in a tennis match. The ball is initially travelling horizontally toward the racket with speed u and leaves the racket horizontally travelling in the opposite direction with speed v. force /N F 0 t t 0 time/s 1 2 Which expression gives the magnitude of the momentum of the ball as it leaves the racket?",
+      "question": "The graph shows how the horizontal force on a tennis ball of mass m varies during a shot in a tennis match. The ball is initially travelling horizontally toward the racket with speed u and leaves the racket horizontally travelling in the opposite direction with speed v. force /N 0 t t 0 time/s 1 2 Which expression gives the magnitude of the momentum of the ball as it leaves the racket?",
       "answers": {
         "a": "F(t − t ) 2 1",
         "b": "F(t − t ) − mu 2 1",
         "c": "F(t − t ) + mu 2 1",
         "d": "mv − mu",
-        "e": "Ft − mu 2"
+        "e": "Ft − mu"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -680,19 +709,19 @@
         "c": "1.50",
         "d": "1.00",
         "e": "−0.25",
-        "f": "−0.50 © UCLES 2017 [Turn over 42"
+        "f": "−0.50 42"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
     },
     {
-      "question": "The acceleration versus time graph is for a ball dropped from rest, falling vertically and bouncing on the ground. 0 0.0 00..11 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 1.1 1.2 1.3 1.4 1.5 -10 time /s © UCLES 2017 2–sm/ noitarelecca The time of contact with the ground can be ignored. What is the speed of the ball immediately after hitting the ground for the first time, and what is the maximum height reached by the ball after the first bounce? (gravitational field strength = 10Nkg–1) speed /ms–1 height /m",
+      "question": "The acceleration versus time graph is for a ball dropped from rest, falling vertically and bouncing on the ground. 0 0.0 00..11 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 1.1 1.2 1.3 1.4 1.5 -10 time /s 2–sm/ noitarelecca The time of contact with the ground can be ignored. What is the speed of the ball immediately after hitting the ground for the first time, and what is the maximum height reached by the ball after the first bounce? (gravitational field strength = 10Nkg–1) speed /ms–1 height /m",
       "answers": {
         "a": "4.00 0.80",
         "b": "4.00 1.25",
         "c": "5.00 0.80",
         "d": "5.00 1.25",
-        "e": "8.00 3.20 END OF TEST 43 BLANK PAGE © UCLES 2017 44 © UCLES 2017"
+        "e": "8.00 3.20 END OF TEST"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"

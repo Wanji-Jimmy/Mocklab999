@@ -4,16 +4,22 @@
   "source": "official-pdf-auto-parse",
   "mandatoryMath": [
     {
-      "question": "Find the complete set of solutions to − 8 < 6 −",
+      "question": "Find the complete set of solutions to − 8 < 6 − 2",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "x<4",
+        "b": "x>4",
+        "c": "x<20",
+        "d": "x>20",
+        "e": "x<22",
+        "f": "x>22",
+        "g": "x<28",
+        "h": "x>28 ( )"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
     },
     {
-      "question": "2",
+      "question": "Which one of the following is a simplification of 3 − 2 2?",
       "answers": {
         "a": "1−2 3 2",
         "b": "5−2 2 3",
@@ -22,7 +28,7 @@
         "e": "5− 2 3",
         "f": "13−2 2 3",
         "g": "5+2 2 3",
-        "h": "5 © UCLES 2016 5 PART A Mathematics"
+        "h": "5 5"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -48,7 +54,7 @@
         "c": "30 years",
         "d": "40 years",
         "e": "50 years",
-        "f": "52 years © UCLES 2016 [Turn over 6 PART A Mathematics"
+        "f": "52 years"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -74,15 +80,18 @@
         "b": "2 3 km",
         "c": "4 km",
         "d": "2 5 km",
-        "e": "4 2 km © UCLES 2016"
+        "e": "4 2 km"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
     },
     {
-      "question": "7 PART A Mathematics 7 The quantities x and y are positive. x is inversely proportional to the square root of y. When x = 8, y = 9. What is the value of y when x = 6? 3 A 2",
+      "question": "The quantities x and y are positive. x is inversely proportional to the square root of y. When x = 8, y = 9. What is the value of y when x = 6? 3",
       "answers": {
-        "b": "2 81 C 16 27 D 14",
+        "a": "Option unavailable",
+        "b": "2 81",
+        "c": "Option unavailable",
+        "d": "Option unavailable",
         "e": "12",
         "f": "16"
       },
@@ -97,7 +106,7 @@
         "c": "11cm",
         "d": "12cm",
         "e": "15cm",
-        "f": "17cm © UCLES 2016 [Turn over 8 PART A Mathematics"
+        "f": "17cm"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -110,34 +119,45 @@
         "c": "b=± ⎜ ⎟ ⎜ ⎝3a+1 ⎟ ⎠ ⎛ 2−a ⎞",
         "d": "b=± ⎜ ⎟ ⎜ ⎝3a−1 ⎟ ⎠ ⎛ 3 ⎞",
         "e": "b=± ⎜ ⎟ ⎜ ⎝3a+1 ⎟ ⎠ ⎛ 3 ⎞",
-        "f": "b=± ⎜ ⎟ ⎜ ⎝3a−1 ⎟ ⎠ © UCLES 2016 9 PART A Mathematics"
+        "f": "b=± ⎜ ⎟ ⎜ ⎝3a−1 ⎟ ⎠ 9"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
     },
     {
-      "question": "A thin rectangular sheet of metal 10m by 5m is made into an open ended cylinder by joining the edges PS and QR. The height of the cylinder is 10m. What is the volume, in cubic metres, enclosed by this cylinder? P 5 m Q r [diagram not to scale] 10 m 10 m 10 m S R 5m 5 A 2π 25 B 4π 125 C 2π",
+      "question": "A thin rectangular sheet of metal 10m by 5m is made into an open ended cylinder by joining the edges PS and QR. The height of the cylinder is 10m. What is the volume, in cubic metres, enclosed by this cylinder? P 5 m Q r 10 m 10 m 10 m S R 5m 5",
       "answers": {
-        "d": "62.5π 125 E π",
+        "a": "Option unavailable 2π",
+        "b": "Option unavailable 4π 125",
+        "c": "Option unavailable 2π",
+        "d": "62.5π 125",
+        "e": "Option unavailable π",
         "f": "250π"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
     },
     {
-      "question": "Which one of the following is a simplification of 4+ 4−x2 ? x2 −2x A 3−2 x B 3+2 x C 4−2 x D 4+2 x E 5−2 x F 5+2 x © UCLES 2016 [Turn over 10 PART A Mathematics",
+      "question": "Which one of the following is a simplification of 4+ 4−x2 ? x2 −2x",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "Option unavailable 3−2 x",
+        "b": "Option unavailable 3+2 x",
+        "c": "Option unavailable 4−2 x",
+        "d": "Option unavailable 4+2 x",
+        "e": "Option unavailable 5−2 x",
+        "f": "Option unavailable 5+2 x"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
     },
     {
-      "question": "During summer activities week 120 students each chose one activity from swimming, archery, and tennis. 46 of the students were girls. 2 36 of the students chose tennis, and of these were boys; 25 girls chose swimming, and 27 3 students chose archery.",
+      "question": "During summer activities week 120 students each chose one activity from swimming, archery, and tennis. 46 of the students were girls. 2 36 of the students chose tennis, and of these were boys; 25 girls chose swimming, and 27 3 students chose archery. 3",
       "answers": {
         "a": "Option unavailable",
-        "b": "Option unavailable"
+        "b": "Option unavailable",
+        "c": "Option unavailable",
+        "d": "Option unavailable",
+        "e": "Option unavailable 2n+1× 4−3n 9 3"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -146,38 +166,53 @@
       "question": "Which one of the following expressions is equivalent to ? 272−n",
       "answers": {
         "a": "39",
-        "b": "3 −2n C 32−2n",
-        "d": "3 4n E 36n−2",
-        "f": "36 © UCLES 2016 11 PART A Mathematics"
+        "b": "3 −2n",
+        "c": "Option unavailable 32−2n",
+        "d": "3 4n",
+        "e": "Option unavailable 36n−2",
+        "f": "36 11"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
     },
     {
-      "question": "In the diagram below, PQRS is part of a regular polygon. The polygon has n sides. The side PQ is extended to T such that PQT is a straight line. The length of RQ is the same as the length of RT. P [diagram not to scale] Q R x S T Find an equation for n in terms of x, where x is the size of angle ∠QRT in degrees. A n= 180 x−90 B n=180−x 720 C n= 360−x 90 D n= 360 180−x E n= 720 180−x F n= 720 360−x G n= 360 360−x © UCLES 2016 [Turn over 12 PART A Mathematics 3",
+      "question": "In the diagram below, PQRS is part of a regular polygon. The polygon has n sides. The side PQ is extended to T such that PQT is a straight line. The length of RQ is the same as the length of RT. P Q R x S T Find an equation for n in terms of x, where x is the size of angle ∠QRT in degrees.",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "Option unavailable n= 180 x−90",
+        "b": "Option unavailable n=180−x 720",
+        "c": "Option unavailable n= 360−x",
+        "d": "Option unavailable n= 360 180−x",
+        "e": "Option unavailable n= 720 180−x",
+        "f": "Option unavailable n= 720 360−x",
+        "g": "Option unavailable n= 360 360−x"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "In a population, of the adults are overweight. 5 9 The probability of an overweight adult having Type 2 diabetes is ; this probability is 6 times 50 the probability of an adult who is not overweight having the disease. An adult is chosen at random from the population. What is the probability the chosen adult has Type 2 diabetes? 27 A 250 3 B 25 63 C 500 37 D 250 39 E 50 21 F 100",
+      "question": "In a population, of the adults are overweight. 5 9 The probability of an overweight adult having Type 2 diabetes is ; this probability is 6 times 50 the probability of an adult who is not overweight having the disease. An adult is chosen at random from the population. What is the probability the chosen adult has Type 2 diabetes? 27",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "Option unavailable 250 3",
+        "b": "Option unavailable",
+        "c": "Option unavailable 500 37",
+        "d": "Option unavailable 250 39",
+        "e": "Option unavailable",
+        "f": "Option unavailable 100"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
     },
     {
-      "question": "The graph of y=x2 +ax+b meets the straight line y=x+1 when x=2 and x=4. Find a and b. A a=−5, b=9",
+      "question": "The graph of y=x2 +ax+b meets the straight line y=x+1 when x=2 and x=4. Find a and b.",
       "answers": {
-        "b": "a=5, b=9 C a=−5, b=11",
-        "d": "a=5, b=11 E a=−6, b=11",
-        "f": "a=6, b=11 G a=−6, b=13",
-        "h": "a=6, b=13 © UCLES 2016 13 PART A Mathematics"
+        "a": "Option unavailable a=−5, b=9",
+        "b": "a=5, b=9",
+        "c": "Option unavailable a=−5, b=11",
+        "d": "a=5, b=11",
+        "e": "Option unavailable a=−6, b=11",
+        "f": "a=6, b=11",
+        "g": "Option unavailable a=−6, b=13",
+        "h": "a=6, b=13 13"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -195,10 +230,14 @@
       "answer": "c"
     },
     {
-      "question": "A straight line is drawn joining the points with coordinates (7,1 − p) and (2p+ 1,− 1), where p is a constant. What is the complete set of values of p for which the gradient of this line is finite and greater than zero? A p<−4, p>0 B −4< p<0 C p<0 D p<2 E 2< p<3 F p<2, p>3 © UCLES 2016 [Turn over 14 PART B Physics PART B Physics © UCLES 2016 15 PART B Physics",
+      "question": "A straight line is drawn joining the points with coordinates (7,1 − p) and (2p+ 1,− 1), where p is a constant. What is the complete set of values of p for which the gradient of this line is finite and greater than zero?",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "Option unavailable p<−4, p>0",
+        "b": "Option unavailable −4< p<0",
+        "c": "Option unavailable p<0",
+        "d": "Option unavailable p<2",
+        "e": "Option unavailable 2< p<3",
+        "f": "Option unavailable p<2, p>3 14 15"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -225,13 +264,13 @@
         "b": "2 alpha and 1 beta",
         "c": "2 alpha and 2 beta",
         "d": "1 alpha and 2 beta",
-        "e": "3 beta © UCLES 2016 [Turn over 16 PART B Physics"
+        "e": "3 beta"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
     },
     {
-      "question": "A cylindrical copper bar X of length l has a cross-sectional area A. The colder end of the bar is kept at temperature T and the hotter end is kept at temperature T . 1 2 temperature T 1 l bar X A temperature T 2 The curved surface of the bar is perfectly insulated and thermal energy is conducted from the hotter end of the bar to the colder end. Changes in l, A, T and T may alter the rate at which thermal energy is conducted along the 1 2 copper bar. In which case is the rate of conduction of thermal energy along the insulated bar the same as for bar X? change in A change in l change in T change in T 1 2",
+      "question": "A cylindrical copper bar X of length l has a cross-sectional area A. The colder end of the bar is kept at temperature T and the hotter end is kept at temperature T . 1 2 temperature T 1 l bar X temperature T 2 The curved surface of the bar is perfectly insulated and thermal energy is conducted from the hotter end of the bar to the colder end. Changes in l, A, T and T may alter the rate at which thermal energy is conducted along the 1 2 copper bar. In which case is the rate of conduction of thermal energy along the insulated bar the same as for bar X? change in A change in l change in T change in T 1 2",
       "answers": {
         "a": "doubles no change no change no change",
         "b": "halves no change no change no change",
@@ -240,7 +279,7 @@
         "e": "no change no change decreases by 10°C increases by 10°C",
         "f": "no change no change decreases by 10°C no change",
         "g": "no change no change increases by 10°C decreases by 10°C",
-        "h": "no change no change increases by 10°C increases by 10°C © UCLES 2016 17 PART B Physics"
+        "h": "no change no change increases by 10°C increases by 10°C"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
@@ -248,12 +287,12 @@
     {
       "question": "The graph shown of quantity y against quantity x represents the motion of a body. y 10 0 0.0 2.0 x (The scales on both axes are in the appropriate S.I. units, and the gravitational field strength g is 10Nkg–1.) Which two of the following could the graph represent? 1 kinetic energy against velocity for an object of mass 10kg undergoing free-fall 2 potential energy against height for an object of mass 20kg being lifted by a constant external force 3 velocity against time for an object of mass 20kg being accelerated by a resultant force of 100N 4 work done by an external force of 5N against distance moved for an object of mass 12kg being moved at constant speed by (and in the direction of) the external force",
       "answers": {
-        "a": "1 and 2",
-        "b": "1 and 3",
-        "c": "1 and 4",
-        "d": "2 and 3",
-        "e": "2 and 4",
-        "f": "3 and 4 © UCLES 2016 [Turn over 18 PART B Physics"
+        "a": "1 and",
+        "b": "1 and",
+        "c": "1 and",
+        "d": "2 and",
+        "e": "2 and",
+        "f": "3 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -268,7 +307,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 © UCLES 2016 19 PART B Physics"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -281,13 +320,13 @@
         "c": "27 W",
         "d": "45W",
         "e": "72W",
-        "f": "75W © UCLES 2016 [Turn over 20 PART B Physics"
+        "f": "75W"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
     },
     {
-      "question": "The diagram shows a 12V battery, a switch and three resistors. Each resistor has a resistance of 30Ω. 12 V A Ω Ω 30 30 Ω 30 Initially the switch is open. What happens to the reading on the ammeter when the switch is closed?",
+      "question": "The diagram shows a 12V battery, a switch and three resistors. Each resistor has a resistance of 30Ω. 12 V Ω Ω 30 30 Ω 30 Initially the switch is open. What happens to the reading on the ammeter when the switch is closed?",
       "answers": {
         "a": "It decreases by 0.20A.",
         "b": "It decreases by 0.40A.",
@@ -296,7 +335,7 @@
         "e": "It increases by 0.20A.",
         "f": "It increases by 0.40A.",
         "g": "It increases by 0.60A.",
-        "h": "It increases by 0.80A. © UCLES 2016 21 PART B Physics"
+        "h": "It increases by 0.80A."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -324,7 +363,7 @@
         "c": "1800cm",
         "d": "2400cm",
         "e": "3600cm",
-        "f": "4800cm © UCLES 2016 [Turn over 22 PART B Physics"
+        "f": "4800cm"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -339,7 +378,7 @@
         "e": "54N",
         "f": "92N",
         "g": "104N",
-        "h": "108N © UCLES 2016 23 PART B Physics"
+        "h": "108N"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
@@ -354,7 +393,7 @@
         "e": "72 0.40",
         "f": "72 2.5",
         "g": "450 0.40",
-        "h": "450 2.5 © UCLES 2016 [Turn over 24 PART B Physics"
+        "h": "450 2.5 24"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -369,7 +408,7 @@
         "e": "3.0gcm–3",
         "f": "4.0gcm–3",
         "g": "6.0gcm–3",
-        "h": "12gcm–3 © UCLES 2016 25 PART B Physics"
+        "h": "12gcm–3 25"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -384,7 +423,7 @@
         "e": "R and S P",
         "f": "R and S Q",
         "g": "R and S R",
-        "h": "R and S S © UCLES 2016 [Turn over 26 PART B Physics"
+        "h": "R and S S"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -399,22 +438,25 @@
         "e": "5.0 180 140",
         "f": "6.0 180 140",
         "g": "5.0 180 180",
-        "h": "6.0 180 180 © UCLES 2016 27 PART B Physics"
+        "h": "6.0 180 180 27"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
     },
     {
-      "question": "A sample of a radioactive isotope X decays to one other radioactive isotope Y. Y has a half-life that is double that of X. Initially only X is present. Which graph could represent how the numbers of nuclei of X and Y that are present in the sample vary with time? (All graphs cover the same period of time.)",
+      "question": "A sample of a radioactive isotope X decays to one other radioactive isotope Y. Y has a half-life that is double that of X. Initially only X is present. Which graph could represent how the numbers of nuclei of X and Y that are present in the sample vary with time? (All graphs cover the same period of time.) number number number Y Y Y X X X 0 0 0 0 time 0 time 0 time number number Y X Y X 0 0 0 time 0 time 28",
       "answers": {
-        "a": "B C number number number Y Y Y X X X 0 0 0 0 time 0 time 0 time",
-        "d": "E number number Y X Y X 0 0 0 time 0 time © UCLES 2016 [Turn over 28 PART B Physics"
+        "a": "Option A (diagram/text unavailable in PDF text extraction).",
+        "b": "Option B (diagram/text unavailable in PDF text extraction).",
+        "c": "Option C (diagram/text unavailable in PDF text extraction).",
+        "d": "Option D (diagram/text unavailable in PDF text extraction).",
+        "e": "Option E (diagram/text unavailable in PDF text extraction)."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
     },
     {
-      "question": "Bronze is a mixture of tin and copper.",
+      "question": "Bronze is a mixture of tin and copper. volume of the sample is tin and 90% of it is copper.) What percentage of the mass of the sample is tin? (Density of tin = Y and density of copper = X.) X",
       "answers": {
         "a": "×100 9X −Y X",
         "b": "×100 9Y −X Y",
@@ -423,7 +465,7 @@
         "e": "×100 9X +Y X",
         "f": "×100 9Y + X Y",
         "g": "×100 9X +Y Y",
-        "h": "×100 9Y + X © UCLES 2016 29 PART B Physics"
+        "h": "×100 9Y + X"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -435,7 +477,7 @@
         "b": "4E 234",
         "c": "E 2",
         "d": "234E 238",
-        "e": "E © UCLES 2016 [Turn over 30 PART B Physics"
+        "e": "E 30"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -449,7 +491,7 @@
         "d": "4.0Hz",
         "e": "5.3Hz",
         "f": "6.7Hz",
-        "g": "10Hz © UCLES 2016 31 PART C Chemistry PART C Chemistry © UCLES 2016 [Turn over 32 PART C Chemistry"
+        "g": "10Hz"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -459,10 +501,10 @@
     {
       "question": "Which one of the following atoms or ions contains the same number of neutrons and electrons as 40 Ca2+? 20 35 –",
       "answers": {
-        "a": "Cl 17 37",
-        "b": "Cl 17",
-        "c": "40 Ar 18",
-        "d": "39 K+ 19 39",
+        "a": "Cl",
+        "b": "Cl",
+        "c": "40 Ar",
+        "d": "39 K+",
         "e": "K 19"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -478,7 +520,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2, and 3 © UCLES 2016 33 PART C Chemistry"
+        "h": "1, 2, and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -490,10 +532,10 @@
         "b": "1 only",
         "c": "2 only",
         "d": "3 only",
-        "e": "1 and 2",
-        "f": "1 and 3",
-        "g": "2 and 3",
-        "h": "1, 2 and 3"
+        "e": "1 and",
+        "f": "1 and",
+        "g": "2 and",
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -506,7 +548,7 @@
         "c": "P + 2Q ⇌ 2R + S ∆H is +ve",
         "d": "P + 2Q ⇌ 3R + S ∆H is –ve",
         "e": "P + 2Q ⇌ R + S ∆H is –ve",
-        "f": "2P + Q ⇌ R + 2S ∆H is –ve © UCLES 2016 [Turn over 34 PART C Chemistry"
+        "f": "2P + Q ⇌ R + 2S ∆H is –ve"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -514,8 +556,8 @@
     {
       "question": "Several oxides of bromine have been identified. Analysis of 2.4g of one of these compounds showed it to contain 1.6g of bromine. What is the empirical formula of this compound? (A: bromine = 80; oxygen = 16) r",
       "answers": {
-        "a": "Br O 2",
-        "b": "BrO 2",
+        "a": "Br O",
+        "b": "BrO",
         "c": "Br O 2 5",
         "d": "Br O 5 2",
         "e": "Br O 4 5",
@@ -532,13 +574,13 @@
         "c": "71.2",
         "d": "121.8",
         "e": "122.0",
-        "f": "122.2 © UCLES 2016 35 PART C Chemistry"
+        "f": "122.2 35"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
     },
     {
-      "question": "A chromatogram was produced for 4 separate dyes (W, X, Y and Z) using filter paper and a water solvent.",
+      "question": "A chromatogram was produced for 4 separate dyes (W, X, Y and Z) using filter paper and a water solvent. paper and a water solvent: solvent front solvent front 10cm 8.2cm 6.4 cm 5 cm 4.1cm 3.2cm 4.1 cm 3.2 cm baseline X X X X baseline X W X Y Z mix Which of the following statements, if any, are correct? 1 The concentration of dye W must be twice the concentration of dye Z. 2 The mobile phase is the filter paper. 3 The mixture in the second chromatogram contained dyes W and Y.",
       "answers": {
         "a": "none of them",
         "b": "1 only",
@@ -547,19 +589,19 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 © UCLES 2016 [Turn over 36 PART C Chemistry"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
     },
     {
-      "question": "The graphs show results of two experiments (W and Z) involving the catalytic decomposition of hydrogen peroxide. experiment W experiment Z time © UCLES 2016 negyxo fo emulov latot Assuming all other conditions are kept constant, which one of the following options would lead to the results shown? experiment W experiment Z 100cm3 of 1.0moldm–3 hydrogen",
+      "question": "The graphs show results of two experiments (W and Z) involving the catalytic decomposition of hydrogen peroxide. experiment W experiment Z time negyxo fo emulov latot Assuming all other conditions are kept constant, which one of the following options would lead to the results shown? experiment W experiment Z 100cm3 of 1.0moldm–3 hydrogen",
       "answers": {
         "a": "50cm3 of 2.0moldm–3 hydrogen peroxide peroxide",
         "b": "catalyst is in lumps catalyst is finely divided",
         "c": "reaction carried out at 25°C reaction carried out at 50°C",
         "d": "2.0g manganese(IV) oxide used 1.0g manganese(IV) oxide used 100cm3 of 1.0moldm–3 hydrogen",
-        "e": "25cm3 of 2.0moldm–3 hydrogen peroxide peroxide 37 PART C Chemistry"
+        "e": "25cm3 of 2.0moldm–3 hydrogen peroxide peroxide"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -567,12 +609,12 @@
     {
       "question": "Two of the following equations represent redox reactions: 1 Cl + 2KI → I + 2KCl 2 2 2 Cl + 2e – → 2Cl – 2 3 HCl + AgNO → AgCl + HNO 3 3 4 Cl + H O → HCl + HClO 2 2 Which two equations represent redox reactions?",
       "answers": {
-        "a": "1 and 2",
-        "b": "1 and 3",
-        "c": "1 and 4",
-        "d": "2 and 3",
-        "e": "2 and 4",
-        "f": "3 and 4"
+        "a": "1 and",
+        "b": "1 and",
+        "c": "1 and",
+        "d": "2 and",
+        "e": "2 and",
+        "f": "3 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -581,10 +623,10 @@
       "question": "Copper, Cu, reacts with concentrated nitric acid, HNO , to produce a solution of 3 copper(II) nitrate, water and compound X. Compound X does not contain copper or hydrogen. The balanced equation for the reaction shows 3 moles of copper reacting with HNO to 3 produce 4 moles of water. What is the identity of compound X?",
       "answers": {
         "a": "NO",
-        "b": "NO 2",
-        "c": "NO 3",
+        "b": "NO",
+        "c": "NO",
         "d": "N O 2 5",
-        "e": "N O 2 8 © UCLES 2016 [Turn over 38 PART C Chemistry"
+        "e": "N O 2 8 38"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -611,7 +653,7 @@
         "c": "−50 kJ mol –1",
         "d": "+50 kJ mol –1",
         "e": "+150 kJ mol –1",
-        "f": "+250 kJ mol –1 © UCLES 2016 39 PART C Chemistry"
+        "f": "+250 kJ mol –1 39"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -626,7 +668,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -639,7 +681,7 @@
         "c": "0.67g",
         "d": "0.83g",
         "e": "0.97g",
-        "f": "1.06g © UCLES 2016 [Turn over 40 PART C Chemistry"
+        "f": "1.06g"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -666,7 +708,7 @@
         "c": "0.250gdm–3",
         "d": "2.45gdm–3",
         "e": "4.90gdm–3",
-        "f": "9.80gdm–3 © UCLES 2016 41 PART C Chemistry"
+        "f": "9.80gdm–3 41"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -681,20 +723,19 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 © UCLES 2016 [Turn over 42 PART C Chemistry"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
     },
     {
-      "question": "The structure of ethanol is given below:",
+      "question": "The structure of ethanol is given below: Given the equation below and the overall enthalpy change for the reaction, which option correctly identifies the bond energy of the C–O bond in ethanol? 2 2 2 2 5 (Mean bond energy (kJmol–1): H–H = +436; C–C = +346; C–H = +413; O–H = +464; C═C = +611)",
       "answers": {
-        "h": "C═CH (g) + H O(g) → C H OH(g) ∆H = −45kJmol–1 2 2 2 2 5 (Mean bond energy (kJmol–1): H–H = +436; C–C = +346; C–H = +413; O–H = +464; C═C = +611)",
         "a": "103kJmol–1",
         "b": "316kJmol–1",
         "c": "361kJmol–1",
         "d": "707kJmol–1",
-        "e": "825kJmol–1 © UCLES 2016 43 PART D Biology PART D Biology © UCLES 2016 [Turn over 44 PART D Biology"
+        "e": "825kJmol–1 43 44"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -702,13 +743,13 @@
   ],
   "partDBiology": [
     {
-      "question": "Between 1954 and 1971 a mine in Northern Australia was releasing excess copper into the nearby Finnis River. Copper ions are poisonous and most of the types of fish living in the river died. The river still remains polluted with copper, but scientists have discovered one type of rainbow fish that is able to survive and live in the river.",
+      "question": "Between 1954 and 1971 a mine in Northern Australia was releasing excess copper into the nearby Finnis River. Copper ions are poisonous and most of the types of fish living in the river died. The river still remains polluted with copper, but scientists have discovered one type of rainbow fish that is able to survive and live in the river. 1 One type of rainbow fish did not die out in the river because this type was able to adapt to the changing environment. 2 None of the other types of fish showed any type of genetic variation. 3 The presence of copper ions acted as a selective pressure. Which of the student’s statements could be correct?",
       "answers": {
         "a": "1 only",
         "b": "1 and 2 only",
         "c": "1 and 3 only",
         "d": "2 and 3 only",
-        "e": "1, 2 and 3 © UCLES 2016 45 PART D Biology"
+        "e": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -733,20 +774,20 @@
         "b": "bacteria",
         "c": "ferns",
         "d": "fungi",
-        "e": "flowering plants © UCLES 2016 [Turn over 46 PART D Biology"
+        "e": "flowering plants"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
     },
     {
-      "question": "A student carried out an experiment to investigate how temperature affects the rate of activity of an enzyme found in potatoes. This enzyme breaks down the substrate hydrogen peroxide to produce water and oxygen. The apparatus was set up as shown in the diagram and the experiment carried out at 30°C. hydrogen water peroxide solution oxygen bubble piece of potato water bath at 30 C The student counted the number of bubbles of oxygen produced in one minute. The experiment was repeated at 40°C, 50°C, 60°C, and 70°C. The table shows the results collected by the student. temperature/ °C number of bubbles of oxygen gas produced in one minute 30 32 40 27 50 23 60 8 70 2",
+      "question": "A student carried out an experiment to investigate how temperature affects the rate of activity of an enzyme found in potatoes. This enzyme breaks down the substrate hydrogen peroxide to produce water and oxygen. The apparatus was set up as shown in the diagram and the experiment carried out at 30°C. hydrogen water peroxide solution oxygen bubble piece of potato water bath at 30 C The student counted the number of bubbles of oxygen produced in one minute. The experiment was repeated at 40°C, 50°C, 60°C, and 70°C. The table shows the results collected by the student. temperature/ °C number of bubbles of oxygen gas produced in one minute 30 32 40 27 50 23 60 8 70 2 in the number of bubbles produced between 30°C and 60°C. Each student was also asked to write a conclusion to explain the results. These are shown in the table below. Which student correctly calculated the percentage decrease in the number of bubbles between 30°C and 60°C and wrote an appropriate conclusion which explains the reason for this decrease? percentage decrease in the number of conclusion bubbles between 30°C and 60°C",
       "answers": {
         "a": "20 the high temperature causes the bonds maintaining the structure of the enzyme to break",
         "b": "20 the temperature of the environment is too hot and the enzyme dies",
         "c": "75 the high temperature causes the bonds maintaining the structure of the enzyme to break",
         "d": "75 the temperature of the environment is too hot and the enzyme dies",
         "e": "300 the high temperature causes the bonds maintaining the structure of the enzyme to break",
-        "f": "300 the temperature of the environment is too hot and the enzyme dies © UCLES 2016 47 PART D Biology"
+        "f": "300 the temperature of the environment is too hot and the enzyme dies"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -771,7 +812,7 @@
         "b": "Carry out the experiment, stirring the mixture once every 30 seconds.",
         "c": "Carry out the experiment at a temperature of 25°C and a pH of 13.",
         "d": "Double the volume of both the protein solution and the enzyme solution.",
-        "e": "Halve the volume of both the protein solution and the enzyme solution. © UCLES 2016 [Turn over 48 PART D Biology"
+        "e": "Halve the volume of both the protein solution and the enzyme solution."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -786,7 +827,7 @@
         "e": "16.5π carbon dioxide concentration is too low",
         "f": "16.5π photosynthesis enzymes denatured",
         "g": "34π all enzyme active sites are occupied",
-        "h": "34π photosynthesis enzymes denatured © UCLES 2016 49 PART D Biology"
+        "h": "34π photosynthesis enzymes denatured"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -801,13 +842,13 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 © UCLES 2016 [Turn over 50 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
     },
     {
-      "question": "The diagram shows the tip of a plant shoot, with two areas labelled P and Q. Q P",
+      "question": "The diagram shows the tip of a plant shoot, with two areas labelled P and Q. Q P 1 Cells at P are smaller than the cells at Q. 2 Concentration of plant hormone is higher at Q than P. 3 Unidirectional light has caused a change in the concentration of plant hormone at P. Which of the student’s statements, if any, could be correct?",
       "answers": {
         "a": "none of them",
         "b": "1 only",
@@ -816,26 +857,26 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 © UCLES 2016 51 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
     },
     {
-      "question": "In an investigation, a molecule of DNA was extracted and separated into its single strands 1 and 2. The percentage of each base present in each strand was found. The table shows some of the results for strand 1. DNA base present (%) sample adenine [A] cytosine [C] guanine [G] thymine [T] strand 1 26 ? 28 14 P, Q, R and S are the percentages of each base in the complementary strand 2. DNA base present (%) sample adenine [A] cytosine [C] guanine [G] thymine [T] strand 2 P Q R S",
+      "question": "In an investigation, a molecule of DNA was extracted and separated into its single strands 1 and 2. The percentage of each base present in each strand was found. The table shows some of the results for strand 1. DNA base present (%) sample adenine [A] cytosine [C] guanine [G] thymine [T] strand 1 26 ? 28 14 P, Q, R and S are the percentages of each base in the complementary strand 2. DNA base present (%) sample adenine [A] cytosine [C] guanine [G] thymine [T] strand 2 P Q R S P 14% Q 28% R 26% S 28% Which of the percentages is/are correct?",
       "answers": {
         "a": "P only",
         "b": "Q only",
         "c": "R only",
         "d": "S only",
         "e": "P and Q only",
-        "f": "R and S only © UCLES 2016 [Turn over 52 PART D Biology"
+        "f": "R and S only"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "Cystic fibrosis is a condition of the respiratory system caused by abnormal ion transport in the lungs. It is a recessive genetic condition.",
+      "question": "Cystic fibrosis is a condition of the respiratory system caused by abnormal ion transport in the lungs. It is a recessive genetic condition. child having the characteristics described in the table below? probability that the probability that the child is a male with child is a female who does cystic fibrosis not have cystic fibrosis but carries the recessive allele",
       "answers": {
         "a": "1 1 4 8",
         "b": "1 1 4 4",
@@ -844,7 +885,7 @@
         "e": "1 1 6 4",
         "f": "1 1 6 2",
         "g": "1 1 8 4",
-        "h": "1 1 8 2 © UCLES 2016 53 PART D Biology"
+        "h": "1 1 8 2 53"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -871,21 +912,21 @@
         "c": "8 2",
         "d": "8 4",
         "e": "16 2",
-        "f": "16 4 © UCLES 2016 [Turn over 54 PART D Biology"
+        "f": "16 4 54"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
     },
     {
-      "question": "A healthy human is running a race over a distance of 1500 metres as fast as possible. Which row shows molecules that would be in a higher concentration in a vein carrying blood away from an actively contracting leg muscle of the runner compared to an artery carrying blood to the capillaries in the muscle? Key (cid:51) higher X not higher glucose carbon dioxide lactic acid",
+      "question": "A healthy human is running a race over a distance of 1500 metres as fast as possible. Which row shows molecules that would be in a higher concentration in a vein carrying blood away from an actively contracting leg muscle of the runner compared to an artery carrying blood to the capillaries in the muscle? Key higher X not higher glucose carbon dioxide lactic acid",
       "answers": {
-        "a": "(cid:51) (cid:51) (cid:51)",
-        "b": "X (cid:51) (cid:51)",
-        "c": "X X (cid:51)",
+        "a": "Option unavailable",
+        "b": "X",
+        "c": "X X",
         "d": "X X X",
-        "e": "(cid:51) (cid:51) X",
-        "f": "(cid:51) X X",
-        "g": "X (cid:51) X © UCLES 2016 55 PART D Biology"
+        "e": "X",
+        "f": "X X",
+        "g": "X X"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -899,7 +940,7 @@
         "d": "5:9 9",
         "e": "9:5 9",
         "f": "9:5 19",
-        "g": "1:2 19 © UCLES 2016 [Turn over 56 PART D Biology"
+        "g": "1:2 19 56"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -911,7 +952,7 @@
         "b": "At point 2, the oxygen concentration is decreasing because high numbers of algae are photosynthesising.",
         "c": "At point 3, the oxygen concentration is decreasing because bacteria are using up more oxygen than the algae are producing.",
         "d": "At point 4, the number of bloodworms and sludgeworms will be lowest because they lack oxygen.",
-        "e": "At point 5, fish numbers increase because there is less competition with algae for oxygen. © UCLES 2016 57 PART D Biology"
+        "e": "At point 5, fish numbers increase because there is less competition with algae for oxygen."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -926,7 +967,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 © UCLES 2016 [Turn over 58 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
@@ -941,7 +982,7 @@
         "e": "3 1 4 28",
         "f": "3 1 4 24",
         "g": "3 11 4 28",
-        "h": "3 10 4 24 © UCLES 2016 59 PART E Advanced Mathematics and Advanced Physics PART E Advanced Mathematics and Advanced Physics NOTE: questions in this part that are not covered by the ESAT content specification are indicated by a cross through the question number. © UCLES 2016 [Turn over 60 PART E Advanced Mathematics and Advanced Physics"
+        "h": "3 10 4 24 59 NOTE: questions in this part that are not covered by the ESAT content specification are indicated by a cross through the question number."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -951,11 +992,11 @@
     {
       "question": "When x=2 is substituted in the expression x3 + px2 +qx+ p2 the result is 0. When x=1 is substituted into the same expression, the result is −3.5. Find all possible value(s) of p. 6",
       "answers": {
-        "a": "p=−1± 3",
+        "a": "p=−1±",
         "b": "p = 1 or p = −3",
-        "c": "p = 1",
-        "d": "p =1± 7",
-        "e": "there are no values for p © UCLES 2016 61 PART E Advanced Mathematics and Advanced Physics"
+        "c": "p =",
+        "d": "p =1±",
+        "e": "there are no values for p"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -970,7 +1011,7 @@
         "e": "1 and 2 only",
         "f": "3 and 4 only",
         "g": "1, 2 and 5 only",
-        "h": "1, 2, 3, 4 and 5 © UCLES 2016 [Turn over 62 PART E Advanced Mathematics and Advanced Physics"
+        "h": "1, 2, 3, 4 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -985,20 +1026,20 @@
         "e": "x2 + y2 −6x−4y+9=0",
         "f": "x2 + y2 −6x+4y+4=0",
         "g": "x2 + y2 +6x−4y+4=0",
-        "h": "x2 + y2 +6x+4y+9=0 © UCLES 2016 63 PART E Advanced Mathematics and Advanced Physics"
+        "h": "x2 + y2 +6x+4y+9=0 63"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
     },
     {
-      "question": "A shopper pushes a supermarket trolley a distance of 15m in a straight line across a level, horizontal surface. The shopper applies a constant force of 50N at an angle of 37° below the horizontal. The total weight of the trolley and its contents is 350N. [diagram not to scale] 37o 50N CEREAL What is the magnitude of the total vertical force that the surface exerts on the trolley and how much work is done by the pushing force? (You may use the approximations sin37° = 0.60; cos37° = 0.80.) vertical force /N work done /J",
+      "question": "A shopper pushes a supermarket trolley a distance of 15m in a straight line across a level, horizontal surface. The shopper applies a constant force of 50N at an angle of 37° below the horizontal. The total weight of the trolley and its contents is 350N. 37o 50N CEREAL What is the magnitude of the total vertical force that the surface exerts on the trolley and how much work is done by the pushing force? (You may use the approximations sin37° = 0.60; cos37° = 0.80.) vertical force /N work done /J",
       "answers": {
         "a": "380 600",
         "b": "380 750",
         "c": "390 450",
         "d": "390 750",
         "e": "400 450",
-        "f": "400 600 © UCLES 2016 [Turn over 64 PART E Advanced Mathematics and Advanced Physics"
+        "f": "400 600 64"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -1006,17 +1047,19 @@
     {
       "question": "The first term of a convergent geometric series is 8. The fifth term is 2. The sixth term is real and positive. What is the sum to infinity of this series? a (The sum to infinity of a convergent geometric series is given by , where a is the first term 1−r and r is the common ratio.) ( )",
       "answers": {
-        "a": "81+ 2 ( )",
-        "b": "81− 2 ( )",
-        "c": "82+ 2 ( )",
-        "d": "82− 2",
-        "e": "16 85 4 F 5 4 −1 85 4 G 5 4 +1 © UCLES 2016 65 PART E Advanced Mathematics and Advanced Physics"
+        "a": "81+ ( )",
+        "b": "81− ( )",
+        "c": "82+ ( )",
+        "d": "82−",
+        "e": "16 85 4",
+        "f": "Option unavailable 5 4 −1 85 4",
+        "g": "Option unavailable 5 4 +1 65"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
     },
     {
-      "question": "A plank of non-uniform density which has a mass of 15kg is used to make a see-saw. A pivot is placed under the centre of the plank as shown on the diagram. 0.80m 1.20m [diagram not to scale] pivot",
+      "question": "A plank of non-uniform density which has a mass of 15kg is used to make a see-saw. A pivot is placed under the centre of the plank as shown on the diagram. 0.80m 1.20m pivot The see-saw balances when a woman of mass 60kg sits on the plank on the other side of the pivot. Her centre of gravity is 0.80m from the pivot. Where is the centre of gravity of the plank and what is the magnitude of the force between the pivot and the plank? (The gravitational field strength g is 10Nkg–1.) distance from pivot force / N",
       "answers": {
         "a": "0.40m on left of pivot 100",
         "b": "0.40m on left of pivot 1100",
@@ -1025,25 +1068,26 @@
         "e": "0.20m on right of pivot 100",
         "f": "0.20m on right of pivot 1100",
         "g": "0.40m on right of pivot 100",
-        "h": "0.40m on right of pivot 1100 © UCLES 2016 [Turn over 66 PART E Advanced Mathematics and Advanced Physics"
+        "h": "0.40m on right of pivot 1100 66"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
     },
     {
-      "question": "Tangents are drawn from a point P to a circle of radius 10cm. The centre of the circle is C and the distance PC is 20cm. [diagram not to scale] P .C Which one of the following is an expression for the shaded area in square centimetres? ( )",
+      "question": "Tangents are drawn from a point P to a circle of radius 10cm. The centre of the circle is C and the distance PC is 20cm. P .C Which one of the following is an expression for the shaded area in square centimetres? ( )",
       "answers": {
-        "a": "100 3 3 −π 3 ( )",
-        "b": "100 3 5 −π 3 ( )",
-        "c": "50 6 3−π 3 ( )",
-        "d": "50 6 5−π 3 ( ) E 50 3−2π 3 ( )",
-        "f": "50 2π− 3 3 © UCLES 2016 67 PART E Advanced Mathematics and Advanced Physics"
+        "a": "100 3 3 −π ( )",
+        "b": "100 3 5 −π ( )",
+        "c": "50 6 3−π ( )",
+        "d": "50 6 5−π ( )",
+        "e": "Option unavailable 50 3−2π ( )",
+        "f": "50 2π−"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
     },
     {
-      "question": "A car of mass 200kg on a fairground ride travels at a speed of 5.0ms–1 at point X. The car is allowed to move down a sloping section of track without any energy input. The heights above the ground of points X and Y are shown. When the car reaches point Y its speed is 9.0ms–1. 5.0m s–1 car [diagram not to scale] X 8.0m Y 2.0m How much energy is transferred in overcoming resistive forces as the car travels from X to Y? (The gravitational field strength g is 10Nkg–1.)",
+      "question": "A car of mass 200kg on a fairground ride travels at a speed of 5.0ms–1 at point X. The car is allowed to move down a sloping section of track without any energy input. The heights above the ground of points X and Y are shown. When the car reaches point Y its speed is 9.0ms–1. 5.0m s–1 car X 8.0m Y 2.0m How much energy is transferred in overcoming resistive forces as the car travels from X to Y? (The gravitational field strength g is 10Nkg–1.)",
       "answers": {
         "a": "3900J",
         "b": "6400J",
@@ -1057,23 +1101,23 @@
     {
       "question": "Given that 7cos θ−3tan θsin θ =1,which one of the following is true?",
       "answers": {
-        "a": "cos θ =−3 or − 1 5 2",
-        "b": "cos θ =−3 or 1 5 2",
-        "c": "cos θ = 3 or 1 5 2",
-        "d": "cos θ = 3 or − 1 5 2 © UCLES 2016 [Turn over 68 PART E Advanced Mathematics and Advanced Physics"
+        "a": "cos θ =−3 or − 5 2",
+        "b": "cos θ =−3 or 5 2",
+        "c": "cos θ = 3 or 5 2",
+        "d": "cos θ = 3 or − 5 2 68"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
     },
     {
-      "question": "The diagram shows a uniform, solid, heavy cube with side d. The cube rests with one of its edges in contact with a table that is perfectly level. A horizontal force P acts on another edge of the cube, and the cube is stationary. [diagram not to scale] P d 30o Below are four statements about the forces on the cube. 1 It is possible that there is no frictional force between the cube and the table. 2 There must be a frictional force acting to the left between the cube and the table. 3 There must be a frictional force acting to the right between the cube and the table. 4 Force P has a clockwise moment about the edge in contact with the table equal to × P d. Which of the statements is/are correct?",
+      "question": "The diagram shows a uniform, solid, heavy cube with side d. The cube rests with one of its edges in contact with a table that is perfectly level. A horizontal force P acts on another edge of the cube, and the cube is stationary. P d 30o Below are four statements about the forces on the cube. 1 It is possible that there is no frictional force between the cube and the table. 2 There must be a frictional force acting to the left between the cube and the table. 3 There must be a frictional force acting to the right between the cube and the table. 4 Force P has a clockwise moment about the edge in contact with the table equal to × P d. Which of the statements is/are correct?",
       "answers": {
         "a": "1 only",
         "b": "2 only",
         "c": "3 only",
         "d": "1 and 4 only",
         "e": "2 and 4 only",
-        "f": "3 and 4 only © UCLES 2016 69 PART E Advanced Mathematics and Advanced Physics ( )"
+        "f": "3 and 4 only ( )"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -1083,8 +1127,11 @@
       "answers": {
         "a": "no values of a",
         "b": "−4 2 <a<4 2",
-        "c": "a<−4 2, a>4 2 D −4<a<8 E a<−4, a>8",
-        "f": "−8<a<4 G a<−8, a>4",
+        "c": "a<−4 2, a>4 2",
+        "d": "Option unavailable −4<a<8",
+        "e": "Option unavailable a<−4, a>8",
+        "f": "−8<a<4",
+        "g": "Option unavailable a<−8, a>4",
         "h": "all values of a"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -1100,16 +1147,20 @@
         "e": "3.0 0.60",
         "f": "3.0 0.64",
         "g": "3.0 1.0",
-        "h": "3.0 2.0 © UCLES 2016 [Turn over 70 PART E Advanced Mathematics and Advanced Physics"
+        "h": "3.0 2.0 70"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
     },
     {
-      "question": "The straight line with equation y =mx+3,where m>0, m≠1, is perpendicular to the line with equation y = px+2 The lines cut the x-axis at the points L and M respectively. The length of LM is 5 units. What is the value of m+ p given that m>1? y [diagram not to scale] (0,3) (0,2) L M x 5 8 A − 3 B −13 6 C −5 6 5 D 6 13 E 6 8 F 3 © UCLES 2016 71 PART E Advanced Mathematics and Advanced Physics",
+      "question": "The straight line with equation y =mx+3,where m>0, m≠1, is perpendicular to the line with equation y = px+2 The lines cut the x-axis at the points L and M respectively. The length of LM is 5 units. What is the value of m+ p given that m>1? y (0,3) (0,2) L M x 5 8",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "Option unavailable −",
+        "b": "Option unavailable −13 6",
+        "c": "Option unavailable −5 6 5",
+        "d": "Option unavailable",
+        "e": "Option unavailable",
+        "f": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -1119,20 +1170,25 @@
       "answers": {
         "a": "0 50",
         "b": "0 150",
-        "c": "10ms–1 to the left 50",
+        "c": "10ms–1 to the left",
         "d": "10ms–1 to the left 150",
-        "e": "5.0ms–1 to the right 50",
+        "e": "5.0ms–1 to the right",
         "f": "5.0ms–1 to the right 150"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "f(x)= x3 −a2x where a is a positive constant. Find the complete set of values of x for which f(x) is an increasing function. A x≤−a, x≥a B −a≤ x≤a C x≤−a, 0≤ x≤a D −a≤ x≤0, x≥a a a",
+      "question": "f(x)= x3 −a2x where a is a positive constant. Find the complete set of values of x for which f(x) is an increasing function.",
       "answers": {
+        "a": "Option unavailable x≤−a, x≥a",
+        "b": "Option unavailable −a≤ x≤a",
+        "c": "Option unavailable x≤−a, 0≤ x≤a",
+        "d": "Option unavailable −a≤ x≤0, x≥a a a",
         "e": "x≤− , x≥ 3 3 a a",
         "f": "− ≤ x≤ 3 3 a a",
-        "g": "x≤− , x≥ 3 3 a a H − ≤ x≤ 3 3 © UCLES 2016 [Turn over 72 PART E Advanced Mathematics and Advanced Physics"
+        "g": "x≤− , x≥ 3 3 a a",
+        "h": "Option unavailable − ≤ x≤ 3 3 72"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -1160,7 +1216,7 @@
         "e": "y =−5− ( x−4 ) 2",
         "f": "y =−5+ ( x+4 ) 2",
         "g": "y =5− ( x+4 ) 2",
-        "h": "y =5+ ( x−4 ) 2 © UCLES 2016 73 PART E Advanced Mathematics and Advanced Physics"
+        "h": "y =5+ ( x−4 ) 2 73"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -1174,7 +1230,7 @@
         "d": "100N",
         "e": "150N",
         "f": "175N",
-        "g": "250N © UCLES 2016 74 BLANK PAGE © UCLES 2016 75 BLANK PAGE © UCLES 2016 76 BLANK PAGE © UCLES 2016"
+        "g": "250N"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"

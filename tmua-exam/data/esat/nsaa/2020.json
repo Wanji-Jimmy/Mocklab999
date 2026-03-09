@@ -27,40 +27,47 @@
         "d": "£39",
         "e": "£44",
         "f": "£48",
-        "g": "£72 6 PART A Mathematics"
+        "g": "£72 6"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
     },
     {
-      "question": "Q R x P S M PQRS is a square with side length x. M is the midpoint of side PS.",
+      "question": "Q R x P S M PQRS is a square with side length x. M is the midpoint of side PS. Another circular arc, with centre P, is drawn inside the square from S to Q. What is the area of the shaded region in terms of x? 1",
       "answers": {
         "a": "πx2 8 3",
         "b": "πx2 16 1",
-        "c": "πx2"
+        "c": "πx2 4 5",
+        "d": "πx2 16 3",
+        "e": "πx2 8 7",
+        "f": "πx2 16 1",
+        "g": "πx2 2 7"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
     },
     {
-      "question": "4",
+      "question": "A fair spinner has eight equal sections. Each section has one number written on it, as shown. 3 1 1 3 3 2 1 3 The spinner is spun twice, and the two numbers scored are added. What is the probability that the sum of the two numbers is 5? 1",
       "answers": {
         "a": "Option unavailable",
-        "b": "Option unavailable"
+        "b": "Option unavailable",
+        "c": "Option unavailable",
+        "d": "Option unavailable",
+        "e": "Option unavailable",
+        "f": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
     },
     {
-      "question": "5",
+      "question": "Consider the four lines with the following equations. 1 2x + 6y = 3 2 9y = 3x – 4 3 2y = 6x + 3 4 4x + 6y – 9 = 0 Which two lines are perpendicular?",
       "answers": {
-        "d": "2 and 3",
-        "e": "2 and 4",
-        "f": "3 and 4",
-        "g": "πx2 2 7 PART A Mathematics 4 A fair spinner has eight equal sections. Each section has one number written on it, as shown. 3 1 1 3 3 2 1 3 The spinner is spun twice, and the two numbers scored are added. What is the probability that the sum of the two numbers is 5? 1 A 8 5 B 8 1 C 16 3 D 16 25 E 64 55 F 64 8 PART A Mathematics 5 Consider the four lines with the following equations. 1 2x + 6y = 3 2 9y = 3x – 4 3 2y = 6x + 3 4 4x + 6y – 9 = 0 Which two lines are perpendicular?",
-        "a": "1 and 2",
-        "b": "1 and 3",
-        "c": "1 and 4"
+        "a": "1 and",
+        "b": "1 and",
+        "c": "1 and",
+        "d": "2 and",
+        "e": "2 and",
+        "f": "3 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -72,7 +79,7 @@
         "b": "128",
         "c": "320",
         "d": "800",
-        "e": "1080 9 PART A Mathematics"
+        "e": "1080 9"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -80,7 +87,9 @@
     {
       "question": "Find the sum of the solutions of ⎛ x ⎞ 2 ⎛ x ⎞ 2⎜ +3⎟ − ⎜ +3⎟ −36 = 0 ⎝4 ⎠ ⎝4 ⎠",
       "answers": {
-        "a": "2 3 B 2 1 C 2",
+        "a": "2 3",
+        "b": "Option unavailable",
+        "c": "Option unavailable",
         "d": "–4",
         "e": "–13",
         "f": "–22",
@@ -91,10 +100,14 @@
       "answer": "f"
     },
     {
-      "question": "The equilateral triangle PQR has sides of length 8cm.",
+      "question": "The equilateral triangle PQR has sides of length 8cm. Find an expression for the circumference of the circle, in cm. sin60°",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "Option unavailable 8π 8π",
+        "b": "Option unavailable sin60° cos60°",
+        "c": "Option unavailable 8π 8π",
+        "d": "Option unavailable cos60° tan60°",
+        "e": "Option unavailable 8π 8π",
+        "f": "Option unavailable tan60°"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -102,8 +115,13 @@
     {
       "question": "Which one of the following expressions is equivalent to a a b – b c c",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "0 a(b2 −1)",
+        "b": "Option unavailable bc a(b2 −c2)",
+        "c": "Option unavailable bc a2b2 −c2",
+        "d": "Option unavailable abc a(c2 −1)",
+        "e": "Option unavailable bc a2c2 −b2",
+        "f": "Option unavailable abc b2 − a2",
+        "g": "Option unavailable abc"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -115,16 +133,17 @@
         "b": "–9",
         "c": "0",
         "d": "3",
-        "e": "15"
+        "e": "15 11"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
     },
     {
-      "question": "11 PART A Mathematics 11 The number of pairs of winter boots sold on a day is inversely proportional to the cube of the outside temperature on that day, measured in °C. On a day when the outside temperature is 8°C, 250 pairs of boots are sold. The next day, when the outside temperature is x°C, the number of pairs of boots sold is 700% more than on the previous day. What is the value of x?",
+      "question": "The number of pairs of winter boots sold on a day is inversely proportional to the cube of the outside temperature on that day, measured in °C. On a day when the outside temperature is 8°C, 250 pairs of boots are sold. The next day, when the outside temperature is x°C, the number of pairs of boots sold is 700% more than on the previous day. What is the value of x?",
       "answers": {
         "a": "2",
-        "b": "4 8 C 3 7",
+        "b": "4 8",
+        "c": "Option unavailable 3 7",
         "d": "83 7",
         "e": "16"
       },
@@ -134,12 +153,12 @@
     {
       "question": "The table shows statistics relating to the test marks of two groups of students. number of mean range students group X 10 36 16 group Y 20 48 21 The results for the two groups of students are combined. What can be deduced about the mean and range of the combined results?",
       "answers": {
-        "a": "mean = 40, range ≤ 16",
-        "b": "mean = 40, 16 < range < 21",
-        "c": "mean = 40, range ≥ 21",
-        "d": "mean = 44, range ≤ 16",
-        "e": "mean = 44, 16 < range < 21",
-        "f": "mean = 44, range ≥ 21 12 PART A Mathematics"
+        "a": "mean = 40, range ≤",
+        "b": "mean = 40, 16 < range <",
+        "c": "mean = 40, range ≥",
+        "d": "mean = 44, range ≤",
+        "e": "mean = 44, 16 < range <",
+        "f": "mean = 44, range ≥"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -157,33 +176,40 @@
       "answer": "a"
     },
     {
-      "question": "In a sale, all prices are reduced by 25%.",
+      "question": "In a sale, all prices are reduced by 25%. price by 25%. The customer’s calculated pre-sale price is incorrect by £15. What is the correct pre-sale price of the bicycle?",
       "answers": {
         "a": "£180",
         "b": "£195",
         "c": "£210",
         "d": "£225",
-        "e": "£240 13 PART A Mathematics"
+        "e": "£240 13"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "Two identical fair six-sided dice each have their faces numbered from 1 to 6, with one number on each face. Both dice are thrown, and the number on each of the dice is recorded. They are then both thrown again, and the number on each of the dice is recorded. What is the probability that at least one of the four recorded numbers is even? 1 A 4 1 B 2 9 C",
+      "question": "Two identical fair six-sided dice each have their faces numbered from 1 to 6, with one number on each face. Both dice are thrown, and the number on each of the dice is recorded. They are then both thrown again, and the number on each of the dice is recorded. What is the probability that at least one of the four recorded numbers is even? 1",
       "answers": {
         "a": "Option unavailable",
-        "b": "Option unavailable"
+        "b": "Option unavailable",
+        "c": "Option unavailable",
+        "d": "Option unavailable",
+        "e": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "16 3 D 4 15 E 16 14 PART A Mathematics 16 Q y z 61° P x S R [diagram not to scale] In the diagram, QS is perpendicular to PR. PS = xcm PQ = ycm QR = zcm angle QRS = 61° PSR is a straight line. Which one of the following is an expression for the length z, in cm?",
+      "question": "Q y z 61° P x S R In the diagram, QS is perpendicular to PR. PS = xcm PQ = ycm QR = zcm angle QRS = 61° PSR is a straight line. Which one of the following is an expression for the length z, in cm?",
       "answers": {
         "a": "y2 + x2 sin61°",
         "b": "y2 − x2 sin61°",
         "c": "y2 + x2 cos61°",
-        "d": "y2 − x2 cos61° y2 + x2 E sin61° y2 − x2 F sin61° y2 + x2 G cos61° y2 − x2 H cos61° 15 PART A Mathematics"
+        "d": "y2 − x2 cos61° y2 + x2",
+        "e": "Option unavailable sin61° y2 − x2",
+        "f": "Option unavailable sin61° y2 + x2",
+        "g": "Option unavailable cos61° y2 − x2",
+        "h": "Option unavailable cos61°"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -192,13 +218,13 @@
       "question": "Two vertices of a square are at (1,1) and (3,5). What is the difference between the perimeters of the largest and smallest possible squares that can be drawn with these points as two of their vertices?",
       "answers": {
         "a": "0 ( )",
-        "b": "4 3 2− 2 ( )",
+        "b": "4 3 2− ( )",
         "c": "4 3 2 −1 ( )",
-        "d": "4 5 2− 2 ( )",
+        "d": "4 5 2− ( )",
         "e": "4 5 2 −1 ( )",
-        "f": "4 13 2− 2 ( )",
+        "f": "4 13 2− ( )",
         "g": "4 13 2 −1 ( )",
-        "h": "4 3 5 2− 2"
+        "h": "4 3 5 2−"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -211,16 +237,19 @@
         "c": "12",
         "d": "4 11",
         "e": "4 34",
-        "f": "6 30 16 PART A Mathematics"
+        "f": "6 30 16"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
     },
     {
-      "question": "A solid cone has a base radius xcm. : The ratio of the perpendicular height of the cone to the radius of the cone is 5 2 y",
+      "question": "A solid cone has a base radius xcm. : The ratio of the perpendicular height of the cone to the radius of the cone is 5 2 y 2 Which one of the following is a correct expression for volumeof thecone volumeof thehemisphere (Volume of a cone = 1πr2h where r is the radius and h is the perpendicular height.) 3 (Volume of a sphere = 4πr3 where r is the radius.) 3 5x3",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "Option unavailable y3 5x3",
+        "b": "Option unavailable 4y3 8x3",
+        "c": "Option unavailable 5y3 10x3",
+        "d": "Option unavailable y3 14x3",
+        "e": "Option unavailable y3 17"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -233,7 +262,7 @@
         "c": "⎜ ⎟ ⎝−3⎠ ⎛−3⎞",
         "d": "⎜ ⎟ ⎝ 5 ⎠ ⎛ 9 ⎞",
         "e": "⎜ ⎟ ⎝−2⎠ ⎛−2⎞",
-        "f": "⎜ ⎟ ⎝ 9 ⎠ 18 PART B Physics PART B Physics 19 PART B Physics"
+        "f": "⎜ ⎟ ⎝ 9 ⎠"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -249,17 +278,21 @@
         "d": "1500J",
         "e": "1660J",
         "f": "1840J",
-        "g": "2500J 20 PART B Physics"
+        "g": "2500J"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
     },
     {
-      "question": "The diagram represents the structure of a charged atom (ion) of one isotope of an element. nucleus electrons Which diagram represents the structure of an oppositely charged ion of a different isotope of the same element?",
+      "question": "The diagram represents the structure of a charged atom (ion) of one isotope of an element. nucleus electrons Which diagram represents the structure of an oppositely charged ion of a different isotope of the same element? 21",
       "answers": {
-        "a": "B",
-        "c": "D",
-        "e": "F G 21 PART B Physics"
+        "a": "Option A (diagram/text unavailable in PDF text extraction).",
+        "b": "Option B (diagram/text unavailable in PDF text extraction).",
+        "c": "Option C (diagram/text unavailable in PDF text extraction).",
+        "d": "Option D (diagram/text unavailable in PDF text extraction).",
+        "e": "Option E (diagram/text unavailable in PDF text extraction).",
+        "f": "Option F (diagram/text unavailable in PDF text extraction).",
+        "g": "Option G (diagram/text unavailable in PDF text extraction)."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -267,12 +300,12 @@
     {
       "question": "A sample of an ideal gas is sealed in a cylindrical container by a piston as shown in the diagram. cylindrical container gas piston The particles of the gas are moving with an average speed v, and collide with the surface of the piston with a frequency f. The piston is now slowly pushed into the cylinder until the gas occupies half of its original volume, but the gas remains at the same temperature. What is the new average speed of the particles of the gas, and at what frequency do they now collide with the surface of the piston? average speed frequency 1",
       "answers": {
-        "a": "2v f 2",
+        "a": "2v f",
         "b": "2v f",
-        "c": "2v 2f 1",
-        "d": "v f 2",
+        "c": "2v 2f",
+        "d": "v f",
         "e": "v f",
-        "f": "v 2f 22 PART B Physics"
+        "f": "v 2f"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -287,7 +320,7 @@
         "e": "90° – θ ϕ X",
         "f": "90° – θ ϕ Y",
         "g": "90° – θ 90° – ϕ X",
-        "h": "90° – θ 90° – ϕ Y 23 PART B Physics ( )"
+        "h": "90° – θ 90° – ϕ Y ( )"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -300,7 +333,7 @@
         "c": "10",
         "d": "12",
         "e": "14",
-        "f": "16 24 PART B Physics"
+        "f": "16 24"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -315,20 +348,20 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 25 PART B Physics"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
     },
     {
-      "question": "The primary coil of an ideal, 100% efficient transformer is connected to a 240V mains supply.",
+      "question": "The primary coil of an ideal, 100% efficient transformer is connected to a 240V mains supply. lamp and a switch S are also connected to the transformer as shown in the diagram. L S 240V With the switch open, the current in the primary coil is 0.10A. The switch is now closed. What is the current in the primary coil now and what is the current in lamp L? current in primary coil /A current in lamp L /A",
       "answers": {
         "a": "0.10 1.0",
         "b": "0.10 2.0",
         "c": "0.10 4.0",
         "d": "0.20 1.0",
         "e": "0.20 2.0",
-        "f": "0.20 4.0 26 PART B Physics"
+        "f": "0.20 4.0 26"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -341,7 +374,7 @@
         "c": "20 4.8 ×1010",
         "d": "80 9.6 ×109",
         "e": "80 3.84 ×1010",
-        "f": "80 4.8 ×1010 27 PART B Physics"
+        "f": "80 4.8 ×1010 27"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -355,13 +388,13 @@
         "d": "120mA",
         "e": "150mA",
         "f": "300mA",
-        "g": "480mA 28 PART B Physics"
+        "g": "480mA"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
     },
     {
-      "question": "Two fixed horizontal metal rails are side by side and 12cm apart. The rails are connected to a dc power supply by a switch that is initially open.",
+      "question": "Two fixed horizontal metal rails are side by side and 12cm apart. The rails are connected to a dc power supply by a switch that is initially open. The diagram shows the arrangement seen from above. The angle between the rod and the rails is 90°. moveable rod + 12cm 20cm – fixed rails The whole arrangement is placed in a uniform magnetic field of magnitude 0.50T that is directed perpendicularly into the page. The moveable rod has a weight of 0.40N. The switch is now closed. As a result, there is a current of 2.4A in the circuit and the rod moves. What is the initial magnitude of the acceleration of the rod and what is its direction? (gravitational field strength = 10Nkg–1) acceleration /ms–2 direction",
       "answers": {
         "a": "0.36 to the left",
         "b": "0.36 to the right",
@@ -370,7 +403,7 @@
         "e": "3.6 to the left",
         "f": "3.6 to the right",
         "g": "6.0 to the left",
-        "h": "6.0 to the right 29 PART B Physics"
+        "h": "6.0 to the right"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -397,7 +430,7 @@
         "e": "35J",
         "f": "40J",
         "g": "45J",
-        "h": "65J 30 PART B Physics"
+        "h": "65J"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -411,7 +444,7 @@
         "d": "960N",
         "e": "1600N",
         "f": "3200N",
-        "g": "4800N 31 PART B Physics"
+        "g": "4800N"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -436,7 +469,7 @@
         "b": "3.4ms–1",
         "c": "5.0ms–1",
         "d": "7.5ms–1",
-        "e": "20ms–1 32 PART B Physics"
+        "e": "20ms–1 32"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -451,22 +484,22 @@
         "e": "142 154",
         "f": "14 14",
         "g": "14 28",
-        "h": "14 42 33 PART B Physics"
+        "h": "14 42 33"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
     },
     {
-      "question": "A solid uniform sphere is made of metal of density ρ and has radius r and volume V. It falls S vertically through a viscous liquid of density ρ . L Three forces act on it: its weight, a drag force D and an upthrust U. The magnitude of the upthrust force is equal to the weight of the liquid displaced by the sphere. The magnitude of the drag force is given by:",
+      "question": "A solid uniform sphere is made of metal of density ρ and has radius r and volume V. It falls S vertically through a viscous liquid of density ρ . L Three forces act on it: its weight, a drag force D and an upthrust U. The magnitude of the upthrust force is equal to the weight of the liquid displaced by the sphere. The magnitude of the drag force is given by: where v is the speed of the metal sphere and k is a constant. What is the terminal speed of the metal sphere as it falls through this liquid? (gravitational field strength = g) ρg",
       "answers": {
-        "d": "S L Vrk Vρg",
         "a": "L Vrk ρ g",
         "b": "S Vrk g(ρ −ρ )",
         "c": "S L Vrk g(ρ +ρ )",
+        "d": "S L Vrk Vρg",
         "e": "L rk Vρ g",
         "f": "S rk Vg(ρ −ρ )",
         "g": "S L rk Vg(ρ +ρ )",
-        "h": "S L rk 34 PART B Physics"
+        "h": "S L rk"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -493,7 +526,7 @@
         "e": "16ms–1",
         "f": "6ms–1",
         "g": "12 ms–1",
-        "h": "30 ms–1 35 PART B Physics"
+        "h": "30 ms–1 35"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -507,7 +540,7 @@
         "d": "It is not changing.",
         "e": "It is decreasing at an increasing rate.",
         "f": "It is decreasing at a constant rate.",
-        "g": "It is decreasing at a decreasing rate. 36 PART C Chemistry PART C Chemistry 37 PART C Chemistry"
+        "g": "It is decreasing at a decreasing rate."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -524,7 +557,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 38 PART C Chemistry"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -539,7 +572,7 @@
         "e": "nitrogen, argon, oxygen",
         "f": "nitrogen, oxygen, argon",
         "g": "oxygen, nitrogen, argon",
-        "h": "oxygen, argon, nitrogen 39 PART C Chemistry"
+        "h": "oxygen, argon, nitrogen"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -551,7 +584,7 @@
         "b": "3 only",
         "c": "1 and 2 only",
         "d": "1 and 3 only",
-        "e": "1, 2 and 3"
+        "e": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -566,7 +599,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 40 PART C Chemistry"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -577,8 +610,8 @@
         "a": "aluminium sulfate, Al(SO ) 4 3",
         "b": "ammonium carbonate, (NH ) CO 4 2 3",
         "c": "calcium hydroxide, CaOH",
-        "d": "magnesium nitrate, MgNO 3",
-        "e": "potassium bromide, KBr 2"
+        "d": "magnesium nitrate, MgNO",
+        "e": "potassium bromide, KBr"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -591,7 +624,7 @@
         "c": "3",
         "d": "4",
         "e": "5",
-        "f": "6 41 PART C Chemistry"
+        "f": "6 41"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -606,7 +639,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 42 PART C Chemistry"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -621,7 +654,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -636,7 +669,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 43 PART C Chemistry"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -663,7 +696,7 @@
         "c": "4.0g",
         "d": "5.8g",
         "e": "6.0g",
-        "f": "8.0g 44 PART C Chemistry"
+        "f": "8.0g"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -676,31 +709,35 @@
         "c": "1500cm3",
         "d": "1550cm3",
         "e": "1700cm3",
-        "f": "2000cm3 45 PART C Chemistry"
+        "f": "2000cm3 45"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
     },
     {
-      "question": "Hydrochloric acid, sulfuric acid and phosphoric(V) acid are inorganic acids. Phosphoric(V) acid, H PO , ionises in water in the following series of reactions: 3 4",
+      "question": "Hydrochloric acid, sulfuric acid and phosphoric(V) acid are inorganic acids. Phosphoric(V) acid, H PO , ionises in water in the following series of reactions: 3 4 3 4 2 4 2 4 4 HPO 2– ⇌ H+ + PO 3– 4 4 0.1moldm–3 hydrochloric acid has a pH of 1.⇌0 at room temperature. Which of the following statements about these acids is/are correct? 1 The pH of 0.1moldm–3 sulfuric acid is greater than 1.0 at room temperature. 2 H PO – can act as an acid or as a base. 2 4 3 30cm3 of calcium hydroxide solution exactly neutralises 20cm3 phosphoric(V) acid solution when both solutions are the same concentration.",
       "answers": {
-        "h": "1, 2 and 3 46 PART C Chemistry",
         "a": "none of them",
         "b": "1 only",
         "c": "2 only",
         "d": "3 only",
         "e": "1 and 2 only",
         "f": "1 and 3 only",
-        "g": "2 and 3 only"
+        "g": "2 and 3 only",
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
     },
     {
-      "question": "Calcium carbonate reacts with hydrochloric acid according to the following chemical equation: CaCO (s) + 2HCl(aq) → CaCl (aq) + H O(l) + CO (g) 3 2 2 2 Line P on the graph shows how the volume of carbon dioxide formed changes with time when 4.0g of calcium carbonate reacts with 50cm3 of 1.0moldm–3 hydrochloric acid at 20°C.",
+      "question": "Calcium carbonate reacts with hydrochloric acid according to the following chemical equation: CaCO (s) + 2HCl(aq) → CaCl (aq) + H O(l) + CO (g) 3 2 2 2 Line P on the graph shows how the volume of carbon dioxide formed changes with time when 4.0g of calcium carbonate reacts with 50cm3 of 1.0moldm–3 hydrochloric acid at 20°C. carbonate but using 50cm3 of 2.0moldm–3 hydrochloric acid. Which line (A-F) best represents how the volume of carbon dioxide formed changes with time in the second reaction? (M value: CaCO = 100) r 3 volume of CO 2 P 0 0 time 47",
       "answers": {
-        "a": "second reaction was carried out under identical conditions with the same mass of calcium carbonate but using 50cm3 of 2.0moldm–3 hydrochloric acid. Which line (A-F) best represents how the volume of carbon dioxide formed changes with time in the second reaction? (M value: CaCO = 100) r 3 volume of CO 2 F E D C P",
-        "b": "A 0 0 time 47 PART C Chemistry"
+        "a": "Option A (diagram/text unavailable in PDF text extraction).",
+        "b": "Option B (diagram/text unavailable in PDF text extraction).",
+        "c": "Option C (diagram/text unavailable in PDF text extraction).",
+        "d": "Option D (diagram/text unavailable in PDF text extraction).",
+        "e": "Option E (diagram/text unavailable in PDF text extraction).",
+        "f": "Option F (diagram/text unavailable in PDF text extraction)."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -725,7 +762,7 @@
         "b": "8",
         "c": "10",
         "d": "12",
-        "e": "14 48 PART C Chemistry"
+        "e": "14 48"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -738,7 +775,7 @@
         "c": "30kJmol–1",
         "d": "60kJmol–1",
         "e": "120kJmol–1",
-        "f": "3000kJmol–1 49 PART C Chemistry"
+        "f": "3000kJmol–1 49"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -753,7 +790,7 @@
         "e": "The beaker with lithium added would increase in mass the most.",
         "f": "The beaker with sodium added would increase in mass the most.",
         "g": "The beaker with potassium added would increase in mass the most.",
-        "h": "All three beakers would show the same increase in mass. 50 PART C Chemistry"
+        "h": "All three beakers would show the same increase in mass."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -783,7 +820,7 @@
         "e": "1.08mg",
         "f": "2.16mg",
         "g": "3.12mg",
-        "h": "6.48mg 51 BLANK PAGE 52 PART D Biology PART D Biology 53 PART D Biology"
+        "h": "6.48mg"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -815,7 +852,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 54 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
@@ -830,7 +867,7 @@
         "e": "S R Q P",
         "f": "R S P Q",
         "g": "P R Q S",
-        "h": "R P S Q 55 PART D Biology"
+        "h": "R P S Q"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -845,7 +882,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 56 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -860,7 +897,7 @@
         "e": "2 and 4 only",
         "f": "3 and 4 only",
         "g": "1, 2 and 3 only",
-        "h": "2, 3 and 4 only 57 PART D Biology"
+        "h": "2, 3 and 4 only"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -875,7 +912,7 @@
         "e": "47 24",
         "f": "47 47",
         "g": "92 47",
-        "h": "93 93 58 PART D Biology"
+        "h": "93 93 58"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -889,7 +926,7 @@
         "d": "1 and 2 only",
         "e": "1 and 3 only",
         "f": "2 and 3 only",
-        "g": "1, 2 and 3 59 PART D Biology"
+        "g": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -902,7 +939,7 @@
         "c": "small intestine kidney chambers of the right side of the heart",
         "d": "small intestine chambers of the right side kidney of the heart",
         "e": "chambers of the right side small intestine kidney of the heart",
-        "f": "chambers of the right side kidney small intestine of the heart 60 PART D Biology"
+        "f": "chambers of the right side kidney small intestine of the heart"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -917,7 +954,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 61 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -932,7 +969,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 62 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -947,7 +984,7 @@
         "e": "2 and 3 only",
         "f": "2 and 4 only",
         "g": "3 and 4 only",
-        "h": "1, 2, 3 and 4 63 PART D Biology"
+        "h": "1, 2, 3 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -962,7 +999,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 64 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -977,7 +1014,7 @@
         "e": "1 and 2 only",
         "f": "2 and 3 only",
         "g": "1 and 3 only",
-        "h": "1, 2 and 3 65 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -992,7 +1029,7 @@
         "e": "2.5 the reaction takes in energy slowly to the left the gas bubble moves more",
         "f": "2.5 the reaction takes in energy slowly to the right the gas bubble moves more",
         "g": "10.0 the reaction releases energy slowly to the left the gas bubble moves more",
-        "h": "10.0 the reaction takes in energy slowly to the right 66 PART D Biology"
+        "h": "10.0 the reaction takes in energy slowly to the right"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
@@ -1000,9 +1037,12 @@
     {
       "question": "The placenta is an organ that develops during pregnancy. One function of the placenta is to allow the exchange of gases between the mother and the developing foetus. The diagram represents the maternal and foetal blood flow between P and Q in a section of the placenta of a healthy small mammal. The concentration of oxygen in both maternal and foetal blood was measured at regular distances along this section. maternal direction of blood flow foetal direction of blood flow P Q Which graph illustrates the concentration of oxygen in both maternal and foetal blood between P and Q? Key maternal capillary foetal capillary",
       "answers": {
-        "a": "concentration B concentration of oxygen of oxygen P Q P Q",
-        "c": "concentration D concentration of oxygen of oxygen P Q P Q",
-        "e": "concentration F concentration of oxygen of oxygen P Q P Q 67 PART D Biology"
+        "a": "concentration",
+        "b": "concentration of oxygen of oxygen P Q P Q",
+        "c": "concentration",
+        "d": "concentration of oxygen of oxygen P Q P Q",
+        "e": "concentration",
+        "f": "concentration of oxygen of oxygen P Q P Q 67"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -1017,7 +1057,7 @@
         "e": "pulmonary artery open ventricles",
         "f": "pulmonary artery closed ventricles",
         "g": "pulmonary vein open atria",
-        "h": "pulmonary vein closed atria 68 PART D Biology"
+        "h": "pulmonary vein closed atria"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -1030,20 +1070,20 @@
         "c": "taking an antibiotic may be stimulated by may work by cells injections of inactivated engulfing pathogens pathogen",
         "d": "taking an antibiotic may work by cells may be stimulated by engulfing pathogens injections of inactivated pathogen",
         "e": "may work by cells may be stimulated by taking an antibiotic engulfing pathogens injections of inactivated pathogen",
-        "f": "may work by cells taking an antibiotic may be stimulated by engulfing pathogens injections of inactivated pathogen 69 PART D Biology"
+        "f": "may work by cells taking an antibiotic may be stimulated by engulfing pathogens injections of inactivated pathogen"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
     },
     {
-      "question": "Catalase is an enzyme found inside plant and animal cells. When catalase is added to hydrogen peroxide, bubbles of oxygen gas are formed. Red blood cells were placed into either water or plasma, and were placed in the dark. Plant cells were placed into either water or 0.5moldm–3 sucrose solution, and were placed in the dark. Assume that hydrogen peroxide and catalase do not cross the cell surface membrane. Which row shows the results when hydrogen peroxide was added? Key (cid:57) = oxygen bubbles will form x = oxygen bubbles will not form when hydrogen peroxide was added to plant cells red blood cells red blood cells plant cells in a 0.5moldm–3 in plasma in water in water sucrose solution",
+      "question": "Catalase is an enzyme found inside plant and animal cells. When catalase is added to hydrogen peroxide, bubbles of oxygen gas are formed. Red blood cells were placed into either water or plasma, and were placed in the dark. Plant cells were placed into either water or 0.5moldm–3 sucrose solution, and were placed in the dark. Assume that hydrogen peroxide and catalase do not cross the cell surface membrane. Which row shows the results when hydrogen peroxide was added? Key = oxygen bubbles will form x = oxygen bubbles will not form when hydrogen peroxide was added to plant cells red blood cells red blood cells plant cells in a 0.5moldm–3 in plasma in water in water sucrose solution",
       "answers": {
-        "a": "(cid:57) (cid:57) x x",
-        "b": "x x (cid:57) (cid:57)",
-        "c": "x x (cid:57) x",
-        "d": "x x x (cid:57)",
-        "e": "(cid:57) (cid:57) (cid:57) x",
-        "f": "(cid:57) (cid:57) x (cid:57) 70 PART D Biology"
+        "a": "x x",
+        "b": "x x",
+        "c": "x x x",
+        "d": "x x x",
+        "e": "x",
+        "f": "x 70"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -1058,7 +1098,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 71 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -1071,7 +1111,7 @@
         "c": "0.5 0.25",
         "d": "0.5 1",
         "e": "1 0.25",
-        "f": "1 0.5 72 BLANK PAGE 73 BLANK PAGE 74 BLANK PAGE 75 76"
+        "f": "1 0.5 72 73 74 75 76"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"

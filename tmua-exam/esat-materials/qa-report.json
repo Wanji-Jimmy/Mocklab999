@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T04:04:31.715Z",
+  "generatedAt": "2026-03-09T10:17:32.271Z",
   "exams": {
     "ENGAA": [
       {
@@ -12,6 +12,9 @@
         },
         "l1ShapeOk": true,
         "placeholderRatio": 0,
+        "noiseRatio": 0,
+        "shortStemRatio": 0,
+        "lowOptionRatio": 0,
         "qaPassed": true
       },
       {
@@ -24,6 +27,9 @@
         },
         "l1ShapeOk": true,
         "placeholderRatio": 0,
+        "noiseRatio": 0,
+        "shortStemRatio": 0,
+        "lowOptionRatio": 0,
         "qaPassed": true
       },
       {
@@ -36,6 +42,9 @@
         },
         "l1ShapeOk": true,
         "placeholderRatio": 0,
+        "noiseRatio": 0,
+        "shortStemRatio": 0,
+        "lowOptionRatio": 0,
         "qaPassed": true
       },
       {
@@ -48,6 +57,9 @@
         },
         "l1ShapeOk": true,
         "placeholderRatio": 0,
+        "noiseRatio": 0,
+        "shortStemRatio": 0,
+        "lowOptionRatio": 0,
         "qaPassed": true
       },
       {
@@ -60,6 +72,9 @@
         },
         "l1ShapeOk": true,
         "placeholderRatio": 0,
+        "noiseRatio": 0,
+        "shortStemRatio": 0,
+        "lowOptionRatio": 0,
         "qaPassed": true
       },
       {
@@ -72,6 +87,9 @@
         },
         "l1ShapeOk": true,
         "placeholderRatio": 0,
+        "noiseRatio": 0,
+        "shortStemRatio": 0,
+        "lowOptionRatio": 0,
         "qaPassed": true
       },
       {
@@ -84,6 +102,9 @@
         },
         "l1ShapeOk": true,
         "placeholderRatio": 0,
+        "noiseRatio": 0,
+        "shortStemRatio": 0,
+        "lowOptionRatio": 0,
         "qaPassed": true
       },
       {
@@ -96,6 +117,9 @@
         },
         "l1ShapeOk": true,
         "placeholderRatio": 0,
+        "noiseRatio": 0,
+        "shortStemRatio": 0,
+        "lowOptionRatio": 0,
         "qaPassed": true
       }
     ],
@@ -113,6 +137,9 @@
         },
         "l1ShapeOk": true,
         "placeholderRatio": 0,
+        "noiseRatio": 0,
+        "shortStemRatio": 0,
+        "lowOptionRatio": 0,
         "qaPassed": true
       },
       {
@@ -128,6 +155,9 @@
         },
         "l1ShapeOk": true,
         "placeholderRatio": 0,
+        "noiseRatio": 0,
+        "shortStemRatio": 0,
+        "lowOptionRatio": 0,
         "qaPassed": true
       },
       {
@@ -143,6 +173,9 @@
         },
         "l1ShapeOk": true,
         "placeholderRatio": 0,
+        "noiseRatio": 0,
+        "shortStemRatio": 0,
+        "lowOptionRatio": 0,
         "qaPassed": true
       },
       {
@@ -158,6 +191,9 @@
         },
         "l1ShapeOk": true,
         "placeholderRatio": 0,
+        "noiseRatio": 0,
+        "shortStemRatio": 0,
+        "lowOptionRatio": 0,
         "qaPassed": true
       },
       {
@@ -173,6 +209,9 @@
         },
         "l1ShapeOk": true,
         "placeholderRatio": 0,
+        "noiseRatio": 0,
+        "shortStemRatio": 0,
+        "lowOptionRatio": 0,
         "qaPassed": true
       },
       {
@@ -188,6 +227,9 @@
         },
         "l1ShapeOk": true,
         "placeholderRatio": 0,
+        "noiseRatio": 0,
+        "shortStemRatio": 0,
+        "lowOptionRatio": 0,
         "qaPassed": true
       },
       {
@@ -203,6 +245,9 @@
         },
         "l1ShapeOk": true,
         "placeholderRatio": 0,
+        "noiseRatio": 0,
+        "shortStemRatio": 0,
+        "lowOptionRatio": 0,
         "qaPassed": true
       },
       {
@@ -218,6 +263,9 @@
         },
         "l1ShapeOk": true,
         "placeholderRatio": 0,
+        "noiseRatio": 0,
+        "shortStemRatio": 0,
+        "lowOptionRatio": 0,
         "qaPassed": true
       }
     ]

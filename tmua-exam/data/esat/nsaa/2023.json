@@ -8,32 +8,39 @@
       "answers": {
         "a": "R = 5r",
         "b": "R = 12r",
-        "c": "R = 2 5r 1",
-        "d": "R = 10 r"
+        "c": "R = 2 5r",
+        "d": "R = 10 r",
+        "e": "R = 10r",
+        "f": "R = 10 r",
+        "g": "R = 15r"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
     },
     {
-      "question": "2",
+      "question": "Which of the following statements is/are correct? 47 33 71 33 1 ÷ = ÷ 93 71 93 47 2 53% of 84 = 84% of 53 ( )2 ( )2 3 2 3 = 3 2",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "3",
+      "question": "Which of the following is a correct rearrangement of q−r y = p – s−x to make x the subject? q−r",
       "answers": {
-        "f": "x = y− p – s",
-        "g": "2 and 3 only",
         "a": "x = s – p+ y q−r",
         "b": "x = p+ y – s q−r",
         "c": "x = s – p− y q−r",
         "d": "x = p− y – s q−r",
         "e": "x = s – y− p q−r",
-        "h": "1, 2 and 3 6 PART A Mathematics 3 Which of the following is a correct rearrangement of q−r y = p – s−x to make x the subject? q−r"
+        "f": "x = y− p – s"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -46,27 +53,35 @@
         "c": "5",
         "d": "9.625",
         "e": "10",
-        "f": "11.75 7 PART A Mathematics"
+        "f": "11.75 7"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
     },
     {
-      "question": "X N Y M P W Z [diagram not to scale] WXYZ is a square of side length 1. WM:MX = 1:2 XN:NY = 3:1 YP:PZ = 4:1 What is the area of triangle MNP? 1 A 3 2 B 5 9 C 20 1 D 30 19 E 60 23 F 60 8 PART A Mathematics",
+      "question": "X N Y M P W Z WXYZ is a square of side length 1. WM:MX = 1:2 XN:NY = 3:1 YP:PZ = 4:1 What is the area of triangle MNP? 1",
       "answers": {
         "a": "Option unavailable",
-        "b": "Option unavailable"
+        "b": "Option unavailable",
+        "c": "Option unavailable",
+        "d": "Option unavailable",
+        "e": "Option unavailable",
+        "f": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
     },
     {
-      "question": "Which of the following is a simplification of 4x−8 x−6 ÷ x2 +4x−12 x3 −36x 1 A 4 1 B 4x",
+      "question": "Which of the following is a simplification of 4x−8 x−6 ÷ x2 +4x−12 x3 −36x 1",
       "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable 4x",
         "c": "4",
         "d": "4x 4x ( x+6 )",
         "e": "( x−6 ) 4x ( x− 6 )",
-        "f": "( x+ 6 ) 4 G x ( x+ 6 )2 4 H x ( x−6 )2"
+        "f": "( x+ )",
+        "g": "Option unavailable x ( x+ )2 4",
+        "h": "Option unavailable x ( x−6 )2"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -81,7 +96,7 @@
         "e": "7.5",
         "f": "9",
         "g": "10.5",
-        "h": "12 9 PART A Mathematics"
+        "h": "12 9"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -89,14 +104,14 @@
     {
       "question": "The solutions of the equation 3x2 – 6x – 2 = 0 are p and q, where p > q. What is the value of 3p + 2q? 2",
       "answers": {
-        "a": "–10– 15 3 2",
-        "b": "–10– 3 3 1",
-        "c": "–5– 15 3 1",
-        "d": "–5– 3 3 1",
-        "e": "5+ 15 3 1",
-        "f": "5+ 3 3 2",
-        "g": "10+ 15 3 2",
-        "h": "10+ 3 3"
+        "a": "–10–",
+        "b": "–10–",
+        "c": "–5–",
+        "d": "–5–",
+        "e": "5+",
+        "f": "5+",
+        "g": "10+",
+        "h": "10+"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -106,17 +121,18 @@
       "answers": {
         "a": "46%",
         "b": "57%",
-        "c": "613% 5",
-        "d": "662% 3",
+        "c": "613%",
+        "d": "662%",
         "e": "77%",
-        "f": "831% 3"
+        "f": "831%"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
     },
     {
-      "question": "10 PART A Mathematics 10 Two of the angles of a triangle are 90° and θ, where tanθ = 2 The length of the hypotenuse of the triangle is3 6cm. What is the area of the triangle, in cm2? 9 2 A 2",
+      "question": "Two of the angles of a triangle are 90° and θ, where tanθ = 2 The length of the hypotenuse of the triangle is3 6cm. What is the area of the triangle, in cm2? 9 2",
       "answers": {
+        "a": "Option unavailable",
         "b": "9 2",
         "c": "9 3",
         "d": "9 6",
@@ -134,7 +150,7 @@
         "b": "9.6",
         "c": "11.5",
         "d": "12",
-        "e": "14.4 11 PART A Mathematics"
+        "e": "14.4 11"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -144,7 +160,10 @@
       "answers": {
         "a": "− 5 1",
         "b": "− 6",
-        "c": "1 18 D 11 16 E 7 5 F 2",
+        "c": "1 18",
+        "d": "Option unavailable",
+        "e": "Option unavailable",
+        "f": "Option unavailable",
         "g": "6"
       },
       "explanation": "Explanation pending (official PDF import).",
@@ -154,10 +173,13 @@
       "question": "Two objects X and Y are similar. The surface area of object Y is double the surface area of object X. The volume of object Y is 7 2cm3 more than the volume of object X. What is the volume of object X, in cm3?",
       "answers": {
         "a": "14 –7 2",
-        "b": "14 +7 2 42−7 2 C 17 42+7 2 D 17 7 2 E 3",
+        "b": "14 +7 2 42−7 2",
+        "c": "Option unavailable 42+7 2",
+        "d": "Option unavailable 7 2",
+        "e": "Option unavailable",
         "f": "7 2",
-        "g": "4 – 2",
-        "h": "4 + 2 12 PART A Mathematics"
+        "g": "4 –",
+        "h": "4 +"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
@@ -184,7 +206,7 @@
         "c": "4 5",
         "d": "20 5",
         "e": "40 5",
-        "f": "200 5 13 PART A Mathematics"
+        "f": "200 5 13"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -204,14 +226,14 @@
       "answer": "b"
     },
     {
-      "question": "X and Y are the end-points of a line segment. Point P has coordinates (–8,5). ⎯⎯ → ⎛ 4 ⎞ P lies on the line segment XY such that XP:PY is 1:2 and XP = ⎜ ⎝ −3 ⎟ ⎠ ⎯⎯ → ⎛7⎞",
+      "question": "X and Y are the end-points of a line segment. Point P has coordinates (–8,5). ⎯⎯ → ⎛ 4 ⎞ P lies on the line segment XY such that XP:PY is 1:2 and XP = ⎜ ⎝ −3 ⎟ ⎠ ⎯⎯ → ⎛7⎞ ⎜ ⎟ ⎝6⎠ What are the coordinates of point Q?",
       "answers": {
         "a": "(7,5)",
         "b": "(3,8)",
         "c": "(1,–12)",
         "d": "(–3,–10)",
         "e": "(–7,–7)",
-        "f": "(–11,–4) 14 PART A Mathematics"
+        "f": "(–11,–4)"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -222,27 +244,37 @@
         "a": "–9 7",
         "b": "− 4 3",
         "c": "− 2",
-        "d": "6 31 E 4 27 F 2"
+        "d": "6 31",
+        "e": "Option unavailable",
+        "f": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
     },
     {
-      "question": "Find the maximum value of 2 sinx × 3–sinx where 0° ≤ x ≤ 360° 2 A 3",
-      "answers": {
-        "b": "1 3 C 2",
-        "d": "2",
-        "e": "3",
-        "f": "6 15 PART A Mathematics"
-      },
-      "explanation": "Explanation pending (official PDF import).",
-      "answer": "c"
-    },
-    {
-      "question": "Two bags contain counters which are identical except for colour. The first bag contains 3 blue and 2 yellow counters. The second bag contains x red, 1 blue and 2 yellow counters.",
+      "question": "Find the maximum value of 2 sinx × 3–sinx where 0° ≤ x ≤ 360° 2",
       "answers": {
         "a": "Option unavailable",
-        "b": "Option unavailable"
+        "b": "1 3",
+        "c": "Option unavailable",
+        "d": "2",
+        "e": "3",
+        "f": "6 15"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "Two bags contain counters which are identical except for colour. The first bag contains 3 blue and 2 yellow counters. The second bag contains x red, 1 blue and 2 yellow counters. yellow is 0.2. What is the probability that this counter is red? 1",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable",
+        "c": "Option unavailable",
+        "d": "Option unavailable",
+        "e": "Option unavailable",
+        "f": "Option unavailable",
+        "g": "Option unavailable",
+        "h": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -250,10 +282,16 @@
   ],
   "partBPhysics": [
     {
-      "question": "An object has mass m and weight W on the Moon. The Moon has no atmosphere. The object is released from rest at height h above the surface of the Moon. Which expression gives the speed of the object as it reaches the surface? Wh A m 2Wh B m 2mh C W",
+      "question": "An object has mass m and weight W on the Moon. The Moon has no atmosphere. The object is released from rest at height h above the surface of the Moon. Which expression gives the speed of the object as it reaches the surface? Wh",
       "answers": {
+        "a": "Option unavailable m 2Wh",
+        "b": "Option unavailable m 2mh",
+        "c": "Option unavailable W",
         "d": "2mWh",
-        "e": "2mWh Wh F m 2Wh G m 2mh H W"
+        "e": "2mWh Wh",
+        "f": "Option unavailable m 2Wh",
+        "g": "Option unavailable m 2mh",
+        "h": "Option unavailable W"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -266,26 +304,26 @@
         "c": "0.20m",
         "d": "5.0m",
         "e": "10m",
-        "f": "20m 18 PART B Physics"
+        "f": "20m"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
     },
     {
-      "question": "A heater is connected in series with a dc power supply, a variable resistor and an ammeter in the circuit shown. A The variable resistor is adjusted until the reading on the ammeter is 0.50A and the resistance of the heater is 8.0Ω. How much energy is converted to thermal energy in 5.0 minutes?",
+      "question": "A heater is connected in series with a dc power supply, a variable resistor and an ammeter in the circuit shown. The variable resistor is adjusted until the reading on the ammeter is 0.50A and the resistance of the heater is 8.0Ω. How much energy is converted to thermal energy in 5.0 minutes?",
       "answers": {
         "a": "10J",
         "b": "40J",
         "c": "160J",
         "d": "600J",
         "e": "2400J",
-        "f": "9600J 19 PART B Physics"
+        "f": "9600J"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
     },
     {
-      "question": "A circuit is set up as shown. All three resistors are identical. When the switch is open, the reading on the ammeter is 1.0A and the power transferred from the battery is 1.0W. A The switch is now closed. What is the new reading on the ammeter and what is the new power transferred from the battery? ammeter reading / A power transferred / W",
+      "question": "A circuit is set up as shown. All three resistors are identical. When the switch is open, the reading on the ammeter is 1.0A and the power transferred from the battery is 1.0W. The switch is now closed. What is the new reading on the ammeter and what is the new power transferred from the battery? ammeter reading / A power transferred / W",
       "answers": {
         "a": "0.67 0.67",
         "b": "0.67 1.3",
@@ -294,7 +332,7 @@
         "e": "1.0 1.0",
         "f": "1.0 1.5",
         "g": "1.0 2.0",
-        "h": "1.0 3.0 20 PART B Physics"
+        "h": "1.0 3.0 20"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -305,37 +343,39 @@
         "a": "3.0",
         "b": "6.0",
         "c": "10",
-        "d": "17 20 E 3 40 F 3 21 PART B Physics"
+        "d": "17 20",
+        "e": "Option unavailable",
+        "f": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
     },
     {
-      "question": "A spring is initially unstretched. A force F is used to stretch the spring. The extension x and the energy E stored in the stretched spring are measured for different values of F. The graph shows how the energy E, in J, varies with the extension squared, x2, in cm2.",
+      "question": "A spring is initially unstretched. A force F is used to stretch the spring. The extension x and the energy E stored in the stretched spring are measured for different values of F. The graph shows how the energy E, in J, varies with the extension squared, x2, in cm2. 0.015 0 0 25 x2/cm2 What is the magnitude of F when the spring stores 0.015J of energy?",
       "answers": {
-        "e": "2.4N",
         "a": "0.30N",
         "b": "0.60N",
         "c": "1.2N",
         "d": "1.5N",
+        "e": "2.4N",
         "f": "3.0N",
         "g": "30N",
-        "h": "60N 22 PART B Physics"
+        "h": "60N"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
     },
     {
-      "question": "The nuclide symbol for helium-3 is 3He. 2",
+      "question": "The nuclide symbol for helium-3 is 3He. 2 This nuclide of X decays by a single beta (β–) emission to form a nuclide of element Z. What is the nuclide symbol for this nuclide of Z?",
       "answers": {
-        "a": "8Z 2",
-        "b": "8Z 4",
-        "c": "12Z 4",
-        "d": "8Z 5",
-        "e": "12Z 5",
-        "f": "16Z 5",
-        "g": "7Z 8",
-        "h": "16Z 8"
+        "a": "8Z",
+        "b": "8Z",
+        "c": "12Z",
+        "d": "8Z",
+        "e": "12Z",
+        "f": "16Z",
+        "g": "7Z",
+        "h": "16Z"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -348,7 +388,7 @@
         "c": "3.75gcm–3",
         "d": "7.5gcm–3",
         "e": "15gcm–3",
-        "f": "33gcm–3 23 PART B Physics"
+        "f": "33gcm–3 23"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -361,7 +401,7 @@
         "c": "clockwise through an angle 2θ",
         "d": "anticlockwise through an angle 2θ",
         "e": "clockwise through an angle 45°– θ",
-        "f": "anticlockwise through an angle 45°– θ 24 PART B Physics"
+        "f": "anticlockwise through an angle 45°– θ"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -374,18 +414,22 @@
         "c": "3 days",
         "d": "4 days",
         "e": "6 days",
-        "f": "12 days 25 PART B Physics"
+        "f": "12 days"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "Two stones are held at rest at the same height at the top of a cliff. One stone is released and falls freely under gravity.",
+      "question": "Two stones are held at rest at the same height at the top of a cliff. One stone is released and falls freely under gravity. A time T later, the other stone is released and falls freely under gravity. Which graph shows how the vertical distance separating the stones varies with time, from the moment the first stone is released and before the first stone lands? (Assume that air resistance is negligible.)",
       "answers": {
-        "a": "separation B separation 0 0 0 T 0 T time time",
-        "c": "separation D separation 0 0 0 T 0 T time time",
-        "e": "separation F separation 0 0 0 T 0 T time time",
-        "g": "separation H separation 0 0 0 T 0 T time time 26 PART B Physics"
+        "a": "separation",
+        "b": "separation 0 0 0 T 0 T time time",
+        "c": "separation",
+        "d": "separation 0 0 0 T 0 T time time",
+        "e": "separation",
+        "f": "separation 0 0 0 T 0 T time time",
+        "g": "separation",
+        "h": "separation 0 0 0 T 0 T time time 26"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -393,9 +437,11 @@
     {
       "question": "A large, flat, metal plate is coated on one side with a layer of thermally insulating material of the same thickness a as the metal plate. The uninsulated top surface of the metal plate is maintained at a constant temperature T . 1 The bottom surface of the insulating material is maintained at a constant, lower temperature T . 2 The system is in equilibrium. The diagram shows this arrangement. metal plate T 1 T 2 insulating material Which graph could show how the temperature varies with distance from the top surface of the metal plate to the bottom surface of the insulating material?",
       "answers": {
-        "a": "temperature B temperature T T 1 1 T T 2 2 a a a a 0 2 0 2 distance from top distance from top of metal plate of metal plate",
-        "c": "temperature D temperature T T 1 1 T T 2 2 a a a a 0 2 0 2 distance from top distance from top of metal plate of metal plate",
-        "e": "temperature T 1 T 2 a a 0 2 distance from top of metal plate 27 PART B Physics"
+        "a": "temperature",
+        "b": "temperature T T 1 1 T T 2 2 a a a a 0 2 0 2 distance from top distance from top of metal plate of metal plate",
+        "c": "temperature",
+        "d": "temperature T T 1 1 T T 2 2 a a a a 0 2 0 2 distance from top distance from top of metal plate of metal plate",
+        "e": "temperature T 1 T 2 a a 0 2 distance from top of metal plate 27"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -421,7 +467,7 @@
         "b": "6600V",
         "c": "22000V",
         "d": "110000V",
-        "e": "550000V 28 PART B Physics"
+        "e": "550000V"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -446,13 +492,13 @@
         "b": "72cms–1",
         "c": "125cms–1",
         "d": "144cms–1",
-        "e": "300cms–1 29 PART B Physics"
+        "e": "300cms–1 29"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
     },
     {
-      "question": "A copper ring, with a small gap XY, rests in a uniform horizontal magnetic field. The ring lies in the plane of the page and the direction of the magnetic field is horizontal from left to right, as shown in the diagram. magnetic field X Y",
+      "question": "A copper ring, with a small gap XY, rests in a uniform horizontal magnetic field. The ring lies in the plane of the page and the direction of the magnetic field is horizontal from left to right, as shown in the diagram. magnetic field X Y power supply and Y is connected to the negative terminal. Which statement describes the motion of the ring immediately after the voltage is applied? (Assume that the mechanism supporting the ring allows the ring to move freely and allows the voltage to be applied continuously.)",
       "answers": {
         "a": "The ring moves towards the bottom of the page.",
         "b": "The ring moves towards the top of the page.",
@@ -461,7 +507,7 @@
         "e": "The ring rotates about an axis perpendicular to the plane of the page in a clockwise direction.",
         "f": "The ring rotates about an axis perpendicular to the plane of the page in an anti-clockwise direction.",
         "g": "The ring rotates about an axis that is in the plane of the page and parallel to the field.",
-        "h": "The ring rotates about an axis that is in the plane of the page and perpendicular to the field. 30 PART B Physics"
+        "h": "The ring rotates about an axis that is in the plane of the page and perpendicular to the field."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
@@ -472,9 +518,9 @@
         "a": "A 5 3",
         "b": "A 5 3",
         "c": "A 4",
-        "d": "1A 3",
+        "d": "1A",
         "e": "A 10 3",
-        "f": "A 5 31 PART B Physics"
+        "f": "A 5 31"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -502,7 +548,7 @@
         "e": "288cm3",
         "f": "315cm3",
         "g": "360cm3",
-        "h": "405cm3 32 PART C Chemistry PART C Chemistry 33 PART C Chemistry"
+        "h": "405cm3 32 33"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -522,11 +568,14 @@
       "answer": "d"
     },
     {
-      "question": "Which of the following represents the structure of the addition polymer formed from but-1-ene?",
+      "question": "Which of the following represents the structure of the addition polymer formed from but-1-ene? 34",
       "answers": {
-        "a": "B",
-        "c": "D",
-        "e": "F 34 PART C Chemistry"
+        "a": "Option A (diagram/text unavailable in PDF text extraction).",
+        "b": "Option B (diagram/text unavailable in PDF text extraction).",
+        "c": "Option C (diagram/text unavailable in PDF text extraction).",
+        "d": "Option D (diagram/text unavailable in PDF text extraction).",
+        "e": "Option E (diagram/text unavailable in PDF text extraction).",
+        "f": "Option F (diagram/text unavailable in PDF text extraction)."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -538,7 +587,7 @@
         "b": "65.4",
         "c": "65.8",
         "d": "66.0",
-        "e": "66.6 35 PART C Chemistry"
+        "e": "66.6 35"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -553,7 +602,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -566,7 +615,7 @@
         "c": "0.009mol",
         "d": "0.018mol",
         "e": "0.133mol",
-        "f": "0.400mol 36 PART C Chemistry"
+        "f": "0.400mol"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -584,34 +633,38 @@
       "answer": "e"
     },
     {
-      "question": "Atoms of element Q have two full shells of electrons and the third shell requires one more electron to gain a noble gas configuration. Which row of the table correctly describes the elements near to Q in the Periodic Table? element immediately element immediately element immediately element immediately above Q below Q to the left of Q to the right of Q requires one more gains an electron the atom contains electron to fill a is very unreactive",
+      "question": "Atoms of element Q have two full shells of electrons and the third shell requires one more electron to gain a noble gas configuration. Which row of the table correctly describes the elements near to Q in the Periodic Table? element immediately element immediately element immediately element immediately above Q below Q to the left of Q to the right of Q requires one more gains an electron the atom contains electron to fill a is very unreactive second shell of compared to Q than Q than Q electrons gains an electron the atom contains than Q than Q requires one more gains an electron the atom contains electron to fill a is an alkaline earth second shell of metal than Q than Q electrons contains an extra full the atom contains is very unreactive compared to Q compared to Q than Q gains an electron the atom contains the atom has an than Q than Q greater than Q 37 x−1",
       "answers": {
-        "a": "less favourably one fewer proton second shell of compared to Q than Q than Q electrons gains an electron the atom contains",
-        "b": "more favourably more protons is found in Period 3 is a halogen than Q than Q requires one more gains an electron the atom contains electron to fill a is an alkaline earth",
-        "c": "less favourably one more proton second shell of metal than Q than Q electrons contains an extra full the atom contains is very unreactive",
-        "d": "is found in Period 3 shell of electrons one fewer proton compared to Q compared to Q than Q gains an electron the atom contains the atom has an",
-        "e": "more favourably more protons atomic number is found in Period 3 than Q than Q greater than Q 37 PART C Chemistry x−1"
+        "a": "less favourably one fewer proton",
+        "b": "more favourably more protons is found in Period 3 is a halogen",
+        "c": "less favourably one more proton",
+        "d": "is found in Period 3 shell of electrons one fewer proton",
+        "e": "more favourably more protons atomic number is found in Period"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
     },
     {
-      "question": "A simple ion of an element has a mass number x, an atomic number and a charge of –1. 2 How many protons, neutrons and electrons are present in this ion? protons neutrons electrons x−1 x−1 x−1 A 2 2 2 x−1 x+ 1 x+ 1 B 2 2 2 x−1 x+ 1 x−1 C 2 2 2 x−1 x−1 x+ 1 D 2 2 2 x+ 1 x−1 x+ 1 E 2 2 2 x+ 1 x−1 x−1 F 2 2 2",
+      "question": "A simple ion of an element has a mass number x, an atomic number and a charge of –1. 2 How many protons, neutrons and electrons are present in this ion? protons neutrons electrons x−1 x−1 x−1",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "Option unavailable 2 2 2 x−1 x+ 1 x+",
+        "b": "Option unavailable 2 2 2 x−1 x+ 1 x−1",
+        "c": "Option unavailable 2 2 2 x−1 x−1 x+",
+        "d": "Option unavailable 2 2 2 x+ 1 x−1 x+",
+        "e": "Option unavailable 2 2 2 x+ 1 x−1 x−1",
+        "f": "Option unavailable 2 2 2"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
     },
     {
-      "question": "Titanium metal can be extracted from titanium(IV) chloride, TiCl . 4 Titanium(IV) chloride is heated to 1000°C with either sodium or magnesium metal in an atmosphere of argon. Which one of the following statements is correct? (A values: Na = 23; Mg = 24; Cl = 35.5; Ti = 48) r",
+      "question": "Titanium metal can be extracted from titanium(IV) chloride, TiCl . 4 Titanium(IV) chloride is heated to 1000°C with either sodium or magnesium metal in an atmosphere of argon. Which one of the following statements is correct?",
       "answers": {
         "a": "A greater mass of magnesium chloride than sodium chloride is produced for each tonne of titanium made.",
         "b": "The atmosphere of argon is used as a catalyst.",
         "c": "In each reaction equation, the ratio of the reacting metal to titanium(IV) chloride is the same.",
         "d": "Titanium is a weaker oxidising agent than either sodium or magnesium.",
-        "e": "A smaller mass of magnesium than sodium is required to produce 500kg of titanium. 38 PART C Chemistry"
+        "e": "A smaller mass of magnesium than sodium is required to produce 500kg of titanium."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -632,14 +685,14 @@
       "answer": "f"
     },
     {
-      "question": "A water treatment unit processes 355000dm3 of drinking water each day. 0.4mg of chlorine gas is used to kill the bacteria in 1dm3 of the source water. What volume of chlorine gas, if measured at room temperature and pressure, is used each day at the water treatment unit? (A value: Cl = 35.5. Assume that one mole of a gas occupies 24dm3 at room temperature and r pressure.)",
+      "question": "A water treatment unit processes 355000dm3 of drinking water each day. 0.4mg of chlorine gas is used to kill the bacteria in 1dm3 of the source water. What volume of chlorine gas, if measured at room temperature and pressure, is used each day at the water treatment unit?",
       "answers": {
         "a": "6dm3",
         "b": "12dm3",
         "c": "48dm3",
         "d": "96dm3",
         "e": "300dm3",
-        "f": "600dm3 39 PART C Chemistry"
+        "f": "600dm3 39"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -654,13 +707,13 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 40 PART C Chemistry"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
     },
     {
-      "question": "One mole of copper reacts completely with an excess of concentrated nitric acid.",
+      "question": "One mole of copper reacts completely with an excess of concentrated nitric acid. 48dm3 when measured at room temperature and pressure. The oxidation state of the nitrogen in the gaseous oxide is one less than the oxidation state of the nitrogen in the nitric acid. Which of the following could be the equation for this reaction? (Assume that one mole of any gas occupies 24dm3 at room temperature and pressure.)",
       "answers": {
         "a": "Cu + 2HNO → CuNO + NO + H O 3 3 2 2",
         "b": "Cu + 2HNO → CuO + 2NO + O + H O 3 2 2",
@@ -668,7 +721,7 @@
         "d": "Cu + 4HNO → Cu(NO ) + N O + 2H O 3 3 2 2 4 2",
         "e": "Cu + 4HNO → Cu(NO ) + 2NO + 2H O 3 3 2 2 2",
         "f": "3Cu + 8HNO → 3Cu(NO ) + 2NO + 4H O 3 3 2 2",
-        "g": "3Cu + 8HNO → Cu(NO ) + 2CuO + 6N O + 4H O 3 3 2 2 4 2 41 PART C Chemistry"
+        "g": "3Cu + 8HNO → Cu(NO ) + 2CuO + 6N O + 4H O 3 3 2 2 4 2 41"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -683,7 +736,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 42 PART C Chemistry"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -695,13 +748,13 @@
         "b": "1.60g",
         "c": "1.92g",
         "d": "2.00g",
-        "e": "2.40g 43 PART C Chemistry"
+        "e": "2.40g"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
     },
     {
-      "question": "A student electroplates a solid metal ball with copper. The student dissolves 80.0g of anhydrous copper(II) sulfate in water and makes up the solution to exactly 500cm3 to use as the electrolyte. Two electrodes are placed in this solution. One electrode is the ball to be electroplated and the other electrode is an inert graphite electrode. The electrodes are connected to a battery. After some time, the ball is removed and is found to be coated with 8.00g of copper. Water is added to the remaining solution to give a final volume of exactly 500cm3. What is the final concentration of the copper(II) ions in solution? (A values: O = 16; S = 32; Cu = 64) r",
+      "question": "A student electroplates a solid metal ball with copper. The student dissolves 80.0g of anhydrous copper(II) sulfate in water and makes up the solution to exactly 500cm3 to use as the electrolyte. Two electrodes are placed in this solution. One electrode is the ball to be electroplated and the other electrode is an inert graphite electrode. The electrodes are connected to a battery. After some time, the ball is removed and is found to be coated with 8.00g of copper. Water is added to the remaining solution to give a final volume of exactly 500cm3. What is the final concentration of the copper(II) ions in solution?",
       "answers": {
         "a": "0.25moldm–3",
         "b": "0.38moldm–3",
@@ -709,7 +762,7 @@
         "d": "0.50moldm–3",
         "e": "0.75moldm–3",
         "f": "0.90moldm–3",
-        "g": "1.0moldm–3 44 PART C Chemistry"
+        "g": "1.0moldm–3 44"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -724,7 +777,7 @@
         "e": "0.042dm3",
         "f": "0.084dm3",
         "g": "0.0042dm3",
-        "h": "0.0084dm3 45 PART C Chemistry"
+        "h": "0.0084dm3 45"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
@@ -739,7 +792,7 @@
         "e": "S, P, Q, R",
         "f": "S, P, R, Q",
         "g": "S, R, Q, P",
-        "h": "S, R, P, Q 46 PART C Chemistry"
+        "h": "S, R, P, Q"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -767,7 +820,7 @@
         "c": "7.5mol",
         "d": "8.5mol",
         "e": "15mol",
-        "f": "17mol 47 PART D Biology PART D Biology 48 PART D Biology"
+        "f": "17mol"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -781,7 +834,7 @@
         "b": "The beetle and the tree have a mutualistic relationship.",
         "c": "The fungus is a parasite on the beetle.",
         "d": "The fungus is the primary producer that the beetle feeds on.",
-        "e": "The tree is the primary producer that the beetle feeds on. 49 PART D Biology"
+        "e": "The tree is the primary producer that the beetle feeds on."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -796,7 +849,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 50 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -811,7 +864,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 51 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -826,7 +879,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 52 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -834,14 +887,14 @@
     {
       "question": "The diagram shows a bubble potometer at the start of an experiment. water screw clip ruler (cm) sealed rubber tube 0 1 2 3 4 5 6 7 8 9 101112 glass tube air bubble The glass tube has an internal diameter of 1mm. After five minutes, one end of the air bubble had moved to the 4cm mark on the scale. Which row is correct? name of process volume of water taken up being investigated / mm3",
       "answers": {
-        "a": "translocation π × (0.5)2 × 10",
-        "b": "translocation π × (0.5)2 × 15",
-        "c": "translocation 2π × (0.5) × 10",
-        "d": "translocation 2π × (0.5) × 15",
-        "e": "transpiration π × (0.5)2 × 10",
-        "f": "transpiration π × (0.5)2 × 15",
-        "g": "transpiration 2π × (0.5) × 10",
-        "h": "transpiration 2π × (0.5) × 15 53 PART D Biology"
+        "a": "translocation π × (0.5)2 ×",
+        "b": "translocation π × (0.5)2 ×",
+        "c": "translocation 2π × (0.5) ×",
+        "d": "translocation 2π × (0.5) ×",
+        "e": "transpiration π × (0.5)2 ×",
+        "f": "transpiration π × (0.5)2 ×",
+        "g": "transpiration 2π × (0.5) ×",
+        "h": "transpiration 2π × (0.5) ×"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -856,7 +909,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 54 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -871,7 +924,7 @@
         "e": "4.0 ×103 cell wall",
         "f": "4.0 ×103 nucleus",
         "g": "2.0 ×104 cell wall",
-        "h": "2.0 ×104 nucleus 55 PART D Biology"
+        "h": "2.0 ×104 nucleus"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -886,7 +939,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 56 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -901,7 +954,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 57 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -916,28 +969,34 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 58 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "A scientist was investigating the effect of substrate concentration on lipase enzyme activity Two test tubes were set up: • one containing a sample of full-fat milk mixed with an alkaline solution, and a pH indicator • one containing lipase The pH indicator turned the alkaline milk sample pink. Both tubes were incubated in a water bath set to an optimum temperature for lipase until the contents had reached this temperature. The scientist then added the lipase to the tube with the milk sample and measured the time taken for the indicator to turn colourless. This colour change was caused by an increase in concentration of one of the products of the reaction. Further samples of the milk were diluted, and added to the same quantity of alkaline solution and pH indicator, to produce another six different substrate concentrations, and the experiment was repeated. All other variables were kept constant. The scientist found that each substrate concentration caused the pH indicator to change to colourless in a different length of time. The results of the reaction in all seven tubes were plotted on a graph. Which option correctly identifies the shape of the graph of the results, the limiting factor during the experiment and an explanation for the change in colour of the pH indicator? substrate concentration the limiting factor the limiting factor the limiting factor is the limiting factor is is substrate is substrate temperature temperature concentration concentration the the the the the the the the indicator indicator indicator indicator indicator indicator indicator indicator changes changes changes changes changes changes changes changes due to an due to a due to an due to a due to an due to a due to an due to a increase decrease increase decrease increase decrease increase decrease in pH in pH in pH in pH in pH in pH in pH in pH",
+      "question": "A scientist was investigating the effect of substrate concentration on lipase enzyme activity Two test tubes were set up: • one containing a sample of full-fat milk mixed with an alkaline solution, and a pH indicator • one containing lipase The pH indicator turned the alkaline milk sample pink. Both tubes were incubated in a water bath set to an optimum temperature for lipase until the contents had reached this temperature. The scientist then added the lipase to the tube with the milk sample and measured the time taken for the indicator to turn colourless. This colour change was caused by an increase in concentration of one of the products of the reaction. Further samples of the milk were diluted, and added to the same quantity of alkaline solution and pH indicator, to produce another six different substrate concentrations, and the experiment was repeated. All other variables were kept constant. The scientist found that each substrate concentration caused the pH indicator to change to colourless in a different length of time. The results of the reaction in all seven tubes were plotted on a graph. Which option correctly identifies the shape of the graph of the results, the limiting factor during the experiment and an explanation for the change in colour of the pH indicator? substrate concentration the limiting factor the limiting factor the limiting factor is the limiting factor is is substrate is substrate temperature temperature concentration concentration the the the the the the the the indicator indicator indicator indicator indicator indicator indicator indicator changes changes changes changes changes changes changes changes due to an due to a due to an due to a due to an due to a due to an due to a increase decrease increase decrease increase decrease increase decrease in pH in pH in pH in pH in pH in pH in pH in pH 59 rotacidni Hp rof nekat emit s / sselruoloc ot egnahc ot substrate concentration rotacidni Hp rof nekat emit s / sselruoloc ot egnahc ot",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "Option A (diagram/text unavailable in PDF text extraction).",
+        "b": "Option B (diagram/text unavailable in PDF text extraction).",
+        "c": "Option C (diagram/text unavailable in PDF text extraction).",
+        "d": "Option D (diagram/text unavailable in PDF text extraction).",
+        "e": "Option E (diagram/text unavailable in PDF text extraction).",
+        "f": "Option F (diagram/text unavailable in PDF text extraction).",
+        "g": "Option G (diagram/text unavailable in PDF text extraction).",
+        "h": "Option H (diagram/text unavailable in PDF text extraction)."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
     },
     {
-      "question": "Even when sufficient oxygen is available, yeast will respire anaerobically using glucose as a substrate. However, if its source of glucose runs out and oxygen is available, yeast can switch to using ethanol as a substrate, which it uses to respire aerobically.",
+      "question": "Even when sufficient oxygen is available, yeast will respire anaerobically using glucose as a substrate. However, if its source of glucose runs out and oxygen is available, yeast can switch to using ethanol as a substrate, which it uses to respire aerobically. The contents of the flask were monitored over 32 hours and the results are shown in the graph. Key glucose ethanol yeast 40 4 concentration of concentration of yeast glucose or ethanol /arbitrary units /gdm–3 30 3 20 2 10 1 0 0 0 5 10 15 20 25 30 35 time/hours Which of the following statements are correct? 1 Carbon dioxide would be produced in the flask at all times throughout the observation period, regardless of whether the yeast was respiring aerobically or anaerobically. 2 The yeast was respiring using ethanol as the only substrate for 22 hours. 3 The yeast started respiring anaerobically from the start of the observation period. 4 The yeast used an average of 4g glucose per hour for the first 10 hours.",
       "answers": {
         "a": "1, 2 and 3 only",
         "b": "1, 2 and 4 only",
         "c": "1, 3 and 4 only",
         "d": "2, 3 and 4 only",
-        "e": "1, 2, 3 and 4 60 PART D Biology"
+        "e": "1, 2, 3 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -952,7 +1011,7 @@
         "e": "3, 5 and 6 only",
         "f": "1, 2, 3 and 4 only",
         "g": "3, 4, 5 and 6 only",
-        "h": "1, 2, 3, 4, 5, 6 and 7 61 PART D Biology"
+        "h": "1, 2, 3, 4, 5, 6 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -967,7 +1026,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 62 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -982,7 +1041,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 63 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -997,13 +1056,13 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 64 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
     },
     {
-      "question": "The sugar present in DNA contains 5 carbons.",
+      "question": "The sugar present in DNA contains 5 carbons. Which of the following statements about this strand could be correct? 1 There are 75 carbons in the sugar–phosphate backbone in this section. 2 The minimum number of different bases present in the base sequence is 2. 3 The number of sugar-to-phosphate bonds is equal to the number of nucleotides.",
       "answers": {
         "a": "none of them",
         "b": "1 only",
@@ -1012,7 +1071,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 65 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -1027,7 +1086,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"

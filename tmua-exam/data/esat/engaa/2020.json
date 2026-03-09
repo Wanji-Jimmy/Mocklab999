@@ -26,16 +26,20 @@
         "d": "1500J",
         "e": "1660J",
         "f": "1840J",
-        "g": "2500J 4"
+        "g": "2500J"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
     },
     {
-      "question": "A fair spinner has eight equal sections. Each section has one number written on it, as shown. 3 1 1 3 3 2 1 3 The spinner is spun twice, and the two numbers scored are added. What is the probability that the sum of the two numbers is 5? 1 A 8 5 B 8 1 C 16 3 D 16 25 E 64 55 F 64 5 ( )",
+      "question": "A fair spinner has eight equal sections. Each section has one number written on it, as shown. 3 1 1 3 3 2 1 3 The spinner is spun twice, and the two numbers scored are added. What is the probability that the sum of the two numbers is 5? 1",
       "answers": {
         "a": "Option unavailable",
-        "b": "Option unavailable"
+        "b": "Option unavailable",
+        "c": "Option unavailable",
+        "d": "Option unavailable",
+        "e": "Option unavailable",
+        "f": "Option unavailable ( )"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -56,18 +60,18 @@
     {
       "question": "Consider the four lines with the following equations. 1 2x + 6y = 3 2 9y = 3x – 4 3 2y = 6x + 3 4 4x + 6y – 9 = 0 Which two lines are perpendicular?",
       "answers": {
-        "a": "1 and 2",
-        "b": "1 and 3",
-        "c": "1 and 4",
-        "d": "2 and 3",
-        "e": "2 and 4",
-        "f": "3 and 4"
+        "a": "1 and",
+        "b": "1 and",
+        "c": "1 and",
+        "d": "2 and",
+        "e": "2 and",
+        "f": "3 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
     },
     {
-      "question": "6 6 A dc electricity transmission system uses an undersea cable to send electricity from one country to another. On a particular day, the first country supplies electricity at a voltage of 400kV and 2000A to the transmission system. The second country receives electricity from the transmission system at 160kV and 4000A. What is the percentage efficiency of the system and how much energy is wasted every minute? energy wasted efficiency % every minute /J",
+      "question": "A dc electricity transmission system uses an undersea cable to send electricity from one country to another. On a particular day, the first country supplies electricity at a voltage of 400kV and 2000A to the transmission system. The second country receives electricity from the transmission system at 160kV and 4000A. What is the percentage efficiency of the system and how much energy is wasted every minute? energy wasted efficiency % every minute /J",
       "answers": {
         "a": "20 9.6 ×109",
         "b": "20 3.84 ×1010",
@@ -82,7 +86,9 @@
     {
       "question": "Find the sum of the solutions of ⎛ x ⎞ 2 ⎛ x ⎞ 2⎜ +3⎟ − ⎜ +3⎟ −36 = 0 ⎝4 ⎠ ⎝4 ⎠",
       "answers": {
-        "a": "2 3 B 2 1 C 2",
+        "a": "2 3",
+        "b": "Option unavailable",
+        "c": "Option unavailable",
         "d": "–4",
         "e": "–13",
         "f": "–22",
@@ -93,7 +99,7 @@
       "answer": "f"
     },
     {
-      "question": "Two fixed horizontal metal rails are side by side and 12cm apart. The rails are connected to a dc power supply by a switch that is initially open.",
+      "question": "Two fixed horizontal metal rails are side by side and 12cm apart. The rails are connected to a dc power supply by a switch that is initially open. The diagram shows the arrangement seen from above. The angle between the rod and the rails is 90°. moveable rod + 12cm 20cm – fixed rails The whole arrangement is placed in a uniform magnetic field of magnitude 0.50T that is directed perpendicularly into the page. The moveable rod has a weight of 0.40N. The switch is now closed. As a result, there is a current of 2.4A in the circuit and the rod moves. What is the initial magnitude of the acceleration of the rod and what is its direction? (gravitational field strength = 10Nkg–1) acceleration /ms–2 direction",
       "answers": {
         "a": "0.36 to the left",
         "b": "0.36 to the right",
@@ -102,7 +108,7 @@
         "e": "3.6 to the left",
         "f": "3.6 to the right",
         "g": "6.0 to the left",
-        "h": "6.0 to the right 8"
+        "h": "6.0 to the right"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -129,7 +135,7 @@
         "e": "35J",
         "f": "40J",
         "g": "45J",
-        "h": "65J 9"
+        "h": "65J"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -138,7 +144,8 @@
       "question": "The number of pairs of winter boots sold on a day is inversely proportional to the cube of the outside temperature on that day, measured in °C. On a day when the outside temperature is 8°C, 250 pairs of boots are sold. The next day, when the outside temperature is x°C, the number of pairs of boots sold is 700% more than on the previous day. What is the value of x?",
       "answers": {
         "a": "2",
-        "b": "4 8 C 3 7",
+        "b": "4 8",
+        "c": "Option unavailable 3 7",
         "d": "83 7",
         "e": "16 10"
       },
@@ -154,13 +161,13 @@
         "d": "960N",
         "e": "1600N",
         "f": "3200N",
-        "g": "4800N 11"
+        "g": "4800N"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
     },
     {
-      "question": "In a sale, all prices are reduced by 25%.",
+      "question": "In a sale, all prices are reduced by 25%. price by 25%. The customer’s calculated pre-sale price is incorrect by £15. What is the correct pre-sale price of the bicycle?",
       "answers": {
         "a": "£180",
         "b": "£195",
@@ -184,12 +191,16 @@
       "answer": "c"
     },
     {
-      "question": "Q y z 61° P x S R [diagram not to scale] In the diagram, QS is perpendicular to PR. PS = xcm PQ = ycm QR = zcm angle QRS = 61° PSR is a straight line. Which one of the following is an expression for the length z, in cm?",
+      "question": "Q y z 61° P x S R In the diagram, QS is perpendicular to PR. PS = xcm PQ = ycm QR = zcm angle QRS = 61° PSR is a straight line. Which one of the following is an expression for the length z, in cm?",
       "answers": {
         "a": "y2 + x2 sin61°",
         "b": "y2 − x2 sin61°",
         "c": "y2 + x2 cos61°",
-        "d": "y2 − x2 cos61° y2 + x2 E sin61° y2 − x2 F sin61° y2 + x2 G cos61° y2 − x2 H cos61° 13"
+        "d": "y2 − x2 cos61° y2 + x2",
+        "e": "Option unavailable sin61° y2 − x2",
+        "f": "Option unavailable sin61° y2 + x2",
+        "g": "Option unavailable cos61° y2 − x2",
+        "h": "Option unavailable cos61°"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -210,13 +221,13 @@
       "question": "Two vertices of a square are at (1,1) and (3,5). What is the difference between the perimeters of the largest and smallest possible squares that can be drawn with these points as two of their vertices?",
       "answers": {
         "a": "0 ( )",
-        "b": "4 3 2− 2 ( )",
+        "b": "4 3 2− ( )",
         "c": "4 3 2 −1 ( )",
-        "d": "4 5 2− 2 ( )",
+        "d": "4 5 2− ( )",
         "e": "4 5 2 −1 ( )",
-        "f": "4 13 2− 2 ( )",
+        "f": "4 13 2− ( )",
         "g": "4 13 2 −1 ( )",
-        "h": "4 3 5 2− 2 14"
+        "h": "4 3 5 2−"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -258,7 +269,7 @@
         "d": "It is not changing.",
         "e": "It is decreasing at an increasing rate.",
         "f": "It is decreasing at a constant rate.",
-        "g": "It is decreasing at a decreasing rate. 16 PART B Advanced Mathematics and Advanced Physics NOTE: questions in this part that are not covered by the ESAT content specification are indicated by a cross through the question number. 17"
+        "g": "It is decreasing at a decreasing rate. NOTE: questions in this part that are not covered by the ESAT content specification are indicated by a cross through the question number."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -269,9 +280,9 @@
       "question": "(x – 1) and (x – 2) are both factors of x4 + ax3 + bx2 – 12x + 4 What are the values of a and b?",
       "answers": {
         "a": "a = –6 and b = –23",
-        "b": "a = –6 and b = 13",
+        "b": "a = –6 and b =",
         "c": "a = 6 and b = –11",
-        "d": "a = 6 and b = 1"
+        "d": "a = 6 and b ="
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -292,11 +303,14 @@
       "answer": "b"
     },
     {
-      "question": "What is the area of the region enclosed between the curve y = 1x2, the line y = –x, and the 2 lines x = 1 and x = 3? 1 A 3",
+      "question": "What is the area of the region enclosed between the curve y = 1x2, the line y = –x, and the 2 lines x = 1 and x = 3? 1",
       "answers": {
+        "a": "Option unavailable",
         "b": "2",
         "c": "4",
-        "d": "6 25 E 3 28 F 3 19"
+        "d": "6 25",
+        "e": "Option unavailable",
+        "f": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -320,8 +334,9 @@
       "question": "A line with non-zero gradient m is reflected in the line y = x What is the gradient of the reflected line?",
       "answers": {
         "a": "m",
-        "b": "–m 1 C m 1",
-        "d": "– m 21"
+        "b": "–m",
+        "c": "Option unavailable m",
+        "d": "– m"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -336,7 +351,7 @@
         "e": "m 9 6",
         "f": "m 5 9",
         "g": "m 2",
-        "h": "6m 22"
+        "h": "6m"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
@@ -347,7 +362,8 @@
         "a": "–750",
         "b": "–350",
         "c": "–50 159",
-        "d": "– 8 159 E 8",
+        "d": "– 8 159",
+        "e": "Option unavailable",
         "f": "50",
         "g": "350",
         "h": "750 23"
@@ -356,7 +372,7 @@
       "answer": "a"
     },
     {
-      "question": "A flat rectangular coil of wire with sides of length 30cm and 20cm is freely pivoted about an axle. The axle passes through the middle of the sides of length 30cm. Part of the coil is between the poles of a U-shaped magnet as shown in the diagram. The poles are 4.0cm long. The magnetic field can be considered uniform between the poles, and zero elsewhere. The coil is connected to a power supply so that there is a current in it. flat coil of wire to circuit axle 20cm 4cm N S 30cm [diagram not to scale] The current is 0.60A and the magnetic flux density is 0.050T. There are 50 turns of wire in the coil. What is the moment about the axle, in Ncm, produced by the magnetic force acting on the coil?",
+      "question": "A flat rectangular coil of wire with sides of length 30cm and 20cm is freely pivoted about an axle. The axle passes through the middle of the sides of length 30cm. Part of the coil is between the poles of a U-shaped magnet as shown in the diagram. The poles are 4.0cm long. The magnetic field can be considered uniform between the poles, and zero elsewhere. The coil is connected to a power supply so that there is a current in it. flat coil of wire to circuit axle 20cm 4cm N S 30cm The current is 0.60A and the magnetic flux density is 0.050T. There are 50 turns of wire in the coil. What is the moment about the axle, in Ncm, produced by the magnetic force acting on the coil?",
       "answers": {
         "a": "0.018Ncm",
         "b": "0.036Ncm",
@@ -364,7 +380,7 @@
         "d": "0.90Ncm",
         "e": "1.8Ncm",
         "f": "2.25Ncm",
-        "g": "4.5 N cm 24"
+        "g": "4.5 N cm"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -390,7 +406,7 @@
         "d": "28N",
         "e": "29N",
         "f": "42N",
-        "g": "90N 26"
+        "g": "90N"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -419,7 +435,7 @@
         "e": "500W",
         "f": "1000W",
         "g": "1.44 ×107W",
-        "h": "5.76 ×107W 28"
+        "h": "5.76 ×107W"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -446,7 +462,7 @@
         "b": "4.80cm",
         "c": "9.60cm",
         "d": "14.4cm",
-        "e": "19.2cm 29"
+        "e": "19.2cm"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -465,7 +481,7 @@
       "answer": "e"
     },
     {
-      "question": "The diagram shows the relative positions of two identical light springs, both in equilibrium. The springs are supporting loads of mass 0.20kg and 1.0kg as shown. 4.0cm 0.20kg 1.0kg [diagram not to scale] The same two springs are now connected in parallel, supporting a 2.0kg mass as shown. 2.0kg [diagram not to scale] In this parallel arrangement, what is the total strain energy in the springs? (gravitational field strength = 10Nkg–1; assume that the springs obey Hooke’s law)",
+      "question": "The diagram shows the relative positions of two identical light springs, both in equilibrium. The springs are supporting loads of mass 0.20kg and 1.0kg as shown. 4.0cm 0.20kg 1.0kg The same two springs are now connected in parallel, supporting a 2.0kg mass as shown. 2.0kg In this parallel arrangement, what is the total strain energy in the springs? (gravitational field strength = 10Nkg–1; assume that the springs obey Hooke’s law)",
       "answers": {
         "a": "0.25J",
         "b": "0.40J",
@@ -474,7 +490,7 @@
         "e": "25J",
         "f": "40J",
         "g": "50J",
-        "h": "100J 31"
+        "h": "100J"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -482,10 +498,12 @@
     {
       "question": "Find the product of the real roots of the equation ( log x2 )2 +log x = 3 10 10 −3",
       "answers": {
-        "a": "10 2 B 10−1 −1",
+        "a": "10 2",
+        "b": "Option unavailable 10−1 −1",
         "c": "10 2 −1",
         "d": "10 4 3",
-        "e": "105 F 101 32"
+        "e": "105",
+        "f": "Option unavailable 101 32"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -499,7 +517,7 @@
         "d": "1.6J",
         "e": "2.0J",
         "f": "3.2J",
-        "g": "6.4J 33"
+        "g": "6.4J"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -508,7 +526,8 @@
       "question": "Find the maximum value of the gradient of the curve with equation 3 y = 2 – 4x + 4x2 – x2 where x > 0",
       "answers": {
         "a": "–4 8",
-        "b": "– 9 1 C 2",
+        "b": "– 9 1",
+        "c": "Option unavailable",
         "d": "2",
         "e": "4 34"
       },
@@ -516,7 +535,7 @@
       "answer": "c"
     },
     {
-      "question": "In the following circuit, the ammeter records a current of zero. 100Ω 1200Ω 6.0V 16V 200Ω R A What is the resistance of resistor R?",
+      "question": "In the following circuit, the ammeter records a current of zero. 100Ω 1200Ω 6.0V 16V 200Ω R",
       "answers": {
         "a": "0Ω",
         "b": "200Ω",
@@ -525,7 +544,7 @@
         "e": "600Ω",
         "f": "1200Ω",
         "g": "1800Ω",
-        "h": "2400Ω END OF TEST 35 36"
+        "h": "2400Ω END OF TEST"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"

@@ -23,33 +23,39 @@
         "a": "10",
         "b": "6 + 2 2",
         "c": "5",
-        "d": "3 + 2 5 E 2"
+        "d": "3 +",
+        "e": "Option unavailable 3 1",
+        "f": "+ 2 2 2 6"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
     },
     {
-      "question": "1",
+      "question": "The line joining the points with coordinates (p, p – 1) and (1 – p,2p) is parallel to the line with equation 2x + 3y + 1 = 0 What is the value of p?",
       "answers": {
-        "f": "+ 2 2 2 6 PART A Mathematics 3 The line joining the points with coordinates (p, p – 1) and (1 – p,2p) is parallel to the line with equation 2x + 3y + 1 = 0 What is the value of p?",
         "a": "–1 1",
-        "b": "− 7 1 C 9 1 D 8",
-        "e": "1 5 F"
+        "b": "− 7 1",
+        "c": "Option unavailable",
+        "d": "Option unavailable",
+        "e": "1 5",
+        "f": "Option unavailable",
+        "g": "2",
+        "h": "5 7"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
     },
     {
-      "question": "4",
+      "question": "A rectangle PQRS is drawn inside a circle, with its vertices on the circumference of the circle. P Q S R The ratio of the length of PQ to the length of QR is 2:1 The area of the rectangle PQRS is 96cm2. What is the radius, in cm, of the circle?",
       "answers": {
-        "g": "12 2",
-        "h": "8 15 8 PART A Mathematics",
         "a": "6",
         "b": "3",
         "c": "3 2",
         "d": "2 15",
         "e": "4 6",
-        "f": "12"
+        "f": "12",
+        "g": "12 2",
+        "h": "8 15 8"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -62,27 +68,28 @@
         "c": "30",
         "d": "32",
         "e": "1148",
-        "f": "56.25 9 PART A Mathematics"
+        "f": "56.25 9"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
     },
     {
-      "question": "6 320cm3 [diagram not to scale] At a cinema, drinks are sold in regular and large sizes. The cups for these are mathematically similar. The ratio of the heights of the cups and the ratio of the depths of the drinks are both 4:5 The volume of drink in a regular size cup is 320cm3. What is the volume, in cm3, of drink in a large size cup?",
+      "question": "320cm3 At a cinema, drinks are sold in regular and large sizes. The cups for these are mathematically similar. The ratio of the heights of the cups and the ratio of the depths of the drinks are both 4:5 The volume of drink in a regular size cup is 320cm3. What is the volume, in cm3, of drink in a large size cup?",
       "answers": {
         "a": "384",
         "b": "400",
         "c": "500",
         "d": "576",
         "e": "625",
-        "f": "640 10 PART A Mathematics"
+        "f": "640 10"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "The mean of n numbers is p The mean of two of these numbers is q The mean of the remaining numbers is 10 Which of the following is a correct expression for n in terms of p and q? 2 ( q−10 ) A (p−10) 2 ( q−10 )",
+      "question": "The mean of n numbers is p The mean of two of these numbers is q The mean of the remaining numbers is 10 Which of the following is a correct expression for n in terms of p and q? 2 ( q−10 )",
       "answers": {
+        "a": "Option unavailable (p−10) 2 ( q−10 )",
         "b": "( 10− p ) 2 ( q−10 )",
         "c": "( p+10 ) 2 ( 10−q )",
         "d": "( p+10 ) 2 ( 10+q )",
@@ -100,40 +107,46 @@
         "c": "99",
         "d": "129",
         "e": "198",
-        "f": "258 11 PART A Mathematics"
+        "f": "258 11"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
     },
     {
-      "question": "A scale model of a cylindrical pillar is to be made. The full-sized pillar has a volume of 12πm3. The model will use a length scale of 1:40 4 The model is to be a solid cylinder made of a plastic which has a density of gcm–3. 3 What is the mass of the model in grams? 9 π A 640 1 π B 40",
+      "question": "A scale model of a cylindrical pillar is to be made. The full-sized pillar has a volume of 12πm3. The model will use a length scale of 1:40 4 The model is to be a solid cylinder made of a plastic which has a density of gcm–3. 3 What is the mass of the model in grams? 9 π",
       "answers": {
-        "c": "40π 1125 π D 8",
+        "a": "Option unavailable 640 1 π",
+        "b": "Option unavailable",
+        "c": "40π 1125 π",
+        "d": "Option unavailable",
         "e": "250π",
         "f": "10000π",
         "g": "225000π",
-        "h": "400000π 12 PART A Mathematics"
+        "h": "400000π"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "P T Q U S R [diagram not to scale] PQRST is a regular pentagon. RSU is an equilateral triangle. What is the size of angle STU?",
+      "question": "P T Q U S R PQRST is a regular pentagon. RSU is an equilateral triangle. What is the size of angle STU?",
       "answers": {
         "a": "48°",
         "b": "54°",
         "c": "60°",
         "d": "66°",
-        "e": "84° 13 PART A Mathematics"
+        "e": "84°"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
     },
     {
-      "question": "The original price of an item is p The price is increased by 125% The increased price is then decreased by 40% to q The relationship between p and q can be expressed as mp = q What is the value of m? 7 A 20 17 B 20 27 C 20 33 D 20 37 E 20",
+      "question": "The original price of an item is p The price is increased by 125% The increased price is then decreased by 40% to q The relationship between p and q can be expressed as mp = q What is the value of m? 7",
       "answers": {
         "a": "Option unavailable",
-        "b": "Option unavailable"
+        "b": "Option unavailable",
+        "c": "Option unavailable",
+        "d": "Option unavailable",
+        "e": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -148,7 +161,7 @@
         "e": "–0.2",
         "f": "–1",
         "g": "–2",
-        "h": "–7 14 PART A Mathematics"
+        "h": "–7 14"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -168,16 +181,19 @@
       "answer": "e"
     },
     {
-      "question": "With school lunch, students can select tomato sauce, or mayonnaise, or both, or neither. n students selected both. 3n + 1 students selected tomato sauce. 3n – 1 students selected only mayonnaise. There were 7n + 5 students in the group. 1 The probability of a student, chosen at random, selecting only mayonnaise is 3 By finding n, what is the probability of a student, chosen at random, selecting only tomato sauce? 3 A 11 7 B 26 13 C 33 3 D 8 7 E 13",
+      "question": "With school lunch, students can select tomato sauce, or mayonnaise, or both, or neither. n students selected both. 3n + 1 students selected tomato sauce. 3n – 1 students selected only mayonnaise. There were 7n + 5 students in the group. 1 The probability of a student, chosen at random, selecting only mayonnaise is 3 By finding n, what is the probability of a student, chosen at random, selecting only tomato sauce? 3",
       "answers": {
         "a": "Option unavailable",
-        "b": "Option unavailable"
+        "b": "Option unavailable",
+        "c": "Option unavailable",
+        "d": "Option unavailable",
+        "e": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
     },
     {
-      "question": "15 PART A Mathematics 15 R Q S O 75° P T [diagram not to scale] The line segment RT is a tangent at the point S to a circle with centre O Q and P are points on the circumference of the circle such that QS = QP Angle PST = 75° What is the size of angle QSO?",
+      "question": "R Q S O 75° P T The line segment RT is a tangent at the point S to a circle with centre O Q and P are points on the circumference of the circle such that QS = QP Angle PST = 75° What is the size of angle QSO?",
       "answers": {
         "a": "15°",
         "b": "30°",
@@ -192,34 +208,42 @@
       "answer": "c"
     },
     {
-      "question": "16 PART A Mathematics 16 s cm h cm b cm [diagram not to scale] The vertical height hcm of an isosceles triangle is 3cm longer than the base length of bcm. The sloping side is of length scm. The area of the triangle is 14cm2. There is one value of s which satisfies these conditions. Within which range does this value of s lie?",
+      "question": "16 s cm h cm b cm The vertical height hcm of an isosceles triangle is 3cm longer than the base length of bcm. The sloping side is of length scm. The area of the triangle is 14cm2. There is one value of s which satisfies these conditions. Within which range does this value of s lie?",
       "answers": {
-        "a": "5 < s < 6",
-        "b": "6 < s < 7",
-        "c": "7 < s < 8",
-        "d": "8 < s < 9",
-        "e": "9 < s < 10",
-        "f": "10 < s < 11"
+        "a": "5 < s <",
+        "b": "6 < s <",
+        "c": "7 < s <",
+        "d": "8 < s <",
+        "e": "9 < s <",
+        "f": "10 < s <"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
     },
     {
-      "question": "17 PART A Mathematics 17 The first five terms of a sequence in order are: 2 17 42 77 122 The nth term of this sequence is pn2 + q where p and q are integers. p−q What is the value of ? p+q 1 A 4 1 B 2",
+      "question": "The first five terms of a sequence in order are: 2 17 42 77 122 The nth term of this sequence is pn2 + q where p and q are integers. p−q What is the value of ? p+q 1",
       "answers": {
-        "c": "1 23 D 17 13 E 7",
+        "a": "Option unavailable",
+        "b": "Option unavailable",
+        "c": "1 23",
+        "d": "Option unavailable",
+        "e": "Option unavailable",
         "f": "2",
         "g": "4",
-        "h": "14"
+        "h": "14 18"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
     },
     {
-      "question": "18 PART A Mathematics 18 A bag contains 6 red and 6 green sweets. The sweets are identical apart from their colour.",
+      "question": "A bag contains 6 red and 6 green sweets. The sweets are identical apart from their colour. If the sweet is red, the child stops taking sweets. If the sweet is green, it is not replaced and the child takes another sweet. This continues until a red sweet is taken at which point the child stops taking sweets. What is the probability that the child takes more green sweets than red sweets? 3",
       "answers": {
         "a": "Option unavailable",
-        "b": "Option unavailable"
+        "b": "Option unavailable",
+        "c": "Option unavailable",
+        "d": "Option unavailable",
+        "e": "Option unavailable",
+        "f": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -227,25 +251,7 @@
   ],
   "partBPhysics": [
     {
-      "question": "19 BLANK PAGE",
-      "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
-      },
-      "explanation": "Explanation pending (official PDF import).",
-      "answer": "b"
-    },
-    {
-      "question": "20 PART B Physics PART B Physics",
-      "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
-      },
-      "explanation": "Explanation pending (official PDF import).",
-      "answer": "b"
-    },
-    {
-      "question": "21 PART B Physics 19 An unstable nucleus X becomes a stable nucleus Y after a succession of decays, during which a total of 5 alpha particles and 2 beta (β–) particles are emitted. How many fewer protons does nucleus Y contain than nucleus X?",
+      "question": "An unstable nucleus X becomes a stable nucleus Y after a succession of decays, during which a total of 5 alpha particles and 2 beta (β–) particles are emitted. How many fewer protons does nucleus Y contain than nucleus X?",
       "answers": {
         "a": "6",
         "b": "8",
@@ -254,13 +260,13 @@
         "e": "14",
         "f": "16",
         "g": "18",
-        "h": "20"
+        "h": "20 22"
       },
       "explanation": "Explanation pending (official PDF import).",
-      "answer": "g"
+      "answer": "b"
     },
     {
-      "question": "22 PART B Physics 20 The diagram shows three resistors R , R and R connected in series with a battery of constant 1 2 3 voltage. The resistance of each resistor and the corresponding current are also shown. 0.20A A R 12Ω 1 R 15Ω 2 R 3.0Ω 3 Resistor R is now removed and the circuit is reconnected. 3 What is the new current in the circuit?",
+      "question": "The diagram shows three resistors R , R and R connected in series with a battery of constant 1 2 3 voltage. The resistance of each resistor and the corresponding current are also shown. 0.20A R 12Ω 1 R 15Ω 2 R 3.0Ω 3 Resistor R is now removed and the circuit is reconnected. 3 What is the new current in the circuit?",
       "answers": {
         "a": "0.20A",
         "b": "0.22A",
@@ -271,10 +277,10 @@
         "g": "6.0A"
       },
       "explanation": "Explanation pending (official PDF import).",
-      "answer": "e"
+      "answer": "b"
     },
     {
-      "question": "23 PART B Physics 21 When travelling in a vacuum, visible light has a wavelength between 400nm and 700nm. The speed of light in a vacuum is 3.0 ×108ms–1. What can be concluded about ultraviolet radiation from this information?",
+      "question": "When travelling in a vacuum, visible light has a wavelength between 400nm and 700nm. The speed of light in a vacuum is 3.0 ×108ms–1. What can be concluded about ultraviolet radiation from this information?",
       "answers": {
         "a": "It has a maximum frequency of 2.7 ×1014Hz",
         "b": "It has a maximum frequency of 4.3 ×1014Hz",
@@ -286,19 +292,37 @@
         "h": "It has a minimum frequency of 1.0 ×1015Hz"
       },
       "explanation": "Explanation pending (official PDF import).",
+      "answer": "g"
+    },
+    {
+      "question": "The graph is the speed–time graph for a bus travelling in a straight line between two stops. 14 12 10 8 6 4 2 0 0 10 20 30 40 50 60 70 80 90 100 110 120 time /s 25 1–sm/ deeps What is the average speed of the bus during this time?",
+      "answers": {
+        "a": "3.0ms–1",
+        "b": "4.5ms–1",
+        "c": "6.0ms–1",
+        "d": "8.0ms–1",
+        "e": "9.0ms–1",
+        "f": "11ms–1",
+        "g": "12ms–1"
+      },
+      "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "24 PART B Physics 22 The graph is the speed–time graph for a bus travelling in a straight line between two stops. 14 12 10 8 6 4 2 0 0 10 20 30 40 50 60 70 80 90 100 110 120 time /s",
+      "question": "A filament lamp working at its operating voltage converts electrical energy at a rate of 100W. The lamp has an efficiency of 5.0%. How much energy is wasted by the lamp in 10 minutes?",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "50J",
+        "b": "950J",
+        "c": "1000J",
+        "d": "3000J",
+        "e": "57000J",
+        "f": "60000J"
       },
       "explanation": "Explanation pending (official PDF import).",
-      "answer": "c"
+      "answer": "e"
     },
     {
-      "question": "25 1–sm/ deeps What is the average speed of the bus during this time?",
+      "question": "A student is investigating heat flow along a solid uniform metal bar. The bar has length l, cross-sectional area A, and has its ends maintained at temperatures T and T (where T > T ). 1 2 1 2 Which relationship represents the rate of heat flow P along the bar? (Assume that there is no heat transfer through the sides of the bar.) (T − T )",
       "answers": {
         "a": "P ∝ 1 2 Al (T + T )",
         "b": "P ∝ 1 2 Al A(T − T )",
@@ -307,13 +331,25 @@
         "e": "P ∝ A(T − T ) 1 2 l",
         "f": "P ∝ A(T + T ) 1 2 Al",
         "g": "P ∝ (T − T ) 1 2 Al",
-        "h": "P ∝ (T + T ) 1 2"
+        "h": "P ∝ (T + T ) 1 2 26"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
     },
     {
-      "question": "26 PART B Physics 25 The potential difference across the motor in an electric car is 400V and the current in the motor is 1250A. The car accelerates along a horizontal road from rest for 4.0s. The efficiency of the overall system is 45%. What is the kinetic energy of the car at the end of the 4.0s? (Ignore energy losses due to air resistance and due to friction between the tyres and the road.)",
+      "question": "The potential difference across the motor in an electric car is 400V and the current in the motor is 1250A. The car accelerates along a horizontal road from rest for 4.0s. The efficiency of the overall system is 45%. What is the kinetic energy of the car at the end of the 4.0s? (Ignore energy losses due to air resistance and due to friction between the tyres and the road.)",
+      "answers": {
+        "a": "225000J",
+        "b": "500000J",
+        "c": "900000J",
+        "d": "1250000J",
+        "e": "2000000J"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "The momentum of a small object moving in a straight line is 24kgms–1 and its kinetic energy is 96J. What is the mass of the object?",
       "answers": {
         "a": "3.0kg",
         "b": "4.0kg",
@@ -325,16 +361,22 @@
       "answer": "a"
     },
     {
-      "question": "27 PART B Physics 27 A radioactive isotope decays in a single step to a stable isotope.",
+      "question": "A radioactive isotope decays in a single step to a stable isotope. The count rate on the detector changes as time elapses. The graph shows how the measured count rate changes with time. 80 150 28 etunim rep stnuoc / etar tnuoc 120 100 60 40 20 0 0 50 100 200 250 300 350 400 time / minutes What is the background count rate and what is the half-life of the isotope? background count rate half-life of isotope / counts per minute / minutes",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "20 40",
+        "b": "20 50",
+        "c": "20 60",
+        "d": "20 65",
+        "e": "120 40",
+        "f": "120 50",
+        "g": "120 60",
+        "h": "120 65"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
     },
     {
-      "question": "28 etunim rep stnuoc / etar tnuoc 120 100 60 40 20 0 0 50 100 200 250 300 350 400 time / minutes What is the background count rate and what is the half-life of the isotope? background count rate half-life of isotope / counts per minute / minutes",
+      "question": "A rock falling vertically experiences an air resistance force of 12N at an instant when its acceleration is 2.0ms–2 downwards. What is the mass of the rock? (gravitational field strength = 10Nkg–1)",
       "answers": {
         "a": "1.0kg",
         "b": "1.2kg",
@@ -356,7 +398,7 @@
         "c": "8.0m",
         "d": "16m",
         "e": "32m",
-        "f": "48m 29 PART B Physics"
+        "f": "48m"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -368,20 +410,19 @@
         "b": "20g",
         "c": "90g",
         "d": "180g",
-        "e": "200g 30 PART B Physics"
+        "e": "200g"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
     },
     {
-      "question": "A skydiver of weight 1000N falls vertically. The distance–time graph for the skydiver is shown below. 500 400 300 200 100 0 0 1 2 3 4 5 6 7 8 9 10 11 12 time/s 31 m/ecnatsid The air resistance F (in N) acting on the skydiver travelling at velocity v (in ms–1) is given by the equation",
+      "question": "A skydiver of weight 1000N falls vertically. The distance–time graph for the skydiver is shown below. 500 400 300 200 100 0 0 1 2 3 4 5 6 7 8 9 10 11 12 time/s 31 m/ecnatsid The air resistance F (in N) acting on the skydiver travelling at velocity v (in ms–1) is given by the equation where k (in Nm–2s2) is a constant. What is the numerical value of k for the skydiver?",
       "answers": {
-        "f": "= kv2 where k (in Nm–2s2) is a constant. What is the numerical value of k for the skydiver?",
         "a": "0.050",
         "b": "0.40",
         "c": "0.63",
         "d": "2.5",
-        "e": "20 PART B Physics"
+        "e": "20"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -409,7 +450,7 @@
         "e": "3 55",
         "f": "3 56",
         "g": "3 57",
-        "h": "3 58 32 PART B Physics"
+        "h": "3 58 32"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
@@ -423,7 +464,7 @@
         "d": "4.5W",
         "e": "6.0W",
         "f": "8.0W",
-        "g": "12W 33 PART B Physics"
+        "g": "12W"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -436,7 +477,7 @@
         "c": "16W",
         "d": "28W",
         "e": "42W",
-        "f": "96W 34 PART B Physics"
+        "f": "96W"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -451,7 +492,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 35 BLANK PAGE 36 PART C Chemistry PART C Chemistry"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -459,7 +500,7 @@
   ],
   "partCChemistry": [
     {
-      "question": "37 PART C Chemistry 37 Which row in the following table gives the numbers of protons, neutrons and electrons in 64Cu2+ ? 29 number of protons number of neutrons number of electrons",
+      "question": "Which row in the following table gives the numbers of protons, neutrons and electrons in 64Cu2+ ? 29 number of protons number of neutrons number of electrons",
       "answers": {
         "a": "27 33 27",
         "b": "27 35 29",
@@ -472,13 +513,13 @@
       "answer": "c"
     },
     {
-      "question": "The following exothermic reaction reaches equilibrium at room temperature.",
+      "question": "The following exothermic reaction reaches equilibrium at room temperature. 2 5 3 3 2 5 2 Which of the following changes, when applied independently, will alter the position of the equilibrium? 1 increasing the temperature by 25°C 2 adding 20cm3 of water to the equilibrium mixture 3 adding a catalyst 4 adding an extra 0.5mol of ethanol (C H OH) 2 5",
       "answers": {
-        "c": "1, 2 and 4 only",
         "a": "1 only",
         "b": "1 and 3 only",
+        "c": "1, 2 and 4 only",
         "d": "2 and 4 only",
-        "e": "1, 2, 3 and 4 38 PART C Chemistry"
+        "e": "1, 2, 3 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -486,8 +527,8 @@
     {
       "question": "What is the overall process that takes place at the cathode (negative electrode) in the electrolysis of dilute aqueous sodium sulfate?",
       "answers": {
-        "a": "2H+ + 2e– → H 2",
-        "b": "2O2– → O + 4e– 2",
+        "a": "2H+ + 2e– → H",
+        "b": "2O2– → O + 4e–",
         "c": "4OH– → O + 2H O + 4e– 2 2",
         "d": "Na+ + e– → Na",
         "e": "SO 2– → SO + O + 2e– 4 2 2"
@@ -503,7 +544,7 @@
         "c": "2 13 10.2",
         "d": "2 13 10.8",
         "e": "3 2 10.2",
-        "f": "3 2 10.8 39 PART C Chemistry"
+        "f": "3 2 10.8 39"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -529,17 +570,17 @@
         "c": "7 orange solution forms no observable change",
         "d": "7 orange solution forms orange solution forms",
         "e": "12 orange solution forms no observable change",
-        "f": "12 no observable change orange solution forms 40 PART C Chemistry"
+        "f": "12 no observable change orange solution forms"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "The following equations show the main reactions that take place in a blast furnace during the extraction of iron and the removal of the impurities:",
+      "question": "The following equations show the main reactions that take place in a blast furnace during the extraction of iron and the removal of the impurities: 2 2 CO + C → 2CO 2 Fe O + 3CO → 2Fe + 3CO 2 3 2 CaCO → CaO + CO 3 2 CaO + SiO → CaSiO 2 3 Which row in the following table correctly identifies whether the underlined substance is oxidised, or reduced, or neither? CO CaCO CaO 2 3",
       "answers": {
-        "c": "oxidised reduced oxidised",
         "a": "oxidised reduced neither",
         "b": "oxidised neither neither",
+        "c": "oxidised reduced oxidised",
         "d": "oxidised neither oxidised",
         "e": "reduced reduced neither",
         "f": "reduced neither neither",
@@ -556,7 +597,7 @@
         "b": "Cation Z has more electrons than protons.",
         "c": "X, Y and Z are in the same group of the Periodic Table.",
         "d": "X, Y and Z have consecutive atomic numbers.",
-        "e": "X, Y and Z have the same mass number. 41 PART C Chemistry"
+        "e": "X, Y and Z have the same mass number."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -569,7 +610,7 @@
         "c": "600dm3",
         "d": "720dm3",
         "e": "840dm3",
-        "f": "960dm3 42 PART C Chemistry"
+        "f": "960dm3 42"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -584,26 +625,26 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
     },
     {
-      "question": "A student calculated the mass of anhydrous copper(II) sulfate (CuSO ) required to make 4 250cm3 of an aqueous solution of concentration 0.200moldm–3. However, the student mistakenly made the solution using the same mass of hydrated copper(II) sulfate (CuSO ·5H O) instead. 4 2 What is the concentration, in moldm–3, of the solution made with the hydrated copper(II) sulfate? (A values: Cu = 64; S = 32; O = 16; H = 1.0) r",
+      "question": "A student calculated the mass of anhydrous copper(II) sulfate (CuSO ) required to make 4 250cm3 of an aqueous solution of concentration 0.200moldm–3. However, the student mistakenly made the solution using the same mass of hydrated copper(II) sulfate (CuSO ·5H O) instead. 4 2 What is the concentration, in moldm–3, of the solution made with the hydrated copper(II) sulfate?",
       "answers": {
         "a": "0.128moldm–3",
         "b": "0.160moldm–3",
         "c": "0.180moldm–3",
         "d": "0.200moldm–3",
         "e": "0.223moldm–3",
-        "f": "0.313moldm–3 43 PART C Chemistry"
+        "f": "0.313moldm–3 43"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
     },
     {
-      "question": "Bromine is an element in Group 17 of the Periodic Table. Which of the following statements is/are correct about the element bromine? 1 Bromine will oxidise chloride ions in aqueous solution to form chlorine. 2 Bromine has a lower boiling point than chlorine. 3 Bromine reacts with calcium (Group 2) to form a compound containing 80% bromine by mass. (A values: Cl = 35.5; Ca = 40; Br = 80) r",
+      "question": "Bromine is an element in Group 17 of the Periodic Table. Which of the following statements is/are correct about the element bromine? 1 Bromine will oxidise chloride ions in aqueous solution to form chlorine. 2 Bromine has a lower boiling point than chlorine. 3 Bromine reacts with calcium (Group 2) to form a compound containing 80% bromine by mass.",
       "answers": {
         "a": "none of them",
         "b": "1 only",
@@ -612,7 +653,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 44 PART C Chemistry"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -624,20 +665,20 @@
         "b": "1 and 4 only",
         "c": "2 and 3 only",
         "d": "3 only",
-        "e": "4 only 45 PART C Chemistry"
+        "e": "4 only"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
     },
     {
-      "question": "Dilute hydrochloric acid and magnesium were mixed and the total volume of gas released was measured over time. volume 40 of gas /cm3 32 24 16 8 0 0 1 2 3 4 5 6 7 8 9 10 time/s What is the average rate of reaction, in gs–1, with respect to the magnesium over the first two seconds? (A value: Mg = 24. Assume that the volume of one mole of gas is 24dm3.) r",
+      "question": "Dilute hydrochloric acid and magnesium were mixed and the total volume of gas released was measured over time. volume 40 of gas /cm3 32 24 16 8 0 0 1 2 3 4 5 6 7 8 9 10 time/s What is the average rate of reaction, in gs–1, with respect to the magnesium over the first two seconds?",
       "answers": {
         "a": "0.012gs–1",
         "b": "0.024gs–1",
         "c": "0.048gs–1",
         "d": "12gs–1",
         "e": "24gs–1",
-        "f": "48gs–1 46 PART C Chemistry"
+        "f": "48gs–1 46"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -664,13 +705,13 @@
         "c": "0.1875g",
         "d": "0.3750g",
         "e": "0.6250g",
-        "f": "0.7500g 47 PART C Chemistry"
+        "f": "0.7500g"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
     },
     {
-      "question": "2.80g of lithium metal is placed in a closed system with 1.20dm3 of pure oxygen gas (volume measured at room temperature and pressure). If a complete reaction occurs between the lithium and the oxygen, what is the maximum mass of lithium oxide that can be formed? (A values: Li = 7; O = 16. Assume that one mole of gas occupies 24.0dm3 at room temperature r and pressure.)",
+      "question": "2.80g of lithium metal is placed in a closed system with 1.20dm3 of pure oxygen gas (volume measured at room temperature and pressure). If a complete reaction occurs between the lithium and the oxygen, what is the maximum mass of lithium oxide that can be formed?",
       "answers": {
         "a": "1.50g",
         "b": "3.00g",
@@ -692,7 +733,7 @@
         "d": "232ykJ",
         "e": "58zkJ",
         "f": "116zkJ",
-        "g": "232zkJ 48 PART D Biology PART D Biology 49 PART D Biology"
+        "g": "232zkJ"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -709,7 +750,7 @@
         "e": "stonefly bloodworm bloodworm",
         "f": "stonefly bloodworm stonefly",
         "g": "stonefly stonefly bloodworm",
-        "h": "stonefly stonefly stonefly 50 PART D Biology"
+        "h": "stonefly stonefly stonefly"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -724,7 +765,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 51 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -739,13 +780,13 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 52 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "A student investigated the tadpole population in a large pond.",
+      "question": "A student investigated the tadpole population in a large pond. fixed distance of 1m. This was repeated 10 times. All the sweeps were made at the edge of the pond as the student had no waders or boat. The number of tadpoles in each sweep was recorded in the table. sweep number 1 2 3 4 5 6 7 8 9 10 number of tadpoles 20 12 32 0 4 8 4 8 12 20 The student made the following statements. 1 Each sweep sampled 0.02m3 of water. 2 The frequency of occurrence of the tadpoles was 90%. 3 An accurate estimate of the population size of tadpoles in the pond could be calculated using this data if the total volume of water was known. Which of the statements about the investigation is/are correct?",
       "answers": {
         "a": "none of them",
         "b": "1 only",
@@ -754,13 +795,13 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 53 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
     },
     {
-      "question": "A breeding experiment was carried out using rats.",
+      "question": "A breeding experiment was carried out using rats. the same generation. Each female is only allowed to have one litter of eight. The expected ratio of male to female offspring in this breeding population is the same in rats as in humans, and is seen in every generation. In the 4th generation of offspring, how many individuals would be expected to have the XY genotype?",
       "answers": {
         "a": "16",
         "b": "32",
@@ -768,7 +809,7 @@
         "d": "128",
         "e": "256",
         "f": "512",
-        "g": "1024 54 PART D Biology"
+        "g": "1024 54"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -781,7 +822,7 @@
         "c": "8",
         "d": "16",
         "e": "32",
-        "f": "64 55 PART D Biology"
+        "f": "64 55"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -796,7 +837,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
@@ -811,7 +852,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 56 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -824,7 +865,7 @@
         "c": "1 and 4 only",
         "d": "2 and 3 only",
         "e": "2 and 4 only",
-        "f": "3 and 4 only 57 PART D Biology"
+        "f": "3 and 4 only"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -839,7 +880,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 58 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -854,7 +895,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 59 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -866,7 +907,7 @@
         "b": "2 and 3 only",
         "c": "1, 2 and 4 only",
         "d": "1, 3 and 4 only",
-        "e": "2, 3 and 4 only 60 PART D Biology"
+        "e": "2, 3 and 4 only"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -881,22 +922,27 @@
         "e": "1 and 2 only",
         "f": "1 and 4 only",
         "g": "2 and 3 only",
-        "h": "3 and 4 only PART D Biology"
+        "h": "3 and 4 only"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
     },
     {
-      "question": "The diagram below shows a circular piece of bacterial DNA called a plasmid that has been made recombinant by the insertion of a plant gene for herbicide resistance. first part of gene coding for resistance to the antibiotic tetracycline gene for herbicide resistance gene coding for resistance to the antibiotic penicillin second part of gene coding for resistance to the antibiotic tetracycline Bacteria containing only the recombinant plasmid had to be identified from bacteria that contained only the original plasmid. The original plasmid contained a gene coding for resistance to the antibiotic penicillin and a gene coding for resistance to the antibiotic tetracycline. These bacteria were grown on two sets of agar plates. One set used agar that contained the antibiotic penicillin and the other set used agar that contained the antibiotic tetracycline. Which row in the table correctly shows the growth of these bacteria on the two sets of agar? growth on agar growth on agar bacteria containing only containing penicillin containing tetracycline recombinant plasmid yes yes A original plasmid no no recombinant plasmid yes yes B original plasmid yes no recombinant plasmid yes no C original plasmid yes yes recombinant plasmid no no D original plasmid yes yes recombinant plasmid yes yes E original plasmid no yes recombinant plasmid no no F original plasmid no no recombinant plasmid yes no G original plasmid no yes 62 PART D Biology",
+      "question": "The diagram below shows a circular piece of bacterial DNA called a plasmid that has been made recombinant by the insertion of a plant gene for herbicide resistance. first part of gene coding for resistance to the antibiotic tetracycline gene for herbicide resistance gene coding for resistance to the antibiotic penicillin second part of gene coding for resistance to the antibiotic tetracycline Bacteria containing only the recombinant plasmid had to be identified from bacteria that contained only the original plasmid. The original plasmid contained a gene coding for resistance to the antibiotic penicillin and a gene coding for resistance to the antibiotic tetracycline. These bacteria were grown on two sets of agar plates. One set used agar that contained the antibiotic penicillin and the other set used agar that contained the antibiotic tetracycline. Which row in the table correctly shows the growth of these bacteria on the two sets of agar? growth on agar growth on agar bacteria containing only containing penicillin containing tetracycline recombinant plasmid yes yes",
       "answers": {
-        "a": "Option unavailable",
-        "b": "Option unavailable"
+        "a": "Option unavailable original plasmid no no recombinant plasmid yes yes",
+        "b": "Option unavailable original plasmid yes no recombinant plasmid yes no",
+        "c": "Option unavailable original plasmid yes yes recombinant plasmid no no",
+        "d": "Option unavailable original plasmid yes yes recombinant plasmid yes yes",
+        "e": "Option unavailable original plasmid no yes recombinant plasmid no no",
+        "f": "Option unavailable original plasmid no no recombinant plasmid yes no",
+        "g": "Option unavailable original plasmid no yes"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
     },
     {
-      "question": "A student analysed a gene sequence that had been identified in four different types of organism. The gene codes for a functional protein. A section of the gene’s DNA is shown below. The rest of the DNA from this gene (not shown) is identical in all four different types of organism. organism DNA sequence human ACG CCT CGT CAC GCT AAA oak tree ACG GAA TAT GTA GCT AAA mushroom ACG GAA CTC TTA GCT AAA E.coli bacterium ACG TAC GAT GGG GCT AAA The student then made the following conclusions: 1 This gene does not code for chlorophyll. 2 This gene may be found in the nucleus or cytoplasm. 3 The protein that this gene codes for is likely to be more similar in plants and fungi than in the other organisms. Which of these conclusions is/are correct?",
+      "question": "A student analysed a gene sequence that had been identified in four different types of organism. The gene codes for a functional protein. A section of the gene’s DNA is shown below. The rest of the DNA from this gene (not shown) is identical in all four different types of organism. organism DNA sequence human ACG CCT CGT CAC GCT AAA oak tree ACG GAA TAT GTA GCT AAA mushroom ACG GAA CTC TTA GCT AAA The student then made the following conclusions: 1 This gene does not code for chlorophyll. 2 This gene may be found in the nucleus or cytoplasm. 3 The protein that this gene codes for is likely to be more similar in plants and fungi than in the other organisms. Which of these conclusions is/are correct?",
       "answers": {
         "a": "none of them",
         "b": "1 only",
@@ -905,7 +951,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 63 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "h"
@@ -920,7 +966,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 64 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "g"
@@ -935,7 +981,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 65 PART D Biology"
+        "h": "1, 2 and"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -950,7 +996,7 @@
         "e": "1 and 2 only",
         "f": "1 and 3 only",
         "g": "2 and 3 only",
-        "h": "1, 2 and 3 66 PART E Advanced Mathematics and Advanced Physics PART E Advanced Mathematics and Advanced Physics NOTE: questions in this part that are not covered by the ESAT content specification are indicated by a cross through the question number. 67 PART E Advanced Mathematics and Advanced Physics"
+        "h": "1, 2 and NOTE: questions in this part that are not covered by the ESAT content specification are indicated by a cross through the question number."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
@@ -958,10 +1004,13 @@
   ],
   "partEAdvancedMathPhysics": [
     {
-      "question": "Curve C has equation y = 9 – x2 Line L has equation y = 5 What is the area enclosed between C and L? 32 A 3 62 B 3 92 C 3 122 D 3 152 E 3",
+      "question": "Curve C has equation y = 9 – x2 Line L has equation y = 5 What is the area enclosed between C and L? 32",
       "answers": {
         "a": "Option unavailable",
-        "b": "Option unavailable"
+        "b": "Option unavailable",
+        "c": "Option unavailable 122",
+        "d": "Option unavailable 152",
+        "e": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -976,7 +1025,7 @@
         "e": "2.0ms–2",
         "f": "4.0ms–2",
         "g": "10ms–2",
-        "h": "20ms–2 68 PART E Advanced Mathematics and Advanced Physics π"
+        "h": "20ms–2 68 π"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -1002,7 +1051,7 @@
         "c": "The force of friction on the mass is equal to the driving force.",
         "d": "The weight of the mass acts in the opposite direction to the contact force.",
         "e": "There is no air resistance acting on the mass.",
-        "f": "There is no resultant force acting on the mass. 69 PART E Advanced Mathematics and Advanced Physics"
+        "f": "There is no resultant force acting on the mass."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -1011,7 +1060,11 @@
       "question": "The line y = x + k, where k is a constant, is a tangent to the curve y = 3x2 – 2x + 1 What is the value of k?",
       "answers": {
         "a": "–2",
-        "b": "–1 1 C 4 1 D 3 1 E 2 3 F 4",
+        "b": "–1 1",
+        "c": "Option unavailable",
+        "d": "Option unavailable",
+        "e": "Option unavailable",
+        "f": "Option unavailable",
         "g": "1",
         "h": "2"
       },
@@ -1025,7 +1078,7 @@
         "b": "10N",
         "c": "12N",
         "d": "14N",
-        "e": "16N 70 PART E Advanced Mathematics and Advanced Physics"
+        "e": "16N"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -1034,7 +1087,8 @@
       "question": "In a particular arithmetic progression: • the 13th term is six times the 1st term • the 11th term is 1 less than twice the 5th term What is the 3rd term of the progression?",
       "answers": {
         "a": "–14.5",
-        "b": "–11 29 C 19",
+        "b": "–11 29",
+        "c": "Option unavailable",
         "d": "3.5",
         "e": "11",
         "f": "14.5"
@@ -1051,7 +1105,7 @@
         "d": "250N",
         "e": "300N",
         "f": "350N",
-        "g": "375N 71 PART E Advanced Mathematics and Advanced Physics"
+        "g": "375N"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -1063,8 +1117,8 @@
         "b": "3",
         "c": "4",
         "d": "6",
-        "e": "log (3!) 2",
-        "f": "log 60 2"
+        "e": "log (3!)",
+        "f": "log"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -1076,7 +1130,7 @@
         "b": "3.0ms–1",
         "c": "3.6ms–1",
         "d": "4.8ms–1",
-        "e": "5.4ms–1 72 PART E Advanced Mathematics and Advanced Physics"
+        "e": "5.4ms–1 72"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "d"
@@ -1085,10 +1139,10 @@
       "question": "Circle C has equation (x + 3)2 + (y – 2)2 = 5 The length of the tangent from the circle C to the point P is 5 3 What is the shortest distance from P to C?",
       "answers": {
         "a": "5 3",
-        "b": "5 3 + 5",
+        "b": "5 3 +",
         "c": "3 5",
         "d": "5",
-        "e": "10 73 PART E Advanced Mathematics and Advanced Physics"
+        "e": "10 73"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "c"
@@ -1096,9 +1150,12 @@
     {
       "question": "Two solid spheres X and Y have masses m and 2m respectively. They travel in opposite directions towards each other along the same line with speeds v and 2v respectively and collide head on. The graph shows the variation of velocity with time for sphere X before, during, and after the collision. velocity v 0 time v – Which sketch shows the variation of velocity with time for sphere Y?",
       "answers": {
-        "a": "B velocity velocity 2 v 2 v 0 0 time time v v –2 –2",
-        "c": "D velocity velocity v 2 v 0 0 v – time time v –2",
-        "e": "F velocity velocity v 2 v 0 0 time – v time v –2 74 PART E Advanced Mathematics and Advanced Physics"
+        "a": "Option A (diagram/text unavailable in PDF text extraction).",
+        "b": "Option B (diagram/text unavailable in PDF text extraction).",
+        "c": "Option C (diagram/text unavailable in PDF text extraction).",
+        "d": "Option D (diagram/text unavailable in PDF text extraction).",
+        "e": "Option E (diagram/text unavailable in PDF text extraction).",
+        "f": "Option F (diagram/text unavailable in PDF text extraction)."
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "f"
@@ -1118,10 +1175,15 @@
       "answer": "d"
     },
     {
-      "question": "A metal ball suspended from a steel cable is held at rest by a horizontal force P. The cable makes an angle of 30° to the vertical as shown in the diagram. The cable exerts a force T on the ball. 30° P What is the magnitude of P? T A 2",
+      "question": "A metal ball suspended from a steel cable is held at rest by a horizontal force P. The cable makes an angle of 30° to the vertical as shown in the diagram. The cable exerts a force T on the ball. 30° P What is the magnitude of P? T",
       "answers": {
+        "a": "Option unavailable",
         "b": "T",
-        "c": "2T T D 2 T E 3 2T F 3 3T G 2 75 PART E Advanced Mathematics and Advanced Physics"
+        "c": "2T T",
+        "d": "Option unavailable T",
+        "e": "Option unavailable 2T",
+        "f": "Option unavailable 3T",
+        "g": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -1131,7 +1193,10 @@
       "answers": {
         "a": "– 2 9",
         "b": "– 2 22",
-        "c": "– 29 7 D 22 5 E 2 7 F 2 76 PART E Advanced Mathematics and Advanced Physics"
+        "c": "– 29 7",
+        "d": "Option unavailable",
+        "e": "Option unavailable",
+        "f": "Option unavailable"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "e"
@@ -1143,7 +1208,7 @@
         "b": "4 ms–1",
         "c": "6ms–1",
         "d": "8ms–1",
-        "e": "10 ms–1 77 PART E Advanced Mathematics and Advanced Physics"
+        "e": "10 ms–1 77"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "a"
@@ -1167,7 +1232,7 @@
         "b": "180m",
         "c": "320m",
         "d": "500m",
-        "e": "900m 78 BLANK PAGE 79 80"
+        "e": "900m"
       },
       "explanation": "Explanation pending (official PDF import).",
       "answer": "b"
