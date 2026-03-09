@@ -5,6 +5,7 @@ import Link from 'next/link'
 import AnimatedBackdrop from '@/components/AnimatedBackdrop'
 import LatexRenderer from '@/components/LatexRenderer'
 import MockLabLogo from '@/components/MockLabLogo'
+import { fetchAuthMe, fetchMistakesV2, fetchQuestionsV2, removeMistakeV2 } from '@/lib/client-api'
 import { Question } from '@/lib/types'
 import { clearMistakes, getCurrentUserEmail, getMistakes, MistakeItem, removeMistake } from '@/lib/storage'
 
@@ -23,28 +24,10 @@ function toCsvCell(value: unknown): string {
   return `"${text.replace(/"/g, '""')}"`
 }
 
-function buildMistakeApiQuery(item: MistakeItem): string {
-  const exam = item.exam || 'tmua'
-  const params = new URLSearchParams({ year: item.year, exam })
-  if (exam === 'nsaa' && item.part) params.set('part', item.part)
-  return params.toString()
-}
-
-function buildMistakeHref(item: MistakeItem): string {
-  const exam = item.exam || 'tmua'
-  const suffix = `?paper=${item.paper}&q=${item.index + 1}`
-  if (exam === 'engaa') return `/esat/engaa/${item.year}${suffix}`
-  if (exam === 'nsaa' && item.part) return `/esat/nsaa/${item.year}/${item.part}${suffix}`
-  return `/exam/${item.year}${suffix}`
-}
-
-function getQuestionCacheKey(item: MistakeItem): string {
-  return `${item.exam || 'tmua'}:${item.year}:${item.part || ''}`
-}
-
 export default function MistakesPage() {
   const [email, setEmail] = useState<string | null>(null)
   const [mistakes, setMistakes] = useState<MistakeItem[]>([])
+  const [usingLocalFallback, setUsingLocalFallback] = useState(false)
   const [yearFilter, setYearFilter] = useState('ALL')
   const [paperFilter, setPaperFilter] = useState<'ALL' | '1' | '2'>('ALL')
   const [queryFilter, setQueryFilter] = useState('')
@@ -57,9 +40,24 @@ export default function MistakesPage() {
   const [stemImageFailed, setStemImageFailed] = useState(false)
   const [explanationImageFailed, setExplanationImageFailed] = useState(false)
 
-  const load = useCallback(() => {
+  const load = useCallback(async () => {
+    const serverUser = await fetchAuthMe().catch(() => null)
+    if (serverUser?.email) {
+      setEmail(serverUser.email)
+      try {
+        const serverMistakes = await fetchMistakesV2()
+        setMistakes(serverMistakes)
+        setUsingLocalFallback(false)
+      } catch {
+        setMistakes(getMistakes(serverUser.email))
+        setUsingLocalFallback(true)
+      }
+      return
+    }
+
     const currentEmail = getCurrentUserEmail()
     setEmail(currentEmail)
+    setUsingLocalFallback(Boolean(currentEmail))
     if (!currentEmail) {
       setMistakes([])
       return
@@ -68,7 +66,7 @@ export default function MistakesPage() {
   }, [])
 
   useEffect(() => {
-    load()
+    void load()
   }, [load])
 
   useEffect(() => {
@@ -97,15 +95,18 @@ export default function MistakesPage() {
     const onStorage = (event: StorageEvent) => {
       if (!event.key) return
       if (event.key === 'tmua_user_email' || event.key.startsWith('tmua_mistakes_')) {
-        load()
+        void load()
       }
     }
 
     window.addEventListener('storage', onStorage)
-    window.addEventListener('focus', load)
+    const onFocus = () => {
+      void load()
+    }
+    window.addEventListener('focus', onFocus)
     return () => {
       window.removeEventListener('storage', onStorage)
-      window.removeEventListener('focus', load)
+      window.removeEventListener('focus', onFocus)
     }
   }, [load])
 
@@ -140,54 +141,77 @@ export default function MistakesPage() {
 
   const selectedQuestion = useMemo(() => {
     if (!selectedMistake) return null
-    const cacheKey = getQuestionCacheKey(selectedMistake)
-    const yearQuestions = questionsByYear[cacheKey] || []
+    const yearQuestions = questionsByYear[selectedMistake.year] || []
     return yearQuestions.find((question) => question.id === selectedMistake.id) || null
   }, [questionsByYear, selectedMistake])
 
-  const loadYearQuestions = useCallback(async (item: MistakeItem) => {
-    const cacheKey = getQuestionCacheKey(item)
-    if (questionsByYear[cacheKey]) return
-    setLoadingYear(item.year)
+  const loadYearQuestions = useCallback(async (year: string) => {
+    if (questionsByYear[year]) return
+    setLoadingYear(year)
     setDetailError(null)
     try {
-      const response = await fetch(`/api/questions?${buildMistakeApiQuery(item)}`)
-      if (!response.ok) throw new Error(`HTTP ${response.status}`)
-      const payload = (await response.json()) as Question[]
-      if (!Array.isArray(payload) || payload.length === 0) throw new Error('No questions found')
-      const sorted = [...payload].sort((a, b) => {
-        if (a.paper !== b.paper) return a.paper - b.paper
-        return a.index - b.index
-      })
-      setQuestionsByYear((prev) => ({ ...prev, [cacheKey]: sorted }))
+      let sorted: Question[] = []
+      const v2Payload = await fetchQuestionsV2('TMUA', { year }).catch(() => null)
+      if (v2Payload?.items?.length) {
+        sorted = v2Payload.items
+      } else {
+        const response = await fetch(`/api/questions?year=${year}`)
+        if (!response.ok) throw new Error(`HTTP ${response.status}`)
+        const payload = (await response.json()) as Question[]
+        if (!Array.isArray(payload) || payload.length === 0) throw new Error('No questions found')
+        sorted = [...payload].sort((a, b) => {
+          if (a.paper !== b.paper) return a.paper - b.paper
+          return a.index - b.index
+        })
+      }
+      setQuestionsByYear((prev) => ({ ...prev, [year]: sorted }))
     } catch {
-      setDetailError(`Failed to load question details for ${item.year}.`)
+      setDetailError(`Failed to load question details for ${year}.`)
     } finally {
-      setLoadingYear((prev) => (prev === item.year ? null : prev))
+      setLoadingYear((prev) => (prev === year ? null : prev))
     }
   }, [questionsByYear])
 
-  const handleRemove = (questionId: string) => {
+  const handleRemove = async (questionId: string) => {
     if (!email) return
     if (!window.confirm('Remove this question from your mistake book?')) return
-    removeMistake(email, questionId)
-    load()
+    const serverUser = await fetchAuthMe().catch(() => null)
+    if (serverUser?.email) {
+      await removeMistakeV2(questionId).catch(() => removeMistake(email, questionId))
+    } else {
+      removeMistake(email, questionId)
+    }
+    await load()
     setInfoMessage('Question removed.')
   }
 
-  const handleRemoveFiltered = () => {
+  const handleRemoveFiltered = async () => {
     if (!email) return
     if (!window.confirm(`Remove ${filtered.length} filtered item(s)?`)) return
-    filtered.forEach((item) => removeMistake(email, item.id))
-    load()
+    const serverUser = await fetchAuthMe().catch(() => null)
+    if (serverUser?.email) {
+      for (const item of filtered) {
+        await removeMistakeV2(item.id).catch(() => removeMistake(email, item.id))
+      }
+    } else {
+      filtered.forEach((item) => removeMistake(email, item.id))
+    }
+    await load()
     setInfoMessage('Filtered mistakes removed.')
   }
 
-  const handleClearAll = () => {
+  const handleClearAll = async () => {
     if (!email) return
     if (!window.confirm('Clear all mistakes? This cannot be undone.')) return
-    clearMistakes(email)
-    load()
+    const serverUser = await fetchAuthMe().catch(() => null)
+    if (serverUser?.email) {
+      for (const item of mistakes) {
+        await removeMistakeV2(item.id).catch(() => removeMistake(email, item.id))
+      }
+    } else {
+      clearMistakes(email)
+    }
+    await load()
     setInfoMessage('All mistakes cleared.')
   }
 
@@ -264,7 +288,7 @@ export default function MistakesPage() {
 
   useEffect(() => {
     if (!selectedMistake) return
-    void loadYearQuestions(selectedMistake)
+    void loadYearQuestions(selectedMistake.year)
   }, [selectedMistake, loadYearQuestions])
 
   useEffect(() => {
@@ -332,8 +356,13 @@ export default function MistakesPage() {
         {email && (
           <>
             <section className="warm-card rounded-2xl p-5 md:p-6 flex flex-wrap gap-3 items-center">
-              <div className="text-sm text-slate-600 mr-2">
-                Signed in as <span className="font-semibold text-slate-900">{email}</span>
+              <div className="mr-2">
+                <div className="text-sm text-slate-600">
+                  Signed in as <span className="font-semibold text-slate-900">{email}</span>
+                </div>
+                {usingLocalFallback && (
+                  <div className="text-xs text-amber-700 mt-1">Offline fallback: showing local cached mistakes.</div>
+                )}
               </div>
               <input
                 value={queryFilter}
@@ -416,7 +445,7 @@ export default function MistakesPage() {
                           View
                         </button>
                         <Link
-                          href={buildMistakeHref(m)}
+                          href={`/exam/${m.year}?paper=${m.paper}&q=${m.index + 1}`}
                           className="warm-primary-btn px-3 py-2 rounded-md text-sm"
                         >
                           Open Question
@@ -481,7 +510,7 @@ export default function MistakesPage() {
                       Go
                     </button>
                     <Link
-                      href={buildMistakeHref(selectedMistake)}
+                      href={`/exam/${selectedMistake.year}?paper=${selectedMistake.paper}&q=${selectedMistake.index + 1}`}
                       className="warm-primary-btn px-3 py-2 rounded-lg text-sm"
                     >
                       Open in Exam

@@ -15,6 +15,7 @@ import NavigatorModal from '@/components/NavigatorModal'
 import { addExamAttempt, addMistake, getCurrentUserEmail } from '@/lib/storage'
 import { evaluateExam } from '@/lib/exam-scoring'
 import { ExamTrack, getNsaaPartLabel, NsaaPartKey } from '@/lib/exam-catalog'
+import { getEngaaQuestionsByYear, getNsaaQuestionsByYearAndPart, getNsaaQuestionsByYearAndParts } from '@/lib/esat-questions'
 
 const SESSION_KEY = 'mock_exam_session'
 const AUTO_ADVANCE_KEY = 'mock_auto_advance'
@@ -110,11 +111,28 @@ export default function ExamRunner({ year, exam = 'tmua', nsaaParts = [] }: Exam
     setIsLoadingQuestions(true)
     setQuestionsError(null)
     try {
-      const params = new URLSearchParams({ year, exam })
-      if (exam === 'nsaa') {
-        if (selectedNsaaParts.length === 1) params.set('part', selectedNsaaParts[0])
-        if (selectedNsaaParts.length === 2) params.set('parts', selectedNsaaParts.join(','))
+      if (exam === 'engaa') {
+        const localQuestions = getEngaaQuestionsByYear(year)
+        if (!Array.isArray(localQuestions) || localQuestions.length === 0) {
+          throw new Error(`No ENGAA questions found for year ${year}`)
+        }
+        setQuestions([...localQuestions].sort((a, b) => (a.paper !== b.paper ? a.paper - b.paper : a.index - b.index)))
+        return
       }
+
+      if (exam === 'nsaa') {
+        const localQuestions =
+          selectedNsaaParts.length === 2
+            ? getNsaaQuestionsByYearAndParts(year, selectedNsaaParts)
+            : getNsaaQuestionsByYearAndPart(year, selectedNsaaParts[0])
+        if (!Array.isArray(localQuestions) || localQuestions.length === 0) {
+          throw new Error(`No NSAA questions found for year ${year}`)
+        }
+        setQuestions([...localQuestions].sort((a, b) => (a.paper !== b.paper ? a.paper - b.paper : a.index - b.index)))
+        return
+      }
+
+      const params = new URLSearchParams({ year, exam })
       const res = await fetch(`/api/questions?${params.toString()}`)
       if (!res.ok) {
         throw new Error(`HTTP ${res.status}`)
@@ -131,8 +149,8 @@ export default function ExamRunner({ year, exam = 'tmua', nsaaParts = [] }: Exam
       const paper2Count = normalized.filter((q) => q.paper === 2).length
       const paper3Count = normalized.filter((q) => q.paper === 3).length
       const requiredPaper1 = 20
-      const requiredPaper2 = exam === 'nsaa' ? 5 : 20
-      const requiredPaper3 = hasPaper3 ? 5 : 0
+      const requiredPaper2 = 20
+      const requiredPaper3 = 0
       if (paper1Count < requiredPaper1 || paper2Count < requiredPaper2 || paper3Count < requiredPaper3) {
         throw new Error(`Incomplete question set: Paper1=${paper1Count}, Paper2=${paper2Count}, Paper3=${paper3Count}`)
       }

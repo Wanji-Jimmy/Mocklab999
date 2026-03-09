@@ -7,52 +7,165 @@ datasource db {
   url      = "file:./dev.db"
 }
 
+model User {
+  id           String        @id @default(uuid())
+  email        String        @unique
+  passwordHash String
+  isAdmin      Boolean       @default(false)
+  createdAt    DateTime      @default(now())
+  updatedAt    DateTime      @updatedAt
+
+  sessions     AuthSession[]
+  attempts     ExamAttempt[]
+  activeRuns   ExamSession[]
+  mistakes     Mistake[]
+  uploads      UploadBatch[] @relation("Uploader")
+  createdBanks QuestionBank[]
+}
+
+model AuthSession {
+  id        String   @id @default(uuid())
+  tokenHash String   @unique
+  userId    String
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([expiresAt])
+}
+
+model QuestionBank {
+  id             String       @id @default(uuid())
+  examType       String
+  name           String
+  year           Int?
+  moduleKey      String?
+  version        Int          @default(1)
+  isPublished    Boolean      @default(false)
+  publishedAt    DateTime?
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+  createdById    String?
+
+  createdBy      User?        @relation(fields: [createdById], references: [id], onDelete: SetNull)
+  questions      Question[]
+  sessions       ExamSession[]
+  attempts       ExamAttempt[]
+  uploadedByBatches UploadBatch[] @relation("UploadToBank")
+
+  @@index([examType, year, isPublished])
+}
+
 model Question {
-  id              String    @id @default(uuid())
-  paper           Int       // 1 or 2
-  index           Int       // 1..20
+  id              String      @id @default(uuid())
+  examType        String
+  bankId          String
+  moduleOrPaper   String
+  questionNumber  Int
   stemLatex       String
-  options         String    // JSON: [{key:"A", latex:"..."}, ...]
-  answerKey       String    // "A", "B", "C", "D", etc.
+  stemImage       String?
   explanationLatex String
-  tags            String    // JSON array
-  difficulty      Int       @default(1)
-  createdAt       DateTime  @default(now())
-  
+  explanationImage String?
+  answerKey       String
+  difficulty      Int         @default(2)
+  tags            String?
+  isPublished     Boolean     @default(true)
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+
+  bank            QuestionBank @relation(fields: [bankId], references: [id], onDelete: Cascade)
+  options         Option[]
   mistakes        Mistake[]
-  
-  @@unique([paper, index])
-  @@index([paper])
+
+  @@unique([bankId, moduleOrPaper, questionNumber])
+  @@index([examType, moduleOrPaper])
+}
+
+model Option {
+  id         String   @id @default(uuid())
+  questionId String
+  key        String
+  latex      String
+  image      String?
+  order      Int      @default(0)
+
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@unique([questionId, key])
+  @@index([questionId, order])
+}
+
+model UploadBatch {
+  id               String       @id @default(uuid())
+  examType         String
+  status           String       @default("UPLOADED")
+  fileName         String?
+  payload          String
+  validationReport String?
+  createdById      String
+  createdAt        DateTime     @default(now())
+  validatedAt      DateTime?
+  publishedAt      DateTime?
+  rolledBackAt     DateTime?
+  publishedBankId  String?      @unique
+
+  createdBy        User         @relation("Uploader", fields: [createdById], references: [id], onDelete: Cascade)
+  publishedBank    QuestionBank? @relation("UploadToBank", fields: [publishedBankId], references: [id], onDelete: SetNull)
+
+  @@index([createdById])
+  @@index([examType, status, createdAt])
+}
+
+model ExamSession {
+  id         String      @id @default(uuid())
+  userId     String
+  examType   String
+  bankId     String?
+  state      String
+  progress   String?
+  startedAt  DateTime    @default(now())
+  updatedAt  DateTime    @updatedAt
+  submittedAt DateTime?
+
+  user       User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  bank       QuestionBank? @relation(fields: [bankId], references: [id], onDelete: SetNull)
+
+  @@index([userId, examType, updatedAt])
 }
 
 model ExamAttempt {
-  id              String    @id @default(uuid())
-  userId          String?   // nullable for guest
-  createdAt       DateTime  @default(now())
-  paper1Answers   String    // JSON map
-  paper2Answers   String    // JSON map
-  paper1Flags     String    // JSON map
-  paper2Flags     String    // JSON map
-  scoreP1         Int
-  scoreP2         Int
-  totalScore      Int
-  grade           Float
-  timeUsedP1      Int?      // seconds
-  timeUsedP2      Int?      // seconds
-  
-  @@index([userId])
+  id              String       @id @default(uuid())
+  userId          String
+  examType        String
+  bankId          String?
+  scoreTotal      Int
+  scoreBreakdown  String?
+  grade           Float?
+  answers         String
+  flags           String?
+  questionOutcomes String?
+  createdAt       DateTime     @default(now())
+
+  user            User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  bank            QuestionBank? @relation(fields: [bankId], references: [id], onDelete: SetNull)
+
+  @@index([userId, examType, createdAt])
 }
 
 model Mistake {
-  id              String    @id @default(uuid())
-  userId          String
-  questionId      String
-  addedAt         DateTime  @default(now())
-  lastReviewedAt  DateTime?
-  reasonTag       String?
-  
-  question        Question  @relation(fields: [questionId], references: [id], onDelete: Cascade)
-  
+  id             String      @id @default(uuid())
+  userId         String
+  examType       String
+  questionId     String
+  addedAt        DateTime    @default(now())
+  lastReviewedAt DateTime?
+  reasonTag      String?
+
+  user           User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  question       Question    @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
   @@unique([userId, questionId])
-  @@index([userId])
+  @@index([userId, examType, addedAt])
 }

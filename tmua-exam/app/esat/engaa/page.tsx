@@ -17,7 +17,7 @@ export default function EngaaYearsPage() {
             </Link>
           </div>
         </div>
-        <p className="text-slate-600 mb-6">Select one year to enter ENGAA Paper 1 + Paper 2 mock.</p>
+        <p className="text-slate-600 mb-6">Choose one year to enter ENGAA Paper 1 + Paper 2 mock.</p>
         <section className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {SUPPORTED_YEARS.map((year) => (
             <Link key={year} href={`/esat/engaa/${year}`} className="warm-card rounded-2xl p-5 text-center hover-lift">

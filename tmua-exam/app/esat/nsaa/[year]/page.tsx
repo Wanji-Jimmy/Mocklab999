@@ -35,7 +35,7 @@ export default function NsaaPartSelectPage({ params }: { params: { year: string 
   const startHref = useMemo(() => {
     if (selected.length === 0) return '#'
     const paramsObj = new URLSearchParams({ parts: selected.join(',') })
-    return `/esat/nsaa/${params.year}/exam?${paramsObj.toString()}`
+    return `/esat/mock?exam=nsaa&year=${params.year}&${paramsObj.toString()}`
   }, [params.year, selected])
 
   return (
@@ -51,7 +51,7 @@ export default function NsaaPartSelectPage({ params }: { params: { year: string 
           </div>
         </div>
         <p className="text-slate-600 mb-2">Paper 1 is mandatory mathematics.</p>
-        <p className="text-slate-600 mb-6">Choose 1 or 2 Parts for the remaining papers.</p>
+        <p className="text-slate-600 mb-6">Choose 1 or 2 parts for Paper 2 / Paper 3.</p>
 
         <section className="grid md:grid-cols-2 gap-4">
           {availableParts.map((part) => {
@@ -65,7 +65,7 @@ export default function NsaaPartSelectPage({ params }: { params: { year: string 
                 }`}
               >
                 <h2 className="text-xl font-black text-slate-900">{part.label}</h2>
-                <p className="text-sm text-slate-600 mt-2">{active ? 'Selected' : 'Click to select this Part'}</p>
+                <p className="text-sm text-slate-600 mt-2">{active ? 'Selected' : 'Click to select this part'}</p>
               </button>
             )
           })}
@@ -73,9 +73,6 @@ export default function NsaaPartSelectPage({ params }: { params: { year: string 
 
         <div className="mt-6 flex flex-wrap items-center gap-3">
           <div className="text-sm text-slate-700">Selected: {selected.length}/2</div>
-          {availableParts.length < 4 && (
-            <div className="text-sm text-amber-700">Part E is not available for NSAA {params.year} official paper.</div>
-          )}
           <Link
             href={startHref}
             className={`px-5 py-2.5 rounded-lg text-sm font-semibold ${

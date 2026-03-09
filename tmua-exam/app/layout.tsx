@@ -3,10 +3,11 @@ import 'katex/dist/katex.min.css'
 import type { Metadata } from 'next'
 import ButtonMotionEnhancer from '@/components/ButtonMotionEnhancer'
 import ExamLaunchTransition from '@/components/ExamLaunchTransition'
+import { LanguageProvider } from '@/components/LanguageProvider'
 
 export const metadata: Metadata = {
   title: 'MockLab999 | TMUA + ESAT Mock Platform',
-  description: 'Independent TMUA and ESAT mock routes with timed papers, scoring, review, and mistake tracking.',
+  description: 'Prepare for UK admissions tests with realistic mocks, course-specific pathways, and weakness diagnosis.',
 }
 
 export default function RootLayout({
@@ -17,9 +18,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <ButtonMotionEnhancer />
-        <ExamLaunchTransition />
-        {children}
+        <LanguageProvider>
+          <ButtonMotionEnhancer />
+          <ExamLaunchTransition />
+          {children}
+        </LanguageProvider>
       </body>
     </html>
   )

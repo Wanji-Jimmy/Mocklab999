@@ -41,6 +41,9 @@ npx prisma generate
 # (Optional) Initialize database
 npx prisma db push
 
+# (Optional) Import TMUA questions into DB bank tables
+npm run db:import:tmua
+
 # Run development server
 npm run dev
 ```
@@ -139,3 +142,16 @@ MIT
 - This is an MVP. Payment/subscription features not implemented.
 - Guest mode uses localStorage only.
 - Database schema ready for future user accounts.
+
+## Backend v2 APIs
+
+New server-side APIs are available for persistent auth, attempts, mistakes, and admin uploads:
+
+- Auth: `/api/auth/register`, `/api/auth/login`, `/api/auth/logout`, `/api/auth/me`
+- Questions (new): `/api/v2/questions?examType=TMUA|ESAT&year=...`
+- Sessions: `/api/v2/sessions` and `/api/v2/sessions/:id`
+- Attempts: `/api/v2/attempts`
+- Mistakes: `/api/v2/mistakes`
+- Admin uploads: `/api/admin/uploads`, `/api/admin/uploads/:id/validate`, `/api/admin/uploads/:id/preview`, `/api/admin/uploads/:id/publish`, `/api/admin/uploads/:id/rollback`
+
+Use `ADMIN_EMAIL_WHITELIST` (comma-separated emails) to assign admin permission on registration.

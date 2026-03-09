@@ -17,12 +17,12 @@ export default function NsaaYearsPage() {
             </Link>
           </div>
         </div>
-        <p className="text-slate-600 mb-6">Select a year, then choose 1 or 2 Parts for remaining papers.</p>
+        <p className="text-slate-600 mb-6">Choose one year, then choose 1 or 2 parts for your paper combination.</p>
         <section className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {SUPPORTED_YEARS.map((year) => (
             <Link key={year} href={`/esat/nsaa/${year}`} className="warm-card rounded-2xl p-5 text-center hover-lift">
               <div className="text-4xl font-black warm-accent-text">{year}</div>
-              <div className="mt-2 text-xs text-slate-500">Choose Part B/C/D/E</div>
+              <div className="mt-2 text-xs text-slate-500">Mandatory Math + Parts</div>
             </Link>
           ))}
         </section>

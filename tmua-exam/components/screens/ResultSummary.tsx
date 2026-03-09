@@ -60,6 +60,8 @@ export default function ResultSummary({
   const p2Total = questionOutcomes.filter((o) => o.question.paper === 2).length
   const p1Correct = questionOutcomes.filter((o) => o.question.paper === 1 && o.isCorrect).length
   const p2Correct = questionOutcomes.filter((o) => o.question.paper === 2 && o.isCorrect).length
+  const p1Accuracy = Math.round((p1Correct / Math.max(p1Total, 1)) * 100)
+  const p2Accuracy = Math.round((p2Correct / Math.max(p2Total, 1)) * 100)
   const [filter, setFilter] = useState<'all' | 'incorrect' | 'unanswered' | 'correct'>('all')
   const [query, setQuery] = useState('')
 
@@ -189,16 +191,50 @@ export default function ResultSummary({
         <div className="mt-5 grid grid-cols-1 md:grid-cols-3 gap-3">
           <div className="rounded-xl border border-slate-200 bg-white px-4 py-3">
             <div className="text-xs uppercase tracking-wide text-slate-500">Paper 1 Accuracy</div>
-            <div className="text-xl font-black text-tmua-blue">{Math.round((p1Correct / Math.max(p1Total, 1)) * 100)}%</div>
+            <div className="text-xl font-black text-tmua-blue">{p1Accuracy}%</div>
           </div>
           <div className="rounded-xl border border-slate-200 bg-white px-4 py-3">
             <div className="text-xs uppercase tracking-wide text-slate-500">Paper 2 Accuracy</div>
-            <div className="text-xl font-black text-tmua-blue">{Math.round((p2Correct / Math.max(p2Total, 1)) * 100)}%</div>
+            <div className="text-xl font-black text-tmua-blue">{p2Accuracy}%</div>
           </div>
           <div className="rounded-xl border border-slate-200 bg-white px-4 py-3">
             <div className="text-xs uppercase tracking-wide text-slate-500">Unanswered</div>
             <div className="text-xl font-black text-amber-700">{unansweredCount}</div>
           </div>
+        </div>
+
+        <div className="mt-5 rounded-xl border border-slate-200 bg-white p-4 space-y-3">
+          <div className="text-sm font-semibold text-slate-800">Performance Distribution</div>
+          <div>
+            <div className="flex items-center justify-between text-xs text-slate-600 mb-1">
+              <span>Paper 1</span>
+              <span>{p1Accuracy}%</span>
+            </div>
+            <div className="h-2.5 rounded-full bg-slate-200 overflow-hidden">
+              <div className="h-full bg-[#234b94]" style={{ width: `${p1Accuracy}%` }} />
+            </div>
+          </div>
+          <div>
+            <div className="flex items-center justify-between text-xs text-slate-600 mb-1">
+              <span>Paper 2</span>
+              <span>{p2Accuracy}%</span>
+            </div>
+            <div className="h-2.5 rounded-full bg-slate-200 overflow-hidden">
+              <div className="h-full bg-[#0f7a7a]" style={{ width: `${p2Accuracy}%` }} />
+            </div>
+          </div>
+          {scoreP3 > 0 && (
+            <p className="text-xs text-slate-500">Paper 3 is included in total score and review details below.</p>
+          )}
+        </div>
+
+        <div className="mt-5 rounded-xl border border-slate-200 bg-slate-50 px-4 py-3">
+          <div className="text-xs uppercase tracking-wide text-slate-500">Next Step</div>
+          <p className="mt-1 text-sm text-slate-700">
+            {wrongCount > 0
+              ? 'Review incorrect questions first, add key ones to your mistake book, then retake under timed conditions.'
+              : 'Maintain performance with one timed paper from a different year and verify consistency.'}
+          </p>
         </div>
       </section>
 

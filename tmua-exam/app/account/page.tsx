@@ -5,6 +5,18 @@ import Link from 'next/link'
 import AnimatedBackdrop from '@/components/AnimatedBackdrop'
 import LatexRenderer from '@/components/LatexRenderer'
 import MockLabLogo from '@/components/MockLabLogo'
+import {
+  addMistakeV2,
+  fetchAttemptsV2,
+  fetchAuthMe,
+  fetchMistakesV2,
+  fetchQuestionsV2,
+  loginWithPasswordApi,
+  logoutApi,
+  registerWithPasswordApi,
+  removeAttemptV2,
+  removeMistakeV2,
+} from '@/lib/client-api'
 import { Question } from '@/lib/types'
 import {
   ExamAttempt,
@@ -59,88 +71,14 @@ function toCsvCell(value: unknown): string {
   return `"${text.replace(/"/g, '""')}"`
 }
 
-function inferExamFromQuestionId(questionId?: string): { exam: 'tmua' | 'engaa' | 'nsaa'; part?: string } {
-  const id = String(questionId || '')
-  if (id.startsWith('ENGAA-')) return { exam: 'engaa' }
-  if (id.startsWith('NSAA-')) {
-    const partMatch = id.match(/-(part-[a-z-]+)$/)
-    return { exam: 'nsaa', part: partMatch?.[1] }
-  }
-  return { exam: 'tmua' }
-}
-
-function getAttemptRouteMeta(attempt: ExamAttempt): { exam: 'tmua' | 'engaa' | 'nsaa'; part?: string; parts?: string[] } {
-  if (attempt.exam === 'engaa') {
-    return { exam: attempt.exam }
-  }
-  if (attempt.exam === 'nsaa') {
-    if (Array.isArray(attempt.parts) && attempt.parts.length > 0) {
-      return { exam: 'nsaa', part: attempt.parts[0], parts: attempt.parts }
-    }
-    return { exam: 'nsaa', part: attempt.part }
-  }
-  const ids = (attempt.questionOutcomes || []).map((outcome) => outcome.questionId)
-  const inferredExam = ids.some((id) => id.startsWith('NSAA-')) ? 'nsaa' : ids.some((id) => id.startsWith('ENGAA-')) ? 'engaa' : 'tmua'
-  if (inferredExam !== 'nsaa') return { exam: inferredExam }
-  const inferredParts = Array.from(
-    new Set(
-      ids
-        .map((id) => id.match(/-(part-[a-z-]+)$/)?.[1])
-        .filter((value): value is string => Boolean(value)),
-    ),
-  ).slice(0, 2)
-  return { exam: 'nsaa', part: inferredParts[0], parts: inferredParts.length > 0 ? inferredParts : undefined }
-}
-
-function getMistakeRouteMeta(mistake: MistakeItem): { exam: 'tmua' | 'engaa' | 'nsaa'; part?: string } {
-  if (mistake.exam === 'engaa' || mistake.exam === 'nsaa') {
-    return { exam: mistake.exam, part: mistake.part }
-  }
-  return inferExamFromQuestionId(mistake.id)
-}
-
-function buildQuestionApiQuery(year: string, exam: 'tmua' | 'engaa' | 'nsaa', part?: string, parts?: string[]): string {
-  const params = new URLSearchParams({ year, exam })
-  if (exam === 'nsaa' && Array.isArray(parts) && parts.length > 1) {
-    params.set('parts', parts.join(','))
-    return params.toString()
-  }
-  if (exam === 'nsaa' && part) params.set('part', part)
-  return params.toString()
-}
-
-function buildExamHref(
-  year: string,
-  paper: number,
-  index: number,
-  exam: 'tmua' | 'engaa' | 'nsaa',
-  part?: string,
-  parts?: string[],
-): string {
-  const suffix = `?paper=${paper}&q=${index + 1}`
-  if (exam === 'engaa') return `/esat/engaa/${year}${suffix}`
-  if (exam === 'nsaa' && Array.isArray(parts) && parts.length > 1) {
-    const params = new URLSearchParams({ parts: parts.join(','), paper: String(paper), q: String(index + 1) })
-    return `/esat/nsaa/${year}/exam?${params.toString()}`
-  }
-  if (exam === 'nsaa' && part) return `/esat/nsaa/${year}/${part}${suffix}`
-  return `/exam/${year}${suffix}`
-}
-
-function getAttemptCacheKey(attempt: ExamAttempt): string {
-  const meta = getAttemptRouteMeta(attempt)
-  return `${meta.exam}:${attempt.year}:${meta.parts?.join('__') || meta.part || ''}`
-}
-
-function getAttemptTotalQuestions(attempt: ExamAttempt): number {
-  const tracked = Array.isArray(attempt.questionOutcomes) ? attempt.questionOutcomes.length : 0
-  if (tracked > 0) return tracked
-  return attempt.scoreP3 ? 45 : 40
+function inferServerExamType(questionId: string): 'TMUA' | 'ESAT' {
+  return questionId.startsWith('ENGAA-') || questionId.startsWith('NSAA-') ? 'ESAT' : 'TMUA'
 }
 
 export default function AccountPage() {
   const [emailInput, setEmailInput] = useState('')
   const [currentEmail, setCurrentEmail] = useState<string | null>(null)
+  const [passwordInput, setPasswordInput] = useState('')
   const [mistakes, setMistakes] = useState<MistakeItem[]>([])
   const [attempts, setAttempts] = useState<ExamAttempt[]>([])
   const [infoMessage, setInfoMessage] = useState<string | null>(null)
@@ -168,6 +106,8 @@ export default function AccountPage() {
   const [mistakeQuery, setMistakeQuery] = useState('')
   const [reviewJumpInput, setReviewJumpInput] = useState('')
   const [backupImportMode, setBackupImportMode] = useState<'merge' | 'replace'>('merge')
+  const [backendSessionActive, setBackendSessionActive] = useState(false)
+  const [usingLocalFallback, setUsingLocalFallback] = useState(false)
   const codeInputRefs = useRef<Array<HTMLInputElement | null>>([])
   const backupFileInputRef = useRef<HTMLInputElement | null>(null)
 
@@ -184,11 +124,42 @@ export default function AccountPage() {
     setAttempts(getExamAttempts(email))
   }
 
+  const syncServerData = async (): Promise<boolean> => {
+    const serverUser = await fetchAuthMe().catch(() => null)
+    if (!serverUser?.email) {
+      setBackendSessionActive(false)
+      setUsingLocalFallback(false)
+      return false
+    }
+
+    setBackendSessionActive(true)
+    setCurrentEmail(serverUser.email)
+    setCurrentUserEmail(serverUser.email)
+
+    try {
+      const [serverAttempts, serverMistakes] = await Promise.all([fetchAttemptsV2(), fetchMistakesV2()])
+      setAttempts(serverAttempts.sort((a, b) => b.takenAt.localeCompare(a.takenAt)))
+      setMistakes(serverMistakes)
+      setUsingLocalFallback(false)
+      return true
+    } catch {
+      loadByEmail(serverUser.email)
+      setUsingLocalFallback(true)
+      return true
+    }
+  }
+
   useEffect(() => {
-    const savedEmail = getCurrentUserEmail()
-    setCurrentEmail(savedEmail)
-    loadByEmail(savedEmail)
-    setShowLocalCodePreview(!EMAIL_DELIVERY_ENABLED)
+    void (async () => {
+      const hasServerSession = await syncServerData()
+      if (!hasServerSession) {
+        const savedEmail = getCurrentUserEmail()
+        setCurrentEmail(savedEmail)
+        loadByEmail(savedEmail)
+        setUsingLocalFallback(Boolean(savedEmail))
+      }
+      setShowLocalCodePreview(!EMAIL_DELIVERY_ENABLED)
+    })()
   }, [])
 
   useEffect(() => {
@@ -222,9 +193,14 @@ export default function AccountPage() {
 
   useEffect(() => {
     const sync = () => {
-      const email = getCurrentUserEmail()
-      setCurrentEmail(email)
-      loadByEmail(email)
+      void (async () => {
+        const hasServerSession = await syncServerData()
+        if (hasServerSession) return
+        const email = getCurrentUserEmail()
+        setCurrentEmail(email)
+        loadByEmail(email)
+        setUsingLocalFallback(Boolean(email))
+      })()
     }
 
     const onStorage = (event: StorageEvent) => {
@@ -332,7 +308,7 @@ export default function AccountPage() {
 
   const selectedAttemptQuestions = useMemo(() => {
     if (!selectedAttempt) return []
-    return reviewQuestionsByYear[getAttemptCacheKey(selectedAttempt)] ?? []
+    return reviewQuestionsByYear[selectedAttempt.year] ?? []
   }, [reviewQuestionsByYear, selectedAttempt])
 
   const selectedAttemptQuestionMap = useMemo(() => {
@@ -413,13 +389,68 @@ export default function AccountPage() {
     window.setTimeout(() => codeInputRefs.current[0]?.focus(), 20)
   }
 
-  const handleStartVerification = () => {
+  const validateAuthInputs = (): { email: string; password: string } | null => {
     const normalized = emailInput.trim().toLowerCase()
+    const password = passwordInput.trim()
     if (!isValidEmail(normalized)) {
       setAuthError('Enter a valid email address.')
-      return
+      return null
     }
-    issueVerificationCode(normalized)
+    if (password.length < 8) {
+      setAuthError('Password must be at least 8 characters.')
+      return null
+    }
+    return { email: normalized, password }
+  }
+
+  const finishAuthSuccess = async (email: string, message: string) => {
+    setCurrentUserEmail(email)
+    setCurrentEmail(email)
+    setBackendSessionActive(true)
+    await syncServerData()
+    setEmailInput('')
+    setPasswordInput('')
+    setAuthStep('email')
+    setAuthMessage(message)
+    setInfoMessage(message)
+  }
+
+  const handleSignIn = () => {
+    void (async () => {
+      const input = validateAuthInputs()
+      if (!input) return
+      setAuthError(null)
+      try {
+        const signedInUser = await loginWithPasswordApi(input.email, input.password)
+        await finishAuthSuccess(signedInUser.email, 'Signed in successfully.')
+      } catch (error) {
+        const message = error instanceof Error ? error.message : 'Sign in failed'
+        if (message.includes('Invalid credentials')) {
+          setAuthError('Wrong email or password. If you are new, click Create Account.')
+          return
+        }
+        setAuthError(message || 'Sign in failed.')
+      }
+    })()
+  }
+
+  const handleCreateAccount = () => {
+    void (async () => {
+      const input = validateAuthInputs()
+      if (!input) return
+      setAuthError(null)
+      try {
+        const createdUser = await registerWithPasswordApi(input.email, input.password)
+        await finishAuthSuccess(createdUser.email, 'Account created and signed in.')
+      } catch (error) {
+        const message = error instanceof Error ? error.message : 'Create account failed'
+        if (message.includes('Email already registered')) {
+          setAuthError('This email already exists. Please click Sign In.')
+          return
+        }
+        setAuthError(message || 'Create account failed.')
+      }
+    })()
   }
 
   const handleResendCode = () => {
@@ -511,28 +542,50 @@ export default function AccountPage() {
   }
 
   const handleSignOut = () => {
-    clearCurrentUserEmail()
-    setCurrentEmail(null)
-    loadByEmail(null)
-    resetAuthFlow()
-    setInfoMessage('Signed out.')
+    void (async () => {
+      await logoutApi()
+      clearCurrentUserEmail()
+      setCurrentEmail(null)
+      setBackendSessionActive(false)
+      setUsingLocalFallback(false)
+      setPasswordInput('')
+      loadByEmail(null)
+      resetAuthFlow()
+      setInfoMessage('Signed out.')
+    })()
   }
 
   const handleRemoveMistake = (questionId: string) => {
     if (!currentEmail) return
-    removeMistake(currentEmail, questionId)
-    loadByEmail(currentEmail)
-    setInfoMessage('Question removed from mistake book.')
+    void (async () => {
+      if (backendSessionActive) {
+        await removeMistakeV2(questionId).catch(() => removeMistake(currentEmail, questionId))
+        await syncServerData()
+      } else {
+        removeMistake(currentEmail, questionId)
+        loadByEmail(currentEmail)
+      }
+      setInfoMessage('Question removed from mistake book.')
+    })()
   }
 
   const handleClearMistakes = () => {
     if (!currentEmail) return
     if (!window.confirm('Clear all mistakes from your mistake book?')) return
-    clearMistakes(currentEmail)
-    loadByEmail(currentEmail)
-    setMistakeYearFilter('ALL')
-    setMistakeQuery('')
-    setInfoMessage('Mistake book cleared.')
+    void (async () => {
+      if (backendSessionActive) {
+        for (const item of mistakes) {
+          await removeMistakeV2(item.id).catch(() => removeMistake(currentEmail, item.id))
+        }
+        await syncServerData()
+      } else {
+        clearMistakes(currentEmail)
+        loadByEmail(currentEmail)
+      }
+      setMistakeYearFilter('ALL')
+      setMistakeQuery('')
+      setInfoMessage('Mistake book cleared.')
+    })()
   }
 
   const handleRemoveFilteredMistakes = () => {
@@ -540,31 +593,56 @@ export default function AccountPage() {
     if (filteredMistakes.length === 0) return
     if (!window.confirm(`Remove ${filteredMistakes.length} filtered mistake(s)? This cannot be undone.`)) return
 
-    const removedMistakeIds = new Set(filteredMistakes.map((mistake) => mistake.id))
-    const remainingMistakes = sortedMistakes.filter((mistake) => !removedMistakeIds.has(mistake.id))
-    persistMistakeItems(currentEmail, remainingMistakes)
-    loadByEmail(currentEmail)
-    setInfoMessage(`Removed ${filteredMistakes.length} filtered mistake(s).`)
+    void (async () => {
+      if (backendSessionActive) {
+        for (const item of filteredMistakes) {
+          await removeMistakeV2(item.id).catch(() => removeMistake(currentEmail, item.id))
+        }
+        await syncServerData()
+      } else {
+        const removedMistakeIds = new Set(filteredMistakes.map((mistake) => mistake.id))
+        const remainingMistakes = sortedMistakes.filter((mistake) => !removedMistakeIds.has(mistake.id))
+        persistMistakeItems(currentEmail, remainingMistakes)
+        loadByEmail(currentEmail)
+      }
+      setInfoMessage(`Removed ${filteredMistakes.length} filtered mistake(s).`)
+    })()
   }
 
   const handleRemoveAttempt = (attemptId: string) => {
     if (!currentEmail) return
-    removeExamAttempt(currentEmail, attemptId)
-    loadByEmail(currentEmail)
-    setInfoMessage('Attempt removed.')
+    void (async () => {
+      if (backendSessionActive) {
+        await removeAttemptV2(attemptId).catch(() => removeExamAttempt(currentEmail, attemptId))
+        await syncServerData()
+      } else {
+        removeExamAttempt(currentEmail, attemptId)
+        loadByEmail(currentEmail)
+      }
+      setInfoMessage('Attempt removed.')
+    })()
   }
 
   const handleClearAttempts = () => {
     if (!currentEmail) return
     if (!window.confirm('Clear all attempt history? This cannot be undone.')) return
-    clearExamAttempts(currentEmail)
-    loadByEmail(currentEmail)
-    setAttemptYearFilter('ALL')
-    setAttemptQuery('')
-    setReviewAttemptId(null)
-    setReviewQuestionId(null)
-    setReviewError(null)
-    setInfoMessage('Attempt history cleared.')
+    void (async () => {
+      if (backendSessionActive) {
+        for (const attempt of attempts) {
+          await removeAttemptV2(attempt.id).catch(() => removeExamAttempt(currentEmail, attempt.id))
+        }
+        await syncServerData()
+      } else {
+        clearExamAttempts(currentEmail)
+        loadByEmail(currentEmail)
+      }
+      setAttemptYearFilter('ALL')
+      setAttemptQuery('')
+      setReviewAttemptId(null)
+      setReviewQuestionId(null)
+      setReviewError(null)
+      setInfoMessage('Attempt history cleared.')
+    })()
   }
 
   const handleRemoveFilteredAttempts = () => {
@@ -572,11 +650,20 @@ export default function AccountPage() {
     if (filteredAttempts.length === 0) return
     if (!window.confirm(`Remove ${filteredAttempts.length} filtered attempt(s)? This cannot be undone.`)) return
 
-    const removedAttemptIds = new Set(filteredAttempts.map((attempt) => attempt.id))
-    const remainingAttempts = sortedAttempts.filter((attempt) => !removedAttemptIds.has(attempt.id))
-    persistExamAttempts(currentEmail, remainingAttempts)
-    loadByEmail(currentEmail)
-    setInfoMessage(`Removed ${filteredAttempts.length} filtered attempt(s).`)
+    void (async () => {
+      if (backendSessionActive) {
+        for (const attempt of filteredAttempts) {
+          await removeAttemptV2(attempt.id).catch(() => removeExamAttempt(currentEmail, attempt.id))
+        }
+        await syncServerData()
+      } else {
+        const removedAttemptIds = new Set(filteredAttempts.map((attempt) => attempt.id))
+        const remainingAttempts = sortedAttempts.filter((attempt) => !removedAttemptIds.has(attempt.id))
+        persistExamAttempts(currentEmail, remainingAttempts)
+        loadByEmail(currentEmail)
+      }
+      setInfoMessage(`Removed ${filteredAttempts.length} filtered attempt(s).`)
+    })()
   }
 
   const handleResetAttemptFilters = () => {
@@ -594,28 +681,31 @@ export default function AccountPage() {
       return
     }
 
-    const meta = getAttemptRouteMeta(attempt)
-    const cacheKey = getAttemptCacheKey(attempt)
-
-    if (reviewQuestionsByYear[cacheKey]) {
+    if (reviewQuestionsByYear[attempt.year]) {
       return
     }
 
     setReviewLoadingYear(attempt.year)
     try {
-      const response = await fetch(`/api/questions?${buildQuestionApiQuery(attempt.year, meta.exam, meta.part, meta.parts)}`)
-      if (!response.ok) {
-        throw new Error(`HTTP ${response.status}`)
+      let sorted: Question[] = []
+      const v2Payload = await fetchQuestionsV2('TMUA', { year: attempt.year }).catch(() => null)
+      if (v2Payload?.items?.length) {
+        sorted = v2Payload.items
+      } else {
+        const response = await fetch(`/api/questions?year=${attempt.year}`)
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`)
+        }
+        const payload = (await response.json()) as Question[]
+        if (!Array.isArray(payload) || payload.length === 0) {
+          throw new Error('No questions found')
+        }
+        sorted = [...payload].sort((a, b) => {
+          if (a.paper !== b.paper) return a.paper - b.paper
+          return a.index - b.index
+        })
       }
-      const payload = (await response.json()) as Question[]
-      if (!Array.isArray(payload) || payload.length === 0) {
-        throw new Error('No questions found')
-      }
-      const sorted = [...payload].sort((a, b) => {
-        if (a.paper !== b.paper) return a.paper - b.paper
-        return a.index - b.index
-      })
-      setReviewQuestionsByYear((prev) => ({ ...prev, [cacheKey]: sorted }))
+      setReviewQuestionsByYear((prev) => ({ ...prev, [attempt.year]: sorted }))
     } catch {
       setReviewError(`Failed to load question set for ${attempt.year}.`)
     } finally {
@@ -632,74 +722,104 @@ export default function AccountPage() {
 
   const handleAddReviewedQuestionToMistakes = (question?: Question) => {
     if (!currentEmail || !question) return
-    const added = addMistake(currentEmail, question)
-    if (added) {
-      loadByEmail(currentEmail)
-      setInfoMessage('Question added to mistake book.')
-      return
-    }
-    setInfoMessage('Question already exists in your mistake book.')
+    void (async () => {
+      if (backendSessionActive) {
+        await addMistakeV2(inferServerExamType(question.id), question.id).catch(() => addMistake(currentEmail, question))
+        await syncServerData()
+        setInfoMessage('Question added to mistake book.')
+        return
+      }
+      const added = addMistake(currentEmail, question)
+      if (added) {
+        loadByEmail(currentEmail)
+        setInfoMessage('Question added to mistake book.')
+        return
+      }
+      setInfoMessage('Question already exists in your mistake book.')
+    })()
   }
 
   const handleAddAllIncorrectToMistakes = () => {
     if (!currentEmail || reviewRows.length === 0) return
-    let addedCount = 0
-    let duplicateCount = 0
-    for (const row of reviewRows) {
-      if (row.isCorrect || !row.userAnswer || !row.question) continue
-      const added = addMistake(currentEmail, row.question)
-      if (added) addedCount += 1
-      else duplicateCount += 1
-    }
-    loadByEmail(currentEmail)
-    if (addedCount === 0 && duplicateCount === 0) {
-      setInfoMessage('No incorrect questions found in this attempt.')
-      return
-    }
-    if (addedCount === 0) {
-      setInfoMessage('All incorrect questions were already in your mistake book.')
-      return
-    }
-    setInfoMessage(
-      duplicateCount > 0
-        ? `Added ${addedCount} incorrect question(s), skipped ${duplicateCount} duplicate(s).`
-        : `Added ${addedCount} incorrect question(s) to mistake book.`,
-    )
+    void (async () => {
+      let addedCount = 0
+      let duplicateCount = 0
+      for (const row of reviewRows) {
+        if (row.isCorrect || !row.userAnswer || !row.question) continue
+        const question = row.question
+        if (backendSessionActive) {
+          const before = mistakes.some((item) => item.id === question.id)
+          await addMistakeV2(inferServerExamType(question.id), question.id).catch(() => addMistake(currentEmail, question))
+          if (before) duplicateCount += 1
+          else addedCount += 1
+          continue
+        }
+        const added = addMistake(currentEmail, question)
+        if (added) addedCount += 1
+        else duplicateCount += 1
+      }
+      if (backendSessionActive) await syncServerData()
+      else loadByEmail(currentEmail)
+      if (addedCount === 0 && duplicateCount === 0) {
+        setInfoMessage('No incorrect questions found in this attempt.')
+        return
+      }
+      if (addedCount === 0) {
+        setInfoMessage('All incorrect questions were already in your mistake book.')
+        return
+      }
+      setInfoMessage(
+        duplicateCount > 0
+          ? `Added ${addedCount} incorrect question(s), skipped ${duplicateCount} duplicate(s).`
+          : `Added ${addedCount} incorrect question(s) to mistake book.`,
+      )
+    })()
   }
 
   const handleAddFilteredReviewToMistakes = () => {
     if (!currentEmail || filteredReviewRows.length === 0) return
 
-    let addedCount = 0
-    let duplicateCount = 0
-    let skippedCount = 0
+    void (async () => {
+      let addedCount = 0
+      let duplicateCount = 0
+      let skippedCount = 0
 
-    for (const row of filteredReviewRows) {
-      if (row.isCorrect || !row.userAnswer || !row.question) {
-        skippedCount += 1
-        continue
+      for (const row of filteredReviewRows) {
+        if (row.isCorrect || !row.userAnswer || !row.question) {
+          skippedCount += 1
+          continue
+        }
+        const question = row.question
+        if (backendSessionActive) {
+          const before = mistakes.some((item) => item.id === question.id)
+          await addMistakeV2(inferServerExamType(question.id), question.id).catch(() => addMistake(currentEmail, question))
+          if (before) duplicateCount += 1
+          else addedCount += 1
+          continue
+        }
+        const added = addMistake(currentEmail, question)
+        if (added) addedCount += 1
+        else duplicateCount += 1
       }
-      const added = addMistake(currentEmail, row.question)
-      if (added) addedCount += 1
-      else duplicateCount += 1
-    }
 
-    loadByEmail(currentEmail)
+      if (backendSessionActive) await syncServerData()
+      else loadByEmail(currentEmail)
 
-    if (addedCount === 0 && duplicateCount === 0) {
-      setInfoMessage('No incorrect questions found in the current review filter.')
-      return
-    }
-    if (addedCount === 0) {
-      setInfoMessage('All filtered incorrect questions were already in your mistake book.')
-      return
-    }
+      if (addedCount === 0 && duplicateCount === 0) {
+        setInfoMessage('No incorrect questions found in the current review filter.')
+        return
+      }
+      if (addedCount === 0) {
+        setInfoMessage('All filtered incorrect questions were already in your mistake book.')
+        return
+      }
 
-    const base =
-      duplicateCount > 0
-        ? `Added ${addedCount} filtered incorrect question(s), skipped ${duplicateCount} duplicate(s).`
-        : `Added ${addedCount} filtered incorrect question(s) to mistake book.`
-    setInfoMessage(skippedCount > 0 ? `${base} ${skippedCount} row(s) were not incorrect.` : base)
+      const base =
+        duplicateCount > 0
+          ? `Added ${addedCount} filtered incorrect question(s), skipped ${duplicateCount} duplicate(s).`
+          : `Added ${addedCount} filtered incorrect question(s) to mistake book.`
+      setInfoMessage(skippedCount > 0 ? `${base} ${skippedCount} row(s) were not incorrect.` : base)
+    })()
   }
 
   const handleExportBackup = () => {
@@ -1079,130 +1199,74 @@ export default function AccountPage() {
           {!currentEmail ? (
             <div className="mt-5 grid gap-4 lg:grid-cols-[1.15fr_1fr]">
               <div className="warm-card-muted rounded-2xl p-5">
-                <p className="text-xs uppercase tracking-wide font-semibold text-slate-500">Passwordless Login</p>
-                <h3 className="mt-2 text-xl font-black text-slate-900">Modern sign-in flow with one-time code verification</h3>
+                <p className="text-xs uppercase tracking-wide font-semibold text-slate-500">Account Login</p>
+                <h3 className="mt-2 text-xl font-black text-slate-900">Sign in with your email and password</h3>
                 <p className="mt-2 text-sm text-slate-600 leading-relaxed">
-                  Enter your email, receive a short verification code, then unlock your personal dashboard, history, and mistakes.
+                  Use one account per email to persist your attempts and mistakes across sessions on this device.
                 </p>
                 <div className="mt-4 space-y-2 text-sm text-slate-700">
-                  <p>• Two-step flow designed like mainstream productivity apps.</p>
-                  <p>• Session is tied to your verified email on this device.</p>
-                  <p>• No plain-text password field in the account screen.</p>
+                  <p>• If the email does not exist yet, it will be created automatically.</p>
+                  <p>• Minimum password length: 8 characters.</p>
+                  <p>• Existing local attempt/mistake data remains available as fallback.</p>
                 </div>
               </div>
 
               <div className="rounded-2xl border border-slate-200 bg-white/90 p-5">
-                <div className="flex items-center justify-between gap-3">
-                  <p className="text-xs uppercase tracking-wide text-slate-500 font-semibold">
-                    {authStep === 'email' ? 'Step 1 of 2 · Email' : 'Step 2 of 2 · Verification'}
+                <div className="mt-4 space-y-3">
+                  <label htmlFor="email" className="text-sm font-semibold text-slate-700">
+                    Email Address
+                  </label>
+                  <input
+                    id="email"
+                    type="email"
+                    value={emailInput}
+                    onChange={(event) => {
+                      setEmailInput(event.target.value)
+                      setAuthError(null)
+                    }}
+                    placeholder="name@school.edu"
+                    className="warm-focus-input w-full rounded-xl border border-slate-300 bg-white px-3 py-2.5 text-sm"
+                  />
+                  <label htmlFor="password" className="text-sm font-semibold text-slate-700">
+                    Password
+                  </label>
+                  <input
+                    id="password"
+                    type="password"
+                    value={passwordInput}
+                    onChange={(event) => {
+                      setPasswordInput(event.target.value)
+                      setAuthError(null)
+                    }}
+                    onKeyDown={(event) => {
+                      if (event.key === 'Enter') {
+                        event.preventDefault()
+                        handleSignIn()
+                      }
+                    }}
+                    placeholder="At least 8 characters"
+                    className="warm-focus-input w-full rounded-xl border border-slate-300 bg-white px-3 py-2.5 text-sm"
+                  />
+                  <div className="grid grid-cols-2 gap-2">
+                    <button
+                      onClick={handleSignIn}
+                      className="warm-primary-btn w-full rounded-xl px-4 py-2.5 text-sm disabled:cursor-not-allowed disabled:opacity-50"
+                      disabled={emailInput.trim().length === 0 || passwordInput.trim().length < 8}
+                    >
+                      Sign In
+                    </button>
+                    <button
+                      onClick={handleCreateAccount}
+                      className="warm-outline-btn w-full rounded-xl px-4 py-2.5 text-sm disabled:cursor-not-allowed disabled:opacity-50"
+                      disabled={emailInput.trim().length === 0 || passwordInput.trim().length < 8}
+                    >
+                      Create Account
+                    </button>
+                  </div>
+                  <p className="text-xs text-slate-500">
+                    Existing email: use Sign In. New email: use Create Account.
                   </p>
-                  {authStep === 'verify' && (
-                    <button
-                      onClick={resetAuthFlow}
-                      className="text-xs font-semibold text-slate-600 hover:text-slate-900"
-                    >
-                      Change Email
-                    </button>
-                  )}
                 </div>
-
-                {authStep === 'email' ? (
-                  <div className="mt-4 space-y-3">
-                    <label htmlFor="email" className="text-sm font-semibold text-slate-700">
-                      Email Address
-                    </label>
-                    <input
-                      id="email"
-                      type="email"
-                      value={emailInput}
-                      onChange={(event) => {
-                        setEmailInput(event.target.value)
-                        setAuthError(null)
-                      }}
-                      onKeyDown={(event) => {
-                        if (event.key === 'Enter') {
-                          event.preventDefault()
-                          handleStartVerification()
-                        }
-                      }}
-                      placeholder="name@school.edu"
-                      className="warm-focus-input w-full rounded-xl border border-slate-300 bg-white px-3 py-2.5 text-sm"
-                    />
-                    <button
-                      onClick={handleStartVerification}
-                      className="warm-primary-btn w-full rounded-xl px-4 py-2.5 text-sm disabled:cursor-not-allowed disabled:opacity-50"
-                      disabled={emailInput.trim().length === 0}
-                    >
-                      Continue with Email
-                    </button>
-                    <p className="text-xs text-slate-500">
-                      {EMAIL_DELIVERY_ENABLED
-                        ? 'One-time code verification only. Check your inbox for the verification code.'
-                        : 'Demo mode: code appears below after you continue. Email delivery is currently disabled.'}
-                    </p>
-                  </div>
-                ) : (
-                  <div className="mt-4 space-y-4">
-                    <p className="text-sm text-slate-600">
-                      Enter the 6-digit code for <span className="font-semibold text-slate-800">{maskEmail(pendingEmail)}</span>.
-                    </p>
-
-                    {showLocalCodePreview && (
-                      <div className="rounded-xl border border-amber-200 bg-amber-50 px-3 py-2 text-xs text-amber-900">
-                        <div>
-                          Local preview code: <span className="font-semibold tracking-wider">{expectedCode}</span>
-                        </div>
-                        <button
-                          onClick={handleAutoFillCode}
-                          className="mt-2 warm-outline-btn px-2 py-1 rounded-md text-xs"
-                        >
-                          Auto Fill Code
-                        </button>
-                      </div>
-                    )}
-
-                    <div className="flex gap-2">
-                      {Array.from({ length: CODE_LENGTH }).map((_, index) => (
-                        <input
-                          key={index}
-                          ref={(el) => {
-                            codeInputRefs.current[index] = el
-                          }}
-                          type="text"
-                          inputMode="numeric"
-                          autoComplete="one-time-code"
-                          maxLength={1}
-                          value={codeDigits[index]}
-                          onChange={(event) => handleCodeChange(index, event.target.value)}
-                          onKeyDown={(event) => handleCodeKeyDown(index, event)}
-                          onPaste={handleCodePaste}
-                          className="warm-focus-input h-12 w-full rounded-xl border border-slate-300 bg-white text-center text-lg font-bold tracking-widest text-slate-900"
-                        />
-                      ))}
-                    </div>
-
-                    <div className="flex items-center justify-between text-xs">
-                      <span className={expiresSeconds > 0 ? 'text-slate-500' : 'text-red-600 font-semibold'}>
-                        {expiresSeconds > 0 ? `Code expires in ${formatCountdown(expiresSeconds)}` : 'Code expired'}
-                      </span>
-                      <button
-                        onClick={handleResendCode}
-                        className="warm-link-text font-semibold disabled:text-slate-400"
-                        disabled={!canResend}
-                      >
-                        {canResend ? 'Resend Code' : `Resend in ${resendSeconds}s`}
-                      </button>
-                    </div>
-
-                    <button
-                      onClick={handleVerifyCode}
-                      className="warm-primary-btn w-full rounded-xl px-4 py-2.5 text-sm disabled:cursor-not-allowed disabled:opacity-50"
-                      disabled={!canVerify}
-                    >
-                      Verify and Sign In
-                    </button>
-                  </div>
-                )}
 
                 {authError && <p className="mt-3 text-sm text-red-600">{authError}</p>}
                 {authMessage && <p className="mt-3 text-sm text-emerald-700">{authMessage}</p>}
@@ -1214,10 +1278,13 @@ export default function AccountPage() {
                 <div className="grid h-12 w-12 place-items-center rounded-full bg-gradient-to-br from-[#ff8a3c] to-[#ff5e00] text-lg font-black text-white">
                   {currentEmail.slice(0, 1).toUpperCase()}
                 </div>
-                <div>
-                  <div className="text-xs uppercase tracking-wide text-slate-500">Verified Session</div>
-                  <div className="font-semibold text-slate-900 break-all">{currentEmail}</div>
-                  <div className="text-xs text-slate-500">Passwordless account access active on this device</div>
+                  <div>
+                    <div className="text-xs uppercase tracking-wide text-slate-500">Verified Session</div>
+                    <div className="font-semibold text-slate-900 break-all">{currentEmail}</div>
+                    <div className="text-xs text-slate-500">Email/password session active on this device</div>
+                    {usingLocalFallback && (
+                      <div className="text-xs text-amber-700 mt-1">Backend unreachable, showing local cached data.</div>
+                    )}
                 </div>
               </div>
               <button onClick={handleSignOut} className="warm-outline-btn px-4 py-2 rounded-lg text-sm font-semibold">
@@ -1296,13 +1363,13 @@ export default function AccountPage() {
                               {entry.year} ({entry.attempts} attempt{entry.attempts === 1 ? '' : 's'})
                             </span>
                             <span className="text-slate-600">
-                              Best {entry.best} | Avg {entry.avg.toFixed(1)}
+                              Best {entry.best}/40 | Avg {entry.avg.toFixed(1)}/40
                             </span>
                           </div>
                           <div className="h-2.5 rounded-full bg-slate-200 overflow-hidden">
                             <div
                               className="h-full bg-gradient-to-r from-[#ff8a3c] to-[#ff5e00]"
-                              style={{ width: `${Math.round((entry.best / 45) * 100)}%` }}
+                              style={{ width: `${Math.round((entry.best / 40) * 100)}%` }}
                             />
                           </div>
                         </div>
@@ -1359,7 +1426,7 @@ export default function AccountPage() {
                       <div key={attempt.id} className="rounded-xl border border-slate-200 bg-slate-50/80 px-4 py-3 text-sm">
                         <div className="flex flex-wrap items-center justify-between gap-2">
                           <div className="font-semibold text-slate-900">
-                            {attempt.year} | Grade {attempt.grade.toFixed(1)} | Score {attempt.totalScore}/{getAttemptTotalQuestions(attempt)}
+                            {attempt.year} | Grade {attempt.grade.toFixed(1)} | Score {attempt.totalScore}/40
                           </div>
                           <div className="flex items-center gap-2">
                             <div className="text-xs text-slate-500">{new Date(attempt.takenAt).toLocaleString()}</div>
@@ -1380,8 +1447,7 @@ export default function AccountPage() {
                           </div>
                         </div>
                         <div className="text-xs text-slate-600 mt-1">
-                          Paper 1: {attempt.scoreP1}/20, Paper 2: {attempt.scoreP2}/{attempt.scoreP3 ? 5 : 20}
-                          {attempt.scoreP3 ? `, Paper 3: ${attempt.scoreP3}/5` : ''}
+                          Paper 1: {attempt.scoreP1}/20, Paper 2: {attempt.scoreP2}/20
                         </div>
                         {(!attempt.questionOutcomes || attempt.questionOutcomes.length === 0) && (
                           <div className="text-xs text-amber-700 mt-1">
@@ -1402,7 +1468,7 @@ export default function AccountPage() {
                       <div className="flex flex-wrap items-start justify-between gap-3">
                         <div>
                           <h3 className="text-lg font-bold text-slate-900">
-                            Attempt Review · {selectedAttempt.year} · Score {selectedAttempt.totalScore}/{getAttemptTotalQuestions(selectedAttempt)}
+                            Attempt Review · {selectedAttempt.year} · Score {selectedAttempt.totalScore}/40
                           </h3>
                           <p className="mt-1 text-sm text-slate-600">
                             Inspect each question, verify your answer, and reopen exact exam positions.
@@ -1554,14 +1620,7 @@ export default function AccountPage() {
                                     Question content could not be matched for this record. You can still jump into exam mode.
                                   </p>
                                   <Link
-                                    href={buildExamHref(
-                                      selectedAttempt.year,
-                                      selectedReviewRow.paper,
-                                      selectedReviewRow.index,
-                                      getAttemptRouteMeta(selectedAttempt).exam,
-                                      getAttemptRouteMeta(selectedAttempt).part,
-                                      getAttemptRouteMeta(selectedAttempt).parts,
-                                    )}
+                                    href={`/exam/${selectedAttempt.year}?paper=${selectedReviewRow.paper}&q=${selectedReviewRow.index + 1}`}
                                     className="warm-primary-btn px-3 py-2 rounded-lg text-sm inline-flex"
                                   >
                                     Open in Exam
@@ -1709,14 +1768,7 @@ export default function AccountPage() {
 
                                   <div className="flex flex-wrap gap-2">
                                     <Link
-                                      href={buildExamHref(
-                                        selectedAttempt.year,
-                                        selectedReviewRow.paper,
-                                        selectedReviewRow.index,
-                                        getAttemptRouteMeta(selectedAttempt).exam,
-                                        getAttemptRouteMeta(selectedAttempt).part,
-                                        getAttemptRouteMeta(selectedAttempt).parts,
-                                      )}
+                                      href={`/exam/${selectedAttempt.year}?paper=${selectedReviewRow.paper}&q=${selectedReviewRow.index + 1}`}
                                       className="warm-primary-btn px-3 py-2 rounded-lg text-sm"
                                     >
                                       Open in Exam
@@ -1813,14 +1865,7 @@ export default function AccountPage() {
                         <div className="text-xs text-slate-500 mt-1">Saved {new Date(mistake.addedAt).toLocaleString()}</div>
                         <div className="mt-3 flex gap-2">
                           <Link
-                            href={buildExamHref(
-                              mistake.year,
-                              mistake.paper,
-                              mistake.index,
-                              getMistakeRouteMeta(mistake).exam,
-                              getMistakeRouteMeta(mistake).part,
-                              undefined,
-                            )}
+                            href={`/exam/${mistake.year}?paper=${mistake.paper}&q=${mistake.index + 1}`}
                             className="warm-primary-btn px-2.5 py-1.5 text-xs rounded-md"
                           >
                             Open

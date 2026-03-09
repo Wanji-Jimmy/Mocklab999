@@ -5,7 +5,7 @@ import Link from 'next/link'
 import AnimatedBackdrop from '@/components/AnimatedBackdrop'
 import MockLabLogo from '@/components/MockLabLogo'
 import RevealOnScroll from '@/components/RevealOnScroll'
-import SystemSwitchBar from '@/components/SystemSwitchBar'
+import { fetchAttemptsV2, fetchAuthMe, fetchMistakesV2 } from '@/lib/client-api'
 import { getCurrentUserEmail, getExamAttempts, getMistakes, ExamAttempt } from '@/lib/storage'
 
 const AVAILABLE_YEARS = [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023]
@@ -26,13 +26,36 @@ type StoredSession = {
 
 export default function DashboardPage() {
   const [email, setEmail] = useState<string | null>(null)
+  const [isAdmin, setIsAdmin] = useState(false)
   const [attempts, setAttempts] = useState<ExamAttempt[]>([])
   const [mistakeCount, setMistakeCount] = useState(0)
   const [yearProgress, setYearProgress] = useState<Record<number, YearProgress>>({})
+  const [usingLocalFallback, setUsingLocalFallback] = useState(false)
 
-  const refreshAccountSummary = () => {
+  const refreshAccountSummary = async () => {
+    const serverUser = await fetchAuthMe().catch(() => null)
+    if (serverUser?.email) {
+      setEmail(serverUser.email)
+      setIsAdmin(Boolean(serverUser.isAdmin))
+      try {
+        const [serverAttempts, serverMistakes] = await Promise.all([fetchAttemptsV2(), fetchMistakesV2()])
+        setAttempts(serverAttempts.sort((a, b) => b.takenAt.localeCompare(a.takenAt)))
+        setMistakeCount(serverMistakes.length)
+        setUsingLocalFallback(false)
+      } catch {
+        const current = getCurrentUserEmail()
+        const allAttempts = current ? getExamAttempts(current).sort((a, b) => b.takenAt.localeCompare(a.takenAt)) : []
+        setAttempts(allAttempts)
+        setMistakeCount(current ? getMistakes(current).length : 0)
+        setUsingLocalFallback(true)
+      }
+      return
+    }
+
     const current = getCurrentUserEmail()
     setEmail(current)
+    setIsAdmin(false)
+    setUsingLocalFallback(Boolean(current))
     if (!current) {
       setAttempts([])
       setMistakeCount(0)
@@ -73,7 +96,7 @@ export default function DashboardPage() {
   }
 
   useEffect(() => {
-    refreshAccountSummary()
+    void refreshAccountSummary()
   }, [])
 
   useEffect(() => {
@@ -90,17 +113,20 @@ export default function DashboardPage() {
         event.key.startsWith('tmua_attempts_') ||
         event.key.startsWith('tmua_mistakes_')
       ) {
-        refreshAccountSummary()
+        void refreshAccountSummary()
       }
     }
 
     window.addEventListener('storage', onStorage)
     window.addEventListener('focus', refreshYearProgress)
-    window.addEventListener('focus', refreshAccountSummary)
+    const onFocusAccount = () => {
+      void refreshAccountSummary()
+    }
+    window.addEventListener('focus', onFocusAccount)
     return () => {
       window.removeEventListener('storage', onStorage)
       window.removeEventListener('focus', refreshYearProgress)
-      window.removeEventListener('focus', refreshAccountSummary)
+      window.removeEventListener('focus', onFocusAccount)
     }
   }, [])
 
@@ -124,10 +150,9 @@ export default function DashboardPage() {
       <div className="relative z-10 max-w-6xl mx-auto space-y-7">
         <header className="flex items-center justify-between gap-4">
           <MockLabLogo href="/" tone="warm" />
-          <div className="flex flex-wrap items-center justify-end gap-2">
-            <SystemSwitchBar active="tmua" />
+          <div className="flex gap-2">
             <Link href="/" className="warm-outline-btn px-4 py-2 rounded-lg font-semibold text-sm">
-              System Entrance
+              Intro Page
             </Link>
             <Link href="/account" className="warm-primary-btn px-4 py-2 rounded-lg text-sm">
               My Account
@@ -151,9 +176,12 @@ export default function DashboardPage() {
 
               <div className="mt-6 grid md:grid-cols-3 gap-4">
                 <div className="warm-card-muted rounded-xl p-4">
-                  <div className="text-xs uppercase tracking-wide text-slate-500">Account Status</div>
-                  <div className="text-base font-bold text-slate-900 mt-1">{email ? email : 'Not signed in'}</div>
-                </div>
+                <div className="text-xs uppercase tracking-wide text-slate-500">Account Status</div>
+                <div className="text-base font-bold text-slate-900 mt-1">{email ? email : 'Not signed in'}</div>
+                {usingLocalFallback && (
+                  <div className="text-[11px] text-amber-700 mt-1">Offline fallback: showing local cached records.</div>
+                )}
+              </div>
                 <div className="warm-card-muted rounded-xl p-4">
                   <div className="text-xs uppercase tracking-wide text-slate-500">Mock Records</div>
                   <div className="text-2xl font-black warm-accent-text mt-1">{attemptCount}</div>
@@ -168,12 +196,20 @@ export default function DashboardPage() {
                 <Link href={`/exam/${quickStartYear}`} className="warm-primary-btn px-5 py-2.5 rounded-lg">
                   {latestInProgressYear ? `Resume ${latestInProgressYear}` : `Start Latest Year (${latestYear})`}
                 </Link>
+                <Link href="/esat" className="warm-outline-btn px-5 py-2.5 rounded-lg font-semibold">
+                  Open ESAT
+                </Link>
                 <Link href="/account" className="warm-outline-btn px-5 py-2.5 rounded-lg font-semibold">
                   Open My Account
                 </Link>
                 <Link href="/mistakes" className="warm-outline-btn px-5 py-2.5 rounded-lg font-semibold">
                   Open Mistake Center
                 </Link>
+                {isAdmin && (
+                  <Link href="/admin/uploads" className="warm-outline-btn px-5 py-2.5 rounded-lg font-semibold">
+                    Admin Uploads
+                  </Link>
+                )}
               </div>
             </div>
           </section>
