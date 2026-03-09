@@ -1,0 +1,4 @@
+interface:
+  display_name: "PDF to LaTeX Open"
+  short_description: "Open-source PDF to LaTeX extraction pipeline skill."
+  default_prompt: "Use $pdf-to-latex-open to convert PDFs into LaTeX-ready structured JSON with parser and OCR fallback."
