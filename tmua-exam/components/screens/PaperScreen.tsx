@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import { Question, ColorScheme } from '@/lib/types'
 import LatexRenderer from '@/components/LatexRenderer'
+import { getOfficialPdfUrl, hasDiagramPlaceholderOption, isDiagramPlaceholderOptionText } from '@/lib/esat-official-pdf'
 
 interface PaperScreenProps {
   question: Question
@@ -29,6 +30,8 @@ export default function PaperScreen({
   colorScheme,
 }: PaperScreenProps) {
   const [stemImageFailed, setStemImageFailed] = useState(false)
+  const hasPlaceholderOptions = hasDiagramPlaceholderOption(question)
+  const officialPdfUrl = hasPlaceholderOptions ? getOfficialPdfUrl(question) : null
 
   useEffect(() => {
     setStemImageFailed(false)
@@ -80,10 +83,22 @@ export default function PaperScreen({
           ))}
         </div>
       )}
+      {hasPlaceholderOptions && officialPdfUrl && (
+        <div className="mb-4 rounded-lg border border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-900">
+          Some options in this question are diagram-based and could not be fully extracted.
+          {' '}
+          <a href={officialPdfUrl} target="_blank" rel="noreferrer" className="font-semibold underline">
+            Open official question PDF
+          </a>
+          {' '}
+          for full figures.
+        </div>
+      )}
 
       <div className="space-y-3 pb-4">
         {question.options.map((option) => {
           const selected = selectedAnswer === option.key
+          const isPlaceholderOption = isDiagramPlaceholderOptionText(option.latex)
           return (
             <label
               key={option.key}
@@ -101,12 +116,17 @@ export default function PaperScreen({
               />
               <div className="text-[36px] leading-none font-bold mr-4">{option.key}.</div>
               <div className="flex-1 text-[32px] leading-snug">
-                {option.latex && <LatexRenderer latex={option.latex} />}
+                {option.latex && !isPlaceholderOption && <LatexRenderer latex={option.latex} />}
+                {isPlaceholderOption && (
+                  <p className="text-[24px] leading-normal font-medium text-slate-700">
+                    Diagram option {option.key}. Refer to the official PDF figure.
+                  </p>
+                )}
                 {option.image && (
                   <img src={option.image} alt={`Option ${option.key}`} className="max-w-full h-auto mt-2" />
                 )}
                 {!option.latex && !option.image && (
-                  <LatexRenderer latex={option.latex} />
+                  <p className="text-[22px] leading-normal text-slate-600">Option text unavailable.</p>
                 )}
               </div>
             </label>

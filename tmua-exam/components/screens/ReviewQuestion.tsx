@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import { Question } from '@/lib/types'
 import LatexRenderer from '@/components/LatexRenderer'
+import { getOfficialPdfUrl, hasDiagramPlaceholderOption, isDiagramPlaceholderOptionText } from '@/lib/esat-official-pdf'
 
 interface ReviewQuestionProps {
   question: Question
@@ -19,6 +20,8 @@ export default function ReviewQuestion({
 }: ReviewQuestionProps) {
   const [stemImageFailed, setStemImageFailed] = useState(false)
   const [explanationImageFailed, setExplanationImageFailed] = useState(false)
+  const hasPlaceholderOptions = hasDiagramPlaceholderOption(question)
+  const officialPdfUrl = hasPlaceholderOptions ? getOfficialPdfUrl(question) : null
 
   useEffect(() => {
     setStemImageFailed(false)
@@ -56,6 +59,17 @@ export default function ReviewQuestion({
 
         <div className="mt-7">
           <h3 className="text-lg font-bold mb-3">Options</h3>
+          {hasPlaceholderOptions && officialPdfUrl && (
+            <div className="mb-3 rounded-lg border border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-900">
+              Some options are diagram-based and may not be fully rendered in text.
+              {' '}
+              <a href={officialPdfUrl} target="_blank" rel="noreferrer" className="font-semibold underline">
+                Open official question PDF
+              </a>
+              {' '}
+              to review the original figure.
+            </div>
+          )}
           <div className="space-y-3">
             {question.options.map((option) => (
               <div
@@ -71,7 +85,11 @@ export default function ReviewQuestion({
                 <div className="flex items-start">
                   <span className="font-semibold mr-3">{option.key}.</span>
                   <div className="flex-1">
-                    <LatexRenderer latex={option.latex} />
+                    {isDiagramPlaceholderOptionText(option.latex) ? (
+                      <p className="text-slate-700">Diagram option {option.key}. Refer to the official PDF figure.</p>
+                    ) : (
+                      <LatexRenderer latex={option.latex} />
+                    )}
                   </div>
                   {option.key === question.answerKey && (
                     <span className="ml-2 text-emerald-700 text-sm font-semibold">Correct</span>
