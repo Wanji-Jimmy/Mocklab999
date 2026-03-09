@@ -1,16 +1,22 @@
 interface WelcomeScreenProps {
   onResetProgress?: () => void
+  examShortCode?: string
+  examFullName?: string
 }
 
-export default function WelcomeScreen({ onResetProgress }: WelcomeScreenProps) {
+export default function WelcomeScreen({
+  onResetProgress,
+  examShortCode = 'TMUA',
+  examFullName = 'Test of Mathematics for University Admission',
+}: WelcomeScreenProps) {
   return (
     <main className="max-w-5xl mx-auto">
       <div className="mx-auto mb-6 h-32 w-32 rounded-full border-2 border-[#016daa] bg-white grid place-items-center">
-        <div className="text-2xl font-black text-[#016daa] tracking-tight">TMUA</div>
+        <div className="text-2xl font-black text-[#016daa] tracking-tight">{examShortCode}</div>
       </div>
 
       <p className="mb-4 text-sm">
-        Welcome to the <span className="font-bold">Test of Mathematics for University Admission.</span>
+        Welcome to the <span className="font-bold">{examFullName}.</span>
       </p>
       <p className="mb-4 text-sm">
         Non-disclosure agreement and general terms of use for tests developed for UAT-UK:

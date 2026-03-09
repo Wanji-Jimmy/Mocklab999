@@ -11,6 +11,7 @@ export interface QuestionOutcome {
 export interface ExamEvaluation {
   scoreP1: number
   scoreP2: number
+  scoreP3: number
   totalScore: number
   grade: number
   questionOutcomes: QuestionOutcome[]
@@ -20,6 +21,7 @@ export function evaluateExam(
   questions: Question[],
   paper1Answers: Record<number, string>,
   paper2Answers: Record<number, string>,
+  paper3Answers: Record<number, string> = {},
 ): ExamEvaluation {
   const ordered = [...questions].sort((a, b) => {
     if (a.paper !== b.paper) return a.paper - b.paper
@@ -28,14 +30,16 @@ export function evaluateExam(
 
   let scoreP1 = 0
   let scoreP2 = 0
+  let scoreP3 = 0
   const questionOutcomes: QuestionOutcome[] = []
 
   for (const q of ordered) {
-    const userAnswer = q.paper === 1 ? paper1Answers[q.index] : paper2Answers[q.index]
+    const userAnswer = q.paper === 1 ? paper1Answers[q.index] : q.paper === 2 ? paper2Answers[q.index] : paper3Answers[q.index]
     const isCorrect = userAnswer === q.answerKey
 
     if (q.paper === 1 && isCorrect) scoreP1 += 1
     if (q.paper === 2 && isCorrect) scoreP2 += 1
+    if (q.paper === 3 && isCorrect) scoreP3 += 1
 
     questionOutcomes.push({
       question: q,
@@ -45,12 +49,13 @@ export function evaluateExam(
     })
   }
 
-  const totalScore = scoreP1 + scoreP2
+  const totalScore = scoreP1 + scoreP2 + scoreP3
   const grade = calculateGrade(totalScore)
 
   return {
     scoreP1,
     scoreP2,
+    scoreP3,
     totalScore,
     grade,
     questionOutcomes,

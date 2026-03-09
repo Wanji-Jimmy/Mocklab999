@@ -23,6 +23,25 @@ function toCsvCell(value: unknown): string {
   return `"${text.replace(/"/g, '""')}"`
 }
 
+function buildMistakeApiQuery(item: MistakeItem): string {
+  const exam = item.exam || 'tmua'
+  const params = new URLSearchParams({ year: item.year, exam })
+  if (exam === 'nsaa' && item.part) params.set('part', item.part)
+  return params.toString()
+}
+
+function buildMistakeHref(item: MistakeItem): string {
+  const exam = item.exam || 'tmua'
+  const suffix = `?paper=${item.paper}&q=${item.index + 1}`
+  if (exam === 'engaa') return `/esat/engaa/${item.year}${suffix}`
+  if (exam === 'nsaa' && item.part) return `/esat/nsaa/${item.year}/${item.part}${suffix}`
+  return `/exam/${item.year}${suffix}`
+}
+
+function getQuestionCacheKey(item: MistakeItem): string {
+  return `${item.exam || 'tmua'}:${item.year}:${item.part || ''}`
+}
+
 export default function MistakesPage() {
   const [email, setEmail] = useState<string | null>(null)
   const [mistakes, setMistakes] = useState<MistakeItem[]>([])
@@ -121,16 +140,18 @@ export default function MistakesPage() {
 
   const selectedQuestion = useMemo(() => {
     if (!selectedMistake) return null
-    const yearQuestions = questionsByYear[selectedMistake.year] || []
+    const cacheKey = getQuestionCacheKey(selectedMistake)
+    const yearQuestions = questionsByYear[cacheKey] || []
     return yearQuestions.find((question) => question.id === selectedMistake.id) || null
   }, [questionsByYear, selectedMistake])
 
-  const loadYearQuestions = useCallback(async (year: string) => {
-    if (questionsByYear[year]) return
-    setLoadingYear(year)
+  const loadYearQuestions = useCallback(async (item: MistakeItem) => {
+    const cacheKey = getQuestionCacheKey(item)
+    if (questionsByYear[cacheKey]) return
+    setLoadingYear(item.year)
     setDetailError(null)
     try {
-      const response = await fetch(`/api/questions?year=${year}`)
+      const response = await fetch(`/api/questions?${buildMistakeApiQuery(item)}`)
       if (!response.ok) throw new Error(`HTTP ${response.status}`)
       const payload = (await response.json()) as Question[]
       if (!Array.isArray(payload) || payload.length === 0) throw new Error('No questions found')
@@ -138,11 +159,11 @@ export default function MistakesPage() {
         if (a.paper !== b.paper) return a.paper - b.paper
         return a.index - b.index
       })
-      setQuestionsByYear((prev) => ({ ...prev, [year]: sorted }))
+      setQuestionsByYear((prev) => ({ ...prev, [cacheKey]: sorted }))
     } catch {
-      setDetailError(`Failed to load question details for ${year}.`)
+      setDetailError(`Failed to load question details for ${item.year}.`)
     } finally {
-      setLoadingYear((prev) => (prev === year ? null : prev))
+      setLoadingYear((prev) => (prev === item.year ? null : prev))
     }
   }, [questionsByYear])
 
@@ -243,7 +264,7 @@ export default function MistakesPage() {
 
   useEffect(() => {
     if (!selectedMistake) return
-    void loadYearQuestions(selectedMistake.year)
+    void loadYearQuestions(selectedMistake)
   }, [selectedMistake, loadYearQuestions])
 
   useEffect(() => {
@@ -395,7 +416,7 @@ export default function MistakesPage() {
                           View
                         </button>
                         <Link
-                          href={`/exam/${m.year}?paper=${m.paper}&q=${m.index + 1}`}
+                          href={buildMistakeHref(m)}
                           className="warm-primary-btn px-3 py-2 rounded-md text-sm"
                         >
                           Open Question
@@ -460,7 +481,7 @@ export default function MistakesPage() {
                       Go
                     </button>
                     <Link
-                      href={`/exam/${selectedMistake.year}?paper=${selectedMistake.paper}&q=${selectedMistake.index + 1}`}
+                      href={buildMistakeHref(selectedMistake)}
                       className="warm-primary-btn px-3 py-2 rounded-lg text-sm"
                     >
                       Open in Exam

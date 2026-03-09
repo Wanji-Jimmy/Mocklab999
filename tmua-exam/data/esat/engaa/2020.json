@@ -1,0 +1,534 @@
+{
+  "exam": "engaa",
+  "year": "2020",
+  "source": "official-pdf-auto-parse",
+  "paper1": [
+    {
+      "question": "The admission charge to a cinema is different for adults and children. Admission for 2 adults and 3 children costs £20. Admission for 4 adults and 4 children costs £34. What does admission cost for 6 adults and 2 children?",
+      "answers": {
+        "a": "£27",
+        "b": "£29",
+        "c": "£33",
+        "d": "£39",
+        "e": "£44",
+        "f": "£48",
+        "g": "£72"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "A soldering iron has a copper tip of mass 2.0g. The tip is heated with 30W of thermal power. In 50s, the temperature of the tip increases by 200°C. How much energy is transferred from the tip to the surroundings in this time? (specific heat capacity of copper = 400Jkg–1°C–1)",
+      "answers": {
+        "a": "160J",
+        "b": "500J",
+        "c": "1340J",
+        "d": "1500J",
+        "e": "1660J",
+        "f": "1840J",
+        "g": "2500J 4"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "A fair spinner has eight equal sections. Each section has one number written on it, as shown. 3 1 1 3 3 2 1 3 The spinner is spun twice, and the two numbers scored are added. What is the probability that the sum of the two numbers is 5? 1 A 8 5 B 8 1 C 16 3 D 16 25 E 64 55 F 64 5 ( )",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "Uranium-238 238U decays by a series of alpha and beta (β–) emissions to become the stable 92 ( ) isotope lead-206 206Pb . 82 How many beta (β–) particles are emitted in the decay of one uranium-238 nucleus to lead-206?",
+      "answers": {
+        "a": "6",
+        "b": "8",
+        "c": "10",
+        "d": "12",
+        "e": "14",
+        "f": "16"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "Consider the four lines with the following equations. 1 2x + 6y = 3 2 9y = 3x – 4 3 2y = 6x + 3 4 4x + 6y – 9 = 0 Which two lines are perpendicular?",
+      "answers": {
+        "a": "1 and 2",
+        "b": "1 and 3",
+        "c": "1 and 4",
+        "d": "2 and 3",
+        "e": "2 and 4",
+        "f": "3 and 4"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "6 6 A dc electricity transmission system uses an undersea cable to send electricity from one country to another. On a particular day, the first country supplies electricity at a voltage of 400kV and 2000A to the transmission system. The second country receives electricity from the transmission system at 160kV and 4000A. What is the percentage efficiency of the system and how much energy is wasted every minute? energy wasted efficiency % every minute /J",
+      "answers": {
+        "a": "20 9.6 ×109",
+        "b": "20 3.84 ×1010",
+        "c": "20 4.8 ×1010",
+        "d": "80 9.6 ×109",
+        "e": "80 3.84 ×1010",
+        "f": "80 4.8 ×1010"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "Find the sum of the solutions of ⎛ x ⎞ 2 ⎛ x ⎞ 2⎜ +3⎟ − ⎜ +3⎟ −36 = 0 ⎝4 ⎠ ⎝4 ⎠",
+      "answers": {
+        "a": "2 3 B 2 1 C 2",
+        "d": "–4",
+        "e": "–13",
+        "f": "–22",
+        "g": "–26",
+        "h": "–34 7"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "Two fixed horizontal metal rails are side by side and 12cm apart. The rails are connected to a dc power supply by a switch that is initially open.",
+      "answers": {
+        "a": "0.36 to the left",
+        "b": "0.36 to the right",
+        "c": "0.60 to the left",
+        "d": "0.60 to the right",
+        "e": "3.6 to the left",
+        "f": "3.6 to the right",
+        "g": "6.0 to the left",
+        "h": "6.0 to the right 8"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "When the expression (2x + 3)2 – (x – 3)2 is written in the form p(x + q)2 + r, where p, q and r are constants, what is the value of r?",
+      "answers": {
+        "a": "–27",
+        "b": "–9",
+        "c": "0",
+        "d": "3",
+        "e": "15"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "Two trolleys are moving towards each other along a straight horizontal track. One trolley has mass 8.0kg and is travelling to the right at 4.0ms−1. The other trolley has mass 2.0kg and is travelling to the left at 1.0ms−1. When the trolleys collide they stick together. How much kinetic energy is transferred to other forms of energy in the collision?",
+      "answers": {
+        "a": "2.0J",
+        "b": "18J",
+        "c": "20J",
+        "d": "28J",
+        "e": "35J",
+        "f": "40J",
+        "g": "45J",
+        "h": "65J 9"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "The number of pairs of winter boots sold on a day is inversely proportional to the cube of the outside temperature on that day, measured in °C. On a day when the outside temperature is 8°C, 250 pairs of boots are sold. The next day, when the outside temperature is x°C, the number of pairs of boots sold is 700% more than on the previous day. What is the value of x?",
+      "answers": {
+        "a": "2",
+        "b": "4 8 C 3 7",
+        "d": "83 7",
+        "e": "16 10"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "A car of mass 800kg travels in a straight line along a horizontal road. The car accelerates non-uniformly from rest for 5.0 seconds and then moves at constant speed, as shown in the distance–time graph: distance/m 40 10 0 0 5 10 time/s What is the average resultant force acting on the car over the time for which it is accelerating?",
+      "answers": {
+        "a": "320N",
+        "b": "480N",
+        "c": "640N",
+        "d": "960N",
+        "e": "1600N",
+        "f": "3200N",
+        "g": "4800N 11"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "In a sale, all prices are reduced by 25%.",
+      "answers": {
+        "a": "£180",
+        "b": "£195",
+        "c": "£210",
+        "d": "£225",
+        "e": "£240"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "P and Q are two fixed points on the surface of the ocean which are 6.0m apart. An ocean wave travels in the direction P to Q. The wave has a frequency of 0.50Hz and travels at a constant speed.",
+      "answers": {
+        "a": "2.1ms–1",
+        "b": "3.4ms–1",
+        "c": "5.0ms–1",
+        "d": "7.5ms–1",
+        "e": "20ms–1 12"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "Q y z 61° P x S R [diagram not to scale] In the diagram, QS is perpendicular to PR. PS = xcm PQ = ycm QR = zcm angle QRS = 61° PSR is a straight line. Which one of the following is an expression for the length z, in cm?",
+      "answers": {
+        "a": "y2 + x2 sin61°",
+        "b": "y2 − x2 sin61°",
+        "c": "y2 + x2 cos61°",
+        "d": "y2 − x2 cos61° y2 + x2 E sin61° y2 − x2 F sin61° y2 + x2 G cos61° y2 − x2 H cos61° 13"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "A parachutist of mass 80.0kg drops from a plane travelling at 40.0ms–1, 2000m above the Earth’s surface. The parachutist hits the ground at a speed of 5.00ms–1. How much work is done by the parachutist against drag forces during the fall? (Take the Earth’s gravitational field strength to be10.0Nkg–1.)",
+      "answers": {
+        "a": "1535000J",
+        "b": "1624000J",
+        "c": "1649000J",
+        "d": "1663000J",
+        "e": "1726000J"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "Two vertices of a square are at (1,1) and (3,5). What is the difference between the perimeters of the largest and smallest possible squares that can be drawn with these points as two of their vertices?",
+      "answers": {
+        "a": "0 ( )",
+        "b": "4 3 2− 2 ( )",
+        "c": "4 3 2 −1 ( )",
+        "d": "4 5 2− 2 ( )",
+        "e": "4 5 2 −1 ( )",
+        "f": "4 13 2− 2 ( )",
+        "g": "4 13 2 −1 ( )",
+        "h": "4 3 5 2− 2 14"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "A light spring of unstretched length 0.10m has a spring constant of 20Nm–1. The spring is suspended so that it is vertical and a load of mass 0.050kg is attached to the end of the spring. The load is pulled vertically downwards until the length of the spring is 0.30m. The load is then released. What is the speed of the load at the instant that the spring returns to its unstretched length? (gravitational field strength = 10Nkg–1; assume that resistive forces are negligible)",
+      "answers": {
+        "a": "0ms–1",
+        "b": "4.0ms–1",
+        "c": "6.0ms–1",
+        "d": "12ms–1",
+        "e": "16ms–1",
+        "f": "6ms–1",
+        "g": "12 ms–1",
+        "h": "30 ms–1"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "g"
+    },
+    {
+      "question": "The quadratic equation 2x2 – px – 4 = 0, where p is a positive constant, has two solutions that differ by 6. What is the value of p?",
+      "answers": {
+        "a": "2",
+        "b": "4 7",
+        "c": "12",
+        "d": "4 11",
+        "e": "4 34",
+        "f": "6 30 15"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "A rocket travelling in space is burning its fuel at a constant rate. By expelling the burnt fuel through a nozzle, the engine is applying a constant force to the rocket. What is happening to the magnitude of the acceleration of the rocket?",
+      "answers": {
+        "a": "It is increasing at an increasing rate.",
+        "b": "It is increasing at a constant rate.",
+        "c": "It is increasing at a decreasing rate.",
+        "d": "It is not changing.",
+        "e": "It is decreasing at an increasing rate.",
+        "f": "It is decreasing at a constant rate.",
+        "g": "It is decreasing at a decreasing rate. 16 PART B Advanced Mathematics and Advanced Physics NOTE: questions in this part that are not covered by the ESAT content specification are indicated by a cross through the question number. 17"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    }
+  ],
+  "paper2": [
+    {
+      "question": "(x – 1) and (x – 2) are both factors of x4 + ax3 + bx2 – 12x + 4 What are the values of a and b?",
+      "answers": {
+        "a": "a = –6 and b = –23",
+        "b": "a = –6 and b = 13",
+        "c": "a = 6 and b = –11",
+        "d": "a = 6 and b = 1"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "A block of mass m slides down a rough slope. At position 1 the velocity of the block is v . 1 At position 2, which is a vertical distance h below position 1, the velocity of the block is v . 2 1 v 1 2 h v 2 Which expression gives the work done against friction by the block as it slides from position 1 to position 2? (gravitational field strength = g; assume that air resistance is negligible)",
+      "answers": {
+        "a": "mgh + 2 1m(v 2 2 – v 1 2)",
+        "b": "mgh − 2 1m(v 2 2 – v 1 2)",
+        "c": "mgh + 2 1m(v 2 – v 1 )2",
+        "d": "mgh − 2 1m(v 2 – v 1 )2",
+        "e": "1m(v 2 – v 2) – mgh 2 2 1",
+        "f": "1m(v 2 – v 2) – mgh 2 1 2",
+        "g": "1m(v – v )2 – mgh 2 2 1",
+        "h": "1m(v – v )2 – mgh 2 1 2 18"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "What is the area of the region enclosed between the curve y = 1x2, the line y = –x, and the 2 lines x = 1 and x = 3? 1 A 3",
+      "answers": {
+        "b": "2",
+        "c": "4",
+        "d": "6 25 E 3 28 F 3 19"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "The braking system of a car includes two cylinders containing an incompressible oil, linked by a flexible tube that also contains oil. There is a freely moving piston in each cylinder. One piston is labelled X, and the other is labelled Y in the diagram. oil piston X piston Y flexible tube When the driver presses on the brake pedal, a force is exerted on piston X. The pressure produced in the oil by this force is transmitted through the oil so that it causes a force to act on piston Y. This presses the brakes against the moving parts. The diameter of piston X is 4.0cm. The diameter of piston Y is 12.0cm. The driver exerts a force of 36.0N on piston X and it moves a distance of 5.4cm to the right. What is the resultant force on piston Y and how far does it move along the cylinder? force on piston Y /N distance moved by piston Y /cm",
+      "answers": {
+        "a": "4.0 0.60",
+        "b": "4.0 48.6",
+        "c": "12.0 1.80",
+        "d": "12.0 16.2",
+        "e": "108 1.80",
+        "f": "108 16.2",
+        "g": "324 0.60",
+        "h": "324 48.6 20"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "g"
+    },
+    {
+      "question": "A line with non-zero gradient m is reflected in the line y = x What is the gradient of the reflected line?",
+      "answers": {
+        "a": "m",
+        "b": "–m 1 C m 1",
+        "d": "– m 21"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "The graph shows how the displacement due to a wave in air varies with time. displacement 0 0 1 2 3 4 5 6 7 8 9 time /10–3s The speed of the wave in air is 300ms–1. The wave now travels into water. wavespeedinair = 0.2 wavespeedinwater What is the wavelength of the wave in water? 1",
+      "answers": {
+        "a": "m 6 2",
+        "b": "m 9 5",
+        "c": "m 6 9",
+        "d": "m 10 10",
+        "e": "m 9 6",
+        "f": "m 5 9",
+        "g": "m 2",
+        "h": "6m 22"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "h"
+    },
+    {
+      "question": "The sum of the first 20 terms of an arithmetic progression is 50. The sum of the next 20 terms of the arithmetic progression is –50. What is the sum of the first 100 terms of the arithmetic progression?",
+      "answers": {
+        "a": "–750",
+        "b": "–350",
+        "c": "–50 159",
+        "d": "– 8 159 E 8",
+        "f": "50",
+        "g": "350",
+        "h": "750 23"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "A flat rectangular coil of wire with sides of length 30cm and 20cm is freely pivoted about an axle. The axle passes through the middle of the sides of length 30cm. Part of the coil is between the poles of a U-shaped magnet as shown in the diagram. The poles are 4.0cm long. The magnetic field can be considered uniform between the poles, and zero elsewhere. The coil is connected to a power supply so that there is a current in it. flat coil of wire to circuit axle 20cm 4cm N S 30cm [diagram not to scale] The current is 0.60A and the magnetic flux density is 0.050T. There are 50 turns of wire in the coil. What is the moment about the axle, in Ncm, produced by the magnetic force acting on the coil?",
+      "answers": {
+        "a": "0.018Ncm",
+        "b": "0.036Ncm",
+        "c": "0.045Ncm",
+        "d": "0.90Ncm",
+        "e": "1.8Ncm",
+        "f": "2.25Ncm",
+        "g": "4.5 N cm 24"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "The line L with equation y = mx + c, where m > 0 and c ≥ 0, passes through the point (2,4).",
+      "answers": {
+        "a": "–0.5",
+        "b": "0.5",
+        "c": "1.25",
+        "d": "2",
+        "e": "5 25"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "A box of mass 3.0kg is pulled a distance 5.0m directly up a smooth slope by a constant applied force of 30N acting parallel to the slope. The initial speed of the box is 3.0ms–1 and the final speed is 7.0ms–1. Its acceleration is constant. 5.0m 30N box What is the component of the weight acting down the slope? (gravitational field strength = 10Nkg–1; air resistance is negligible)",
+      "answers": {
+        "a": "12N",
+        "b": "18N",
+        "c": "22N",
+        "d": "28N",
+        "e": "29N",
+        "f": "42N",
+        "g": "90N 26"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "P and Q are two different geometric progressions. The 3rd term of each geometric progression is 4. The 5th term of each geometric progression is 2. What is the modulus of the difference between the sums to infinity of P and Q?",
+      "answers": {
+        "a": "0",
+        "b": "8",
+        "c": "8 2",
+        "d": "16",
+        "e": "16 2",
+        "f": "32",
+        "g": "32 2 27"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "Electrical power is supplied through a dc transmission line that consists of two metal wires. Each wire is 8.0km long and has a cross-sectional area of 1.0cm2. wires current The resistivity of the metal from which the wires are made is 2.5 ×10–7Ωm. Electrical power is transmitted to the transmission line at a potential difference of 24000V. At what rate is energy being wasted as heat in the wires when the power supplied to the transmission line is 120kW?",
+      "answers": {
+        "a": "0.40W",
+        "b": "0.80W",
+        "c": "1.6W",
+        "d": "250W",
+        "e": "500W",
+        "f": "1000W",
+        "g": "1.44 ×107W",
+        "h": "5.76 ×107W 28"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "The curve y = x3 + 3 5px2 + 3px + 13 has two distinct turning points. What are all the possible values of p?",
+      "answers": {
+        "a": "p < 0 , p > 0.2",
+        "b": "p ≤ 0 , p ≥ 0.2",
+        "c": "0 < p < 0.2",
+        "d": "0 ≤ p ≤ 0.2",
+        "e": "p < 0 , p > 1.2",
+        "f": "p ≤ 0 , p ≥ 1.2",
+        "g": "0 < p < 1.2",
+        "h": "0 ≤ p ≤ 1.2"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "A tennis ball travelling at 24.0ms–1 is hit by a racket. As a result of the impact, the ball returns back along its original path having undergone a change in velocity of 48.0ms–1. The acceleration of the ball whilst in contact with the racket is constant with magnitude 6000ms–2. What is the total distance travelled by the ball whilst in contact with the racket?",
+      "answers": {
+        "a": "0.00cm",
+        "b": "4.80cm",
+        "c": "9.60cm",
+        "d": "14.4cm",
+        "e": "19.2cm 29"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "Find the number of solutions of the equation 14cos3x + 10sin2x cosx = 13cosx in the range –2π ≤ x ≤ 2π",
+      "answers": {
+        "a": "4",
+        "b": "6",
+        "c": "8",
+        "d": "10",
+        "e": "12",
+        "f": "14 30"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "The diagram shows the relative positions of two identical light springs, both in equilibrium. The springs are supporting loads of mass 0.20kg and 1.0kg as shown. 4.0cm 0.20kg 1.0kg [diagram not to scale] The same two springs are now connected in parallel, supporting a 2.0kg mass as shown. 2.0kg [diagram not to scale] In this parallel arrangement, what is the total strain energy in the springs? (gravitational field strength = 10Nkg–1; assume that the springs obey Hooke’s law)",
+      "answers": {
+        "a": "0.25J",
+        "b": "0.40J",
+        "c": "0.50J",
+        "d": "1.0J",
+        "e": "25J",
+        "f": "40J",
+        "g": "50J",
+        "h": "100J 31"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "Find the product of the real roots of the equation ( log x2 )2 +log x = 3 10 10 −3",
+      "answers": {
+        "a": "10 2 B 10−1 −1",
+        "c": "10 2 −1",
+        "d": "10 4 3",
+        "e": "105 F 101 32"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "An object of mass 2.5kg is at rest at time = 0s. A resultant force acts on the object in a constant direction. The magnitude of the resultant force acting on the object varies with time as shown by the graph. 24 force /N 16 8 0 0 0.04 0.08 0.12 0.16 0.20 time /s What is the kinetic energy of the object at time = 0.20s?",
+      "answers": {
+        "a": "0J",
+        "b": "0.80J",
+        "c": "1.0J",
+        "d": "1.6J",
+        "e": "2.0J",
+        "f": "3.2J",
+        "g": "6.4J 33"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "Find the maximum value of the gradient of the curve with equation 3 y = 2 – 4x + 4x2 – x2 where x > 0",
+      "answers": {
+        "a": "–4 8",
+        "b": "– 9 1 C 2",
+        "d": "2",
+        "e": "4 34"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "In the following circuit, the ammeter records a current of zero. 100Ω 1200Ω 6.0V 16V 200Ω R A What is the resistance of resistor R?",
+      "answers": {
+        "a": "0Ω",
+        "b": "200Ω",
+        "c": "300Ω",
+        "d": "400Ω",
+        "e": "600Ω",
+        "f": "1200Ω",
+        "g": "1800Ω",
+        "h": "2400Ω END OF TEST 35 36"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    }
+  ]
+}

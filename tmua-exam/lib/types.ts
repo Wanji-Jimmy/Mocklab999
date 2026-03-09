@@ -5,6 +5,8 @@ export type ExamState =
   | 'PAPER1_ACTIVE'
   | 'PAPER2_INSTRUCTIONS'
   | 'PAPER2_ACTIVE'
+  | 'PAPER3_INSTRUCTIONS'
+  | 'PAPER3_ACTIVE'
   | 'SUBMIT_CONFIRM'
   | 'RESULT_SUMMARY'
   | 'REVIEW_QUESTION'
@@ -36,24 +38,29 @@ export interface Question {
 export interface ExamSession {
   state: ExamState
   colorScheme: ColorScheme
-  currentPaper: 1 | 2
+  currentPaper: 1 | 2 | 3
   currentQuestionIndex: number
   
   // Timer
   paper1TimeLeft: number // seconds
   paper2TimeLeft: number // seconds
+  paper3TimeLeft: number // seconds
   paper2InstructionsTimeLeft: number // seconds
+  paper3InstructionsTimeLeft: number // seconds
   readingTimeLeft: number // seconds
   
   // Answers and flags
   paper1Answers: Record<number, string> // questionIndex -> selectedOption
   paper2Answers: Record<number, string>
+  paper3Answers: Record<number, string>
   paper1Flags: Record<number, boolean>
   paper2Flags: Record<number, boolean>
+  paper3Flags: Record<number, boolean>
   
   // Results
   scoreP1?: number
   scoreP2?: number
+  scoreP3?: number
   totalScore?: number
   grade?: number
   questionOutcomes?: Array<{
@@ -80,11 +87,15 @@ export const INITIAL_SESSION: ExamSession = {
   
   paper1TimeLeft: 75 * 60, // 75 minutes
   paper2TimeLeft: 75 * 60,
+  paper3TimeLeft: 75 * 60,
   paper2InstructionsTimeLeft: 1 * 60, // 1 minute
+  paper3InstructionsTimeLeft: 1 * 60, // 1 minute
   readingTimeLeft: 1 * 60, // 1 minute
   
   paper1Answers: {},
   paper2Answers: {},
+  paper3Answers: {},
   paper1Flags: {},
   paper2Flags: {},
+  paper3Flags: {},
 }

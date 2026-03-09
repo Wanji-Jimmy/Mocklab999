@@ -14,12 +14,36 @@ import ReviewQuestion from '@/components/screens/ReviewQuestion'
 import NavigatorModal from '@/components/NavigatorModal'
 import { addExamAttempt, addMistake, getCurrentUserEmail } from '@/lib/storage'
 import { evaluateExam } from '@/lib/exam-scoring'
+import { ExamTrack, getNsaaPartLabel, NsaaPartKey } from '@/lib/exam-catalog'
 
-const SESSION_KEY = 'tmua_exam_session'
-const AUTO_ADVANCE_KEY = 'tmua_auto_advance'
+const SESSION_KEY = 'mock_exam_session'
+const AUTO_ADVANCE_KEY = 'mock_auto_advance'
+
+const EXAM_TEXT: Record<ExamTrack, { short: string; full: string; completion: string; showGrade: boolean }> = {
+  tmua: {
+    short: 'TMUA',
+    full: 'Test of Mathematics for University Admission',
+    completion: 'Complete the TMUA',
+    showGrade: true,
+  },
+  engaa: {
+    short: 'ENGAA',
+    full: 'Engineering Admissions Assessment',
+    completion: 'Complete the ENGAA Mock',
+    showGrade: false,
+  },
+  nsaa: {
+    short: 'NSAA',
+    full: 'Natural Sciences Admissions Assessment',
+    completion: 'Complete the NSAA Mock',
+    showGrade: false,
+  },
+}
 
 interface ExamRunnerProps {
   year: string
+  exam?: ExamTrack
+  nsaaParts?: NsaaPartKey[]
 }
 
 function isEditableTarget(target: EventTarget | null): boolean {
@@ -28,11 +52,14 @@ function isEditableTarget(target: EventTarget | null): boolean {
   return tag === 'input' || tag === 'textarea' || tag === 'select' || target.isContentEditable
 }
 
-function getCurrentPaperSessionKey(year: string): string {
-  return `${SESSION_KEY}_${year}`
+function getCurrentPaperSessionKey(year: string, exam: ExamTrack, partsKey?: string): string {
+  if (exam === 'tmua' && !partsKey) {
+    return `tmua_exam_session_${year}`
+  }
+  return `${SESSION_KEY}_${exam}_${year}${partsKey ? `_${partsKey}` : ''}`
 }
 
-export default function ExamRunner({ year }: ExamRunnerProps) {
+export default function ExamRunner({ year, exam = 'tmua', nsaaParts = [] }: ExamRunnerProps) {
   const searchParams = useSearchParams()
   const [session, setSession] = useState<ExamSession>(INITIAL_SESSION)
   const [autoAdvance, setAutoAdvance] = useState(false)
@@ -49,19 +76,31 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
 
   const targetPaperParam = searchParams.get('paper')
   const targetQuestionParam = searchParams.get('q')
+  const examText = EXAM_TEXT[exam]
+  const selectedNsaaParts = useMemo(() => Array.from(new Set(nsaaParts)).slice(0, 2), [nsaaParts])
+  const nsaaPartsKey = useMemo(() => selectedNsaaParts.join('__'), [selectedNsaaParts])
+  const hasPaper3 = exam === 'nsaa' && selectedNsaaParts.length === 2
+  const paper1Total = useMemo(() => questions.filter((q) => q.paper === 1).length, [questions])
+  const paper2Total = useMemo(() => questions.filter((q) => q.paper === 2).length, [questions])
+  const paper3Total = useMemo(() => questions.filter((q) => q.paper === 3).length, [questions])
+  const totalForCurrentPaper = session.currentPaper === 1 ? paper1Total : session.currentPaper === 2 ? paper2Total : paper3Total
+  const totalPossible = paper1Total + paper2Total + paper3Total
+  const paper2Label = exam === 'nsaa' && selectedNsaaParts[0] ? getNsaaPartLabel(selectedNsaaParts[0]) : 'Paper 2'
+  const paper3Label = exam === 'nsaa' && selectedNsaaParts[1] ? getNsaaPartLabel(selectedNsaaParts[1]) : 'Paper 3'
 
   const getDeepLinkTarget = useCallback(() => {
     const paper = Number.parseInt(targetPaperParam || '', 10)
     const question = Number.parseInt(targetQuestionParam || '', 10)
-    if (![1, 2].includes(paper)) return null
-    if (!Number.isFinite(question) || question < 1 || question > 20) return null
-    return { paper: paper as 1 | 2, index: question - 1 }
-  }, [targetPaperParam, targetQuestionParam])
+    const allowedPapers = hasPaper3 ? [1, 2, 3] : [1, 2]
+    if (!allowedPapers.includes(paper)) return null
+    if (!Number.isFinite(question) || question < 1 || question > 200) return null
+    return { paper: paper as 1 | 2 | 3, index: question - 1 }
+  }, [targetPaperParam, targetQuestionParam, hasPaper3])
 
-  const buildSessionFromDeepLink = useCallback((paper: 1 | 2, index: number): ExamSession => {
+  const buildSessionFromDeepLink = useCallback((paper: 1 | 2 | 3, index: number): ExamSession => {
     return {
       ...INITIAL_SESSION,
-      state: paper === 1 ? 'PAPER1_ACTIVE' : 'PAPER2_ACTIVE',
+      state: paper === 1 ? 'PAPER1_ACTIVE' : paper === 2 ? 'PAPER2_ACTIVE' : 'PAPER3_ACTIVE',
       currentPaper: paper,
       currentQuestionIndex: index,
     }
@@ -71,7 +110,12 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
     setIsLoadingQuestions(true)
     setQuestionsError(null)
     try {
-      const res = await fetch(`/api/questions?year=${year}`)
+      const params = new URLSearchParams({ year, exam })
+      if (exam === 'nsaa') {
+        if (selectedNsaaParts.length === 1) params.set('part', selectedNsaaParts[0])
+        if (selectedNsaaParts.length === 2) params.set('parts', selectedNsaaParts.join(','))
+      }
+      const res = await fetch(`/api/questions?${params.toString()}`)
       if (!res.ok) {
         throw new Error(`HTTP ${res.status}`)
       }
@@ -85,8 +129,12 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
       })
       const paper1Count = normalized.filter((q) => q.paper === 1).length
       const paper2Count = normalized.filter((q) => q.paper === 2).length
-      if (paper1Count < 20 || paper2Count < 20) {
-        throw new Error(`Incomplete question set: Paper1=${paper1Count}, Paper2=${paper2Count}`)
+      const paper3Count = normalized.filter((q) => q.paper === 3).length
+      const requiredPaper1 = 20
+      const requiredPaper2 = exam === 'nsaa' ? 5 : 20
+      const requiredPaper3 = hasPaper3 ? 5 : 0
+      if (paper1Count < requiredPaper1 || paper2Count < requiredPaper2 || paper3Count < requiredPaper3) {
+        throw new Error(`Incomplete question set: Paper1=${paper1Count}, Paper2=${paper2Count}, Paper3=${paper3Count}`)
       }
       setQuestions(normalized)
     } catch (err) {
@@ -96,20 +144,22 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
     } finally {
       setIsLoadingQuestions(false)
     }
-  }, [year])
+  }, [year, exam, hasPaper3, selectedNsaaParts])
 
   const repairSession = useCallback((raw: ExamSession): ExamSession => {
     const next = { ...raw }
     if (!Number.isFinite(next.paper2InstructionsTimeLeft) || next.paper2InstructionsTimeLeft < 0) next.paper2InstructionsTimeLeft = 60
+    if (!Number.isFinite(next.paper3InstructionsTimeLeft) || next.paper3InstructionsTimeLeft < 0) next.paper3InstructionsTimeLeft = 60
     if (!Number.isFinite(next.readingTimeLeft) || next.readingTimeLeft < 0) next.readingTimeLeft = 60
     if (!Number.isFinite(next.paper1TimeLeft) || next.paper1TimeLeft < 0) next.paper1TimeLeft = 75 * 60
     if (!Number.isFinite(next.paper2TimeLeft) || next.paper2TimeLeft < 0) next.paper2TimeLeft = 75 * 60
+    if (!Number.isFinite(next.paper3TimeLeft) || next.paper3TimeLeft < 0) next.paper3TimeLeft = 75 * 60
     return next
   }, [])
 
   useEffect(() => {
     const deepLink = getDeepLinkTarget()
-    const sessionKey = getCurrentPaperSessionKey(year)
+    const sessionKey = getCurrentPaperSessionKey(year, exam, nsaaPartsKey)
     const savedAutoAdvance = localStorage.getItem(AUTO_ADVANCE_KEY)
     if (savedAutoAdvance === '1') {
       setAutoAdvance(true)
@@ -123,7 +173,8 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
         const hasStarted =
           loadedSession.state !== 'WELCOME' ||
           Object.keys(loadedSession.paper1Answers).length > 0 ||
-          Object.keys(loadedSession.paper2Answers).length > 0
+          Object.keys(loadedSession.paper2Answers).length > 0 ||
+          Object.keys(loadedSession.paper3Answers || {}).length > 0
 
         if (hasStarted) {
           if (deepLink) {
@@ -148,13 +199,13 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
 
     setIsHydrated(true)
     void loadQuestions()
-  }, [year, loadQuestions, repairSession, getDeepLinkTarget, buildSessionFromDeepLink])
+  }, [year, exam, nsaaPartsKey, loadQuestions, repairSession, getDeepLinkTarget, buildSessionFromDeepLink])
 
   useEffect(() => {
     if (!isHydrated) return
-    const sessionKey = getCurrentPaperSessionKey(year)
+    const sessionKey = getCurrentPaperSessionKey(year, exam, nsaaPartsKey)
     localStorage.setItem(sessionKey, JSON.stringify(session))
-  }, [session, year, isHydrated])
+  }, [session, year, exam, nsaaPartsKey, isHydrated])
 
   useEffect(() => {
     if (!isHydrated) return
@@ -162,13 +213,13 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
   }, [autoAdvance, isHydrated])
 
   const handleResetProgress = useCallback(() => {
-    const sessionKey = getCurrentPaperSessionKey(year)
+    const sessionKey = getCurrentPaperSessionKey(year, exam, nsaaPartsKey)
     localStorage.removeItem(sessionKey)
     const deepLink = getDeepLinkTarget()
     if (deepLink) {
       setSession({
         ...INITIAL_SESSION,
-        state: deepLink.paper === 1 ? 'PAPER1_ACTIVE' : 'PAPER2_ACTIVE',
+        state: deepLink.paper === 1 ? 'PAPER1_ACTIVE' : deepLink.paper === 2 ? 'PAPER2_ACTIVE' : 'PAPER3_ACTIVE',
         currentPaper: deepLink.paper,
         currentQuestionIndex: deepLink.index,
       })
@@ -180,7 +231,7 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
     setShowPaper2ConfirmModal(false)
     setSavedSessionCandidate(null)
     setShowResumeModal(false)
-  }, [year, getDeepLinkTarget])
+  }, [year, exam, nsaaPartsKey, getDeepLinkTarget])
 
   const handleResumeSavedAttempt = useCallback(() => {
     if (savedSessionCandidate) {
@@ -197,7 +248,7 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
       if (prev.state !== 'WELCOME') return prev
       return {
         ...prev,
-        state: deepLink.paper === 1 ? 'PAPER1_ACTIVE' : 'PAPER2_ACTIVE',
+        state: deepLink.paper === 1 ? 'PAPER1_ACTIVE' : deepLink.paper === 2 ? 'PAPER2_ACTIVE' : 'PAPER3_ACTIVE',
         currentPaper: deepLink.paper,
         currentQuestionIndex: deepLink.index,
       }
@@ -208,10 +259,12 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
     if (!candidate) return null
     const answeredP1 = Object.keys(candidate.paper1Answers).length
     const answeredP2 = Object.keys(candidate.paper2Answers).length
-    const totalAnswered = answeredP1 + answeredP2
+    const answeredP3 = Object.keys(candidate.paper3Answers || {}).length
+    const totalAnswered = answeredP1 + answeredP2 + answeredP3
     return {
       answeredP1,
       answeredP2,
+      answeredP3,
       totalAnswered,
       state: candidate.state,
     }
@@ -261,9 +314,38 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
         setSession((prev) => {
           const newTime = prev.paper2TimeLeft - 1
           if (newTime <= 0) {
+            if (hasPaper3) {
+              return { ...prev, state: 'PAPER3_INSTRUCTIONS', paper2TimeLeft: 0, paper3InstructionsTimeLeft: 60 }
+            }
             return { ...prev, state: 'SUBMIT_CONFIRM', paper2TimeLeft: 0 }
           }
           return { ...prev, paper2TimeLeft: newTime }
+        })
+      }, 1000)
+    } else if (session.state === 'PAPER3_INSTRUCTIONS' && session.paper3InstructionsTimeLeft > 0) {
+      interval = setInterval(() => {
+        setSession((prev) => {
+          const newTime = prev.paper3InstructionsTimeLeft - 1
+          if (newTime <= 0) {
+            return {
+              ...prev,
+              state: 'PAPER3_ACTIVE',
+              currentPaper: 3,
+              currentQuestionIndex: 0,
+              paper3InstructionsTimeLeft: 0,
+            }
+          }
+          return { ...prev, paper3InstructionsTimeLeft: newTime }
+        })
+      }, 1000)
+    } else if (session.state === 'PAPER3_ACTIVE' && session.paper3TimeLeft > 0) {
+      interval = setInterval(() => {
+        setSession((prev) => {
+          const newTime = prev.paper3TimeLeft - 1
+          if (newTime <= 0) {
+            return { ...prev, state: 'SUBMIT_CONFIRM', paper3TimeLeft: 0 }
+          }
+          return { ...prev, paper3TimeLeft: newTime }
         })
       }, 1000)
     }
@@ -271,13 +353,14 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
     return () => {
       if (interval) clearInterval(interval)
     }
-  }, [session.state, session.readingTimeLeft, session.paper1TimeLeft, session.paper2InstructionsTimeLeft, session.paper2TimeLeft])
+  }, [session.state, session.readingTimeLeft, session.paper1TimeLeft, session.paper2InstructionsTimeLeft, session.paper2TimeLeft, session.paper3InstructionsTimeLeft, session.paper3TimeLeft, hasPaper3])
 
   const handleSubmit = useCallback(() => {
-    const { scoreP1, scoreP2, totalScore, grade, questionOutcomes } = evaluateExam(
+    const { scoreP1, scoreP2, scoreP3, totalScore, grade, questionOutcomes } = evaluateExam(
       questions,
       session.paper1Answers,
       session.paper2Answers,
+      session.paper3Answers,
     )
     const compactOutcomes = questionOutcomes.map((outcome) => ({
       questionId: outcome.question.id,
@@ -291,8 +374,12 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
     if (email) {
       addExamAttempt(email, {
         year,
+        exam,
+        part: selectedNsaaParts[0],
+        parts: selectedNsaaParts.length > 0 ? selectedNsaaParts : undefined,
         scoreP1,
         scoreP2,
+        scoreP3,
         totalScore,
         grade,
         questionOutcomes: compactOutcomes,
@@ -304,19 +391,24 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
       state: 'RESULT_SUMMARY',
       scoreP1,
       scoreP2,
+      scoreP3,
       totalScore,
       grade,
       questionOutcomes,
     }))
-  }, [questions, session.paper1Answers, session.paper2Answers, year])
+  }, [questions, session.paper1Answers, session.paper2Answers, session.paper3Answers, year, exam, selectedNsaaParts])
 
   const handleNext = useCallback(() => {
-    if (session.state === 'PAPER1_ACTIVE' && session.currentQuestionIndex === 19) {
+    if (session.state === 'PAPER1_ACTIVE' && session.currentQuestionIndex >= paper1Total - 1) {
       setShowPaper2ConfirmModal(true)
       return
     }
 
-    if (session.state === 'PAPER2_ACTIVE' && session.currentQuestionIndex === 19) {
+    if (session.state === 'PAPER2_ACTIVE' && session.currentQuestionIndex >= paper2Total - 1) {
+      setShowPaper2ConfirmModal(true)
+      return
+    }
+    if (session.state === 'PAPER3_ACTIVE' && session.currentQuestionIndex >= paper3Total - 1) {
       setShowPaper2ConfirmModal(true)
       return
     }
@@ -328,19 +420,22 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
       if (prev.state === 'READING_COUNTDOWN') {
         return { ...prev, state: 'PAPER1_ACTIVE' }
       }
-      if (prev.state === 'PAPER1_ACTIVE' && prev.currentQuestionIndex < 19) {
+      if (prev.state === 'PAPER1_ACTIVE' && prev.currentQuestionIndex < paper1Total - 1) {
         return { ...prev, currentQuestionIndex: prev.currentQuestionIndex + 1 }
       }
-      if (prev.state === 'PAPER2_ACTIVE' && prev.currentQuestionIndex < 19) {
+      if (prev.state === 'PAPER2_ACTIVE' && prev.currentQuestionIndex < paper2Total - 1) {
+        return { ...prev, currentQuestionIndex: prev.currentQuestionIndex + 1 }
+      }
+      if (prev.state === 'PAPER3_ACTIVE' && prev.currentQuestionIndex < paper3Total - 1) {
         return { ...prev, currentQuestionIndex: prev.currentQuestionIndex + 1 }
       }
       return prev
     })
-  }, [session.state, session.currentQuestionIndex])
+  }, [session.state, session.currentQuestionIndex, paper1Total, paper2Total, paper3Total])
 
   const handlePrevious = useCallback(() => {
     setSession((prev) => {
-      if ((prev.state === 'PAPER1_ACTIVE' || prev.state === 'PAPER2_ACTIVE') && prev.currentQuestionIndex > 0) {
+      if ((prev.state === 'PAPER1_ACTIVE' || prev.state === 'PAPER2_ACTIVE' || prev.state === 'PAPER3_ACTIVE') && prev.currentQuestionIndex > 0) {
         return { ...prev, currentQuestionIndex: prev.currentQuestionIndex - 1 }
       }
       return prev
@@ -357,29 +452,51 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
           ...prev,
           state: 'PAPER1_ACTIVE',
           currentPaper: 1,
-          currentQuestionIndex: 19,
+          currentQuestionIndex: Math.max(0, paper1Total - 1),
         }
       }
-      if (prev.state === 'SUBMIT_CONFIRM') {
+      if (prev.state === 'PAPER3_INSTRUCTIONS') {
         return {
           ...prev,
           state: 'PAPER2_ACTIVE',
           currentPaper: 2,
-          currentQuestionIndex: 19,
+          currentQuestionIndex: Math.max(0, paper2Total - 1),
+        }
+      }
+      if (prev.state === 'SUBMIT_CONFIRM') {
+        if (hasPaper3) {
+          return {
+            ...prev,
+            state: 'PAPER3_ACTIVE',
+            currentPaper: 3,
+            currentQuestionIndex: Math.max(0, paper3Total - 1),
+          }
+        }
+        return {
+          ...prev,
+          state: 'PAPER2_ACTIVE',
+          currentPaper: 2,
+          currentQuestionIndex: Math.max(0, paper2Total - 1),
         }
       }
       return prev
     })
-  }, [])
+  }, [paper1Total, paper2Total, paper3Total, hasPaper3])
 
   const handleConfirmPaper2 = useCallback(() => {
     setShowPaper2ConfirmModal(false)
     if (session.state === 'PAPER1_ACTIVE') {
       setSession((prev) => ({ ...prev, state: 'PAPER2_INSTRUCTIONS', paper2InstructionsTimeLeft: 60 }))
     } else if (session.state === 'PAPER2_ACTIVE') {
+      if (hasPaper3) {
+        setSession((prev) => ({ ...prev, state: 'PAPER3_INSTRUCTIONS', paper3InstructionsTimeLeft: 60 }))
+      } else {
+        handleSubmit()
+      }
+    } else if (session.state === 'PAPER3_ACTIVE') {
       handleSubmit()
     }
-  }, [session.state, handleSubmit])
+  }, [session.state, handleSubmit, hasPaper3])
 
   const handleEndExam = useCallback(() => {
     setShowEndModal(true)
@@ -395,9 +512,9 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
       setSession((prev) => {
         const canAutoAdvance =
           autoAdvance &&
-          (prev.state === 'PAPER1_ACTIVE' || prev.state === 'PAPER2_ACTIVE') &&
+          (prev.state === 'PAPER1_ACTIVE' || prev.state === 'PAPER2_ACTIVE' || prev.state === 'PAPER3_ACTIVE') &&
           questionIndex === prev.currentQuestionIndex &&
-          prev.currentQuestionIndex < 19
+          prev.currentQuestionIndex < (prev.currentPaper === 1 ? paper1Total : prev.currentPaper === 2 ? paper2Total : paper3Total) - 1
 
         if (prev.currentPaper === 1) {
           return {
@@ -406,15 +523,22 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
             currentQuestionIndex: canAutoAdvance ? prev.currentQuestionIndex + 1 : prev.currentQuestionIndex,
           }
         }
+        if (prev.currentPaper === 2) {
+          return {
+            ...prev,
+            paper2Answers: { ...prev.paper2Answers, [questionIndex]: answer },
+            currentQuestionIndex: canAutoAdvance ? prev.currentQuestionIndex + 1 : prev.currentQuestionIndex,
+          }
+        }
 
         return {
           ...prev,
-          paper2Answers: { ...prev.paper2Answers, [questionIndex]: answer },
+          paper3Answers: { ...prev.paper3Answers, [questionIndex]: answer },
           currentQuestionIndex: canAutoAdvance ? prev.currentQuestionIndex + 1 : prev.currentQuestionIndex,
         }
       })
     },
-    [autoAdvance],
+    [autoAdvance, paper1Total, paper2Total, paper3Total],
   )
 
   const handleToggleFlag = useCallback(() => {
@@ -426,9 +550,15 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
           paper1Flags: { ...prev.paper1Flags, [idx]: !prev.paper1Flags[idx] },
         }
       }
+      if (prev.currentPaper === 2) {
+        return {
+          ...prev,
+          paper2Flags: { ...prev.paper2Flags, [idx]: !prev.paper2Flags[idx] },
+        }
+      }
       return {
         ...prev,
-        paper2Flags: { ...prev.paper2Flags, [idx]: !prev.paper2Flags[idx] },
+        paper3Flags: { ...prev.paper3Flags, [idx]: !prev.paper3Flags[idx] },
       }
     })
   }, [])
@@ -438,14 +568,20 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
   }, [])
 
   const handleJumpToQuestion = useCallback((index: number) => {
-    setSession((prev) => ({ ...prev, currentQuestionIndex: index }))
-  }, [])
+    setSession((prev) => {
+      const total = prev.currentPaper === 1 ? paper1Total : paper2Total
+      if (total <= 0) return prev
+      const bounded = Math.max(0, Math.min(total - 1, index))
+      return { ...prev, currentQuestionIndex: bounded }
+    })
+  }, [paper1Total, paper2Total])
 
   const handleNextUnanswered = useCallback(() => {
     setSession((prev) => {
-      if (prev.state !== 'PAPER1_ACTIVE' && prev.state !== 'PAPER2_ACTIVE') return prev
-      const answers = prev.currentPaper === 1 ? prev.paper1Answers : prev.paper2Answers
-      const total = 20
+      if (prev.state !== 'PAPER1_ACTIVE' && prev.state !== 'PAPER2_ACTIVE' && prev.state !== 'PAPER3_ACTIVE') return prev
+      const answers = prev.currentPaper === 1 ? prev.paper1Answers : prev.currentPaper === 2 ? prev.paper2Answers : prev.paper3Answers
+      const total = prev.currentPaper === 1 ? paper1Total : paper2Total
+      if (total <= 0) return prev
 
       for (let step = 1; step <= total; step += 1) {
         const idx = (prev.currentQuestionIndex + step) % total
@@ -457,13 +593,14 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
       setFeedback({ tone: 'success', message: 'All questions are answered.' })
       return prev
     })
-  }, [])
+  }, [paper1Total, paper2Total])
 
   const handleNextFlagged = useCallback(() => {
     setSession((prev) => {
-      if (prev.state !== 'PAPER1_ACTIVE' && prev.state !== 'PAPER2_ACTIVE') return prev
-      const flags = prev.currentPaper === 1 ? prev.paper1Flags : prev.paper2Flags
-      const total = 20
+      if (prev.state !== 'PAPER1_ACTIVE' && prev.state !== 'PAPER2_ACTIVE' && prev.state !== 'PAPER3_ACTIVE') return prev
+      const flags = prev.currentPaper === 1 ? prev.paper1Flags : prev.currentPaper === 2 ? prev.paper2Flags : prev.paper3Flags
+      const total = prev.currentPaper === 1 ? paper1Total : paper2Total
+      if (total <= 0) return prev
 
       for (let step = 1; step <= total; step += 1) {
         const idx = (prev.currentQuestionIndex + step) % total
@@ -475,7 +612,7 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
       setFeedback({ tone: 'error', message: 'No flagged question found on this paper.' })
       return prev
     })
-  }, [])
+  }, [paper1Total, paper2Total])
 
   const handleReviewQuestion = useCallback((questionId: string) => {
     setSession((prev) => ({ ...prev, state: 'REVIEW_QUESTION', reviewingQuestionId: questionId }))
@@ -610,18 +747,24 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
   const getCurrentAnswer = () =>
     session.currentPaper === 1
       ? session.paper1Answers[session.currentQuestionIndex]
-      : session.paper2Answers[session.currentQuestionIndex]
+      : session.currentPaper === 2
+        ? session.paper2Answers[session.currentQuestionIndex]
+        : session.paper3Answers[session.currentQuestionIndex]
 
   const getCurrentFlag = () =>
     session.currentPaper === 1
       ? session.paper1Flags[session.currentQuestionIndex]
-      : session.paper2Flags[session.currentQuestionIndex]
+      : session.currentPaper === 2
+        ? session.paper2Flags[session.currentQuestionIndex]
+        : session.paper3Flags[session.currentQuestionIndex]
 
   const isExamActive =
     session.state === 'READING_COUNTDOWN' ||
     session.state === 'PAPER1_ACTIVE' ||
     session.state === 'PAPER2_INSTRUCTIONS' ||
     session.state === 'PAPER2_ACTIVE' ||
+    session.state === 'PAPER3_INSTRUCTIONS' ||
+    session.state === 'PAPER3_ACTIVE' ||
     session.state === 'SUBMIT_CONFIRM'
 
   useEffect(() => {
@@ -647,7 +790,7 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
       if (isEditableTarget(event.target)) return
-      if (session.state !== 'PAPER1_ACTIVE' && session.state !== 'PAPER2_ACTIVE') return
+      if (session.state !== 'PAPER1_ACTIVE' && session.state !== 'PAPER2_ACTIVE' && session.state !== 'PAPER3_ACTIVE') return
 
       const key = event.key.toUpperCase()
 
@@ -701,21 +844,34 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
   if (session.state === 'READING_COUNTDOWN') timeLeft = session.readingTimeLeft
   else if (session.state === 'PAPER1_ACTIVE') timeLeft = session.paper1TimeLeft
   else if (session.state === 'PAPER2_ACTIVE') timeLeft = session.paper2TimeLeft
+  else if (session.state === 'PAPER3_ACTIVE') timeLeft = session.paper3TimeLeft
   else if (session.state === 'PAPER2_INSTRUCTIONS') {
     timeLeft =
       Number.isFinite(session.paper2InstructionsTimeLeft) && session.paper2InstructionsTimeLeft >= 0
         ? session.paper2InstructionsTimeLeft
+        : 60
+  } else if (session.state === 'PAPER3_INSTRUCTIONS') {
+    timeLeft =
+      Number.isFinite(session.paper3InstructionsTimeLeft) && session.paper3InstructionsTimeLeft >= 0
+        ? session.paper3InstructionsTimeLeft
         : 60
   }
 
   const renderScreen = () => {
     switch (session.state) {
       case 'WELCOME':
-        return <WelcomeScreen onResetProgress={handleResetProgress} />
+        return <WelcomeScreen onResetProgress={handleResetProgress} examShortCode={examText.short} examFullName={examText.full} />
       case 'READING_COUNTDOWN':
-        return <ReadingCountdown timeLeft={session.readingTimeLeft} />
+        return (
+          <ReadingCountdown
+            timeLeft={session.readingTimeLeft}
+            paper1Questions={paper1Total || 20}
+            paper2Questions={paper2Total || 20}
+          />
+        )
       case 'PAPER1_ACTIVE':
       case 'PAPER2_ACTIVE':
+      case 'PAPER3_ACTIVE':
         return (
           <PaperScreen
             question={currentQuestion}
@@ -729,6 +885,7 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
         return (
           <BreakScreen
             timeLeft={session.paper2InstructionsTimeLeft}
+            nextPaperLabel={paper2Label}
             onStartPaper2={() =>
               setSession((prev) => ({
                 ...prev,
@@ -739,15 +896,42 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
             }
           />
         )
+      case 'PAPER3_INSTRUCTIONS':
+        return (
+          <BreakScreen
+            timeLeft={session.paper3InstructionsTimeLeft}
+            nextPaperLabel={paper3Label}
+            onStartPaper2={() =>
+              setSession((prev) => ({
+                ...prev,
+                state: 'PAPER3_ACTIVE',
+                currentPaper: 3,
+                currentQuestionIndex: 0,
+              }))
+            }
+          />
+        )
       case 'SUBMIT_CONFIRM':
         return (
           <SubmitConfirm
             paper1Answers={session.paper1Answers}
             paper2Answers={session.paper2Answers}
+            paper3Answers={session.paper3Answers}
             paper1Flags={session.paper1Flags}
             paper2Flags={session.paper2Flags}
+            paper3Flags={session.paper3Flags}
+            paper1Total={paper1Total || 20}
+            paper2Total={paper2Total || 20}
+            paper3Total={paper3Total || 0}
+            examTitle={examText.short}
             onConfirm={handleSubmit}
-            onCancel={() => setSession((prev) => ({ ...prev, state: 'PAPER2_ACTIVE' }))}
+            onCancel={() =>
+              setSession((prev) => ({
+                ...prev,
+                state: hasPaper3 ? 'PAPER3_ACTIVE' : 'PAPER2_ACTIVE',
+                currentPaper: hasPaper3 ? 3 : 2,
+              }))
+            }
           />
         )
       case 'RESULT_SUMMARY':
@@ -756,8 +940,12 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
             year={year}
             scoreP1={session.scoreP1!}
             scoreP2={session.scoreP2!}
+            scoreP3={session.scoreP3 || 0}
             totalScore={session.totalScore!}
             grade={session.grade!}
+            examTitle={examText.short}
+            totalPossible={totalPossible || 40}
+            showGradeScale={examText.showGrade}
             questionOutcomes={session.questionOutcomes || []}
             onReviewQuestion={handleReviewQuestion}
             onAddToMistakes={handleAddToMistakes}
@@ -788,7 +976,7 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
       <div className="min-h-screen flex items-center justify-center bg-gray-50">
         <div className="text-center">
           <h2 className="text-2xl font-semibold mb-2">Loading questions...</h2>
-          <p className="text-gray-600">Preparing TMUA {year}</p>
+          <p className="text-gray-600">Preparing {examText.short} {year}</p>
         </div>
       </div>
     )
@@ -826,15 +1014,16 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
         colorScheme={session.colorScheme}
         timeLeft={timeLeft}
         currentQuestion={
-          session.state === 'PAPER1_ACTIVE' || session.state === 'PAPER2_ACTIVE'
+          session.state === 'PAPER1_ACTIVE' || session.state === 'PAPER2_ACTIVE' || session.state === 'PAPER3_ACTIVE'
             ? session.currentQuestionIndex + 1
             : undefined
         }
-        totalQuestions={20}
+        totalQuestions={totalForCurrentPaper || 0}
         onEndExam={handleEndExam}
         onPrevious={
           session.state === 'READING_COUNTDOWN' ||
           session.state === 'PAPER2_INSTRUCTIONS' ||
+          session.state === 'PAPER3_INSTRUCTIONS' ||
           session.state === 'SUBMIT_CONFIRM'
             ? handleStagePrevious
             : undefined
@@ -842,30 +1031,42 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
         onNext={
           session.state === 'WELCOME' ||
           session.state === 'READING_COUNTDOWN' ||
-          (session.state === 'PAPER1_ACTIVE' && session.currentQuestionIndex < 20) ||
-          (session.state === 'PAPER2_ACTIVE' && session.currentQuestionIndex < 20)
+          (session.state === 'PAPER1_ACTIVE' && session.currentQuestionIndex < (paper1Total || 0)) ||
+          (session.state === 'PAPER2_ACTIVE' && session.currentQuestionIndex < (paper2Total || 0)) ||
+          (session.state === 'PAPER3_ACTIVE' && session.currentQuestionIndex < (paper3Total || 0))
             ? handleNext
             : undefined
         }
         onColorSchemeChange={handleColorSchemeChange}
         currentFlag={getCurrentFlag()}
         onToggleFlag={
-          session.state === 'PAPER1_ACTIVE' || session.state === 'PAPER2_ACTIVE' ? handleToggleFlag : undefined
+          session.state === 'PAPER1_ACTIVE' || session.state === 'PAPER2_ACTIVE' || session.state === 'PAPER3_ACTIVE'
+            ? handleToggleFlag
+            : undefined
         }
         onNextUnanswered={
-          session.state === 'PAPER1_ACTIVE' || session.state === 'PAPER2_ACTIVE' ? handleNextUnanswered : undefined
+          session.state === 'PAPER1_ACTIVE' || session.state === 'PAPER2_ACTIVE' || session.state === 'PAPER3_ACTIVE'
+            ? handleNextUnanswered
+            : undefined
         }
         onNextFlagged={
-          session.state === 'PAPER1_ACTIVE' || session.state === 'PAPER2_ACTIVE' ? handleNextFlagged : undefined
+          session.state === 'PAPER1_ACTIVE' || session.state === 'PAPER2_ACTIVE' || session.state === 'PAPER3_ACTIVE'
+            ? handleNextFlagged
+            : undefined
         }
         autoAdvanceEnabled={autoAdvance}
         onAutoAdvanceChange={
-          session.state === 'PAPER1_ACTIVE' || session.state === 'PAPER2_ACTIVE' ? setAutoAdvance : undefined
+          session.state === 'PAPER1_ACTIVE' || session.state === 'PAPER2_ACTIVE' || session.state === 'PAPER3_ACTIVE'
+            ? setAutoAdvance
+            : undefined
         }
         onJumpToQuestion={
-          session.state === 'PAPER1_ACTIVE' || session.state === 'PAPER2_ACTIVE' ? handleJumpToQuestion : undefined
+          session.state === 'PAPER1_ACTIVE' || session.state === 'PAPER2_ACTIVE' || session.state === 'PAPER3_ACTIVE'
+            ? handleJumpToQuestion
+            : undefined
         }
         onShowNavigator={() => setShowNavigatorModal(true)}
+        completionLabel={examText.completion}
       >
         {renderScreen()}
       </ExamLayout>
@@ -893,13 +1094,13 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
         </div>
       )}
 
-      {showNavigatorModal && (session.state === 'PAPER1_ACTIVE' || session.state === 'PAPER2_ACTIVE') && (
+      {showNavigatorModal && (session.state === 'PAPER1_ACTIVE' || session.state === 'PAPER2_ACTIVE' || session.state === 'PAPER3_ACTIVE') && (
         <NavigatorModal
           isOpen={showNavigatorModal}
           onClose={() => setShowNavigatorModal(false)}
-          totalQuestions={20}
-          answers={session.currentPaper === 1 ? session.paper1Answers : session.paper2Answers}
-          flags={session.currentPaper === 1 ? session.paper1Flags : session.paper2Flags}
+          totalQuestions={totalForCurrentPaper || 0}
+          answers={session.currentPaper === 1 ? session.paper1Answers : session.currentPaper === 2 ? session.paper2Answers : session.paper3Answers}
+          flags={session.currentPaper === 1 ? session.paper1Flags : session.currentPaper === 2 ? session.paper2Flags : session.paper3Flags}
           onJumpToQuestion={handleJumpToQuestion}
           currentIndex={session.currentQuestionIndex}
         />
@@ -908,11 +1109,19 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
       {showPaper2ConfirmModal && (
         <div className="fixed inset-0 bg-slate-900/60 backdrop-blur-sm flex items-center justify-center z-50 p-4">
           <div className="bg-white p-8 rounded-2xl shadow-xl border border-slate-200 max-w-md">
-            <h2 className="text-2xl font-bold mb-4">{session.state === 'PAPER1_ACTIVE' ? 'Go to Paper 2?' : 'Complete the TMUA?'}</h2>
+            <h2 className="text-2xl font-bold mb-4">
+              {session.state === 'PAPER1_ACTIVE'
+                ? `Go to ${paper2Label}?`
+                : session.state === 'PAPER2_ACTIVE' && hasPaper3
+                  ? `Go to ${paper3Label}?`
+                  : `Complete the ${examText.short}?`}
+            </h2>
             <p className="mb-6 text-gray-700">
               {session.state === 'PAPER1_ACTIVE'
-                ? 'Are you sure you want to go to Paper 2?'
-                : 'Are you sure you want to complete the TMUA?'}
+                ? `Are you sure you want to go to ${paper2Label}?`
+                : session.state === 'PAPER2_ACTIVE' && hasPaper3
+                  ? `Are you sure you want to go to ${paper3Label}?`
+                  : `Are you sure you want to complete the ${examText.short}?`}
             </p>
             <div className="flex gap-4 justify-end">
               <button
@@ -937,7 +1146,7 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
           <div className="bg-white p-8 rounded-2xl shadow-xl border border-slate-200 max-w-lg w-full">
             <h2 className="text-2xl font-bold mb-4">Resume Previous Attempt?</h2>
             <p className="text-gray-700 mb-6">
-              We found saved progress for TMUA {year}. You can continue where you left off or start a fresh attempt.
+              We found saved progress for {examText.short} {year}. You can continue where you left off or start a fresh attempt.
             </p>
             {(() => {
               const meta = getResumeMeta(savedSessionCandidate)
@@ -945,9 +1154,10 @@ export default function ExamRunner({ year }: ExamRunnerProps) {
               return (
                 <div className="mb-6 rounded border border-gray-200 bg-gray-50 p-4 text-sm text-gray-700">
                   <div>Stage: {meta.state}</div>
-                  <div>Answered: {meta.totalAnswered}/40</div>
-                  <div>Paper 1: {meta.answeredP1}/20</div>
-                  <div>Paper 2: {meta.answeredP2}/20</div>
+                  <div>Answered: {meta.totalAnswered}/{totalPossible || 0}</div>
+                  <div>Paper 1: {meta.answeredP1}/{paper1Total || 0}</div>
+                  <div>Paper 2: {meta.answeredP2}/{paper2Total || 0}</div>
+                  {paper3Total > 0 && <div>Paper 3: {meta.answeredP3}/{paper3Total || 0}</div>}
                 </div>
               )
             })()}

@@ -1,0 +1,1081 @@
+{
+  "exam": "nsaa",
+  "year": "2020",
+  "source": "official-pdf-auto-parse",
+  "mandatoryMath": [
+    {
+      "question": "The nth term of a sequence is 2n – 5. Which row in the table is correct for this sequence? term-to-term rule term which has a value of 17",
+      "answers": {
+        "a": "subtract 5 11th",
+        "b": "subtract 5 29th",
+        "c": "subtract 2 11th",
+        "d": "subtract 2 29th",
+        "e": "add 5 11th",
+        "f": "add 5 29th",
+        "g": "add 2 11th",
+        "h": "add 2 29th"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "g"
+    },
+    {
+      "question": "The admission charge to a cinema is different for adults and children. Admission for 2 adults and 3 children costs £20. Admission for 4 adults and 4 children costs £34. What does admission cost for 6 adults and 2 children?",
+      "answers": {
+        "a": "£27",
+        "b": "£29",
+        "c": "£33",
+        "d": "£39",
+        "e": "£44",
+        "f": "£48",
+        "g": "£72 6 PART A Mathematics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "Q R x P S M PQRS is a square with side length x. M is the midpoint of side PS.",
+      "answers": {
+        "a": "πx2 8 3",
+        "b": "πx2 16 1",
+        "c": "πx2"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "4",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "5",
+      "answers": {
+        "d": "2 and 3",
+        "e": "2 and 4",
+        "f": "3 and 4",
+        "g": "πx2 2 7 PART A Mathematics 4 A fair spinner has eight equal sections. Each section has one number written on it, as shown. 3 1 1 3 3 2 1 3 The spinner is spun twice, and the two numbers scored are added. What is the probability that the sum of the two numbers is 5? 1 A 8 5 B 8 1 C 16 3 D 16 25 E 64 55 F 64 8 PART A Mathematics 5 Consider the four lines with the following equations. 1 2x + 6y = 3 2 9y = 3x – 4 3 2y = 6x + 3 4 4x + 6y – 9 = 0 Which two lines are perpendicular?",
+        "a": "1 and 2",
+        "b": "1 and 3",
+        "c": "1 and 4"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "A balloon contains 5000cm3 of gas. The gas in the balloon gradually escapes so that the volume of the balloon decreases. 60% of the volume of the balloon is lost each week. What is the volume of the balloon, in cm3, after 3 weeks?",
+      "answers": {
+        "a": "0",
+        "b": "128",
+        "c": "320",
+        "d": "800",
+        "e": "1080 9 PART A Mathematics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "Find the sum of the solutions of ⎛ x ⎞ 2 ⎛ x ⎞ 2⎜ +3⎟ − ⎜ +3⎟ −36 = 0 ⎝4 ⎠ ⎝4 ⎠",
+      "answers": {
+        "a": "2 3 B 2 1 C 2",
+        "d": "–4",
+        "e": "–13",
+        "f": "–22",
+        "g": "–26",
+        "h": "–34"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "The equilateral triangle PQR has sides of length 8cm.",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "Which one of the following expressions is equivalent to a a b – b c c",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "When the expression (2x + 3)2 – (x – 3)2 is written in the form p(x + q)2 + r, where p, q and r are constants, what is the value of r?",
+      "answers": {
+        "a": "–27",
+        "b": "–9",
+        "c": "0",
+        "d": "3",
+        "e": "15"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "11 PART A Mathematics 11 The number of pairs of winter boots sold on a day is inversely proportional to the cube of the outside temperature on that day, measured in °C. On a day when the outside temperature is 8°C, 250 pairs of boots are sold. The next day, when the outside temperature is x°C, the number of pairs of boots sold is 700% more than on the previous day. What is the value of x?",
+      "answers": {
+        "a": "2",
+        "b": "4 8 C 3 7",
+        "d": "83 7",
+        "e": "16"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "The table shows statistics relating to the test marks of two groups of students. number of mean range students group X 10 36 16 group Y 20 48 21 The results for the two groups of students are combined. What can be deduced about the mean and range of the combined results?",
+      "answers": {
+        "a": "mean = 40, range ≤ 16",
+        "b": "mean = 40, 16 < range < 21",
+        "c": "mean = 40, range ≥ 21",
+        "d": "mean = 44, range ≤ 16",
+        "e": "mean = 44, 16 < range < 21",
+        "f": "mean = 44, range ≥ 21 12 PART A Mathematics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "A paint colour is a mixture of red paint, blue paint and yellow paint. : The ratio of red paint to blue paint in the mixture is 18 5 The ratio of blue paint to yellow paint in the mixture is p: 3 : The ratio of red paint to yellow paint in the mixture is 12 5 What is the value of p?",
+      "answers": {
+        "a": "2",
+        "b": "4.5",
+        "c": "5",
+        "d": "7.5",
+        "e": "12"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "In a sale, all prices are reduced by 25%.",
+      "answers": {
+        "a": "£180",
+        "b": "£195",
+        "c": "£210",
+        "d": "£225",
+        "e": "£240 13 PART A Mathematics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "Two identical fair six-sided dice each have their faces numbered from 1 to 6, with one number on each face. Both dice are thrown, and the number on each of the dice is recorded. They are then both thrown again, and the number on each of the dice is recorded. What is the probability that at least one of the four recorded numbers is even? 1 A 4 1 B 2 9 C",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "16 3 D 4 15 E 16 14 PART A Mathematics 16 Q y z 61° P x S R [diagram not to scale] In the diagram, QS is perpendicular to PR. PS = xcm PQ = ycm QR = zcm angle QRS = 61° PSR is a straight line. Which one of the following is an expression for the length z, in cm?",
+      "answers": {
+        "a": "y2 + x2 sin61°",
+        "b": "y2 − x2 sin61°",
+        "c": "y2 + x2 cos61°",
+        "d": "y2 − x2 cos61° y2 + x2 E sin61° y2 − x2 F sin61° y2 + x2 G cos61° y2 − x2 H cos61° 15 PART A Mathematics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "Two vertices of a square are at (1,1) and (3,5). What is the difference between the perimeters of the largest and smallest possible squares that can be drawn with these points as two of their vertices?",
+      "answers": {
+        "a": "0 ( )",
+        "b": "4 3 2− 2 ( )",
+        "c": "4 3 2 −1 ( )",
+        "d": "4 5 2− 2 ( )",
+        "e": "4 5 2 −1 ( )",
+        "f": "4 13 2− 2 ( )",
+        "g": "4 13 2 −1 ( )",
+        "h": "4 3 5 2− 2"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "The quadratic equation 2x2 – px – 4 = 0, where p is a positive constant, has two solutions that differ by 6. What is the value of p?",
+      "answers": {
+        "a": "2",
+        "b": "4 7",
+        "c": "12",
+        "d": "4 11",
+        "e": "4 34",
+        "f": "6 30 16 PART A Mathematics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "A solid cone has a base radius xcm. : The ratio of the perpendicular height of the cone to the radius of the cone is 5 2 y",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "The point M is (2,5) and the point N is (–3,–1). The line segment MN is transformed to the line segment TU by two transformations: MN is rotated 90° clockwise about the origin to give the line segment RS. ⎛p⎞ RS is then translated by the vector ⎜ ⎟ to give the line segment TU. ⎝q⎠ The coordinates of the midpoint of TU are (7,–2.5). ⎛p⎞ Find the vector ⎜ ⎟ ⎝q⎠ ⎛ 2 ⎞",
+      "answers": {
+        "a": "⎜ ⎟ ⎝0.5⎠ ⎛0.5⎞",
+        "b": "⎜ ⎟ ⎝ 2 ⎠ ⎛ 5 ⎞",
+        "c": "⎜ ⎟ ⎝−3⎠ ⎛−3⎞",
+        "d": "⎜ ⎟ ⎝ 5 ⎠ ⎛ 9 ⎞",
+        "e": "⎜ ⎟ ⎝−2⎠ ⎛−2⎞",
+        "f": "⎜ ⎟ ⎝ 9 ⎠ 18 PART B Physics PART B Physics 19 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    }
+  ],
+  "partBPhysics": [
+    {
+      "question": "A soldering iron has a copper tip of mass 2.0g. The tip is heated with 30W of thermal power. In 50s, the temperature of the tip increases by 200°C. How much energy is transferred from the tip to the surroundings in this time? (specific heat capacity of copper = 400Jkg–1°C–1)",
+      "answers": {
+        "a": "160J",
+        "b": "500J",
+        "c": "1340J",
+        "d": "1500J",
+        "e": "1660J",
+        "f": "1840J",
+        "g": "2500J 20 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "The diagram represents the structure of a charged atom (ion) of one isotope of an element. nucleus electrons Which diagram represents the structure of an oppositely charged ion of a different isotope of the same element?",
+      "answers": {
+        "a": "B",
+        "c": "D",
+        "e": "F G 21 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "A sample of an ideal gas is sealed in a cylindrical container by a piston as shown in the diagram. cylindrical container gas piston The particles of the gas are moving with an average speed v, and collide with the surface of the piston with a frequency f. The piston is now slowly pushed into the cylinder until the gas occupies half of its original volume, but the gas remains at the same temperature. What is the new average speed of the particles of the gas, and at what frequency do they now collide with the surface of the piston? average speed frequency 1",
+      "answers": {
+        "a": "2v f 2",
+        "b": "2v f",
+        "c": "2v 2f 1",
+        "d": "v f 2",
+        "e": "v f",
+        "f": "v 2f 22 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "A water wave is travelling in a shallow tank of water. The wave passes from region X into region Y where the speed of the wave differs from that in region X. The diagram shows the directions of travel in the two regions and peaks of the wave that are separated by one wavelength. peaks direction region X θ φ region Y peaks direction In region X, the angle between the wave peaks and the boundary between the regions is θ. In region Y, the angle between the wave peaks and the boundary is ϕ. What are the angle of incidence and the angle of refraction, and in which region is the speed of the wave greater? speed greater angle of incidence angle of refraction in region",
+      "answers": {
+        "a": "θ ϕ X",
+        "b": "θ ϕ Y",
+        "c": "θ 90° – ϕ X",
+        "d": "θ 90° – ϕ Y",
+        "e": "90° – θ ϕ X",
+        "f": "90° – θ ϕ Y",
+        "g": "90° – θ 90° – ϕ X",
+        "h": "90° – θ 90° – ϕ Y 23 PART B Physics ( )"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "Uranium-238 238U decays by a series of alpha and beta (β–) emissions to become the stable 92 ( ) isotope lead-206 206Pb . 82 How many beta (β–) particles are emitted in the decay of one uranium-238 nucleus to lead-206?",
+      "answers": {
+        "a": "6",
+        "b": "8",
+        "c": "10",
+        "d": "12",
+        "e": "14",
+        "f": "16 24 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "In a laboratory, liquid nitrogen is stored at a very low temperature in the vessel shown in the diagram. shiny outer surface shiny inner surface liquid nitrogen vacuum The vessel has a double wall made from a poor thermal conductor. There is a vacuum in the gap between the two walls. The inner surface of the inner wall is shiny. The outer surface of the outer wall is shiny. These features insulate the liquid nitrogen by reducing the rate at which thermal energy is transferred to the liquid nitrogen. Which of the following statements explain(s) why these features help to insulate the liquid nitrogen? 1 The shiny inner surface of the inner wall is a good emitter of thermal radiation. 2 Thermal radiation cannot travel in a vacuum. 3 The shiny outer surface of the outer wall is a poor absorber of radiation.",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 25 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "The primary coil of an ideal, 100% efficient transformer is connected to a 240V mains supply.",
+      "answers": {
+        "a": "0.10 1.0",
+        "b": "0.10 2.0",
+        "c": "0.10 4.0",
+        "d": "0.20 1.0",
+        "e": "0.20 2.0",
+        "f": "0.20 4.0 26 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "A dc electricity transmission system uses an undersea cable to send electricity from one country to another. On a particular day, the first country supplies electricity at a voltage of 400kV and 2000A to the transmission system. The second country receives electricity from the transmission system at 160kV and 4000A. What is the percentage efficiency of the system and how much energy is wasted every minute? energy wasted efficiency % every minute /J",
+      "answers": {
+        "a": "20 9.6 ×109",
+        "b": "20 3.84 ×1010",
+        "c": "20 4.8 ×1010",
+        "d": "80 9.6 ×109",
+        "e": "80 3.84 ×1010",
+        "f": "80 4.8 ×1010 27 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "A circuit contains a 12V battery, a thermistor and a fixed resistor connected in series. The graph shows how the resistance of the thermistor varies with temperature. 450 Ω resistance / 400 350 300 250 200 150 100 50 0 0 50 100 temperature / °C When the temperature of the thermistor is 10°C the current in the circuit is 25mA. What is the current when the temperature of the thermistor is 80°C?",
+      "answers": {
+        "a": "30mA",
+        "b": "80mA",
+        "c": "100mA",
+        "d": "120mA",
+        "e": "150mA",
+        "f": "300mA",
+        "g": "480mA 28 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "Two fixed horizontal metal rails are side by side and 12cm apart. The rails are connected to a dc power supply by a switch that is initially open.",
+      "answers": {
+        "a": "0.36 to the left",
+        "b": "0.36 to the right",
+        "c": "0.60 to the left",
+        "d": "0.60 to the right",
+        "e": "3.6 to the left",
+        "f": "3.6 to the right",
+        "g": "6.0 to the left",
+        "h": "6.0 to the right 29 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "Visible light waves are electromagnetic waves that travel through a vacuum at 300000kms–1 with wavelengths that range from 400nm to 750nm. The electromagnetic waves emitted by a source are all at frequencies between 6.0 ×1012Hz and 6.0 ×1014Hz. Which statement about the waves emitted by the source is correct?",
+      "answers": {
+        "a": "Infrared waves are emitted, but not ultraviolet or visible light waves.",
+        "b": "Infrared and visible light waves are emitted, but not ultraviolet waves.",
+        "c": "Infrared, ultraviolet and visible light waves are all emitted.",
+        "d": "Ultraviolet waves are emitted, but not infrared or visible light waves.",
+        "e": "Ultraviolet and visible light waves are emitted, but not infrared waves."
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "Two trolleys are moving towards each other along a straight horizontal track. One trolley has mass 8.0kg and is travelling to the right at 4.0ms−1. The other trolley has mass 2.0kg and is travelling to the left at 1.0ms−1. When the trolleys collide they stick together. How much kinetic energy is transferred to other forms of energy in the collision?",
+      "answers": {
+        "a": "2.0J",
+        "b": "18J",
+        "c": "20J",
+        "d": "28J",
+        "e": "35J",
+        "f": "40J",
+        "g": "45J",
+        "h": "65J 30 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "A car of mass 800kg travels in a straight line along a horizontal road. The car accelerates non-uniformly from rest for 5.0 seconds and then moves at constant speed, as shown in the distance–time graph: distance/m 40 10 0 0 5 10 time/s What is the average resultant force acting on the car over the time for which it is accelerating?",
+      "answers": {
+        "a": "320N",
+        "b": "480N",
+        "c": "640N",
+        "d": "960N",
+        "e": "1600N",
+        "f": "3200N",
+        "g": "4800N 31 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "Cubes of side 2.0cm are tightly packed into a rectangular box with internal dimensions 12.0cm×10.0cm×6.0cm. Each cube is either solid concrete or solid steel. There are twice as many steel cubes as concrete cubes. What is the total mass of the cubes in the box? (density of concrete = 2.0gcm–3; density of steel = 8.0gcm–3)",
+      "answers": {
+        "a": "2880g",
+        "b": "3240g",
+        "c": "3600g",
+        "d": "3840g",
+        "e": "4320g",
+        "f": "4800g"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "P and Q are two fixed points on the surface of the ocean which are 6.0m apart. An ocean wave travels in the direction P to Q. The wave has a frequency of 0.50Hz and travels at a constant speed.",
+      "answers": {
+        "a": "2.1ms–1",
+        "b": "3.4ms–1",
+        "c": "5.0ms–1",
+        "d": "7.5ms–1",
+        "e": "20ms–1 32 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "A sample contains only one radioactive isotope. This isotope decays in a single step with a half-life of 120 minutes to a stable isotope. The sample is placed near to a radiation detector which measures the count rate. The count rate reading is 910 counts per minute (cpm). After 240 minutes the measurement is repeated. The count rate reading is now 238cpm. After a further 360 minutes have elapsed, a third measurement of the count rate is made. What is the count rate due to background radiation and what is the expected reading in the third measurement? background count rate /cpm third measurement /cpm",
+      "answers": {
+        "a": "224 148",
+        "b": "224 226",
+        "c": "142 28",
+        "d": "142 148",
+        "e": "142 154",
+        "f": "14 14",
+        "g": "14 28",
+        "h": "14 42 33 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "h"
+    },
+    {
+      "question": "A solid uniform sphere is made of metal of density ρ and has radius r and volume V. It falls S vertically through a viscous liquid of density ρ . L Three forces act on it: its weight, a drag force D and an upthrust U. The magnitude of the upthrust force is equal to the weight of the liquid displaced by the sphere. The magnitude of the drag force is given by:",
+      "answers": {
+        "d": "S L Vrk Vρg",
+        "a": "L Vrk ρ g",
+        "b": "S Vrk g(ρ −ρ )",
+        "c": "S L Vrk g(ρ +ρ )",
+        "e": "L rk Vρ g",
+        "f": "S rk Vg(ρ −ρ )",
+        "g": "S L rk Vg(ρ +ρ )",
+        "h": "S L rk 34 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "g"
+    },
+    {
+      "question": "A parachutist of mass 80.0kg drops from a plane travelling at 40.0ms–1, 2000m above the Earth’s surface. The parachutist hits the ground at a speed of 5.00ms–1. How much work is done by the parachutist against drag forces during the fall? (Take the Earth’s gravitational field strength to be10.0Nkg–1.)",
+      "answers": {
+        "a": "1535000J",
+        "b": "1624000J",
+        "c": "1649000J",
+        "d": "1663000J",
+        "e": "1726000J"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "A light spring of unstretched length 0.10m has a spring constant of 20Nm–1. The spring is suspended so that it is vertical and a load of mass 0.050kg is attached to the end of the spring. The load is pulled vertically downwards until the length of the spring is 0.30m. The load is then released. What is the speed of the load at the instant that the spring returns to its unstretched length? (gravitational field strength = 10Nkg–1; assume that resistive forces are negligible)",
+      "answers": {
+        "a": "0ms–1",
+        "b": "4.0ms–1",
+        "c": "6.0ms–1",
+        "d": "12ms–1",
+        "e": "16ms–1",
+        "f": "6ms–1",
+        "g": "12 ms–1",
+        "h": "30 ms–1 35 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "g"
+    },
+    {
+      "question": "A rocket travelling in space is burning its fuel at a constant rate. By expelling the burnt fuel through a nozzle, the engine is applying a constant force to the rocket. What is happening to the magnitude of the acceleration of the rocket?",
+      "answers": {
+        "a": "It is increasing at an increasing rate.",
+        "b": "It is increasing at a constant rate.",
+        "c": "It is increasing at a decreasing rate.",
+        "d": "It is not changing.",
+        "e": "It is decreasing at an increasing rate.",
+        "f": "It is decreasing at a constant rate.",
+        "g": "It is decreasing at a decreasing rate. 36 PART C Chemistry PART C Chemistry 37 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    }
+  ],
+  "partCChemistry": [
+    {
+      "question": "Consider only the first three metals in Group 1 (Li, Na, K) and only the first three elements in Group 17 (F, Cl, Br). Which of the following statements is/are correct for the compound lithium bromide? 1 It is formed from the least reactive of the three Group 17 elements. 2 It is formed from the least reactive of the three Group 1 elements and the Group 17 element (of the three) with the lowest boiling point. 3 It is formed from the Group 1 element (of the three) with the highest melting point.",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 38 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "Use the following data table to answer the question. gas melting point / °C boiling point / °C hydrogen –259 –253 nitrogen –210 –196 oxygen –219 –183 neon –249 –246 argon –189 –186 Water and carbon dioxide were removed from a sample of air and the remaining mixture was cooled to –260°C. The three most abundant remaining elements are to be separated by fractional distillation. In which order would these three elements be collected?",
+      "answers": {
+        "a": "hydrogen, neon, nitrogen",
+        "b": "hydrogen, neon, oxygen",
+        "c": "neon, nitrogen, argon",
+        "d": "neon, nitrogen, oxygen",
+        "e": "nitrogen, argon, oxygen",
+        "f": "nitrogen, oxygen, argon",
+        "g": "oxygen, nitrogen, argon",
+        "h": "oxygen, argon, nitrogen 39 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "Molecule J is a straight-chain hydrocarbon containing one carbon-carbon double bond. The relative atomic mass (A) of hydrogen is 1 and carbon is 12. r What is the minimum additional information that is needed in order to determine the molecular formula of molecule J? 1 The percentage by mass of carbon in the molecule. 2 The percentage by mass of hydrogen in the molecule. 3 The relative molar mass (M) of the molecule. r",
+      "answers": {
+        "a": "1 only",
+        "b": "3 only",
+        "c": "1 and 2 only",
+        "d": "1 and 3 only",
+        "e": "1, 2 and 3"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "Which of the following tests could be used, on its own, to distinguish between all three of the following white solids: potassium carbonate, calcium chloride and sodium sulfate? 1 Add a small amount of each solid separately to a platinum wire and hold in a colourless flame. 2 Dissolve a small amount of each solid separately in deionised water and add a few drops of sodium hydroxide solution. 3 Dissolve a small amount of each solid separately in deionised water and add a few drops of hydrochloric acid, followed by barium chloride solution.",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 40 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "Which one of the following formulae is correct for the compound given?",
+      "answers": {
+        "a": "aluminium sulfate, Al(SO ) 4 3",
+        "b": "ammonium carbonate, (NH ) CO 4 2 3",
+        "c": "calcium hydroxide, CaOH",
+        "d": "magnesium nitrate, MgNO 3",
+        "e": "potassium bromide, KBr 2"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "Iodic acid, HIO , can be made from iodine in the following reaction: 3 I + wH O + xCl → yHIO + zHCl 2 2 2 3 What is the value of x when the equation is balanced?",
+      "answers": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4",
+        "e": "5",
+        "f": "6 41 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "Some dilute aqueous solutions were electrolysed using graphite electrodes. Which of the rows in the table show(s) the correct products of electrolysis? products of electrolysis aqueous electrolyte at the cathode at the anode (negative electrode) (positive electrode) 1 potassium hydroxide potassium oxygen 2 copper(II) chloride chlorine copper 3 sodium sulfate hydrogen sulfur",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 42 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "Which of the following statements about elements in the Periodic Table is/are correct? 1 When the element in Period 5, Group 2 reacts with the element that is in Period 3, Group 17, a redox reaction occurs. 2 In each Group, the elements from Period 2 are more reactive than the elements from Period 5. 3 The compound formed between the element in Period 2, Group 14 and the element in Period 3, Group 17 will have a simple molecular structure.",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "Which of the following equations represent(s) a redox reaction? 1 K Cr O + 2KOH → 2K CrO + H O 2 2 7 2 4 2 2 8HNO + 3C H O + K Cr O → 2KNO + 3C H O + 7H O + 2Cr(NO ) 3 2 6 2 2 7 3 2 4 2 3 3 3 H O + SO → H SO 2 2 2 3",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 43 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "A paper chromatogram is set up with an orange food colouring spotted on the baseline. Ten minutes after the start, the solvent front has moved 15.0cm up the paper from the baseline and a yellow spot is 12.0cm above the baseline. Five minutes later, the solvent front has moved up a further 10.0cm. How far from the baseline will the yellow spot be 15 minutes after the start?",
+      "answers": {
+        "a": "8.0cm",
+        "b": "12.0cm",
+        "c": "15.0cm",
+        "d": "20.0cm",
+        "e": "22.0cm",
+        "f": "25.0cm",
+        "g": "31.3cm"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "10g of a mixture of solid magnesium hydroxide, Mg(OH) , and solid sodium hydroxide, NaOH, 2 is added to an excess of water and stirred. One of the components of the mixture dissolves. Assume that the other is completely insoluble. The mixture is filtered to remove the insoluble component of the mixture. 50cm3 of 1.0moldm–3 sulfuric acid exactly neutralises the remaining solution. What is the mass of magnesium hydroxide in the original mixture? (M values: Mg(OH) = 58; NaOH = 40) r 2",
+      "answers": {
+        "a": "2.0g",
+        "b": "2.9g",
+        "c": "4.0g",
+        "d": "5.8g",
+        "e": "6.0g",
+        "f": "8.0g 44 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "100cm3 of ethane is mixed with 1400cm3 of oxygen and the mixture is ignited. All volumes are measured at atmospheric pressure and a temperature of 150°C. What will be the total volume of gas after the complete combustion? (Assume that equal amounts of any gas at the same temperature and pressure occupy the same volume.)",
+      "answers": {
+        "a": "500cm3",
+        "b": "1250cm3",
+        "c": "1500cm3",
+        "d": "1550cm3",
+        "e": "1700cm3",
+        "f": "2000cm3 45 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "Hydrochloric acid, sulfuric acid and phosphoric(V) acid are inorganic acids. Phosphoric(V) acid, H PO , ionises in water in the following series of reactions: 3 4",
+      "answers": {
+        "h": "1, 2 and 3 46 PART C Chemistry",
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "g"
+    },
+    {
+      "question": "Calcium carbonate reacts with hydrochloric acid according to the following chemical equation: CaCO (s) + 2HCl(aq) → CaCl (aq) + H O(l) + CO (g) 3 2 2 2 Line P on the graph shows how the volume of carbon dioxide formed changes with time when 4.0g of calcium carbonate reacts with 50cm3 of 1.0moldm–3 hydrochloric acid at 20°C.",
+      "answers": {
+        "a": "second reaction was carried out under identical conditions with the same mass of calcium carbonate but using 50cm3 of 2.0moldm–3 hydrochloric acid. Which line (A-F) best represents how the volume of carbon dioxide formed changes with time in the second reaction? (M value: CaCO = 100) r 3 volume of CO 2 F E D C P",
+        "b": "A 0 0 time 47 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "An element Z forms an ionic compound ZSO which has M = 120.4 4 r The ion of Z in ZSO has 10 electrons. 4 Element Z has three isotopes, labelled L, M and N, which contain the following numbers of neutrons. isotope L M N number of neutrons 12 13 14 The percentage abundances of isotopes M and N are the same. What is the percentage abundance of the isotope L in the element Z in ZSO ? 4 (M value: SO 2– = 96.1) r 4",
+      "answers": {
+        "a": "4.10%",
+        "b": "10.0%",
+        "c": "13.4%",
+        "d": "43.3%",
+        "e": "80.0%",
+        "f": "91.8%"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "Complete combustion of 1mol of hydrocarbon X requires exactly 8.5mol of oxygen. Incomplete combustion of 1mol of hydrocarbon X, to form carbon monoxide and water only, requires exactly 5.5mol of oxygen. How many hydrogen atoms are there in one molecule of hydrocarbon X?",
+      "answers": {
+        "a": "6",
+        "b": "8",
+        "c": "10",
+        "d": "12",
+        "e": "14 48 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "Four separate experiments were carried out using different quantities of 2moldm–3 hydrochloric acid and 2moldm–3 sodium hydroxide in insulated polystyrene cups. After stirring, the maximum temperature was recorded and the results plotted on a graph as shown. The temperatures of the acid and alkali on their own were also plotted on the graph. Two straight lines were drawn and extrapolated as shown. What is the molar enthalpy change for the neutralisation reaction, in kJmol–1? (Assume that the specific heat capacity of the solutions is 4Jg–1°C–1, the density of dilute solutions is 1gcm–3, and all heat is transferred to the solution.)",
+      "answers": {
+        "a": "3kJmol–1",
+        "b": "6kJmol–1",
+        "c": "30kJmol–1",
+        "d": "60kJmol–1",
+        "e": "120kJmol–1",
+        "f": "3000kJmol–1 49 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "An experiment is carried out using the first three metals in Group 1: lithium, sodium and potassium. The initial masses of three open beakers each containing 100g samples of an alcohol are recorded. In three separate experiments, equal small masses of lithium, sodium and potassium are added to the three beakers, which are on electronic balances. Each metal reacts in a similar way and after the reaction is complete, the final mass of each beaker and its contents is recorded. In each case, the final mass of the beaker and its contents is compared to the recorded initial mass before the alkali metal was added. Which of the following statements is correct?",
+      "answers": {
+        "a": "The beaker with lithium added would decrease in mass the most.",
+        "b": "The beaker with sodium added would decrease in mass the most.",
+        "c": "The beaker with potassium added would decrease in mass the most.",
+        "d": "All three beakers would show the same decrease in mass.",
+        "e": "The beaker with lithium added would increase in mass the most.",
+        "f": "The beaker with sodium added would increase in mass the most.",
+        "g": "The beaker with potassium added would increase in mass the most.",
+        "h": "All three beakers would show the same increase in mass. 50 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "g"
+    },
+    {
+      "question": "X is a solution of sulfuric acid. 20.0cm3 of X is diluted by adding distilled water to produce 500cm3 of solution Y. 10.0cm3 of Y is exactly neutralised by 40.0cm3 of 0.0500moldm–3 aqueous potassium hydroxide. What is the concentration of sulfuric acid in X?",
+      "answers": {
+        "a": "0.00100moldm–3",
+        "b": "0.100moldm–3",
+        "c": "0.200moldm–3",
+        "d": "0.400moldm–3",
+        "e": "1.25moldm–3",
+        "f": "2.50moldm–3",
+        "g": "5.00moldm–3",
+        "h": "10.0moldm–3"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "An electric current is the flow of charged particles. In an electrolysis of aluminium oxide using inert electrodes, the current flows at 5.00 ×10–6 moles of electrons per second. Assume that only aluminium oxide is present and the aluminium is a single isotope 27Al. 13 What mass of aluminium is produced in 48 seconds?",
+      "answers": {
+        "a": "0.04mg",
+        "b": "0.09mg",
+        "c": "0.52mg",
+        "d": "1.04mg",
+        "e": "1.08mg",
+        "f": "2.16mg",
+        "g": "3.12mg",
+        "h": "6.48mg 51 BLANK PAGE 52 PART D Biology PART D Biology 53 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    }
+  ],
+  "partDBiology": [
+    {
+      "question": "Which of the following cells do not contain mitochondria? 1 bacterial cells 2 embryonic stem cells 3 mature red blood cells 4 potato cells",
+      "answers": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "3 only",
+        "d": "4 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "1 and 4 only",
+        "h": "2 and 4 only"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "Which of the following could lead to phenotypic variation between a father and his son? 1 time spent in sunlight 2 their genomes 3 their diets",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 54 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "h"
+    },
+    {
+      "question": "The diagram shows part of the carbon cycle. P S Q R Which row identifies the correct descriptions for boxes P, Q, R and S? carbon-rich carbon-rich carbon-rich CO in atmosphere compounds in compounds in compounds in 2 animals decomposers plants",
+      "answers": {
+        "a": "P Q R S",
+        "b": "Q P S R",
+        "c": "S Q R P",
+        "d": "Q S P R",
+        "e": "S R Q P",
+        "f": "R S P Q",
+        "g": "P R Q S",
+        "h": "R P S Q 55 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "A section of double-stranded DNA contains 4500 base pairs. 10% of the bases present are adenine. Which of the following statements is/are correct? 1 There are 450 thymine bases present. 2 40% of the bases present are cytosine. 3 There are 3600 guanine bases present.",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 56 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "g"
+    },
+    {
+      "question": "Pepsin and trypsin are both protease enzymes found in the human digestive system. The graph shows how the activity of both enzymes varies with pH. Key pepsin trypsin percentage 100 of maximum enzyme activity 75 50 25 0 1 2 3 4 5 6 7 8 9 10 11 pH In the human digestive system: 1 pepsin is most active in the stomach. 2 trypsin would be inactive in the stomach. 3 pepsin could be a substrate for trypsin. 4 pepsin is most active at low acidity and trypsin most active at high acidity. Which statements are correct?",
+      "answers": {
+        "a": "1 and 2 only",
+        "b": "1 and 3 only",
+        "c": "1 and 4 only",
+        "d": "2 and 3 only",
+        "e": "2 and 4 only",
+        "f": "3 and 4 only",
+        "g": "1, 2 and 3 only",
+        "h": "2, 3 and 4 only 57 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "g"
+    },
+    {
+      "question": "The diagram shows two human gametes, cell P and cell Q, fusing to form cell R. Cell P carries an additional copy of one of its chromosomes so that it has one more chromosome than cell Q. Cell R divides to form two cells S and T. S and T grow into two separate individuals. P Q nucleus R S T Using this information, which row shows the correct number of chromosomes in the nucleus of cell R and in the nucleus of cell T? cell R cell T",
+      "answers": {
+        "a": "23 24",
+        "b": "24 47",
+        "c": "24 48",
+        "d": "46 46",
+        "e": "47 24",
+        "f": "47 47",
+        "g": "92 47",
+        "h": "93 93 58 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "SCID is an inherited condition in humans. In one type of SCID, the white blood cells are unable to make the functional enzyme ADA, which is necessary for these cells to divide by mitosis during an immune response. Scientists have developed a gene therapy treatment whereby a gene is inserted into the DNA of stem cells taken from the bone marrow of a person with this condition. These cells can then be returned to the body of the person, and can divide and differentiate into white blood cells. If this gene therapy is successful, the number of white blood cells should increase significantly. Which of the following statements correctly describe(s) how this method of gene therapy might work to help a person with this type of SCID? 1 Genetically altered stem cells differentiate into white blood cells that are able to produce functional ADA. 2 Genetically altered stem cells can differentiate into gametes so that offspring will not inherit SCID. 3 The sequence of the bases in the DNA of the white blood cells, derived from the genetically altered stem cells, has changed.",
+      "answers": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "3 only",
+        "d": "1 and 2 only",
+        "e": "1 and 3 only",
+        "f": "2 and 3 only",
+        "g": "1, 2 and 3 59 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "The table shows concentrations of substances in blood entering and leaving three different organs of a person: • kidney • small intestine • chambers of the right side of the heart The blood sample was taken 10 minutes after the person had eaten a carbohydrate-rich meal. concentration in blood entering the organ concentration in blood leaving the organ oxygen oxygen organ glucose urea glucose urea / arbitrary / arbitrary / mg dm–3 / mg dm–3 / mg dm–3 / mg dm–3 units units 1 9.0 65 3.0 9.0 65 3.0 2 9.0 85 3.0 9.0 70 2.4 3 9.0 85 3.0 12.0 70 3.0 Which row in the following table identifies the organs? organ 1 organ 2 organ 3",
+      "answers": {
+        "a": "kidney small intestine chambers of the right side of the heart",
+        "b": "kidney chambers of the right side small intestine of the heart",
+        "c": "small intestine kidney chambers of the right side of the heart",
+        "d": "small intestine chambers of the right side kidney of the heart",
+        "e": "chambers of the right side small intestine kidney of the heart",
+        "f": "chambers of the right side kidney small intestine of the heart 60 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "The table shows information about a human genetic condition called sickle cell anaemia and an infection called malaria. Both sickle cell anaemia and malaria can be fatal. genotype phenotype comment MM does not show sickle cell anaemia can be infected with malaria Mm does not show sickle cell anaemia shows resistance to malaria shows more resistance to malaria mm shows sickle cell anaemia than Mm Which of the following statements is/are correct? 1 In areas without malaria, human populations are likely to have a low number of people with the m allele. 2 In areas with malaria, only those individuals that are heterozygous will be able to pass on their alleles to the next generation. 3 Presence of malaria has caused a mutation of the M allele to the m allele leading to an increased chance of survival in the heterozygous state.",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 61 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "Which of the following could be a result of the addition of a large amount of organic material into a slow flowing river? 1 A decrease in biodiversity in the river. 2 A reduction in the oxygen concentration gradient between the air and the water. 3 An increase in the size of at least one aquatic population.",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 62 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "The graph shows the mass of product produced over time for an enzyme-controlled reaction in two different conditions, X and Y. All other variables were kept constant. mass of product produced X Y time Which of the following could be correct for this graph? 1 Condition X is a higher pH than condition Y. 2 Condition X has less substrate supplied than condition Y. 3 Condition X is a lower pH than condition Y. 4 Condition X has more substrate supplied than condition Y.",
+      "answers": {
+        "a": "none of them",
+        "b": "1 and 2 only",
+        "c": "1 and 3 only",
+        "d": "1 and 4 only",
+        "e": "2 and 3 only",
+        "f": "2 and 4 only",
+        "g": "3 and 4 only",
+        "h": "1, 2, 3 and 4 63 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "The table shows the concentration of potassium ions in several different locations. concentration of location potassium ions bacterial cell cytoplasm 30mmoldm–3 mammalian blood plasma 4000µmoldm–3 mammalian heart cell cytoplasm 1.0 ×102mmoldm–3 sea water 3.0 ×104µmoldm–3 yeast cell cytoplasm 300mmoldm–3 Which of the following statements is/are correct? 1 A mammalian heart cell needs energy from respiration in order to obtain more potassium ions from blood plasma. 2 If a yeast cell is placed in sea water then it will lose potassium ions by osmosis. 3 There is no concentration gradient for potassium ions between a bacterial cell and sea water.",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 64 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "The abundance of a plant species in a habitat can be measured in different ways: • the density (the number of that plant species per m2) • the frequency (the number of quadrats in which the plant species occurs) The abundance of a plant species in a 100m2 area of grassland was measured. The diagram below represents this area of grassland. Each black circle represents one individual of the plant species in this area of grassland. Two different size quadrats were used to sample the area: • large quadrat (50 cm × 50 cm) • small quadrat (10 cm × 10 cm) The area is sampled randomly, first using 10 large quadrats and then a second time using 10 small quadrats. Which of the following statements is/are correct? 1 The overall density in the grassland calculated from sampling with either size quadrat will always be the same. 2 The overall density in the grassland calculated from sampling will always be 1 plant per m2. 3 The frequency obtained using the small quadrat will always be lower than that obtained with the large quadrat.",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "2 and 3 only",
+        "g": "1 and 3 only",
+        "h": "1, 2 and 3 65 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "A student investigated the endothermic reaction of photosynthesis in pondweed. The student set up the apparatus as shown in the diagram. scale light source gas bubble water in capillary tube clamp small gas bubbles pondweed water The experiment was left for 5 minutes and the distance moved by the gas bubble along a capillary tube of 2mm diameter was recorded. Using these values, the rate of gas production is 2πmm3 per minute. Which row of the table is correct? total distance moved by the observations if the light reason why the reaction is gas bubble during the source was moved further described as endothermic experiment / mm from the pondweed the gas bubble moves more",
+      "answers": {
+        "a": "0.5 the reaction releases energy slowly to the right the gas bubble moves more",
+        "b": "0.5 the reaction takes in energy slowly to the left the gas bubble moves more",
+        "c": "2.0 the reaction releases energy slowly to the left the gas bubble moves more",
+        "d": "2.0 the reaction releases energy slowly to the right the gas bubble moves more",
+        "e": "2.5 the reaction takes in energy slowly to the left the gas bubble moves more",
+        "f": "2.5 the reaction takes in energy slowly to the right the gas bubble moves more",
+        "g": "10.0 the reaction releases energy slowly to the left the gas bubble moves more",
+        "h": "10.0 the reaction takes in energy slowly to the right 66 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "h"
+    },
+    {
+      "question": "The placenta is an organ that develops during pregnancy. One function of the placenta is to allow the exchange of gases between the mother and the developing foetus. The diagram represents the maternal and foetal blood flow between P and Q in a section of the placenta of a healthy small mammal. The concentration of oxygen in both maternal and foetal blood was measured at regular distances along this section. maternal direction of blood flow foetal direction of blood flow P Q Which graph illustrates the concentration of oxygen in both maternal and foetal blood between P and Q? Key maternal capillary foetal capillary",
+      "answers": {
+        "a": "concentration B concentration of oxygen of oxygen P Q P Q",
+        "c": "concentration D concentration of oxygen of oxygen P Q P Q",
+        "e": "concentration F concentration of oxygen of oxygen P Q P Q 67 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "The diagram shows the changes in the volume of the ventricles, and the ECG trace that accompanies those changes, during two consecutive heart beats. 130 X ventricular volume Z 90 /cm3 50 Y ECG Which row is correct about the events happening at X, Y and Z? at X blood is being at Y valves between atria chambers of the heart pumped into and ventricles are contracting at Z",
+      "answers": {
+        "a": "aorta open atria",
+        "b": "aorta closed atria",
+        "c": "atria open ventricles",
+        "d": "atria closed ventricles",
+        "e": "pulmonary artery open ventricles",
+        "f": "pulmonary artery closed ventricles",
+        "g": "pulmonary vein open atria",
+        "h": "pulmonary vein closed atria 68 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "Three different methods, X, Y and Z, of controlling pathogens in the human body are compared in the table. requires the method of uses a molecule affects bacterial affects viral movement of controlling the released from pathogens pathogens human cells to pathogen human cells have an effect X yes yes yes no Y yes no no no Z yes yes no yes Which row in the following table is correct? method of controlling the pathogen X Y Z",
+      "answers": {
+        "a": "may be stimulated by taking an antibiotic may work by cells injections of inactivated engulfing pathogens pathogen",
+        "b": "may be stimulated by may work by cells taking an antibiotic injections of inactivated engulfing pathogens pathogen",
+        "c": "taking an antibiotic may be stimulated by may work by cells injections of inactivated engulfing pathogens pathogen",
+        "d": "taking an antibiotic may work by cells may be stimulated by engulfing pathogens injections of inactivated pathogen",
+        "e": "may work by cells may be stimulated by taking an antibiotic engulfing pathogens injections of inactivated pathogen",
+        "f": "may work by cells taking an antibiotic may be stimulated by engulfing pathogens injections of inactivated pathogen 69 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "Catalase is an enzyme found inside plant and animal cells. When catalase is added to hydrogen peroxide, bubbles of oxygen gas are formed. Red blood cells were placed into either water or plasma, and were placed in the dark. Plant cells were placed into either water or 0.5moldm–3 sucrose solution, and were placed in the dark. Assume that hydrogen peroxide and catalase do not cross the cell surface membrane. Which row shows the results when hydrogen peroxide was added? Key (cid:57) = oxygen bubbles will form x = oxygen bubbles will not form when hydrogen peroxide was added to plant cells red blood cells red blood cells plant cells in a 0.5moldm–3 in plasma in water in water sucrose solution",
+      "answers": {
+        "a": "(cid:57) (cid:57) x x",
+        "b": "x x (cid:57) (cid:57)",
+        "c": "x x (cid:57) x",
+        "d": "x x x (cid:57)",
+        "e": "(cid:57) (cid:57) (cid:57) x",
+        "f": "(cid:57) (cid:57) x (cid:57) 70 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "The three family trees show the inheritance of three different genetic conditions, each controlled by one gene with one dominant and one recessive allele. 1 Key = male without condition = male with condition = female without condition 2 = female with condition 3 In which of the family trees must the male parent be heterozygous? (Assume that no new mutations occur and that the genes are not found on the X chromosome.)",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 71 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "In rabbits, there are two alleles concerned with dark pigment in the fur: • the dominant allele, B, for black colour • the recessive allele, b, for brown colour Two male black rabbits of unknown genotype each mated with a different female brown rabbit. What is the expected proportion of brown offspring if both male rabbits are heterozygous, and what is the expected proportion of brown offspring if only one male rabbit is heterozygous? expected proportion of brown offspring if both male rabbits heterozygous if only one male rabbit heterozygous",
+      "answers": {
+        "a": "0.25 0.5",
+        "b": "0.25 1",
+        "c": "0.5 0.25",
+        "d": "0.5 1",
+        "e": "1 0.25",
+        "f": "1 0.5 72 BLANK PAGE 73 BLANK PAGE 74 BLANK PAGE 75 76"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    }
+  ],
+  "partEAdvancedMathPhysics": []
+}

@@ -2,12 +2,28 @@ import { formatTime } from '@/lib/utils'
 
 interface ReadingCountdownProps {
   timeLeft: number
+  readingMinutes?: number
+  paper1Minutes?: number
+  paper2Minutes?: number
+  paper3Minutes?: number
+  paper1Questions?: number
+  paper2Questions?: number
+  paper3Questions?: number
 }
 
-export default function ReadingCountdown({ timeLeft }: ReadingCountdownProps) {
+export default function ReadingCountdown({
+  timeLeft,
+  readingMinutes = 1,
+  paper1Minutes = 75,
+  paper2Minutes = 75,
+  paper3Minutes = 75,
+  paper1Questions = 20,
+  paper2Questions = 20,
+  paper3Questions = 0,
+}: ReadingCountdownProps) {
   return (
     <main className="max-w-5xl mx-auto">
-      <p className="mb-4 text-sm font-bold">You have 1 minute to read these instructions.</p>
+      <p className="mb-4 text-sm font-bold">You have {readingMinutes} minute to read these instructions.</p>
       <div className="mb-5 inline-flex rounded-md border border-[#016daa] bg-white px-4 py-2 text-xl font-mono font-bold text-[#016daa]">
         {formatTime(timeLeft)}
       </div>
@@ -24,14 +40,21 @@ export default function ReadingCountdown({ timeLeft }: ReadingCountdownProps) {
         <tbody>
           <tr>
             <td className="border border-[#016daa] px-3 py-2">Paper 1</td>
-            <td className="border border-[#016daa] px-3 py-2">20</td>
-            <td className="border border-[#016daa] px-3 py-2">75 minutes</td>
+            <td className="border border-[#016daa] px-3 py-2">{paper1Questions}</td>
+            <td className="border border-[#016daa] px-3 py-2">{paper1Minutes} minutes</td>
           </tr>
           <tr>
             <td className="border border-[#016daa] px-3 py-2">Paper 2</td>
-            <td className="border border-[#016daa] px-3 py-2">20</td>
-            <td className="border border-[#016daa] px-3 py-2">75 minutes</td>
+            <td className="border border-[#016daa] px-3 py-2">{paper2Questions}</td>
+            <td className="border border-[#016daa] px-3 py-2">{paper2Minutes} minutes</td>
           </tr>
+          {paper3Questions > 0 && (
+            <tr>
+              <td className="border border-[#016daa] px-3 py-2">Paper 3</td>
+              <td className="border border-[#016daa] px-3 py-2">{paper3Questions}</td>
+              <td className="border border-[#016daa] px-3 py-2">{paper3Minutes} minutes</td>
+            </tr>
+          )}
         </tbody>
       </table>
 

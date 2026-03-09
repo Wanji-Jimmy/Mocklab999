@@ -10,13 +10,17 @@ const MESSAGES = [
   'Focus for 90 minutes. Own this mock.',
 ]
 
-const WARM_ROUTES = new Set(['/', '/dashboard', '/account', '/mistakes'])
+const WARM_ROUTES = new Set(['/', '/dashboard', '/account', '/mistakes', '/esat', '/esat/engaa', '/esat/nsaa'])
 const PUSH_DELAY_MS = 360
 const MIN_LAUNCH_MS = 860
 const REVEAL_MS = 620
 const FAILSAFE_MS = 7000
 
 type Phase = 'idle' | 'launch' | 'reveal'
+
+function isExamRoute(pathname: string): boolean {
+  return pathname.startsWith('/exam') || pathname.startsWith('/esat/engaa/') || pathname.startsWith('/esat/nsaa/')
+}
 
 export default function ExamLaunchTransition() {
   const router = useRouter()
@@ -71,7 +75,7 @@ export default function ExamLaunchTransition() {
       }
 
       if (url.origin !== window.location.origin) return
-      if (!url.pathname.startsWith('/exam')) return
+      if (!isExamRoute(url.pathname)) return
       if (!WARM_ROUTES.has(window.location.pathname)) return
 
       if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
@@ -119,7 +123,7 @@ export default function ExamLaunchTransition() {
   useEffect(() => {
     if (!lockRef.current) return
     if (!destinationRef.current) return
-    if (!pathname.startsWith('/exam')) return
+    if (!isExamRoute(pathname)) return
     if (phase === 'reveal') return
 
     const elapsed = performance.now() - startTimeRef.current
@@ -141,7 +145,7 @@ export default function ExamLaunchTransition() {
 
   if (!portalReady) return null
 
-  const subcopy = phase === 'reveal' ? 'Loading questions and timer...' : 'Entering TMUA exam mode...'
+  const subcopy = phase === 'reveal' ? 'Loading questions and timer...' : 'Entering exam mode...'
 
   return (
     <div

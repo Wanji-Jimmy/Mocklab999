@@ -1,0 +1,1614 @@
+*1111111111* *8384900516*
+NATURAL SCIENCES D568/11
+ADMISSIONS ASSESSMENT
+November 2020 60 minutes
+SECTION 1
+INSTRUCTIONS TO CANDIDATES
+Please read these instructions carefully, but do not open this question paper until you are
+told that you may do so. This paper is Section 1 of 2.
+A separate answer sheet is provided for this paper. Please check you have one. You also
+require a soft pencil and an eraser.
+Please complete the answer sheet with your candidate number, centre number, date of birth,
+and name.
+At the end of 60 minutes, your supervisor will collect this question paper and answer sheet
+before giving out Section 2.
+This paper contains four parts: A, B, C and D.
+All candidates should complete Part A Mathematics.
+All candidates should then complete one further part chosen from:
+Part B Physics
+Part C Chemistry
+Part D Biology
+Each part has 20 multiple-choice questions. There are no penalties for incorrect responses, only
+marks for correct answers, so you should attempt all of the questions in your two parts. Each
+question is worth one mark.
+For each question, choose the one option you consider correct and record your choice on the
+separate answer sheet. If you make a mistake, erase thoroughly and try again.
+You must complete the answer sheet within the time limit.
+You can use the question paper for rough working, but no extra paper is allowed. Only your
+responses on the answer sheet will be marked.
+Dictionaries and calculators are NOT permitted.
+Please wait to be told you may begin before turning this page.
+This question paper consists of 70 printed pages and 6 blank pages.
+Copyright © UCLES 2020 PV5
+BLANK PAGE
+2
+Paper content
+PART A Mathematics ............................................................................................................................. 5
+PART B Physics ................................................................................................................................... 19
+PART C Chemistry ............................................................................................................................... 37
+PART D Biology ................................................................................................................................... 53
+3
+BLANK PAGE
+4
+PART A Mathematics
+PART A Mathematics
+5
+PART A Mathematics
+1 The nth term of a sequence is 2n – 5.
+Which row in the table is correct for this sequence?
+term-to-term rule term which has a value of 17
+A subtract 5 11th
+B subtract 5 29th
+C subtract 2 11th
+D subtract 2 29th
+E add 5 11th
+F add 5 29th
+G add 2 11th
+H add 2 29th
+2 The admission charge to a cinema is different for adults and children.
+Admission for 2 adults and 3 children costs £20.
+Admission for 4 adults and 4 children costs £34.
+What does admission cost for 6 adults and 2 children?
+A £27
+B £29
+C £33
+D £39
+E £44
+F £48
+G £72
+6
+PART A Mathematics
+3 Q R
+x
+P S
+M
+PQRS is a square with side length x.
+M is the midpoint of side PS.
+A circular arc, with centre M, is drawn inside the square from S to P.
+Another circular arc, with centre P, is drawn inside the square from S to Q.
+What is the area of the shaded region in terms of x?
+1
+A πx2
+8
+3
+B πx2
+16
+1
+C πx2
+4
+5
+D πx2
+16
+3
+E πx2
+8
+7
+F πx2
+16
+1
+G πx2
+2
+7
+PART A Mathematics
+4 A fair spinner has eight equal sections.
+Each section has one number written on it, as shown.
+3 1
+1 3
+3 2
+1 3
+The spinner is spun twice, and the two numbers scored are added.
+What is the probability that the sum of the two numbers is 5?
+1
+A
+8
+5
+B
+8
+1
+C
+16
+3
+D
+16
+25
+E
+64
+55
+F
+64
+8
+PART A Mathematics
+5 Consider the four lines with the following equations.
+1 2x + 6y = 3
+2 9y = 3x – 4
+3 2y = 6x + 3
+4 4x + 6y – 9 = 0
+Which two lines are perpendicular?
+A 1 and 2
+B 1 and 3
+C 1 and 4
+D 2 and 3
+E 2 and 4
+F 3 and 4
+6 A balloon contains 5000cm3 of gas.
+The gas in the balloon gradually escapes so that the volume of the balloon decreases.
+60% of the volume of the balloon is lost each week.
+What is the volume of the balloon, in cm3, after 3 weeks?
+A 0
+B 128
+C 320
+D 800
+E 1080
+9
+PART A Mathematics
+7 Find the sum of the solutions of
+⎛ x ⎞ 2 ⎛ x ⎞
+2⎜ +3⎟ − ⎜ +3⎟ −36 = 0
+⎝4 ⎠ ⎝4 ⎠
+A 2
+3
+B
+2
+1
+C
+2
+D –4
+E –13
+F –22
+G –26
+H –34
+8 The equilateral triangle PQR has sides of length 8cm.
+A circle, centre O, passes through each of the vertices of the triangle.
+Find an expression for the circumference of the circle, in cm.
+sin60°
+A
+8π
+8π
+B
+sin60°
+cos60°
+C
+8π
+8π
+D
+cos60°
+tan60°
+E
+8π
+8π
+F
+tan60°
+10
+PART A Mathematics
+9 Which one of the following expressions is equivalent to
+a a b
+–
+b c c
+A 0
+a(b2 −1)
+B
+bc
+a(b2 −c2)
+C
+bc
+a2b2 −c2
+D
+abc
+a(c2 −1)
+E
+bc
+a2c2 −b2
+F
+abc
+b2 − a2
+G
+abc
+10 When the expression
+(2x + 3)2 – (x – 3)2
+is written in the form p(x + q)2 + r, where p, q and r are constants, what is the value of r?
+A –27
+B –9
+C 0
+D 3
+E 15
+11
+PART A Mathematics
+11 The number of pairs of winter boots sold on a day is inversely proportional to the cube of the
+outside temperature on that day, measured in °C.
+On a day when the outside temperature is 8°C, 250 pairs of boots are sold.
+The next day, when the outside temperature is x°C, the number of pairs of boots sold is 700%
+more than on the previous day.
+What is the value of x?
+A 2
+B 4
+8
+C
+3 7
+D 83 7
+E 16
+12 The table shows statistics relating to the test marks of two groups of students.
+number of
+mean range
+students
+group X 10 36 16
+group Y 20 48 21
+The results for the two groups of students are combined.
+What can be deduced about the mean and range of the combined results?
+A mean = 40, range ≤ 16
+B mean = 40, 16 < range < 21
+C mean = 40, range ≥ 21
+D mean = 44, range ≤ 16
+E mean = 44, 16 < range < 21
+F mean = 44, range ≥ 21
+12
+PART A Mathematics
+13 A paint colour is a mixture of red paint, blue paint and yellow paint.
+:
+The ratio of red paint to blue paint in the mixture is 18 5
+The ratio of blue paint to yellow paint in the mixture is
+p:
+3
+:
+The ratio of red paint to yellow paint in the mixture is 12 5
+What is the value of p?
+A 2
+B 4.5
+C 5
+D 7.5
+E 12
+14 In a sale, all prices are reduced by 25%.
+A customer calculates the pre-sale price of a bicycle incorrectly by increasing the marked sale
+price by 25%.
+The customer’s calculated pre-sale price is incorrect by £15.
+What is the correct pre-sale price of the bicycle?
+A £180
+B £195
+C £210
+D £225
+E £240
+13
+PART A Mathematics
+15 Two identical fair six-sided dice each have their faces numbered from 1 to 6, with one number
+on each face.
+Both dice are thrown, and the number on each of the dice is recorded.
+They are then both thrown again, and the number on each of the dice is recorded.
+What is the probability that at least one of the four recorded numbers is even?
+1
+A
+4
+1
+B
+2
+9
+C
+16
+3
+D
+4
+15
+E
+16
+14
+PART A Mathematics
+16 Q
+y z
+61°
+P x S R
+[diagram not to scale]
+In the diagram, QS is perpendicular to PR.
+PS = xcm
+PQ = ycm
+QR = zcm
+angle QRS = 61°
+PSR is a straight line.
+Which one of the following is an expression for the length z, in cm?
+A y2 + x2 sin61°
+B y2 − x2 sin61°
+C y2 + x2 cos61°
+D y2 − x2 cos61°
+y2 + x2
+E
+sin61°
+y2 − x2
+F
+sin61°
+y2 + x2
+G
+cos61°
+y2 − x2
+H
+cos61°
+15
+PART A Mathematics
+17 Two vertices of a square are at (1,1) and (3,5).
+What is the difference between the perimeters of the largest and smallest possible squares that
+can be drawn with these points as two of their vertices?
+A 0
+( )
+B 4 3 2− 2
+( )
+C 4 3 2 −1
+( )
+D 4 5 2− 2
+( )
+E 4 5 2 −1
+( )
+F 4 13 2− 2
+( )
+G 4 13 2 −1
+( )
+H 4 3 5 2− 2
+18 The quadratic equation 2x2 – px – 4 = 0, where p is a positive constant, has two solutions that
+differ by 6.
+What is the value of p?
+A 2
+B 4 7
+C 12
+D 4 11
+E 4 34
+F 6 30
+16
+PART A Mathematics
+19 A solid cone has a base radius xcm.
+:
+The ratio of the perpendicular height of the cone to the radius of the cone is 5 2
+y
+A solid hemisphere of radius cm is made from the same material as the cone.
+2
+Which one of the following is a correct expression for
+volumeof thecone
+volumeof thehemisphere
+(Volume of a cone = 1πr2h where r is the radius and h is the perpendicular height.)
+3
+(Volume of a sphere = 4πr3 where r is the radius.)
+3
+5x3
+A
+y3
+5x3
+B
+4y3
+8x3
+C
+5y3
+10x3
+D
+y3
+14x3
+E
+y3
+17
+PART A Mathematics
+20 The point M is (2,5) and the point N is (–3,–1).
+The line segment MN is transformed to the line segment TU by two transformations:
+MN is rotated 90° clockwise about the origin to give the line segment RS.
+⎛p⎞
+RS is then translated by the vector ⎜ ⎟ to give the line segment TU.
+⎝q⎠
+The coordinates of the midpoint of TU are (7,–2.5).
+⎛p⎞
+Find the vector ⎜ ⎟
+⎝q⎠
+⎛ 2 ⎞
+A ⎜ ⎟
+⎝0.5⎠
+⎛0.5⎞
+B ⎜ ⎟
+⎝ 2 ⎠
+⎛ 5 ⎞
+C ⎜ ⎟
+⎝−3⎠
+⎛−3⎞
+D ⎜ ⎟
+⎝ 5 ⎠
+⎛ 9 ⎞
+E ⎜ ⎟
+⎝−2⎠
+⎛−2⎞
+F ⎜ ⎟
+⎝ 9 ⎠
+18
+PART B Physics
+PART B Physics
+19
+PART B Physics
+21 A soldering iron has a copper tip of mass 2.0g.
+The tip is heated with 30W of thermal power. In 50s, the temperature of the tip increases by
+200°C.
+How much energy is transferred from the tip to the surroundings in this time?
+(specific heat capacity of copper = 400Jkg–1°C–1)
+A 160J
+B 500J
+C 1340J
+D 1500J
+E 1660J
+F 1840J
+G 2500J
+20
+PART B Physics
+22 The diagram represents the structure of a charged atom (ion) of one isotope of an element.
+nucleus
+electrons
+Which diagram represents the structure of an oppositely charged ion of a different isotope of
+the same element?
+A B
+C D
+E F
+G
+21
+PART B Physics
+23 A sample of an ideal gas is sealed in a cylindrical container by a piston as shown in the
+diagram.
+cylindrical container
+gas
+piston
+The particles of the gas are moving with an average speed v, and collide with the surface of the
+piston with a frequency f.
+The piston is now slowly pushed into the cylinder until the gas occupies half of its original
+volume, but the gas remains at the same temperature.
+What is the new average speed of the particles of the gas, and at what frequency do they now
+collide with the surface of the piston?
+average speed frequency
+1
+A 2v f
+2
+B 2v f
+C 2v 2f
+1
+D v f
+2
+E v f
+F v 2f
+22
+PART B Physics
+24 A water wave is travelling in a shallow tank of water. The wave passes from region X into
+region Y where the speed of the wave differs from that in region X. The diagram shows the
+directions of travel in the two regions and peaks of the wave that are separated by one
+wavelength.
+peaks
+direction
+region X θ
+φ
+region Y
+peaks
+direction
+In region X, the angle between the wave peaks and the boundary between the regions is θ.
+In region Y, the angle between the wave peaks and the boundary is ϕ.
+What are the angle of incidence and the angle of refraction, and in which region is the speed of
+the wave greater?
+speed greater
+angle of incidence angle of refraction
+in region
+A θ ϕ X
+B θ ϕ Y
+C θ 90° – ϕ X
+D θ 90° – ϕ Y
+E 90° – θ ϕ X
+F 90° – θ ϕ Y
+G 90° – θ 90° – ϕ X
+H 90° – θ 90° – ϕ Y
+23
+PART B Physics
+( )
+25 Uranium-238 238U decays by a series of alpha and beta (β–) emissions to become the stable
+92
+( )
+isotope lead-206 206Pb .
+82
+How many beta (β–) particles are emitted in the decay of one uranium-238 nucleus to
+lead-206?
+A 6
+B 8
+C 10
+D 12
+E 14
+F 16
+24
+PART B Physics
+26 In a laboratory, liquid nitrogen is stored at a very low temperature in the vessel shown in the
+diagram.
+shiny outer surface
+shiny inner surface
+liquid nitrogen vacuum
+The vessel has a double wall made from a poor thermal conductor. There is a vacuum in the
+gap between the two walls.
+The inner surface of the inner wall is shiny. The outer surface of the outer wall is shiny.
+These features insulate the liquid nitrogen by reducing the rate at which thermal energy is
+transferred to the liquid nitrogen.
+Which of the following statements explain(s) why these features help to insulate the liquid
+nitrogen?
+1 The shiny inner surface of the inner wall is a good emitter of thermal radiation.
+2 Thermal radiation cannot travel in a vacuum.
+3 The shiny outer surface of the outer wall is a poor absorber of radiation.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+25
+PART B Physics
+27 The primary coil of an ideal, 100% efficient transformer is connected to a 240V mains supply.
+A lamp L that is connected to the secondary coil has a voltage of 12V across it. An identical
+lamp and a switch S are also connected to the transformer as shown in the diagram.
+L S
+240V
+With the switch open, the current in the primary coil is 0.10A.
+The switch is now closed.
+What is the current in the primary coil now and what is the current in lamp L?
+current in primary coil /A current in lamp L /A
+A 0.10 1.0
+B 0.10 2.0
+C 0.10 4.0
+D 0.20 1.0
+E 0.20 2.0
+F 0.20 4.0
+26
+PART B Physics
+28 A dc electricity transmission system uses an undersea cable to send electricity from one
+country to another. On a particular day, the first country supplies electricity at a voltage of
+400kV and 2000A to the transmission system. The second country receives electricity from the
+transmission system at 160kV and 4000A.
+What is the percentage efficiency of the system and how much energy is wasted every minute?
+energy wasted
+efficiency %
+every minute /J
+A 20 9.6 ×109
+B 20 3.84 ×1010
+C 20 4.8 ×1010
+D 80 9.6 ×109
+E 80 3.84 ×1010
+F 80 4.8 ×1010
+27
+PART B Physics
+29 A circuit contains a 12V battery, a thermistor and a fixed resistor connected in series. The
+graph shows how the resistance of the thermistor varies with temperature.
+450
+Ω
+resistance /
+400
+350
+300
+250
+200
+150
+100
+50
+0
+0 50 100
+temperature / °C
+When the temperature of the thermistor is 10°C the current in the circuit is 25mA.
+What is the current when the temperature of the thermistor is 80°C?
+A 30mA
+B 80mA
+C 100mA
+D 120mA
+E 150mA
+F 300mA
+G 480mA
+28
+PART B Physics
+30 Two fixed horizontal metal rails are side by side and 12cm apart. The rails are connected to a
+dc power supply by a switch that is initially open.
+A freely moveable metal rod of length 20cm is placed on the rails as shown in the diagram.
+The diagram shows the arrangement seen from above.
+The angle between the rod and the rails is 90°.
+moveable rod
++
+12cm 20cm
+–
+fixed rails
+The whole arrangement is placed in a uniform magnetic field of magnitude 0.50T that is
+directed perpendicularly into the page.
+The moveable rod has a weight of 0.40N.
+The switch is now closed. As a result, there is a current of 2.4A in the circuit and the rod
+moves.
+What is the initial magnitude of the acceleration of the rod and what is its direction?
+(gravitational field strength = 10Nkg–1)
+acceleration /ms–2 direction
+A 0.36 to the left
+B 0.36 to the right
+C 0.60 to the left
+D 0.60 to the right
+E 3.6 to the left
+F 3.6 to the right
+G 6.0 to the left
+H 6.0 to the right
+29
+PART B Physics
+31 Visible light waves are electromagnetic waves that travel through a vacuum at 300000kms–1
+with wavelengths that range from 400nm to 750nm.
+The electromagnetic waves emitted by a source are all at frequencies between 6.0 ×1012Hz
+and 6.0 ×1014Hz.
+Which statement about the waves emitted by the source is correct?
+A Infrared waves are emitted, but not ultraviolet or visible light waves.
+B Infrared and visible light waves are emitted, but not ultraviolet waves.
+C Infrared, ultraviolet and visible light waves are all emitted.
+D Ultraviolet waves are emitted, but not infrared or visible light waves.
+E Ultraviolet and visible light waves are emitted, but not infrared waves.
+32 Two trolleys are moving towards each other along a straight horizontal track.
+One trolley has mass 8.0kg and is travelling to the right at 4.0ms−1.
+The other trolley has mass 2.0kg and is travelling to the left at 1.0ms−1.
+When the trolleys collide they stick together.
+How much kinetic energy is transferred to other forms of energy in the collision?
+A 2.0J
+B 18J
+C 20J
+D 28J
+E 35J
+F 40J
+G 45J
+H 65J
+30
+PART B Physics
+33 A car of mass 800kg travels in a straight line along a horizontal road.
+The car accelerates non-uniformly from rest for 5.0 seconds and then moves at constant
+speed, as shown in the distance–time graph:
+distance/m 40
+10
+0
+0 5 10
+time/s
+What is the average resultant force acting on the car over the time for which it is accelerating?
+A 320N
+B 480N
+C 640N
+D 960N
+E 1600N
+F 3200N
+G 4800N
+31
+PART B Physics
+34 Cubes of side 2.0cm are tightly packed into a rectangular box with internal dimensions
+12.0cm×10.0cm×6.0cm.
+Each cube is either solid concrete or solid steel. There are twice as many steel cubes as
+concrete cubes.
+What is the total mass of the cubes in the box?
+(density of concrete = 2.0gcm–3; density of steel = 8.0gcm–3)
+A 2880g
+B 3240g
+C 3600g
+D 3840g
+E 4320g
+F 4800g
+35 P and Q are two fixed points on the surface of the ocean which are 6.0m apart.
+An ocean wave travels in the direction P to Q.
+The wave has a frequency of 0.50Hz and travels at a constant speed.
+A wave peak passes Q at time t = 0s.
+The next wave peak travelling towards Q passes P at time t = 0.80s.
+What is the speed of the wave?
+A 2.1ms–1
+B 3.4ms–1
+C 5.0ms–1
+D 7.5ms–1
+E 20ms–1
+32
+PART B Physics
+36 A sample contains only one radioactive isotope. This isotope decays in a single step with a
+half-life of 120 minutes to a stable isotope.
+The sample is placed near to a radiation detector which measures the count rate. The count
+rate reading is 910 counts per minute (cpm).
+After 240 minutes the measurement is repeated. The count rate reading is now 238cpm.
+After a further 360 minutes have elapsed, a third measurement of the count rate is made.
+What is the count rate due to background radiation and what is the expected reading in the
+third measurement?
+background count rate /cpm third measurement /cpm
+A 224 148
+B 224 226
+C 142 28
+D 142 148
+E 142 154
+F 14 14
+G 14 28
+H 14 42
+33
+PART B Physics
+37 A solid uniform sphere is made of metal of density ρ and has radius r and volume V. It falls
+S
+vertically through a viscous liquid of density ρ .
+L
+Three forces act on it: its weight, a drag force D and an upthrust U. The magnitude of the
+upthrust force is equal to the weight of the liquid displaced by the sphere.
+The magnitude of the drag force is given by:
+D = krv
+where v is the speed of the metal sphere and k is a constant.
+What is the terminal speed of the metal sphere as it falls through this liquid?
+(gravitational field strength = g)
+ρg
+A L
+Vrk
+ρ g
+B S
+Vrk
+g(ρ −ρ )
+C S L
+Vrk
+g(ρ +ρ )
+D S L
+Vrk
+Vρg
+E L
+rk
+Vρ g
+F S
+rk
+Vg(ρ −ρ )
+G S L
+rk
+Vg(ρ +ρ )
+H S L
+rk
+34
+PART B Physics
+38 A parachutist of mass 80.0kg drops from a plane travelling at 40.0ms–1, 2000m above the
+Earth’s surface.
+The parachutist hits the ground at a speed of 5.00ms–1.
+How much work is done by the parachutist against drag forces during the fall?
+(Take the Earth’s gravitational field strength to be10.0Nkg–1.)
+A 1535000J
+B 1624000J
+C 1649000J
+D 1663000J
+E 1726000J
+39 A light spring of unstretched length 0.10m has a spring constant of 20Nm–1. The spring is
+suspended so that it is vertical and a load of mass 0.050kg is attached to the end of the spring.
+The load is pulled vertically downwards until the length of the spring is 0.30m. The load is then
+released.
+What is the speed of the load at the instant that the spring returns to its unstretched length?
+(gravitational field strength = 10Nkg–1; assume that resistive forces are negligible)
+A 0ms–1
+B 4.0ms–1
+C 6.0ms–1
+D 12ms–1
+E 16ms–1
+F 6ms–1
+G 12 ms–1
+H 30 ms–1
+35
+PART B Physics
+40 A rocket travelling in space is burning its fuel at a constant rate. By expelling the burnt fuel
+through a nozzle, the engine is applying a constant force to the rocket.
+What is happening to the magnitude of the acceleration of the rocket?
+A It is increasing at an increasing rate.
+B It is increasing at a constant rate.
+C It is increasing at a decreasing rate.
+D It is not changing.
+E It is decreasing at an increasing rate.
+F It is decreasing at a constant rate.
+G It is decreasing at a decreasing rate.
+36
+PART C Chemistry
+PART C Chemistry
+37
+PART C Chemistry
+41 Consider only the first three metals in Group 1 (Li, Na, K) and only the first three elements in
+Group 17 (F, Cl, Br).
+Which of the following statements is/are correct for the compound lithium bromide?
+1 It is formed from the least reactive of the three Group 17 elements.
+2 It is formed from the least reactive of the three Group 1 elements and the Group 17
+element (of the three) with the lowest boiling point.
+3 It is formed from the Group 1 element (of the three) with the highest melting point.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+38
+PART C Chemistry
+42 Use the following data table to answer the question.
+gas melting point / °C boiling point / °C
+hydrogen –259 –253
+nitrogen –210 –196
+oxygen –219 –183
+neon –249 –246
+argon –189 –186
+Water and carbon dioxide were removed from a sample of air and the remaining mixture was
+cooled to –260°C.
+The three most abundant remaining elements are to be separated by fractional distillation.
+In which order would these three elements be collected?
+A hydrogen, neon, nitrogen
+B hydrogen, neon, oxygen
+C neon, nitrogen, argon
+D neon, nitrogen, oxygen
+E nitrogen, argon, oxygen
+F nitrogen, oxygen, argon
+G oxygen, nitrogen, argon
+H oxygen, argon, nitrogen
+39
+PART C Chemistry
+43 Molecule J is a straight-chain hydrocarbon containing one carbon-carbon double bond.
+The relative atomic mass (A) of hydrogen is 1 and carbon is 12.
+r
+What is the minimum additional information that is needed in order to determine the molecular
+formula of molecule J?
+1 The percentage by mass of carbon in the molecule.
+2 The percentage by mass of hydrogen in the molecule.
+3 The relative molar mass (M) of the molecule.
+r
+A 1 only
+B 3 only
+C 1 and 2 only
+D 1 and 3 only
+E 1, 2 and 3
+44 Which of the following tests could be used, on its own, to distinguish between all three of the
+following white solids: potassium carbonate, calcium chloride and sodium sulfate?
+1 Add a small amount of each solid separately to a platinum wire and hold in a
+colourless flame.
+2 Dissolve a small amount of each solid separately in deionised water and add a few
+drops of sodium hydroxide solution.
+3 Dissolve a small amount of each solid separately in deionised water and add a few
+drops of hydrochloric acid, followed by barium chloride solution.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+40
+PART C Chemistry
+45 Which one of the following formulae is correct for the compound given?
+A aluminium sulfate, Al(SO )
+4 3
+B ammonium carbonate, (NH ) CO
+4 2 3
+C calcium hydroxide, CaOH
+D magnesium nitrate, MgNO
+3
+E potassium bromide, KBr
+2
+46 Iodic acid, HIO , can be made from iodine in the following reaction:
+3
+I + wH O + xCl → yHIO + zHCl
+2 2 2 3
+What is the value of x when the equation is balanced?
+A 1
+B 2
+C 3
+D 4
+E 5
+F 6
+41
+PART C Chemistry
+47 Some dilute aqueous solutions were electrolysed using graphite electrodes.
+Which of the rows in the table show(s) the correct products of electrolysis?
+products of electrolysis
+aqueous electrolyte
+at the cathode at the anode
+(negative electrode) (positive electrode)
+1 potassium hydroxide potassium oxygen
+2 copper(II) chloride chlorine copper
+3 sodium sulfate hydrogen sulfur
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+42
+PART C Chemistry
+48 Which of the following statements about elements in the Periodic Table is/are correct?
+1 When the element in Period 5, Group 2 reacts with the element that is in
+Period 3, Group 17, a redox reaction occurs.
+2 In each Group, the elements from Period 2 are more reactive than the elements
+from Period 5.
+3 The compound formed between the element in Period 2, Group 14 and the element
+in Period 3, Group 17 will have a simple molecular structure.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+49 Which of the following equations represent(s) a redox reaction?
+1 K Cr O + 2KOH → 2K CrO + H O
+2 2 7 2 4 2
+2 8HNO + 3C H O + K Cr O → 2KNO + 3C H O + 7H O + 2Cr(NO )
+3 2 6 2 2 7 3 2 4 2 3 3
+3 H O + SO → H SO
+2 2 2 3
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+43
+PART C Chemistry
+50 A paper chromatogram is set up with an orange food colouring spotted on the baseline.
+Ten minutes after the start, the solvent front has moved 15.0cm up the paper from the baseline
+and a yellow spot is 12.0cm above the baseline.
+Five minutes later, the solvent front has moved up a further 10.0cm.
+How far from the baseline will the yellow spot be 15 minutes after the start?
+A 8.0cm
+B 12.0cm
+C 15.0cm
+D 20.0cm
+E 22.0cm
+F 25.0cm
+G 31.3cm
+51 10g of a mixture of solid magnesium hydroxide, Mg(OH) , and solid sodium hydroxide, NaOH,
+2
+is added to an excess of water and stirred.
+One of the components of the mixture dissolves. Assume that the other is completely insoluble.
+The mixture is filtered to remove the insoluble component of the mixture.
+50cm3 of 1.0moldm–3 sulfuric acid exactly neutralises the remaining solution.
+What is the mass of magnesium hydroxide in the original mixture?
+(M values: Mg(OH) = 58; NaOH = 40)
+r 2
+A 2.0g
+B 2.9g
+C 4.0g
+D 5.8g
+E 6.0g
+F 8.0g
+44
+PART C Chemistry
+52 100cm3 of ethane is mixed with 1400cm3 of oxygen and the mixture is ignited.
+All volumes are measured at atmospheric pressure and a temperature of 150°C.
+What will be the total volume of gas after the complete combustion?
+(Assume that equal amounts of any gas at the same temperature and pressure occupy the
+same volume.)
+A 500cm3
+B 1250cm3
+C 1500cm3
+D 1550cm3
+E 1700cm3
+F 2000cm3
+45
+PART C Chemistry
+53 Hydrochloric acid, sulfuric acid and phosphoric(V) acid are inorganic acids.
+Phosphoric(V) acid, H PO , ionises in water in the following series of reactions:
+3 4
+H PO H+ + H PO –
+3 4 2 4
+H PO – ⇌ H+ + HPO 2–
+2 4 4
+HPO 2– ⇌ H+ + PO 3–
+4 4
+0.1moldm–3 hydrochloric acid has a pH of 1.⇌0 at room temperature.
+Which of the following statements about these acids is/are correct?
+1 The pH of 0.1moldm–3 sulfuric acid is greater than 1.0 at room temperature.
+2 H PO – can act as an acid or as a base.
+2 4
+3 30cm3 of calcium hydroxide solution exactly neutralises 20cm3 phosphoric(V) acid
+solution when both solutions are the same concentration.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+46
+PART C Chemistry
+54 Calcium carbonate reacts with hydrochloric acid according to the following chemical equation:
+CaCO (s) + 2HCl(aq) → CaCl (aq) + H O(l) + CO (g)
+3 2 2 2
+Line P on the graph shows how the volume of carbon dioxide formed changes with time when
+4.0g of calcium carbonate reacts with 50cm3 of 1.0moldm–3 hydrochloric acid at 20°C.
+A second reaction was carried out under identical conditions with the same mass of calcium
+carbonate but using 50cm3 of 2.0moldm–3 hydrochloric acid.
+Which line (A-F) best represents how the volume of carbon dioxide formed changes with time
+in the second reaction?
+(M value: CaCO = 100)
+r 3
+volume
+of CO
+2
+F
+E
+D
+C
+P
+B A
+0
+0 time
+47
+PART C Chemistry
+55 An element Z forms an ionic compound ZSO which has M = 120.4
+4 r
+The ion of Z in ZSO has 10 electrons.
+4
+Element Z has three isotopes, labelled L, M and N, which contain the following numbers of
+neutrons.
+isotope L M N
+number of neutrons 12 13 14
+The percentage abundances of isotopes M and N are the same.
+What is the percentage abundance of the isotope L in the element Z in ZSO ?
+4
+(M value: SO 2– = 96.1)
+r 4
+A 4.10%
+B 10.0%
+C 13.4%
+D 43.3%
+E 80.0%
+F 91.8%
+56 Complete combustion of 1mol of hydrocarbon X requires exactly 8.5mol of oxygen.
+Incomplete combustion of 1mol of hydrocarbon X, to form carbon monoxide and water only,
+requires exactly 5.5mol of oxygen.
+How many hydrogen atoms are there in one molecule of hydrocarbon X?
+A 6
+B 8
+C 10
+D 12
+E 14
+48
+PART C Chemistry
+57 Four separate experiments were carried out using different quantities of 2moldm–3 hydrochloric
+acid and 2moldm–3 sodium hydroxide in insulated polystyrene cups.
+After stirring, the maximum temperature was recorded and the results plotted on a graph as
+shown.
+The temperatures of the acid and alkali on their own were also plotted on the graph. Two
+straight lines were drawn and extrapolated as shown.
+What is the molar enthalpy change for the neutralisation reaction, in kJmol–1?
+(Assume that the specific heat capacity of the solutions is 4Jg–1°C–1, the density of dilute
+solutions is 1gcm–3, and all heat is transferred to the solution.)
+A 3kJmol–1
+B 6kJmol–1
+C 30kJmol–1
+D 60kJmol–1
+E 120kJmol–1
+F 3000kJmol–1
+49
+PART C Chemistry
+58 An experiment is carried out using the first three metals in Group 1: lithium, sodium and
+potassium.
+The initial masses of three open beakers each containing 100g samples of an alcohol are
+recorded.
+In three separate experiments, equal small masses of lithium, sodium and potassium are
+added to the three beakers, which are on electronic balances.
+Each metal reacts in a similar way and after the reaction is complete, the final mass of each
+beaker and its contents is recorded.
+In each case, the final mass of the beaker and its contents is compared to the recorded initial
+mass before the alkali metal was added.
+Which of the following statements is correct?
+A The beaker with lithium added would decrease in mass the most.
+B The beaker with sodium added would decrease in mass the most.
+C The beaker with potassium added would decrease in mass the most.
+D All three beakers would show the same decrease in mass.
+E The beaker with lithium added would increase in mass the most.
+F The beaker with sodium added would increase in mass the most.
+G The beaker with potassium added would increase in mass the most.
+H All three beakers would show the same increase in mass.
+50
+PART C Chemistry
+59 X is a solution of sulfuric acid.
+20.0cm3 of X is diluted by adding distilled water to produce 500cm3 of solution Y.
+10.0cm3 of Y is exactly neutralised by 40.0cm3 of 0.0500moldm–3 aqueous potassium
+hydroxide.
+What is the concentration of sulfuric acid in X?
+A 0.00100moldm–3
+B 0.100moldm–3
+C 0.200moldm–3
+D 0.400moldm–3
+E 1.25moldm–3
+F 2.50moldm–3
+G 5.00moldm–3
+H 10.0moldm–3
+60 An electric current is the flow of charged particles.
+In an electrolysis of aluminium oxide using inert electrodes, the current flows at
+5.00 ×10–6 moles of electrons per second.
+Assume that only aluminium oxide is present and the aluminium is a single isotope 27Al.
+13
+What mass of aluminium is produced in 48 seconds?
+A 0.04mg
+B 0.09mg
+C 0.52mg
+D 1.04mg
+E 1.08mg
+F 2.16mg
+G 3.12mg
+H 6.48mg
+51
+BLANK PAGE
+52
+PART D Biology
+PART D Biology
+53
+PART D Biology
+61 Which of the following cells do not contain mitochondria?
+1 bacterial cells
+2 embryonic stem cells
+3 mature red blood cells
+4 potato cells
+A 1 only
+B 2 only
+C 3 only
+D 4 only
+E 1 and 2 only
+F 1 and 3 only
+G 1 and 4 only
+H 2 and 4 only
+62 Which of the following could lead to phenotypic variation between a father and his son?
+1 time spent in sunlight
+2 their genomes
+3 their diets
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+54
+PART D Biology
+63 The diagram shows part of the carbon cycle.
+P
+S Q
+R
+Which row identifies the correct descriptions for boxes P, Q, R and S?
+carbon-rich carbon-rich carbon-rich
+CO in atmosphere compounds in compounds in compounds in
+2
+animals decomposers plants
+A P Q R S
+B Q P S R
+C S Q R P
+D Q S P R
+E S R Q P
+F R S P Q
+G P R Q S
+H R P S Q
+55
+PART D Biology
+64 A section of double-stranded DNA contains 4500 base pairs. 10% of the bases present are
+adenine.
+Which of the following statements is/are correct?
+1 There are 450 thymine bases present.
+2 40% of the bases present are cytosine.
+3 There are 3600 guanine bases present.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+56
+PART D Biology
+65 Pepsin and trypsin are both protease enzymes found in the human digestive system.
+The graph shows how the activity of both enzymes varies with pH.
+Key
+pepsin
+trypsin
+percentage 100
+of maximum
+enzyme activity
+75
+50
+25
+0
+1 2 3 4 5 6 7 8 9 10 11
+pH
+In the human digestive system:
+1 pepsin is most active in the stomach.
+2 trypsin would be inactive in the stomach.
+3 pepsin could be a substrate for trypsin.
+4 pepsin is most active at low acidity and trypsin most active at high acidity.
+Which statements are correct?
+A 1 and 2 only
+B 1 and 3 only
+C 1 and 4 only
+D 2 and 3 only
+E 2 and 4 only
+F 3 and 4 only
+G 1, 2 and 3 only
+H 2, 3 and 4 only
+57
+PART D Biology
+66 The diagram shows two human gametes, cell P and cell Q, fusing to form cell R.
+Cell P carries an additional copy of one of its chromosomes so that it has one more
+chromosome than cell Q.
+Cell R divides to form two cells S and T.
+S and T grow into two separate individuals.
+P
+Q
+nucleus
+R
+S T
+Using this information, which row shows the correct number of chromosomes in the nucleus of
+cell R and in the nucleus of cell T?
+cell R cell T
+A 23 24
+B 24 47
+C 24 48
+D 46 46
+E 47 24
+F 47 47
+G 92 47
+H 93 93
+58
+PART D Biology
+67 SCID is an inherited condition in humans.
+In one type of SCID, the white blood cells are unable to make the functional enzyme ADA,
+which is necessary for these cells to divide by mitosis during an immune response.
+Scientists have developed a gene therapy treatment whereby a gene is inserted into the DNA
+of stem cells taken from the bone marrow of a person with this condition. These cells can then
+be returned to the body of the person, and can divide and differentiate into white blood cells. If
+this gene therapy is successful, the number of white blood cells should increase significantly.
+Which of the following statements correctly describe(s) how this method of gene therapy might
+work to help a person with this type of SCID?
+1 Genetically altered stem cells differentiate into white blood cells that are able to
+produce functional ADA.
+2 Genetically altered stem cells can differentiate into gametes so that offspring will not
+inherit SCID.
+3 The sequence of the bases in the DNA of the white blood cells, derived from the
+genetically altered stem cells, has changed.
+A 1 only
+B 2 only
+C 3 only
+D 1 and 2 only
+E 1 and 3 only
+F 2 and 3 only
+G 1, 2 and 3
+59
+PART D Biology
+68 The table shows concentrations of substances in blood entering and leaving three different
+organs of a person:
+• kidney
+• small intestine
+• chambers of the right side of the heart
+The blood sample was taken 10 minutes after the person had eaten a carbohydrate-rich meal.
+concentration in blood entering the organ concentration in blood leaving the organ
+oxygen oxygen
+organ glucose urea glucose urea
+/ arbitrary / arbitrary
+/ mg dm–3 / mg dm–3 / mg dm–3 / mg dm–3
+units units
+1 9.0 65 3.0 9.0 65 3.0
+2 9.0 85 3.0 9.0 70 2.4
+3 9.0 85 3.0 12.0 70 3.0
+Which row in the following table identifies the organs?
+organ 1 organ 2 organ 3
+A kidney small intestine chambers of the right side
+of the heart
+B kidney chambers of the right side small intestine
+of the heart
+C small intestine kidney chambers of the right side
+of the heart
+D small intestine chambers of the right side kidney
+of the heart
+E chambers of the right side small intestine kidney
+of the heart
+F chambers of the right side kidney small intestine
+of the heart
+60
+PART D Biology
+69 The table shows information about a human genetic condition called sickle cell anaemia and an
+infection called malaria. Both sickle cell anaemia and malaria can be fatal.
+genotype phenotype comment
+MM does not show sickle cell anaemia can be infected with malaria
+Mm does not show sickle cell anaemia shows resistance to malaria
+shows more resistance to malaria
+mm shows sickle cell anaemia
+than Mm
+Which of the following statements is/are correct?
+1 In areas without malaria, human populations are likely to have a low number of
+people with the m allele.
+2 In areas with malaria, only those individuals that are heterozygous will be able to
+pass on their alleles to the next generation.
+3 Presence of malaria has caused a mutation of the M allele to the m allele leading to
+an increased chance of survival in the heterozygous state.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+61
+PART D Biology
+70 Which of the following could be a result of the addition of a large amount of organic material
+into a slow flowing river?
+1 A decrease in biodiversity in the river.
+2 A reduction in the oxygen concentration gradient between the air and the water.
+3 An increase in the size of at least one aquatic population.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+62
+PART D Biology
+71 The graph shows the mass of product produced over time for an enzyme-controlled reaction in
+two different conditions, X and Y. All other variables were kept constant.
+mass of product
+produced
+X
+Y
+time
+Which of the following could be correct for this graph?
+1 Condition X is a higher pH than condition Y.
+2 Condition X has less substrate supplied than condition Y.
+3 Condition X is a lower pH than condition Y.
+4 Condition X has more substrate supplied than condition Y.
+A none of them
+B 1 and 2 only
+C 1 and 3 only
+D 1 and 4 only
+E 2 and 3 only
+F 2 and 4 only
+G 3 and 4 only
+H 1, 2, 3 and 4
+63
+PART D Biology
+72 The table shows the concentration of potassium ions in several different locations.
+concentration of
+location
+potassium ions
+bacterial cell cytoplasm 30mmoldm–3
+mammalian blood plasma 4000µmoldm–3
+mammalian heart cell cytoplasm 1.0 ×102mmoldm–3
+sea water 3.0 ×104µmoldm–3
+yeast cell cytoplasm 300mmoldm–3
+Which of the following statements is/are correct?
+1 A mammalian heart cell needs energy from respiration in order to obtain more
+potassium ions from blood plasma.
+2 If a yeast cell is placed in sea water then it will lose potassium ions by osmosis.
+3 There is no concentration gradient for potassium ions between a bacterial cell and
+sea water.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+64
+PART D Biology
+73 The abundance of a plant species in a habitat can be measured in different ways:
+• the density (the number of that plant species per m2)
+• the frequency (the number of quadrats in which the plant species occurs)
+The abundance of a plant species in a 100m2 area of grassland was measured. The diagram
+below represents this area of grassland. Each black circle represents one individual of the plant
+species in this area of grassland.
+Two different size quadrats were used to sample the area:
+• large quadrat (50 cm × 50 cm)
+• small quadrat (10 cm × 10 cm)
+The area is sampled randomly, first using 10 large quadrats and then a second time using
+10 small quadrats.
+Which of the following statements is/are correct?
+1 The overall density in the grassland calculated from sampling with either size quadrat
+will always be the same.
+2 The overall density in the grassland calculated from sampling will always be
+1 plant per m2.
+3 The frequency obtained using the small quadrat will always be lower than that
+obtained with the large quadrat.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 2 and 3 only
+G 1 and 3 only
+H 1, 2 and 3
+65
+PART D Biology
+74 A student investigated the endothermic reaction of photosynthesis in pondweed. The student
+set up the apparatus as shown in the diagram.
+scale
+light source
+gas bubble water in
+capillary tube
+clamp
+small gas
+bubbles
+pondweed
+water
+The experiment was left for 5 minutes and the distance moved by the gas bubble along a
+capillary tube of 2mm diameter was recorded. Using these values, the rate of gas production is
+2πmm3 per minute.
+Which row of the table is correct?
+total distance moved by the observations if the light
+reason why the reaction is
+gas bubble during the source was moved further
+described as endothermic
+experiment / mm from the pondweed
+the gas bubble moves more
+A 0.5 the reaction releases energy
+slowly to the right
+the gas bubble moves more
+B 0.5 the reaction takes in energy
+slowly to the left
+the gas bubble moves more
+C 2.0 the reaction releases energy
+slowly to the left
+the gas bubble moves more
+D 2.0 the reaction releases energy
+slowly to the right
+the gas bubble moves more
+E 2.5 the reaction takes in energy
+slowly to the left
+the gas bubble moves more
+F 2.5 the reaction takes in energy
+slowly to the right
+the gas bubble moves more
+G 10.0 the reaction releases energy
+slowly to the left
+the gas bubble moves more
+H 10.0 the reaction takes in energy
+slowly to the right
+66
+PART D Biology
+75 The placenta is an organ that develops during pregnancy. One function of the placenta is to
+allow the exchange of gases between the mother and the developing foetus.
+The diagram represents the maternal and foetal blood flow between P and Q in a section of the
+placenta of a healthy small mammal. The concentration of oxygen in both maternal and foetal
+blood was measured at regular distances along this section.
+maternal
+direction of blood flow
+foetal
+direction of blood flow
+P Q
+Which graph illustrates the concentration of oxygen in both maternal and foetal blood between
+P and Q?
+Key
+maternal capillary
+foetal capillary
+A concentration B concentration
+of oxygen of oxygen
+P Q P Q
+C concentration D concentration
+of oxygen of oxygen
+P Q P Q
+E concentration F
+concentration
+of oxygen
+of oxygen
+P Q P Q
+67
+PART D Biology
+76 The diagram shows the changes in the volume of the ventricles, and the ECG trace that
+accompanies those changes, during two consecutive heart beats.
+130 X
+ventricular volume Z
+90
+/cm3
+50 Y
+ECG
+Which row is correct about the events happening at X, Y and Z?
+at X blood is being at Y valves between atria chambers of the heart
+pumped into and ventricles are contracting at Z
+A aorta open atria
+B aorta closed atria
+C atria open ventricles
+D atria closed ventricles
+E pulmonary artery open ventricles
+F pulmonary artery closed ventricles
+G pulmonary vein open atria
+H pulmonary vein closed atria
+68
+PART D Biology
+77 Three different methods, X, Y and Z, of controlling pathogens in the human body are compared
+in the table.
+requires the
+method of uses a molecule
+affects bacterial affects viral movement of
+controlling the released from
+pathogens pathogens human cells to
+pathogen human cells
+have an effect
+X yes yes yes no
+Y yes no no no
+Z yes yes no yes
+Which row in the following table is correct?
+method of controlling the pathogen
+X Y Z
+A may be stimulated by taking an antibiotic may work by cells
+injections of inactivated engulfing pathogens
+pathogen
+B may be stimulated by may work by cells taking an antibiotic
+injections of inactivated engulfing pathogens
+pathogen
+C taking an antibiotic may be stimulated by may work by cells
+injections of inactivated engulfing pathogens
+pathogen
+D taking an antibiotic may work by cells may be stimulated by
+engulfing pathogens injections of inactivated
+pathogen
+E may work by cells may be stimulated by taking an antibiotic
+engulfing pathogens injections of inactivated
+pathogen
+F may work by cells taking an antibiotic may be stimulated by
+engulfing pathogens injections of inactivated
+pathogen
+69
+PART D Biology
+78 Catalase is an enzyme found inside plant and animal cells. When catalase is added to
+hydrogen peroxide, bubbles of oxygen gas are formed.
+Red blood cells were placed into either water or plasma, and were placed in the dark.
+Plant cells were placed into either water or 0.5moldm–3 sucrose solution, and were placed in
+the dark.
+Assume that hydrogen peroxide and catalase do not cross the cell surface membrane.
+Which row shows the results when hydrogen peroxide was added?
+Key
+(cid:57) = oxygen bubbles will form
+x = oxygen bubbles will not form
+when hydrogen peroxide was added to
+plant cells
+red blood cells red blood cells plant cells
+in a 0.5moldm–3
+in plasma in water in water
+sucrose solution
+A (cid:57) (cid:57) x x
+B x x (cid:57) (cid:57)
+C x x (cid:57) x
+D x x x (cid:57)
+E (cid:57) (cid:57) (cid:57) x
+F (cid:57) (cid:57) x (cid:57)
+70
+PART D Biology
+79 The three family trees show the inheritance of three different genetic conditions, each
+controlled by one gene with one dominant and one recessive allele.
+1 Key
+= male without condition
+= male with condition
+= female without condition
+2 = female with condition
+3
+In which of the family trees must the male parent be heterozygous?
+(Assume that no new mutations occur and that the genes are not found on the X chromosome.)
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+71
+PART D Biology
+80 In rabbits, there are two alleles concerned with dark pigment in the fur:
+• the dominant allele, B, for black colour
+• the recessive allele, b, for brown colour
+Two male black rabbits of unknown genotype each mated with a different female brown rabbit.
+What is the expected proportion of brown offspring if both male rabbits are heterozygous, and
+what is the expected proportion of brown offspring if only one male rabbit is heterozygous?
+expected proportion of brown offspring
+if both male rabbits heterozygous if only one male rabbit heterozygous
+A 0.25 0.5
+B 0.25 1
+C 0.5 0.25
+D 0.5 1
+E 1 0.25
+F 1 0.5
+72
+BLANK PAGE
+73
+BLANK PAGE
+74
+BLANK PAGE
+75
+76

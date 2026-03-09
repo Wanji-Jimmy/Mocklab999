@@ -5,6 +5,7 @@ import Link from 'next/link'
 import AnimatedBackdrop from '@/components/AnimatedBackdrop'
 import MockLabLogo from '@/components/MockLabLogo'
 import RevealOnScroll from '@/components/RevealOnScroll'
+import SystemSwitchBar from '@/components/SystemSwitchBar'
 import { getCurrentUserEmail, getExamAttempts, getMistakes, ExamAttempt } from '@/lib/storage'
 
 const AVAILABLE_YEARS = [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023]
@@ -123,9 +124,10 @@ export default function DashboardPage() {
       <div className="relative z-10 max-w-6xl mx-auto space-y-7">
         <header className="flex items-center justify-between gap-4">
           <MockLabLogo href="/" tone="warm" />
-          <div className="flex gap-2">
+          <div className="flex flex-wrap items-center justify-end gap-2">
+            <SystemSwitchBar active="tmua" />
             <Link href="/" className="warm-outline-btn px-4 py-2 rounded-lg font-semibold text-sm">
-              Intro Page
+              System Entrance
             </Link>
             <Link href="/account" className="warm-primary-btn px-4 py-2 rounded-lg text-sm">
               My Account

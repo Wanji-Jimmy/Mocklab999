@@ -1,0 +1,670 @@
+*5988442667*
+ENGINEERING D564/11
+ADMISSIONS ASSESSMENT
+Wednesday 30 October 2019 60 minutes
+SECTION 1
+INSTRUCTIONS TO CANDIDATES
+Please read these instructions carefully, but do not open this question paper until you are
+told that you may do so. This paper is Section 1 of 2.
+A separate answer sheet is provided for this paper. Please check you have one. You also
+require a soft pencil and an eraser.
+Please complete the answer sheet with your candidate number, centre number, date of birth,
+and name.
+At the end of 60 minutes, your supervisor will collect this question paper and answer sheet
+before giving out Section 2.
+This paper contains two parts, A and B, and you should attempt both parts.
+Part A Mathematics and Physics (20 questions)
+Part B Advanced Mathematics and Advanced Physics (20 questions)
+This paper contains 40 multiple-choice questions. There are no penalties for incorrect
+responses, only marks for correct answers, so you should attempt all 40 questions. Each
+question is worth one mark.
+For each question, choose the one option you consider correct and record your choice on the
+separate answer sheet. If you make a mistake, erase thoroughly and try again.
+You must complete the answer sheet within the time limit.
+You can use the question paper for rough working, but no extra paper is allowed. Only your
+responses on the answer sheet will be marked.
+Dictionaries and calculators are NOT permitted.
+Please wait to be told you may begin before turning this page.
+This question paper consists of 33 printed pages and 3 blank pages.
+Copyright © UCLES 2019 PV2
+BLANK PAGE
+2
+PART A Mathematics and Physics
+3
+1 Evaluate
+( )2 ( )2
+7+ 3 − 7− 3
+A 0
+B 2 7
+C 4 7
+D 2 21
+E 10
+F 4 21
+G 20
+4
+2 The current–voltage graph for a diode is shown.
+current /mA
+16
+14
+12
+10
+8
+6
+4
+2
+0
+–0.6 –0.4 –0.2 0 0.2 0.4 0.6 0.8 1.0 1.2 1.4
+voltage /V
+The diode is connected in series with a resistor and a 6.0V battery. The current in the circuit is
+8.0mA.
+What is the resistance of the resistor?
+(Assume that the battery has negligible resistance.)
+A 0.15Ω
+B 0.60Ω
+C 0.75Ω
+D 4.8Ω
+E 150Ω
+F 600Ω
+G 750Ω
+5
+3 The equation gives y in terms of x:
+⎛ x⎞ 2
+y=3−4⎜1− ⎟
+⎝ 2⎠
+Which one of the following is a rearrangement for x in terms of y?
+3− y
+A x=−2 ± 2
+4
+4− y
+B x=−2 ± 2
+3
+3− y
+C x=1±
+4
+3− y
+D x=1± 2
+4
+3− y
+E x=2 ± 2
+4
+4− y
+F x=2 ± 2
+3
+3+ y
+G x=2 ± 2
+4
+6
+4 Two electromagnetic waves P and Q travel in a vacuum and the ratio of their wavelengths is:
+wavelengthof P
+= 1.0 ×108
+wavelength of Q
+Which row in the table shows the ratio of their speeds, the ratio of their frequencies, and
+identifies the possible natures of P and Q?
+speed of P frequency of P
+nature of P nature of Q
+speed of Q frequency of Q
+A 1.0 1.0 ×10–8 microwave X-ray
+B 1.0 1.0 ×10–8 microwave radio wave
+C 1.0 1.0 ×108 infrared ultraviolet
+D 1.0 1.0 ×108 visible light infrared
+E 1.0 ×108 1.0 gamma X-ray
+F 1.0 ×108 1.0 gamma infrared
+G 1.0 ×108 1.0 ×1016 infrared radio wave
+H 1.0 ×108 1.0 ×1016 visible light ultraviolet
+5 The resistance to the motion of a car is directly proportional to the square of the speed of the
+car.
+The car increases its speed by 20%.
+What is the percentage increase in the resistance to the motion of the car?
+A 20%
+B 24%
+C 44%
+D 120%
+E 224%
+F 240%
+G 400%
+7
+6 A water-tight cylinder with a thin, freely moving piston contains 2.0 ×10–3m3 of trapped air at
+atmospheric pressure of 1.0 ×105Pa.
+When the cylinder is submerged in water of constant density 1000kgm–3, the volume of air in
+the cylinder decreases to 4.0 ×10–4m3.
+The piston is at a depth h below the surface of the water and the water surface is open to the
+atmosphere.
+What is the depth h?
+(gravitational field strength = 10Nkg–1; assume that the temperature of the air remains constant
+and that air is an ideal gas)
+A 40m
+B 50m
+C 60m
+D 400m
+E 500m
+F 600m
+7 The equation of a curve is y = px2 + qx where p and q are constants.
+The curve passes through the points (2,6) and (4,–4).
+What is the value of q – p?
+A 1
+B 2
+C 5
+D 6
+E 9
+F 16
+8
+8 The secondary coil of an ideal, 100% efficient transformer is connected to a resistor by cables
+of total resistance 1500Ω. The current in the primary coil is 4.0A. There are 240 turns in the
+primary coil and 4800 turns in the secondary coil.
+What is the power produced as heat in the cables?
+A 60W
+B 300W
+C 6000W
+D 24000W
+E 120000W
+F 9600000W
+9 Which of the following is a simplification of
+x(3x+1)
+4−
+x2(3x2 −2x−1)
+12x3 −8x2 −7x−1
+A
+x(3x−1)(x−1)
+4x2 +4x−1
+B
+x(x+1)
+4x2 +4x+1
+C
+x(x+1)
+4x2 −4x−1
+D
+x(x−1)
+4x2 −4x+1
+E
+x(x−1)
+12x3 −8x2 −x+1
+F
+x(3x−1)(x−1)
+9
+10 Two tanks of water are connected by a solid cylindrical copper bar of length l and diameter d.
+The bar is insulated.
+One tank contains water at 90°C and the other tank contains water at temperature θ.
+solid cylindrical bar
+insulation
+d water at temperature θ
+l
+water at 90°C
+For which of the following conditions is thermal energy conducted along the bar at the
+lowest rate?
+l /m d /cm θ /°C
+A 0.40 4.0 20
+B 0.40 4.0 40
+C 0.40 8.0 20
+D 0.40 8.0 40
+E 0.80 4.0 20
+F 0.80 4.0 40
+G 0.80 8.0 20
+H 0.80 8.0 40
+10
+11 The ball for a garden game is a solid sphere of volume 192cm3.
+For the children’s version of the game the ball is a solid sphere made of the same material, but
+the radius is reduced by 25%.
+What is the volume, in cm3, of the children’s ball?
+A 48
+B 81
+C 96
+D 108
+E 144
+12 The radioactive isotope X becomes the stable isotope Y after a succession of decays involving
+only the emission of alpha and beta (β –) particles.
+During the decay of one nucleus from X to Y, a total of seven particles are emitted. It is known
+that more of these particles are alpha particles than beta particles.
+The atomic number of X is Z and the mass number of X is A.
+Which row in the table could give the atomic number and the mass number of Y?
+atomic number of Y mass number of Y
+A Z – 2 A – 12
+B Z – 5 A – 8
+C Z – 8 A – 20
+D Z – 10 A – 24
+E Z – 11 A – 16
+11
+13 The diagram shows a right-angled triangle, with sides of length x + 4, 2x + 2 and 3x, all in cm.
+x + 4 3x
+2x + 2
+[diagram not to scale]
+What is the area, in cm2, of the triangle?
+A 10
+B 12
+C 28
+D 36
+E 40
+F 54
+G 70
+14 The kinetic energy of an object of mass 4.0kg, travelling in a straight line, increases from
+32J to 200J in 3.0 seconds due to a constant resultant force.
+What is the value of this resultant force?
+A 2.0N
+B 4.0N
+C 8.0N
+D 24N
+E 28N
+F 56N
+12
+15 PR and QS are the diagonals of a rhombus PQRS.
+PR = (3x + 2)cm
+QS = (8 – 2x)cm
+The area of PQRS is 11cm2.
+What is the difference, in cm, between the two possible lengths of PR?
+2
+A 2
+3
+1
+B 4
+2
+1
+C 5
+3
+D 8
+E 14
+13
+16 In the following circuit, all five resistors have the same resistance.
+V
+The reading on the voltmeter is 1.0V.
+What is the voltage across the battery?
+A 4.0V
+B 5.0V
+C 6.0V
+D 7.0V
+E 8.0V
+F 9.0V
+G 10V
+14
+17 Q S
+3 cm 4 cm 4 cm 3 cm
+P R T
+[diagram not to scale]
+The diagram shows two congruent right-angled triangles PQR and TSR with right angles at Q
+and S, respectively.
+PQ = TS = 3cm
+QR = SR = 4cm
+PRT is a straight line.
+What is the length, in cm, of QS?
+A 4
+B 3 2
+C 5.2
+D 4 2
+E 6.4
+F 8.2
+G 10
+15
+18 A block is designed with a cylindrical channel to accommodate a hot-water pipe. The block is
+100cm long and it has a square cross-section of side 22.0cm with a cylindrical hole in the
+middle, as shown in the diagram:
+[diagram not to scale]
+The diameter of the cylindrical hole is 14.0cm and the density of the material from which the
+block is made is 0.100gcm–3.
+What is the mass of the block?
+22
+(take π to be )
+7
+A 1.32kg
+B 3.30kg
+C 13.2kg
+D 33.0kg
+E 132kg
+F 330kg
+G 1320kg
+H 3300kg
+16
+19
+h
+12cm
+[diagram not to scale]
+A solid pyramid has a square base of side length 12cm and a vertical height of hcm.
+The volume of the pyramid, in cm3, is equal to the total surface area of the pyramid, in cm2.
+What is the value of h?
+1
+(volume of pyramid = × area of base × vertical height)
+3
+72
+A
+35
+B 2 3
+C 6
+144
+D
+23
+E 8
+F 2 21
+17
+20 A sample initially contains equal numbers of atoms of a radioactive isotope X and a stable
+isotope Y.
+Isotope X has a half-life of 3 years and decays in a single stage to the stable isotope Y.
+What is the ratio
+:
+number of atoms of X number of atoms of Y
+in the sample 6 years later?
+A The sample contains only isotope Y.
+B 1 : 7
+C 1 : 4
+D 1 : 3
+E 7 : 4
+18
+PART B Advanced Mathematics and Advanced Physics
+NOTE: questions in this part that are not covered by the ESAT
+content specification are indicated by a cross through the
+question number.
+19
+21 Find the area of the shape bounded by the four lines:
+2y + x = 4
+x = –6
+x = 0
+y = 0
+A 4
+B 12
+C 21
+D 25
+E 27
+F 30
+22 A hydroelectric power station uses the water in a reservoir to power the generators. The water
+falls through a vertical height of 150m to the turbines which power the generators.
+The efficiency of the power station is 90% and the output power of the power station is
+1800MW.
+The gravitational field strength is 10Nkg–1 and the density of water is 1000kgm–3.
+What volume of water passes through the turbines in one minute?
+A 6.48 ×104m3
+B 7.20 ×104m3
+C 8.00 ×104m3
+D 6.48 ×107m3
+E 7.20 ×107m3
+F 8.00 ×107m3
+20
+23 The curve
+y = x3 + px2 + qx + r
+has a local maximum when x = –1 and a local minimum when x = 3
+What is the value of p?
+A –9
+B –3
+C –1
+D 1
+E 3
+F 9
+24 A car P of mass 1000kg is travelling north at 30ms–1 along a straight, horizontal road when it
+hits another car Q which is directly ahead of P and travelling in the same direction. Car Q has a
+mass of 500kg and is travelling at 20ms–1.
+The collision lasts for 0.20s and immediately after the collision car Q is moving north at
+30ms–1.
+What is the speed of P immediately after the collision and what is the size of the average
+resultant force that acts on Q during the collision?
+(Assume that no external forces act on the cars during the collision.)
+speed of P /ms–1 average force on Q /N
+A 20 25000
+B 20 50000
+C 20 100000
+D 20 125000
+E 25 25000
+F 25 50000
+G 25 100000
+H 25 125000
+21
+1
+25 When simplified, is written in the form a+b 2 where a and b are integers.
+( )3
+1− 2
+What is the value of b?
+A –7
+B –5
+C –1
+D 1
+E 5
+F 7
+26 A metal wire of length 0.50m has a uniform cross-sectional area of 4.0 ×10–7m2.
+There is a current of 4.0A in the wire.
+What is the potential difference across the ends of the wire?
+(resistivity of the metal = 1.6 ×10–7Ωm)
+A 0.05V
+B 0.20V
+C 0.80V
+D 3.2V
+E 5.0V
+F 20V
+22
+27 It is given that
+7cosx + tanxsinx = 5
+where 0° < x < 90°
+What are the possible values of tanx?
+1 1
+A or
+2 3
+1 1
+B or
+3 2 2
+3 2 2
+C or
+2 3
+D 3 or 2 2
+E 3 or 2
+23
+28 A uniform square trap door of side 0.80m and mass 14kg has a smooth hinge at one edge and
+is held open at an angle of 30° to the horizontal. It is supported by a single rigid rod placed so
+that it meets the surface of the trap door at 90° at a distance 0.10m from the top edge of the
+trap door, as shown.
+m
+1
+0
+0.
+m
+8
+0
+0.
+trap door
+supporting rod
+30°
+hinge
+What is the normal contact force exerted on the trap door by the rod?
+(gravitational field strength = 10Nkg−1)
+A 40N
+B 35 3N
+C 40 3N
+D 80N
+E 80 3N
+3
+F 280 N
+3
+24
+29 An equilateral triangle of side 8cm is drawn so that its vertices lie on the circumference of a
+circle, as shown in the diagram.
+8cm
+What is the total of the three areas shaded in the diagram, in cm2?
+A 8(2π−3)
+( )
+B 24 π− 3
+( )
+C 48 4π− 3
+16( )
+D 4π−6−3 3
+3
+16( )
+E 4π−3 3
+3
+25
+30 Two small loudspeakers are placed side by side 30cm apart.
+They are connected to the same signal generator so that they emit sound of frequency 400Hz
+in phase with one another.
+The sounds both reach a microphone placed 40cm directly in front of one of the two
+loudspeakers as shown.
+30cm
+microphone
+40cm
+What is the phase difference between waves from the loudspeakers as they arrive at the
+microphone?
+(speed of sound = 320ms–1)
+A 30°
+B 36°
+C 45°
+D 60°
+E 72°
+F 90°
+G 120°
+26
+31 Which one of the following is the real solution of the equation
+2x+1 x
+3×5 − 5 − 2=0
+⎛1⎞
+A x=log ⎜ ⎟
+5 ⎝3⎠
+⎛2⎞
+B x=log ⎜ ⎟
+5 ⎝5⎠
+⎛3⎞
+C x=log ⎜ ⎟
+5 ⎝5⎠
+⎛2⎞
+D x=log ⎜ ⎟
+5 ⎝3⎠
+⎛5⎞
+E x=log ⎜ ⎟
+5 ⎝3⎠
+⎛5⎞
+F x=log ⎜ ⎟
+5 ⎝2⎠
+32 An astronaut on the Moon throws a ball vertically upwards. The ball has a mass of 2.0g and is
+thrown upwards at 80ms–1.
+What is the maximum height gained by the ball?
+(gravitational field strength close to the Moon’s surface = 1.6Nkg–1)
+A 25m
+B 50m
+C 320m
+D 2000m
+E 3200m
+F 4000m
+27
+33 For a particular function f(x), it is given that:
+2 4
+∫ 2f(x)dx + ∫ f (x)dx = 4
+–2 2
+and also:
+2 4
+∫ 5f(x)dx – ∫ f (x)dx = 7
+–2 –2
+4
+Find the value of ∫ f (x)dx
+2
+1
+A
+3
+11
+B
+7
+11
+C
+6
+13
+D
+6
+13
+E
+3
+28
+34 A student has one 300Ω resistor and another resistor of resistance R.
+The student plots a graph of current I against potential difference V for the 300Ω resistor and
+then for both resistors connected in parallel.
+30
+I/mA
+20
+10
+0
+0 1 2 3 4 5 6
+V/V
+What is the resistance R?
+A 3.3Ω
+B 5.0Ω
+C 10Ω
+D 100Ω
+E 200Ω
+F 600Ω
+G 1000Ω
+29
+35 Given that
+x
+f(x) = ∫ (3+2t)7dt
+0
+what is the coefficient of x4 in the expansion of f(x) in powers of x?
+A 70
+B 162
+2835
+C
+4
+D 3024
+E 5670
+F 15120
+G 22680
+36 A light, vertical, copper wire of length 2.4m and uniform cross-sectional area 2.0 ×10–6m2
+supports a load of mass 4.0kg.
+The Young modulus of copper is 1.2 ×1011Pa.
+What is the strain energy in the wire?
+(gravitational field strength = 10Nkg–1; assume that the wire obeys Hooke’s law and that the
+cross-sectional area remains constant)
+A 8.0 ×10–5J
+B 1.7 ×10–4J
+C 4.0 ×10–4J
+D 8.0 ×10–3J
+E 4.0 ×10–2J
+F 1.6 ×10–2J
+30
+37 The three internal angles in a triangle are α, β and θ, and
+3tanα – 2sinβ = 2
+5tanα + 6sinβ = 8
+What is the value of θ in degrees?
+A 15
+B 45
+C 75
+D 105
+E 135
+31
+38 Light travelling in a transparent liquid strikes the surface from below. The angle between the
+surface of the liquid and the direction of travel of the light is α.
+The light then travels along the surface between the liquid and the air as shown in the diagram.
+α
+Now, light travelling in air strikes the surface from above so that the angle between the surface
+and the direction of travel of this light is also α.
+After the light strikes the surface from above, the angle between the surface and the direction
+of travel of the refracted light is β.
+Which expression gives β?
+(all angles are in degrees)
+A cosβ = cos2α
+⎛ 1⎞
+B cos β = cos α sin–1 ⎜
+⎝α
+⎟
+⎠
+C sinβ = sin2α
+D β = 90 – (90 – α)2
+E β = 0
+F β = α
+39 Find the complete set of values of x for which
+x3 – 2x2 – 7x – 4 > 0
+A x < –1
+B x > –1
+C –1 < x < 4
+D x < –1 or x > 4
+E x < 4
+F x > 4
+32
+40 The velocity–time graph is for an 80kg person in a lift that is moving vertically upwards.
+velocity /ms–1
+2.0
+X
+0.0
+0.0 5.0 10.0 20.0 25.0
+time /s
+What is the magnitude of the contact force between the person and the lift floor at the time
+corresponding to X?
+(gravitational field strength = 10Nkg–1)
+A 640N
+B 768N
+C 800N
+D 832N
+E 960N
+END OF TEST
+33
+BLANK PAGE
+34
+BLANK PAGE
+35
+36

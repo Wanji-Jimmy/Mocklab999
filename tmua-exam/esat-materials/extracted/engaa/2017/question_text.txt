@@ -1,0 +1,1029 @@
+© UCLES 2017
+(cid:6)(cid:12)(cid:12)(cid:14)(cid:20)(cid:19)(cid:17)(cid:16)(cid:20)(cid:14)(cid:14)(cid:6)
+ENGINEERING ADMISSIONS ASSESSMENT D564/11
+Thursday 2 November 2017 80 minutes
+SECTION 1
+INSTRUCTIONS TO CANDIDATES
+Please read these instructions carefully, but do not open this question paper until you are told
+that you may do so. This paper is Section 1 of 2.
+A separate answer sheet is provided for this paper. Please check you have one. You also require a
+soft pencil and an eraser.
+Please complete the answer sheet with your candidate number, centre number, date of birth, and
+name.
+At the end of 80 minutes, your supervisor will collect this question paper and answer sheet before
+giving out Section 2.
+This paper contains two parts, A and B, and you should attempt both parts.
+Part A Mathematics and Physics (28 questions)
+Part B Advanced Mathematics and Advanced Physics (26 questions)
+This paper contains 54 multiple choice questions. There are no penalties for incorrect responses, only
+marks for correct answers, so you should attempt all 54 questions. Each question is worth one mark.
+Questions ask you to show your choice between options. Choose the one option you consider correct
+and record your choice on the separate answer sheet. If you make a mistake, erase thoroughly and
+try again.
+You must complete the answer sheet within the time limit.
+You can use the question paper for rough working, but no extra paper is allowed. Only your
+responses on the answer sheet will be marked.
+Dictionaries and calculators may NOT be used.
+Please wait to be told you may begin before turning this page.
+This question paper consists of 42 printed pages and 2 blank pages.
+PV2
+2
+BLANK PAGE
+© UCLES 2017
+3
+PART A Mathematics and Physics
+© UCLES 2017 [Turn over
+4
+1 Evaluate
+(
+12+ 3
+)2
+(
+12− 3
+)2
+A 1
+B 3
+5
+C
+3
+7
+D
+3
+E 3 3
+F 9
+© UCLES 2017
+5
+2 A car is travelling along a horizontal road in a straight line.
+The graph is a velocity–time graph for part of the car’s journey.
+35
+velocity /ms–1
+30
+25
+20
+15
+10
+5
+0
+0 10 20 30 40 50 60 70 80 90 100 110 120 130 140 150
+time /s
+During this part of the journey, what is the total distance that the car travels while it is
+decelerating?
+A 400m
+B 500m
+C 550m
+D 600m
+E 750m
+F 1400m
+G 1800m
+H 1900m
+© UCLES 2017 [Turn over
+6
+3 Solve fully the inequality
+2x2 ≥15−x
+A x≤−3
+B x≥2.5
+C x≤−1.5, x≥5
+D −1.5≤x≤5
+E x≤−3, x≥2.5
+F −3≤x≤2.5
+4 When a saucepan of water is heated from below, convection currents form and transfer heat
+through the liquid.
+Here are three statements about the water as it is heated:
+1 The mass of a fixed volume of the water increases.
+2 The density of a fixed mass of the water decreases.
+3 The volume of a fixed mass of the water increases.
+Which of these statements help(s) to explain how convection currents are formed?
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+© UCLES 2017
+7
+5 The equation gives y in terms of x:
+(cid:167)x (cid:183) 2
+y=3(cid:168) −1(cid:184) −5
+(cid:169)2 (cid:185)
+Which one of the following is a rearrangement for x in terms of y?
+y−5
+A x=2±2
+3
+y+5
+B x=2±2
+3
+y+5
+C x=2±3
+3
+y+5
+D x=−2±2
+3
+y+5
+E x=−2±3
+2
+(cid:167)y+5(cid:183) 2
+F x=2+2(cid:168) (cid:184)
+(cid:169) 3 (cid:185)
+(cid:167)y+5(cid:183) 2
+G x=−2+2(cid:168) (cid:184)
+(cid:169) 3 (cid:185)
+© UCLES 2017 [Turn over
+8
+6 An electric motor is used to pull a broken-down car slowly from the road up a ramp on to the
+back of a breakdown truck.
+The car has a mass of 1200kg and is lifted through a vertical height of 1.0m.
+The total input energy to the motor is 28kJ and it is 75% efficient.
+In the process of lifting the car, energy is lost to the surroundings from the motor and from other
+causes.
+What is the total energy lost to the surroundings?
+motor
+1.0m
+(gravitational field strength = 10Nkg–1)
+A 7.0kJ
+B 9.0kJ
+C 12kJ
+D 16kJ
+E 21kJ
+F 33kJ
+© UCLES 2017
+9
+7 A fruit stall sells apples costing £x each, and pears costing £y each.
+Sam bought 2 apples and 5 pears, and the total cost of these was £P.
+Lesley bought 3 apples and 2 pears, and the total cost of these was £Q.
+Which of the following is an expression for the cost, in pounds (£), of a pear?
+2Q−3P
+A
+3
+2Q−3P
+B
+11
+Q−P
+C
+3
+Q−P
+D
+11
+P−Q
+E
+3
+3P−2Q
+F
+3
+3P−2Q
+G
+11
+8 In one type of medical scanner a source is placed inside a patient’s body. This source causes
+pairs of gamma-rays to be emitted simultaneously in opposite directions.
+Detectors on each side of the patient are used to detect the gamma-rays. The distance
+between the two detectors is 3.0m. When the source is at Q, half-way between the detectors,
+the two gamma-rays arrive at the same time.
+In a particular scan the gamma-rays arrive at the two detectors with a time difference of
+4.0×10−10s.
+Assume that, inside the patient, the gamma-rays travel at a speed of 3.0×108ms–1.
+How far from Q, half-way between the detectors, is the gamma-ray source?
+A 6.0mm
+B 12mm
+C 24mm
+D 6.0cm
+E 12cm
+F 24cm
+© UCLES 2017 [Turn over
+10
+9 P is directly proportional to Q squared.
+When P is 2, Q is 4.
+Q is inversely proportional to R.
+When Q is 2, R is 5.
+What is P in terms of R?
+5
+A P =
+R
+5
+B P =
+4R
+1
+C P =
+800R2
+5
+D P =
+4R2
+25
+E P =
+2R2
+800
+F P =
+R2
+R2
+G P =
+50
+25R2
+H P =
+2
+© UCLES 2017
+11
+10 When a plutonium-239 nucleus absorbs a neutron it undergoes nuclear fission. One particular
+fission reaction results in the creation of xenon and zirconium as daughter nuclei. The nuclear
+equation for this reaction is shown but with some non-zero integers replaced by the letters w, x,
+y and z.
+1(cid:81)+ 239 Pu → w Xe + y Zr + z 1 n
+0 94 54 x 0
+Which equation is correct?
+A w + y = 240
+B z = 240 − (w + y)
+C x = 40 − z
+D 94 = 54 + x + 1
+E 240 = 54 + x
+F 94 = w + y + 1
+11 Which one of the following is a simplification of
+( )
+x2 9x2 −4
+2−
+x3(2−3x)
+2
+A −1−
+x
+2
+B −1+
+x
+2
+C 5−
+x
+2
+D 5+
+x
+3
+E 5−
+x
+3
+F 5+
+x
+© UCLES 2017 [Turn over
+12
+12 An electric motor is connected to a constant 12V d.c. supply. The motor is used to lift a mass
+of 20kg by means of a rope and pulley. The mass is lifted vertically through a height of 6.0m in
+a time of 5.0s. The complete lifting system (motor, rope and pulley) is 80% efficient.
+pulley
+rope
+6.0m
+motor mass 20 kg
+What is the current in the electric motor?
+(gravitational field strength = 10Nkg–1)
+A 1.6A
+B 2.0A
+C 2.5A
+D 16A
+E 20A
+F 25A
+13 What is the value of x that makes the following expression correct?
+3+2x x −x
+2 4 8 = 4 2
+A −2.25
+B −1.75
+C −1.5
+D −0.5
+E −0.25
+© UCLES 2017
+13
+14 The nuclide PX decays to the stable nuclide Y. During this process four particles are emitted:
+Q
+an α-particle and three β– particles.
+Which of the following is not a nuclide that could be formed at any stage during this process?
+nuclide atomic mass atomic number
+A P Q−1
+B P Q+1
+C P Q+2
+D P Q+3
+E P−4 Q−2
+F P−4 Q−1
+G P−4 Q
+H P−4 Q+1
+15 There are 100 students in Year 10.
+Each student studies exactly one of French, German, and Spanish.
+X girls study French and there are 3X girls in total.
+2Y boys study German.
+There are 35 students studying Spanish of which Y are boys.
+Which of the following is an expression for the total number of students studying German?
+A X +2Y
+B X +Y +35
+C X +3Y −35
+D 2X +2Y
+E 2X +Y −35
+F 2X +3Y −35
+G 2X +Y +35
+© UCLES 2017 [Turn over
+14
+16 The radius of an iron-56 atom is 3.0×104 times greater than the radius of an iron-56 nucleus.
+densityofanironatom
+What is the value of ?
+densityofanironnucleus
+A (3.0×104)–3
+B (3.0×104)–2
+C (3.0×104)–1
+D (3.0×104)1
+E (3.0×104)2
+F (3.0×104)3
+17 An exterior angle of a regular polygon with n sides is 4° larger than an exterior angle of a
+regular polygon with(n+3) sides.
+What is the value of n?
+A 10
+B 12
+C 15
+D 18
+E 21
+F 24
+G 27
+© UCLES 2017
+15
+18 Graph 1 shows how the displacement of one of the particles of a medium varies with time in
+seconds as a wave travels through the medium.
+displacement Graph 1
+0 t t
+1 2 time
+Graph 2 shows how the displacement varies with distance in metres at one time for the same
+wave.
+Graph 2
+displacement
+0 x x
+1 2 distance
+Which expression gives the speed in ms–1 of the wave?
+A 4(x −x )
+2 1
+3(t −t )
+2 1
+B 3(x −x)
+2 1
+2(t −t )
+2 1
+C 2(x −x)
+2 1
+t −t
+2 1
+D 8(x −x)
+2 1
+3(t −t )
+2 1
+E 3(x −x)
+2 1
+t −t
+2 1
+F 6(x −x)
+2 1
+t −t
+2 1
+© UCLES 2017 [Turn over
+16
+19 The bearing of a ship R from a lighthouse L is 220°
+A canoe C is due North of R.
+C is the same distance from the ship and the lighthouse.
+What is the bearing of L from C?
+A 070°
+B 080°
+C 090°
+D 100°
+E 140°
+20 A kettle is designed to work from a car’s power socket. The kettle has a power rating of 150W
+when a constant voltage of 12.0V d.c. is applied across its element.
+How much charge passes through the element of this kettle when the voltage of 12.0V is
+applied across it for 20 minutes?
+A 96C
+B 250C
+C 15000C
+D 36000C
+E 900000C
+F 2160000C
+21 The hands of a 12-hour analogue clock move continuously. When the time on the clock is 4:00,
+the angle between the minute hand and the hour hand is 120°.
+What is the angle between the two hands at 4:40?
+A 80°
+B 100°
+C 110°
+D 120°
+E 140°
+© UCLES 2017
+17
+22 A freight train travelling on a straight horizontal track at 2.0ms–1 collides with a passenger train
+travelling at 5.0ms–1 in the opposite direction. Both trains immediately come to a complete stop
+on the track.
+The freight train has three locomotives of 130 tonnes each and seven container wagons of
+30 tonnes each. The passenger train has two locomotives of 70 tonnes each and a number of
+passenger carriages of 10 tonnes each.
+How many passenger carriages does the passenger train have?
+A 7
+B 9
+C 10
+D 24
+E 46
+23 A pet shop has 4 female rabbits and x male rabbits for sale.
+A customer buys 2 of the rabbits, chosen at random, and each rabbit is equally likely to be
+chosen.
+1
+The probability that both the chosen rabbits are male is .
+3
+What is the value of x?
+A 2
+B 4
+C 6
+D 8
+E 9
+F 11
+G 12
+© UCLES 2017 [Turn over
+18
+24 Consider the following three statements about a parachutist of mass 72kg falling vertically at a
+constant velocity of 5.0ms–1 after the parachute has opened:
+1 The parachutist has a constant kinetic energy of 1800J.
+2 The parachutist is losing gravitational potential energy at a rate of 3600Js–1.
+3 Air resistance and the force of gravity acting on the parachutist are a Newton’s third
+law pair of forces.
+Which of the statements is/are correct?
+(gravitational field strength = 10Nkg–1)
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+© UCLES 2017
+19
+25
+x
+O
+The diagram shows a square with side of length xcm. A circle is drawn with centre O which lies
+at the mid-point of one of the sides of the square. This side forms part of a diameter of the
+circle. The circle passes through two corners of the square as shown.
+What is the area, in cm2, of the shaded part of the semi-circle?
+A (π−1)x2
+B (cid:168)
+(cid:167)π−2
+(cid:184)
+(cid:183) x2
+(cid:169) 2 (cid:185)
+C (cid:168)
+(cid:167)3π−2
+(cid:184)
+(cid:183) x2
+(cid:169) 2 (cid:185)
+D (cid:168)
+(cid:167)3π−4
+(cid:184)
+(cid:183) x2
+(cid:169) 4 (cid:185)
+E (cid:168)
+(cid:167)5π−4
+(cid:184)
+(cid:183) x2
+(cid:169) 4 (cid:185)
+F (cid:168)
+(cid:167)5π−8
+(cid:184)
+(cid:183) x2
+(cid:169) 8 (cid:185)
+© UCLES 2017 [Turn over
+20
+26 Two radioactive sources X and Y have half-lives of 3.0 hours and 2.0 hours respectively. The
+product of the decay of both of the sources is a stable isotope of the element Z.
+Six hours ago a mixture contained the same number of atoms of both X and Y, and no other
+atoms.
+What fraction of the mixture is now made up of atoms of Z?
+10
+A
+16
+11
+B
+16
+12
+C
+16
+13
+D
+16
+14
+E
+16
+15
+F
+16
+© UCLES 2017
+21
+27 A cylindrical hollow metal pipe is 16cm long.
+It has an external diameter of 10cm and an internal diameter of 8cm.
+The density of the metal from which the pipe is made is 8 grams per cm3.
+[diagram not to scale]
+8cm
+16cm
+10 cm
+What is the mass of the pipe in grams?
+A 8π
+B 16π
+C 18π
+D 72π
+E 128π
+F 512π
+G 1152π
+H 4608π
+© UCLES 2017 [Turn over
+22
+28 Car X passes car Y on a motorway.
+Car X is travelling at 1.5 times the speed of car Y.
+4
+The mass of car X is of the mass of car Y.
+5
+How do the kinetic energies of the two cars compare?
+A kinetic energy of car X = 0.90 × kinetic energy of car Y
+B kinetic energy of car X = 0.96 × kinetic energy of car Y
+C kinetic energy of car X = 1.20 × kinetic energy of car Y
+D kinetic energy of car X = 1.44 × kinetic energy of car Y
+E kinetic energy of car X = 1.80 × kinetic energy of car Y
+© UCLES 2017
+23
+PART B Advanced Mathematics and Advanced Physics
+NOTE: questions in this part that are not covered by the ESAT
+content specification are indicated by a cross through the
+question number.
+© UCLES 2017 [Turn over
+24
+29 Which one of the following is a simplification of
+2
+(cid:167) 3+ 3 (cid:183)
+1−(cid:168) (cid:184)
+(cid:168) (cid:184)
+(cid:169)6−2 3(cid:185)
+3
+A −
+4
+3
+B
+4
+3 3
+C − −
+4 7
+3 3
+D −
+4 7
+3
+E − − 3
+4
+3
+F − 3
+4
+3
+G −
+2
+3
+H
+2
+© UCLES 2017
+25
+30 The diagram shows a crane being used on a building site. The crane is perfectly balanced
+about P.
+[diagram not to scale]
+10m 10m
+P
+counterweight = 2000kg
+load = 400kg
+weight of the
+horizontal section of
+the crane
+The load is now moved to the left by 5.0m.
+To keep the crane perfectly balanced about P, how far does the counterweight have to move,
+and in which direction?
+(gravitational field strength = 10Nkg–1)
+A 1.0m to the left
+B 1.0m to the right
+C 3.0m to the left
+D 3.0m to the right
+E 4.0m to the left
+F 4.0m to the right
+© UCLES 2017 [Turn over
+26
+31 k is the smallest positive value of x which is a solution to both the equations 2sinx+1=0 and
+2cos2x=1
+How many values of x in the range 0≤x≤k are solutions to at least one of these equations?
+A 0
+B 2
+C 3
+D 4
+E 8
+© UCLES 2017
+27
+32 A ball is thrown vertically upwards in still air and is then caught at the same height when it
+comes back down.
+Which velocity–time graph shows this complete motion?
+(Take upwards as positive, and ignore air resistance.)
+A B C
+velocity velocity velocity
++ + +
+0 0 0
+0 time 0 time 0 time
+– – –
+D E F
+velocity velocity velocity
++ + +
+0 0 0
+0 time 0 time 0 time
+– – –
+G H
+velocity
+velocity
++ +
+0 0
+0 time 0 time
+– –
+© UCLES 2017 [Turn over
+28
+33 Which of the following is a solution to the equation 3 (2x+1) −6(3 x )=0?
+A log 3
+2
+B log 2
+3
+C 2
+D log 2
+10
+2
+E
+3
+34 An aircraft is climbing at constant speed in a straight line at an angle of 10° to the horizontal.
+Which statement about the resultant force on the aircraft is correct?
+A It is parallel to its motion.
+B It is perpendicular to its motion.
+C It is zero.
+D It is equal to its weight.
+E It is equal to the drag acting on the aircraft.
+© UCLES 2017
+29
+35 The diagram shows the outline of a keyhole consisting of three straight sides and an arc from a
+circle.
+The sides PQ and RS are both 18mm in length and when extended meet at the centre of the
+π
+circle O forming an angle of radians.
+6
+The longer arc from Q to R has length 22πmm.
+[diagram not to scale]
+O
+Q R
+P S
+What is the area, in mm2, of the keyhole as shaded in the diagram?
+841
+A 121π+
+4
+841 3
+B 121π+
+4
+C 132π+225
+D 132π+225 3
+E 144π+225
+F 144π+225 3
+© UCLES 2017 [Turn over
+30
+36 A horizontal, uniform bar of mass 60kg is 4.0m long and is pivoted at one end. The bar is held
+in equilibrium by a force F at the other end of the bar, acting at an angle of 60° to the
+horizontal.
+[diagram not to scale]
+F
+pivot
+60o
+Which expression gives the magnitude of F in newtons?
+(gravitational field strength = 10Nkg–1)
+30
+A
+sin60°
+30
+B
+cos60°
+60
+C
+sin60°
+60
+D
+cos60°
+300
+E
+sin60°
+300
+F
+cos60°
+600
+G
+sin60°
+600
+H
+cos60°
+© UCLES 2017
+31
+37 It is given that y=8p and z=(cid:168) (cid:167)1 (cid:184) (cid:183) 2q where p and q are real numbers.
+(cid:169)2(cid:185)
+(cid:167) y3 (cid:183)
+Which of the following expressions is a simplification of log (cid:168) (cid:184)?
+2(cid:168)
+(cid:169)
+z2 (cid:184)
+(cid:185)
+A 6p−4q
+B 6p+4q
+C 6p−8q
+D 6p+8q
+E 9p−4q
+F 9p+4q
+G 9p−8q
+H 9p+8q
+38 A ball starts at a speed of 40.0ms–1. The ball is subject to a constant deceleration of 14.4ms–2
+as it travels a distance of 20.0m in a straight line.
+What is the final speed of the ball?
+A 16.0ms–1
+B 20.0ms–1
+C 25.6ms–1
+D 32.0ms–1
+E 36.2ms–1
+F 39.3ms–1
+© UCLES 2017 [Turn over
+32
+39 The graph of the function y=x3 + px2+qx+6, where p and q are real constants, has a local
+maximum when x=2 and a local minimum when x=4.
+What are the values of p and q?
+A p=−3 and q=−8
+B p=−3 and q=8
+C p=3 and q=−8
+D p=−9 and q=24
+E p=9 and q=24
+F p=9 and q=−24
+© UCLES 2017
+33
+40 A block of mass 1.0kg is at rest on a rough horizontal surface. The block is attached by a light
+inextensible string to a force meter. The other end of the force meter is attached by another
+light inextensible string via a frictionless pulley to a load of mass 1.0kg. The block remains
+stationary.
+force meter
+pulley
+rough surface
+1.0kg
+string
+1.0kg
+What is the reading on the force meter?
+(gravitational field strength = 10Nkg–1)
+A 0.0N
+B 0.5N
+C 1.0N
+D 2.0N
+E 5.0N
+F 10N
+G 20N
+© UCLES 2017 [Turn over
+34
+41 In triangle PQR
+PQ =4xcm
+QR =(8−3x)cm
+∠PQR= 60°
+What is the maximum value of the area, in cm2, of triangle PQR?
+8 3
+A
+3
+16
+B
+3
+69 3
+C
+16
+16 3
+D
+3
+32
+E
+3
+32 3
+F
+3
+42 An apple of mass 100g, growing on a tree, falls vertically from a height of 4.0m above the
+ground. It hits the ground with a speed of 8.0ms–1.
+How much work does the apple do against resistive forces during its descent, before it hits the
+ground?
+(gravitational field strength = 10Nkg–1)
+A 0.80J
+B 3.6J
+C 4.0J
+D 7.2J
+E 8.0J
+© UCLES 2017
+35
+dy
+43 Given that y=(2+3x)6, what is the coefficient of x3 in ?
+dx
+A 240
+B 4320
+C 4860
+D 12960
+E 19440
+44 A stone is fired vertically upwards at a speed of 13ms–1 on a still day from the top of a 6.0m
+high cliff. It then falls down and lands at the bottom of the cliff.
+[diagram not to scale]
+stone
+13ms–1
+6.0m
+From when the stone passes the top of the cliff on the way down, how long does it take to
+reach the ground at the bottom of the cliff?
+(air resistance can be ignored; gravitational field strength = 10Nkg–1)
+A 0.40s
+6.0
+B s
+6.5
+C 0.60s
+D 1.2s
+E 1.3s
+F 2.0s
+G 2.5s
+H 3.0s
+© UCLES 2017 [Turn over
+36
+1
+45 A geometric progression has first term equal to 1 and common ratio sin2x
+2
+4
+The sum to infinity of the series is
+3
+Find the possible values of x in the range π≤x≤2π
+13 17
+A π, π
+12 12
+7 4
+B π, π
+6 3
+7 11
+C π, π
+6 6
+5 7
+D π, π
+4 4
+E there are no values of x in this range
+© UCLES 2017
+37
+46 An archer fires an arrow of mass 0.024kg vertically upwards from a bow.
+The graph shows how the force of the bowstring on the arrow varies with distance as the arrow
+moves upwards.
+force /N
+192
+0
+0
+0.40
+distance /m
+The work done by the force of the bowstring is given by the area under the force-distance
+graph.
+When the arrow leaves the bow, what is the kinetic energy of the arrow, and what is the
+maximum height that it gains from this point?
+(Air resistance can be ignored. The effect of gravity as the arrow is fired is negligible compared
+to the force of the bowstring. The gravitational field strength = 10Nkg–1.)
+kinetic energy /J height /m
+A 38.4 16
+B 38.4 160
+C 38.4 1600
+D 38.4 16000
+E 76.8 32
+F 76.8 320
+G 76.8 3200
+H 76.8 32000
+© UCLES 2017 [Turn over
+38
+47 The sequence of numbers u ,u ,u ,...,u ,... is given by
+1 2 3 n
+u = 2
+1
+u = pu +3
+n+1 n
+where p is an integer.
+The fourth term, u , is equal to −7
+4
+What is the value of u +u +u +u ?
+1 2 3 4
+A –10
+B – 2
+C –1
+D 8
+E 26
+© UCLES 2017
+39
+48 A book of mass m rests on a rough horizontal surface. The surface is now tilted as shown:
+book
+surface
+θ
+When the angle of tilt θ is 20°, the book slides down the slope at a constant speed.
+What is the acceleration of the book down the slope when the angle of tilt is 25°?
+(gravitational field strength = g)
+A g (cos20° − sin20°tan5°)
+B g (cos20° − sin20°tan25°)
+C g (cos25° − sin5°tan20°)
+D g (cos25° − sin25°tan20°)
+E g (sin20° − cos20°tan5°)
+F g (sin20° − cos20°tan25°)
+G g (sin25° − cos5°tan20°)
+H g (sin25° − cos25°tan20°)
+49 Find the complete set of values of x for which
+x3 −6x2+9x−4
+>0
+x
+A x<0, x>4
+B 0<x<4
+C 0<x<1, x>4
+D x<0, 1<x<4
+E x<1, x>4
+F 1<x<4
+© UCLES 2017 [Turn over
+40
+50 A suitcase of mass m is on a conveyor belt which moves upwards at a constant speed at an
+angle of θ to the horizontal. The coefficient of friction between the suitcase and the slope is µ.
+The suitcase does not slip, even if angle θ is made slightly larger.
+Which expression gives the friction force between the suitcase and the belt?
+(gravitational field strength = g)
+A µmg
+B mgsinθ
+C mgcosθ
+D µmgsinθ
+E µmgcosθ
+1
+51 The curve y=sinx is stretched by a scale factor of parallel to the x-axis and then translated
+2
+π
+by in the negative x-direction.
+4
+What is the equation of the new curve?
+(cid:167)x π(cid:183)
+A y=sin(cid:168) − (cid:184)
+(cid:169)2 4(cid:185)
+(cid:167)x π(cid:183)
+B y=sin(cid:168) + (cid:184)
+(cid:169)2 4(cid:185)
+(cid:167)x π(cid:183)
+C y=sin(cid:168) − (cid:184)
+(cid:169)2 8(cid:185)
+(cid:167)x π(cid:183)
+D y=sin(cid:168) + (cid:184)
+(cid:169)2 8(cid:185)
+(cid:167) π(cid:183)
+E y=sin(cid:168)2x− (cid:184)
+(cid:169) 4(cid:185)
+(cid:167) π(cid:183)
+F y=sin(cid:168)2x+ (cid:184)
+(cid:169) 4(cid:185)
+(cid:167) π(cid:183)
+G y=sin(cid:168)2x− (cid:184)
+(cid:169) 2(cid:185)
+(cid:167) π(cid:183)
+H y=sin(cid:168)2x+ (cid:184)
+(cid:169) 2(cid:185)
+© UCLES 2017
+41
+52 The graph shows how the horizontal force on a tennis ball of mass m varies during a shot in a
+tennis match. The ball is initially travelling horizontally toward the racket with speed u and
+leaves the racket horizontally travelling in the opposite direction with speed v.
+force /N
+F
+0
+t t
+0 time/s
+1 2
+Which expression gives the magnitude of the momentum of the ball as it leaves the racket?
+A F(t − t )
+2 1
+B F(t − t ) − mu
+2 1
+C F(t − t ) + mu
+2 1
+D mv − mu
+E Ft − mu
+2
+53 The equations of two straight lines are y=3+(2p2− p)x and y=7+(p−2)x, where p is a
+real constant.
+For certain values of p, the two lines are perpendicular.
+Which of the following numbers is closest to the greatest such value of p?
+A 2.00
+B 1.75
+C 1.50
+D 1.00
+E −0.25
+F −0.50
+© UCLES 2017 [Turn over
+42
+54 The acceleration versus time graph is for a ball dropped from rest, falling vertically and
+bouncing on the ground.
+0
+0.0 00..11 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 1.1 1.2 1.3 1.4 1.5
+-10 time /s
+© UCLES 2017
+2–sm/
+noitarelecca
+The time of contact with the ground can be ignored.
+What is the speed of the ball immediately after hitting the ground for the first time, and what is
+the maximum height reached by the ball after the first bounce?
+(gravitational field strength = 10Nkg–1)
+speed /ms–1 height /m
+A 4.00 0.80
+B 4.00 1.25
+C 5.00 0.80
+D 5.00 1.25
+E 8.00 3.20
+END OF TEST
+43
+BLANK PAGE
+© UCLES 2017
+44
+© UCLES 2017

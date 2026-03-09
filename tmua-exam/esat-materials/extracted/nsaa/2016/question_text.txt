@@ -1,0 +1,1917 @@
+NATURAL SCIENCES D568/11
+ADMISSIONS ASSESSMENT
+Wednesday 2 November 2016 80 minutes
+SECTION 1
+INSTRUCTIONS TO CANDIDATES
+Please read these instructions carefully, but do not open this question paper until you are told
+that you may do so. This paper is Section 1 of 2.
+A separate answer sheet is provided for this paper. Please check you have one. You also require a
+soft pencil and an eraser.
+Please complete the answer sheet with your candidate number, centre number, date of birth, and
+name.
+At the end of 80 minutes, your supervisor will collect this question paper and answer sheet before
+giving out Section 2.
+This paper contains five parts: A, B, C, D, and E.
+All candidates should complete Part A Mathematics.
+All candidates should then complete two further parts chosen from:
+Part B Physics
+Part C Chemistry
+Part D Biology
+Part E Advanced Mathematics and Advanced Physics
+Each part has 18 multiple-choice questions. There are no penalties for incorrect responses, only
+marks for correct answers, so you should attempt all of the questions in your three parts. Each
+question is worth one mark.
+Questions ask you to show your choice between options. Choose the one option you consider correct
+and record your choice on the separate answer sheet. If you make a mistake, erase thoroughly and
+try again.
+You can use the question paper for rough working, but no extra paper is allowed. Only your
+responses on the answer sheet will be marked.
+Dictionaries and calculators may NOT be used.
+Please wait to be told you may begin before turning this page.
+This question paper consists of 73 printed pages and 3 blank pages.
+PV4
+© UCLES 2016
+*3413281959*
+2
+Paper content
+PART A Mathematics ............................................................................................................................. 3
+PART B Physics ................................................................................................................................... 14
+PART C Chemistry ............................................................................................................................... 31
+PART D Biology ................................................................................................................................... 43
+PART E Advanced Mathematics and Advanced Physics ..................................................................... 59
+© UCLES 2016
+3
+PART A Mathematics
+PART A Mathematics
+© UCLES 2016 [Turn over
+4
+PART A Mathematics
+x
+1 Find the complete set of solutions to − 8 < 6 −
+2
+A x<4
+B x>4
+C x<20
+D x>20
+E x<22
+F x>22
+G x<28
+H x>28
+( )
+2 Which one of the following is a simplification of 3 − 2 2?
+A 1−2 3 2
+B 5−2 2 3
+C 2 3−2 2
+D 1
+E 5− 2 3
+F 13−2 2 3
+G 5+2 2 3
+H 5
+© UCLES 2016
+5
+PART A Mathematics
+3 The ratio of Q:R is 5:2 and the ratio of R:S is 3:10
+Which one of the following gives the ratio Q:S in its simplest form?
+A 1:2
+B 2:1
+C 3:4
+D 3:25
+E 4:3
+F 25:3
+4 The mean age of the twenty members of a running club is exactly 28.
+The mean age increases by exactly 2 years when two new members join.
+What is the mean age of the two new members?
+A 20 years
+B 22 years
+C 30 years
+D 40 years
+E 50 years
+F 52 years
+© UCLES 2016 [Turn over
+6
+PART A Mathematics
+5 A medical scanner is bought for £15000.
+The value of the scanner depreciates by 20% every year.
+By how much has the scanner reduced in value after 2 years?
+A £600
+B £3000
+C £5400
+D £6000
+E £9000
+F £9600
+G £12000
+6 The point A is 4km due East of the point B.
+The bearing of the point C from A is 330° and the bearing of C from B is 060°
+Find the distance BC.
+A 2 km
+B 2 3 km
+C 4 km
+D 2 5 km
+E 4 2 km
+© UCLES 2016
+7
+PART A Mathematics
+7 The quantities x and y are positive.
+x is inversely proportional to the square root of y.
+When x = 8, y = 9.
+What is the value of y when x = 6?
+3
+A
+2
+B 2
+81
+C
+16
+27
+D
+14
+E 12
+F 16
+8 In a trapezium PQRS, the parallel sides are PQ and RS.
+PQ = (x− 1)cm, RS =(x+ 5)cm and the vertical height QR = xcm.
+P x – 1 Q
+x [diagram not to scale]
+S R
+x + 5
+The area of the trapezium is 120cm2.
+What is the length of RS?
+A 9cm
+B 10cm
+C 11cm
+D 12cm
+E 15cm
+F 17cm
+© UCLES 2016 [Turn over
+8
+PART A Mathematics
+9 Make b the subject of the formula:
+b2 +2
+a=
+3b2 −1
+⎛
+a+2⎞
+A b=± ⎜ ⎟
+⎜ ⎝3a+1 ⎟
+⎠
+⎛
+a+2⎞
+B b=± ⎜ ⎟
+⎜ ⎝3a−1 ⎟
+⎠
+⎛
+2−a
+⎞
+C b=± ⎜ ⎟
+⎜ ⎝3a+1 ⎟
+⎠
+⎛
+2−a
+⎞
+D b=± ⎜ ⎟
+⎜ ⎝3a−1 ⎟
+⎠
+⎛ 3 ⎞
+E b=± ⎜ ⎟
+⎜ ⎝3a+1 ⎟
+⎠
+⎛ 3 ⎞
+F b=± ⎜ ⎟
+⎜ ⎝3a−1 ⎟
+⎠
+© UCLES 2016
+9
+PART A Mathematics
+10 A thin rectangular sheet of metal 10m by 5m is made into an open ended cylinder by joining
+the edges PS and QR.
+The height of the cylinder is 10m.
+What is the volume, in cubic metres, enclosed by this cylinder?
+P 5 m Q r
+[diagram not to scale]
+10 m 10 m 10 m
+S R
+5m
+5
+A
+2π
+25
+B
+4π
+125
+C
+2π
+D 62.5π
+125
+E
+π
+F 250π
+11 Which one of the following is a simplification of 4+
+4−x2
+?
+x2 −2x
+A
+3−2
+x
+B
+3+2
+x
+C
+4−2
+x
+D
+4+2
+x
+E
+5−2
+x
+F
+5+2
+x
+© UCLES 2016 [Turn over
+10
+PART A Mathematics
+12 During summer activities week 120 students each chose one activity from swimming, archery,
+and tennis.
+46 of the students were girls.
+2
+36 of the students chose tennis, and of these were boys; 25 girls chose swimming, and 27
+3
+students chose archery.
+A boy is picked at random. What is the probability that he chose swimming?
+3
+A
+20
+9
+B
+37
+4
+C
+15
+16
+D
+37
+32
+E
+57
+2n+1× 4−3n
+9 3
+13 Which one of the following expressions is equivalent to ?
+272−n
+A 39
+B 3
+−2n
+C
+32−2n
+D 3
+4n
+E
+36n−2
+F 36
+© UCLES 2016
+11
+PART A Mathematics
+14 In the diagram below, PQRS is part of a regular polygon.
+The polygon has n sides.
+The side PQ is extended to T such that PQT is a straight line.
+The length of RQ is the same as the length of RT.
+P
+[diagram not to scale]
+Q
+R
+x
+S
+T
+Find an equation for n in terms of x, where x is the size of angle ∠QRT in degrees.
+A
+n= 180
+x−90
+B
+n=180−x
+720
+C
+n=
+360−x
+90
+D
+n= 360
+180−x
+E
+n= 720
+180−x
+F
+n= 720
+360−x
+G
+n= 360
+360−x
+© UCLES 2016 [Turn over
+12
+PART A Mathematics
+3
+15 In a population, of the adults are overweight.
+5
+9
+The probability of an overweight adult having Type 2 diabetes is ; this probability is 6 times
+50
+the probability of an adult who is not overweight having the disease.
+An adult is chosen at random from the population.
+What is the probability the chosen adult has Type 2 diabetes?
+27
+A
+250
+3
+B
+25
+63
+C
+500
+37
+D
+250
+39
+E
+50
+21
+F
+100
+16 The graph of y=x2 +ax+b meets the straight line y=x+1 when x=2 and x=4.
+Find a and b.
+A
+a=−5, b=9
+B a=5, b=9
+C
+a=−5, b=11
+D a=5, b=11
+E
+a=−6, b=11
+F a=6, b=11
+G
+a=−6, b=13
+H a=6, b=13
+© UCLES 2016
+13
+PART A Mathematics
+17 A rhombus has diagonals of length 5cm and 3cm.
+An enlargement of the rhombus has sides of length 68 cm.
+What is the scale factor of the enlargement?
+A 2
+B 2
+C 2 2
+D 4
+E 4 2
+18 A straight line is drawn joining the points with coordinates (7,1 − p) and (2p+ 1,− 1), where p
+is a constant.
+What is the complete set of values of p for which the gradient of this line is finite and greater
+than zero?
+A
+p<−4, p>0
+B
+−4< p<0
+C
+p<0
+D
+p<2
+E
+2< p<3
+F
+p<2, p>3
+© UCLES 2016 [Turn over
+14
+PART B Physics
+PART B Physics
+© UCLES 2016
+15
+PART B Physics
+19 In the 1920s scientists discovered that the universe is expanding. One consequence of this
+expansion is that the intense gamma-ray radiation that filled the early universe has now been
+shifted to the microwave region of the electromagnetic spectrum.
+Which line of the table describes how the expansion of the universe has affected the frequency
+and wavelength of these electromagnetic waves?
+effect on frequency effect on wavelength
+A decrease decrease
+B decrease increase
+C increase decrease
+D increase increase
+E no effect decrease
+F no effect increase
+214 210
+20 A nuclide Pb changes by radioactive decay into the nuclide Pb.
+82 82
+Which combination of emissions produces this change?
+A 3 alpha
+B 2 alpha and 1 beta
+C 2 alpha and 2 beta
+D 1 alpha and 2 beta
+E 3 beta
+© UCLES 2016 [Turn over
+16
+PART B Physics
+21 A cylindrical copper bar X of length l has a cross-sectional area A. The colder end of the bar is
+kept at temperature T and the hotter end is kept at temperature T .
+1 2
+temperature T
+1
+l
+bar X
+A
+temperature T
+2
+The curved surface of the bar is perfectly insulated and thermal energy is conducted from the
+hotter end of the bar to the colder end.
+Changes in l, A, T and T may alter the rate at which thermal energy is conducted along the
+1 2
+copper bar.
+In which case is the rate of conduction of thermal energy along the insulated bar the same as
+for bar X?
+change in A change in l change in T change in T
+1 2
+A doubles no change no change no change
+B halves no change no change no change
+C no change doubles no change no change
+D no change halves no change no change
+E no change no change decreases by 10°C increases by 10°C
+F no change no change decreases by 10°C no change
+G no change no change increases by 10°C decreases by 10°C
+H no change no change increases by 10°C increases by 10°C
+© UCLES 2016
+17
+PART B Physics
+22 The graph shown of quantity y against quantity x represents the motion of a body.
+y
+10
+0
+0.0 2.0 x
+(The scales on both axes are in the appropriate S.I. units, and the gravitational field strength g
+is 10Nkg–1.)
+Which two of the following could the graph represent?
+1 kinetic energy against velocity for an object of mass 10kg undergoing free-fall
+2 potential energy against height for an object of mass 20kg being lifted by a constant
+external force
+3 velocity against time for an object of mass 20kg being accelerated by a resultant
+force of 100N
+4 work done by an external force of 5N against distance moved for an object of mass
+12kg being moved at constant speed by (and in the direction of) the external force
+A 1 and 2
+B 1 and 3
+C 1 and 4
+D 2 and 3
+E 2 and 4
+F 3 and 4
+© UCLES 2016 [Turn over
+18
+PART B Physics
+23 A uranium-235 nucleus can undergo fission to produce two smaller nuclei.
+Which of the diagrams, if any, could represent this process?
+diagram 1 diagram 2
+144Ba 137Xe
+56 54
+1n 1n
+1 1 p 23 9 5 2 U 0 1n 1 0 n 23 9 5 2 U 0 1n 1 0 n
+0 0
+89Kr 96Sr
+36 38
+diagram 3
+87Br
+35
+1n
+1 0 n 23 9 5 2 U 0 1n 1 0 n
+0
+145
+La
+57
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+© UCLES 2016
+19
+PART B Physics
+24 A circuit consists of a 5.0Ω resistor and a variable resistor connected in series with a 24V
+battery. The variable resistor has a minimum resistance of 3.0Ω and a maximum resistance of
+15Ω. The battery and the connecting wires have negligible resistance.
+What is the maximum power dissipated in the 5.0Ω resistor?
+A 7.2W
+B 18W
+C 27 W
+D 45W
+E 72W
+F 75W
+© UCLES 2016 [Turn over
+20
+PART B Physics
+25 The diagram shows a 12V battery, a switch and three resistors. Each resistor has a resistance
+of 30Ω.
+12 V
+A
+Ω Ω
+30 30
+Ω
+30
+Initially the switch is open.
+What happens to the reading on the ammeter when the switch is closed?
+A It decreases by 0.20A.
+B It decreases by 0.40A.
+C It decreases by 0.60A.
+D It decreases by 0.80A.
+E It increases by 0.20A.
+F It increases by 0.40A.
+G It increases by 0.60A.
+H It increases by 0.80A.
+© UCLES 2016
+21
+PART B Physics
+26 The total power P radiated by a star is given by:
+P = kR2T4
+where R is the radius of the star, T is its surface temperature and k is a constant.
+The power currently radiated by the Sun is 4.0 × 1026W. Towards the end of the Sun’s life its
+radius will increase by a factor of a hundred and its surface temperature will decrease by a
+factor of two.
+What will be the power radiated by the Sun when these changes have occurred?
+A 2.5 × 1027W
+B 1.0 × 1028W
+C 2.0 × 1028W
+D 2.5 × 1029W
+E 1.0 × 1030W
+F 2.0 × 1030W
+G 2.5 × 1033W
+H 1.0 × 1034W
+27 A transverse wave travelling through a medium has a frequency of 5.0Hz, a wavelength of
+4.0cm and an amplitude of 3.0cm.
+What is the total distance travelled by a particle of the medium in one minute?
+A 900cm
+B 1200cm
+C 1800cm
+D 2400cm
+E 3600cm
+F 4800cm
+© UCLES 2016 [Turn over
+22
+PART B Physics
+28 A motor is used to lift a mass of 5.0kg using a pulley system as shown in the diagram. The
+pulley is secured to the roof using a coupling.
+roof
+coupling
+pulley
+rope
+force from
+motor
+5.0kg
+The motor needs to cause the mass to accelerate upwards at 0.80ms–2.
+What is the minimum tension force that the coupling must be able to withstand without
+breaking?
+(The gravitational field strength g is 10Nkg–1. The pulley system is frictionless and has
+negligible mass. The rope has negligible mass and is inextensible.)
+A 4.0N
+B 8.0N
+C 46N
+D 50N
+E 54N
+F 92N
+G 104N
+H 108N
+© UCLES 2016
+23
+PART B Physics
+29 A heater is connected in series with a resistor and a 6.0V battery in the circuit shown.
+battery
+resistor
+heater
+The total resistance of the circuit is 15Ω. In 3.0 minutes, 180J of electrical energy is transferred
+into other forms in the heater.
+How much charge flows through the heater in the 3.0 minutes and what is the voltage across
+the heater?
+charge / C voltage / V
+A 1.2 150
+B 1.2 216
+C 7.5 0.041
+D 7.5 24
+E 72 0.40
+F 72 2.5
+G 450 0.40
+H 450 2.5
+© UCLES 2016 [Turn over
+24
+PART B Physics
+30 A cubic block has a hole through it with a square cross-section. The dimensions are shown on
+the diagram. The weight of the block is 30N.
+5.0cm
+10cm
+What is the density of the material from which the block is made?
+(The gravitational field strength g is 10Nkg–1.)
+A 0.30gcm–3
+B 0.40gcm–3
+C 0.60gcm–3
+D 1.2gcm–3
+E 3.0gcm–3
+F 4.0gcm–3
+G 6.0gcm–3
+H 12gcm–3
+© UCLES 2016
+25
+PART B Physics
+31 The diagram shows four solid steel balls P, Q, R and S which are of identical size.
+Balls P and R have shiny surfaces. Balls Q and S have dull surfaces.
+Balls P and Q are in a room at 20°C. Balls R and S are in a room at 40°C.
+The temperature of each ball at a given moment in time is shown on the diagram.
+rooromom a ta t2 200 ° oCC roroomom a ta t4 400 ° oCC
+30°C 30°C 40°C 40°C
+30o C 30o C 40o C 40 oC
+PP QQ RR SS
+Which two balls lose thermal energy by convection, and which ball emits thermal radiation at
+the greatest rate?
+lose thermal energy greatest rate of emission of
+by convection thermal radiation
+A P and Q P
+B P and Q Q
+C P and Q R
+D P and Q S
+E R and S P
+F R and S Q
+G R and S R
+H R and S S
+© UCLES 2016 [Turn over
+26
+PART B Physics
+32 The diagram shows the velocity-time graph for an object travelling in a straight line over a
+period of 30s.
+velocity/ms–1
+8.0
+6.0
+4.0
+2.0
+0
+0 10 20 30 time / s
+–2.0
+What total distance did the object travel in the 30s, how far from its starting position was it at
+the end of the 30s, and what was its average speed over the 30s?
+total distance distance from
+average speed
+travelled starting position
+/ ms–1
+/ m / m
+A 3.0
+90 70
+B 5.0
+90 70
+C 3.0
+90 90
+D 5.0
+90 90
+E 5.0
+180 140
+F 6.0
+180 140
+G 5.0
+180 180
+H 6.0
+180 180
+© UCLES 2016
+27
+PART B Physics
+33 A sample of a radioactive isotope X decays to one other radioactive isotope Y. Y has a half-life
+that is double that of X. Initially only X is present.
+Which graph could represent how the numbers of nuclei of X and Y that are present in the
+sample vary with time?
+(All graphs cover the same period of time.)
+A B C
+number number number
+Y
+Y
+Y
+X X X
+0 0 0
+0 time 0 time 0 time
+D E
+number number
+Y
+X
+Y X
+0 0
+0 time 0 time
+© UCLES 2016 [Turn over
+28
+PART B Physics
+34 Bronze is a mixture of tin and copper.
+A particular sample of bronze contains 10% tin by volume. (In other words, 10% of the total
+volume of the sample is tin and 90% of it is copper.)
+What percentage of the mass of the sample is tin?
+(Density of tin = Y and density of copper = X.)
+X
+A ×100
+9X −Y
+X
+B ×100
+9Y −X
+Y
+C ×100
+9X −Y
+Y
+D ×100
+9Y −X
+X
+E ×100
+9X +Y
+X
+F ×100
+9Y + X
+Y
+G ×100
+9X +Y
+Y
+H ×100
+9Y + X
+© UCLES 2016
+29
+PART B Physics
+35 When a stationary uranium-238 nucleus decays by alpha emission it forms a nucleus of
+thorium-234. The total kinetic energy produced by the decay is E.
+Th-234
+U-238
+alpha-particle
+before decay after decay
+What is the kinetic energy of the alpha particle?
+A 4E
+238
+B 4E
+234
+C E
+2
+D 234E
+238
+E E
+© UCLES 2016 [Turn over
+30
+PART B Physics
+36 A student carries out an experiment to measure the speed of sound. A loudspeaker that emits
+sound in all directions is placed between two buildings that are 128m apart as shown. The
+student and loudspeaker are 48m from one of the buildings.
+128m
+building building
+48m
+student and
+loudspeaker
+The loudspeaker is connected to a signal generator that causes it to emit regular clicks. The
+student notices that each click results in two echoes, one from each building. The rate at which
+the clicks are produced is gradually increased from zero until each echo coincides with a new
+click being emitted by the loudspeaker.
+What is the frequency of emission of clicks when this happens?
+(The speed of sound in air = 320ms–1.)
+A 2.0Hz
+B 2.5Hz
+C 3.3Hz
+D 4.0Hz
+E 5.3Hz
+F 6.7Hz
+G 10Hz
+© UCLES 2016
+31
+PART C Chemistry
+PART C Chemistry
+© UCLES 2016 [Turn over
+32
+PART C Chemistry
+37 Which one of the following atoms or ions contains the same number of neutrons and electrons
+as 40 Ca2+?
+20
+35 –
+A Cl
+17
+37
+B Cl
+17
+C 40 Ar
+18
+D 39 K+
+19
+39
+E K
+19
+38 Solid titanium oxide does not conduct electricity and cannot be electrolysed.
+When molten, titanium oxide is a conductor and can be electrolysed.
+During electrolysis 7.2g of titanium are formed for every 3.6dm3 of oxygen at room
+temperature and pressure.
+Which of the following statements, if any, are correct?
+1 After electrolysis, the titanium atoms produced have a noble gas electron
+configuration.
+2 When molten, titanium oxide electrons are delocalised and so they move to carry the
+charge.
+3 The empirical formula of titanium oxide is TiO .
+2
+(A: Ti = 48; molar gas volume = 24 dm3 at room temperature and pressure)
+r
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2, and 3
+© UCLES 2016
+33
+PART C Chemistry
+39 In which, if any, of the following reactions are covalent bonds both broken and formed?
+1 burning sodium in oxygen
+2 electrolysis of aqueous sodium chloride
+3 displacement of iron from iron oxide by heating with aluminium powder
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2
+F 1 and 3
+G 2 and 3
+H 1, 2 and 3
+40 In a reversible reaction, gaseous reactants P and Q form gaseous products R and S.
+An increase in temperature was found to increase both the rate of reaction and the yield at
+equilibrium.
+An increase in pressure was found to increase the rate of reaction but the yield at equilibrium
+was unaffected.
+Which equation could represent the reaction?
+A 3P + Q ⇌ 2R + 3S ∆H is +ve
+B P + 3Q ⇌ R + 2S ∆H is +ve
+C P + 2Q ⇌ 2R + S ∆H is +ve
+D P + 2Q ⇌ 3R + S ∆H is –ve
+E P + 2Q ⇌ R + S ∆H is –ve
+F 2P + Q ⇌ R + 2S ∆H is –ve
+© UCLES 2016 [Turn over
+34
+PART C Chemistry
+41 Several oxides of bromine have been identified. Analysis of 2.4g of one of these compounds
+showed it to contain 1.6g of bromine.
+What is the empirical formula of this compound?
+(A: bromine = 80; oxygen = 16)
+r
+A Br O
+2
+B BrO
+2
+C Br O
+2 5
+D Br O
+5 2
+E Br O
+4 5
+F Br O
+5 4
+42 The most common ion of antimony, Sb3+, has 48 electrons.
+Antimony has two isotopes. One isotope has 70 neutrons and has an abundance of 60%. The
+second isotope has 72 neutrons and has an abundance of 40%.
+What is the relative atomic mass of antimony?
+A 70.8
+B 71.0
+C 71.2
+D 121.8
+E 122.0
+F 122.2
+© UCLES 2016
+35
+PART C Chemistry
+43 A chromatogram was produced for 4 separate dyes (W, X, Y and Z) using filter paper and a
+water solvent.
+A second chromatogram was produced using a mixture of two of the dyes, again using filter
+paper and a water solvent:
+[diagram not to scale]
+solvent
+front
+solvent
+front
+10cm
+8.2cm
+6.4 cm 5 cm
+4.1cm
+3.2cm
+4.1 cm 3.2 cm
+baseline X X X X baseline X
+W X Y Z mix
+Which of the following statements, if any, are correct?
+1 The concentration of dye W must be twice the concentration of dye Z.
+2 The mobile phase is the filter paper.
+3 The mixture in the second chromatogram contained dyes W and Y.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+© UCLES 2016 [Turn over
+36
+PART C Chemistry
+44 The graphs show results of two experiments (W and Z) involving the catalytic decomposition of
+hydrogen peroxide.
+experiment W
+experiment Z
+time
+© UCLES 2016
+negyxo
+fo
+emulov
+latot
+Assuming all other conditions are kept constant, which one of the following options would lead
+to the results shown?
+experiment W experiment Z
+100cm3 of 1.0moldm–3 hydrogen
+A 50cm3 of 2.0moldm–3 hydrogen peroxide
+peroxide
+B catalyst is in lumps catalyst is finely divided
+C reaction carried out at 25°C reaction carried out at 50°C
+D 2.0g manganese(IV) oxide used 1.0g manganese(IV) oxide used
+100cm3 of 1.0moldm–3 hydrogen
+E 25cm3 of 2.0moldm–3 hydrogen peroxide
+peroxide
+37
+PART C Chemistry
+45 Two of the following equations represent redox reactions:
+1 Cl + 2KI → I + 2KCl
+2 2
+2 Cl + 2e – → 2Cl –
+2
+3 HCl + AgNO → AgCl + HNO
+3 3
+4 Cl + H O → HCl + HClO
+2 2
+Which two equations represent redox reactions?
+A 1 and 2
+B 1 and 3
+C 1 and 4
+D 2 and 3
+E 2 and 4
+F 3 and 4
+46 Copper, Cu, reacts with concentrated nitric acid, HNO , to produce a solution of
+3
+copper(II) nitrate, water and compound X.
+Compound X does not contain copper or hydrogen.
+The balanced equation for the reaction shows 3 moles of copper reacting with HNO to
+3
+produce 4 moles of water.
+What is the identity of compound X?
+A NO
+B NO
+2
+C NO
+3
+D N O
+2 5
+E N O
+2 8
+© UCLES 2016 [Turn over
+38
+PART C Chemistry
+47 During the electrolysis of a saturated solution of sodium chloride, 2.4dm3 of hydrogen gas was
+collected in time t at one of the electrodes.
+Assuming no products dissolve, which row in the table correctly gives the mass or volume of
+the given product collected at the given electrode in time t?
+(A: Na = 23; Cl = 35.5; H = 1, 1 mole of gas occupies 24dm3 at room temperature and
+r
+pressure)
+mass or volume product electrode
+A 0.1g hydrogen negative
+B 2.3g sodium negative
+C 2.4dm3 chlorine positive
+D 2.4dm3 chlorine negative
+E 2.4dm3 oxygen positive
+F 3.55g chlorine positive
+G 1.2dm3 oxygen negative
+48 The heat energy change for a reaction is −100kJmol –1 , and the activation energy is
++150kJmol –1 .
+What is the activation energy for the reverse reaction?
+A −250 kJ mol –1
+B −150 kJ mol –1
+C −50 kJ mol –1
+D +50 kJ mol –1
+E +150 kJ mol –1
+F +250 kJ mol –1
+© UCLES 2016
+39
+PART C Chemistry
+49 The following tests were carried out on separate samples of two monoprotic acids, HX and HY.
+HX is a strong acid and HY is a weak acid. Both acids had a concentration of 1moldm–3.
+1 Measure the time taken for a 1cm strip of magnesium to react completely when
+added to 25cm3 of each acid.
+2 Measure the volume of 1moldm–3 sodium hydroxide solution needed to completely
+neutralise 20cm3 of each acid.
+3 Measure the electrical conductance of each acid using a conductivity meter.
+Each test was carried out under the same conditions.
+Which of the tests, considered independently, if any, would show that HX was a stronger acid
+than HY?
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+50 A 1.50g sample of impure anhydrous sodium carbonate was added to 100cm3 of excess dilute
+hydrochloric acid. The impurity is unreactive.
+The volume of gas released was 240cm3 at room temperature and pressure.
+What is the mass of the impurity?
+(A: Na = 23; C = 12; O = 16; molar gas volume = 24000cm3 at room temperature and
+r
+pressure)
+A 0.44g
+B 0.53g
+C 0.67g
+D 0.83g
+E 0.97g
+F 1.06g
+© UCLES 2016 [Turn over
+40
+PART C Chemistry
+51 0.35g of lithium metal reacts with excess water at room temperature. Any gas produced in the
+reaction is collected and its volume measured at room temperature and pressure.
+Assuming 1 mole of gas occupies 24.0dm3 at room temperature and pressure, what is the
+volume of gas collected?
+(A: Li = 7)
+r
+A 0.00cm3
+B 0.60cm3
+C 1.20cm3
+D 25.0cm3
+E 50.0cm3
+F 600cm3
+G 1200cm3
+52 Sodium sulfate was prepared by neutralising 25.0cm3 of 0.1moldm–3 sodium hydroxide with
+exactly 50.0cm3 of sulfuric acid.
+What is the concentration of the sulfuric acid in gdm–3?
+(M: H SO = 98)
+r 2 4
+A 0.025gdm–3
+B 0.050gdm–3
+C 0.250gdm–3
+D 2.45gdm–3
+E 4.90gdm–3
+F 9.80gdm–3
+© UCLES 2016
+41
+PART C Chemistry
+53 During electrolysis of an aqueous solution of sodium sulfate the half equations for the electrode
+reactions are:
+Anode (positive electrode): 2H O(l) → O (g) + 4H + (aq) + 4e –
+2 2
+Cathode (negative electrode): 2H O(l) + 2e – → H (g) + 2OH – (aq)
+2 2
+Which of the following deductions, if any, can be made from these equations?
+1 The ratio by moles of hydrogen to oxygen produced at the electrodes is 1:1.
+2 The sodium sulfate solution will become more concentrated as the electrolysis
+proceeds.
+3 The whole solution will become acidic due to formation of H + ions at the anode.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+© UCLES 2016 [Turn over
+42
+PART C Chemistry
+54 The structure of ethanol is given below:
+H H
+H C C O H
+H H
+Given the equation below and the overall enthalpy change for the reaction, which option
+correctly identifies the bond energy of the C–O bond in ethanol?
+H C═CH (g) + H O(g) → C H OH(g) ∆H = −45kJmol–1
+2 2 2 2 5
+(Mean bond energy (kJmol–1): H–H = +436; C–C = +346; C–H = +413; O–H = +464;
+C═C = +611)
+A 103kJmol–1
+B 316kJmol–1
+C 361kJmol–1
+D 707kJmol–1
+E 825kJmol–1
+© UCLES 2016
+43
+PART D Biology
+PART D Biology
+© UCLES 2016 [Turn over
+44
+PART D Biology
+55 Between 1954 and 1971 a mine in Northern Australia was releasing excess copper into the
+nearby Finnis River. Copper ions are poisonous and most of the types of fish living in the river
+died. The river still remains polluted with copper, but scientists have discovered one type of
+rainbow fish that is able to survive and live in the river.
+A student wrote the following statements in order to explain this information.
+1 One type of rainbow fish did not die out in the river because this type was able to
+adapt to the changing environment.
+2 None of the other types of fish showed any type of genetic variation.
+3 The presence of copper ions acted as a selective pressure.
+Which of the student’s statements could be correct?
+A 1 only
+B 1 and 2 only
+C 1 and 3 only
+D 2 and 3 only
+E 1, 2 and 3
+© UCLES 2016
+45
+PART D Biology
+56 The diagram shows a plant cell.
+1 2
+3
+4
+Which of the arrows on the diagram show the net movement of water molecules, by osmosis,
+when the cell is surrounded by a solution that is more concentrated than the solution in the
+cytoplasm?
+A 1 only
+B 2 only
+C 1 and 3 only
+D 1 and 4 only
+E 2 and 3 only
+F 2 and 4 only
+57 A student described a population of organisms as having the following features
+1 single celled
+2 chloroplasts present
+3 cell wall present
+Using this information, which type of organism could this describe?
+A algae
+B bacteria
+C ferns
+D fungi
+E flowering plants
+© UCLES 2016 [Turn over
+46
+PART D Biology
+58 A student carried out an experiment to investigate how temperature affects the rate of activity
+of an enzyme found in potatoes. This enzyme breaks down the substrate hydrogen peroxide to
+produce water and oxygen.
+The apparatus was set up as shown in the diagram and the experiment carried out at 30°C.
+hydrogen
+water
+peroxide solution
+oxygen bubble
+piece of potato
+water bath at
+30 C
+The student counted the number of bubbles of oxygen produced in one minute.
+The experiment was repeated at 40°C, 50°C, 60°C, and 70°C.
+The table shows the results collected by the student.
+temperature/ °C number of bubbles of oxygen gas produced in one minute
+30 32
+40 27
+50 23
+60 8
+70 2
+A group of students were given these results and asked to calculate the percentage decrease
+in the number of bubbles produced between 30°C and 60°C. Each student was also asked to
+write a conclusion to explain the results. These are shown in the table below.
+Which student correctly calculated the percentage decrease in the number of bubbles between
+30°C and 60°C and wrote an appropriate conclusion which explains the reason for this
+decrease?
+percentage decrease in the number of
+conclusion
+bubbles between 30°C and 60°C
+A 20 the high temperature causes the bonds
+maintaining the structure of the enzyme to break
+B 20 the temperature of the environment is too hot
+and the enzyme dies
+C 75 the high temperature causes the bonds
+maintaining the structure of the enzyme to break
+D 75 the temperature of the environment is too hot
+and the enzyme dies
+E 300 the high temperature causes the bonds
+maintaining the structure of the enzyme to break
+F 300 the temperature of the environment is too hot
+and the enzyme dies
+© UCLES 2016
+47
+PART D Biology
+59 Albinism is a recessive genetic condition that results in the absence of the pigment melanin in
+the skin, hair and eyes. In a population of 580000 people there were 29 albinos and 81200
+symptomless carriers. One living cheek cell was collected from every individual in the
+population.
+What is the number of albinism alleles in these cells?
+A 0
+B 29
+C 58
+D 81229
+E 81258
+F 162458
+60 A student set up the following apparatus at a temperature of 25°C and at pH 7.
+10cm³ of a human
+enzyme solution added
+15 minutes later
+cloudy cloudy clear
+protein solution
+What could the student change so that it would take less than 15 minutes for the solution to
+become clear?
+A Carry out the experiment at pH 7, but increase the temperature to 70°C.
+B Carry out the experiment, stirring the mixture once every 30 seconds.
+C Carry out the experiment at a temperature of 25°C and a pH of 13.
+D Double the volume of both the protein solution and the enzyme solution.
+E Halve the volume of both the protein solution and the enzyme solution.
+© UCLES 2016 [Turn over
+48
+PART D Biology
+61 The diagram shows the apparatus used by a student to carry out an investigation into the rate
+of photosynthesis in pondweed.
+scale
+light source
+gas bubble water in
+capillary tube
+clamp
+small gas
+bubbles
+Canadian
+pondweed
+water
+The student measured the distance the gas bubble moved along the capillary tube in 3 minutes
+as 16mm. The student calculated the volume of gas produced using the distance moved and
+the diameter of the capillary tube which was 1.0mm. After 3 minutes the rate of gas production
+is reduced.
+Which row represents the correct statements for this experiment?
+volume of gas reason for reduction in rate of
+produced / mm3 gas production after 3 minutes
+A 4π all enzyme active sites are
+occupied
+B 4π carbon dioxide concentration is
+too low
+C 16π carbon dioxide concentration is
+too low
+D 16π photosynthesis enzymes
+denatured
+E 16.5π carbon dioxide concentration is
+too low
+F 16.5π photosynthesis enzymes
+denatured
+G 34π all enzyme active sites are
+occupied
+H 34π photosynthesis enzymes
+denatured
+© UCLES 2016
+49
+PART D Biology
+62 A student used a light microscope at a magnification of 40x to observe a slide of a stained non-
+dividing tissue. In the cells of this tissue, the student noted the presence of a large central
+vacuole and cytoplasm containing a single, stained, round structure.
+Which of the following structures, if any, might the student also have seen in this tissue at this
+magnification?
+1 cell wall
+2 mitochondria
+3 chromosomes
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+© UCLES 2016 [Turn over
+50
+PART D Biology
+63 The diagram shows the tip of a plant shoot, with two areas labelled P and Q.
+Q
+P
+A student wrote the following statements to explain the growth of this shoot:
+1 Cells at P are smaller than the cells at Q.
+2 Concentration of plant hormone is higher at Q than P.
+3 Unidirectional light has caused a change in the concentration of plant hormone at P.
+Which of the student’s statements, if any, could be correct?
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+© UCLES 2016
+51
+PART D Biology
+64 In an investigation, a molecule of DNA was extracted and separated into its single strands
+1 and 2. The percentage of each base present in each strand was found.
+The table shows some of the results for strand 1.
+DNA base present (%)
+sample adenine [A] cytosine [C] guanine [G] thymine [T]
+strand 1 26 ? 28 14
+P, Q, R and S are the percentages of each base in the complementary strand 2.
+DNA base present (%)
+sample adenine [A] cytosine [C] guanine [G] thymine [T]
+strand 2 P Q R S
+A student calculates the following percentages for P, Q, R and S:
+P 14%
+Q 28%
+R 26%
+S 28%
+Which of the percentages is/are correct?
+A P only
+B Q only
+C R only
+D S only
+E P and Q only
+F R and S only
+© UCLES 2016 [Turn over
+52
+PART D Biology
+65 Cystic fibrosis is a condition of the respiratory system caused by abnormal ion transport in the
+lungs. It is a recessive genetic condition.
+A female carrier has a child with a male who is also a carrier. What are the probabilities of the
+child having the characteristics described in the table below?
+probability that the probability that the
+child is a male with child is a female who does
+cystic fibrosis not have cystic fibrosis but
+carries the recessive allele
+A 1 1
+4 8
+B 1 1
+4 4
+C 1 1
+4 2
+D 1 1
+6 8
+E 1 1
+6 4
+F 1 1
+6 2
+G 1 1
+8 4
+H 1 1
+8 2
+© UCLES 2016
+53
+PART D Biology
+66 Organisms interact with each other in many different ways, for example:
+1 a tapeworm absorbing nutrients from a sheep intestine
+2 a bacterial cell breaking down undigested food in a human gut
+3 a leopard and a lion hunting an antelope
+4 male deer fighting with each other to gain a mate
+5 oak trees growing close to each other in a wood
+Which of the statements is/are an example of intraspecific competition?
+A 1 only
+B 2 only
+C 4 only
+D 2 and 3 only
+E 4 and 5 only
+F 1, 2 and 5 only
+G 1, 3 and 4 only
+67 A diploid cell from a type of fly that contains 8 chromosomes, divides to form sperm cells.
+Which row is correct for the number of strands of DNA in each sperm cell and the number of
+sperm cells produced?
+number of strands of number of sperm
+DNA in each sperm cell cells produced
+A 4 2
+B 4 4
+C 8 2
+D 8 4
+E 16 2
+F 16 4
+© UCLES 2016 [Turn over
+54
+PART D Biology
+68 A healthy human is running a race over a distance of 1500 metres as fast as possible.
+Which row shows molecules that would be in a higher concentration in a vein carrying blood
+away from an actively contracting leg muscle of the runner compared to an artery carrying
+blood to the capillaries in the muscle?
+Key
+(cid:51) higher
+X not higher
+glucose carbon dioxide lactic acid
+A (cid:51) (cid:51) (cid:51)
+B X (cid:51) (cid:51)
+C X X (cid:51)
+D X X X
+E (cid:51) (cid:51) X
+F (cid:51) X X
+G X (cid:51) X
+© UCLES 2016
+55
+PART D Biology
+69 The sex of species Q is controlled by two chromosomes X and Y.
+The sex of females of species Q is controlled by inheriting the same combination of sex
+chromosomes as healthy male humans. The sex of males in species Q is inherited in the same
+way as healthy female humans.
+The family tree for one population of species Q is shown.
+Key:
+female
+male
+What is the ratio in its simplest form of males to females and the total number of Y
+chromosomes in this family tree?
+total number of Y
+ratio
+chromosomes
+A 1:0.5 9
+B 1.8:1 9
+C 5:9 5
+D 5:9 9
+E 9:5 9
+F 9:5 19
+G 1:2 19
+© UCLES 2016 [Turn over
+56
+PART D Biology
+70 The graph shows how a number of factors vary with the distance down a river, after a source of
+pollution flowed in.
+(Assume the oxygen concentration is changing only based on the species present in the river.)
+oxygen
+1
+quantities
+2 5 fish
+3
+4
+algae
+bacteria
+distance downstream
+point at which
+pollution flowed
+into the river
+Which one of the statements below can be correctly concluded from the graph?
+A At point 1, the oxygen concentration is decreasing because of increased anaerobic
+respiration.
+B At point 2, the oxygen concentration is decreasing because high numbers of algae are
+photosynthesising.
+C At point 3, the oxygen concentration is decreasing because bacteria are using up more
+oxygen than the algae are producing.
+D At point 4, the number of bloodworms and sludgeworms will be lowest because they lack
+oxygen.
+E At point 5, fish numbers increase because there is less competition with algae for oxygen.
+© UCLES 2016
+57
+PART D Biology
+71 The graph shows the effect of increasing the substrate concentration on an enzyme-controlled
+reaction when all the other variables were kept constant.
+0
+10 concentration of substrate 20
+/ arbitrary units
+Which of the following labels, if any, could be correct for the y-axis?
+1 rate of substrate loss/mg min–1
+2 rate of enzyme-substrate complex formation/number of complexes s–1
+3 rate of product formed per enzyme molecule/mg min–1
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+© UCLES 2016 [Turn over
+58
+PART D Biology
+72 The table shows the DNA base triplet codes that are valid for this question and the amino acids
+that they code for.
+DNA base triplet amino acid
+CGT arginine
+CGC arginine
+CGA arginine
+CGG arginine
+CTG leucine
+CCG proline
+CAG glutamine
+CAT histidine
+AGT serine
+Consider the part of the DNA sequence shown:
+→
+… CGC AGT …
+Two mutations will occur in the DNA sequence. The initial mutation is an insertion of an
+additional base between the first and second bases in the sequence. The second mutation,
+which takes place some time after the first mutation, is a deletion that removes one base from
+the sequence.
+Assuming that this DNA sequence is part of a longer sequence coding for a protein, and that
+no other mutations are occurring, what are the probabilities of the following?
+probability that probability that
+after the first mutation, the first after the second mutation, both
+triplet in this sequence does of the triplets in this sequence
+not code for arginine code for arginine
+A 1 1
+4 28
+B 1 1
+4 24
+C 1 11
+4 28
+D 1 10
+4 24
+E 3 1
+4 28
+F 3 1
+4 24
+G 3 11
+4 28
+H 3 10
+4 24
+© UCLES 2016
+59
+PART E Advanced Mathematics and Advanced Physics
+PART E Advanced Mathematics and Advanced Physics
+NOTE: questions in this part that are not covered by the ESAT
+content specification are indicated by a cross through the
+question number.
+© UCLES 2016 [Turn over
+60
+PART E Advanced Mathematics and Advanced Physics
+73 When x=2 is substituted in the expression x3 + px2 +qx+ p2 the result is 0.
+When x=1 is substituted into the same expression, the result is −3.5.
+Find all possible value(s) of p.
+6
+A p=−1±
+3
+B p = 1 or p = −3
+C p = 1
+D p =1± 7
+E there are no values for p
+© UCLES 2016
+61
+PART E Advanced Mathematics and Advanced Physics
+74 A parachutist is falling at terminal speed with his parachute open. The diagrams show,
+separately, the vertical forces acting on the parachute and the vertical forces acting on the
+parachutist.
+The letters L, M, N, P, Q and R represent the magnitude of each force as indicated.
+air resistance on parachute (L)
+force from air resistance on
+parachute (P) parachutist (Q)
+weight of parachutist (R)
+weight of force from
+parachute (M) parachutist (N)
+Consider the following equations:
+Equation 1: L = M +N
+Equation 2: R = P+Q
+Equation 3: L = Q
+Equation 4: N = P
+Equation 5: M + R = L +Q
+Which of these equations, if any, is/are the direct result of the application of Newton’s Third
+Law to this situation?
+A none of them
+B 3 only
+C 4 only
+D 5 only
+E 1 and 2 only
+F 3 and 4 only
+G 1, 2 and 5 only
+H 1, 2, 3, 4 and 5
+© UCLES 2016 [Turn over
+62
+PART E Advanced Mathematics and Advanced Physics
+75 A square PQRS is drawn above the x-axis with the side PQ on the x-axis.
+P is the point (−5, 0) and Q is the point (1, 0).
+A circle is drawn inside the square with diameter equal in length to the side of the square.
+Which one of the following is an equation of the circle?
+A x2 + y2 −4x+6y+4=0
+B x2 + y2 −4x+6y+9=0
+C x2 + y2 +4x−6y+4=0
+D x2 + y2 +4x−6y+9=0
+E x2 + y2 −6x−4y+9=0
+F x2 + y2 −6x+4y+4=0
+G x2 + y2 +6x−4y+4=0
+H x2 + y2 +6x+4y+9=0
+© UCLES 2016
+63
+PART E Advanced Mathematics and Advanced Physics
+76 A shopper pushes a supermarket trolley a distance of 15m in a straight line across a level,
+horizontal surface. The shopper applies a constant force of 50N at an angle of 37° below the
+horizontal. The total weight of the trolley and its contents is 350N.
+[diagram not to scale]
+37o
+50N
+CEREAL
+What is the magnitude of the total vertical force that the surface exerts on the trolley and how
+much work is done by the pushing force?
+(You may use the approximations sin37° = 0.60; cos37° = 0.80.)
+vertical force /N work done /J
+A 380 600
+B 380 750
+C 390 450
+D 390 750
+E 400 450
+F 400 600
+© UCLES 2016 [Turn over
+64
+PART E Advanced Mathematics and Advanced Physics
+77 The first term of a convergent geometric series is 8.
+The fifth term is 2.
+The sixth term is real and positive.
+What is the sum to infinity of this series?
+a
+(The sum to infinity of a convergent geometric series is given by , where a is the first term
+1−r
+and r is the common ratio.)
+( )
+A 81+ 2
+( )
+B 81− 2
+( )
+C 82+ 2
+( )
+D 82− 2
+E 16
+85 4
+F
+5 4 −1
+85 4
+G
+5 4 +1
+© UCLES 2016
+65
+PART E Advanced Mathematics and Advanced Physics
+78 A plank of non-uniform density which has a mass of 15kg is used to make a see-saw. A pivot is
+placed under the centre of the plank as shown on the diagram.
+0.80m 1.20m
+[diagram not to scale]
+pivot
+A boy of mass 35kg sits at one end of the plank with his centre of gravity 1.20m from the pivot.
+The see-saw balances when a woman of mass 60kg sits on the plank on the other side of the
+pivot. Her centre of gravity is 0.80m from the pivot.
+Where is the centre of gravity of the plank and what is the magnitude of the force between the
+pivot and the plank?
+(The gravitational field strength g is 10Nkg–1.)
+distance from pivot force / N
+A 0.40m on left of pivot 100
+B 0.40m on left of pivot 1100
+C at the pivot 100
+D at the pivot 1100
+E 0.20m on right of pivot 100
+F 0.20m on right of pivot 1100
+G 0.40m on right of pivot 100
+H 0.40m on right of pivot 1100
+© UCLES 2016 [Turn over
+66
+PART E Advanced Mathematics and Advanced Physics
+79 Tangents are drawn from a point P to a circle of radius 10cm.
+The centre of the circle is C and the distance PC is 20cm.
+[diagram not to scale]
+P .C
+Which one of the following is an expression for the shaded area in square centimetres?
+( )
+A 100 3 3 −π
+3
+( )
+B 100 3 5 −π
+3
+( )
+C 50 6 3−π
+3
+( )
+D 50 6 5−π
+3
+( )
+E
+50 3−2π
+3
+( )
+F 50 2π− 3
+3
+© UCLES 2016
+67
+PART E Advanced Mathematics and Advanced Physics
+80 A car of mass 200kg on a fairground ride travels at a speed of 5.0ms–1 at point X. The car is
+allowed to move down a sloping section of track without any energy input. The heights above
+the ground of points X and Y are shown. When the car reaches point Y its speed is 9.0ms–1.
+5.0m s–1
+car
+[diagram not to scale]
+X
+8.0m
+Y
+2.0m
+How much energy is transferred in overcoming resistive forces as the car travels from X to Y?
+(The gravitational field strength g is 10Nkg–1.)
+A 3900J
+B 6400J
+C 7900J
+D 10400J
+E 11200J
+81 Given that 7cos θ−3tan θsin θ =1,which one of the following is true?
+A cos θ =−3 or − 1
+5 2
+B cos θ
+=−3
+or
+1
+5 2
+C cos θ = 3 or 1
+5 2
+D cos θ = 3 or − 1
+5 2
+© UCLES 2016 [Turn over
+68
+PART E Advanced Mathematics and Advanced Physics
+82 The diagram shows a uniform, solid, heavy cube with side d. The cube rests with one of its
+edges in contact with a table that is perfectly level. A horizontal force P acts on another edge of
+the cube, and the cube is stationary.
+[diagram not to scale]
+P
+d
+30o
+Below are four statements about the forces on the cube.
+1 It is possible that there is no frictional force between the cube and the table.
+2 There must be a frictional force acting to the left between the cube and the table.
+3 There must be a frictional force acting to the right between the cube and the table.
+4 Force P has a clockwise moment about the edge in contact with the table equal to
+×
+P d.
+Which of the statements is/are correct?
+A 1 only
+B 2 only
+C 3 only
+D 1 and 4 only
+E 2 and 4 only
+F 3 and 4 only
+© UCLES 2016
+69
+PART E Advanced Mathematics and Advanced Physics
+( )
+83 The complete set of values of a for which the equation 3x2 = a+2 x−3 has two real distinct
+roots is
+A no values of a
+B −4 2 <a<4 2
+C a<−4 2, a>4 2
+D
+−4<a<8
+E
+a<−4, a>8
+F −8<a<4
+G
+a<−8, a>4
+H all values of a
+84 An object is fired vertically upwards from the ground at time t = 0s in still air at a speed of
+8.0ms–1.
+On the way up, what is the height of the object above the ground when it has a speed of
+2.0ms–1, and at what time does it reach this height on the way down?
+(The gravitational field strength g is 10Nkg–1. Air resistance can be ignored.)
+height / m time / s
+A 2.4 0.60
+B 2.4 0.64
+C 2.4 1.0
+D 2.4 2.0
+E 3.0 0.60
+F 3.0 0.64
+G 3.0 1.0
+H 3.0 2.0
+© UCLES 2016 [Turn over
+70
+PART E Advanced Mathematics and Advanced Physics
+85 The straight line with equation y =mx+3,where m>0, m≠1, is perpendicular to the line with
+equation y = px+2
+The lines cut the x-axis at the points L and M respectively. The length of LM is 5 units.
+What is the value of m+ p given that m>1?
+y
+[diagram not to scale]
+(0,3)
+(0,2)
+L M
+x
+5
+8
+A
+−
+3
+B
+−13
+6
+C
+−5
+6
+5
+D
+6
+13
+E
+6
+8
+F
+3
+© UCLES 2016
+71
+PART E Advanced Mathematics and Advanced Physics
+86 The diagram shows a ball P, of mass 4.0kg, moving to the right at 10ms–1 directly towards a
+stationary ball Q, of mass 2.0kg.
+10m/s
+stationary
+P Q
+2.0kg
+4.0kg
+The balls collide but do not join together. Immediately after the collision ball Q moves at
+10ms–1 to the right.
+What is the velocity of ball P immediately after the collision, and how much kinetic energy in
+total is lost during the collision?
+velocity of ball P after kinetic energy lost
+collision during collision / J
+A 0 50
+B 0 150
+C 10ms–1 to the left 50
+D 10ms–1 to the left 150
+E 5.0ms–1 to the right 50
+F 5.0ms–1 to the right 150
+87 f(x)= x3 −a2x where a is a positive constant.
+Find the complete set of values of x for which f(x) is an increasing function.
+A
+x≤−a, x≥a
+B
+−a≤ x≤a
+C
+x≤−a, 0≤ x≤a
+D
+−a≤ x≤0, x≥a
+a a
+E x≤− , x≥
+3 3
+a a
+F − ≤ x≤
+3 3
+a a
+G x≤− , x≥
+3 3
+a a
+H
+− ≤ x≤
+3 3
+© UCLES 2016 [Turn over
+72
+PART E Advanced Mathematics and Advanced Physics
+88 A point object of mass 2.0kg is at rest on a level, horizontal surface. The coefficient of friction
+between the object and the surface is 0.25.
+Two horizontal forces at right-angles to each other, with magnitudes 9.0N and 12.0N, are
+applied simultaneously to the object.
+What is the magnitude of the acceleration of the object as it begins to move?
+(The gravitational field strength g is 10Nkg–1.)
+A 5.0ms–2
+B 7.25ms–2
+C 7.5ms–2
+D 8.0ms–2
+E 10ms–2
+F 10.5ms–2
+89 The curve y = x2 is translated by the vector ⎜ ⎛4 ⎟ ⎞ and then reflected in the line y =−1
+⎝3⎠
+Which one of the following is an equation of the resulting curve?
+A y =−3−
+(
+x−4
+)
+2
+B y =−3+
+(
+x+4
+)
+2
+C y =3−
+(
+x+4
+)
+2
+D y =3+
+(
+x−4
+)
+2
+E y =−5−
+(
+x−4
+)
+2
+F y =−5+
+(
+x+4
+)
+2
+G y =5−
+(
+x+4
+)
+2
+H y =5+
+(
+x−4
+)
+2
+© UCLES 2016
+73
+PART E Advanced Mathematics and Advanced Physics
+90 An object of mass 20kg is pulled up a rough plane inclined at 30° to the horizontal by a light,
+inextensible cable attached via a frictionless pulley to a freely-falling 30kg mass. The
+acceleration of the object along the plane is 2.5ms–2.
+3
+cos30° = sin60° =
+2
+1 [diagram not to scale]
+sin30° = cos60° =
+2
+frictionless
+pulley
+20kg
+30kg
+30o
+What is the frictional force between the object and the plane?
+(Air resistance and the mass of the pulley can be ignored. The gravitational field strength g is
+10Nkg–1.)
+A 25N
+B 50N
+C 75N
+D 100N
+E 150N
+F 175N
+G 250N
+© UCLES 2016
+74
+BLANK PAGE
+© UCLES 2016
+75
+BLANK PAGE
+© UCLES 2016
+76
+BLANK PAGE
+© UCLES 2016

@@ -1,0 +1,504 @@
+{
+  "exam": "engaa",
+  "year": "2021",
+  "source": "official-pdf-auto-parse",
+  "paper1": [
+    {
+      "question": "Simplify fully 5xy2 × (5x2y)–3 × 5x2y where x and y are positive. 1 A 125x7y2 1 B 125x6y2 1 C 25x6y 1 D 25x4y 1 E 5x3 1 F 5x2 y G x2",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "Air is trapped in a cylinder by a piston. The density of the air in the cylinder is ρ. trapped air The piston is moved so that the pressure of the trapped air increases by 20%. The temperature of the trapped air does not change. What is the new density of the trapped air? (Assume that air is an ideal gas.)",
+      "answers": {
+        "a": "0.69ρ",
+        "b": "0.80ρ",
+        "c": "0.83ρ",
+        "d": "1.00ρ",
+        "e": "1.20ρ",
+        "f": "1.44ρ 5"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "Which of the following is a rearrangement of p 3 4 + = 2 q r so that q is the subject? 2r",
+      "answers": {
+        "a": "q= 24−3pr 3r",
+        "b": "q= 2r−p 6r",
+        "c": "q= 4−p 6r",
+        "d": "q= 8−pr r−2",
+        "e": "q= 12p 3r−6",
+        "f": "q= 4p pr−8",
+        "g": "q= 12p 3pr−24",
+        "h": "q= 4p 6"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "A non-ideal transformer has 100 turns on the primary coil and 25 turns on the secondary coil. It is provided with 3.0kW of electrical power at a current of 12.5A. The voltage output is the same as for an ideal transformer, but the current in the output coil is 40A. What is the efficiency of the transformer?",
+      "answers": {
+        "a": "20%",
+        "b": "25%",
+        "c": "31%",
+        "d": "69%",
+        "e": "75%",
+        "f": "80%",
+        "g": "91%",
+        "h": "100% 7"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "Two solid cylinders, P and Q, are shown, where x > y. Q P x y x y Cylinder P has diameter x and height y. Cylinder Q has diameter y and height x. What is the positive difference between the total surface areas of P and Q?",
+      "answers": {
+        "a": "0 π",
+        "b": "(x2 – y2) 4 π",
+        "c": "(x2 – y2) 2",
+        "d": "π(x2 – y2)",
+        "e": "2π(x2 – y2) π",
+        "f": "xy(x – y) 4",
+        "g": "πxy(x – y) 8"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "A light spring has an uncompressed length of 0.10m. When an object of mass 0.5kg rests in equilibrium on top of the spring, the length of the spring reduces to 0.08m as shown. 0.10m 0.08m What is the energy stored in the spring due to the compression? (gravitational field strength = 10Nkg–1; the spring obeys Hooke’s law)",
+      "answers": {
+        "a": "0.005J",
+        "b": "0.02J",
+        "c": "0.05J",
+        "d": "0.1J",
+        "e": "0.2J",
+        "f": "0.4J"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "The price of item P is reduced by 10%. The next day, the new price is increased by 10%. The price of item Q is increased by 10%. The next day, the new price is reduced by 10%. How does the final price of each item compare to the original price of that item? item P final price item Q final price",
+      "answers": {
+        "a": "lower than original lower than original",
+        "b": "lower than original higher than original",
+        "c": "higher than original lower than original",
+        "d": "higher than original higher than original",
+        "e": "the same as original the same as original 9"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "A set of decorative lights consists of 20 lamps connected in series to a dc supply of constant voltage. The total power transferred by all the lamps is P. The set is designed so that if one of the lamps fails, that lamp becomes short-circuited and it then has zero resistance. The remaining lamps are still lit. If this happens, with the set connected to the same supply, what is the new total power transferred by the remaining 19 lamps? (Assume that the resistance of each functioning lamp remains constant.) ⎛19⎞ 2",
+      "answers": {
+        "a": "⎜ ⎟ P ⎝20⎠ ⎛19⎞",
+        "b": "⎜ ⎟P ⎝20⎠",
+        "c": "P ⎛20⎞",
+        "d": "⎜ ⎟P ⎝19⎠ ⎛20⎞ 2",
+        "e": "⎜ ⎟ P ⎝19⎠ 10"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "S R 8cm 8cm P T Q 4cm [diagram not to scale] SQT is a right-angled triangle with the right angle at Q. : : The point R is on SQ such that SR RQ = 1 3 QRP is a right-angled triangle with the right angle at Q. PR = ST = 8cm QT = 4cm What is the length of PQ, in cm?",
+      "answers": {
+        "a": "2 3",
+        "b": "4 3",
+        "c": "19",
+        "d": "37",
+        "e": "55",
+        "f": "61 11"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "A train accelerates from rest along a straight, horizontal section of track. The force exerted on the train due to its motors is constant and there is a constant friction force of 1.8 ×107N. The graph shows how the momentum of the train changes with time. 14 momentum /106kgms–1 12 10 8 6 4 2 0 0 1 2 3 4 time /s What is the force exerted on the train due to its motors?",
+      "answers": {
+        "a": "3.0 ×106N",
+        "b": "6.0 ×106N",
+        "c": "1.2 ×107N",
+        "d": "1.5 ×107N",
+        "e": "2.1 ×107N",
+        "f": "2.4 ×107N",
+        "g": "3.0 ×107N",
+        "h": "4.2 ×107N 12"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "The curve with equation y = x2 – 4x + 5 meets the straight line with equation y = 2x + c at two points, which have x-coordinates p and q, where q > p. Given that q – p = 8, what is the value of the constant c?",
+      "answers": {
+        "a": "–43",
+        "b": "–12",
+        "c": "–2",
+        "d": "0",
+        "e": "2",
+        "f": "12",
+        "g": "43"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "A ship travels into a wave that is travelling in the opposite direction to the ship. The ship has a horizontal speed of 8.0ms–1. The speed of the wave is 3.0ms–1. The front of the ship rises and falls with a time period of 8.0s. What is the wavelength of the wave? 3",
+      "answers": {
+        "a": "m 8 5",
+        "b": "m 8",
+        "c": "1.0m 11",
+        "d": "m 8",
+        "e": "24m",
+        "f": "40m",
+        "g": "64m",
+        "h": "88m"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "h"
+    },
+    {
+      "question": "13 13 Given that sin60°−1 y = cos60° what is the value of y3? 3",
+      "answers": {
+        "a": "− 9",
+        "b": "−5 2+10",
+        "c": "3 3−8",
+        "d": "6 3−10",
+        "e": "14 2−20",
+        "f": "15 3−26",
+        "g": "21 3−38"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "14 14 A 6.0V battery is connected to an 8.0Ω resistor and a filament lamp as shown in the circuit diagram. 6.0V 8.0Ω A The reading on the ammeter is 0.25A. Which graph is a possible V–I graph for the filament lamp?",
+      "answers": {
+        "a": "V /V B V /V 2.0 4.0 0 0 0 0.25 0 0.25 I /A I /A",
+        "c": "V /V D V /V 2.0 6.0 0 0 0 0.25 0 0.25 I /A I /A",
+        "e": "V /V F V /V 4.0 6.0 0 0 0 0.25 0 0.25 I /A I /A"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "15 15 Charlie has a bowl containing red sweets and green sweets only. The sweets are identical in all respects except colour. There are nine sweets in total in the bowl. Charlie eats two sweets from the bowl at random. 5 The probability of Charlie not eating any green sweets is 12 What is the probability that Charlie eats two green sweets? 2 A 27 1 B 12 1 C 9 4 D 27 1 E 6 1 F 4 7 G 12",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "16 16 A radioactive nuclide X decays in a single stage to a stable nuclide R.",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "17 B 20 31 C 28 6 D 5 5 E 4",
+      "answers": {
+        "f": "102",
+        "a": "similar cuboid has all its lengths exactly half the lengths of the original cuboid. The sides of this smaller cuboid are 2cm, 3cm and xcm. What is the value of x, in cm? 5 A 2",
+        "b": "5 5 2 C 2",
+        "d": "5 2 102 E 2"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "18 18 A beaker containing 180g of water at 25°C has a 20g ice cube at 0°C added to it. No heat is transferred between the water and the surroundings (including the beaker). What is the final temperature of all the water in the beaker after all the ice has melted? (Take the specific heat capacity of water to be 4Jg–1°C–1 and the specific latent heat of fusion of water to be 300Jg–1.)",
+      "answers": {
+        "a": "2.5°C",
+        "b": "8.3°C",
+        "c": "10.0°C",
+        "d": "15.0°C",
+        "e": "16.7°C",
+        "f": "22.5°C"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "19 19 A car journey is m miles long. One kilometre is equivalent to x miles. The car uses one litre of fuel to travel a distance of f kilometres. Fuel for the car costs p pence per litre. Which of the following expressions gives the cost of fuel for this journey, in pounds? (There are 100 pence in one pound.)",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "h"
+    },
+    {
+      "question": "20 20 A pulse of ultrasound travels from one end of a solid uniform rod of length L, starting at time t = 0. The pulse is partially reflected by a crack in the rod and partially by the far end of the rod. These two reflected pulses travel back along the rod, arriving at the end from which they started at times t and t , where t > t . 1 2 2 1 What is the distance between the crack and the far end of the rod? t",
+      "answers": {
+        "a": "1 L t 2 t",
+        "b": "2 L t 1 t",
+        "c": "1 L 2t 2 t",
+        "d": "2 L 2t 1 (t − t )",
+        "e": "2 1 L t 2 (t − t )",
+        "f": "2 1 L 2t 2"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    }
+  ],
+  "paper2": [
+    {
+      "question": "21 BLANK PAGE",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "22 PART B Advanced Mathematics and Advanced Physics NOTE: questions in this part that are not covered by the ESAT content specification are indicated by a cross through the question number.",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "g"
+    },
+    {
+      "question": "23 21 Given that ⎛ 1 ⎞ 2 y = ⎜2 x − ⎟ ⎝ 2 x ⎠ dy 1 find the value of when x = dx 2",
+      "answers": {
+        "a": "4.5ms–2",
+        "b": "6.0ms–2",
+        "c": "8.0ms–2",
+        "e": "4.5 3 ms–2",
+        "d": "16ms–2",
+        "f": "6.0 3 ms–2",
+        "g": "8.0 3 ms–2",
+        "h": "16 3ms–2"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "g"
+    },
+    {
+      "question": "24 23 A particular arithmetic series has first term a and common difference d. The sum of the first k terms of this series is denoted by S k Which of the following is a simplification of S – S ? n+1 n–1",
+      "answers": {
+        "a": "d",
+        "b": "2d",
+        "c": "2a + d",
+        "d": "2a + 2d",
+        "e": "2a + nd",
+        "f": "2a + 2nd",
+        "g": "2a + (2n – 1)d",
+        "h": "2a + (4n – 2)d"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "25 24 A sound wave is travelling from left to right in air. The diagram represents the wave at a particular instant, and a distance of 33cm is labelled. P 33cm The speed of sound in air is 330ms–1. What is the frequency of the sound and in which direction has the air at P been displaced from its mean position? frequency of sound /Hz displacement of air at P",
+      "answers": {
+        "a": "0",
+        "b": "1",
+        "c": "2",
+        "d": "3",
+        "e": "4",
+        "f": "5000 to the right 25 Find how many distinct real solutions there are to the equation (x2 + 4x + 3)2 = 1"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "26 26 A resistor R is connected between terminals X and Y in the circuit shown. 30V dc supply X 4.0Ω Y 8.0Ω The power transferred in the 4.0Ω heater is 9.0W. What is the resistance of R?",
+      "answers": {
+        "a": "1.6Ω",
+        "b": "2.0Ω",
+        "c": "2.67Ω",
+        "d": "4.0Ω",
+        "e": "8.0Ω"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "27 27 The line x = 1 divides the circle x2 + y2 = 4 into two segments. What is the area of the smaller segment? 2π 3",
+      "answers": {
+        "a": "− 3 2 2π",
+        "b": "− 3 3 π 1",
+        "c": "− 2 2 π",
+        "d": "−1 2 1",
+        "e": "π− 2",
+        "f": "π−1 4π 3",
+        "g": "− 3 2 4π",
+        "h": "− 3 3"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "h"
+    },
+    {
+      "question": "28 28 A uniform plank of length 5.0m rests horizontally as shown. 75N cable 1.0m 60° plank pivot [diagram not to scale] There is a pivot 1.0m from one end of the plank.",
+      "answers": {
+        "a": "60N",
+        "b": "60 3 N",
+        "c": "100N",
+        "d": "100 3N",
+        "e": "125N",
+        "f": "125 3N"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "29 29 What is the mean of log 27, log 64, and log 216? 10 10 10 log 307",
+      "answers": {
+        "a": "10 3 log 81",
+        "b": "10 3 log 612",
+        "c": "10 3",
+        "d": "log 64 10",
+        "e": "log 72 10",
+        "f": "log 108 10"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "A lorry accelerates along a straight, horizontal road with uniform acceleration. Oil droplets from the lorry fall a small distance onto the road at a constant rate. The time interval between successive drips is t. The diagram shows four successive oil droplets on the road after the lorry has passed. x y The distance between the first two of these droplets is x and the distance between the final two is y. Which expression gives the acceleration of the lorry? y−x A 3t2 y−x B 2t2 y−x C t2 2(y−x) D t2 y+x E t2 y+x F 3t2 30",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "Which of the following is the largest in value? (All angles are in radians.)",
+      "answers": {
+        "a": "cos0.5",
+        "b": "cos0.75",
+        "c": "cos1",
+        "d": "sin0.5",
+        "e": "sin0.75",
+        "f": "sin1"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "A light, metal wire of length 2.5m and cross-sectional area 1.8 ×10–6m2 is suspended vertically. A mass of 7.2kg is attached to the lower end of the wire. The wire extends by 0.50mm. What is the Young modulus of the metal and how much energy is stored in the extended wire? (gravitational field strength = 10Nkg–1; assume that the wire obeys Hooke’s law and that changes in the cross-sectional area are negligible) Young modulus /Pa energy stored /J",
+      "answers": {
+        "a": "5.0 ×10–12 0.018",
+        "b": "5.0 ×10–12 0.036",
+        "c": "2.0 ×1011 0.018",
+        "d": "2.0 ×1011 0.036",
+        "e": "2.0 ×1014 18",
+        "f": "2.0 ×1014 36 31"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "A geometric progression has first term u = a and common ratio r. 1 8 The sum to infinity of the geometric progression is 5 3 The sum to infinity of the even-numbered terms (u + u + u + L) is 2 4 6 5 What is the value of a + r? 3 A 5 31 B 25 23 C 5 28 D 5 67 E 8",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "A child of mass 30kg is on a sledge of mass 10kg which is moving down a smooth slope at an instantaneous speed of 4.0ms–1. At this instant, the child jumps backwards off the sledge and lands stationary on the slope. What is the speed of the sledge immediately after the child jumps off?",
+      "answers": {
+        "a": "4.0ms–1",
+        "b": "8.0ms–1",
+        "c": "12ms–1",
+        "d": "16ms–1",
+        "e": "20ms–1 32"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "At how many distinct points do the following two curves meet? y = (x – 4)(x2 – 2x – 8) y = –x2 + 8x – 16",
+      "answers": {
+        "a": "0",
+        "b": "1",
+        "c": "2",
+        "d": "3",
+        "e": "4",
+        "f": "5"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "A piece of electrically conducting putty is formed into the shape of a uniform cylinder. The resistance between the ends of the cylinder is R. The same piece of putty is now formed into a new uniform cylinder with half the diameter of the first cylinder. What is the resistance between the ends of the new cylinder?",
+      "answers": {
+        "a": "2R",
+        "b": "2 2R",
+        "c": "4 2R",
+        "d": "2R",
+        "e": "4R",
+        "f": "8R",
+        "g": "16R 33"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "g"
+    },
+    {
+      "question": "Evaluate 3 3 3 3 + + + L + 27 + 21 24 + 18 21+ 15 9 + 3 3 2 A 2",
+      "answers": {
+        "b": "3 2 3 3 C 2",
+        "d": "3",
+        "e": "1+ 2 ( )",
+        "f": "3 1+ 2 3 ⎛ 2⎞",
+        "g": "⎜1+ ⎟ ⎜ ⎟ 3 2 ⎝ ⎠ ⎛ 2⎞",
+        "h": "3 ⎜1+ ⎟ ⎜ ⎟ 2 ⎝ ⎠"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "h"
+    },
+    {
+      "question": "A car accelerates from rest in a straight line. During the first 10s, its acceleration, a, in ms–2 is given by the equation a = 4.0 – 0.36t where t is the time in seconds. What is its displacement from its original position after 10s?",
+      "answers": {
+        "a": "22m",
+        "b": "110m",
+        "c": "136m",
+        "d": "140m",
+        "e": "220m",
+        "f": "1100m",
+        "g": "1360m",
+        "h": "1400m 34"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "x = 15 y y = √x S R 0 P Q 0 x PQRS is a rectangle. P and Q lie on the x-axis. Q and R lie on the line x = 15 S lies on the curve y = x What is the maximum possible area of the rectangle?",
+      "answers": {
+        "a": "5 5",
+        "b": "10 5",
+        "c": "50",
+        "d": "25 5",
+        "e": "100",
+        "f": "125 35"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "Two trolleys are free to move on a smooth one-dimensional track. A light spring is compressed between the two stationary trolleys, the trolleys are released and then separate. The trolleys have masses m and 4m and the work done by the spring as it expands is W. Assume that no work is done against frictional forces. What is the difference in kinetic energy between the two trolleys when the spring has expanded?",
+      "answers": {
+        "a": "0 W B 5 W C 4 W D 2 3W E 5 3W F 4 4W G 5",
+        "h": "W END OF TEST 36 BLANK PAGE 37 BLANK PAGE 38 BLANK PAGE 39 40"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    }
+  ]
+}

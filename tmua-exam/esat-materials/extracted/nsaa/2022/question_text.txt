@@ -1,0 +1,1631 @@
+(cid:6)(cid:21)(cid:18)(cid:15)(cid:14)(cid:20)(cid:13)(cid:20)(cid:17)(cid:12)(cid:13)(cid:6)
+NATURAL SCIENCES D568/11
+ADMISSIONS ASSESSMENT
+2022 60 minutes
+SECTION 1
+INSTRUCTIONS TO CANDIDATES
+Please read these instructions carefully, but do not open this question paper until you are
+told that you may do so. This paper is Section 1 of 2.
+A separate answer sheet is provided for this paper. Please check you have one. You also
+require a soft pencil and an eraser.
+Please complete the answer sheet with your candidate number, centre number, date of birth,
+and name.
+At the end of 60 minutes, your supervisor will collect this question paper and answer sheet
+before giving out Section 2.
+This paper contains four parts: A, B, C and D.
+All candidates should complete Part A Mathematics.
+All candidates should then complete one further part chosen from:
+Part B Physics
+Part C Chemistry
+Part D Biology
+Each part has 20 multiple-choice questions. There are no penalties for incorrect responses, only
+marks for correct answers, so you should attempt all of the questions in your two parts. Each
+question is worth one mark.
+For each question, choose the one option you consider correct and record your choice on the
+separate answer sheet. If you make a mistake, erase thoroughly and try again.
+You must complete the answer sheet within the time limit.
+You can use the question paper for rough working, but no extra paper is allowed. Only your
+responses on the answer sheet will be marked.
+Dictionaries and calculators are NOT permitted.
+Please wait to be told you may begin before turning this page.
+This question paper consists of 65 printed pages and 3 blank pages.
+© Cambridge University Press & Assessment 2022 PV8
+BLANK PAGE
+2
+Paper content
+PART A Mathematics ............................................................................................................................. 5
+PART B Physics ................................................................................................................................... 19
+PART C Chemistry ............................................................................................................................... 35
+PART D Biology ................................................................................................................................... 49
+3
+BLANK PAGE
+4
+PART A Mathematics
+PART A Mathematics
+5
+PART A Mathematics
+1 Which one of the following is a simplification of
+(cid:167) 1 (cid:183) 2
+(cid:168)3x2z(cid:184)
+y
+(cid:168) (cid:184)
+y3
+(cid:168) (cid:184)
+(cid:169) (cid:185)
+3xz2
+A
+y4
+3xz2
+B
+y5
+1
+9x2z2
+C
+y5
+9xz2
+D
+y4
+9xz2
+E
+y5
+5
+9x2z2
+F
+y5
+2 Triangle PQR has a right angle at Q.
+1
+The point T lies on QR such that QT = QR
+4
+PT = 6cm
+PR = 12cm
+What is the length of QT, in cm?
+A 2
+B 2 3
+3
+C 2
+2
+6
+D 5
+5
+2
+E 21
+7
+6
+PART A Mathematics
+3 Find the complete set of values of x that satisfy the inequality
+3 1
+(5 – x) – (6 – x) – x < 0
+4 2
+1
+A x <
+3
+1
+B x >
+3
+3
+C x <
+5
+3
+D x >
+5
+3
+E x <
+4
+3
+F x >
+4
+3
+G x <
+2
+3
+H x >
+2
+4 I have two fair dice, X and Y, each of which has six sides.
+The faces on X are labelled 1, 1, 2, 3, 4, 5.
+The faces on Y are labelled 2, 3, 4, 5, 6, 6.
+I roll the dice together and calculate my total score by adding the number rolled on X to the
+number rolled on Y.
+What is the probability that my total score is greater than 9?
+1
+A
+4
+1
+B
+6
+1
+C
+9
+5
+D
+12
+5
+E
+36
+7
+PART A Mathematics
+5 Rob keeps a record of what he earns each day.
+On Monday, he earned 50% less than he earned on Sunday.
+On Tuesday, he earned 20% more than he earned on Monday.
+On Wednesday, he earned 30% less than he earned on Tuesday.
+On Wednesday, he earned £84.
+How much did Rob earn on Sunday?
+A £15.12
+B £35.28
+C £117.60
+D £200
+E £210
+F £300
+G £1200
+6 The nth term of a sequence T is (n – 3)2, where n is a positive integer.
+The nth term of another sequence V is 3n + p, where p is a constant and n is a positive integer.
+The 10th term in T is equal to twice the 5th term in V.
+What is the 4th term in V?
+A –16
+B 4
+C 16.5
+D 21.5
+E 31
+F 46
+G 95
+8
+PART A Mathematics
+7 Which one of the following is a simplification of
+5x2 −17x −12 x2 + x −12
+÷
+25x2 −9 x2 − x − 6
+(x−4)(x+2)
+A
+(x−3)(x+4)
+(x−3)(x+2)
+B
+(5x−3)(x+3)
+(x− 4)(x+
+2)
+C (5x− 3)(x+4)
+(x− 4)(x−
+3)
+D (5x− 3)(x−
+6)
+(x+2)
+E
+(5x+3)
+(x+ 4)(x−
+6)
+F (5x+ 3)(x+2)
+(x− 3)(x+
+2)
+G (5x+ 3)(x+
+3)
+8 S is a list of six numbers:
+1, 2, x, x + 1, x + 1, 15 where 2 (cid:148) x (cid:148) 14
+The mean of S is one more than the median of S.
+What is the value of x?
+2
+A 2
+3
+2
+B 3
+3
+2
+C 4
+3
+2
+D 5
+3
+2
+E 6
+3
+9
+PART A Mathematics
+9 A rectangle PQRS has length (2x – 1)cm and width (x + 1)cm as shown on the diagram.
+A larger rectangle is made by adding 3cm to both the length and the width of PQRS, as shown.
+The larger rectangle has an area of 360cm2.
+3cm
+Q R
+( x + 1)cm
+P S
+(2 x – 1)cm 3cm
+[diagram not to scale]
+What is the ratio of PQ to PS?
+A 1:2
+B 4:7
+C 5:8
+D 7:11
+E 10:17
+F 17:31
+10
+PART A Mathematics
+10 t is inversely proportional to the square of w.
+t and w are positive numbers.
+t = 36 when w = 2 ×10–2
+What is the value of w when t = 100?
+A 1.2 ×10–4
+B 1.2 ×10–2
+C 1.44 ×10–6
+D 1.44 ×10–3
+10
+E ×10–4
+3
+10
+F ×10–2
+3
+G 7.2 ×10–6
+H 7.2 ×10–3
+11
+PART A Mathematics
+11 PQRS is a trapezium as shown.
+Q R
+40m
+30°
+P S
+[diagram not to scale]
+5
+tan RSQ =
+8
+What is the length of PS, in metres?
+A 45
+B 65
+C 80
+D 120
+40 3
+E 25 +
+3
+64 3
+F 40+
+3
+G 25+ 40 3
+H 64+ 40 3
+12
+PART A Mathematics
+12 A cyclist rides along a track to the top of a hill then immediately turns around and descends
+along the same track to her starting point.
+She takes 40 minutes at an average speed of 12kmh–1 to reach the top.
+Her average speed for the whole journey is 15kmh–1.
+What is the average speed of her descent?
+A 16kmh–1
+B 18kmh–1
+C 20kmh–1
+D 24kmh–1
+E 30kmh–1
+13 A solid cylinder has radius rcm and height hcm.
+A cube has side length 3rcm.
+The total surface area of the cylinder is equal to four times the total surface area of the cube.
+Which of the following is an expression for h in terms of r?
+(cid:167)18 (cid:183)
+A (cid:168) − 2(cid:184) r
+(cid:169) (cid:652) (cid:185)
+(cid:167)18 (cid:183)
+B (cid:168) − 1(cid:184) r
+(cid:169) (cid:652) (cid:185)
+27r
+C
+(cid:652)
+(cid:167)27 (cid:183)
+D (cid:168) − 1(cid:184) r
+(cid:169) (cid:652) (cid:185)
+(cid:167)27 (cid:183)
+E (cid:168) − 1(cid:184) r
+(cid:169)4(cid:652) (cid:185)
+108r
+F
+(cid:652)
+(cid:167)108 (cid:183)
+G (cid:168) − 1(cid:184) r
+(cid:169) (cid:652) (cid:185)
+(cid:167)108 1(cid:183)
+H (cid:168) − (cid:184) r
+(cid:169) (cid:652) 2(cid:185)
+13
+PART A Mathematics
+14 Consider the equation 2x2 + 4x + c = 0, where c is a constant.
+The positive difference between the roots of this equation is 10 .
+What is the value of c?
+A –5
+B –4.5
+C –3
+D –0.5
+E 0.75
+F 8
+15 The variables x and y are related by the equation:
+2y3+1
+x = 5 −
+1− 2y3
+Which of the following is a rearrangement to make y the subject?
+x−4
+A y = 3
+8x−48
+x−6
+B y = 3
+8x−32
+x−2
+C y = 3
+x−6
+x−3
+D y = 3
+x−4
+x−4
+E y = 3
+2x−12
+x−6
+F y = 3
+2x−8
+14
+PART A Mathematics
+16 PQR is a triangle as shown.
+S and T are points on the sides PQ and PR.
+ST is parallel to QR.
+PS = 3cm
+ST = xcm
+QS = (x + 2)cm
+QR = (2x + 1)cm
+P
+3cm
+x
+cm
+S T
+(x + 2)cm
+Q R
+(2 x + 1)cm
+[diagram not to scale]
+What is the length, in cm, of QR?
+A 2 + 5
+B 2 + 13
+C 5 + 2 7
+D 5 + 2 11
+E 7
+F 9
+15
+PART A Mathematics
+17 Three different numbers are chosen at random from 1, 2, 3, 4 , 5.
+What is the probability that the three numbers form the three sides of a right-angled triangle?
+1
+A
+15
+1
+B
+10
+3
+C
+10
+1
+D
+3
+2
+E
+5
+2
+F
+3
+4
+G
+5
+18 P, Q and R are regular polygons.
+Q has three times as many sides as P.
+An interior angle of Q is 10° larger than an interior angle of P.
+R has twice as many sides as Q.
+How much larger is an interior angle of R than an interior angle of Q, in degrees?
+1
+A 2
+2
+B 5
+2
+C 6
+3
+1
+D 7
+2
+E 10
+F 15
+2
+G 16
+3
+16
+PART A Mathematics
+19 The point (–1,5) is translated to the point (3,2) by two successive translations.
+(cid:167) 3p (cid:183)
+The first translation is by the vector
+(cid:168)
+(cid:169)
+−4p (cid:184)
+(cid:185)
+(cid:167) q (cid:183)
+The second translation is by the vector
+(cid:168)
+(cid:169)
+−2q (cid:184)
+(cid:185)
+What is the value of p + q?
+A –14
+B –7
+C –5
+D –1
+E 1
+F 5
+G 7
+H 14
+20 Consider the graphs of the form
+y = x2 + 2ax + a
+What is the complete range of values of a for which the minimum point of the graph lies above
+the x-axis?
+A There are no values of a
+B a < 0
+C 0 < a < 1
+D –1 < a < 1
+E a < –1 or a > 1
+F a < 0 or a > 1
+G a can take any value
+17
+BLANK PAGE
+18
+PART B Physics
+PART B Physics
+19
+PART B Physics
+21 There is a constant current in a conducting wire. A charge of 20C passes through the wire in
+1.5 minutes.
+An 18cm straight section of this wire lies in a uniform magnetic field. This section of wire is
+perpendicular to the direction of the field. The magnetic field strength is 0.15T.
+What is the magnitude of the magnetic force on this section of wire?
+A 0.0060N
+B 0.36N
+C 0.60N
+D 0.81N
+E 36N
+F 49N
+G 81N
+H 4900N
+22 A rider on a rollercoaster moves very quickly towards a solid wall. While moving, the rider
+shouts, and hears an echo of the shout from the wall. The echo is quieter than the original
+shout.
+How do the amplitude and frequency of the echo heard by the rider compare to the amplitude
+and frequency of the original shout?
+amplitude frequency
+A lower lower
+B lower unchanged
+C lower higher
+D unchanged lower
+E unchanged higher
+F higher lower
+G higher unchanged
+H higher higher
+20
+PART B Physics
+23 The diagram shows a system consisting of two large copper tanks of water connected to each
+other by a solid cylindrical copper bar.
+tank 1 tank 2
+copper bar
+water water
+temperature T temperature T
+1 2
+The temperature of the water in tank 1 is T . The water in tank 2 is at a higher temperature T .
+1 2
+The following four statements list changes that can be made, independently, to the system.
+At all times T < T .
+1 2
+1 increase temperature T
+1
+2 increase temperature T
+2
+3 increase the length of the copper bar
+4 increase the diameter of the copper bar
+Which two changes each independently result in an increase in the rate of conduction of
+thermal energy along the copper bar?
+A 1 and 2
+B 1 and 3
+C 1 and 4
+D 2 and 3
+E 2 and 4
+F 3 and 4
+21
+PART B Physics
+24 Two identical resistors are connected in parallel to a 6.0V battery. The two resistors dissipate a
+total power of 0.15W.
+One of these resistors is removed from the circuit and connected to a 12V battery.
+How much charge passes through this resistor in 6.0 minutes?
+A 0.025C
+B 0.050C
+C 0.15C
+D 0.30C
+E 0.75C
+F 1.5C
+G 9.0C
+H 18C
+25 A small piece of space debris of mass 0.10g strikes the International Space Station at a
+relative speed of 15000ms–1.
+The piece of debris comes to rest relative to the space station in a time of 0.010s.
+What is the average force exerted on the space station by the piece of debris during this time?
+A 0.0010N
+B 1.0N
+C 1.5N
+D 100N
+E 150N
+F 1500N
+22
+PART B Physics
+26 A block of mass 6.0kg is pushed along a rough horizontal surface by a constant force of
+8.0N. The block accelerates uniformly from rest. After 4.0s its velocity is 2.0ms–1.
+How much work is done against resistive forces during this 4.0s?
+A 12J
+B 20J
+C 24J
+D 32J
+E 40J
+F 64J
+23
+PART B Physics
+27 Ultrasound is used to find a crack inside a cuboid block of metal. An ultrasound probe is held in
+contact with the top surface of the metal block and perpendicular to the surface. A short pulse
+of ultrasound is sent into the metal block at time t = 0ms and reflects from both the crack and
+the bottom surface of the metal block.
+ultrasound probe
+metal block
+crack
+The times between the emission of the ultrasound pulse and the return of the reflections to the
+probe, and the strengths of the reflected pulses, are measured. The results are shown on the
+graph.
+strength of
+reflected pulse
+0
+0 0.1 0.2 0.3
+time/ms
+The speed of ultrasound in the metal is 5000ms–1.
+What is the distance between the bottom surface of the metal block and the crack?
+A 0.2m
+B 0.3m
+C 0.4m
+D 0.5m
+E 0.6m
+F 1.0m
+24
+PART B Physics
+28 Power is supplied to an electric motor at 0.800kW.
+The motor has an efficiency of 60% and is switched on for half an hour.
+How much energy is wasted during this time?
+A 0.160J
+B 0.240J
+C 160J
+D 240J
+E 576J
+F 864J
+G 576000J
+H 864000J
+29 The diagram shows a circuit that includes two ammeters and a resistor R.
+The readings on the ammeters are shown.
+Ω
+3.0
+A A 1.8A
+3.3A
+R
+What is the resistance of resistor R?
+A 0.40(cid:525)
+B 2.5(cid:525)
+C 3.0(cid:525)
+D 3.6(cid:525)
+E 5.5(cid:525)
+F 8.5(cid:525)
+25
+PART B Physics
+30 The graph shows potential difference plotted against current for a filament lamp and a resistor.
+potential difference /V
+10
+8
+6
+4
+2
+0
+0 0.1 0.2 0.3 0.4
+current /A
+The lamp and the resistor are connected in parallel with each other to a 6.0V power supply and
+the current in the lamp, I, is recorded.
+In a second circuit, the lamp and the resistor are now connected in series with each other to the
+same power supply, and the current in the resistor is 0.18A. The potential difference across the
+lamp, V, is recorded.
+What are the values of I in the first circuit and V in the second circuit?
+I /A V /V
+A 0.25 1.6
+B 0.25 3.0
+C 0.25 4.4
+D 0.35 1.6
+E 0.35 3.0
+F 0.35 4.4
+26
+PART B Physics
+31 A child is bouncing a ball of mass 0.16kg vertically up and down on a bat. Each time the ball
+hits the bat the duration of the contact is 0.20s. The speed of the ball immediately before hitting
+the bat and immediately after it loses contact with the bat is 4.0ms–1.
+What is the average contact force between the bat and the ball during each collision?
+(gravitational field strength = 10Nkg–1)
+A 1.6N
+B 3.2N
+C 4.8N
+D 6.4N
+E 8.0N
+32 A transverse wave on a string has a speed of 500ms–1.
+The horizontal distance between two points P and Q on the wave is 4.0m, as shown in the
+diagram.
+X
+6.0mm
+Q
+P
+4.0m
+At time t = 0ms, point X on the string is at its maximum displacement of 6.0mm above
+equilibrium.
+What is the displacement of point X at time t = 7.0ms?
+A 6.0mm above equilibrium
+B between 0mm and 6.0mm above equilibrium
+C 0mm
+D between 0mm and 6.0mm below equilibrium
+E 6.0mm below equilibrium
+27
+PART B Physics
+33 A neutral atom Q of a particular element contains a total of 20 particles (protons, neutrons and
+electrons).
+The table shows information about the number of particles and relative charges of four atoms
+or ions W, X, Y and Z.
+atom or ion number of particles relative charge of atom or ion
+W 21 0
+X 21 –1
+Y 20 +1
+Z 22 0
+Which of these atoms or ions could be of a different isotope to Q but of the same element as
+Q?
+A W only
+B X only
+C Z only
+D X and Z only
+E W and Y only
+F W, X and Y only
+G W, Y and Z only
+H X, Y and Z only
+28
+PART B Physics
+34 Radioactive isotope X undergoes a single beta ((cid:533)–) decay to form the stable isotope Y.
+A sample consists only of X and Y. The graph shows how the mass of Y present in the sample
+varies with time. After a long time, the mass of Y in the sample becomes a constant 50g.
+60
+mass of Y /g
+50
+40
+30
+20
+10
+0
+0 1 2 3 4 5 6 7 8
+time / min
+What is the half-life of X?
+A 0.6 minutes
+B 1.2 minutes
+C 2.0 minutes
+D 3.2 minutes
+E 4.0 minutes
+F 5.2 minutes
+29
+PART B Physics
+35 A piece of metal of mass 50g is at thermal equilibrium in a hot liquid at temperature T.
+The metal is removed from the liquid and immediately placed in 100g of water that is at 20°C.
+The water is stirred and reaches a final temperature of 26°C.
+material specific heat capacity /Jkg–1°C–1
+hot liquid 2000
+metal 350
+water 4200
+What is the temperature T of the hot liquid?
+(Assume that heat transfers to or from the surroundings are negligible.)
+A 38°C
+B 51°C
+C 150°C
+D 170°C
+E 480°C
+30
+PART B Physics
+36 A bar magnet is placed at position X close to one end of a coil and on the axis of the coil as
+shown.
+The graph shows how the velocity of the magnet varies as it is then moved rapidly to position Y
+and back to position X.
+velocity away
+position X position Y
+from coil
+0
+time
+The magnetic field of the bar magnet still affects the coil when the magnet is at position Y.
+Which graph represents how the induced voltage in the coil changes as the magnet moves?
+A induced B induced
+voltage voltage
+0 0
+time time
+C induced D induced
+voltage voltage
+0 0
+time time
+E induced F induced
+voltage voltage
+0 0
+time time
+31
+PART B Physics
+37 A small slider of mass 30g is at rest near the bottom of a frictionless slope and in contact with a
+light uncompressed spring as shown.
+spring slider
+height
+[diagram not to scale]
+The spring is compressed by 5.0cm and the slider remains in contact with it.
+The spring is released and causes the slider to rise up the slope to a maximum vertical height
+of 20cm.
+The slider is replaced with one of mass 20g.
+The spring is now compressed by 15cm, and the new slider remains in contact with it.
+To what maximum vertical height does this new slider rise after it is released?
+(the spring obeys Hooke’s law; assume that air resistance is negligible)
+A 40cm
+B 60cm
+C 90cm
+D 120cm
+E 180cm
+F 270cm
+32
+PART B Physics
+38 A tall, smooth cylinder contains air at atmospheric pressure of 1.00 ×105Pa. The density of the
+air in the cylinder is 1.20kgm–3.
+A heavy piston is now placed in the top of the cylinder and allowed to fall slowly downwards,
+compressing the air until the piston rests in equilibrium.
+The mass of the piston is 50.0kg and its cross-sectional area is 0.0200m2.
+What is the density of the air in the cylinder when the piston rests in equilibrium?
+(gravitational field strength = 10Nkg–1; assume that the air behaves as an ideal gas and that
+the temperature remains constant)
+A 0.960kgm–3
+B 1.20kgm–3
+C 1.25kgm–3
+D 1.28kgm–3
+E 1.50kgm–3
+F 4.80kgm–3
+39 There are two types of earthquake waves, called P-waves and S-waves.
+When an earthquake occurs, both types of wave are produced at the same time and follow the
+same path.
+The P-waves travel outwards from the source at 5.0kms–1 and the S-waves travel out at
+3.0kms–1.
+A seismic monitoring station detects the P-waves 30s before the S-waves.
+How far have the waves travelled from the source of the earthquake to reach the seismic
+monitoring station?
+A 60km
+B 90km
+C 135km
+D 150km
+E 225km
+33
+PART B Physics
+40 A solid cuboid has a mass of 32kg and a density of 4.0gcm–3.
+Faces 1, 2 and 3 of the cuboid have different areas.
+When the cuboid rests on one of these faces on a flat horizontal surface, the pressure on the
+surface due to the cuboid is 1.6Ncm–2.
+When it rests on another of these faces, the pressure on the surface due to the cuboid is
+0.80Ncm–2.
+What is the pressure on the surface due to the cuboid when it rests on the third of these faces?
+(gravitational field strength = 10Nkg–1)
+A 0.40Ncm–2
+B 1.2Ncm–2
+C 3.2Ncm–2
+D 6.4Ncm–2
+E 8.0Ncm–2
+34
+PART C Chemistry
+PART C Chemistry
+35
+PART C Chemistry
+41 The following pairs of 0.1moldm–3 solutions are mixed separately in test tubes.
+1 AgNO (aq) with NaI(aq)
+3
+2 Cl (aq) with NaI(aq)
+2
+3 HCl(aq) with NaOH(aq)
+4 MgCl (aq) with NaBr(aq)
+2
+Which pair(s) of solutions, when mixed, would produce a visible chemical change?
+A 1 only
+B 2 only
+C 3 only
+D 4 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 4 only
+H 3 and 4 only
+36
+PART C Chemistry
+42 Some reactions of metal M and its compounds are shown in the following diagram.
+metal oxide
+heated with
+MO sulfuric acid
+metal sulfate solution
+heated in
+oxygen MSO (aq)
+4
+electrolysed with
+metal
+graphite electrodes
+M
+Which one of the following could be the identity of metal M?
+A aluminium
+B copper
+C magnesium
+D potassium
+E silver
+43 Consider the following properties of compound X:
+melting point –114°C
+boiling point –85°C
+conductivity as a solid poor
+conductivity as a liquid poor
+conductivity in aqueous solution good
+Which one of the following could be the identity of compound X?
+A ammonium chloride, NH Cl
+4
+B barium chloride, BaCl
+2
+C hydrogen chloride, HCl
+D potassium chloride, KCl
+E tetrachloromethane, CCl
+4
+37
+PART C Chemistry
+44 Which of the following statements about losing electrons is/are correct?
+1 During the electrolysis of a molten binary compound the ions attracted to the cathode
+(negative electrode) lose electrons at that electrode.
+2 Descending Group 1 of the Periodic Table from lithium to caesium, the atoms of the
+elements lose electrons more easily.
+3 When a substance is acting as a reducing agent it loses electrons.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+45 Which of the following chemical reactions is/are redox reactions?
+1 Ba2+(aq) + SO 2–(aq) (cid:314) BaSO (s)
+4 4
+2 PCl (s) + H O(l) (cid:314) POCl (l) + 2HCl(aq)
+5 2 3
+3 KrF (s) (cid:314) Kr(g) + F (g)
+2 2
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+38
+PART C Chemistry
+46 Three samples of calcium of different masses were added separately to excess dilute
+hydrochloric acid and the volume of gas released, measured at room temperature and
+pressure, was monitored.
+One sample was powdered calcium, one was granules of calcium, and one was a solid piece of
+calcium.
+The results are shown on the graph.
+volume of
+hydrogen 360 cm3
+/cm3
+240cm3
+120cm3
+0
+0 time/s
+What is the mass of powdered calcium used in this experiment?
+(A value: Ca = 40. Assume that one mole of gas occupies a volume of 24dm3 at room
+r
+temperature and pressure.)
+A 0.200g
+B 0.400g
+C 0.600g
+D 1.20g
+E 8.00g
+F 16.0g
+G 24.0g
+39
+PART C Chemistry
+47 Concentrated aqueous solutions of three compounds are electrolysed with inert electrodes.
+The constituent elements of which of the following compounds may be collected using this
+process?
+1 copper(II) bromide
+2 hydrogen chloride
+3 potassium chloride
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+48 50cm3 of 0.100moldm–3 hydrochloric acid has a pH of 1.0.
+What is the pH of the mixture formed when 450cm3 of 0.010moldm–3 calcium hydroxide
+solution is added?
+A pH = 1.0
+B 1.0 < pH < 2.0
+C pH = 2.0
+D 2.0 < pH < 7.0
+E pH = 7.0
+F pH > 7.0
+40
+PART C Chemistry
+49 Carboxylic acid X reacts with propanol in the presence of an acid catalyst to form compound Y.
+Compound Y has a relative molar mass of 116.
+What is the relative molar mass (M) of X?
+r
+(A values: C = 12; H = 1; O = 16)
+r
+A 45
+B 46
+C 55
+D 56
+E 59
+F 60
+G 73
+H 74
+50 Element Z is in Group 1 of the Periodic Table.
+A pure sample of element Z consists of two isotopes with mass numbers 85 and 87, and has a
+relative atomic mass of 85.5.
+Which of the following statements is/are correct about element Z in this sample?
+1 Element Z reacts with bromine to form an ionic compound with formula ZBr .
+2
+2 Element Z forms a basic oxide.
+3 More than 70% of the atoms of element Z have mass number 85.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+41
+PART C Chemistry
+51 Three mixtures (P, Q and R) of amino acids were separated using paper chromatography.
+The test was repeated with the same mixtures, paper and solvent but this time the distance
+travelled by the common component of the mixtures was 7.5cm.
+How far did the most mobile component of mixture Q travel in the second test?
+A 6.0cm
+B 8.5cm
+C 9.0cm
+D 9.6cm
+E 10.5cm
+F 12.0cm
+42
+PART C Chemistry
+52 A typical sample of dry air is at room temperature and pressure. There is a total of 25.0mol of
+gas in this sample.
+One of the gases in the sample, X, contributes 1.50 ×1023 separate particles to the mixture.
+A second gas in the sample, Y, would, if alone, occupy a volume of 468dm3 at room
+temperature and pressure.
+What are the identities of gases X and Y, and what would be the total amount of all of the
+remaining gases in the sample?
+(Take Avogadro’s number as 6.00 ×1023. Assume that one mole of any gas occupies a volume
+of 24.0dm3 at room temperature and pressure.)
+total amount of all of the
+identity of gas X identity of gas Y remaining gases in the
+sample in moles
+A Ar N 5.250mol
+2
+B O N 5.250mol
+2 2
+C O Ar 5.250mol
+2
+D Ar O 5.375mol
+2
+E Ar N 5.375mol
+2
+F O N 5.375mol
+2 2
+43
+PART C Chemistry
+53 The atomic number of fluorine is 9.
+An element X forms a fluoride with the formula XF . Each molecule of XF has 32 electrons in
+3 3
+total.
+Element X has two isotopes. One isotope has the same number of neutrons as protons and the
+other isotope has a number of neutrons one greater than the number of protons.
+The relative abundance of the heavier isotope is 0.80 (80%).
+What is the relative atomic mass of element X?
+A 5.2
+B 5.8
+C 10.2
+D 10.8
+E 14.2
+F 14.8
+G 16.2
+H 16.8
+44
+PART C Chemistry
+54 1mol of compound X undergoes complete combustion to produce 144dm3 of carbon dioxide
+(measured at room temperature and pressure).
+1mol of X can also undergo an addition reaction with 1mol of hydrogen to form a saturated
+compound that has one branch.
+X undergoes addition polymerisation. A section of the addition polymer containing three
+repeating units has an M value greater than 200 but less than 300.
+r
+Which one of the following structural formulae could be that of compound X?
+(A values: C = 12; H = 1; F = 19. Assume that one mole of any gas occupies a volume of
+r
+24dm3 at room temperature and pressure.)
+A B
+C D
+E
+55 The equation shows the complete combustion of an alkane.
+alkane + aO (cid:314) bCO + cH O
+2 2 2
+100cm3 of a gaseous alkane requires 650cm3 of oxygen for complete combustion. The
+volumes of both gases were measured at the same temperature and pressure.
+What is the value of a + b + c?
+A 10.5
+B 12
+C 14
+D 15.5
+E 17.5
+F 19
+45
+PART C Chemistry
+56 A sample of magnesium carbonate, MgCO , was reacted completely with 50cm3 of
+3
+0.10moldm–3 hydrochloric acid, which is an excess.
+The remaining hydrochloric acid was titrated with 0.20moldm–3 sodium hydroxide solution.
+5.0cm3 of sodium hydroxide was required for complete neutralisation.
+What was the original mass of magnesium carbonate used, in mg?
+(M value: MgCO = 84)
+r 3
+A 42mg
+B 84mg
+C 168mg
+D 210mg
+E 336mg
+F 420mg
+57 A student mixed together 30.0cm3 of 3.0moldm–3 hydrochloric acid and 20.0cm3 of
+4.0moldm–3 aqueous ammonia in an insulated container.
+The initial temperatures of both solutions were 20.0°C.
+The maximum temperature observed was 40.0°C.
+Assume that the specific heat capacity of any aqueous solution is 4.0Jg–1°C–1 and that the
+density of the reaction mixture is 1.0gcm–3.
+Using this information, what is the molar enthalpy change, in kJmol–1, for the reaction of
+hydrochloric acid and aqueous ammonia?
+A –4kJmol–1
+B –20kJmol–1
+C –25kJmol–1
+D –30kJmol–1
+E –44kJmol–1
+F –50kJmol–1
+G –75kJmol–1
+H –100kJmol–1
+46
+PART C Chemistry
+58 An oxide of nitrogen can be prepared by the reaction of copper with hot nitric acid.
+The other products of the reaction are copper(II) nitrate and water.
+0.060mol of copper reacted exactly with 40.0cm3 of 4.00moldm–3 nitric acid.
+What is the empirical formula of the oxide of nitrogen produced in the reaction?
+A NO
+B NO
+2
+C NO
+3
+D N O
+2
+E N O
+2 3
+F N O
+2 5
+59 One mole of an unsaturated hydrocarbon reacts with exactly one mole of bromine to form a
+6 1 8
+compound that contains carbon, hydrogen and bromine by mass.
+15 15 15
+What is the relative molar mass (M) of this product?
+r
+(A values: C = 12; H = 1; Br = 80)
+r
+A 150
+B 210
+C 220
+D 290
+E 300
+F 420
+G 440
+H 713
+47
+PART C Chemistry
+60 Airbags in cars contain sodium azide (NaN ) as a primary reagent, and potassium nitrate
+3
+(KNO ) as a secondary reagent.
+3
+The sodium azide decomposes according to the following equation to form nitrogen gas, which
+rapidly fills the airbag:
+2NaN (cid:314) 2Na + 3N
+3 2
+The sodium by-product of this first reaction then reacts with excess potassium nitrate according
+to this second equation:
+10Na + 2KNO (cid:314) K O + 5Na O + N
+3 2 2 2
+Assume that both reactions go to completion.
+An airbag contains 130g of sodium azide.
+What is the total volume of nitrogen gas formed in this airbag, measured at room temperature
+and pressure?
+(A values: N = 14.0; Na = 23.0. Assume that one mole of gas occupies 24.0dm3 at room
+r
+temperature and pressure.)
+A 72.0dm3
+B 76.8dm3
+C 84.0dm3
+D 89.6dm3
+E 96.0dm3
+F 112dm3
+G 120dm3
+H 140dm3
+48
+PART D Biology
+PART D Biology
+49
+PART D Biology
+61 Which of the following is/are correct when a healthy human breathes in?
+1 The ribcage moves up and out because air enters the lungs.
+2 The volume of the thorax decreases and the thoracic pressure increases.
+3 Energy is required to contract the intercostal muscles but not the diaphragm.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+62 Which of the following statements about the cardiovascular system in a healthy individual is/are
+correct?
+1 When blood flow in the capillaries is restricted, the rate of oxygen exchanged with
+the tissues is reduced.
+2 Oxygen exchange from the blood in the arteries into the tissues is fast due to the
+high pressure of blood.
+3 Capillary walls contain a small amount of smooth muscle to constrict the vessels.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+50
+PART D Biology
+63 The arrow in the diagram shows the net movement of molecule X out of a healthy mammalian
+cell.
+0.10moldm–3 0.05moldm–3
+molecule X molecule X
+cell
+The maximum cell width is 10μm. The cell membrane accounts for 0.2% of this width.
+What is the width of a single cell membrane, in nm, and which process is represented by the
+arrow in the diagram?
+width of a single cell process represented by the
+membrane /nm arrow in the diagram
+A 0.01 diffusion
+B 0.01 active transport
+C 0.02 diffusion
+D 0.02 active transport
+E 10 diffusion
+F 10 active transport
+G 20 diffusion
+H 20 active transport
+64 Which one of the following comparisons is correct?
+comparison
+both are tissues that are
+A alveoli bronchi
+specialised for gas exchange
+both are organs that function as
+B pancreas ovary
+endocrine glands
+both are organs that transport liquids
+C phloem xylem
+from leaves to roots in plants
+both are tissues that are stimulated
+D sensory neurone motor neurone
+by a relay neurone
+both are organs that have tissues
+E small intestine trachea
+with cilia
+51
+PART D Biology
+65 The graph shows the cumulative frequency for the heights of a group of 15-year-old students.
+cumulative 25
+Key
+frequency
+females
+20
+males
+15
+10
+5
+0
+150 160 170 180 190
+height / cm
+Which of the following statements is/are correct?
+1 The difference between the mean heights of male and female students can be found
+by reading the difference in heights at a cumulative frequency of 12.5.
+2 The difference in height between different males is explained by environmental
+factors alone.
+3 The difference in the cumulative frequency graphs for males and females could be
+explained by a gene on the Y chromosome.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+52
+PART D Biology
+66 When a person touches a hot object, they rapidly pull their hand away as a result of a reflex
+arc.
+The diagram shows a student’s drawing of part of this reflex arc.
+Which label (A-E) is correct?
+electrical impulse jumps
+across the gap between
+the two neurones
+B
+sensory neurone
+C
+motor neurone
+A
+STIMULUS MUSCLE
+D
+hormone
+E
+chemical receptors
+present on the membrane
+53
+PART D Biology
+67 A cell from a healthy animal was removed. This cell contained four times the mass of DNA
+when compared to a single gamete from the same animal.
+Which of the following statements could be correct?
+1 The cell was just about to start meiosis.
+2 The cell was just about to start mitosis.
+3 The cell had just started meiosis.
+4 The cell had just started mitosis.
+A 1 only
+B 2 only
+C 1 and 2 only
+D 1 and 3 only
+E 2 and 3 only
+F 2 and 4 only
+G 1, 2, 3 and 4
+54
+PART D Biology
+68 Many different species of cichlid fish have evolved from a common ancestor. The drawing
+shows some of the species that have evolved in Lake Victoria in Africa.
+Haplochromis chilotes Haplochromis macrognathus
+(feeds on insects) (feeds on other fish)
+Astatotilapia elegans Macropleurodus bicolor
+(generalised bottom feeder) (feeds on snails and other molluscs)
+Which of the following statements about evolution of the cichlid fish is/are correct?
+1 Different food types being available caused mutations in the DNA of the ancestral
+population of fish.
+2 Natural selection was possible because there were multiple alleles of the genes
+affecting the traits shown in the diagram.
+3 Natural selection of individuals with phenotypes best suited to different parts of the
+environment took place.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+55
+PART D Biology
+69 The graph shows the number of live bacteria growing in a nutrient broth at 30°C over 60 hours.
+thousands 6.0
+of live bacteria
+per mm3 5.0
+4.0
+3.0
+2.0
+1.0
+0.0
+0 5 10 15 20 25 30 35 40 45 50 55 60
+time/hours
+Which statement is correct?
+A If there were no limiting factors, the number of live bacteria in the population would be
+directly proportional to time.
+B At 40 hours, there are on average 4.6 livebacteria per mm3.
+C At 60 hours, the number of bacteria dying is greater than the number being produced.
+D Some of the live bacteria in the population at 60 hours could be genetically different to the
+bacteria in the population at 5 hours.
+E There is no limiting factor affecting the population of live bacteria over the 60 hour period.
+56
+PART D Biology
+70 Some students collected data using a belt transect on a beach and recorded the results in a
+kite diagram.
+The shading represents the number of individuals present at each point along the belt transect.
+The wider the shading in the vertical direction, the larger the number of individuals present. The
+vertical scale is the same for all species. The six species shown were the only ones present.
+Data was recorded every 5m along the belt transect.
+species W
+species V
+species T
+species S
+species R
+species Q
+0 5 10 15 20 25 30 35 40 45 50
+distance / m
+Which of the following statements is/are correct?
+1 The sampling site with the highest number of different species is at 35m.
+2 The abundance of species T, V and W is the same.
+3 At a distance of 5m, species Q is the only species present.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+57
+PART D Biology
+71 The effect of pH on the breakdown of starch by pancreatic amylase was investigated.
+Starch and pancreatic amylase solution were mixed in test tubes, each at a different pH. The
+percentage of starch remaining after 5 minutes was recorded on the graph.
+All other variables were kept constant.
+percentage of 100
+starch remaining
+after 5 minutes
+80
+60
+40
+20
+0
+4 5 6 7 8
+pH
+Using these results, which of the following conclusions could be correct?
+1 During the 5 minutes, there are more enzyme–product complexes formed at pH 4.5
+than at pH 6.
+2 The shape of the enzyme is different at pH 5 compared to the shape at pH 7.
+3 The optimum pH for this enzyme is approximately pH 7 under the conditions of this
+experiment.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+58
+PART D Biology
+72 The diagram summarises the homeostatic control of blood glucose concentration.
+normal blood glucose concentration
+fall in rise in
+blood glucose blood glucose
+concentration concentration
+endocrine gland V
+hormone W produced hormone X produced
+Y target organ: liver target organ: liver Z
+release of glucose uptake of glucose
+normal blood glucose concentration
+Which row is correct?
+gland V hormone W hormone X process Y process Z
+A pancreas adrenaline insulin nervous response nervous response
+B pancreas glucagon insulin negative feedback negative feedback
+C pancreas insulin glucagon negative feedback negative feedback
+D pancreas insulin glucagon nervous response negative feedback
+E pituitary adrenaline ADH negative feedback nervous response
+F pituitary ADH glucagon nervous response negative feedback
+G pituitary ADH insulin nervous response nervous response
+H pituitary glucagon insulin negative feedback nervous response
+59
+PART D Biology
+73 The graph shows the rate of transpiration at different temperatures for a plant in its natural
+environment.
+rate of transpiration 0.12
+/gm–2s–1
+0.10
+0.08
+0.06
+0.04
+0.02
+0
+20 22 24 26 28 30
+temperature /°C
+Which of the following statements is/are correct?
+1 Stomata open when the guard cells lose water and become flaccid.
+2 Between 20°C and 27°C, the humidity around the leaves must have decreased.
+3 The air speed around the leaves could be higher at 23°C than at 30°C.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+60
+PART D Biology
+74 An investigation was carried out to study the effect of protease concentration on the rate of
+breakdown of a protein into amino acids.
+A protease solution of known concentration was diluted and used in each experiment, and all
+other variables were kept constant. The table shows the results.
+percentage concentration
+10 20 30 40 50 60 70
+of protease
+rate of reaction
+1.8 3.5 5.3 6.0 6.3 6.3 6.3
+/arbitrary units
+Which of the following statements is/are correct about this investigation?
+1 Between concentrations of 10% and 40%, the rate of reaction has increased as more
+active sites are available.
+2 Between concentrations of 50% and 70%, the enzyme concentration is the limiting
+factor.
+3 At a protease concentration of 60%, the rate of reaction will be faster if substrate
+concentration is increased.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+61
+PART D Biology
+75 Different samples of the same pond plant were kept underwater and exposed to five different
+colours of light at the same light intensity.
+All other variables were kept constant.
+The time taken for the plant to release 20 bubbles was recorded. The results are shown in the
+chart.
+180
+time taken in seconds
+for the release of 160
+20 bubbles
+140
+120
+100
+80
+60
+40
+20
+0
+violet blue green yellow red
+colour of light
+Which of the following conclusions is/are correct?
+1 This pond plant photosynthesises fastest when exposed to green light.
+2 When exposed to any of these colours of light, this pond plant would release only
+oxygen.
+3 When exposed to blue light, this pond plant produces 30 bubbles per minute.
+A 1 only
+B 2 only
+C 3 only
+D 1 and 2 only
+E 1 and 3 only
+F 2 and 3 only
+G 1, 2 and 3
+62
+PART D Biology
+76 The diagram shows two sets of apparatus, P and Q, at the beginning of an investigation.
+P Q
+meniscus
+glass tube
+distilled
+water and distilled water,
+starch starch and
+partially amylase
+permeable
+membrane
+distilled water
+The only difference between P and Q was the contents of the partially permeable membrane.
+The membrane is not permeable to starch or amylase but is permeable to smaller molecules.
+After 10 minutes:
+• the position of the meniscus in P had moved up the tube,
+• the position of the meniscus in Q had moved down the tube.
+Which of the following statements correctly explain(s) these observations?
+1 Water moved by osmosis in P and Q.
+2 Amylase was a substrate for starch.
+3 Maltose was diffusing across the partially permeable membrane in Q, but not in P.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+63
+PART D Biology
+77 Two flies, which were both heterozygous for a trait, mated and all their eggs were collected.
+The resulting offspring grew into young adult flies.
+The trait is controlled by a single gene with one dominant allele and one recessive allele.
+Which of the following statements, taken independently, could be correct for the young adult fly
+population?
+1 If the presence of two dominant alleles for this trait stops eggs with this genotype
+from hatching, the genotypic ratio within the young adult fly population would be 1:1.
+2 If the presence of two recessive alleles for this trait produces sterile individuals, all of
+the young adult fly population will have the same phenotype.
+3 If the population of young adult flies is small, the phenotypic ratio would be 1: 2:1.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+64
+PART D Biology
+78 The diagram shows part of the process of sperm production in a healthy human male. Only one
+pair of the 23 pairs of homologous chromosomes is shown.
+cell type
+Key
+chromosome
+spermatogonium
+homologous pair
+(stem cell)
+of chromosomes
+primary spermatocyte
+spermatids
+cells mature
+sperm cells
+Which of the following statements is/are correct?
+1 Gametes are produced from haploid stem cells.
+2 Upon fertilisation, it is the male gamete that would determine the sex of the offspring.
+3 DNA in the primary spermatocyte is copied before the spermatids are made.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+65
+PART D Biology
+79 The graph shows the effect of increasing light intensity on the net rate at which a plant releases
+oxygen into the atmosphere.
+net rate 3
+of oxygen release
+into the atmosphere
+/arbitrary units
+2
+1
+0
+light intensity/arbitrary units
+–1
+X
+–2
+Which of the following could explain why the net rate of oxygen release at point X is zero?
+1 The light intensity is too low to produce oxygen through photosynthesis.
+2 All of the stomata will be closed at this light intensity, preventing the release of
+oxygen.
+3 The rate of oxygen release from photosynthesis is equal to the rate of oxygen use in
+respiration.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+66
+PART D Biology
+80 Two parents are heterozygous for a recessive condition that is controlled by a single autosomal
+gene with one dominant and one recessive allele. They have a daughter who does not display
+the condition.
+This daughter has a child with a heterozygous man.
+What is the probability that this child displays the condition?
+(Assume no mutations.)
+1
+A
+12
+1
+B
+8
+1
+C
+6
+3
+D
+4
+11
+E
+12
+67
+68

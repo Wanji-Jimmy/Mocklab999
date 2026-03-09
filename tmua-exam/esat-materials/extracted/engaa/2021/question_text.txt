@@ -1,0 +1,798 @@
+*6782200872*
+ENGINEERING D564/11
+ADMISSIONS ASSESSMENT
+November 2021 60 minutes
+SECTION 1
+INSTRUCTIONS TO CANDIDATES
+Please read these instructions carefully, but do not open this question paper until you are
+told that you may do so. This paper is Section 1 of 2.
+A separate answer sheet is provided for this paper. Please check you have one. You also
+require a soft pencil and an eraser.
+Please complete the answer sheet with your candidate number, centre number, date of birth,
+and name.
+At the end of 60 minutes, your supervisor will collect this question paper and answer sheet
+before giving out Section 2.
+This paper contains two parts, A and B, and you should attempt both parts.
+Part A Mathematics and Physics (20 questions)
+Part B Advanced Mathematics and Advanced Physics (20 questions)
+You are strongly advised to divide your time equally between the two parts: 30 minutes on
+Part A and 30 minutes on Part B. The scores for Part A and Part B are reported separately.
+This paper contains 40 multiple-choice questions. There are no penalties for incorrect
+responses, only marks for correct answers, so you should attempt all 40 questions. Each
+question is worth one mark.
+For each question, choose the one option you consider correct and record your choice on the
+separate answer sheet. If you make a mistake, erase thoroughly and try again.
+You must complete the answer sheet within the time limit.
+You can use the question paper for rough working, but no extra paper is allowed. Only your
+responses on the answer sheet will be marked.
+Dictionaries and calculators are NOT permitted.
+Please wait to be told you may begin before turning this page.
+This question paper consists of 35 printed pages and 5 blank pages.
+Copyright © UCLES 2021 PV5
+BLANK PAGE
+2
+PART A Mathematics and Physics
+3
+1 Simplify fully
+5xy2 × (5x2y)–3 × 5x2y
+where x and y are positive.
+1
+A
+125x7y2
+1
+B
+125x6y2
+1
+C
+25x6y
+1
+D
+25x4y
+1
+E
+5x3
+1
+F
+5x2
+y
+G
+x2
+H 5xy2
+4
+2 Air is trapped in a cylinder by a piston. The density of the air in the cylinder is ρ.
+trapped air
+The piston is moved so that the pressure of the trapped air increases by 20%. The temperature
+of the trapped air does not change.
+What is the new density of the trapped air?
+(Assume that air is an ideal gas.)
+A 0.69ρ
+B 0.80ρ
+C 0.83ρ
+D 1.00ρ
+E 1.20ρ
+F 1.44ρ
+5
+3 Which of the following is a rearrangement of
+p 3 4
++ =
+2 q r
+so that q is the subject?
+2r
+A q=
+24−3pr
+3r
+B q=
+2r−p
+6r
+C q=
+4−p
+6r
+D q=
+8−pr
+r−2
+E q=
+12p
+3r−6
+F q=
+4p
+pr−8
+G q=
+12p
+3pr−24
+H q=
+4p
+6
+4 A non-ideal transformer has 100 turns on the primary coil and 25 turns on the secondary coil.
+It is provided with 3.0kW of electrical power at a current of 12.5A.
+The voltage output is the same as for an ideal transformer, but the current in the output coil is
+40A.
+What is the efficiency of the transformer?
+A 20%
+B 25%
+C 31%
+D 69%
+E 75%
+F 80%
+G 91%
+H 100%
+7
+5 Two solid cylinders, P and Q, are shown, where x > y.
+Q
+P
+x
+y
+x y
+Cylinder P has diameter x and height y.
+Cylinder Q has diameter y and height x.
+What is the positive difference between the total surface areas of P and Q?
+A 0
+π
+B (x2 – y2)
+4
+π
+C (x2 – y2)
+2
+D π(x2 – y2)
+E 2π(x2 – y2)
+π
+F xy(x – y)
+4
+G πxy(x – y)
+8
+6 A light spring has an uncompressed length of 0.10m. When an object of mass 0.5kg rests in
+equilibrium on top of the spring, the length of the spring reduces to 0.08m as shown.
+0.10m
+0.08m
+What is the energy stored in the spring due to the compression?
+(gravitational field strength = 10Nkg–1; the spring obeys Hooke’s law)
+A 0.005J
+B 0.02J
+C 0.05J
+D 0.1J
+E 0.2J
+F 0.4J
+7 The price of item P is reduced by 10%. The next day, the new price is increased by 10%.
+The price of item Q is increased by 10%. The next day, the new price is reduced by 10%.
+How does the final price of each item compare to the original price of that item?
+item P final price item Q final price
+A lower than original lower than original
+B lower than original higher than original
+C higher than original lower than original
+D higher than original higher than original
+E the same as original the same as original
+9
+8 A set of decorative lights consists of 20 lamps connected in series to a dc supply of constant
+voltage.
+The total power transferred by all the lamps is P.
+The set is designed so that if one of the lamps fails, that lamp becomes short-circuited and it
+then has zero resistance. The remaining lamps are still lit.
+If this happens, with the set connected to the same supply, what is the new total power
+transferred by the remaining 19 lamps?
+(Assume that the resistance of each functioning lamp remains constant.)
+⎛19⎞ 2
+A ⎜ ⎟ P
+⎝20⎠
+⎛19⎞
+B ⎜ ⎟P
+⎝20⎠
+C P
+⎛20⎞
+D ⎜ ⎟P
+⎝19⎠
+⎛20⎞ 2
+E ⎜ ⎟ P
+⎝19⎠
+10
+9 S
+R
+8cm
+8cm
+P T
+Q
+4cm
+[diagram not to scale]
+SQT is a right-angled triangle with the right angle at Q.
+: :
+The point R is on SQ such that SR RQ = 1 3
+QRP is a right-angled triangle with the right angle at Q.
+PR = ST = 8cm
+QT = 4cm
+What is the length of PQ, in cm?
+A 2 3
+B 4 3
+C 19
+D 37
+E 55
+F 61
+11
+10 A train accelerates from rest along a straight, horizontal section of track.
+The force exerted on the train due to its motors is constant and there is a constant friction force
+of 1.8 ×107N.
+The graph shows how the momentum of the train changes with time.
+14
+momentum /106kgms–1
+12
+10
+8
+6
+4
+2
+0
+0 1 2 3 4
+time /s
+What is the force exerted on the train due to its motors?
+A 3.0 ×106N
+B 6.0 ×106N
+C 1.2 ×107N
+D 1.5 ×107N
+E 2.1 ×107N
+F 2.4 ×107N
+G 3.0 ×107N
+H 4.2 ×107N
+12
+11 The curve with equation y = x2 – 4x + 5 meets the straight line with equation y = 2x + c at two
+points, which have x-coordinates p and q, where q > p.
+Given that q – p = 8, what is the value of the constant c?
+A –43
+B –12
+C –2
+D 0
+E 2
+F 12
+G 43
+12 A ship travels into a wave that is travelling in the opposite direction to the ship.
+The ship has a horizontal speed of 8.0ms–1. The speed of the wave is 3.0ms–1.
+The front of the ship rises and falls with a time period of 8.0s.
+What is the wavelength of the wave?
+3
+A m
+8
+5
+B m
+8
+C 1.0m
+11
+D m
+8
+E 24m
+F 40m
+G 64m
+H 88m
+13
+13 Given that
+sin60°−1
+y =
+cos60°
+what is the value of y3?
+3
+A −
+9
+B −5 2+10
+C 3 3−8
+D 6 3−10
+E 14 2−20
+F 15 3−26
+G 21 3−38
+14
+14 A 6.0V battery is connected to an 8.0Ω resistor and a filament lamp as shown in the circuit
+diagram.
+6.0V
+8.0Ω
+A
+The reading on the ammeter is 0.25A.
+Which graph is a possible V–I graph for the filament lamp?
+A V /V B V /V
+2.0 4.0
+0 0
+0 0.25 0 0.25
+I /A I /A
+C V /V D V /V
+2.0
+6.0
+0 0
+0 0.25 0 0.25
+I /A I /A
+E V /V F V /V
+4.0 6.0
+0 0
+0 0.25 0 0.25
+I /A I /A
+15
+15 Charlie has a bowl containing red sweets and green sweets only. The sweets are identical in all
+respects except colour.
+There are nine sweets in total in the bowl.
+Charlie eats two sweets from the bowl at random.
+5
+The probability of Charlie not eating any green sweets is
+12
+What is the probability that Charlie eats two green sweets?
+2
+A
+27
+1
+B
+12
+1
+C
+9
+4
+D
+27
+1
+E
+6
+1
+F
+4
+7
+G
+12
+16
+16 A radioactive nuclide X decays in a single stage to a stable nuclide R.
+A radioactive nuclide Y decays in a single stage to a stable nuclide S.
+When a rock formed it contained equal numbers of atoms of all four nuclides X, Y, R and S.
+The half-life of X is T years and the half-life of Y is 2T years.
+number of atomsofR
+What is the value of at a time 4T years after the rock has formed?
+number of atomsof S
+(Assume that no other processes add or remove X, Y, R or S from the rock during this time.)
+1
+A
+4
+17
+B
+20
+31
+C
+28
+6
+D
+5
+5
+E
+4
+F 2
+17
+17 The greatest diagonal distance between the two vertices of a cuboid, as shown in the diagram,
+is 77 cm.
+A similar cuboid has all its lengths exactly half the lengths of the original cuboid.
+The sides of this smaller cuboid are 2cm, 3cm and xcm.
+What is the value of x, in cm?
+5
+A
+2
+B 5
+5 2
+C
+2
+D 5 2
+102
+E
+2
+F 102
+18
+18 A beaker containing 180g of water at 25°C has a 20g ice cube at 0°C added to it.
+No heat is transferred between the water and the surroundings (including the beaker).
+What is the final temperature of all the water in the beaker after all the ice has melted?
+(Take the specific heat capacity of water to be 4Jg–1°C–1 and the specific latent heat of fusion
+of water to be 300Jg–1.)
+A 2.5°C
+B 8.3°C
+C 10.0°C
+D 15.0°C
+E 16.7°C
+F 22.5°C
+19
+19 A car journey is m miles long.
+One kilometre is equivalent to x miles.
+The car uses one litre of fuel to travel a distance of f kilometres.
+Fuel for the car costs p pence per litre.
+Which of the following expressions gives the cost of fuel for this journey, in pounds?
+(There are 100 pence in one pound.)
+A 100fmpx
+100fmp
+B
+x
+100mpx
+C
+f
+100mp
+D
+fx
+fmpx
+E
+100
+fmp
+F
+100x
+mpx
+G
+100f
+mp
+H
+100fx
+20
+20 A pulse of ultrasound travels from one end of a solid uniform rod of length L, starting at time
+t = 0.
+The pulse is partially reflected by a crack in the rod and partially by the far end of the rod.
+These two reflected pulses travel back along the rod, arriving at the end from which they
+started at times t and t , where t > t .
+1 2 2 1
+What is the distance between the crack and the far end of the rod?
+t
+A 1 L
+t
+2
+t
+B 2 L
+t
+1
+t
+C 1 L
+2t
+2
+t
+D 2 L
+2t
+1
+(t − t )
+E 2 1 L
+t
+2
+(t − t )
+F 2 1 L
+2t
+2
+21
+BLANK PAGE
+22
+PART B Advanced Mathematics and Advanced Physics
+NOTE: questions in this part that are not covered by the ESAT
+content specification are indicated by a cross through the
+question number.
+23
+21 Given that
+⎛ 1 ⎞ 2
+y = ⎜2 x − ⎟
+⎝ 2 x ⎠
+dy 1
+find the value of when x =
+dx 2
+A –12
+1
+B −
+4
+C 3
+63
+D
+16
+E 5
+22 Object P of mass 2.4kg is on a smooth plane inclined at an angle of 60° to the horizontal. A
+constant force of magnitude 2F parallel to the plane is applied to P. As a result P moves
+directly up the plane with constant velocity.
+Object Q of mass 0.75kg is on a smooth, horizontal plane. A constant force of magnitude F
+parallel to the plane is applied to Q. As a result Q moves along the plane with constant
+acceleration.
+What is the acceleration of Q?
+(gravitational field strength = 10Nkg–1)
+A 4.5ms–2
+B 6.0ms–2
+C 8.0ms–2
+D 16ms–2
+E 4.5 3 ms–2
+F 6.0 3 ms–2
+G 8.0 3 ms–2
+H 16 3ms–2
+24
+23 A particular arithmetic series has first term a and common difference d.
+The sum of the first k terms of this series is denoted by S
+k
+Which of the following is a simplification of S – S ?
+n+1 n–1
+A d
+B 2d
+C 2a + d
+D 2a + 2d
+E 2a + nd
+F 2a + 2nd
+G 2a + (2n – 1)d
+H 2a + (4n – 2)d
+25
+24 A sound wave is travelling from left to right in air. The diagram represents the wave at a
+particular instant, and a distance of 33cm is labelled.
+P
+33cm
+The speed of sound in air is 330ms–1.
+What is the frequency of the sound and in which direction has the air at P been displaced from
+its mean position?
+frequency of sound /Hz displacement of air at P
+A 1000 to the left
+B 2500 to the left
+C 5000 to the left
+D 1000 to the right
+E 2500 to the right
+F 5000 to the right
+25 Find how many distinct real solutions there are to the equation
+(x2 + 4x + 3)2 = 1
+A 0
+B 1
+C 2
+D 3
+E 4
+26
+26 A resistor R is connected between terminals X and Y in the circuit shown.
+30V dc
+supply
+X
+4.0Ω
+Y
+8.0Ω
+The power transferred in the 4.0Ω heater is 9.0W.
+What is the resistance of R?
+A 1.6Ω
+B 2.0Ω
+C 2.67Ω
+D 4.0Ω
+E 8.0Ω
+27
+27 The line x = 1 divides the circle x2 + y2 = 4 into two segments.
+What is the area of the smaller segment?
+2π 3
+A −
+3 2
+2π
+B − 3
+3
+π 1
+C −
+2 2
+π
+D −1
+2
+1
+E π−
+2
+F π−1
+4π 3
+G −
+3 2
+4π
+H − 3
+3
+28
+28 A uniform plank of length 5.0m rests horizontally as shown.
+75N
+cable
+1.0m
+60°
+plank
+pivot
+[diagram not to scale]
+There is a pivot 1.0m from one end of the plank.
+A cable at an angle of 60° to the horizontal supports the plank at the other end so that it is in
+equilibrium.
+The tension in the cable is 75N.
+What is the weight of the plank?
+A 60N
+B 60 3 N
+C 100N
+D 100 3N
+E 125N
+F 125 3N
+29
+29 What is the mean of log 27, log 64, and log 216?
+10 10 10
+log 307
+A 10
+3
+log 81
+B 10
+3
+log 612
+C 10
+3
+D log 64
+10
+E log 72
+10
+F log 108
+10
+30 A lorry accelerates along a straight, horizontal road with uniform acceleration.
+Oil droplets from the lorry fall a small distance onto the road at a constant rate. The time
+interval between successive drips is t.
+The diagram shows four successive oil droplets on the road after the lorry has passed.
+x y
+The distance between the first two of these droplets is x and the distance between the final
+two is y.
+Which expression gives the acceleration of the lorry?
+y−x
+A
+3t2
+y−x
+B
+2t2
+y−x
+C
+t2
+2(y−x)
+D
+t2
+y+x
+E
+t2
+y+x
+F
+3t2
+30
+31 Which of the following is the largest in value?
+(All angles are in radians.)
+A cos0.5
+B cos0.75
+C cos1
+D sin0.5
+E sin0.75
+F sin1
+32 A light, metal wire of length 2.5m and cross-sectional area 1.8 ×10–6m2 is suspended
+vertically. A mass of 7.2kg is attached to the lower end of the wire. The wire extends
+by 0.50mm.
+What is the Young modulus of the metal and how much energy is stored in the extended wire?
+(gravitational field strength = 10Nkg–1; assume that the wire obeys Hooke’s law and that
+changes in the cross-sectional area are negligible)
+Young modulus /Pa energy stored /J
+A 5.0 ×10–12 0.018
+B 5.0 ×10–12 0.036
+C 2.0 ×1011 0.018
+D 2.0 ×1011 0.036
+E 2.0 ×1014 18
+F 2.0 ×1014 36
+31
+33 A geometric progression has first term u = a and common ratio r.
+1
+8
+The sum to infinity of the geometric progression is
+5
+3
+The sum to infinity of the even-numbered terms (u + u + u + L) is
+2 4 6
+5
+What is the value of a + r?
+3
+A
+5
+31
+B
+25
+23
+C
+5
+28
+D
+5
+67
+E
+8
+34 A child of mass 30kg is on a sledge of mass 10kg which is moving down a smooth slope at an
+instantaneous speed of 4.0ms–1.
+At this instant, the child jumps backwards off the sledge and lands stationary on the slope.
+What is the speed of the sledge immediately after the child jumps off?
+A 4.0ms–1
+B 8.0ms–1
+C 12ms–1
+D 16ms–1
+E 20ms–1
+32
+35 At how many distinct points do the following two curves meet?
+y = (x – 4)(x2 – 2x – 8)
+y = –x2 + 8x – 16
+A 0
+B 1
+C 2
+D 3
+E 4
+F 5
+36 A piece of electrically conducting putty is formed into the shape of a uniform cylinder. The
+resistance between the ends of the cylinder is R.
+The same piece of putty is now formed into a new uniform cylinder with half the diameter of the
+first cylinder.
+What is the resistance between the ends of the new cylinder?
+A 2R
+B 2 2R
+C 4 2R
+D 2R
+E 4R
+F 8R
+G 16R
+33
+37 Evaluate
+3 3 3 3
++ + + L +
+27 + 21 24 + 18 21+ 15 9 + 3
+3 2
+A
+2
+B 3 2
+3 3
+C
+2
+D 3
+E 1+ 2
+( )
+F 3 1+ 2
+3 ⎛ 2⎞
+G ⎜1+ ⎟
+⎜ ⎟
+3 2
+⎝ ⎠
+⎛ 2⎞
+H 3 ⎜1+ ⎟
+⎜ ⎟
+2
+⎝ ⎠
+38 A car accelerates from rest in a straight line. During the first 10s, its acceleration, a, in ms–2 is
+given by the equation
+a = 4.0 – 0.36t
+where t is the time in seconds.
+What is its displacement from its original position after 10s?
+A 22m
+B 110m
+C 136m
+D 140m
+E 220m
+F 1100m
+G 1360m
+H 1400m
+34
+39 x = 15
+y
+y = √x
+S R
+0
+P Q
+0 x
+PQRS is a rectangle.
+P and Q lie on the x-axis.
+Q and R lie on the line x = 15
+S lies on the curve y = x
+What is the maximum possible area of the rectangle?
+A 5 5
+B 10 5
+C 50
+D 25 5
+E 100
+F 125
+35
+40 Two trolleys are free to move on a smooth one-dimensional track. A light spring is compressed
+between the two stationary trolleys, the trolleys are released and then separate.
+The trolleys have masses m and 4m and the work done by the spring as it expands is W.
+Assume that no work is done against frictional forces.
+What is the difference in kinetic energy between the two trolleys when the spring has
+expanded?
+A 0
+W
+B
+5
+W
+C
+4
+W
+D
+2
+3W
+E
+5
+3W
+F
+4
+4W
+G
+5
+H W
+END OF TEST
+36
+BLANK PAGE
+37
+BLANK PAGE
+38
+BLANK PAGE
+39
+40

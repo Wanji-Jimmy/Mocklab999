@@ -1,0 +1,1031 @@
+ENGINEERING ADMISSIONS ASSESSMENT D564/11
+Wednesday 2 November 2016 80 minutes
+SECTION 1
+INSTRUCTIONS TO CANDIDATES
+Please read these instructions carefully, but do not open this question paper until you are told
+that you may do so. This paper is Section 1 of 2.
+A separate answer sheet is provided for this paper. Please check you have one. You also require a
+soft pencil and an eraser.
+Please complete the answer sheet with your candidate number, centre number, date of birth, and
+name.
+At the end of 80 minutes, your supervisor will collect this question paper and answer sheet before
+giving out Section 2.
+This paper contains two parts, A and B, and you should attempt both parts.
+Part A Mathematics and Physics (28 questions)
+Part B Advanced Mathematics and Advanced Physics (26 questions)
+This paper contains 54 multiple choice questions. There are no penalties for incorrect responses, only
+marks for correct answers, so you should attempt all 54 questions. Each question is worth one mark.
+Questions ask you to show your choice between options. Choose the one option you consider correct
+and record your choice on the separate answer sheet. If you make a mistake, erase thoroughly and
+try again.
+You can use the question paper for rough working, but no extra paper is allowed. Only your
+responses on the answer sheet will be marked.
+Dictionaries and calculators may NOT be used.
+Please wait to be told you may begin before turning this page.
+This question paper consists of 44 printed pages and 4 blank pages.
+PV5
+© UCLES 2016
+*3140543447*
+2
+BLANK PAGE
+© UCLES 2016
+3
+PART A Mathematics and Physics
+© UCLES 2016 [Turn over
+4
+x
+1 Find the complete set of solutions to −8<6−
+2
+A x<4
+B x>4
+C x<20
+D x>20
+E x<22
+F x>22
+G x<28
+H x>28
+214 210
+2 A nuclide Pb changes by radioactive decay into the nuclide Pb.
+82 82
+Which combination of emissions produces this change?
+A 3 alpha
+B 2 alpha and 1 beta
+C 2 alpha and 2 beta
+D 1 alpha and 2 beta
+E 3 beta
+© UCLES 2016
+5
+( )
+3 Which one of the following is a simplification of 3 − 2 2?
+A 1−2 3 2
+B 5−2 2 3
+C 2 3−2 2
+D 1
+E 5− 2 3
+F 13−2 2 3
+G 5+2 2 3
+H 5
+© UCLES 2016 [Turn over
+6
+4 The graph shown of quantity y against quantity x represents the motion of a body.
+y
+10
+0
+0.0 2.0 x
+(The scales on both axes are in the appropriate S.I. units, and the gravitational field strength g
+is 10Nkg–1.)
+Which two of the following could the graph represent?
+1 kinetic energy against velocity for an object of mass 10kg undergoing free-fall
+2 potential energy against height for an object of mass 20kg being lifted by a constant
+external force
+3 velocity against time for an object of mass 20kg being accelerated by a resultant
+force of 100N
+4 work done by an external force of 5N against distance moved for an object of mass
+12kg being moved at constant speed by (and in the direction of) the external force
+A 1 and 2
+B 1 and 3
+C 1 and 4
+D 2 and 3
+E 2 and 4
+F 3 and 4
+© UCLES 2016
+7
+5 The ratio of Q:R is 5:2 and the ratio of R:S is 3:10
+Which one of the following gives the ratio Q:S in its simplest form?
+A 1:2
+B 2:1
+C 3:4
+D 3:25
+E 4:3
+F 25:3
+© UCLES 2016 [Turn over
+8
+6 A uranium-235 nucleus can undergo fission to produce two smaller nuclei.
+Which of the diagrams, if any, could represent this process?
+diagram 1 diagram 2
+144Ba 137Xe
+56 54
+1n 1n
+1 1 p 23 9 5 2 U 0 1n 1 0 n 23 9 5 2 U 0 1n 1 0 n
+0 0
+89Kr 96Sr
+36 38
+diagram 3
+87Br
+35
+1n
+1 0 n 23 9 5 2 U 0 1n 1 0 n
+0
+145
+La
+57
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+© UCLES 2016
+9
+7 The mean age of the twenty members of a running club is exactly 28.
+The mean age increases by exactly 2 years when two new members join.
+What is the mean age of the two new members?
+A 20 years
+B 22 years
+C 30 years
+D 40 years
+E 50 years
+F 52 years
+8 A circuit consists of a 5.0Ω resistor and a variable resistor connected in series with a 24V
+battery. The variable resistor has a minimum resistance of 3.0Ω and a maximum resistance of
+15Ω. The battery and the connecting wires have negligible resistance.
+What is the maximum power dissipated in the 5.0Ω resistor?
+A 7.2W
+B 18W
+C 27 W
+D 45W
+E 72W
+F 75W
+© UCLES 2016 [Turn over
+10
+9 A medical scanner is bought for £15000.
+The value of the scanner depreciates by 20% every year.
+By how much has the scanner reduced in value after 2 years?
+A £600
+B £3000
+C £5400
+D £6000
+E £9000
+F £9600
+G £12000
+10 The total power P radiated by a star is given by:
+P = kR2T4
+where R is the radius of the star, T is its surface temperature and k is a constant.
+The power currently radiated by the Sun is 4.0 × 1026W. Towards the end of the Sun’s life its
+radius will increase by a factor of a hundred and its surface temperature will decrease by a
+factor of two.
+What will be the power radiated by the Sun when these changes have occurred?
+A 2.5 × 1027W
+B 1.0 × 1028W
+C 2.0 × 1028W
+D 2.5 × 1029W
+E 1.0 × 1030W
+F 2.0 × 1030W
+G 2.5 × 1033W
+H 1.0 × 1034W
+© UCLES 2016
+11
+11 The point A is 4km due East of the point B.
+The bearing of the point C from A is 330° and the bearing of C from B is 060°
+Find the distance BC.
+A 2 km
+B 2 3 km
+C 4 km
+D 2 5 km
+E 4 2 km
+12 A transverse wave travelling through a medium has a frequency of 5.0Hz, a wavelength of
+4.0cm and an amplitude of 3.0cm.
+What is the total distance travelled by a particle of the medium in one minute?
+A 900cm
+B 1200cm
+C 1800cm
+D 2400cm
+E 3600cm
+F 4800cm
+© UCLES 2016 [Turn over
+12
+13 The quantities x and y are positive.
+x is inversely proportional to the square root of y.
+When x = 8, y = 9.
+What is the value of y when x = 6?
+3
+A
+2
+B 2
+81
+C
+16
+27
+D
+14
+E 12
+F 16
+© UCLES 2016
+13
+14 A motor is used to lift a mass of 5.0kg using a pulley system as shown in the diagram. The
+pulley is secured to the roof using a coupling.
+roof
+coupling
+pulley
+rope
+force from
+motor
+5.0kg
+The motor needs to cause the mass to accelerate upwards at 0.80ms–2.
+What is the minimum tension force that the coupling must be able to withstand without
+breaking?
+(The gravitational field strength g is 10Nkg–1. The pulley system is frictionless and has
+negligible mass. The rope has negligible mass and is inextensible.)
+A 4.0N
+B 8.0N
+C 46N
+D 50N
+E 54N
+F 92N
+G 104N
+H 108N
+© UCLES 2016 [Turn over
+14
+15 In a trapezium PQRS, the parallel sides are PQ and RS.
+PQ =(x−1)cm, RS =(x+5)cm and the vertical height QR = xcm.
+P x – 1 Q
+[diagram not to scale]
+x
+S R
+x + 5
+The area of the trapezium is 120cm2.
+What is the length of RS?
+A 9cm
+B 10cm
+C 11cm
+D 12cm
+E 15cm
+F 17cm
+© UCLES 2016
+15
+16 A heater is connected in series with a resistor and a 6.0V battery in the circuit shown.
+battery
+resistor
+heater
+The total resistance of the circuit is 15Ω. In 3.0 minutes, 180J of electrical energy is transferred
+into other forms in the heater.
+How much charge flows through the heater in the 3.0 minutes and what is the voltage across
+the heater?
+charge / C voltage / V
+A 1.2 150
+B 1.2 216
+C 7.5 0.041
+D 7.5 24
+E 72 0.40
+F 72 2.5
+G 450 0.40
+H 450 2.5
+© UCLES 2016 [Turn over
+16
+17 Make b the subject of the formula:
+b2 +2
+a=
+3b2 −1
+⎛ a+2⎞
+A b=± ⎜ ⎟
+⎜ ⎟
+⎝3a+1⎠
+⎛ a+2⎞
+B b=± ⎜ ⎟
+⎜ ⎟
+⎝3a−1⎠
+⎛ 2−a ⎞
+C b=± ⎜ ⎟
+⎜ ⎟
+⎝3a+1⎠
+⎛ 2−a ⎞
+D b=± ⎜ ⎟
+⎜ ⎟
+⎝3a−1⎠
+⎛ 3 ⎞
+E b=± ⎜ ⎟
+⎜ ⎟
+⎝3a+1⎠
+⎛ 3 ⎞
+F b=± ⎜ ⎟
+⎜ ⎟
+⎝3a−1⎠
+© UCLES 2016
+17
+18 A cubic block has a hole through it with a square cross-section. The dimensions are shown on
+the diagram. The weight of the block is 30N.
+5.0cm
+10cm
+What is the density of the material from which the block is made?
+(The gravitational field strength g is 10Nkg–1.)
+A 0.30gcm–3
+B 0.40gcm–3
+C 0.60gcm–3
+D 1.2gcm–3
+E 3.0gcm–3
+F 4.0gcm–3
+G 6.0gcm–3
+H 12gcm–3
+© UCLES 2016 [Turn over
+18
+19 A thin rectangular sheet of metal 10m by 5m is made into an open ended cylinder by joining
+the edges PS and QR.
+The height of the cylinder is 10m.
+What is the volume, in cubic metres, enclosed by this cylinder?
+P 5 m Q r
+[diagram not to scale]
+10 m 10 m 10 m
+S 5m R
+5
+A
+2π
+25
+B
+4π
+125
+C
+2π
+D 62.5π
+125
+E
+π
+F 250π
+© UCLES 2016
+19
+20 The diagram shows four solid steel balls P, Q, R and S which are of identical size.
+Balls P and R have shiny surfaces. Balls Q and S have dull surfaces.
+Balls P and Q are in a room at 20°C. Balls R and S are in a room at 40°C.
+The temperature of each ball at a given moment in time is shown on the diagram.
+rooromom a ta t2 200 ° oCC ro r o o m om a t a t 4 4 0 0 ° oC C
+30°C 30°C 40°C 40°C
+30o C 30o C 40o C 40 oC
+PP QQ RR SS
+Which two balls lose thermal energy by convection, and which ball emits thermal radiation at
+the greatest rate?
+lose thermal energy greatest rate of emission of
+by convection thermal radiation
+A P and Q P
+B P and Q Q
+C P and Q R
+D P and Q S
+E R and S P
+F R and S Q
+G R and S R
+H R and S S
+© UCLES 2016 [Turn over
+20
+4−x2
+21 Which one of the following is a simplification of 4+ ?
+x2 −2x
+2
+A 3−
+x
+2
+B 3+
+x
+2
+C 4−
+x
+2
+D 4+
+x
+2
+E 5−
+x
+2
+F 5+
+x
+© UCLES 2016
+21
+22 The diagram shows the velocity-time graph for an object travelling in a straight line over a
+period of 30s.
+velocity/ms–1
+8.0
+6.0
+4.0
+2.0
+0
+0 10 20 30 time / s
+–2.0
+What total distance did the object travel in the 30s, how far from its starting position was it at
+the end of the 30s, and what was its average speed over the 30s?
+total distance distance from
+average speed
+travelled starting position
+/ ms–1
+/ m / m
+A 3.0
+90 70
+B 5.0
+90 70
+C 3.0
+90 90
+D 5.0
+90 90
+E 5.0
+180 140
+F 6.0
+180 140
+G 5.0
+180 180
+H 6.0
+180 180
+© UCLES 2016 [Turn over
+22
+23 During summer activities week 120 students each chose one activity from swimming, archery,
+and tennis.
+46 of the students were girls.
+2
+36 of the students chose tennis, and of these were boys; 25 girls chose swimming, and 27
+3
+students chose archery.
+A boy is picked at random. What is the probability that he chose swimming?
+3
+A
+20
+9
+B
+37
+4
+C
+15
+16
+D
+37
+32
+E
+57
+© UCLES 2016
+23
+24 Bronze is a mixture of tin and copper.
+A particular sample of bronze contains 10% tin by volume. (In other words, 10% of the total
+volume of the sample is tin and 90% of it is copper.)
+What percentage of the mass of the sample is tin?
+(Density of tin = Y and density of copper = X.)
+X
+A ×100
+9X −Y
+X
+B ×100
+9Y −X
+Y
+C ×100
+9X −Y
+Y
+D ×100
+9Y −X
+X
+E ×100
+9X +Y
+X
+F ×100
+9Y + X
+Y
+G ×100
+9X +Y
+Y
+H ×100
+9Y + X
+92n+1×34−3n
+25 Which one of the following expressions is equivalent to ?
+272−n
+A 39
+B 3 −2n
+C 32−2n
+4n
+D 3
+E 36n−2
+F 36
+© UCLES 2016 [Turn over
+24
+26 When a stationary uranium-238 nucleus decays by alpha emission it forms a nucleus of
+thorium-234. The total kinetic energy produced by the decay is E.
+Th-234
+U-238
+alpha-particle
+before decay after decay
+What is the kinetic energy of the alpha particle?
+A 4E
+238
+B 4E
+234
+C E
+2
+D 234E
+238
+E E
+© UCLES 2016
+25
+27 In the diagram below, PQRS is part of a regular polygon.
+The polygon has n sides.
+The side PQ is extended to T such that PQT is a straight line.
+The length of RQ is the same as the length of RT.
+P
+[diagram not to scale]
+Q
+R
+x
+S
+T
+Find an equation for n in terms of x, where x is the size of angle ∠QRT in degrees.
+180
+A n=
+x−90
+180−x
+B n=
+720
+360−x
+C n=
+90
+360
+D n=
+180−x
+720
+E n=
+180−x
+720
+F n=
+360−x
+360
+G n=
+360−x
+© UCLES 2016 [Turn over
+26
+28 A student carries out an experiment to measure the speed of sound. A loudspeaker that emits
+sound in all directions is placed between two buildings that are 128m apart as shown. The
+student and loudspeaker are 48m from one of the buildings.
+128m
+building building
+48m
+student and
+loudspeaker
+The loudspeaker is connected to a signal generator that causes it to emit regular clicks. The
+student notices that each click results in two echoes, one from each building. The rate at which
+the clicks are produced is gradually increased from zero until each echo coincides with a new
+click being emitted by the loudspeaker.
+What is the frequency of emission of clicks when this happens?
+(The speed of sound in air = 320ms–1.)
+A 2.0Hz
+B 2.5Hz
+C 3.3Hz
+D 4.0Hz
+E 5.3Hz
+F 6.7Hz
+G 10Hz
+© UCLES 2016
+27
+PART B Advanced Mathematics and Advanced Physics
+NOTE: questions in this part that are not covered by the ESAT
+content specification are indicated by a cross through the
+question number.
+© UCLES 2016 [Turn over
+28
+29 When x=2 is substituted in the expression x3 + px2 +qx+ p2 the result is 0.
+When x=1 is substituted into the same expression, the result is −3.5.
+Find all possible value(s) of p.
+6
+A p=−1±
+3
+B p = 1 or p = −3
+C p = 1
+D p =1± 7
+E there are no values for p
+© UCLES 2016
+29
+30 A parachutist is falling at terminal speed with his parachute open. The diagrams show,
+separately, the vertical forces acting on the parachute and the vertical forces acting on the
+parachutist.
+The letters L, M, N, P, Q and R represent the magnitude of each force as indicated.
+air resistance on parachute (L)
+force from air resistance on
+parachute (P) parachutist (Q)
+weight of parachutist (R)
+weight of force from
+parachute (M) parachutist (N)
+Consider the following equations:
+Equation 1: L = M +N
+Equation 2: R = P+Q
+Equation 3: L = Q
+Equation 4: N = P
+Equation 5: M + R = L +Q
+Which of these equations, if any, is/are the direct result of the application of Newton’s Third
+Law to this situation?
+A none of them
+B 3 only
+C 4 only
+D 5 only
+E 1 and 2 only
+F 3 and 4 only
+G 1, 2 and 5 only
+H 1, 2, 3, 4 and 5
+© UCLES 2016 [Turn over
+30
+31 A square PQRS is drawn above the x-axis with the side PQ on the x-axis.
+P is the point (−5, 0) and Q is the point (1, 0).
+A circle is drawn inside the square with diameter equal in length to the side of the square.
+Which one of the following is an equation of the circle?
+A x2 + y2 −4x+6y+4=0
+B x2 + y2 −4x+6y+9=0
+C x2 + y2 +4x−6y+4=0
+D x2 + y2 +4x−6y+9=0
+E x2 + y2 −6x−4y+9=0
+F x2 + y2 −6x+4y+4=0
+G x2 + y2 +6x−4y+4=0
+H x2 + y2 +6x+4y+9=0
+© UCLES 2016
+31
+32 A crate has a total mass of 800kg, including its contents. A helicopter of mass 4200kg is
+carrying the crate using a light inextensible rope as shown:
+rope
+crate
+The helicopter and crate are accelerating upwards at 2.0ms–2.
+What is the tension in the rope?
+(The gravitational field strength g is 10Nkg–1; air resistance can be ignored.)
+A 6400N
+B 8000N
+C 9600N
+D 18000N
+E 40000N
+F 42000N
+G 50000N
+H 60000N
+© UCLES 2016 [Turn over
+32
+33 The first term of a convergent geometric series is 8.
+The fifth term is 2.
+The sixth term is real and positive.
+What is the sum to infinity of this series?
+a
+(The sum to infinity of a convergent geometric series is given by , where a is the first term
+1−r
+and r is the common ratio.)
+( )
+A 81+ 2
+( )
+B 81− 2
+( )
+C 82+ 2
+( )
+D 82− 2
+E 16
+85 4
+F
+5 4 −1
+85 4
+G
+5 4 +1
+© UCLES 2016
+33
+34 A shopper pushes a supermarket trolley a distance of 15m in a straight line across a level,
+horizontal surface. The shopper applies a constant force of 50N at an angle of 37° below the
+horizontal. The total weight of the trolley and its contents is 350N.
+[diagram not to scale]
+37o
+50N
+CEREAL
+What is the magnitude of the total vertical force that the surface exerts on the trolley and how
+much work is done by the pushing force?
+(You may use the approximations sin37° = 0.60; cos37° = 0.80.)
+vertical force /N work done /J
+A 380 600
+B 380 750
+C 390 450
+D 390 750
+E 400 450
+F 400 600
+© UCLES 2016 [Turn over
+34
+35 Tangents are drawn from a point P to a circle of radius 10cm.
+The centre of the circle is C and the distance PC is 20cm.
+[diagram not to scale]
+P .C
+Which one of the following is an expression for the shaded area in square centimetres?
+100( )
+A 3 3 −π
+3
+100( )
+B 3 5 −π
+3
+50( )
+C 6 3−π
+3
+50( )
+D 6 5−π
+3
+50( )
+E 3−2π
+3
+50( )
+F 2π− 3
+3
+© UCLES 2016
+35
+36 A plank of non-uniform density which has a mass of 15kg is used to make a see-saw. A pivot is
+placed under the centre of the plank as shown on the diagram.
+0.80m 1.20m
+[diagram not to scale]
+pivot
+A boy of mass 35kg sits at one end of the plank with his centre of gravity 1.20m from the pivot.
+The see-saw balances when a woman of mass 60kg sits on the plank on the other side of the
+pivot. Her centre of gravity is 0.80m from the pivot.
+Where is the centre of gravity of the plank and what is the magnitude of the force between the
+pivot and the plank?
+(The gravitational field strength g is 10Nkg–1.)
+distance from pivot force / N
+A 0.40m on left of pivot 100
+B 0.40m on left of pivot 1100
+C at the pivot 100
+D at the pivot 1100
+E 0.20m on right of pivot 100
+F 0.20m on right of pivot 1100
+G 0.40m on right of pivot 100
+H 0.40m on right of pivot 1100
+37 Given that 7cos θ−3tan θsin θ =1,which one of the following is true?
+3 1
+A cos θ =− or −
+5 2
+3 1
+B cos θ =− or
+5 2
+3 1
+C cos θ = or
+5 2
+3 1
+D cos θ = or −
+5 2
+© UCLES 2016 [Turn over
+36
+38 A car of mass 200kg on a fairground ride travels at a speed of 5.0ms–1 at point X. The car is
+allowed to move down a sloping section of track without any energy input. The heights above
+the ground of points X and Y are shown. When the car reaches point Y its speed is 9.0ms–1.
+5.0m s–1
+car
+[diagram not to scale]
+X
+8.0m
+Y
+2.0m
+How much energy is transferred in overcoming resistive forces as the car travels from X to Y?
+(The gravitational field strength g is 10Nkg–1.)
+A 3900J
+B 6400J
+C 7900J
+D 10400J
+E 11200J
+39 The complete set of values of a for which the equation 3x2 = (a+2 )x−3 has two real distinct
+roots is
+A no values of a
+B −4 2 <a<4 2
+C a<−4 2, a>4 2
+D −4<a<8
+E a<−4, a>8
+F −8<a<4
+G a<−8, a>4
+H all values of a
+© UCLES 2016
+37
+40 The diagram shows a uniform, solid, heavy cube with side d. The cube rests with one of its
+edges in contact with a table that is perfectly level. A horizontal force P acts on another edge of
+the cube, and the cube is stationary.
+[diagram not to scale]
+P
+d
+30o
+Below are four statements about the forces on the cube.
+1 It is possible that there is no frictional force between the cube and the table.
+2 There must be a frictional force acting to the left between the cube and the table.
+3 There must be a frictional force acting to the right between the cube and the table.
+4 Force P has a clockwise moment about the edge in contact with the table equal to
+P × d.
+Which of the statements is/are correct?
+A 1 only
+B 2 only
+C 3 only
+D 1 and 4 only
+E 2 and 4 only
+F 3 and 4 only
+© UCLES 2016 [Turn over
+38
+41 The straight line with equation y =mx+3,where m>0, m≠1, is perpendicular to the line with
+equation y = px+2
+The lines cut the x-axis at the points L and M respectively. The length of LM is 5 units.
+What is the value of m+ p given that m>1?
+y
+[diagram not to scale]
+(0,3)
+(0,2)
+L M
+x
+5
+8
+A −
+3
+13
+B −
+6
+5
+C −
+6
+5
+D
+6
+13
+E
+6
+8
+F
+3
+© UCLES 2016
+39
+42 The diagram shows two identical blocks, each of mass m, in two different arrangements.
+[diagram not to scale]
+a
+b
+arrangement 1 arrangement 2
+Which expression gives:
+gravitational potential energy gravitational potential energy
+− ?
+of arrangement 2 of arrangement 1
+(g is the gravitational field strength.)
+A 2mg(a − b)
+B 2mg(b − a)
+C −mg(b+a)
+D mg(a+b)
+E 3 mg(a − b)
+2
+F 1 mg(a − b)
+2
+© UCLES 2016 [Turn over
+40
+43 f(x)= x3 −a2x where a is a positive constant.
+Find the complete set of values of x for which f(x) is an increasing function.
+A x≤−a, x≥a
+B −a≤ x≤a
+C x≤−a, 0≤ x≤a
+D −a≤ x≤0, x≥a
+a a
+E x≤− , x≥
+3 3
+a a
+F − ≤ x≤
+3 3
+a a
+G x≤− , x≥
+3 3
+a a
+H − ≤ x≤
+3 3
+44 An object is fired vertically upwards from the ground at time t = 0s in still air at a speed of
+8.0ms–1.
+On the way up, what is the height of the object above the ground when it has a speed of
+2.0ms–1, and at what time does it reach this height on the way down?
+(The gravitational field strength g is 10Nkg–1. Air resistance can be ignored.)
+height / m time / s
+A 2.4 0.60
+B 2.4 0.64
+C 2.4 1.0
+D 2.4 2.0
+E 3.0 0.60
+F 3.0 0.64
+G 3.0 1.0
+H 3.0 2.0
+© UCLES 2016
+41
+45 The curve y = x2 is translated by the vector ⎜ ⎛4 ⎟ ⎞ and then reflected in the line y =−1
+⎝3⎠
+Which one of the following is an equation of the resulting curve?
+A y =−3− (x−4 )2
+B y =−3+ (x+4 )2
+C y =3− (x+4 )2
+D y =3+ (x−4 )2
+E y =−5− (x−4 )2
+F y =−5+ (x+4 )2
+G y =5− (x+4 )2
+H y =5+ (x−4 )2
+46 The diagram shows a ball P, of mass 4.0kg, moving to the right at 10ms–1 directly towards a
+stationary ball Q, of mass 2.0kg.
+10m/s
+stationary
+P Q
+2.0kg
+4.0kg
+The balls collide but do not join together. Immediately after the collision ball Q moves at
+10ms–1 to the right.
+What is the velocity of ball P immediately after the collision, and how much kinetic energy in
+total is lost during the collision?
+velocity of ball P after kinetic energy lost
+collision during collision / J
+A 0 50
+B 0 150
+C 10ms–1 to the left 50
+D 10ms–1 to the left 150
+E 5.0ms–1 to the right 50
+F 5.0ms–1 to the right 150
+© UCLES 2016 [Turn over
+42
+47 The complete set of values of x for which 2x4 −9x2 +4>0 is
+1
+A x< , x>4
+2
+1
+B < x<4
+2
+1 1
+C x<−2, − < x< , x >2
+2 2
+−1 1
+D −2< x< , < x<2
+2 2
+E −2< x<2
+48 A point object of mass 2.0kg is at rest on a level, horizontal surface. The coefficient of friction
+between the object and the surface is 0.25.
+Two horizontal forces at right-angles to each other, with magnitudes 9.0N and 12.0N, are
+applied simultaneously to the object.
+What is the magnitude of the acceleration of the object as it begins to move?
+(The gravitational field strength g is 10Nkg–1.)
+A 5.0ms–2
+B 7.25ms–2
+C 7.5ms–2
+D 8.0ms–2
+E 10ms–2
+F 10.5ms–2
+© UCLES 2016
+43
+49 A cursor starts at the point (0, 10) and moves parallel to the x-axis in the negative direction.
+What is the minimum distance parallel to the y-axis between the cursor and the graph of
+y =4x3 −12x2 −36x−15?
+A 0
+B 5
+C 25
+D 69
+E 133
+50 An object of mass 20kg is pulled up a rough plane inclined at 30° to the horizontal by a light,
+inextensible cable attached via a frictionless pulley to a freely-falling 30kg mass. The
+acceleration of the object along the plane is 2.5ms–2.
+3
+cos30° = sin60° =
+2
+1 [diagram not to scale]
+sin30° = cos60° =
+2
+frictionless
+pulley
+20kg
+30kg
+30o
+What is the frictional force between the object and the plane?
+(Air resistance and the mass of the pulley can be ignored. The gravitational field strength g is
+10Nkg–1.)
+A 25N
+B 50N
+C 75N
+D 100N
+E 150N
+F 175N
+G 250N
+© UCLES 2016 [Turn over
+44
+51 What is the area enclosed by the line x=7 and the curve x=3 (y−1 )2 +4?
+A 4
+B 8
+C 10
+D 11
+E 14
+F 20
+52 A spacecraft of initial total mass 4000kg is travelling relative to the Earth at a constant speed of
+7425ms–1.
+It ejects some fuel backwards in a sudden burst at a speed relative to the spacecraft of
+1425ms–1. As a result of this, the speed of the spacecraft immediately after the fuel is ejected
+increases to 7500ms–1.
+What is the mass of fuel ejected?
+A 22kg
+B 34kg
+C 40kg
+D 50kg
+E 200kg
+F 210kg
+© UCLES 2016
+45
+53 A curve has equation y =3x4 −4x3 −12x2 +20
+What is the complete set of values of the constant k for which the equation
+3x4 −4x3 −12x2 +20=k
+has exactly four distinct real roots?
+A no values of k
+B −12<k <15
+C 15<k <20
+D k >20
+E 7<k <20
+F all values of k
+54 An object of weight 40N hangs from the end of a light inextensible string of length 0.35m,
+which is attached to the ceiling. A constant horizontal force of 30N is applied to the object,
+causing it to move to a new equilibrium position with the string no longer vertical.
+By how much has the gravitational potential energy of the object increased as a result of its
+change of position?
+A 2.1J
+B 2.8J
+C 3.5J
+D 4.2J
+E 4.9J
+F 5.6J
+© UCLES 2016
+46
+BLANK PAGE
+© UCLES 2016
+47
+BLANK PAGE
+© UCLES 2016
+48
+BLANK PAGE
+© UCLES 2016

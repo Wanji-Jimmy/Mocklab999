@@ -23,6 +23,7 @@ interface ExamLayoutProps {
   onAutoAdvanceChange?: (enabled: boolean) => void
   onJumpToQuestion?: (index: number) => void
   onShowNavigator?: () => void
+  completionLabel?: string
 }
 
 interface SchemeTheme {
@@ -112,9 +113,10 @@ export default function ExamLayout({
   onAutoAdvanceChange,
   onJumpToQuestion,
   onShowNavigator,
+  completionLabel = 'Complete the Exam',
 }: ExamLayoutProps) {
-  const showTimer = ['READING_COUNTDOWN', 'PAPER1_ACTIVE', 'PAPER2_ACTIVE', 'PAPER2_INSTRUCTIONS'].includes(state)
-  const showQuestionNav = ['PAPER1_ACTIVE', 'PAPER2_ACTIVE'].includes(state)
+  const showTimer = ['READING_COUNTDOWN', 'PAPER1_ACTIVE', 'PAPER2_ACTIVE', 'PAPER2_INSTRUCTIONS', 'PAPER3_ACTIVE', 'PAPER3_INSTRUCTIONS'].includes(state)
+  const showQuestionNav = ['PAPER1_ACTIVE', 'PAPER2_ACTIVE', 'PAPER3_ACTIVE'].includes(state)
   const showFlagControl = showQuestionNav && Boolean(onToggleFlag)
   const showAutoAdvance = showQuestionNav && Boolean(onAutoAdvanceChange)
   const showJumpControl = showQuestionNav && Boolean(onJumpToQuestion) && Number.isFinite(totalQuestions)
@@ -127,8 +129,8 @@ export default function ExamLayout({
   const nextLabel =
     state === 'PAPER1_ACTIVE' && currentQuestion === totalQuestions
       ? 'Proceed to Paper 2'
-      : state === 'PAPER2_ACTIVE' && currentQuestion === totalQuestions
-        ? 'Complete the TMUA'
+      : (state === 'PAPER2_ACTIVE' || state === 'PAPER3_ACTIVE') && currentQuestion === totalQuestions
+        ? completionLabel
         : 'Next →'
 
   const handleJumpSubmit = () => {

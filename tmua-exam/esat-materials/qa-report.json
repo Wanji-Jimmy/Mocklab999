@@ -1,0 +1,225 @@
+{
+  "generatedAt": "2026-03-09T04:04:31.715Z",
+  "exams": {
+    "ENGAA": [
+      {
+        "exam": "ENGAA",
+        "year": "2016",
+        "counts": {
+          "paper1": 28,
+          "paper2": 26,
+          "total": 54
+        },
+        "l1ShapeOk": true,
+        "placeholderRatio": 0,
+        "qaPassed": true
+      },
+      {
+        "exam": "ENGAA",
+        "year": "2017",
+        "counts": {
+          "paper1": 28,
+          "paper2": 26,
+          "total": 54
+        },
+        "l1ShapeOk": true,
+        "placeholderRatio": 0,
+        "qaPassed": true
+      },
+      {
+        "exam": "ENGAA",
+        "year": "2018",
+        "counts": {
+          "paper1": 28,
+          "paper2": 26,
+          "total": 54
+        },
+        "l1ShapeOk": true,
+        "placeholderRatio": 0,
+        "qaPassed": true
+      },
+      {
+        "exam": "ENGAA",
+        "year": "2019",
+        "counts": {
+          "paper1": 20,
+          "paper2": 20,
+          "total": 40
+        },
+        "l1ShapeOk": true,
+        "placeholderRatio": 0,
+        "qaPassed": true
+      },
+      {
+        "exam": "ENGAA",
+        "year": "2020",
+        "counts": {
+          "paper1": 20,
+          "paper2": 20,
+          "total": 40
+        },
+        "l1ShapeOk": true,
+        "placeholderRatio": 0,
+        "qaPassed": true
+      },
+      {
+        "exam": "ENGAA",
+        "year": "2021",
+        "counts": {
+          "paper1": 20,
+          "paper2": 20,
+          "total": 40
+        },
+        "l1ShapeOk": true,
+        "placeholderRatio": 0,
+        "qaPassed": true
+      },
+      {
+        "exam": "ENGAA",
+        "year": "2022",
+        "counts": {
+          "paper1": 20,
+          "paper2": 20,
+          "total": 40
+        },
+        "l1ShapeOk": true,
+        "placeholderRatio": 0,
+        "qaPassed": true
+      },
+      {
+        "exam": "ENGAA",
+        "year": "2023",
+        "counts": {
+          "paper1": 20,
+          "paper2": 20,
+          "total": 40
+        },
+        "l1ShapeOk": true,
+        "placeholderRatio": 0,
+        "qaPassed": true
+      }
+    ],
+    "NSAA": [
+      {
+        "exam": "NSAA",
+        "year": "2016",
+        "counts": {
+          "mandatoryMath": 18,
+          "partBPhysics": 18,
+          "partCChemistry": 18,
+          "partDBiology": 18,
+          "partEAdvancedMathPhysics": 18,
+          "total": 90
+        },
+        "l1ShapeOk": true,
+        "placeholderRatio": 0,
+        "qaPassed": true
+      },
+      {
+        "exam": "NSAA",
+        "year": "2017",
+        "counts": {
+          "mandatoryMath": 18,
+          "partBPhysics": 18,
+          "partCChemistry": 18,
+          "partDBiology": 18,
+          "partEAdvancedMathPhysics": 18,
+          "total": 90
+        },
+        "l1ShapeOk": true,
+        "placeholderRatio": 0,
+        "qaPassed": true
+      },
+      {
+        "exam": "NSAA",
+        "year": "2018",
+        "counts": {
+          "mandatoryMath": 18,
+          "partBPhysics": 18,
+          "partCChemistry": 18,
+          "partDBiology": 18,
+          "partEAdvancedMathPhysics": 18,
+          "total": 90
+        },
+        "l1ShapeOk": true,
+        "placeholderRatio": 0,
+        "qaPassed": true
+      },
+      {
+        "exam": "NSAA",
+        "year": "2019",
+        "counts": {
+          "mandatoryMath": 18,
+          "partBPhysics": 18,
+          "partCChemistry": 18,
+          "partDBiology": 18,
+          "partEAdvancedMathPhysics": 18,
+          "total": 90
+        },
+        "l1ShapeOk": true,
+        "placeholderRatio": 0,
+        "qaPassed": true
+      },
+      {
+        "exam": "NSAA",
+        "year": "2020",
+        "counts": {
+          "mandatoryMath": 20,
+          "partBPhysics": 20,
+          "partCChemistry": 20,
+          "partDBiology": 20,
+          "partEAdvancedMathPhysics": 0,
+          "total": 80
+        },
+        "l1ShapeOk": true,
+        "placeholderRatio": 0,
+        "qaPassed": true
+      },
+      {
+        "exam": "NSAA",
+        "year": "2021",
+        "counts": {
+          "mandatoryMath": 20,
+          "partBPhysics": 20,
+          "partCChemistry": 20,
+          "partDBiology": 20,
+          "partEAdvancedMathPhysics": 0,
+          "total": 80
+        },
+        "l1ShapeOk": true,
+        "placeholderRatio": 0,
+        "qaPassed": true
+      },
+      {
+        "exam": "NSAA",
+        "year": "2022",
+        "counts": {
+          "mandatoryMath": 20,
+          "partBPhysics": 20,
+          "partCChemistry": 20,
+          "partDBiology": 20,
+          "partEAdvancedMathPhysics": 0,
+          "total": 80
+        },
+        "l1ShapeOk": true,
+        "placeholderRatio": 0,
+        "qaPassed": true
+      },
+      {
+        "exam": "NSAA",
+        "year": "2023",
+        "counts": {
+          "mandatoryMath": 20,
+          "partBPhysics": 20,
+          "partCChemistry": 20,
+          "partDBiology": 20,
+          "partEAdvancedMathPhysics": 0,
+          "total": 80
+        },
+        "l1ShapeOk": true,
+        "placeholderRatio": 0,
+        "qaPassed": true
+      }
+    ]
+  }
+}

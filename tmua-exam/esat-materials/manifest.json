@@ -1,0 +1,226 @@
+{
+  "generatedAt": "2026-03-09T04:03:14.803Z",
+  "source": "https://esat-tmua.ac.uk/esat-preparation-materials/",
+  "exams": {
+    "ENGAA": {
+      "2016": {
+        "questionPaper": "ENGAA_2016_S1_QuestionPaper.pdf",
+        "answerKey": "ENGAA_2016_S1_AnswerKey.pdf",
+        "readyToImport": true,
+        "imported": true,
+        "qaPassed": true,
+        "refinedLevel": "L1",
+        "importStatus": {
+          "paper1Imported": true,
+          "paper2Imported": true
+        }
+      },
+      "2017": {
+        "questionPaper": "ENGAA_2017_S1_QuestionPaper.pdf",
+        "answerKey": "ENGAA_2017_S1_AnswerKey.pdf",
+        "readyToImport": true,
+        "imported": true,
+        "qaPassed": true,
+        "refinedLevel": "L1",
+        "importStatus": {
+          "paper1Imported": true,
+          "paper2Imported": true
+        }
+      },
+      "2018": {
+        "questionPaper": "ENGAA_2018_S1_QuestionPaper.pdf",
+        "answerKey": "ENGAA_2018_S1_AnswerKey.pdf",
+        "readyToImport": true,
+        "imported": true,
+        "qaPassed": true,
+        "refinedLevel": "L1",
+        "importStatus": {
+          "paper1Imported": true,
+          "paper2Imported": true
+        }
+      },
+      "2019": {
+        "questionPaper": "ENGAA_2019_S1_QuestionPaper.pdf",
+        "answerKey": "ENGAA_2019_S1_AnswerKey.pdf",
+        "readyToImport": true,
+        "imported": true,
+        "qaPassed": true,
+        "refinedLevel": "L1",
+        "importStatus": {
+          "paper1Imported": true,
+          "paper2Imported": true
+        }
+      },
+      "2020": {
+        "questionPaper": "ENGAA_2020_S1_QuestionPaper.pdf",
+        "answerKey": "ENGAA_2020_S1_AnswerKey.pdf",
+        "readyToImport": true,
+        "imported": true,
+        "qaPassed": true,
+        "refinedLevel": "L1",
+        "importStatus": {
+          "paper1Imported": true,
+          "paper2Imported": true
+        }
+      },
+      "2021": {
+        "questionPaper": "ENGAA_2021_S1_QuestionPaper.pdf",
+        "answerKey": "ENGAA_2021_S1_AnswerKey.pdf",
+        "readyToImport": true,
+        "imported": true,
+        "qaPassed": true,
+        "refinedLevel": "L1",
+        "importStatus": {
+          "paper1Imported": true,
+          "paper2Imported": true
+        }
+      },
+      "2022": {
+        "questionPaper": "ENGAA_2022_S1_QuestionPaper.pdf",
+        "answerKey": "ENGAA_2022_S1_AnswerKey.pdf",
+        "readyToImport": true,
+        "imported": true,
+        "qaPassed": true,
+        "refinedLevel": "L1",
+        "importStatus": {
+          "paper1Imported": true,
+          "paper2Imported": true
+        }
+      },
+      "2023": {
+        "questionPaper": "ENGAA_2023_S1_QuestionPaper.pdf",
+        "answerKey": "ENGAA_2023_S1_AnswerKey.pdf",
+        "readyToImport": true,
+        "imported": true,
+        "qaPassed": true,
+        "refinedLevel": "L1",
+        "importStatus": {
+          "paper1Imported": true,
+          "paper2Imported": true
+        }
+      }
+    },
+    "NSAA": {
+      "2016": {
+        "questionPaper": "NSAA_2016_S1_QuestionPaper.pdf",
+        "answerKey": "NSAA_2016_S1_AnswerKey.pdf",
+        "readyToImport": true,
+        "imported": true,
+        "qaPassed": true,
+        "refinedLevel": "L1",
+        "importStatus": {
+          "mandatoryMathImported": true,
+          "partBPhysicsImported": true,
+          "partCChemistryImported": true,
+          "partDBiologyImported": true,
+          "partEAdvancedMathPhysicsImported": true
+        }
+      },
+      "2017": {
+        "questionPaper": "NSAA_2017_S1_QuestionPaper.pdf",
+        "answerKey": "NSAA_2017_S1_AnswerKey.pdf",
+        "readyToImport": true,
+        "imported": true,
+        "qaPassed": true,
+        "refinedLevel": "L1",
+        "importStatus": {
+          "mandatoryMathImported": true,
+          "partBPhysicsImported": true,
+          "partCChemistryImported": true,
+          "partDBiologyImported": true,
+          "partEAdvancedMathPhysicsImported": true
+        }
+      },
+      "2018": {
+        "questionPaper": "NSAA_2018_S1_QuestionPaper.pdf",
+        "answerKey": "NSAA_2018_S1_AnswerKey.pdf",
+        "readyToImport": true,
+        "imported": true,
+        "qaPassed": true,
+        "refinedLevel": "L1",
+        "importStatus": {
+          "mandatoryMathImported": true,
+          "partBPhysicsImported": true,
+          "partCChemistryImported": true,
+          "partDBiologyImported": true,
+          "partEAdvancedMathPhysicsImported": true
+        }
+      },
+      "2019": {
+        "questionPaper": "NSAA_2019_S1_QuestionPaper.pdf",
+        "answerKey": "NSAA_2019_S1_AnswerKey.pdf",
+        "readyToImport": true,
+        "imported": true,
+        "qaPassed": true,
+        "refinedLevel": "L1",
+        "importStatus": {
+          "mandatoryMathImported": true,
+          "partBPhysicsImported": true,
+          "partCChemistryImported": true,
+          "partDBiologyImported": true,
+          "partEAdvancedMathPhysicsImported": true
+        }
+      },
+      "2020": {
+        "questionPaper": "NSAA_2020_S1_QuestionPaper.pdf",
+        "answerKey": "NSAA_2020_S1_AnswerKey.pdf",
+        "readyToImport": true,
+        "imported": true,
+        "qaPassed": true,
+        "refinedLevel": "L1",
+        "importStatus": {
+          "mandatoryMathImported": true,
+          "partBPhysicsImported": true,
+          "partCChemistryImported": true,
+          "partDBiologyImported": true,
+          "partEAdvancedMathPhysicsImported": null
+        }
+      },
+      "2021": {
+        "questionPaper": "NSAA_2021_S1_QuestionPaper.pdf",
+        "answerKey": "NSAA_2021_S1_AnswerKey.pdf",
+        "readyToImport": true,
+        "imported": true,
+        "qaPassed": true,
+        "refinedLevel": "L1",
+        "importStatus": {
+          "mandatoryMathImported": true,
+          "partBPhysicsImported": true,
+          "partCChemistryImported": true,
+          "partDBiologyImported": true,
+          "partEAdvancedMathPhysicsImported": null
+        }
+      },
+      "2022": {
+        "questionPaper": "NSAA_2022_S1_QuestionPaper.pdf",
+        "answerKey": "NSAA_2022_S1_AnswerKey.pdf",
+        "readyToImport": true,
+        "imported": true,
+        "qaPassed": true,
+        "refinedLevel": "L1",
+        "importStatus": {
+          "mandatoryMathImported": true,
+          "partBPhysicsImported": true,
+          "partCChemistryImported": true,
+          "partDBiologyImported": true,
+          "partEAdvancedMathPhysicsImported": null
+        }
+      },
+      "2023": {
+        "questionPaper": "NSAA_2023_S1_QuestionPaper.pdf",
+        "answerKey": "NSAA_2023_S1_AnswerKey.pdf",
+        "readyToImport": true,
+        "imported": true,
+        "qaPassed": true,
+        "refinedLevel": "L1",
+        "importStatus": {
+          "mandatoryMathImported": true,
+          "partBPhysicsImported": true,
+          "partCChemistryImported": true,
+          "partDBiologyImported": true,
+          "partEAdvancedMathPhysicsImported": null
+        }
+      }
+    }
+  }
+}

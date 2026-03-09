@@ -1,8 +1,11 @@
 import { Question } from '@/lib/types'
+import { ExamTrack, NsaaPartKey } from '@/lib/exam-catalog'
 
 export interface MistakeItem {
   id: string
   year: string
+  exam?: ExamTrack
+  part?: NsaaPartKey
   paper: number
   index: number
   addedAt: string
@@ -20,8 +23,12 @@ export interface AttemptQuestionOutcome {
 export interface ExamAttempt {
   id: string
   year: string
+  exam?: ExamTrack
+  part?: NsaaPartKey
+  parts?: NsaaPartKey[]
   scoreP1: number
   scoreP2: number
+  scoreP3?: number
   totalScore: number
   grade: number
   takenAt: string
@@ -44,6 +51,15 @@ function mistakesKey(email: string): string {
 
 function attemptsKey(email: string): string {
   return `tmua_attempts_${email.toLowerCase()}`
+}
+
+function inferExamFromQuestionId(questionId: string): { exam: ExamTrack; part?: NsaaPartKey } {
+  if (questionId.startsWith('ENGAA-')) return { exam: 'engaa' }
+  if (questionId.startsWith('NSAA-')) {
+    const partMatch = questionId.match(/-(part-[a-z-]+)$/)
+    return { exam: 'nsaa', part: partMatch?.[1] as NsaaPartKey | undefined }
+  }
+  return { exam: 'tmua' }
 }
 
 export function getCurrentUserEmail(): string | null {
@@ -81,6 +97,8 @@ export function setMistakes(email: string, mistakes: MistakeItem[]): void {
         .map((item) => ({
           id: String(item.id),
           year: String(item.year || 'Unknown'),
+          exam: item.exam === 'engaa' || item.exam === 'nsaa' ? item.exam : 'tmua',
+          part: item.part ? (String(item.part) as NsaaPartKey) : undefined,
           paper: Number(item.paper) || 1,
           index: Number(item.index) || 0,
           addedAt: String(item.addedAt || new Date().toISOString()),
@@ -95,11 +113,14 @@ export function addMistake(email: string, question: Question): boolean {
   if (existing.some((m) => m.id === question.id)) return false
 
   const yearTag = question.tags.find((t) => /^20\d{2}$/.test(t)) ?? 'Unknown'
+  const examMeta = inferExamFromQuestionId(question.id)
   const next: MistakeItem[] = [
     ...existing,
     {
       id: question.id,
       year: yearTag,
+      exam: examMeta.exam,
+      part: examMeta.part,
       paper: question.paper,
       index: question.index,
       addedAt: new Date().toISOString(),
@@ -148,8 +169,12 @@ export function setExamAttempts(email: string, attempts: ExamAttempt[]): void {
         .map((item) => ({
           id: String(item.id),
           year: String(item.year || 'Unknown'),
+          exam: item.exam === 'engaa' || item.exam === 'nsaa' ? item.exam : 'tmua',
+          part: item.part ? (String(item.part) as NsaaPartKey) : undefined,
+          parts: Array.isArray(item.parts) ? item.parts.map((part) => String(part) as NsaaPartKey).slice(0, 2) : undefined,
           scoreP1: Number(item.scoreP1) || 0,
           scoreP2: Number(item.scoreP2) || 0,
+          scoreP3: Number(item.scoreP3) || 0,
           totalScore: Number(item.totalScore) || 0,
           grade: Number(item.grade) || 1,
           takenAt: String(item.takenAt || new Date().toISOString()),

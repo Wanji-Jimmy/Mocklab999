@@ -1,0 +1,1206 @@
+{
+  "exam": "nsaa",
+  "year": "2017",
+  "source": "official-pdf-auto-parse",
+  "mandatoryMath": [
+    {
+      "question": "Evaluate ( 12+ 3 )2 ( 12− 3 )2",
+      "answers": {
+        "a": "1",
+        "b": "3 5 C 3 7 D 3",
+        "e": "3 3",
+        "f": "9"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "Solve fully the inequality 2x2 ≥15−x",
+      "answers": {
+        "a": "x≤−3",
+        "b": "x≥2.5",
+        "c": "x≤−1.5, x≥5",
+        "d": "−1.5≤x≤5",
+        "e": "x≤−3, x≥2.5",
+        "f": "−3≤x≤2.5 © UCLES 2017 7 PART A Mathematics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "The equation gives y in terms of x: (cid:167)x (cid:183) 2 y=3(cid:168) −1(cid:184) −5 (cid:169)2 (cid:185) Which one of the following is a rearrangement for x in terms of y? y−5",
+      "answers": {
+        "a": "x=2±2 3 y+5",
+        "b": "x=2±2 3 y+5",
+        "c": "x=2±3 3 y+5",
+        "d": "x=−2±2 3 y+5",
+        "e": "x=−2±3 2 (cid:167)y+5(cid:183) 2",
+        "f": "x=2+2(cid:168) (cid:184) (cid:169) 3 (cid:185) (cid:167)y+5(cid:183) 2",
+        "g": "x=−2+2(cid:168) (cid:184) (cid:169) 3 (cid:185) © UCLES 2017 [Turn over 8 PART A Mathematics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "A fruit stall sells apples costing £x each, and pears costing £y each. Sam bought 2 apples and 5 pears, and the total cost of these was £P. Lesley bought 3 apples and 2 pears, and the total cost of these was £Q. Which of the following is an expression for the cost, in pounds (£), of a pear? 2Q−3P A 3 2Q−3P B 11 Q−P C 3 Q−P D 11 P−Q E 3 3P−2Q F 3 3P−2Q G 11 © UCLES 2017 9 PART A Mathematics",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "g"
+    },
+    {
+      "question": "P is directly proportional to Q squared. When P is 2, Q is 4. Q is inversely proportional to R. When Q is 2, R is 5. What is P in terms of R? 5",
+      "answers": {
+        "a": "P = R 5",
+        "b": "P = 4R 1",
+        "c": "P = 800R2 5",
+        "d": "P = 4R2 25",
+        "e": "P = 2R2 800",
+        "f": "P = R2 R2",
+        "g": "P = 50 25R2",
+        "h": "P = 2 © UCLES 2017 [Turn over 10 PART A Mathematics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "Two sequences are defined by the following rules: In sequence S the nth term is 7n+1 In sequence T the nth term is 99−n2 What is the smallest value of n for which the nth term of sequence S is greater than the nth term of sequence T?",
+      "answers": {
+        "a": "6",
+        "b": "7",
+        "c": "8",
+        "d": "13",
+        "e": "14",
+        "f": "15"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "Which one of the following is a simplification of ( ) x2 9x2 −4 2− x3(2−3x) 2",
+      "answers": {
+        "a": "−1− x 2",
+        "b": "−1+ x 2",
+        "c": "5− x 2",
+        "d": "5+ x 3",
+        "e": "5− x 3",
+        "f": "5+ x © UCLES 2017 11 PART A Mathematics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "The parallelogram OPQR, labelled clockwise, is in the first quadrant (x≥0, y≥0) with O at the origin. (cid:167)3a (cid:183) The point R has coordinates (cid:168) ,0(cid:184) and the point Q has coordinates (2a, a+1). (cid:169) 2 (cid:185) The area of OPQR is 9 square units. What are the coordinates of point P? (cid:167) 3 (cid:183)",
+      "answers": {
+        "a": "(cid:168) ,1+ 3(cid:184) (cid:168) (cid:184) 2 (cid:169) (cid:185)",
+        "b": "(1, 3)",
+        "c": "(1.5, 4)",
+        "d": "(2, 3)",
+        "e": "(3, 4) ( )",
+        "f": "2 3,1+ 3"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "What is the value of x that makes the following expression correct? 3+2x x −x 2 4 8 = 4 2",
+      "answers": {
+        "a": "−2.25",
+        "b": "−1.75",
+        "c": "−1.5",
+        "d": "−0.5",
+        "e": "−0.25 © UCLES 2017 [Turn over 12 PART A Mathematics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "There are 100 students in Year 10. Each student studies exactly one of French, German, and Spanish. X girls study French and there are 3X girls in total. 2Y boys study German. There are 35 students studying Spanish of which Y are boys. Which of the following is an expression for the total number of students studying German?",
+      "answers": {
+        "a": "X +2Y",
+        "b": "X +Y +35",
+        "c": "X +3Y −35",
+        "d": "2X +2Y",
+        "e": "2X +Y −35",
+        "f": "2X +3Y −35",
+        "g": "2X +Y +35"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "An exterior angle of a regular polygon with n sides is 4° larger than an exterior angle of a regular polygon with(n+3) sides. What is the value of n?",
+      "answers": {
+        "a": "10",
+        "b": "12",
+        "c": "15",
+        "d": "18",
+        "e": "21",
+        "f": "24",
+        "g": "27 © UCLES 2017 13 PART A Mathematics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "The bearing of a ship R from a lighthouse L is 220°",
+      "answers": {
+        "a": "070°",
+        "c": "090°",
+        "b": "080°",
+        "d": "100°",
+        "e": "140°"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "The hands of a 12-hour analogue clock move continuously. When the time on the clock is 4:00, the angle between the minute hand and the hour hand is 120°. What is the angle between the two hands at 4:40?",
+      "answers": {
+        "a": "80°",
+        "b": "100°",
+        "c": "110°",
+        "d": "120°",
+        "e": "140° © UCLES 2017 [Turn over"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "14 PART A Mathematics 14 The cost of manufacturing a cake is directly proportional to the volume of the cake. The baker makes a 70% profit when he sells a large rectangular cake. The baker sells a large rectangular cake for £6.80 The baker decides to sell smaller rectangular cakes. The length, width, and height of the smaller cakes are all half of those of the large rectangular cake. He sells a pack of 6 of the smaller cakes for £6.50 How much profit does he make on the pack of smaller cakes?",
+      "answers": {
+        "a": "£0.50",
+        "b": "£2.93",
+        "c": "£3.00",
+        "d": "£3.50",
+        "e": "£4.97"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "A pet shop has 4 female rabbits and x male rabbits for sale.",
+      "answers": {
+        "a": "2",
+        "b": "4",
+        "c": "6",
+        "d": "8",
+        "e": "9",
+        "f": "11",
+        "g": "12 © UCLES 2017 15 PART A Mathematics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "16 x O The diagram shows a square with side of length xcm. A circle is drawn with centre O which lies at the mid-point of one of the sides of the square. This side forms part of a diameter of the circle. The circle passes through two corners of the square as shown. What is the area, in cm2, of the shaded part of the semi-circle?",
+      "answers": {
+        "a": "(π−1)x2",
+        "b": "(cid:168) (cid:167)π−2 (cid:184) (cid:183) x2 (cid:169) 2 (cid:185)",
+        "c": "(cid:168) (cid:167)3π−2 (cid:184) (cid:183) x2 (cid:169) 2 (cid:185)",
+        "d": "(cid:168) (cid:167)3π−4 (cid:184) (cid:183) x2 (cid:169) 4 (cid:185)",
+        "e": "(cid:168) (cid:167)5π−4 (cid:184) (cid:183) x2 (cid:169) 4 (cid:185)",
+        "f": "(cid:168) (cid:167)5π−8 (cid:184) (cid:183) x2 (cid:169) 8 (cid:185) © UCLES 2017 [Turn over 16 PART A Mathematics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "A cylindrical hollow metal pipe is 16cm long. It has an external diameter of 10cm and an internal diameter of 8cm. The density of the metal from which the pipe is made is 8 grams per cm3. [diagram not to scale] 8cm 16cm 10 cm What is the mass of the pipe in grams?",
+      "answers": {
+        "a": "8π",
+        "b": "16π",
+        "c": "18π",
+        "d": "72π",
+        "e": "128π",
+        "f": "512π",
+        "g": "1152π",
+        "h": "4608π © UCLES 2017 17 PART A Mathematics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "g"
+    },
+    {
+      "question": "The shortest distance between two opposite sides of a regular hexagon is 12cm. Find the area, in cm2, of the regular hexagon.",
+      "answers": {
+        "a": "36 3",
+        "b": "72",
+        "c": "54 3",
+        "d": "108",
+        "e": "72 3",
+        "f": "144",
+        "g": "144 3",
+        "h": "288 3 © UCLES 2017 [Turn over 18 BLANK PAGE © UCLES 2017"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    }
+  ],
+  "partBPhysics": [
+    {
+      "question": "19 PART B Physics PART B Physics © UCLES 2017 [Turn over",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "20 PART B Physics 19 A car is travelling along a horizontal road in a straight line. The graph is a velocity–time graph for part of the car’s journey. 35 velocity /ms–1 30 25 20 15 10 5 0 0 10 20 30 40 50 60 70 80 90 100 110 120 130 140 150 time /s During this part of the journey, what is the total distance that the car travels while it is decelerating?",
+      "answers": {
+        "a": "400m",
+        "b": "500m",
+        "c": "550m",
+        "d": "600m",
+        "e": "750m",
+        "f": "1400m",
+        "g": "1800m",
+        "h": "1900m © UCLES 2017"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "g"
+    },
+    {
+      "question": "21 PART B Physics 20 When a saucepan of water is heated from below, convection currents form and transfer heat through the liquid. Here are three statements about the water as it is heated: 1 The mass of a fixed volume of the water increases. 2 The density of a fixed mass of the water decreases. 3 The volume of a fixed mass of the water increases. Which of these statements help(s) to explain how convection currents are formed?",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 © UCLES 2017 [Turn over"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "22 PART B Physics 21 Table 1 gives the approximate frequency ranges of sections of the electromagnetic spectrum. Table 1 radio infrared visible ultraviolet gamma type of wave microwaves X-rays waves waves light waves rays approximate 3.0×109 3.0×1012 4.3×1014 7.5×1014 3.0×1017 frequency <3.0×109 to to to to to >3.0×1019 range /Hz 3.0×1012 4.3×1014 7.5×1014 3.0×1017 3.0×1019 Table 2 gives information about two different types of wave in air. Waves 1 to 3 are longitudinal waves formed by an object vibrating. Waves 4 to 6 are electromagnetic waves. The speed of sound in air is 300ms–1. The speed of light in air is 3.0×108ms–1. Table 2 wave type of wave wavelength /m 1 longitudinal 1.0×10–4 2 longitudinal 1.0×10–2 3 longitudinal 1.0×10–1 4 electromagnetic 5.0×10–7 5 electromagnetic 5.0×10–1 6 electromagnetic 1.0×103",
+      "answers": {
+        "a": "wave 1 and wave 4",
+        "b": "wave 1 and wave 5",
+        "c": "wave 2 and wave 5",
+        "d": "wave 2 and wave 6",
+        "e": "wave 3 and wave 4",
+        "f": "wave 3 and wave 6 © UCLES 2017"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "23 PART B Physics 22 A charge of 60C passes through an electrical component when a steady voltage of 10V is applied across it for 30 seconds. The resistance of the component remains constant throughout. What is the resistance of the component?",
+      "answers": {
+        "a": "0.050Ω",
+        "b": "0.20Ω",
+        "c": "0.50Ω",
+        "d": "2.0Ω",
+        "e": "5.0Ω",
+        "f": "20Ω © UCLES 2017 [Turn over"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "24 PART B Physics 23 An electric motor is used to pull a broken-down car slowly from the road up a ramp on to the back of a breakdown truck. The car has a mass of 1200kg and is lifted through a vertical height of 1.0m. The total input energy to the motor is 28kJ and it is 75% efficient. In the process of lifting the car, energy is lost to the surroundings from the motor and from other causes. What is the total energy lost to the surroundings? motor 1.0m (gravitational field strength = 10Nkg–1)",
+      "answers": {
+        "a": "7.0kJ",
+        "b": "9.0kJ",
+        "c": "12kJ",
+        "d": "16kJ",
+        "e": "21kJ",
+        "f": "33kJ © UCLES 2017"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "25 PART B Physics 24 In one type of medical scanner a source is placed inside a patient’s body. This source causes pairs of gamma-rays to be emitted simultaneously in opposite directions. Detectors on each side of the patient are used to detect the gamma-rays. The distance between the two detectors is 3.0m. When the source is at Q, half-way between the detectors, the two gamma-rays arrive at the same time. In a particular scan the gamma-rays arrive at the two detectors with a time difference of 4.0×10−10s. Assume that, inside the patient, the gamma-rays travel at a speed of 3.0×108ms–1. How far from Q, half-way between the detectors, is the gamma-ray source?",
+      "answers": {
+        "a": "w + y = 240",
+        "b": "z = 240 − (w + y)",
+        "c": "x = 40 − z",
+        "d": "94 = 54 + x + 1",
+        "e": "240 = 54 + x",
+        "f": "94 = w + y + 1 © UCLES 2017 [Turn over"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "26 PART B Physics 26 An electric motor is connected to a constant 12V d.c. supply. The motor is used to lift a mass of 20kg by means of a rope and pulley. The mass is lifted vertically through a height of 6.0m in a time of 5.0s. The complete lifting system (motor, rope and pulley) is 80% efficient. pulley rope 6.0m motor mass 20 kg What is the current in the electric motor? (gravitational field strength = 10Nkg–1)",
+      "answers": {
+        "a": "1.6A",
+        "b": "2.0A",
+        "c": "2.5A",
+        "d": "16A",
+        "e": "20A",
+        "f": "25A © UCLES 2017"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "27 PART B Physics 27 The nuclide PX decays to the stable nuclide Y. During this process four particles are emitted: Q an α-particle and three β– particles. Which of the following is not a nuclide that could be formed at any stage during this process? nuclide atomic mass atomic number",
+      "answers": {
+        "a": "P Q−1",
+        "b": "P Q+1",
+        "c": "P Q+2",
+        "d": "P Q+3",
+        "e": "P−4 Q−2",
+        "f": "P−4 Q−1",
+        "g": "P−4 Q",
+        "h": "P−4 Q+1"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "The radius of an iron-56 atom is 3.0×104 times greater than the radius of an iron-56 nucleus. densityofanironatom What is the value of ? densityofanironnucleus",
+      "answers": {
+        "a": "(3.0×104)–3",
+        "b": "(3.0×104)–2",
+        "c": "(3.0×104)–1",
+        "d": "(3.0×104)1",
+        "e": "(3.0×104)2",
+        "f": "(3.0×104)3 © UCLES 2017 [Turn over 28 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "Graph 1 shows how the displacement of one of the particles of a medium varies with time in seconds as a wave travels through the medium. displacement Graph 1 0 t t 1 2 time Graph 2 shows how the displacement varies with distance in metres at one time for the same wave. Graph 2 displacement 0 x x 1 2 distance Which expression gives the speed in ms–1 of the wave?",
+      "answers": {
+        "a": "4(x −x ) 2 1 3(t −t ) 2 1",
+        "b": "3(x −x) 2 1 2(t −t ) 2 1",
+        "c": "2(x −x) 2 1 t −t 2 1",
+        "d": "8(x −x) 2 1 3(t −t ) 2 1",
+        "e": "3(x −x) 2 1 t −t 2 1",
+        "f": "6(x −x) 2 1 t −t 2 1 © UCLES 2017 29 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "A kettle is designed to work from a car’s power socket. The kettle has a power rating of 150W when a constant voltage of 12.0V d.c. is applied across its element. How much charge passes through the element of this kettle when the voltage of 12.0V is applied across it for 20 minutes?",
+      "answers": {
+        "a": "96C",
+        "b": "250C",
+        "c": "15000C",
+        "d": "36000C",
+        "e": "900000C",
+        "f": "2160000C"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "A freight train travelling on a straight horizontal track at 2.0ms–1 collides with a passenger train travelling at 5.0ms–1 in the opposite direction. Both trains immediately come to a complete stop on the track. The freight train has three locomotives of 130 tonnes each and seven container wagons of 30 tonnes each. The passenger train has two locomotives of 70 tonnes each and a number of passenger carriages of 10 tonnes each. How many passenger carriages does the passenger train have?",
+      "answers": {
+        "a": "7",
+        "b": "9",
+        "c": "10",
+        "d": "24",
+        "e": "46 © UCLES 2017 [Turn over 30 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "Consider the following four calculations: 1 (200kgms–1)÷(5ms–1) 2 (200J)÷(5m) 3 (200kgm–3)÷(5m3) 4 (200N)÷(5ms–2) Which two calculations result in the answer 40kg?",
+      "answers": {
+        "a": "1 and 2",
+        "b": "1 and 3",
+        "c": "1 and 4",
+        "d": "2 and 3",
+        "e": "2 and 4",
+        "f": "3 and 4 © UCLES 2017 31 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "Consider the following three statements about a parachutist of mass 72kg falling vertically at a constant velocity of 5.0ms–1 after the parachute has opened: 1 The parachutist has a constant kinetic energy of 1800J. 2 The parachutist is losing gravitational potential energy at a rate of 3600Js–1. 3 Air resistance and the force of gravity acting on the parachutist are a Newton’s third law pair of forces. Which of the statements is/are correct? (gravitational field strength = 10Nkg–1)",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 © UCLES 2017 [Turn over 32 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "Two radioactive sources X and Y have half-lives of 3.0 hours and 2.0 hours respectively. The product of the decay of both of the sources is a stable isotope of the element Z. Six hours ago a mixture contained the same number of atoms of both X and Y, and no other atoms. What fraction of the mixture is now made up of atoms of Z? 10 A 16 11 B 16 12 C 16 13 D 16 14 E 16 15 F 16",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "Car X passes car Y on a motorway. Car X is travelling at 1.5 times the speed of car Y. 4 The mass of car X is of the mass of car Y. 5 How do the kinetic energies of the two cars compare?",
+      "answers": {
+        "a": "kinetic energy of car X = 0.90 × kinetic energy of car Y",
+        "b": "kinetic energy of car X = 0.96 × kinetic energy of car Y",
+        "c": "kinetic energy of car X = 1.20 × kinetic energy of car Y",
+        "d": "kinetic energy of car X = 1.44 × kinetic energy of car Y",
+        "e": "kinetic energy of car X = 1.80 × kinetic energy of car Y © UCLES 2017 33 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "In the following circuit the ammeter shows a reading of 4.0A. A 4.0Ω 12Ω The power dissipated in the 12Ω resistor is 12W. What is the power dissipated in the 4.0Ω resistor?",
+      "answers": {
+        "a": "3.0W",
+        "b": "4.0W",
+        "c": "12W",
+        "d": "16W",
+        "e": "36W © UCLES 2017 [Turn over 34 BLANK PAGE © UCLES 2017 35 PART C Chemistry PART C Chemistry © UCLES 2017 [Turn over 36 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    }
+  ],
+  "partCChemistry": [
+    {
+      "question": "Consider the atoms/ions below: 24Mg2+ 16O2– 18O 32S2– 12 8 8 16 Which of the following statements is/are correct? 1 Both 16O2– and 24Mg2+ have the same electronic configuration. 8 12 2 32S2– has double the number of neutrons that are in 18O. 16 8 3 The sum of the numbers of electrons in 16O2– and 18O is equal to the number of 8 8 electrons in 32S2–. 16",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 © UCLES 2017 37 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "Which two of the following reactions involve oxidation? 1 Ca → Ca2+ + 2e– 2 Cl + 2e– → 2Cl– 2 3 Fe O + 3CO → 2Fe + 3CO 2 3 2 4 MgCO + 2HCl → MgCl + CO + H O 3 2 2 2",
+      "answers": {
+        "a": "1 and 2 only",
+        "b": "1 and 3 only",
+        "c": "1 and 4 only",
+        "d": "2 and 3 only",
+        "e": "2 and 4 only",
+        "f": "3 and 4 only © UCLES 2017 [Turn over 38 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "Hydrochloric acid (HCl) is a strong acid. Properties of a solution of 1.00moldm–3 hydrochloric acid include: 1 It turns blue litmus indicator red. 2 On reaction with sodium carbonate gaseous carbon dioxide is evolved. 3 25.0cm3 of this acid solution neutralises 25.0cm3 of 1.00moldm–3 sodium hydroxide solution. Ethanoic acid (CH COOH) is a weak acid. 3 Which of the three properties is/are also correct for a 1.00moldm–3 solution of ethanoic acid?",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 © UCLES 2017 39 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "h"
+    },
+    {
+      "question": "Consider the following reactions: Reaction Q: CH =CH (g) + H O(g) CH CH OH(g) ΔH is −ve 2 2 2 3 2 Reaction R: PCl (g) PCl (g) + C(cid:1430)l (g) ΔH is +ve 5 3 2 The following actions could be applied (cid:1430)independently to each reaction (Q and R) above: 1 increase the pressure 2 increase the temperature 3 use a suitable catalyst Assuming that all other conditions remain constant, which of these actions will increase the initial rate of reaction and increase the yield of products for both reactions Q and R?",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "1 or 2 only",
+        "d": "1 or 3 only",
+        "e": "2 only",
+        "f": "2 or 3 only",
+        "g": "3 only",
+        "h": "1, 2 or 3 © UCLES 2017 [Turn over 40 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "Study the chromatogram below showing the spots obtained, labelled (i) to (v), from two sweets and pure samples of the food additives, labelled Q, R and S. solvent front (v) (ii) (iv) (iii) (i) X X X X X baseline sweet1sweet2 Q R S Which of the following statements about the chromatogram is/are correct? 1 Both sweet 1 and 2 contain additives R and S. 2 The R value for spot (iv) is half that for spot (iii). f 3 The R value for spot (v) is 0.7. f",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 © UCLES 2017 41 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "Element X has atomic number 20. Consider only the simple oxide of X. Which of the following options identifies the formula, the type of bonding and the acid-base character of the oxide of element X? type of bonding in acid-base character formula of oxide oxide of oxide",
+      "answers": {
+        "a": "X O ionic basic 2",
+        "b": "X O covalent basic 2",
+        "c": "XO ionic basic",
+        "d": "XO covalent acidic",
+        "e": "XO ionic acidic 2",
+        "f": "XO covalent acidic 2",
+        "g": "X O ionic basic 2 3",
+        "h": "X O covalent acidic 2 3"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "Solid copper(II) chloride contains Cu2+ ions and Cl– ions only. Solid lithium phosphate(V) contains Li+ ions and PO 3– ions only. 4 Aqueous solutions of copper(II) chloride and lithium phosphate(V) are mixed to produce a precipitate of copper(II) phosphate(V) and an aqueous solution of lithium chloride. Which of the following represents the balanced ionic equation for this process?",
+      "answers": {
+        "a": "Cu2+(aq) + 2e– → Cu(s)",
+        "b": "2Cu2+(aq) + 3PO 3–(aq) → Cu (PO ) (s) 4 2 4 3",
+        "c": "2Cu2+(aq) + 5PO 3–(aq) → Cu (PO ) (s) 4 2 4 5",
+        "d": "3Cu2+(aq) + 2PO 3–(aq) → Cu (PO ) (s) 4 3 4 2",
+        "e": "3Cu2+(aq) + 6Cl–(aq) + 6Li+(aq) + 2PO 3–(aq) → Cu (PO ) (s) + 6LiCl(aq) 4 3 4 2",
+        "f": "3CuCl (aq) + 2Li PO (aq) → Cu (PO ) (s) + 6LiCl(aq) 2 3 4 3 4 2 © UCLES 2017 [Turn over 42 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "Which of the following statements about the reaction of lithium with water are correct? 1 The reaction is a redox reaction. 2 7g of lithium will react with excess water to produce 2g of hydrogen gas. 3 The reaction produces a solution with a pH greater than that of water. 4 14g of lithium will exactly react with 36g of water. (A values: H=1; Li=7; O=16) r",
+      "answers": {
+        "a": "1 and 2 only",
+        "b": "1 and 4 only",
+        "c": "1, 2 and 3 only",
+        "d": "1, 3 and 4 only",
+        "e": "2 and 3 only",
+        "f": "3 and 4 only © UCLES 2017 43 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "Consider this electrochemical cell containing an aqueous copper(II) chloride electrolyte: 9V d.c. pure copper cathode graphite anode (negative electrode) (positive electrode) 2moldm–3 CuCl (aq) electrolyte 2 Which row in the following table identifies the reactions occurring at the electrodes? cathode (negative electrode) anode (positive electrode)",
+      "answers": {
+        "a": "Cu2+(aq) + 2e– → Cu(s) Cu(s) → Cu2+(aq) + 2e–",
+        "b": "Cu(s) → Cu2+(aq) + 2e– Cu2+(aq) + 2e– → Cu(s)",
+        "c": "2Cl–(aq) → Cl (g) + 2e– Cu2+(aq) + 2e– → Cu(s) 2",
+        "d": "Cu2+(aq) + 2e– → Cu(s) 2Cl–(aq) → Cl (g) + 2e– 2",
+        "e": "Cu(s) → Cu2+(aq) + 2e– 2OH–(aq) → H (g) + O (g) + 2e– 2 2"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "A fluorocarbon has a relative molecular mass which is twice that of its empirical formula mass. 81g of the compound contains 57g of fluorine. What is the molecular formula of the compound? (A values: C=12; F=19) r",
+      "answers": {
+        "a": "C F 2 3",
+        "b": "C F 2 5",
+        "c": "C F 3 6",
+        "d": "C F 3 8",
+        "e": "C F 4 6",
+        "f": "C F 4 10 © UCLES 2017 [Turn over 44 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "In which of the following reactions is there a change in volume of 24dm3, when measured at room temperature and pressure? 1 56g of carbon monoxide completely reacts with an excess of oxygen 2CO(g) + O (g) → 2CO (g) 2 2 2 36g of steam is fully decomposed 2H O(g) → 2H (g) + O (g) 2 2 2 3 30g of nitrogen monoxide completely reacts with an excess of oxygen 2NO(g) + O (g) → 2NO (g) 2 2 (A values: C=12; O=16; H=1.0; N=14. Assume that one mole of gas occupies a volume of r 24dm3 at room temperature and pressure.)",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 © UCLES 2017 45 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "Magnesium reacts with sulfuric acid according to the following chemical equation: Mg(s) + H SO (aq) → MgSO (aq) + H (g) 2 4 4 2 Line P on each graph shows how the volume of hydrogen formed changes with time when 1.2g of magnesium reacts with 40cm3 of 1.0moldm–3 sulfuric acid at 20°C. (A value: Mg=24) r Two further experiments were carried out and the volumes of hydrogen formed were plotted. Experiment Q: 1.2g of magnesium + 40cm3 of 2.0moldm–3 sulfuric acid at 20°C Experiment R: 1.2g of magnesium + 40cm3 of 0.5moldm–3 sulfuric acid at 20°C experiment Q time /s © UCLES 2017 [Turn over 3mc/ negordyh fo emulov experiment R time /s 3mc/ negordyh fo emulov 3 2 1 P P 4 5 0 0 0 0 Which lines show how the volume of hydrogen formed will change with time in each experiment? experiment Q experiment R",
+      "answers": {
+        "a": "1 4",
+        "b": "1 5",
+        "c": "2 4",
+        "d": "2 5",
+        "e": "3 4",
+        "f": "3 5 46 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "Nitrogen and hydrogen react together to form ammonia as shown below: N (g) + 3H (g) → 2NH (g) 2 2 3 The energy released by this reaction is 93kJmol–1. What is the bond energy in the nitrogen molecule? (Bond energies: H – H = 436 kJ mol –1; N – H = 391 kJ mol –1)",
+      "answers": {
+        "a": "315kJmol–1",
+        "b": "513kJmol–1",
+        "c": "644kJmol–1",
+        "d": "864kJmol–1",
+        "e": "945kJmol–1",
+        "f": "1131kJmol–1 © UCLES 2017 47 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "Consider the following two electrolytic processes: electrolysis of molten lead(II) chloride electrolysis of brine (sodium chloride solution) Which of the following statements is/are correct? 1 In both processes, reduction takes place at the negative electrode. 2 If 20.0g of product is formed at the negative electrode in each process, then both processes produce the same volume of chlorine gas, measured at room temperature and pressure. 3 In both processes, a metal is produced at the negative electrode. (A values: Cl=35.5; H=1.00; Na=23.0; Pb=207. Assume that one mole of gas occupies r 24.0dm3 at room temperature and pressure.)",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 © UCLES 2017 [Turn over 48 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "Silver nitrate solution reacts with zinc powder in an exothermic reaction: 2AgNO (aq) + Zn(s) → 2Ag(s) + Zn(NO ) (aq) 3 3 2 The graph shows the maximum temperature rise as different masses of zinc react with separate 50.0cm3 samples of 0.100moldm–3 silver nitrate solution. © UCLES 2017 esir erutarepmet Y mass of zinc What is the mass of zinc at the position labelled Y? (A value: Zn=65) r",
+      "answers": {
+        "a": "0.163g",
+        "b": "0.325g",
+        "c": "0.650g",
+        "d": "1.63g",
+        "e": "3.25g",
+        "f": "6.50g 49 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "Natural samples of copper contain two isotopes: 63Cu which has a relative isotopic mass of 62.93, and 65Cu which has a relative isotopic mass of 64.93. The relative atomic mass of a sample of elemental copper is 63.55. What is the percentage abundance of each of the two isotopes to the nearest whole number?",
+      "answers": {
+        "a": "27% 63Cu and 73% 65Cu",
+        "b": "73% 63Cu and 27% 65Cu",
+        "c": "31% 63Cu and 69% 65Cu",
+        "d": "69% 63Cu and 31% 65Cu",
+        "e": "36% 63Cu and 64% 65Cu",
+        "f": "64% 63Cu and 36% 65Cu © UCLES 2017 [Turn over 50 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "The reaction between calcium carbonate and hydrochloric acid was used to measure the effect of changing conditions on the mass of CO produced and the rate of CO production. 2 2 CaCO (s) + 2HCl(aq) → CaCl (aq) + H O(l) + CO (g) 3 2 2 2 The experiment was carried out five times with different conditions at a constant temperature. The following conditions were varied: CaCO as chips or powder 3 mass of CaCO 3 volume of HCl concentration of HCl Which experiment (A-E) in the following table will produce 8.8g of carbon dioxide in the shortest time? (M values: CaCO =100; CO =44) r 3 2 CaCO HCl 3 type mass /g volume /cm3 concentration /moldm–3",
+      "answers": {
+        "a": "chips 10 400 2.0",
+        "b": "powder 20 100 2.0",
+        "c": "chips 20 200 2.0",
+        "d": "powder 10 200 2.0",
+        "e": "chips 20 400 1.0 © UCLES 2017 51 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "An atom of1H has a radius of 0.05 nanometres. 1 The radius of the nucleus of this atom is approximately 50000 times smaller. What is the approximate radius of the nucleus in femtometres? (1 femtometre = 10–15m)",
+      "answers": {
+        "a": "1000",
+        "b": "100",
+        "c": "10",
+        "d": "1",
+        "e": "0.1",
+        "f": "0.01 © UCLES 2017 [Turn over 52 BLANK PAGE © UCLES 2017 53 PART D Biology PART D Biology © UCLES 2017 [Turn over 54 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    }
+  ],
+  "partDBiology": [
+    {
+      "question": "The graph shows the concentration of lactic acid in the blood of two students at rest, then carrying out the same level of exercise for 15 minutes, and then at rest again. rest exercise rest student P student Q time/minutes © UCLES 2017 stinu yrartibra / noitartnecnoc dica citcal 100 50 0 0 Which of the following statements correctly describe(s) the two students? 1 Student P’s oxygen debt is repaid much quicker than student Q’s. 2 Student P has a lower oxygen debt than student Q. 3 Student P has a higher level of fitness than student Q.",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 55 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "Spontaneous mutations occur in the genetic material of all living organisms. Which pie chart best represents the proportion of mutations that are beneficial, mutations that are harmful, and mutations that have no effect? Key beneficial harmful no effect",
+      "answers": {
+        "a": "B C",
+        "d": "E F © UCLES 2017 [Turn over 56 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "Ten randomly placed quadrats were used to estimate the frequency of occurrence of three plant species in a field. number of individuals of quadrat number species X species Y species Z 1 4 1 5 2 11 0 12 3 3 5 13 4 0 0 9 5 2 9 4 6 1 8 2 7 7 2 6 8 14 24 0 9 6 0 2 10 7 3 0 What was the correct lowest frequency of occurrence calculated from X or Y or Z?",
+      "answers": {
+        "a": "0",
+        "b": "0.2",
+        "c": "0.7",
+        "d": "1.0",
+        "e": "1.4",
+        "f": "5.2",
+        "g": "52.0 © UCLES 2017 57 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "Which of the following statements about stem cells in a healthy human female is/are correct? 1 An adult stem cell contains the same genes as an epithelial cell from that organism. 2 Stem cells from this human will all contain two X chromosomes. 3 When a stem cell divides it produces a new stem cell plus two specialised body cells. (Assume that no mutations have occurred.)",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "Which of the following will always lead to an increase in the size of a population? 1 removal of intraspecific competitors 2 supplying more of the nutrient that is at the lowest concentration 3 change in the organism’s rate of reproduction",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 © UCLES 2017 [Turn over 58 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "The diagram shows three features which are used to group organisms. within the cell is a cell has an membrane-bound structure external wall that contains DNA forming a layer that gives it a defined shape P S Q R cell uses enzymes to release energy for cell processes Fungi, bacteria and animals can each be placed in one of the regions labelled P, Q, R or S on the diagram. Which row in the following table is correct? fungi bacteria animals",
+      "answers": {
+        "a": "P S R",
+        "b": "P R S",
+        "c": "Q R P",
+        "d": "S Q R",
+        "e": "S S S",
+        "f": "R P Q",
+        "g": "R Q P © UCLES 2017 59 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "A desert food chain is shown below. cactus rat rattlesnake hawk Assume that 10% of the energy from each stage in the food chain is passed on. If 150000 units of energy are contained in the producer, how much energy will be lost in the transfer between the primary and secondary consumers?",
+      "answers": {
+        "a": "1500",
+        "b": "13500",
+        "c": "15000",
+        "d": "135000",
+        "e": "148500"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "Which of the following statements about bacterial cell division is/are correct? 1 Daughter cells show a large degree of genetic difference to the parent cell. 2 After each division, two daughter cells are produced by mitosis. 3 Chromosome replication occurs in the cytoplasm of the bacteria.",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 © UCLES 2017 [Turn over 60 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "Young plant roots show a similar positive response to the direction of gravity as their shoots do to the direction of light.",
+      "answers": {
+        "a": "(cid:160) (cid:158)",
+        "b": "(cid:160) ⇐",
+        "c": "(cid:160) (cid:160)",
+        "d": "(cid:158) ⇐",
+        "e": "(cid:158) (cid:160)",
+        "f": "⇐ (cid:158)",
+        "g": "⇐ (cid:160)",
+        "h": "⇐ ⇐ © UCLES 2017 61 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "g"
+    },
+    {
+      "question": "An inherited condition is caused by a recessive allele. The family tree shows the inheritance of this condition in one family. Key female with condition male with condition female without condition male without condition One of the daughters in this family tree has children with a man who does not have the condition. For the two situations described in the table, which row shows the probability that their first child will be a girl who has the condition? (Assume no new mutations.) father is father is homozygous dominant heterozygous",
+      "answers": {
+        "a": "0 0",
+        "b": "0 0.125",
+        "c": "0 0.25",
+        "d": "0.5 0",
+        "e": "0.5 0.125",
+        "f": "0.5 0.25 © UCLES 2017 [Turn over 62 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "The diagram shows the apparatus used to investigate the movement of molecules across a partially permeable membrane. Sucrose is unable to cross the partially permeable membrane. capillary tube level P concentrated sucrose solution glass tube partially permeable water membrane Which graph correctly shows how the height of solution in the capillary tube changes over 15 minutes? A time © UCLES 2017 P level fo thgieh B 0 0 P level fo thgieh C 0 0 time time P level fo thgieh 0 0 D time P level fo thgieh E 0 0 time P level fo thgieh 0 0 63 PART D Biology",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "The diagram shows the life cycle of a simple type of plant. adult plant stage P (n) 1 4 spores female gamete male gamete (n) (n) (n) 2 3 adult plant stage Q (2n) Key n = haploid number of chromosomes 2n = diploid number of chromosomes At which two of the numbered stages does only mitosis occur?",
+      "answers": {
+        "a": "1 and 2 only",
+        "b": "1 and 3 only",
+        "c": "1 and 4 only",
+        "d": "2 and 3 only",
+        "e": "2 and 4 only",
+        "f": "3 and 4 only © UCLES 2017 [Turn over 64 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "Three different coloured leaves were collected: a dark green leaf, a light green leaf and a yellow leaf. Each leaf had 16 discs of 1cm diameter cut from it. The discs were treated with sodium hydrogen carbonate solution to replace all the air from the spaces within the leaf. Sodium hydrogen carbonate solution is a source of carbon dioxide. To start the experiment, each group of discs was then placed in a beaker of sodium hydrogen carbonate. At the beginning of the experiment all of the discs sank. Each beaker was illuminated for 30 minutes by being placed 10cm in front of a lamp that provided the same wavelengths of light as sunlight. It was observed that some of the leaf discs floated. The number of floating leaf discs was counted every minute for 15 minutes. The results are shown in the graph. (All other variables were kept constant.) 18 16 Key dark green leaf discs 14 12 light green leaf discs 10 yellow leaf discs 8 6 4 2 0 0 5 10 15 time /minutes © UCLES 2017 scsid gnitaolf fo rebmun Which of the following statements is/are correct? 1 The average rate of photosynthesis was highest in the darkest leaves. 2 At 5 minutes 25% of the light green discs remained at the bottom of the beaker. 3 The reciprocal of the time taken for a quarter of the discs of a particular colour to float can be a measure of the relative rate of photosynthesis.",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 65 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "A student carried out an experiment to investigate the effect of enzyme concentration on the rate of an enzyme-controlled reaction. The student used a starch agar plate with five identically sized small wells cut into the agar. The wells were filled with identical volumes of different concentrations of amylase solution, as shown in the diagram. starch agar plate contains 1% amylase Key well in the agar contains 0.0001% contains 0.1% amylase amylase contains 0.001% contains 0.01% amylase amylase The starch agar plate was incubated overnight and the plate was then flooded with iodine solution. Most of the agar stained blue, but there was a clear area around each well where starch had been digested by the amylase. The student measured and recorded the diameter of the clear area that formed. The results are shown in the table below. diameter of clear area that forms around the percentage concentration of amylase well containing amylase /mm 1.0 27 0.1 24 0.01 15 0.001 12 0.0001 9 Which of the following factors could have affected the diameter of the clear area around the wells containing amylase? 1 pH of the starch agar 2 concentration of the amylase solution 3 temperature at which the plates were incubated",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 © UCLES 2017 [Turn over 66 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "h"
+    },
+    {
+      "question": "The diagram shows the start of an experiment on the effect of light direction on young shoots. All of the shoots were growing vertically. All of the shoots were the same distance from the light source. All of the shoots were continually exposed to the light from one side for 24 hours. (All other variables were kept constant.) direction of light view from above P Q R view from side control tip of shoot shoot covered with removed opaque sheath (tip exposed) Every six hours, the distance between the light source and the top of each shoot was measured. The distance from the light source relative to the position at the start of the experiment was plotted on the following graphs. graph 1 graph 2 graph 3 + + + 0 0 0 6 12 18 24 6 12 18 24 6 12 18 24 time / hrs time / hrs time / hrs © UCLES 2017 pot eht fo ecnatsid evitaler ecruos thgil morf toohs eht fo pot eht fo ecnatsid evitaler ecruos thgil morf toohs eht fo pot eht fo ecnatsid evitaler ecruos thgil morf toohs eht fo Which row represents the responses of the shoots to the light over 24 hours? P Q R",
+      "answers": {
+        "a": "1 2 1",
+        "b": "1 3 1",
+        "c": "1 3 2",
+        "d": "2 1 3",
+        "e": "2 2 1",
+        "f": "3 1 3",
+        "g": "3 2 2 67 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "The table shows some of the genetic codes for amino acids: amino acid coded for genetic code (three-letter abbreviations) AGA Arg AGG Arg ATG Met CCC Pro CCG Pro CGA Arg CTG Leu GAC Asp GGA Gly GTC Val GTG Val TAG Stop (ends protein synthesis) TGG Trp TTA Leu TTG Leu The base sequence below shows the middle part of a gene coding for a protein:",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 © UCLES 2017 [Turn over 68 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "h"
+    },
+    {
+      "question": "A power station released warm water into a river. This is an example of water pollution because the temperature of the river water was increased.",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 69 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "In a monohybrid cross, two heterozygotes were allowed to mate and the resulting offspring showed a 2:1 phenotypic ratio. Which of the following statements could explain this ratio? 1 The number of offspring produced was small. 2 The recessive condition was lethal prior to birth. 3 Being homozygous dominant was lethal prior to birth.",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 © UCLES 2017 [Turn over 70 BLANK PAGE © UCLES 2017 71 PART E Advanced Mathematics and Advanced Physics PART E Advanced Mathematics and Advanced Physics NOTE: questions in this part that are not covered by the ESAT content specification are indicated by a cross through the question number. © UCLES 2017 [Turn over 72 PART E Advanced Mathematics and Advanced Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    }
+  ],
+  "partEAdvancedMathPhysics": [
+    {
+      "question": "Which one of the following is a simplification of 2 (cid:167) 3+ 3 (cid:183) 1−(cid:168) (cid:184) (cid:168) (cid:184) (cid:169)6−2 3(cid:185) 3",
+      "answers": {
+        "a": "− 4 3 B 4 3 3",
+        "c": "− − 4 7 3 3",
+        "d": "− 4 7 3",
+        "e": "− − 3 4 3",
+        "f": "− 3 4 3",
+        "g": "− 2 3 H 2 © UCLES 2017 73 PART E Advanced Mathematics and Advanced Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "The diagram shows a crane being used on a building site. The crane is perfectly balanced about P. [diagram not to scale] 10m 10m P counterweight = 2000kg load = 400kg weight of the horizontal section of the crane The load is now moved to the left by 5.0m. To keep the crane perfectly balanced about P, how far does the counterweight have to move, and in which direction? (gravitational field strength = 10Nkg–1)",
+      "answers": {
+        "a": "1.0m to the left",
+        "b": "1.0m to the right",
+        "c": "3.0m to the left",
+        "d": "3.0m to the right",
+        "e": "4.0m to the left",
+        "f": "4.0m to the right © UCLES 2017 [Turn over 74 PART E Advanced Mathematics and Advanced Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "k is the smallest positive value of x which is a solution to both the equations 2sinx+1=0 and 2cos2x=1 How many values of x in the range 0≤x≤k are solutions to at least one of these equations?",
+      "answers": {
+        "a": "0",
+        "b": "2",
+        "c": "3",
+        "d": "4",
+        "e": "8"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "An aircraft is climbing at constant speed in a straight line at an angle of 10° to the horizontal. Which statement about the resultant force on the aircraft is correct?",
+      "answers": {
+        "a": "It is parallel to its motion.",
+        "b": "It is perpendicular to its motion.",
+        "c": "It is zero.",
+        "d": "It is equal to its weight.",
+        "e": "It is equal to the drag acting on the aircraft."
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "Which of the following is a solution to the equation 3 (2x+1) −6(3 x )=0?",
+      "answers": {
+        "a": "log 3 2",
+        "b": "log 2 3",
+        "c": "2",
+        "d": "log 2 10 2 E 3 © UCLES 2017 75 PART E Advanced Mathematics and Advanced Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "A ball starts at a speed of 40.0ms–1. The ball is subject to a constant deceleration of 14.4ms–2 as it travels a distance of 20.0m in a straight line. What is the final speed of the ball?",
+      "answers": {
+        "a": "16.0ms–1",
+        "b": "20.0ms–1",
+        "c": "25.6ms–1",
+        "d": "32.0ms–1",
+        "e": "36.2ms–1",
+        "f": "39.3ms–1"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "The graph of the function y=x3 + px2+qx+6, where p and q are real constants, has a local maximum when x=2 and a local minimum when x=4. What are the values of p and q?",
+      "answers": {
+        "a": "p=−3 and q=−8",
+        "b": "p=−3 and q=8",
+        "c": "p=3 and q=−8",
+        "d": "p=−9 and q=24",
+        "e": "p=9 and q=24",
+        "f": "p=9 and q=−24 © UCLES 2017 [Turn over 76 PART E Advanced Mathematics and Advanced Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "A block of mass 1.0kg is at rest on a rough horizontal surface. The block is attached by a light inextensible string to a force meter. The other end of the force meter is attached by another light inextensible string via a frictionless pulley to a load of mass 1.0kg. The block remains stationary. force meter pulley rough surface 1.0kg string 1.0kg What is the reading on the force meter? (gravitational field strength = 10Nkg–1)",
+      "answers": {
+        "a": "0.0N",
+        "b": "0.5N",
+        "c": "1.0N",
+        "d": "2.0N",
+        "e": "5.0N",
+        "f": "10N",
+        "g": "20N dy"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "Given that y=(2+3x)6, what is the coefficient of x3 in ? dx",
+      "answers": {
+        "a": "240",
+        "b": "4320",
+        "c": "4860",
+        "d": "12960",
+        "e": "19440 © UCLES 2017 77 PART E Advanced Mathematics and Advanced Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "An apple of mass 100g, growing on a tree, falls vertically from a height of 4.0m above the ground. It hits the ground with a speed of 8.0ms–1. How much work does the apple do against resistive forces during its descent, before it hits the ground? (gravitational field strength = 10Nkg–1)",
+      "answers": {
+        "a": "0.80J",
+        "b": "3.6J",
+        "c": "4.0J",
+        "d": "7.2J",
+        "e": "8.0J 1"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "A geometric progression has first term equal to 1 and common ratio sin2x 2 4 The sum to infinity of the series is 3 Find the possible values of x in the range π≤x≤2π 13 17",
+      "answers": {
+        "a": "π, π 12 12 7 4",
+        "b": "π, π 6 3 7 11",
+        "c": "π, π 6 6 5 7",
+        "d": "π, π 4 4",
+        "e": "there are no values of x in this range © UCLES 2017 [Turn over 78 PART E Advanced Mathematics and Advanced Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "A stone is fired vertically upwards at a speed of 13ms–1 on a still day from the top of a 6.0m high cliff. It then falls down and lands at the bottom of the cliff. [diagram not to scale] stone 13ms–1 6.0m From when the stone passes the top of the cliff on the way down, how long does it take to reach the ground at the bottom of the cliff? (air resistance can be ignored; gravitational field strength = 10Nkg–1)",
+      "answers": {
+        "a": "0.40s 6.0",
+        "b": "s 6.5",
+        "c": "0.60s",
+        "d": "1.2s",
+        "e": "1.3s",
+        "f": "2.0s",
+        "g": "2.5s",
+        "h": "3.0s © UCLES 2017 79 PART E Advanced Mathematics and Advanced Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "The sequence of numbers u ,u ,u ,...,u ,... is given by 1 2 3 n u = 2 1 u = pu +3 n+1 n where p is an integer. The fourth term, u , is equal to −7 4 What is the value of u +u +u +u ? 1 2 3 4",
+      "answers": {
+        "a": "–10",
+        "b": "– 2",
+        "c": "–1",
+        "d": "8",
+        "e": "26 © UCLES 2017 [Turn over 80 PART E Advanced Mathematics and Advanced Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "An archer fires an arrow of mass 0.024kg vertically upwards from a bow. The graph shows how the force of the bowstring on the arrow varies with distance as the arrow moves upwards. force /N 192 0 0 0.40 distance /m The work done by the force of the bowstring is given by the area under the force-distance graph. When the arrow leaves the bow, what is the kinetic energy of the arrow, and what is the maximum height that it gains from this point? (Air resistance can be ignored. The effect of gravity as the arrow is fired is negligible compared to the force of the bowstring. The gravitational field strength = 10Nkg–1.) kinetic energy /J height /m",
+      "answers": {
+        "a": "38.4 16",
+        "b": "38.4 160",
+        "c": "38.4 1600",
+        "d": "38.4 16000",
+        "e": "76.8 32",
+        "f": "76.8 320",
+        "g": "76.8 3200",
+        "h": "76.8 32000 © UCLES 2017 81 PART E Advanced Mathematics and Advanced Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "Find the complete set of values of x for which x3 −6x2+9x−4 >0 x",
+      "answers": {
+        "a": "x<0, x>4",
+        "b": "0<x<4",
+        "c": "0<x<1, x>4",
+        "d": "x<0, 1<x<4",
+        "e": "x<1, x>4",
+        "f": "1<x<4"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "A book of mass m rests on a rough horizontal surface. The surface is now tilted as shown: book surface θ When the angle of tilt θ is 20°, the book slides down the slope at a constant speed. What is the acceleration of the book down the slope when the angle of tilt is 25°? (gravitational field strength = g)",
+      "answers": {
+        "a": "g (cos20° − sin20°tan5°)",
+        "b": "g (cos20° − sin20°tan25°)",
+        "c": "g (cos25° − sin5°tan20°)",
+        "d": "g (cos25° − sin25°tan20°)",
+        "e": "g (sin20° − cos20°tan5°)",
+        "f": "g (sin20° − cos20°tan25°)",
+        "g": "g (sin25° − cos5°tan20°)",
+        "h": "g (sin25° − cos25°tan20°) © UCLES 2017 [Turn over 82 PART E Advanced Mathematics and Advanced Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "h"
+    },
+    {
+      "question": "The equations of two straight lines are y=3+(2p2− p)x and y=7+(p−2)x, where p is a real constant. For certain values of p, the two lines are perpendicular. Which of the following numbers is closest to the greatest such value of p?",
+      "answers": {
+        "a": "2.00",
+        "b": "1.75",
+        "c": "1.50",
+        "d": "1.00",
+        "e": "−0.25",
+        "f": "−0.50"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "The graph shows how the horizontal force on a tennis ball of mass m varies during a shot in a tennis match. The ball is initially travelling horizontally toward the racket with speed u and leaves the racket horizontally travelling in the opposite direction with speed v. force /N F 0 t t 0 time/s 1 2 Which expression gives the magnitude of the momentum of the ball as it leaves the racket?",
+      "answers": {
+        "a": "F(t − t ) 2 1",
+        "b": "F(t − t ) − mu 2 1",
+        "c": "F(t − t ) + mu 2 1",
+        "d": "mv − mu",
+        "e": "Ft − mu 2 © UCLES 2017 83 BLANK PAGE © UCLES 2017 84 © UCLES 2017"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    }
+  ]
+}

@@ -1,0 +1,904 @@
+Copyright © UCLES 2018
+*3038825094*
+ENGINEERING D564/11
+ADMISSIONS ASSESSMENT
+Wednesday 31 October 2018 80 minutes
+SECTION 1
+INSTRUCTIONS TO CANDIDATES
+Please read these instructions carefully, but do not open this question paper until you are
+told that you may do so. This paper is Section 1 of 2.
+A separate answer sheet is provided for this paper. Please check you have one. You also require
+a soft pencil and an eraser.
+Please complete the answer sheet with your candidate number, centre number, date of birth, and
+name.
+At the end of 80 minutes, your supervisor will collect this question paper and answer sheet before
+giving out Section 2.
+This paper contains two parts, A and B, and you should attempt both parts.
+Part A Mathematics and Physics (28 questions)
+Part B Advanced Mathematics and Advanced Physics (26 questions)
+This paper contains 54 multiple-choice questions. There are no penalties for incorrect responses,
+only marks for correct answers, so you should attempt all 54 questions. Each question is worth
+one mark.
+For each question, choose the one option you consider correct and record your choice on the
+separate answer sheet. If you make a mistake, erase thoroughly and try again.
+You must complete the answer sheet within the time limit.
+You can use the question paper for rough working, but no extra paper is allowed. Only your
+responses on the answer sheet will be marked.
+Dictionaries and calculators may NOT be used.
+Please wait to be told you may begin before turning this page.
+This question paper consists of 42 printed pages and 2 blank pages.
+PV2
+BLANK PAGE
+2
+PART A Mathematics and Physics
+3
+1 A group of drivers, consisting of 200 women and 300 men, was asked if they passed their
+driving test at the first attempt.
+Altogether 167 of the group said they passed at the first attempt.
+Of the women, 143 said they did not pass at the first attempt.
+How many of the men said they passed at the first attempt?
+A 10
+B 24
+C 33
+D 57
+E 110
+F 133
+G 157
+2 An unstable nucleus X becomes a stable nucleus Y after a succession of decays, during which
+a total of 5 alpha particles and 2 beta (β–) particles are emitted.
+How many fewer protons does nucleus Y contain than nucleus X?
+A 6
+B 8
+C 10
+D 12
+E 14
+F 16
+G 18
+H 20
+4
+3 A cuboid has sides of length x, 2x and 2x, measured in cm.
+The volume, in cm3, of the cuboid is numerically equal to twice the total surface area, in cm2, of
+the cuboid.
+What is the value of x?
+A 10
+B 6 + 2 2
+C 5
+D 3 + 2
+5
+E
+2
+3 1
+F + 2
+2 2
+5
+4 The diagram shows three resistors R , R and R connected in series with a battery of constant
+1 2 3
+voltage. The resistance of each resistor and the corresponding current are also shown.
+0.20A
+A
+R 12Ω
+1
+R 15Ω
+2
+R 3.0Ω
+3
+Resistor R is now removed and the circuit is reconnected.
+3
+What is the new current in the circuit?
+A 0.20A
+B 0.22A
+C 0.33A
+D 0.40A
+E 0.50A
+F 2.0A
+G 6.0A
+6
+5 The line joining the points with coordinates (p, p – 1) and (1 – p,2p) is parallel to the line with
+equation 2x + 3y + 1 = 0
+What is the value of p?
+A –1
+1
+B −
+7
+1
+C
+9
+1
+D
+8
+E 1
+5
+F
+4
+G 2
+H 5
+6 When travelling in a vacuum, visible light has a wavelength between 400nm and 700nm.
+The speed of light in a vacuum is 3.0 ×108ms–1.
+What can be concluded about ultraviolet radiation from this information?
+A It has a maximum frequency of 2.7 ×1014Hz
+B It has a maximum frequency of 4.3 ×1014Hz
+C It has a maximum frequency of 7.5 ×1014Hz
+D It has a maximum frequency of 1.0 ×1015Hz
+E It has a minimum frequency of 2.7 ×1014Hz
+F It has a minimum frequency of 4.3 ×1014Hz
+G It has a minimum frequency of 7.5 ×1014Hz
+H It has a minimum frequency of 1.0 ×1015Hz
+7
+7 A rectangle PQRS is drawn inside a circle, with its vertices on the circumference of the circle.
+P Q
+S R
+[diagram not to scale]
+:
+The ratio of the length of PQ to the length of QR is 2 1
+The area of the rectangle PQRS is 96cm2.
+What is the radius, in cm, of the circle?
+A 6
+B 3
+C 3 2
+D 2 15
+E 4 6
+F 12
+G 12 2
+H 8 15
+8
+8 A filament lamp working at its operating voltage converts electrical energy at a rate of 100W.
+The lamp has an efficiency of 5.0%.
+How much energy is wasted by the lamp in 10 minutes?
+A 50J
+B 950J
+C 1000J
+D 3000J
+E 57000J
+F 60000J
+9
+9
+320cm3
+[diagram not to scale]
+At a cinema, drinks are sold in regular and large sizes.
+The cups for these are mathematically similar.
+:
+The ratio of the heights of the cups and the ratio of the depths of the drinks are both 4 5
+The volume of drink in a regular size cup is 320cm3.
+What is the volume, in cm3, of drink in a large size cup?
+A 384
+B 400
+C 500
+D 576
+E 625
+F 640
+10
+10 The potential difference across the motor in an electric car is 400V and the current in the motor
+is 1250A.
+The car accelerates along a horizontal road from rest for 4.0s.
+The efficiency of the overall system is 45%.
+What is the kinetic energy of the car at the end of the 4.0s?
+(Ignore energy losses due to air resistance and due to friction between the tyres and the road.)
+A 225000J
+B 500000J
+C 900000J
+D 1250000J
+E 2000000J
+11 The straight lines
+5x + 2y = 20
+y = 3x – 23
+x = 0
+enclose a region with area K square units.
+What is the value of K?
+A 39
+B 78
+C 99
+D 129
+E 198
+F 258
+11
+12 The momentum of a small object moving in a straight line is 24kgms–1 and its kinetic energy
+is 96J.
+What is the mass of the object?
+A 3.0kg
+B 4.0kg
+C 6.0kg
+D 8.0kg
+E 12kg
+13 A scale model of a cylindrical pillar is to be made.
+The full-sized pillar has a volume of 12πm3.
+:
+The model will use a length scale of 1 40
+4
+The model is to be a solid cylinder made of a plastic which has a density of gcm–3.
+3
+What is the mass of the model in grams?
+9
+π
+A
+640
+1
+π
+B
+40
+C 40π
+1125
+D
+π
+8
+E 250π
+F 10000π
+G 225000π
+H 400000π
+12
+14 A radioactive isotope decays in a single step to a stable isotope.
+A radiation detector is placed very near to a sample of the radioactive isotope in a laboratory.
+The count rate on the detector changes as time elapses. The graph shows how the measured
+count rate changes with time.
+80
+150
+13
+etunim
+rep
+stnuoc
+/
+etar
+tnuoc
+120
+100
+60
+40
+20
+0
+0 50 100 200 250 300 350 400
+time / minutes
+What is the background count rate and what is the half-life of the isotope?
+background count rate half-life of isotope
+/ counts per minute / minutes
+A 20 40
+B 20 50
+C 20 60
+D 20 65
+E 120 40
+F 120 50
+G 120 60
+H 120 65
+15 P
+T Q
+U
+S R
+[diagram not to scale]
+PQRST is a regular pentagon.
+RSU is an equilateral triangle.
+What is the size of angle STU?
+A 48°
+B 54°
+C 60°
+D 66°
+E 84°
+14
+16 A rock falling vertically experiences an air resistance force of 12N at an instant when its
+acceleration is 2.0ms–2 downwards.
+What is the mass of the rock?
+(gravitational field strength = 10Nkg–1)
+A 1.0kg
+B 1.2kg
+C 1.5kg
+D 6.0kg
+E 10kg
+F 12kg
+G 15kg
+H 60kg
+17 The original price of an item is p
+The price is increased by 125%
+The increased price is then decreased by 40% to q
+The relationship between p and q can be expressed as mp = q
+What is the value of m?
+7
+A
+20
+17
+B
+20
+27
+C
+20
+33
+D
+20
+37
+E
+20
+15
+18 A transverse wave with an amplitude of 4.0cm and a frequency of 10Hz travels along a rope at
+a speed of 2.4ms–1.
+What is the total distance travelled by a particle in the rope in a time of 20s?
+A 2.4m
+B 4.8m
+C 8.0m
+D 16m
+E 32m
+F 48m
+19 Q is 5km away from P on a bearing of 065°
+R is 5km away from Q on a bearing of 155°
+What is the bearing of P from R?
+A 070°
+B 110°
+C 225°
+D 270°
+E 290°
+F 315°
+G 335°
+16
+20 A student places a measuring cylinder on a balance. She pours a volume V of water into the
+measuring cylinder, and finds that the mass of the measuring cylinder and water together is
+290g.
+She then empties the measuring cylinder and dries it before putting it back on the balance.
+She now pours the same volume V of olive oil into the measuring cylinder, and finds that the
+mass of the measuring cylinder and olive oil together is 270g.
+What is the mass of the measuring cylinder?
+(densities: olive oil = 0.90gcm–3; water =1.0gcm–3)
+A 18g
+B 20g
+C 90g
+D 180g
+E 200g
+17
+21 R
+Q
+S O
+75°
+P
+T
+[diagram not to scale]
+The line segment RT is a tangent at the point S to a circle with centre O
+Q and P are points on the circumference of the circle such that QS = QP
+Angle PST = 75°
+What is the size of angle QSO?
+A 15°
+B 30°
+C 37.5°
+D 45°
+E 52.5°
+F 60°
+G 67.5°
+H 75°
+18
+22 A skydiver of weight 1000N falls vertically.
+The distance–time graph for the skydiver is shown below.
+500
+400
+300
+200
+100
+0
+0 1 2 3 4 5 6 7 8 9 10 11 12
+time/s
+19
+m/ecnatsid
+The air resistance F (in N) acting on the skydiver travelling at velocity v (in ms–1) is given by the
+equation
+F = kv2
+where k (in Nm–2s2) is a constant.
+What is the numerical value of k for the skydiver?
+A 0.050
+B 0.40
+C 0.63
+D 2.5
+E 20
+23
+s cm h cm
+b
+cm
+[diagram not to scale]
+The vertical height hcm of an isosceles triangle is 3cm longer than the base length of bcm.
+The sloping side is of length scm.
+The area of the triangle is 14cm2.
+There is one value of s which satisfies these conditions.
+Within which range does this value of s lie?
+A 5 < s < 6
+B 6 < s < 7
+C 7 < s < 8
+D 8 < s < 9
+E 9 < s < 10
+F 10 < s < 11
+20
+24 A neutron is absorbed by a uranium-235 (235U) nuclide.
+92
+The resulting nuclide undergoes fission to produce a bromine-88 (88Br) nuclide,
+35
+a lanthanum-145 nuclide and some neutrons.
+The lanthanum-145 nuclide is radioactive and emits a beta (β–) particle.
+How many neutrons are emitted in the fission reaction and how many protons are there in the
+nuclide formed by the decay of lanthanum-145?
+neutrons protons
+A 2 55
+B 2 56
+C 2 57
+D 2 58
+E 3 55
+F 3 56
+G 3 57
+H 3 58
+21
+25 The first five terms of a sequence in order are:
+2 17 42 77 122
+The nth term of this sequence is pn2 + q where p and q are integers.
+p−q
+What is the value of ?
+p+q
+1
+A
+4
+1
+B
+2
+C 1
+23
+D
+17
+13
+E
+7
+F 2
+G 4
+H 14
+22
+26 The diagram shows a circuit containing a battery and three identical resistors X, Y and Z.
+X
+Y Z
+The total power supplied by the battery is 18W.
+What is the power dissipated as heat in resistor X?
+A 1.5W
+B 2.0W
+C 3.0W
+D 4.5W
+E 6.0W
+F 8.0W
+G 12W
+23
+27 A bag contains 6 red and 6 green sweets. The sweets are identical apart from their colour.
+A child takes a sweet at random from the bag.
+If the sweet is red, the child stops taking sweets.
+If the sweet is green, it is not replaced and the child takes another sweet.
+This continues until a red sweet is taken at which point the child stops taking sweets.
+What is the probability that the child takes more green sweets than red sweets?
+3
+A
+22
+5
+B
+22
+3
+C
+11
+1
+D
+2
+8
+E
+11
+17
+F
+22
+24
+28 Three detectors X, Y and Z are separated by large distances.
+Each of the detectors records a seismic wave from the same earthquake whose epicentre
+(source) is very close to the surface of the Earth.
+The wave travels out from the epicentre at 4.0kms–1.
+Detectors X and Y start to detect the wave at the same time, but detector Z starts to detect it
+one minute later.
+Which of the following statements must be correct?
+1 The epicentre is at the midpoint of the line XY.
+2 Z is equidistant from X and Y.
+3 Z is no more than 240km away from X and from Y.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+25
+BLANK PAGE
+26
+PART B Advanced Mathematics and Advanced Physics
+NOTE: questions in this part that are not covered by the ESAT
+content specification are indicated by a cross through the
+question number.
+27
+29 Curve C has equation y = 9 – x2
+Line L has equation y = 5
+What is the area enclosed between C and L?
+32
+A
+3
+62
+B
+3
+92
+C
+3
+122
+D
+3
+152
+E
+3
+30 An aircraft moves from rest with uniform acceleration along a horizontal runway. After travelling
+1600m it reaches a speed of 80ms–1.
+What is the acceleration of the aircraft?
+A 0.025ms–2
+B 0.050ms–2
+C 0.10ms–2
+D 0.50ms–2
+E 2.0ms–2
+F 4.0ms–2
+G 10ms–2
+H 20ms–2
+28
+π
+31 How many solutions of the equation 2sin3θ = sinθ lie in the interval – ≤ θ ≤ π ?
+2
+A 2
+B 3
+C 4
+D 5
+E 6
+F 7
+32 The diagram represents a mass that is moving in a straight line at constant speed up a slope of
+constant gradient.
+constant speed
+Which statement about the forces acting on the mass must be correct?
+A All the forces acting on the mass are equal in magnitude.
+B Only three forces act on the mass.
+C The force of friction on the mass is equal to the driving force.
+D The weight of the mass acts in the opposite direction to the contact force.
+E There is no air resistance acting on the mass.
+F There is no resultant force acting on the mass.
+29
+33 The line y = x + k, where k is a constant, is a tangent to the curve y = 3x2 – 2x + 1
+What is the value of k?
+A –2
+B –1
+1
+C
+4
+1
+D
+3
+1
+E
+2
+3
+F
+4
+G 1
+H 2
+34 The diagram shows four objects W, X, Y and Z, of masses 3.0kg, 4.0kg, 6.0kg and 2.0kg
+respectively, connected by light, inextensible rods.
+The objects are pulled along a smooth, horizontal surface by a constant force of 30N in the
+direction indicated.
+W X Y Z
+30N
+3.0kg 4.0kg 6.0kg 2.0kg
+What is the tension in the rod connecting X and Y?
+A 8.0N
+B 10N
+C 12N
+D 14N
+E 16N
+30
+35 A sector S of a circle has area 10πcm2.
+π
+The angle of sector S is increased by radians to form sector T.
+20
+25
+The total area of sector T is πcm2.
+2
+What is the total arc length, in cm, of sector T?
+9 5
+A π
+10
+5 2
+B π
+4
+C 2π
+5
+D π
+2
+31
+36 An object of mass 40kg is placed on a uniform, horizontal plank of mass 10kg between two
+supports X and Y as shown in the diagram.
+object
+centre of plank
+X Y
+1.0m 1.0m 2.0m
+What is the contact force at X?
+(gravitational field strength = 10Nkg–1)
+A 15N
+B 35N
+C 150N
+D 250N
+E 300N
+F 350N
+G 375N
+37 In a particular arithmetic progression:
+• the 13th term is six times the 1st term
+• the 11th term is 1 less than twice the 5th term
+What is the 3rd term of the progression?
+A –14.5
+B –11
+29
+C
+19
+D 3.5
+E 11
+F 14.5
+32
+38 A block of mass m slides a distance l down a slope that is inclined at angle θ to the horizontal,
+as shown:
+l
+θ
+The block experiences a friction force of kWsinθ, where W is the weight of the block and k is a
+constant.
+The block starts from rest at the top of the slope and slides down a distance l to the bottom,
+where its potential energy is zero.
+What fraction of the initial potential energy at the top has become kinetic energy as the block
+reaches the bottom?
+A k
+B 1 – k
+C ksinθ
+D 1 – ksinθ
+E ktanθ
+F 1 – ktanθ
+39 The first three terms of a geometric progression, whose terms are all greater than zero, are
+(p – 2), (2p + 2) and (5p + 14)
+What is the fifth term of the progression?
+A 324
+B 486
+C 1250
+D 1458
+E 3888
+33
+40 An object X of mass 2.0kg is initially moving at a speed of 4.5ms–1 on a smooth, horizontal
+surface.
+A 5.0N force is applied to X in the direction of its motion for 3.0 seconds.
+A short time later it collides head on with, and sticks to, a stationary object Y of mass 3.0kg.
+What is the speed of X and Y as they move off together after the collision?
+A 1.8ms–1
+B 3.0ms–1
+C 3.6ms–1
+D 4.8ms–1
+E 5.4ms–1
+41 Evaluate
+log 2⎜ ⎛5 ⎟ ⎞ + log 2⎜ ⎛6 ⎟ ⎞ + log 2 ⎛ ⎜ 7 ⎟ ⎞ + … + log 2⎜ ⎛64 ⎟ ⎞
+⎝4⎠ ⎝5⎠ ⎝6⎠ ⎝63⎠
+A –2
+B 3
+C 4
+D 6
+E log (3!)
+2
+F log 60
+2
+34
+42 A ball of mass 0.20kg is thrown vertically downwards at an initial speed of 4.0ms–1 and travels
+a distance of 0.45m to the ground.
+The ball hits the ground, and rebounds with an initial speed of 2.0ms–1.
+How much energy does the ball lose in the bounce?
+(gravitational field strength = 10Nkg–1; air resistance can be ignored)
+A 0.10J
+B 0.40J
+C 0.50J
+D 0.90J
+E 1.2J
+F 1.6J
+G 2.1J
+43 Circle C has equation (x + 3)2 + (y – 2)2 = 5
+The length of the tangent from the circle C to the point P is 5 3
+What is the shortest distance from P to C?
+A 5 3
+B 5 3 + 5
+C 3 5
+D 5
+E 10
+35
+44 Two solid spheres X and Y have masses m and 2m respectively. They travel in opposite
+directions towards each other along the same line with speeds v and 2v respectively and
+collide head on.
+The graph shows the variation of velocity with time for sphere X before, during, and after the
+collision.
+velocity
+v
+0
+time
+v
+–
+Which sketch shows the variation of velocity with time for sphere Y?
+A B
+velocity velocity
+2v 2v
+0 0
+time time
+–2v –2v
+C D
+velocity velocity
+2v
+v
+0 0
+–v
+time time
+–2v
+E F
+velocity velocity
+2v
+v
+0 0
+time –v time
+–2v
+36
+45 The points A (–3,2), B (1,3) and C (–1,u) are such that the distances AC and AB are
+related by:
+AC = 2AB
+What are the possible values of u?
+A 2 and –6
+B –2 and 6
+C 6 and –10
+D –6 and 10
+E 2+2 13 and 2–2 13
+F –3+2 13 and –3–2 13
+46 A metal ball suspended from a steel cable is held at rest by a horizontal force P. The cable
+makes an angle of 30° to the vertical as shown in the diagram. The cable exerts a force T on
+the ball.
+30°
+P
+What is the magnitude of P?
+T
+A
+2
+B T
+C 2T
+T
+D
+2
+T
+E
+3
+2T
+F
+3
+3T
+G
+2
+37
+47 What is the coefficient of x3 in the expansion of (1 – 2x)5(1 + 2x)5?
+A –6400
+B –640
+C –80
+D 0
+E 80
+F 800
+G 960
+38
+48 A pendulum bob of mass 10g is suspended by a light, inextensible string of length 50cm.
+The bob is released from rest at position X.
+m
+c
+0
+5
+X
+Y
+30cm
+What is the speed of the bob as it passes through position Y?
+(gravitational field strength g = 10Nkg–1; assume that resistive forces are negligible)
+A 2ms–1
+B 4 ms–1
+C 6ms–1
+D 8ms–1
+E 10 ms–1
+39
+49 Given that
+∫ 2 xmdx= 16 2
+0 7
+and
+∫
+2 xm+1dx= 32 2
+0 9
+what is the value of m?
+11
+A –
+2
+9
+B –
+2
+22
+C –
+29
+7
+D
+22
+5
+E
+2
+7
+F
+2
+50 An object of mass m is initially moving at constant speed u to the right. It collides with a
+stationary object of greater mass M and bounces back in the opposite direction at speed v.
+What is the speed of the greater mass immediately after the collision?
+mu
+A
+M
+Mu
+B
+m
+m(v–u)
+C
+M
+M(v–u)
+D
+m
+m(v+u)
+E
+M
+M(v+u)
+F
+m
+40
+51 The two functions f and g satisfy
+f ′(x) = ax + g(x)
+where a is a constant.
+Given that
+4
+∫ g(x)dx=12
+2
+and
+f(4) = 18 + f(2)
+what is the value of a?
+A 1
+B 3
+C 5
+D 6
+E 15
+41
+52 A load drops from rest through a vertical height h to the ground.
+A light cable attached to the load passes over a friction pulley that provides a braking force
+during the fall.
+As the load falls through height h, 50% of the gravitational potential energy lost is transferred
+into thermal energy.
+The load reaches a final speed of 10ms–1.
+load
+friction
+pulley
+h
+What is the vertical height h?
+(gravitational field strength g = 10Nkg–1; air resistance can be ignored)
+A 0.50m
+B 1.0m
+C 2.0m
+D 2.5m
+E 5.0m
+F 10m
+G 20m
+42
+53 The dimensions of a solid cuboid, in cm, are x, 2x and y
+The volume of the cuboid is 576cm3.
+At this volume, the surface area of the cuboid has its maximum value.
+What is the area, in cm2, of the face that has the largest area?
+2
+A 2(288)3
+B 72
+C 96
+D 432
+2
+E 4(144)3
+54 An object is thrown vertically upwards from ground level with an initial velocity of 40ms–1.
+2.0 seconds later another object is released from a height above the ground and falls vertically
+from rest.
+Both of the objects hit the ground at the same time.
+From what height above the ground was the second object released?
+(gravitational field strength g = 10Nkg–1; air resistance can be ignored)
+A 80m
+B 180m
+C 320m
+D 500m
+E 900m
+END OF TEST
+43
+44

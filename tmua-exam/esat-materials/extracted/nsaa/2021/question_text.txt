@@ -1,0 +1,1616 @@
+*1111111111* *0624614274*
+NATURAL SCIENCES D568/11
+ADMISSIONS ASSESSMENT
+November 2021 60 minutes
+SECTION 1
+INSTRUCTIONS TO CANDIDATES
+Please read these instructions carefully, but do not open this question paper until you are
+told that you may do so. This paper is Section 1 of 2.
+A separate answer sheet is provided for this paper. Please check you have one. You also
+require a soft pencil and an eraser.
+Please complete the answer sheet with your candidate number, centre number, date of birth,
+and name.
+At the end of 60 minutes, your supervisor will collect this question paper and answer sheet
+before giving out Section 2.
+This paper contains four parts: A, B, C and D.
+All candidates should complete Part A Mathematics.
+All candidates should then complete one further part chosen from:
+Part B Physics
+Part C Chemistry
+Part D Biology
+Each part has 20 multiple-choice questions. There are no penalties for incorrect responses, only
+marks for correct answers, so you should attempt all of the questions in your two parts. Each
+question is worth one mark.
+For each question, choose the one option you consider correct and record your choice on the
+separate answer sheet. If you make a mistake, erase thoroughly and try again.
+You must complete the answer sheet within the time limit.
+You can use the question paper for rough working, but no extra paper is allowed. Only your
+responses on the answer sheet will be marked.
+Dictionaries and calculators are NOT permitted.
+Please wait to be told you may begin before turning this page.
+This question paper consists of 72 printed pages and 4 blank pages.
+Copyright © UCLES 2021 PV6
+BLANK PAGE
+2
+Paper content
+PART A Mathematics ............................................................................................................................. 5
+PART B Physics ................................................................................................................................... 23
+PART C Chemistry ............................................................................................................................... 41
+PART D Biology ................................................................................................................................... 57
+3
+BLANK PAGE
+4
+PART A Mathematics
+PART A Mathematics
+5
+PART A Mathematics
+1 Simplify fully
+5xy2 × (5x2y)–3 × 5x2y
+where x and y are positive.
+1
+A
+125x7y2
+1
+B
+125x6y2
+1
+C
+25x6y
+1
+D
+25x4y
+1
+E
+5x3
+1
+F
+5x2
+y
+G
+x2
+H 5xy2
+6
+PART A Mathematics
+2 Which of the following is a simplification of
+x + 3x2
+2 −
+12x2+ x −1
+where x > 1?
+7x −1
+A
+4x −1
+7x − 2
+B
+4x −1
+7x +1
+C
+4x +1
+7x + 2
+D
+4x +1
+9x −1
+E
+4x −1
+9x − 2
+F
+4x −1
+9x +1
+G
+4x +1
+9x + 2
+H
+4x +1
+7
+PART A Mathematics
+3 Which of the following is a rearrangement of
+p 3 4
++ =
+2 q r
+so that q is the subject?
+2r
+A
+q=
+24−3pr
+3r
+B
+q=
+2r−p
+6r
+C
+q=
+4−p
+6r
+D
+q=
+8−pr
+r−2
+E
+q=
+12p
+3r−6
+F
+q=
+4p
+pr−8
+G
+q=
+12p
+3pr−24
+H
+q=
+4p
+4 A circle has its centre at (0,0).
+What is the equation of the tangent that touches the circle at the point (4,3)?
+A 3y + 4x = 25
+B 3y – 4x = 25
+C 3y – 4x = –7
+D 3y – 4x = 7
+E 4y + 3x = 24
+F 4y – 3x = 24
+G 3y + 4x = 24
+H 3y – 4x = 24
+8
+PART A Mathematics
+5 Two solid cylinders, P and Q, are shown, where x > y.
+Q
+P
+x
+y
+x y
+Cylinder P has diameter x and height y.
+Cylinder Q has diameter y and height x.
+What is the positive difference between the total surface areas of P and Q?
+A 0
+π
+B (x2 – y2)
+4
+π
+C (x2 – y2)
+2
+D π(x2 – y2)
+E 2π(x2 – y2)
+π
+F xy(x – y)
+4
+G πxy(x – y)
+9
+PART A Mathematics
+6 Given that
+13
+x x
+8 + 27 =
+36
+5
+x x
+8 – 27 =
+36
+what is the value of x?
+A –4
+B –3
+C –2
+3
+D −
+2
+2
+E −
+3
+1
+F −
+2
+1
+G −
+3
+1
+H −
+4
+7 The price of item P is reduced by 10%. The next day, the new price is increased by 10%.
+The price of item Q is increased by 10%. The next day, the new price is reduced by 10%.
+How does the final price of each item compare to the original price of that item?
+item P final price item Q final price
+A lower than original lower than original
+B lower than original higher than original
+C higher than original lower than original
+D higher than original higher than original
+E the same as original the same as original
+10
+PART A Mathematics
+8 Here is a pattern of numbers:
+1
+2 3 4
+5 6 7 8 9
+10 11 12 13 14 15 16
+The pattern of numbers is continued in the same way.
+What number will appear directly below 196?
+A 218
+B 219
+C 220
+D 221
+E 222
+F 223
+G 224
+H 225
+11
+PART A Mathematics
+9 S
+R
+8cm
+8cm
+P T
+Q
+4cm
+[diagram not to scale]
+SQT is a right-angled triangle with the right angle at Q.
+: :
+The point R is on SQ such that SR RQ = 1 3
+QRP is a right-angled triangle with the right angle at Q.
+PR = ST = 8cm
+QT = 4cm
+What is the length of PQ, in cm?
+A 2 3
+B 4 3
+C 19
+D 37
+E 55
+F 61
+12
+PART A Mathematics
+10 Pat and Alex have a combined total of £63.
+:
+The ratio of Pat’s money to Alex’s money is 5 2
+They each spend an equal amount on sweets.
+:
+The ratio of Pat’s money to Alex’s money is now 3 1
+How much did Pat spend on sweets?
+A £0.50
+B £2.00
+C £2.25
+D £3.00
+E £4.50
+F £6.75
+11 The curve with equation y = x2 – 4x + 5 meets the straight line with equation y = 2x + c at two
+points, which have x-coordinates p and q, where q > p.
+Given that q – p = 8, what is the value of the constant c?
+A –43
+B –12
+C –2
+D 0
+E 2
+F 12
+G 43
+13
+PART A Mathematics
+12 An online company sells storage containers.
+The following items are available:
+capacity of container number available
+2 litres 2
+3 litres 3
+7 litres 4
+8 litres 1
+A customer orders two containers at random from those available.
+What is the probability that the two containers will have a combined capacity of exactly
+10 litres?
+7
+A
+25
+14
+B
+25
+7
+C
+45
+14
+D
+45
+7
+E
+50
+14
+PART A Mathematics
+13 Given that
+sin60°−1
+y =
+cos60°
+what is the value of y3?
+3
+A −
+9
+B −5 2+10
+C 3 3−8
+D 6 3−10
+E 14 2−20
+F 15 3−26
+G 21 3−38
+15
+PART A Mathematics
+14 P, Q and R are points on the circumference of a circle with centre O as shown in the diagram.
+O
+P
+7
+cm
+140°
+Q R
+[diagram not to scale]
+Angle PQR = 140°
+PR = 7cm
+Which of the following expressions gives the radius of the circle, in cm?
+A 7sin10°
+B 3.5sin55°
+C 3.5sin70°
+D 7sin55°
+3.5
+E
+sin40°
+7
+F
+sin80°
+3.5
+G
+sin20°
+7
+H
+sin40°
+16
+PART A Mathematics
+15 Charlie has a bowl containing red sweets and green sweets only. The sweets are identical in all
+respects except colour.
+There are nine sweets in total in the bowl.
+Charlie eats two sweets from the bowl at random.
+5
+The probability of Charlie not eating any green sweets is
+12
+What is the probability that Charlie eats two green sweets?
+2
+A
+27
+1
+B
+12
+1
+C
+9
+4
+D
+27
+1
+E
+6
+1
+F
+4
+7
+G
+12
+17
+PART A Mathematics
+16 The following right-angled triangles have the same hypotenuse length.
+60°
+ycm
+45°
+xcm
+[diagram not to scale]
+Which of the following is a correct expression for y in terms of x?
+A y = 2x
+2x
+B y =
+2
+2x
+C y =
+3
+2x
+D y =
+6
+E y = 6x
+6x
+F y =
+2
+6 x
+G y =
+3
+6x
+H y =
+6
+18
+PART A Mathematics
+17 The greatest diagonal distance between the two vertices of a cuboid, as shown in the diagram,
+is 77 cm.
+A similar cuboid has all its lengths exactly half the lengths of the original cuboid.
+The sides of this smaller cuboid are 2cm, 3cm and xcm.
+What is the value of x, in cm?
+5
+A
+2
+B 5
+5 2
+C
+2
+D 5 2
+102
+E
+2
+F 102
+19
+PART A Mathematics
+18 Alex, Cameron and Sam are all taking part in a 400m race.
+They are each running at a different constant speed.
+Alex is running 12% faster than Cameron, whilst Sam is running 2% slower than Cameron.
+When Alex crosses the finish line, how many metres is Sam from the finish line?
+A 9.6
+B 14
+C 24
+D 25
+E 28
+F 50
+G 56
+20
+PART A Mathematics
+19 A car journey is m miles long.
+One kilometre is equivalent to x miles.
+The car uses one litre of fuel to travel a distance of f kilometres.
+Fuel for the car costs p pence per litre.
+Which of the following expressions gives the cost of fuel for this journey, in pounds?
+(There are 100 pence in one pound.)
+A 100fmpx
+100fmp
+B
+x
+100mpx
+C
+f
+100mp
+D
+fx
+fmpx
+E
+100
+fmp
+F
+100x
+mpx
+G
+100f
+mp
+H
+100fx
+21
+PART A Mathematics
+20 How many solutions are there to the equation
+tanx = 100x
+where –360 ≤ x ≤ 360?
+A 0
+B 1
+C 2
+D 3
+E 4
+F 5
+G infinitely many
+22
+PART B Physics
+PART B Physics
+23
+PART B Physics
+21 A resistor has a constant voltage of 9.00V across it.
+A total charge of 180C passes through the resistor in 4.00 minutes.
+What is the power dissipated in the resistor?
+A 0.750W
+B 6.75W
+C 12.0W
+D 81.0W
+E 108W
+F 405W
+G 1620W
+H 6480W
+24
+PART B Physics
+22 Air is trapped in a cylinder by a piston. The density of the air in the cylinder is ρ.
+trapped air
+The piston is moved so that the pressure of the trapped air increases by 20%. The temperature
+of the trapped air does not change.
+What is the new density of the trapped air?
+(Assume that air is an ideal gas.)
+A 0.69ρ
+B 0.80ρ
+C 0.83ρ
+D 1.00ρ
+E 1.20ρ
+F 1.44ρ
+25
+PART B Physics
+23 A non-ideal transformer has 100 turns on the primary coil and 25 turns on the secondary coil.
+It is provided with 3.0kW of electrical power at a current of 12.5A.
+The voltage output is the same as for an ideal transformer, but the current in the output coil is
+40A.
+What is the efficiency of the transformer?
+A 20%
+B 25%
+C 31%
+D 69%
+E 75%
+F 80%
+G 91%
+H 100%
+24 A car of mass 1400kg is towing a caravan of mass 1000kg along a straight horizontal section
+of road at a constant speed.
+The driving force from the engine is increased by 3000N, causing the car and caravan to
+accelerate.
+At one moment during this acceleration, the resistive force on the car has increased by 200N
+and the resistive force on the caravan has increased by 400N.
+What is the acceleration of the car and caravan at this moment?
+A 1.00ms–2
+B 1.25ms–2
+C 1.50ms–2
+D 2.00ms–2
+E 2.60ms–2
+26
+PART B Physics
+25 A star is moving away from a space telescope positioned above the Earth. The star emits light
+of frequency f and wavelength λ at the speed of light c.
+This light travels towards the space telescope through the vacuum of space until it is detected
+on the space telescope.
+The frequency, the wavelength and the speed of the light measured at the telescope are f , λ
+T T
+and c respectively.
+T
+How do f , λ and c compare with f, λ and c?
+T T T
+f λ c
+T T T
+A equal to f equal to λ equal to c
+B equal to f equal to λ less than c
+C equal to f greater than λ equal to c
+D equal to f greater than λ less than c
+E less than f equal to λ equal to c
+F less than f equal to λ less than c
+G less than f greater than λ equal to c
+H less than f greater than λ less than c
+27
+PART B Physics
+26 Q is an element with several isotopes.
+(3x−7) (2x+3)
+The nuclide Q contains 6 neutrons more than the nuclide Q.
+x x
+(3x+1)
+Another isotope of Q is the nuclide Q.
+x
+(3x+1)
+How many neutrons does the nuclide Q contain?
+x
+A 9
+B 16
+C 19
+D 21
+E 25
+F 33
+G 49
+27 A light spring has an uncompressed length of 0.10m. When an object of mass 0.5kg rests in
+equilibrium on top of the spring, the length of the spring reduces to 0.08m as shown.
+0.10m
+0.08m
+What is the energy stored in the spring due to the compression?
+(gravitational field strength = 10Nkg–1; the spring obeys Hooke’s law)
+A 0.005J
+B 0.02J
+C 0.05J
+D 0.1J
+E 0.2J
+F 0.4J
+28
+PART B Physics
+28 A set of decorative lights consists of 20 lamps connected in series to a dc supply of constant
+voltage.
+The total power transferred by all the lamps is P.
+The set is designed so that if one of the lamps fails, that lamp becomes short-circuited and it
+then has zero resistance. The remaining lamps are still lit.
+If this happens, with the set connected to the same supply, what is the new total power
+transferred by the remaining 19 lamps?
+(Assume that the resistance of each functioning lamp remains constant.)
+⎛19⎞ 2
+A ⎜ ⎟ P
+⎝20⎠
+⎛19⎞
+B ⎜ ⎟P
+⎝20⎠
+C P
+⎛20⎞
+D ⎜ ⎟P
+⎝19⎠
+⎛20⎞ 2
+E ⎜ ⎟ P
+⎝19⎠
+29
+PART B Physics
+29 A train accelerates from rest along a straight, horizontal section of track.
+The force exerted on the train due to its motors is constant and there is a constant friction force
+of 1.8 ×107N.
+The graph shows how the momentum of the train changes with time.
+14
+momentum /106kgms–1
+12
+10
+8
+6
+4
+2
+0
+0 1 2 3 4
+time /s
+What is the force exerted on the train due to its motors?
+A 3.0 ×106N
+B 6.0 ×106N
+C 1.2 ×107N
+D 1.5 ×107N
+E 2.1 ×107N
+F 2.4 ×107N
+G 3.0 ×107N
+H 4.2 ×107N
+30
+PART B Physics
+30 A ship travels into a wave that is travelling in the opposite direction to the ship.
+The ship has a horizontal speed of 8.0ms–1. The speed of the wave is 3.0ms–1.
+The front of the ship rises and falls with a time period of 8.0s.
+What is the wavelength of the wave?
+3
+A m
+8
+5
+B m
+8
+C 1.0m
+11
+D m
+8
+E 24m
+F 40m
+G 64m
+H 88m
+31
+PART B Physics
+31 A 6.0V battery is connected to an 8.0Ω resistor and a filament lamp as shown in the circuit
+diagram.
+6.0V
+Ω
+8.0
+A
+The reading on the ammeter is 0.25A.
+Which graph is a possible V–I graph for the filament lamp?
+A V /V B V /V
+2.0 4.0
+0 0
+0 0.25 0 0.25
+I /A I /A
+C V /V D V /V
+2.0
+6.0
+0 0
+0 0.25 0 0.25
+I /A I /A
+E V /V F V /V
+4.0 6.0
+0 0
+0 0.25 0 0.25
+I /A I /A
+32
+PART B Physics
+32 A uniform, horizontal magnetic field has magnetic field strength 0.60T and a direction from
+west to east.
+A horizontal wire is placed in a north–south direction, so that it is at 90° to the magnetic field.
+The wire carries a constant current.
+The wire has length 0.40m and mass 0.018kg.
+The resultant force acting vertically on the wire is zero.
+What are the magnitude and direction of the current in the wire?
+(gravitational field strength = 10Nkg–1)
+magnitude of current /A direction of current
+A 0.012 from north to south
+B 0.012 from south to north
+C 0.075 from north to south
+D 0.075 from south to north
+E 0.12 from north to south
+F 0.12 from south to north
+G 0.75 from north to south
+H 0.75 from south to north
+33
+PART B Physics
+33 The wavelength range of visible light is 400-700nm.
+Light with a frequency of 6.0 ×1014Hz is green.
+Microwaves used in cooking have a wavelength of 12cm.
+Which of the following statements is/are correct?
+1 Light with a frequency of 7.5 ×1014Hz is red.
+2 Microwaves used in cooking have a frequency of 2.5 ×109Hz.
+3 Electromagnetic radiation with a frequency of 2.5 ×1015Hz can be used in thermal
+imaging of a building.
+(speed of light = 3.0 ×108ms–1)
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+34
+PART B Physics
+34 There is a high-speed straight railway line between two cities that are 60km apart. The train
+stops at both cities.
+The train accelerates at a uniform rate of 1.5ms–2 to a maximum speed of 120ms–1.
+When braking, it decelerates at a uniform rate of 2.0ms–2.
+What is the minimum time taken by the train to travel from one city to the other?
+A 140s
+B 355s
+C 430s
+D 500s
+E 570s
+F 860s
+G 1000s
+35
+PART B Physics
+35 A metal block has mass M.
+Heat is transferred to the block at a constant rate P.
+The graph shows how the change in temperature ∆T of the block from its initial temperature
+varies with time t.
+change in temperature
+∆T
+0
+0
+time t
+The gradient of the line is k.
+Which expression gives the specific heat capacity of the metal from which the block is made?
+(Assume that no heat is transferred out of the block during the time interval shown by the
+graph.)
+1
+A
+MPk
+M
+B
+Pk
+Mk
+C
+P
+P
+D
+Mk
+PM
+E
+k
+Pk
+F
+M
+k
+G
+MP
+H MPk
+36
+PART B Physics
+36 A skydiver of mass 80kg is accelerating vertically downwards through the air. At one instant in
+time the skydiver has a speed of 5.0ms–1. After travelling a further distance of 20m downwards
+the skydiver’s speed has increased to 10ms–1.
+What is the average force of air resistance acting on the skydiver over the 20m?
+(gravitational field strength = 10Nkg–1)
+A 600N
+B 650N
+C 750N
+D 790N
+E 950N
+37 A radioactive nuclide X decays in a single stage to a stable nuclide R.
+A radioactive nuclide Y decays in a single stage to a stable nuclide S.
+When a rock formed it contained equal numbers of atoms of all four nuclides X, Y, R and S.
+The half-life of X is T years and the half-life of Y is 2T years.
+number of atomsofR
+What is the value of at a time 4T years after the rock has formed?
+number of atomsof S
+(Assume that no other processes add or remove X, Y, R or S from the rock during this time.)
+1
+A
+4
+17
+B
+20
+31
+C
+28
+6
+D
+5
+5
+E
+4
+F 2
+37
+PART B Physics
+38 A beaker containing 180g of water at 25°C has a 20g ice cube at 0°C added to it.
+No heat is transferred between the water and the surroundings (including the beaker).
+What is the final temperature of all the water in the beaker after all the ice has melted?
+(Take the specific heat capacity of water to be 4Jg–1°C–1 and the specific latent heat of fusion
+of water to be 300Jg–1.)
+A 2.5°C
+B 8.3°C
+C 10.0°C
+D 15.0°C
+E 16.7°C
+F 22.5°C
+39 Liquid X has density 0.80gcm–3 and liquid Y has density 1.0gcm–3.
+80cm3 of liquid X and 100cm3 of liquid Y are poured into a cylindrical container and allowed to
+settle. The two liquids do not mix or react.
+The internal cross-sectional area of the container is 20cm2. The base of the container rests on
+a horizontal surface.
+What is the pressure due to the liquids at a height of 4.0cm above the interior of the base of
+the container?
+(gravitational field strength = 10Nkg–1)
+A 10Pa
+B 40Pa
+C 42Pa
+D 50Pa
+E 100Pa
+F 400Pa
+G 420Pa
+H 500Pa
+38
+PART B Physics
+40 A pulse of ultrasound travels from one end of a solid uniform rod of length L, starting at time
+t = 0.
+The pulse is partially reflected by a crack in the rod and partially by the far end of the rod.
+These two reflected pulses travel back along the rod, arriving at the end from which they
+started at times t and t , where t > t .
+1 2 2 1
+What is the distance between the crack and the far end of the rod?
+t
+A 1 L
+t
+2
+t
+B 2 L
+t
+1
+t
+C 1 L
+2t
+2
+t
+D 2 L
+2t
+1
+(t − t )
+E 2 1 L
+t
+2
+(t − t )
+F 2 1 L
+2t
+2
+39
+BLANK PAGE
+40
+PART C Chemistry
+PART C Chemistry
+41
+PART C Chemistry
+41 The following equations represent the reactions of four metals M, Q, R and T:
+M(s) + HCl(aq) → no reaction
+R(s) + TSO (aq) → RSO (aq) + T(s)
+4 4
+M(s) + QNO (aq) → MNO (aq) + Q(s)
+3 3
+T(s) + 2HCl(aq) → TCl (aq) + H (g)
+2 2
+Which option lists the order of reactivity of the four metals, from the most to the least reactive?
+A M, Q, R, T
+B M, R, T, Q
+C Q, M, T, R
+D Q, R, T, M
+E R, M, T, Q
+F R, T, M, Q
+G T, M, R, Q
+H T, R, Q, M
+42
+PART C Chemistry
+42 Consider the following three ions of calcium observed in mass spectrometry:
+40Ca2+ 42Ca2+ 43Ca+
+Which of the following statements is/are correct?
+1 All three ions have the electron configuration 2,8,8
+2 42Ca2+ has more neutrons than 40Ca2+
+3 42Ca2+ has more protons than 43Ca+
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+43 The relative isotopic abundances of a sample of magnesium are shown in the table.
+percentage
+isotope
+abundance
+24Mg 80
+25Mg 10
+26Mg 10
+What is the relative atomic mass (A) of the magnesium?
+r
+A 24.0
+B 24.3
+C 24.5
+D 24.8
+E 25.0
+43
+PART C Chemistry
+44 A portion of the Periodic Table is given:
+H
+Li C O F
+Na Si Cl
+K Br
+Which one of these trends is correct?
+A Boiling point: K > Na > Li
+B Electrical conductivity: NaCl(l) > NaCl(s) > Na(s)
+C Reactivity: Br > Cl > F
+2 2 2
+D Melting point: SiO > H O > Na O
+2 2 2
+E Number of double bonds per molecule: CO > O > H O
+2 2 2
+44
+PART C Chemistry
+45 1.0moldm–3 hydrochloric acid was slowly added from a burette into an insulated flask
+containing 50cm3 of aqueous sodium hydroxide. The flask was gently swirled and the
+temperature of the resulting solution measured continuously.
+The two solutions had the same initial temperature and a graph was drawn of the temperature
+of the resulting solution against the volume of hydrochloric acid added.
+Which of the following statements explains the shape of the graph?
+A The reaction has reached a state of equilibrium.
+B An endothermic reaction occurs after xcm3 of hydrochloric acid is added.
+C The reaction rate decreases as the acid is used up.
+D The sodium hydroxide has been neutralised by xcm3 hydrochloric acid.
+E The sodium hydroxide becomes a weaker base as the volume of the resulting solution
+increases.
+45
+PART C Chemistry
+46 Which one of the following represents the repeating unit of poly(pent-2-ene)?
+A B
+C D
+E F
+47 X is a gaseous element. X can react explosively with hydrogen to produce a single product.
+When dissolved in water, this product forms an acidic aqueous solution Y. When aqueous
+silver nitrate is added to solution Y, a white precipitate forms.
+Solution Y reacts with substance Z to form two products only. One of these products forms a
+white precipitate when aqueous sodium hydroxide is added to it.
+Which of the following could be X and Z?
+X Z
+A Br CaCO
+2 3
+B Br CuO
+2
+C Br Mg
+2
+D Cl CaCO
+2 3
+E Cl CuO
+2
+F Cl Mg
+2
+G O CaCO
+2 3
+H O Mg
+2
+46
+PART C Chemistry
+48 Some students were trying to assign oxidation numbers to each of the four sulfur atoms in the
+tetrathionate ion, S O 2–.
+4 6
+Which of the following lists gives the possible oxidation states of the four sulfur atoms present?
+A 0, 0, +6, +6
+B +3, +3, +3, +3
+C 0, +2, +6, +6
+D 0, 0, +5, +5
+E –2, –2, +7, +7
+49 The table shows the reagents in three organic reactions.
+Which of the rows correctly show(s) the product(s) obtained from the specified reactants?
+reactants product(s)
+1 CH CH=CH and HBr 1,2-dibromopropane (only)
+3 2
+C H COOH and CH OH, in the
+2 2 5 3 methyl propanoate and water
+presence of an H+(aq) catalyst
+3 C H OH and Na sodium ethanoate and hydrogen
+2 5
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+47
+PART C Chemistry
+50 Chlorine gas reacts with hot concentrated aqueous sodium hydroxide to form sodium chloride,
+sodium chlorate(V) and water.
+The unbalanced ionic equation for this reaction is:
+uCl + vOH– → wCl– + xClO – + yH O
+2 3 2
+What is the simplest ratio of
+w:x
+in the balanced equation?
+A 1 : 1
+B 1 : 2
+C 2 : 1
+D 1 : 5
+E 5 : 1
+F 1 : 7
+G 7 : 1
+48
+PART C Chemistry
+51 An experiment was carried out to separate the four amino acids present in a mixture of amino
+acids.
+A spot of this mixture was placed on chromatography paper. The bottom of the paper was
+placed in solvent 1 and left until the solvent nearly reached the top of the paper.
+The paper was then thoroughly dried and turned by 90°. The procedure was then repeated with
+solvent 2.
+The amino acids were then identified with reference to known R values in the respective
+f
+solvents.
+The final positions of the amino acids on the chromatograph are shown on the following
+diagram.
+49
+solvent
+front
+2
+Which of the following statements is correct?
+A Leucine travels further relative to the solvent front in solvent 2 than in solvent 1.
+B Lysine has a greater R value in solvent 1 than it has in solvent 2.
+f
+C Solvent 1 alone could be used to separate all four amino acids.
+D Solvent 2 alone could be used to separate all four amino acids.
+E The R value of tyrosine in solvent 1 is 0.6 and in solvent 2 is 0.7.
+f
+PART C Chemistry
+52 A reaction between copper and nitric acid produces a blue solution of copper(II) nitrate, water
+and substance X only.
+Substance X does not contain copper or hydrogen.
+The balanced equation for the reaction shows that 1 mole of copper reacts to produce 2 moles
+of water.
+What is the identity of substance X?
+A N
+2
+B NO
+C NO
+2
+D NO
+3
+E N O
+2 5
+53 Ethanedioic acid, (COOH) , is a weak diprotic acid.
+2
+What is the minimum volume of a 2.50moldm–3 solution of ethanedioic acid required to
+neutralise 25.0cm3 of 2.00moldm–3 sodium hydroxide solution?
+A 10.0cm3
+B 12.5cm3
+C 20.0cm3
+D 25.0cm3
+E 100cm3
+50
+PART C Chemistry
+54 Propene burns in air. For each mole of propene burned, 2000kJ of heat is released.
+2.10g of propene is burned to heat a 1000g sample of olive oil.
+The olive oil has an initial temperature of 23.0°C. It takes 2.00J to heat one gram of olive oil by
+1.0°C.
+Assume that all heat is transferred to the olive oil and none is lost to the surroundings.
+What is the maximum temperature reached by the oil?
+(M value: C H = 42.0)
+r 3 6
+A 20.0°C
+B 43.0°C
+C 48.0°C
+D 50.0°C
+E 73.0°C
+F 100°C
+G 200°C
+H 223°C
+51
+PART C Chemistry
+55 What is the calculated energy change for the following reaction using appropriate values from
+the data provided?
+CH (g) + 2H O(g) → CO (g) + 4H (g)
+4 2 2 2
+bond bond energy/kJmol–1
+H–H 440
+O–H 460
+C–H 430
+C–O 360
+C=O 800
+C≡O 1070
+A +200kJmol–1
+B –200kJmol–1
+C +720kJmol–1
+D –720kJmol–1
+E +1080kJmol–1
+F –1080kJmol–1
+56 The balanced equation for an oxidation of ammonia is:
+4NH (g) + 5O (g) → 4NO(g) + 6H O(g)
+3 2 2
+50.0dm3 of ammonia and 50.0dm3 of oxygen, both at 850°C and 1 atmosphere pressure, are
+mixed and allowed to react to form the products shown in the equation. No other reactions
+occur.
+What is the maximum total volume of gases (at 850°C and 1 atmosphere pressure) after the
+reaction?
+(Assume that all gases have the same volume at the given temperature and pressure.)
+A 100dm3
+B 110dm3
+C 111dm3
+D 125dm3
+E 200dm3
+52
+PART C Chemistry
+57 The electrolysis of molten potassium chloride in an inert atmosphere produces potassium at the
+negative electrode and chlorine at the positive electrode.
+The electrolysis of aqueous copper(II) sulfate solution deposits copper on the negative
+electrode.
+The masses of potassium, chlorine and copper produced or deposited in these experiments
+were recorded.
+Assume that the same number of electrons is transferred during the electrolysis of molten
+potassium chloride and aqueous copper(II) sulfate solution.
+Which of the following gives the elements arranged in order of the mass produced/deposited
+during these electrolysis experiments, from lowest mass to highest mass?
+(A values: Cl = 35.5; K = 39.0; Cu = 63.5)
+r
+A chlorine, copper, potassium
+B chlorine, potassium, copper
+C copper, chlorine, potassium
+D copper, potassium, chlorine
+E potassium, chlorine, copper
+F potassium, copper, chlorine
+53
+PART C Chemistry
+58 0.500g of magnesium (an excess) was added to dilute hydrochloric acid.
+The following graph shows the total volume of the gas released over time as the reaction
+progresses. All volumes were measured in cm3 at room temperature and pressure.
+What is the mass of magnesium remaining after two seconds?
+(A value: Mg = 24. Assume that the volume of one mole of gas at room temperature and
+r
+pressure is 24.0dm3.)
+A 0.024g
+B 0.036g
+C 0.048g
+D 0.452g
+E 0.464g
+F 0.476g
+54
+PART C Chemistry
+59 A mixture of both sodium nitrate and barium bromide solids, with a combined mass of 6.36g,
+was stirred into water and completely dissolved.
+An excess of aqueous silver nitrate was added and a precipitate formed. The precipitate was
+filtered and dried. The mass of dry precipitate was 3.76g.
+What was the mass of sodium nitrate in the original mixture?
+(M values: NaNO = 85; BaBr = 297; AgBr = 188)
+r 3 2
+A 0.42g
+B 0.85g
+C 1.70g
+D 2.97g
+E 3.39g
+F 5.94g
+60 A spoonful of magnesium carbonate powder was added to excess hydrochloric acid in an open
+conical flask on an electronic balance.
+MgCO (s) + 2HCl(aq) → MgCl (aq) + CO (g) + H O(l)
+3 2 2 2
+The mass of the flask and its contents was measured initially and at 1-minute intervals. The
+total mass of gas produced was then calculated.
+The reaction stopped at 5 minutes.
+Which row in the following table could represent the total mass of gas calculated after each
+measurement?
+1 minute 2 minutes 3 minutes 4 minutes 5 minutes
+A 5g 9g 12g 14g 15g
+B 1g 3g 6g 10g 15g
+C 3g 6g 9g 12g 15g
+D 11g 12g 13g 14g 15g
+E 6g 10g 13g 15g 15g
+55
+BLANK PAGE
+56
+PART D Biology
+PART D Biology
+57
+PART D Biology
+61 A selection pressure is a biological or physical factor in an environment that may result in
+evolution.
+Which of the following situations result in selection pressures on one or more organisms?
+1 clearing rainforests to grow palm oil plantations
+2 introduction of a predator to islands with seabird colonies
+3 long-term use of antibiotics in hospital wards
+4 using an insecticide to kill the mosquitoes that spread malaria
+A 1 and 2 only
+B 1 and 4 only
+C 2 and 3 only
+D 1, 2 and 3 only
+E 2, 3 and 4 only
+F 1, 2, 3 and 4
+62 A particular cell has the following features:
+• a cell wall
+• a cell membrane
+• no mitochondria
+Which of the following statements about this cell is correct?
+A It may be an animal cell.
+B It may have no nucleus.
+C It may contain chloroplasts.
+D It contains X and Y chromosomes.
+E It is not able to respire.
+58
+PART D Biology
+63 A cell is studied. The graph shows the concentration of a substance at different distances from
+the cell membrane.
+The concentrations shown are maintained over time.
+cell membrane
+concentration of
+substance
+inside outside
+cell cell
+0
+distance from cell membrane
+Which of the following processes is/are responsible for maintaining the difference in the
+concentration of the substance across the membrane?
+1 active transport
+2 diffusion
+3 osmosis
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3 only
+59
+PART D Biology
+64 The diagram shows some of the ways in which glucose can be added to or removed from blood
+plasma in humans.
+1 2
+glycogen in glucose in glycogen in
+muscles blood plasma liver
+3
+Which hormones stimulate the processes shown by the arrows?
+process 1 process 2 process 3
+A adrenaline glucagon insulin
+adrenaline
+B adrenaline glucagon
+glucagon
+C insulin adrenaline glucagon
+adrenaline
+D insulin insulin
+glucagon
+E glucagon insulin glucagon
+F glucagon glucagon insulin
+60
+PART D Biology
+65 The diagram shows two gametes, gamete P and gamete Q, fusing to form cell R in a healthy
+human. R divides to form two cells, S and T.
+S and T grow into two separate individuals.
+P
+Q
+R
+S T
+Which of the following statements is/are correct?
+1 The number of double strands of DNA is the same in gamete P and cell T.
+2 If gamete Q contains a Y chromosome, then both individuals that grow from cells S
+and T will be genetically male.
+3 A mutation in the DNA in cell R before mitosis will always change the phenotype of
+cell S.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+61
+PART D Biology
+66 The graph shows changes in population size (number of individuals) of a species of tortoise
+over the last century. These tortoises are only found on one small island in the Galapagos.
+population 160 Z
+size
+140
+120
+100
+80
+60
+40
+20
+0
+time / years
+Which of the following could account for the change in population shown after time Z on the
+graph?
+1 reduced rainfall
+2 reduced availability of resources
+3 failure to adapt to competition from an introduced species
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+62
+PART D Biology
+67 An enzyme-catalysed reaction was studied and the mass of product formed was measured
+over time.
+The results are shown in the graph.
+total mass 20
+of product
+formed/g 16
+12
+8
+4
+0
+0 10 20 30 40 50 60 70
+time/s
+Which of the following statements is/are correct?
+1 The enzymes may have been used up in the reaction.
+2 The initial rate of reaction is 120gmin–1.
+3 At high concentrations, the product formed may inhibit the enzymes.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+63
+PART D Biology
+68 A person ran on a treadmill for 360 seconds. Their rates of aerobic and anaerobic respiration
+were measured at the start and at the end of the time. The table shows the results.
+time = 0 seconds time = 360 seconds
+rate of aerobic respiration
+1.01 5.77
+/arbitrary units
+rate of anaerobic respiration
+0.01 3.67
+/arbitrary units
+Physiological changes occured in the person during this time.
+Which of the following statements is/are correct during the 360 seconds?
+1 There was an increase in pH that caused a change in the shape of the respiratory
+enzyme’s active sites.
+2 Part of the increase in the rate of cellular respiration may have been due to a
+temperature increase in the muscles.
+3 More carbon dioxide needed to be removed from the muscle cells.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+64
+PART D Biology
+69 Coat colour variation in a particular population of mice is only affected by one gene with two
+alleles, R and r. This gene is not on a sex chromosome.
+Heterozygous mice have yellow fur. Embryos that are homozygous dominant do not survive.
+A yellow male and a yellow female mouse were mated several times and a large number of
+offspring were produced. Some of the offspring were grey in colour and others were yellow.
+Assuming that no new mutations have occurred, which of the following is correct?
+A 25% of the live offspring will be grey in colour.
+B All grey mice have a homozygous genotype for coat colour.
+C Offspring with XY chromosomes are all heterozygous for coat colour.
+D The live offspring of a cross between a yellow and a grey mouse will always be yellow.
+E There is a 3 : 1 ratio of dominant to recessive alleles for this gene in the live offspring.
+70 One strand of a section of DNA has the following sequence of bases:
+AATCGGTCTTGCGGCCAAGGCCCTT
+The complementary strand is not shown.
+The charts show the proportions of the four bases A, C, G and T.
+Which chart shows the correct proportions of bases for this section of double-stranded DNA?
+(Assume no mutations.)
+A B C
+A T A
+C A G
+T C C
+G G T
+D E F
+A A
+C C C A
+T G
+T G
+G T
+65
+PART D Biology
+71 Two identical plant cells were removed from a leaf. One was placed in a concentrated sugar
+solution and the other was placed in distilled water, and both were left for 2 hours.
+All other factors were kept constant during the experiment. The diagram shows the results, with
+regions of each cell labelled Q and S.
+cell in cell in concentrated
+distilled water sugar solution
+S
+Q
+Q
+Which of the following statements is/are correct?
+1 In the cell in distilled water, Q contains only distilled water.
+2 In the cell in concentrated sugar solution, the number of solute particles in Q
+increased over the two hours.
+3 S is a vacuum.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+66
+PART D Biology
+72 The diagram shows some chemical processes involved in the carbon cycle. Three of these
+multi-stage processes are labelled P, Q and R.
+plants R
+Q
+bacteria
+CO
+2
+in air
+animals
+P
+Which of the following statements is/are correct?
+1 P requires the presence of mitochondria.
+2 Overall, Q releases heat.
+3 R is sensitive to changes in pH and temperature.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+67
+PART D Biology
+73 Two different cells, cell L and cell M, were studied using a microscope and then drawn. The
+drawings are not shown.
+Some of the data collected is shown in the table.
+cell L cell M
+actual maximum length of cell /µm 400 40
+maximum length of cell in drawing /cm 2 1
+Which of the following statements is/are correct?
+1 Cell L has been magnified 50 times.
+2 Cell M has been magnified 5 times as much as cell L.
+3 Both cells could have a cell wall.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+68
+PART D Biology
+74 The pedigree diagram shows the inheritance of a phenotypic feature caused by a recessive
+allele.
+Key
+affected male 1 2
+affected female
+unaffected male
+unaffected female
+3 4
+?
+5 6
+What is the probability that individual 6 is an unaffected male?
+A 12.5%
+B 25%
+C 37.5%
+D 50%
+E 62.5%
+F 75%
+69
+PART D Biology
+75 The diagrams show the daughter cells produced when three different stem cells divide.
+Key
+stem cell
+specialised cell
+stem cell 1 stem cell 2 stem cell 3
+Which of the following statements is correct?
+A Only stem cell 1 shows division by mitosis.
+B Some cancers result from divisions like that shown for stem cell 1.
+C The total number of stem cells increases if they divide like stem cell 2.
+D Stem cells in adults divide like stem cell 3.
+E The total number of stem cells is maintained if they divide like stem cell 3.
+70
+PART D Biology
+76 A fungus feeds by releasing amylase onto starchy food. The soluble products of the breakdown
+of starch are absorbed by the fungus.
+Test tubes were set up containing a mixture of starch solution and fungus. Each test tube was
+maintained at a different temperature between 5°C and 45°C.
+Samples of the mixture were removed early in the experiments to determine the initial rates of
+this enzyme-catalysed reaction.
+The results were plotted.
+All of the other variables were kept constant.
+Which graph shows the expected results?
+A rate of B rate of
+reaction reaction
+0 0
+5 45 5 45
+temperature/°C temperature/°C
+C rate of D rate of
+reaction reaction
+0 0
+5 45 5 45
+temperature / °C temperature / °C
+E rate of
+reaction
+0
+5 45
+temperature/°C
+71
+PART D Biology
+77 Red blood cells are produced by stem cells in the bone marrow.
+A 1mm3 sample of blood from a healthy person was found to contain 4 ×106 red blood cells.
+The person has a consistent average total blood volume of 0.006m3. Their total red blood cell
+count does not change and, on average, red blood cells have a lifespan of 100 days.
+Which of the following statements is/are correct?
+1 Red blood cells are phagocytic cells.
+2 The average rate of production of red blood cells is 1 ×1010 cells per hour.
+3 The stem cells that produce red blood cells do not have nuclei.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+72
+PART D Biology
+78 The diagram shows the life cycle of one species of ant, in which males are haploid and females
+are diploid.
+S egg P
+adult female
+adult male
+Q
+R sperm zygote
+Which of the letters on the diagram represent(s) meiosis?
+A P only
+B Q only
+C R only
+D S only
+E P and Q only
+F P and R only
+G P and S only
+H Q and R only
+73
+PART D Biology
+79 A student compared the properties of different cells from one healthy human.
+Which of the following statements is/are correct?
+(Assume that no mutations occur.)
+1 A cheek cell contains the same alleles as an embryonic stem cell.
+2 A sperm cell contains the same genome as a cheek cell.
+3 A white blood cell contains the same number of DNA bases as a mature red blood
+cell.
+4 An embryonic stem cell produces all of the same proteins as a white blood cell.
+A 1 only
+B 2 only
+C 3 only
+D 4 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 4 only
+H 3 and 4 only
+74
+PART D Biology
+80 The kite diagram shows the distribution of dandelions and daisies along a transect in a field.
+A quadrat with sides of 0.5m was used to collect the data.
+Each square on the vertical axis represents 1 plant. For example, in the quadrat centred at 5m
+there were 6 daisies.
+daisies 0
+dandelions 0
+0 5 10 15 20 25 30
+distance/m
+Which of the following statements about the data is/are correct?
+1 Across the transect, the number of dandelions is proportional to the number of
+daisies.
+2 Repeating the experiment along a different transect would result in an identical
+pattern.
+3 The density of dandelions at 5m is 36 plants per square metre.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+75
+76

@@ -5,8 +5,8 @@ import ButtonMotionEnhancer from '@/components/ButtonMotionEnhancer'
 import ExamLaunchTransition from '@/components/ExamLaunchTransition'
 
 export const metadata: Metadata = {
-  title: 'MockLab999 | TMUA Mock Platform',
-  description: 'TMUA full mock exams from 2016 to 2023 with automatic grading, review, and mistake tracking.',
+  title: 'MockLab999 | TMUA + ESAT Mock Platform',
+  description: 'Independent TMUA and ESAT mock routes with timed papers, scoring, review, and mistake tracking.',
 }
 
 export default function RootLayout({

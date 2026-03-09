@@ -1,0 +1,508 @@
+{
+  "exam": "engaa",
+  "year": "2023",
+  "source": "official-pdf-auto-parse",
+  "paper1": [
+    {
+      "question": "The surface area of a solid sphere of radius R is equal to the total surface area of 10 solid closed cylinders of radius r and height 4r. Which of the following is an expression for R in terms of r? (The surface area of a sphere of radius R is 4πR2.)",
+      "answers": {
+        "a": "R = 5r",
+        "b": "R = 12r",
+        "c": "R = 2 5r 1",
+        "d": "R = 10 r"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "2",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "3",
+      "answers": {
+        "f": "20m",
+        "g": "R = 15r 2 A spaceship of mass 10000kg is moving at 2.0ms–1 relative to a space station. The spaceship is captured by a robotic arm attached to the space station and brought to rest by a force of 1000N. How far will the spaceship move in its initial direction relative to the space station while the force is being applied? (Assume that the acceleration of the space station is negligible.)",
+        "a": "0.050m",
+        "b": "0.10m",
+        "c": "0.20m",
+        "d": "5.0m",
+        "e": "10m"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "4 3 Which of the following is a correct rearrangement of q−r y = p – s−x to make x the subject? q−r",
+      "answers": {
+        "a": "x = s – p+ y q−r",
+        "b": "x = – s p+ y q−r",
+        "c": "x = s – p− y q−r",
+        "d": "x = – s p− y q−r",
+        "e": "x = s – y− p q−r",
+        "f": "x = – s y− p"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "5 4 A circuit is set up as shown. All three resistors are identical. When the switch is open, the reading on the ammeter is 1.0A and the power transferred from the battery is 1.0W. A The switch is now closed. What is the new reading on the ammeter and what is the new power transferred from the battery? ammeter reading / A power transferred / W",
+      "answers": {
+        "a": "0.67 0.67",
+        "b": "0.67 1.3",
+        "c": "0.67 1.5",
+        "d": "0.67 2.0",
+        "e": "1.0 1.0",
+        "f": "1.0 1.5",
+        "g": "1.0 2.0",
+        "h": "1.0 3.0"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "6 5 X N Y M P W Z [diagram not to scale] WXYZ is a square of side length 1. : : WM MX = 1 2 : : XN NY = 3 1 : : YP PZ = 4 1 What is the area of triangle MNP? 1 A 3 2 B 5 9 C 20 1 D 30 19 E 60 23 F 60",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "7 6 A spring is initially unstretched. A force F is used to stretch the spring. The extension x and the energy E stored in the stretched spring are measured for different values of F. The graph shows how the energy E, in J, varies with the extension squared, x2, in cm2.",
+      "answers": {
+        "e": "2.4N",
+        "a": "0.30N",
+        "b": "0.60N",
+        "c": "1.2N",
+        "d": "1.5N",
+        "f": "3.0N",
+        "g": "30N",
+        "h": "60N"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "8 7 Given that 2(x−2) 27 3 = (81)2 (2x−3)",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "9 what is the value of x?",
+      "answers": {
+        "a": "46%",
+        "b": "57%",
+        "c": "613% 5",
+        "d": "662% 3",
+        "e": "77%",
+        "f": "831% 3",
+        "g": "10.5",
+        "h": "12 8 A solid, cylindrical metal bar has a uniform cross-sectional area of 12cm2 and a volume of 180cm3. The bar rests on a horizontal surface on one of its circular faces. The pressure on the surface due to the bar is 0.45Ncm–2. What is the density of the metal, in gcm–3? (gravitational field strength = 10Nkg–1)"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "Two samples of pure radioactive isotopes X and Y decay with half-lives of 2 days and 3 days, respectively. Both X and Y decay in a single step into different stable isotopes. Initially the number of atoms of X is twice the number of atoms of Y. After how many days are the expected numbers of atoms of X and Y equal to each other?",
+      "answers": {
+        "a": "The expected numbers of atoms of X and Y are never equal.",
+        "b": "2 days",
+        "c": "3 days",
+        "d": "4 days",
+        "e": "6 days",
+        "f": "12 days 10"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "An athlete’s training session consists of several complete repetitions of a three-part programme: 1. Walk 100m at an average speed of 6kmh–1 2. Jog 200m at an average speed of 10kmh–1 3. Run 100m at an average speed of 20kmh–1 What is the athlete’s average speed for the complete training session, in kmh–1?",
+      "answers": {
+        "a": "7.2",
+        "b": "9.6",
+        "c": "11.5",
+        "d": "12",
+        "e": "14.4 11"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "A large, flat, metal plate is coated on one side with a layer of thermally insulating material of the same thickness a as the metal plate. The uninsulated top surface of the metal plate is maintained at a constant temperature T . 1 The bottom surface of the insulating material is maintained at a constant, lower temperature T . 2 The system is in equilibrium. The diagram shows this arrangement. metal plate T 1 T 2 insulating material Which graph could show how the temperature varies with distance from the top surface of the metal plate to the bottom surface of the insulating material?",
+      "answers": {
+        "a": "temperature B temperature T T 1 1 T T 2 2 0 a 2a 0 a 2a distance from top distance from top of metal plate of metal plate",
+        "c": "temperature D temperature T T 1 1 T T 2 2 0 a 2a 0 a 2a distance from top distance from top of metal plate of metal plate",
+        "e": "temperature T 1 T 2 0 a 2a distance from top of metal plate 12"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "Two objects X and Y are similar. The surface area of object Y is double the surface area of object X. The volume of object Y is 7 2cm3 more than the volume of object X. What is the volume of object X, in cm3?",
+      "answers": {
+        "a": "14 –7 2",
+        "b": "14 +7 2 42−7 2 C 17 42+7 2 D 17 7 2 E 3",
+        "f": "7 2",
+        "g": "4 – 2",
+        "h": "4 + 2"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "h"
+    },
+    {
+      "question": "The voltage output of a power station is stepped up using a transformer before the power is transmitted to a distant town. The primary coil of this transformer has 300 turns and the secondary coil has 1500 turns. In the town, a step-down transformer reduces the voltage supplied by the transmission cables to 33000V for distribution within the town. The step-down transformer supplies a current of 1500 A. The current in the transmission cables is 450A and both transformers are ideal and 100% efficient. What is the voltage output of the power station? (Assume that the resistance of the transmission cables is negligible.)",
+      "answers": {
+        "a": "1980V",
+        "b": "6600V",
+        "c": "22000V",
+        "d": "110000V",
+        "e": "550000V 13"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "The equation ⎛a×104 + 2a×103 ⎞ 2 ⎜ ⎟ = 8×109 ⎜ ⎝ 3×10 −1 ⎟ ⎠ has two solutions for a. What is the positive difference between these two solutions?",
+      "answers": {
+        "a": "0",
+        "b": "2 5",
+        "c": "4 5",
+        "d": "20 5",
+        "e": "40 5",
+        "f": "200 5"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "A transverse wave with an amplitude of 3.0cm travels along a stretched string. The wave has a frequency of 12Hz and a wavelength of 0.25m. What is the average speed of a particle in the string as the string oscillates during a time of 2.0s?",
+      "answers": {
+        "a": "36cms–1",
+        "b": "72cms–1",
+        "c": "125cms–1",
+        "d": "144cms–1",
+        "e": "300cms–1 14"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "X and Y are the end-points of a line segment. Point P has coordinates (–8,5). ⎯⎯→ ⎛ 4 ⎞ P lies on the line segment XY such that XP : PY is 1 : 2 and XP = ⎜ ⎟ ⎝−3⎠ ⎯⎯→ ⎛7⎞",
+      "answers": {
+        "a": "(7,5)",
+        "b": "(3,8)",
+        "c": "(1,–12)",
+        "d": "(–3,–10)",
+        "e": "(–7,–7)",
+        "f": "(–11,–4) 15"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "A battery and two resistors X and Y are connected in series. X Y The power transferred by the battery is 6W. The resistance of X is 10Ω. The voltage across Y is 4V. What is the current in the circuit? 2",
+      "answers": {
+        "a": "A 5 3",
+        "b": "A 5 3",
+        "c": "A 4",
+        "d": "1A 3",
+        "e": "A 10 3",
+        "f": "A 5 16"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "Find the maximum value of 2 sinx × 3–sinx where 0° ≤ x ≤ 360° 2 A 3",
+      "answers": {
+        "b": "1 3 C 2",
+        "d": "2",
+        "e": "3",
+        "f": "6"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "A diver at the bottom of a lake of depth d fills a syringe with an ideal gas and seals the nozzle. The piston remains free to move. The volume of the gas in the syringe at the bottom of the lake is 90cm3. As the diver returns to the surface, the temperature of the gas does not change. At the surface of the lake the gas in the syringe is at atmospheric pressure and the volume of the gas is 720cm3. d What is the volume of the gas in the syringe at a depth ? 2",
+      "answers": {
+        "a": "160cm3",
+        "b": "180cm3",
+        "c": "206cm3",
+        "d": "225cm3",
+        "e": "288cm3",
+        "f": "315cm3",
+        "g": "360cm3",
+        "h": "405cm3 17 BLANK PAGE 18 PART B Advanced Mathematics and Advanced Physics NOTE: questions in this part that are not covered by the ESAT content specification are indicated by a cross through the question number. 19"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    }
+  ],
+  "paper2": [
+    {
+      "question": "x2 – x – 6 is a factor of x3 + ax2 + 2x + b, where a and b are real constants. What is the value of a + b?",
+      "answers": {
+        "a": "–39",
+        "b": "–21",
+        "c": "–3 3",
+        "d": "− 5 3 E 5",
+        "f": "3",
+        "g": "21",
+        "h": "39"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "h"
+    },
+    {
+      "question": "Two pipes contain air at the same temperature and pressure.",
+      "answers": {
+        "a": "1000Hz",
+        "b": "2000Hz",
+        "c": "4000Hz",
+        "d": "8000Hz",
+        "e": "16000Hz 20"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "An arithmetic progression has first term a and common difference d. The sum of the first 9 terms plus the sum of the first 10 terms is equal to the sum of the first 11 terms. Which of the following is a correct expression for a in terms of d? 13",
+      "answers": {
+        "a": "a = − d 4 15",
+        "b": "a = − d 4 16",
+        "c": "a = − d 3 19",
+        "d": "a = − d 3",
+        "e": "a = –7d",
+        "f": "a = –8d"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "A cannon ball of mass 2.6kg is fired horizontally from a cannon on the top of a cliff at a speed of 90ms–1. The height of the cliff above the horizontal ground below is 45m. What is the magnitude of the impulse that acts on the ball between leaving the cannon and reaching the ground? (gravitational field strength = 10Nkg–1; assume that air resistance is negligible)",
+      "answers": {
+        "a": "8.7Ns",
+        "b": "13Ns",
+        "c": "52Ns",
+        "d": "78Ns",
+        "e": "117Ns",
+        "f": "234Ns",
+        "g": "900Ns 21"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "The first three terms of a convergent geometric progression are: 2p, p – 3, p – 7 What is the sum to infinity of this progression?",
+      "answers": {
+        "a": "–54",
+        "b": "–27 C −131 2",
+        "d": "–2",
+        "e": "2 F 131 2",
+        "g": "27",
+        "h": "54"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "g"
+    },
+    {
+      "question": "A child on a sledge is travelling straight down a snow-covered slope at a constant speed of 15ms–1. The mass of the child and sledge together is 60kg. The angle of the slope to the horizontal is 30°. What is the rate at which thermal energy is being produced due to friction forces? (gravitational field strength = 10Nkg–1)",
+      "answers": {
+        "a": "450W",
+        "b": "900W",
+        "c": "4500W",
+        "d": "4500 3 W",
+        "e": "6750W",
+        "f": "9000W",
+        "g": "13500W",
+        "h": "9000 3 W 22"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "The diagram shows a circle with centre O. 55° 40° O x [diagram not to scale] What is the value of x?",
+      "answers": {
+        "a": "40°",
+        "b": "50°",
+        "c": "55°",
+        "d": "70°",
+        "e": "75°",
+        "f": "80° 23"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "The diagram shows a battery with no internal resistance and four identical resistors P, Q, R and S. Resistor Q dissipates 4.0W of power. Q P S R What is the total power supplied by the battery?",
+      "answers": {
+        "a": "10W",
+        "b": "16W",
+        "c": "24W",
+        "d": "32W",
+        "e": "40W 24"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "The function f(x) = 2x2 – 6x + 4 can be written in the form f(x) = p(x + q)2 + r where p, q and r are constants. What is the value of p(r – q)?",
+      "answers": {
+        "a": "2",
+        "b": "7 2",
+        "c": "3 – 2",
+        "d": "3 –7 2",
+        "e": "4 –3 2",
+        "f": "4 2 – 6",
+        "g": "4 2 – 12",
+        "h": "7 2– 18 25"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "Two identical, uniform, thin planks, each of mass 40kg, are propped up against one another in equilibrium on a rough surface as shown. Each plank is at an angle of 30° to the vertical. 30°30° P [diagram not to scale] What is the magnitude of the friction force at point P? (gravitational field strength = 10Nkg−1)",
+      "answers": {
+        "a": "100N 200",
+        "b": "N 3",
+        "c": "200N",
+        "d": "200 3 N 400",
+        "e": "N 3",
+        "f": "400N",
+        "g": "400 3 N 26"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "Which of the following is equal to 3− 5 x2 ∫ dx 3− 5 −(3− 5)",
+      "answers": {
+        "a": "0 2 B 3 8 C 3",
+        "d": "4 28−12 5 E 3",
+        "f": "28−12 5"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "Three blocks P, Q and R are in contact on a horizontal surface as shown. P Q R 20N 4.0kg 2.0kg 2.0kg The mass of P is 4.0kg and the masses of Q and R are each 2.0kg.",
+      "answers": {
+        "a": "2.0N",
+        "b": "5.0N",
+        "c": "6.0N",
+        "d": "12N",
+        "e": "15N",
+        "f": "17N",
+        "g": "19N 27"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "A function f is defined by a b f(x) = + x x2 where a and b are constants. It is given that f ′(1) = 2 and f ″(–1) = –2 What is the value of a + b?",
+      "answers": {
+        "a": "–5",
+        "b": "–4 7",
+        "c": "− 5",
+        "d": "–1 9 E 5",
+        "f": "2 14 G 5",
+        "h": "3 28"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "An object is released from rest at a height H above the ground and falls freely in a uniform gravitational field. At time t after being released, it has fallen a distance s and is at a height h above the ground, travelling at speed v. s H h The graph shows two quantities plotted. y 0 0 x Which of the rows show(s) a possible pair of quantities for the axes? (Assume that air resistance is negligible.) y-axis x-axis 1 h t 2 kinetic energy h 3 gravitational potential energy s",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 29"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "g"
+    },
+    {
+      "question": "Find the real value of x that satisfies log (x2 + 3x + 2) = 2 + log (x2 + 2x) 3 3 1 A 8 1 B 7 1 C 6 1 D 2",
+      "answers": {
+        "e": "2",
+        "f": "7"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "A 20V battery of negligible internal resistance is connected in series with a 20Ω resistor and a cylindrical conductor. The current in the circuit is 0.20A. The cylindrical conductor is now removed, melted and re-formed into a new cylinder. After the cylinder has cooled to its original temperature, its length is 4 times greater than that of the original cylinder. What is the resistance of the new cylinder?",
+      "answers": {
+        "a": "5.0 Ω",
+        "b": "20Ω",
+        "c": "320Ω",
+        "d": "400Ω",
+        "e": "1280Ω",
+        "f": "1600Ω 30 ⎛2 x⎞ 8"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "What is the constant term in the simplified binomial expansion of ⎜ + ⎟ ? ⎝ x 4⎠ 7 A 2 35 B 8 1 C 16 7 D 256 35 E 1024 1 F 2048 31",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "A sound wave can travel from a source at P to a detector at R directly or by reflecting at Q. The angle between PR and PQ is 30° and the distance from P to R is d as shown. reflector Q 30° P R d There is a phase difference of π radians between the incident and reflected wave at Q. Waves that reach R via Q are in phase with waves that reach R directly from P. Which expression gives the greatest wavelength of sound waves for which this is true? ⎛ 2 ⎞",
+      "answers": {
+        "a": "2d ⎜ −1⎟ ⎝ 3 ⎠ ⎛ 2 ⎞",
+        "b": "d ⎜ −1⎟ ⎝ 3 ⎠",
+        "c": "d( 2− 3 ) 4d D 3 2d E 3 32"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "Given that x2 + y2 = 1 what is the greatest possible value of 2x + 3y? 7 A 2",
+      "answers": {
+        "b": "3 5 2 C 2",
+        "d": "7",
+        "e": "10 13 10 F 10",
+        "g": "13 12 13 H 13"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "g"
+    },
+    {
+      "question": "Two springs have spring constants of 200Nm–1 and 600Nm–1, respectively. The springs are joined in series, end-to-end, and stretched so that their combined extension is 0.80m. What is the total strain energy stored in the springs?",
+      "answers": {
+        "a": "48J",
+        "b": "96J",
+        "c": "112J",
+        "d": "120J",
+        "e": "240J",
+        "f": "256J",
+        "g": "512J 33 BLANK PAGE 34 BLANK PAGE 35 BLANK PAGE 36"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    }
+  ]
+}

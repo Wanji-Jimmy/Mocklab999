@@ -11,7 +11,14 @@
     "lint": "next lint",
     "verify:data": "node scripts/verify-data.js",
     "verify:journey": "node scripts/verify-user-journey.js",
-    "verify:all": "npm run verify:data && npm run verify:journey && npm run build && npx tsc --noEmit",
+    "sync:esat-pdfs": "bash scripts/sync-esat-pdfs.sh",
+    "build:esat-manifest": "node scripts/build-esat-manifest.mjs",
+    "bootstrap:esat-data": "node scripts/bootstrap-esat-data.mjs",
+    "import:engaa:pdf": "python3 scripts/import-engaa-from-pdf.py --year",
+    "import:nsaa:pdf": "python3 scripts/import-nsaa-from-pdf.py --year",
+    "import:esat:all": "node scripts/import-esat-all.mjs",
+    "verify:esat:data": "node scripts/verify-esat-data.mjs",
+    "verify:all": "npm run verify:data && npm run verify:esat:data && npm run verify:journey && npm run build && npx tsc --noEmit",
     "postinstall": "prisma generate"
   },
   "dependencies": {

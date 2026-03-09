@@ -1,0 +1,746 @@
+*4884992754*
+ENGINEERING D564/11
+ADMISSIONS ASSESSMENT
+2023 60 minutes
+SECTION 1
+INSTRUCTIONS TO CANDIDATES
+Please read these instructions carefully, but do not open this question paper until you are
+told that you may do so. This paper is Section 1 of 2.
+A separate answer sheet is provided for this paper. Please check you have one. You also
+require a soft pencil and an eraser.
+Please complete the answer sheet with your candidate number, centre number, date of birth,
+and name.
+At the end of 60 minutes, your supervisor will collect this question paper and answer sheet
+before giving out Section 2.
+This paper contains two parts, A and B, and you should attempt both parts.
+Part A Mathematics and Physics (20 questions)
+Part B Advanced Mathematics and Advanced Physics (20 questions)
+You are strongly advised to divide your time equally between the two parts: 30 minutes on
+Part A and 30 minutes on Part B. The scores for Part A and Part B are reported separately.
+This paper contains 40 multiple-choice questions. There are no penalties for incorrect
+responses, only marks for correct answers, so you should attempt all 40 questions. Each
+question is worth one mark.
+For each question, choose the one option you consider correct and record your choice on the
+separate answer sheet. If you make a mistake, erase thoroughly and try again.
+You must complete the answer sheet within the time limit.
+You can use the question paper for rough working, but no extra paper is allowed. Only your
+responses on the answer sheet will be marked.
+Dictionaries and calculators are NOT permitted.
+Please wait to be told you may begin before turning this page.
+This question paper consists of 31 printed pages and 5 blank pages.
+© Cambridge University Press & Assessment 2023 PV4
+BLANK PAGE
+2
+PART A Mathematics and Physics
+3
+1 The surface area of a solid sphere of radius R is equal to the total surface area of 10 solid
+closed cylinders of radius r and height 4r.
+Which of the following is an expression for R in terms of r?
+(The surface area of a sphere of radius R is 4πR2.)
+A R = 5r
+B R = 12r
+C R = 2 5r
+1
+D R = 10 r
+2
+E R = 10r
+3
+F R = 10 r
+2
+G R = 15r
+2 A spaceship of mass 10000kg is moving at 2.0ms–1 relative to a space station.
+The spaceship is captured by a robotic arm attached to the space station and brought to rest by
+a force of 1000N.
+How far will the spaceship move in its initial direction relative to the space station while the
+force is being applied?
+(Assume that the acceleration of the space station is negligible.)
+A 0.050m
+B 0.10m
+C 0.20m
+D 5.0m
+E 10m
+F 20m
+4
+3 Which of the following is a correct rearrangement of
+q−r
+y = p –
+s−x
+to make x the subject?
+q−r
+A x = s –
+p+ y
+q−r
+B x = – s
+p+ y
+q−r
+C x = s –
+p− y
+q−r
+D x = – s
+p− y
+q−r
+E x = s –
+y− p
+q−r
+F x = – s
+y− p
+5
+4 A circuit is set up as shown. All three resistors are identical.
+When the switch is open, the reading on the ammeter is 1.0A and the power transferred from
+the battery is 1.0W.
+A
+The switch is now closed.
+What is the new reading on the ammeter and what is the new power transferred from the
+battery?
+ammeter reading / A power transferred / W
+A 0.67 0.67
+B 0.67 1.3
+C 0.67 1.5
+D 0.67 2.0
+E 1.0 1.0
+F 1.0 1.5
+G 1.0 2.0
+H 1.0 3.0
+6
+5 X N Y
+M
+P
+W Z
+[diagram not to scale]
+WXYZ is a square of side length 1.
+: :
+WM MX = 1 2
+: :
+XN NY = 3 1
+: :
+YP PZ = 4 1
+What is the area of triangle MNP?
+1
+A
+3
+2
+B
+5
+9
+C
+20
+1
+D
+30
+19
+E
+60
+23
+F
+60
+7
+6 A spring is initially unstretched. A force F is used to stretch the spring. The extension x and the
+energy E stored in the stretched spring are measured for different values of F.
+The graph shows how the energy E, in J, varies with the extension squared, x2, in cm2.
+E /J
+0.015
+0
+0 25
+x2/cm2
+What is the magnitude of F when the spring stores 0.015J of energy?
+A 0.30N
+B 0.60N
+C 1.2N
+D 1.5N
+E 2.4N
+F 3.0N
+G 30N
+H 60N
+8
+7 Given that
+2(x−2)
+27 3
+= (81)2
+(2x−3)
+9
+what is the value of x?
+A 0
+B 2.5
+C 3
+D 6
+E 7.5
+F 9
+G 10.5
+H 12
+8 A solid, cylindrical metal bar has a uniform cross-sectional area of 12cm2 and a volume
+of 180cm3.
+The bar rests on a horizontal surface on one of its circular faces.
+The pressure on the surface due to the bar is 0.45Ncm–2.
+What is the density of the metal, in gcm–3?
+(gravitational field strength = 10Nkg–1)
+A 2.5gcm–3
+B 3.0gcm–3
+C 3.75gcm–3
+D 7.5gcm–3
+E 15gcm–3
+F 33gcm–3
+9
+9 Last year, the salary of the coach of a football club was 80% of the salary of the star player.
+At the start of the new year, the coach received a 15% increase in salary and the star player
+received a 38% increase in salary.
+What percentage of the star player’s new salary is the coach’s new salary?
+A 46%
+B 57%
+C 613%
+5
+D 662%
+3
+E 77%
+F 831%
+3
+10 Two samples of pure radioactive isotopes X and Y decay with half-lives of 2 days and 3 days,
+respectively.
+Both X and Y decay in a single step into different stable isotopes.
+Initially the number of atoms of X is twice the number of atoms of Y.
+After how many days are the expected numbers of atoms of X and Y equal to each other?
+A The expected numbers of atoms of X and Y are never equal.
+B 2 days
+C 3 days
+D 4 days
+E 6 days
+F 12 days
+10
+11 An athlete’s training session consists of several complete repetitions of a three-part
+programme:
+1. Walk 100m at an average speed of 6kmh–1
+2. Jog 200m at an average speed of 10kmh–1
+3. Run 100m at an average speed of 20kmh–1
+What is the athlete’s average speed for the complete training session, in kmh–1?
+A 7.2
+B 9.6
+C 11.5
+D 12
+E 14.4
+11
+12 A large, flat, metal plate is coated on one side with a layer of thermally insulating material of the
+same thickness a as the metal plate.
+The uninsulated top surface of the metal plate is maintained at a constant temperature T .
+1
+The bottom surface of the insulating material is maintained at a constant, lower temperature T .
+2
+The system is in equilibrium.
+The diagram shows this arrangement.
+metal plate
+T
+1
+T
+2
+insulating material
+Which graph could show how the temperature varies with distance from the top surface of the
+metal plate to the bottom surface of the insulating material?
+A temperature B temperature
+T T
+1 1
+T T
+2 2
+0 a 2a 0 a 2a
+distance from top distance from top
+of metal plate of metal plate
+C temperature D temperature
+T T
+1 1
+T T
+2 2
+0 a 2a 0 a 2a
+distance from top distance from top
+of metal plate of metal plate
+E temperature
+T
+1
+T
+2
+0 a 2a
+distance from top
+of metal plate
+12
+13 Two objects X and Y are similar.
+The surface area of object Y is double the surface area of object X.
+The volume of object Y is 7 2cm3 more than the volume of object X.
+What is the volume of object X, in cm3?
+A 14 –7 2
+B 14 +7 2
+42−7 2
+C
+17
+42+7 2
+D
+17
+7 2
+E
+3
+F 7 2
+G 4 – 2
+H 4 + 2
+14 The voltage output of a power station is stepped up using a transformer before the power is
+transmitted to a distant town. The primary coil of this transformer has 300 turns and the
+secondary coil has 1500 turns.
+In the town, a step-down transformer reduces the voltage supplied by the transmission cables
+to 33000V for distribution within the town. The step-down transformer supplies a current of
+1500 A.
+The current in the transmission cables is 450A and both transformers are ideal and 100%
+efficient.
+What is the voltage output of the power station?
+(Assume that the resistance of the transmission cables is negligible.)
+A 1980V
+B 6600V
+C 22000V
+D 110000V
+E 550000V
+13
+15 The equation
+⎛a×104 + 2a×103 ⎞ 2
+⎜ ⎟ = 8×109
+⎜
+⎝ 3×10
+−1 ⎟
+⎠
+has two solutions for a.
+What is the positive difference between these two solutions?
+A 0
+B 2 5
+C 4 5
+D 20 5
+E 40 5
+F 200 5
+16 A transverse wave with an amplitude of 3.0cm travels along a stretched string. The wave has a
+frequency of 12Hz and a wavelength of 0.25m.
+What is the average speed of a particle in the string as the string oscillates during a time
+of 2.0s?
+A 36cms–1
+B 72cms–1
+C 125cms–1
+D 144cms–1
+E 300cms–1
+14
+17 X and Y are the end-points of a line segment.
+Point P has coordinates (–8,5).
+⎯⎯→ ⎛ 4 ⎞
+P lies on the line segment XY such that XP : PY is 1 : 2 and XP =
+⎜ ⎟
+⎝−3⎠
+⎯⎯→ ⎛7⎞
+A point Q is such that QY =
+⎜ ⎟
+⎝6⎠
+What are the coordinates of point Q?
+A (7,5)
+B (3,8)
+C (1,–12)
+D (–3,–10)
+E (–7,–7)
+F (–11,–4)
+15
+18 A battery and two resistors X and Y are connected in series.
+X Y
+The power transferred by the battery is 6W.
+The resistance of X is 10Ω.
+The voltage across Y is 4V.
+What is the current in the circuit?
+2
+A A
+5
+3
+B A
+5
+3
+C A
+4
+D 1A
+3
+E A
+10
+3
+F A
+5
+16
+19 Find the maximum value of
+2
+sinx
+×
+3–sinx
+where 0° ≤ x ≤ 360°
+2
+A
+3
+B 1
+3
+C
+2
+D 2
+E 3
+F 6
+20 A diver at the bottom of a lake of depth d fills a syringe with an ideal gas and seals the nozzle.
+The piston remains free to move. The volume of the gas in the syringe at the bottom of the lake
+is 90cm3.
+As the diver returns to the surface, the temperature of the gas does not change. At the surface
+of the lake the gas in the syringe is at atmospheric pressure and the volume of the gas is
+720cm3.
+d
+What is the volume of the gas in the syringe at a depth ?
+2
+A 160cm3
+B 180cm3
+C 206cm3
+D 225cm3
+E 288cm3
+F 315cm3
+G 360cm3
+H 405cm3
+17
+BLANK PAGE
+18
+PART B Advanced Mathematics and Advanced Physics
+NOTE: questions in this part that are not covered by the ESAT
+content specification are indicated by a cross through the
+question number.
+19
+21 x2 – x – 6 is a factor of x3 + ax2 + 2x + b, where a and b are real constants.
+What is the value of a + b?
+A –39
+B –21
+C –3
+3
+D −
+5
+3
+E
+5
+F 3
+G 21
+H 39
+22 Two pipes contain air at the same temperature and pressure.
+A stationary sound wave is formed in the first pipe, which is closed at one end and open at the
+other end. The lowest frequency of stationary sound wave that can be formed in this pipe is
+4000Hz.
+The second pipe has the same length as the first pipe, but is open at both ends.
+What is the lowest frequency of stationary sound wave that can be formed in the second pipe?
+A 1000Hz
+B 2000Hz
+C 4000Hz
+D 8000Hz
+E 16000Hz
+20
+23 An arithmetic progression has first term a and common difference d.
+The sum of the first 9 terms plus the sum of the first 10 terms is equal to the sum of
+the first 11 terms.
+Which of the following is a correct expression for a in terms of d?
+13
+A a = − d
+4
+15
+B a = − d
+4
+16
+C a = − d
+3
+19
+D a = − d
+3
+E a = –7d
+F a = –8d
+24 A cannon ball of mass 2.6kg is fired horizontally from a cannon on the top of a cliff at a speed
+of 90ms–1.
+The height of the cliff above the horizontal ground below is 45m.
+What is the magnitude of the impulse that acts on the ball between leaving the cannon and
+reaching the ground?
+(gravitational field strength = 10Nkg–1; assume that air resistance is negligible)
+A 8.7Ns
+B 13Ns
+C 52Ns
+D 78Ns
+E 117Ns
+F 234Ns
+G 900Ns
+21
+25 The first three terms of a convergent geometric progression are:
+2p, p – 3, p – 7
+What is the sum to infinity of this progression?
+A –54
+B –27
+C
+−131
+2
+D –2
+E 2
+F
+131
+2
+G 27
+H 54
+26 A child on a sledge is travelling straight down a snow-covered slope at a constant speed
+of 15ms–1.
+The mass of the child and sledge together is 60kg.
+The angle of the slope to the horizontal is 30°.
+What is the rate at which thermal energy is being produced due to friction forces?
+(gravitational field strength = 10Nkg–1)
+A 450W
+B 900W
+C 4500W
+D 4500 3 W
+E 6750W
+F 9000W
+G 13500W
+H 9000 3 W
+22
+27 The diagram shows a circle with centre O.
+55°
+40°
+O
+x
+[diagram not to scale]
+What is the value of x?
+A 40°
+B 50°
+C 55°
+D 70°
+E 75°
+F 80°
+23
+28 The diagram shows a battery with no internal resistance and four identical resistors
+P, Q, R and S.
+Resistor Q dissipates 4.0W of power.
+Q
+P S
+R
+What is the total power supplied by the battery?
+A 10W
+B 16W
+C 24W
+D 32W
+E 40W
+24
+29 The function
+f(x) = 2x2 – 6x + 4
+can be written in the form
+f(x) = p(x + q)2 + r
+where p, q and r are constants.
+What is the value of p(r – q)?
+A 2
+B 7
+2
+C 3 –
+2
+D 3 –7 2
+E 4 –3 2
+F 4 2 – 6
+G 4 2 – 12
+H 7 2– 18
+25
+30 Two identical, uniform, thin planks, each of mass 40kg, are propped up against one another in
+equilibrium on a rough surface as shown. Each plank is at an angle of 30° to the vertical.
+30°30°
+P
+[diagram not to scale]
+What is the magnitude of the friction force at point P?
+(gravitational field strength = 10Nkg−1)
+A 100N
+200
+B N
+3
+C 200N
+D 200 3 N
+400
+E N
+3
+F 400N
+G 400 3 N
+26
+31 Which of the following is equal to
+3− 5 x2
+∫ dx
+3− 5
+−(3− 5)
+A 0
+2
+B
+3
+8
+C
+3
+D 4
+28−12 5
+E
+3
+F 28−12 5
+32 Three blocks P, Q and R are in contact on a horizontal surface as shown.
+P Q R
+20N
+4.0kg 2.0kg 2.0kg
+The mass of P is 4.0kg and the masses of Q and R are each 2.0kg.
+A horizontal force of 20N is applied to P so that all three blocks move together.
+The friction force between P and the surface is 2.0N, and the friction forces between Q and R
+and the surface are each 1.0N.
+What is the magnitude of the force that R exerts on Q?
+A 2.0N
+B 5.0N
+C 6.0N
+D 12N
+E 15N
+F 17N
+G 19N
+27
+33 A function f is defined by
+a b
+f(x) = +
+x x2
+where a and b are constants.
+It is given that f ′(1) = 2 and f ″(–1) = –2
+What is the value of a + b?
+A –5
+B –4
+7
+C −
+5
+D –1
+9
+E
+5
+F 2
+14
+G
+5
+H 3
+28
+34 An object is released from rest at a height H above the ground and falls freely in a uniform
+gravitational field. At time t after being released, it has fallen a distance s and is at a height h
+above the ground, travelling at speed v.
+s
+H
+h
+The graph shows two quantities plotted.
+y
+0
+0 x
+Which of the rows show(s) a possible pair of quantities for the axes?
+(Assume that air resistance is negligible.)
+y-axis x-axis
+1 h t
+2 kinetic energy h
+3 gravitational potential energy s
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+29
+35 Find the real value of x that satisfies
+log (x2 + 3x + 2) = 2 + log (x2 + 2x)
+3 3
+1
+A
+8
+1
+B
+7
+1
+C
+6
+1
+D
+2
+E 2
+F 7
+36 A 20V battery of negligible internal resistance is connected in series with a 20Ω resistor and a
+cylindrical conductor. The current in the circuit is 0.20A.
+The cylindrical conductor is now removed, melted and re-formed into a new cylinder. After the
+cylinder has cooled to its original temperature, its length is 4 times greater than that of the
+original cylinder.
+What is the resistance of the new cylinder?
+A 5.0 Ω
+B 20Ω
+C 320Ω
+D 400Ω
+E 1280Ω
+F 1600Ω
+30
+⎛2 x⎞ 8
+37 What is the constant term in the simplified binomial expansion of ⎜ + ⎟ ?
+⎝ x 4⎠
+7
+A
+2
+35
+B
+8
+1
+C
+16
+7
+D
+256
+35
+E
+1024
+1
+F
+2048
+31
+38 A sound wave can travel from a source at P to a detector at R directly or by reflecting at Q.
+The angle between PR and PQ is 30° and the distance from P to R is d as shown.
+reflector
+Q
+30°
+P R
+d
+There is a phase difference of π radians between the incident and reflected wave at Q.
+Waves that reach R via Q are in phase with waves that reach R directly from P.
+Which expression gives the greatest wavelength of sound waves for which this is true?
+⎛ 2 ⎞
+A 2d ⎜ −1⎟
+⎝ 3 ⎠
+⎛ 2 ⎞
+B d ⎜ −1⎟
+⎝ 3 ⎠
+C d( 2− 3 )
+4d
+D
+3
+2d
+E
+3
+32
+39 Given that
+x2 + y2 = 1
+what is the greatest possible value of 2x + 3y?
+7
+A
+2
+B 3
+5 2
+C
+2
+D 7
+E 10
+13 10
+F
+10
+G 13
+12 13
+H
+13
+40 Two springs have spring constants of 200Nm–1 and 600Nm–1, respectively.
+The springs are joined in series, end-to-end, and stretched so that their combined extension
+is 0.80m.
+What is the total strain energy stored in the springs?
+A 48J
+B 96J
+C 112J
+D 120J
+E 240J
+F 256J
+G 512J
+33
+BLANK PAGE
+34
+BLANK PAGE
+35
+BLANK PAGE
+36

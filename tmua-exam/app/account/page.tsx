@@ -59,6 +59,85 @@ function toCsvCell(value: unknown): string {
   return `"${text.replace(/"/g, '""')}"`
 }
 
+function inferExamFromQuestionId(questionId?: string): { exam: 'tmua' | 'engaa' | 'nsaa'; part?: string } {
+  const id = String(questionId || '')
+  if (id.startsWith('ENGAA-')) return { exam: 'engaa' }
+  if (id.startsWith('NSAA-')) {
+    const partMatch = id.match(/-(part-[a-z-]+)$/)
+    return { exam: 'nsaa', part: partMatch?.[1] }
+  }
+  return { exam: 'tmua' }
+}
+
+function getAttemptRouteMeta(attempt: ExamAttempt): { exam: 'tmua' | 'engaa' | 'nsaa'; part?: string; parts?: string[] } {
+  if (attempt.exam === 'engaa') {
+    return { exam: attempt.exam }
+  }
+  if (attempt.exam === 'nsaa') {
+    if (Array.isArray(attempt.parts) && attempt.parts.length > 0) {
+      return { exam: 'nsaa', part: attempt.parts[0], parts: attempt.parts }
+    }
+    return { exam: 'nsaa', part: attempt.part }
+  }
+  const ids = (attempt.questionOutcomes || []).map((outcome) => outcome.questionId)
+  const inferredExam = ids.some((id) => id.startsWith('NSAA-')) ? 'nsaa' : ids.some((id) => id.startsWith('ENGAA-')) ? 'engaa' : 'tmua'
+  if (inferredExam !== 'nsaa') return { exam: inferredExam }
+  const inferredParts = Array.from(
+    new Set(
+      ids
+        .map((id) => id.match(/-(part-[a-z-]+)$/)?.[1])
+        .filter((value): value is string => Boolean(value)),
+    ),
+  ).slice(0, 2)
+  return { exam: 'nsaa', part: inferredParts[0], parts: inferredParts.length > 0 ? inferredParts : undefined }
+}
+
+function getMistakeRouteMeta(mistake: MistakeItem): { exam: 'tmua' | 'engaa' | 'nsaa'; part?: string } {
+  if (mistake.exam === 'engaa' || mistake.exam === 'nsaa') {
+    return { exam: mistake.exam, part: mistake.part }
+  }
+  return inferExamFromQuestionId(mistake.id)
+}
+
+function buildQuestionApiQuery(year: string, exam: 'tmua' | 'engaa' | 'nsaa', part?: string, parts?: string[]): string {
+  const params = new URLSearchParams({ year, exam })
+  if (exam === 'nsaa' && Array.isArray(parts) && parts.length > 1) {
+    params.set('parts', parts.join(','))
+    return params.toString()
+  }
+  if (exam === 'nsaa' && part) params.set('part', part)
+  return params.toString()
+}
+
+function buildExamHref(
+  year: string,
+  paper: number,
+  index: number,
+  exam: 'tmua' | 'engaa' | 'nsaa',
+  part?: string,
+  parts?: string[],
+): string {
+  const suffix = `?paper=${paper}&q=${index + 1}`
+  if (exam === 'engaa') return `/esat/engaa/${year}${suffix}`
+  if (exam === 'nsaa' && Array.isArray(parts) && parts.length > 1) {
+    const params = new URLSearchParams({ parts: parts.join(','), paper: String(paper), q: String(index + 1) })
+    return `/esat/nsaa/${year}/exam?${params.toString()}`
+  }
+  if (exam === 'nsaa' && part) return `/esat/nsaa/${year}/${part}${suffix}`
+  return `/exam/${year}${suffix}`
+}
+
+function getAttemptCacheKey(attempt: ExamAttempt): string {
+  const meta = getAttemptRouteMeta(attempt)
+  return `${meta.exam}:${attempt.year}:${meta.parts?.join('__') || meta.part || ''}`
+}
+
+function getAttemptTotalQuestions(attempt: ExamAttempt): number {
+  const tracked = Array.isArray(attempt.questionOutcomes) ? attempt.questionOutcomes.length : 0
+  if (tracked > 0) return tracked
+  return attempt.scoreP3 ? 45 : 40
+}
+
 export default function AccountPage() {
   const [emailInput, setEmailInput] = useState('')
   const [currentEmail, setCurrentEmail] = useState<string | null>(null)
@@ -253,7 +332,7 @@ export default function AccountPage() {
 
   const selectedAttemptQuestions = useMemo(() => {
     if (!selectedAttempt) return []
-    return reviewQuestionsByYear[selectedAttempt.year] ?? []
+    return reviewQuestionsByYear[getAttemptCacheKey(selectedAttempt)] ?? []
   }, [reviewQuestionsByYear, selectedAttempt])
 
   const selectedAttemptQuestionMap = useMemo(() => {
@@ -515,13 +594,16 @@ export default function AccountPage() {
       return
     }
 
-    if (reviewQuestionsByYear[attempt.year]) {
+    const meta = getAttemptRouteMeta(attempt)
+    const cacheKey = getAttemptCacheKey(attempt)
+
+    if (reviewQuestionsByYear[cacheKey]) {
       return
     }
 
     setReviewLoadingYear(attempt.year)
     try {
-      const response = await fetch(`/api/questions?year=${attempt.year}`)
+      const response = await fetch(`/api/questions?${buildQuestionApiQuery(attempt.year, meta.exam, meta.part, meta.parts)}`)
       if (!response.ok) {
         throw new Error(`HTTP ${response.status}`)
       }
@@ -533,7 +615,7 @@ export default function AccountPage() {
         if (a.paper !== b.paper) return a.paper - b.paper
         return a.index - b.index
       })
-      setReviewQuestionsByYear((prev) => ({ ...prev, [attempt.year]: sorted }))
+      setReviewQuestionsByYear((prev) => ({ ...prev, [cacheKey]: sorted }))
     } catch {
       setReviewError(`Failed to load question set for ${attempt.year}.`)
     } finally {
@@ -1214,13 +1296,13 @@ export default function AccountPage() {
                               {entry.year} ({entry.attempts} attempt{entry.attempts === 1 ? '' : 's'})
                             </span>
                             <span className="text-slate-600">
-                              Best {entry.best}/40 | Avg {entry.avg.toFixed(1)}/40
+                              Best {entry.best} | Avg {entry.avg.toFixed(1)}
                             </span>
                           </div>
                           <div className="h-2.5 rounded-full bg-slate-200 overflow-hidden">
                             <div
                               className="h-full bg-gradient-to-r from-[#ff8a3c] to-[#ff5e00]"
-                              style={{ width: `${Math.round((entry.best / 40) * 100)}%` }}
+                              style={{ width: `${Math.round((entry.best / 45) * 100)}%` }}
                             />
                           </div>
                         </div>
@@ -1277,7 +1359,7 @@ export default function AccountPage() {
                       <div key={attempt.id} className="rounded-xl border border-slate-200 bg-slate-50/80 px-4 py-3 text-sm">
                         <div className="flex flex-wrap items-center justify-between gap-2">
                           <div className="font-semibold text-slate-900">
-                            {attempt.year} | Grade {attempt.grade.toFixed(1)} | Score {attempt.totalScore}/40
+                            {attempt.year} | Grade {attempt.grade.toFixed(1)} | Score {attempt.totalScore}/{getAttemptTotalQuestions(attempt)}
                           </div>
                           <div className="flex items-center gap-2">
                             <div className="text-xs text-slate-500">{new Date(attempt.takenAt).toLocaleString()}</div>
@@ -1298,7 +1380,8 @@ export default function AccountPage() {
                           </div>
                         </div>
                         <div className="text-xs text-slate-600 mt-1">
-                          Paper 1: {attempt.scoreP1}/20, Paper 2: {attempt.scoreP2}/20
+                          Paper 1: {attempt.scoreP1}/20, Paper 2: {attempt.scoreP2}/{attempt.scoreP3 ? 5 : 20}
+                          {attempt.scoreP3 ? `, Paper 3: ${attempt.scoreP3}/5` : ''}
                         </div>
                         {(!attempt.questionOutcomes || attempt.questionOutcomes.length === 0) && (
                           <div className="text-xs text-amber-700 mt-1">
@@ -1319,7 +1402,7 @@ export default function AccountPage() {
                       <div className="flex flex-wrap items-start justify-between gap-3">
                         <div>
                           <h3 className="text-lg font-bold text-slate-900">
-                            Attempt Review · {selectedAttempt.year} · Score {selectedAttempt.totalScore}/40
+                            Attempt Review · {selectedAttempt.year} · Score {selectedAttempt.totalScore}/{getAttemptTotalQuestions(selectedAttempt)}
                           </h3>
                           <p className="mt-1 text-sm text-slate-600">
                             Inspect each question, verify your answer, and reopen exact exam positions.
@@ -1471,7 +1554,14 @@ export default function AccountPage() {
                                     Question content could not be matched for this record. You can still jump into exam mode.
                                   </p>
                                   <Link
-                                    href={`/exam/${selectedAttempt.year}?paper=${selectedReviewRow.paper}&q=${selectedReviewRow.index + 1}`}
+                                    href={buildExamHref(
+                                      selectedAttempt.year,
+                                      selectedReviewRow.paper,
+                                      selectedReviewRow.index,
+                                      getAttemptRouteMeta(selectedAttempt).exam,
+                                      getAttemptRouteMeta(selectedAttempt).part,
+                                      getAttemptRouteMeta(selectedAttempt).parts,
+                                    )}
                                     className="warm-primary-btn px-3 py-2 rounded-lg text-sm inline-flex"
                                   >
                                     Open in Exam
@@ -1619,7 +1709,14 @@ export default function AccountPage() {
 
                                   <div className="flex flex-wrap gap-2">
                                     <Link
-                                      href={`/exam/${selectedAttempt.year}?paper=${selectedReviewRow.paper}&q=${selectedReviewRow.index + 1}`}
+                                      href={buildExamHref(
+                                        selectedAttempt.year,
+                                        selectedReviewRow.paper,
+                                        selectedReviewRow.index,
+                                        getAttemptRouteMeta(selectedAttempt).exam,
+                                        getAttemptRouteMeta(selectedAttempt).part,
+                                        getAttemptRouteMeta(selectedAttempt).parts,
+                                      )}
                                       className="warm-primary-btn px-3 py-2 rounded-lg text-sm"
                                     >
                                       Open in Exam
@@ -1716,7 +1813,14 @@ export default function AccountPage() {
                         <div className="text-xs text-slate-500 mt-1">Saved {new Date(mistake.addedAt).toLocaleString()}</div>
                         <div className="mt-3 flex gap-2">
                           <Link
-                            href={`/exam/${mistake.year}?paper=${mistake.paper}&q=${mistake.index + 1}`}
+                            href={buildExamHref(
+                              mistake.year,
+                              mistake.paper,
+                              mistake.index,
+                              getMistakeRouteMeta(mistake).exam,
+                              getMistakeRouteMeta(mistake).part,
+                              undefined,
+                            )}
                             className="warm-primary-btn px-2.5 py-1.5 text-xs rounded-md"
                           >
                             Open

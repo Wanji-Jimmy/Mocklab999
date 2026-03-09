@@ -13,10 +13,14 @@ interface QuestionOutcome {
 
 interface ResultSummaryProps {
   year?: string
+  examTitle?: string
   scoreP1: number
   scoreP2: number
+  scoreP3?: number
   totalScore: number
   grade: number
+  totalPossible?: number
+  showGradeScale?: boolean
   questionOutcomes: QuestionOutcome[]
   onReviewQuestion: (questionId: string) => void
   onAddToMistakes: (questionId: string) => void
@@ -33,10 +37,14 @@ function toCsvCell(value: unknown): string {
 
 export default function ResultSummary({
   year,
+  examTitle = 'TMUA',
   scoreP1,
   scoreP2,
+  scoreP3 = 0,
   totalScore,
   grade,
+  totalPossible = 40,
+  showGradeScale = true,
   questionOutcomes,
   onReviewQuestion,
   onAddToMistakes,
@@ -47,7 +55,7 @@ export default function ResultSummary({
   const wrongCount = questionOutcomes.filter((o) => !o.isCorrect && Boolean(o.userAnswer)).length
   const unansweredCount = questionOutcomes.filter((o) => !o.userAnswer).length
   const correctCount = questionOutcomes.filter((o) => o.isCorrect).length
-  const accuracy = Math.round((totalScore / 40) * 100)
+  const accuracy = Math.round((totalScore / Math.max(1, totalPossible)) * 100)
   const p1Total = questionOutcomes.filter((o) => o.question.paper === 1).length
   const p2Total = questionOutcomes.filter((o) => o.question.paper === 2).length
   const p1Correct = questionOutcomes.filter((o) => o.question.paper === 1 && o.isCorrect).length
@@ -103,7 +111,7 @@ export default function ResultSummary({
     const anchor = document.createElement('a')
     const date = new Date().toISOString().slice(0, 10)
     anchor.href = url
-    anchor.download = `mocklab999-result-${year || 'tmua'}-${filter}-${date}.csv`
+    anchor.download = `mocklab999-result-${year || examTitle.toLowerCase()}-${filter}-${date}.csv`
     document.body.appendChild(anchor)
     anchor.click()
     anchor.remove()
@@ -115,21 +123,27 @@ export default function ResultSummary({
       <section className="brand-card rounded-2xl p-6 md:p-8">
         <h1 className="text-3xl md:text-4xl font-black text-slate-900">Exam Results</h1>
         <p className="mt-2 text-slate-600">
-          Automatic marking complete{year ? ` for ${year}` : ''}. Review each question and add difficult ones to your mistake book.
+          {examTitle} automatic marking complete{year ? ` for ${year}` : ''}. Review each question and add difficult ones to your mistake book.
         </p>
 
-        <div className="mt-6 grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
+        <div className={`mt-6 grid grid-cols-2 ${scoreP3 > 0 ? 'md:grid-cols-5' : 'md:grid-cols-4'} gap-3 md:gap-4`}>
           <div className="brand-card-muted rounded-xl p-4 text-center">
             <div className="text-3xl font-black text-tmua-blue">{scoreP1}</div>
-            <div className="text-sm text-slate-600 mt-1">Paper 1 / 20</div>
+            <div className="text-sm text-slate-600 mt-1">Paper 1 / {Math.max(p1Total, 0)}</div>
           </div>
           <div className="brand-card-muted rounded-xl p-4 text-center">
             <div className="text-3xl font-black text-tmua-blue">{scoreP2}</div>
-            <div className="text-sm text-slate-600 mt-1">Paper 2 / 20</div>
+            <div className="text-sm text-slate-600 mt-1">Paper 2 / {Math.max(p2Total, 0)}</div>
           </div>
+          {scoreP3 > 0 && (
+            <div className="brand-card-muted rounded-xl p-4 text-center">
+              <div className="text-3xl font-black text-tmua-blue">{scoreP3}</div>
+              <div className="text-sm text-slate-600 mt-1">Paper 3</div>
+            </div>
+          )}
           <div className="brand-card-muted rounded-xl p-4 text-center">
             <div className="text-3xl font-black text-emerald-700">{totalScore}</div>
-            <div className="text-sm text-slate-600 mt-1">Total / 40</div>
+            <div className="text-sm text-slate-600 mt-1">Total / {totalPossible}</div>
           </div>
           <div className="brand-card-muted rounded-xl p-4 text-center">
             <div className="text-3xl font-black text-emerald-700">{accuracy}%</div>
@@ -137,38 +151,40 @@ export default function ResultSummary({
           </div>
         </div>
 
-        <div className="mt-6 border-t border-slate-200 pt-6">
-          <h3 className="text-lg md:text-xl font-bold text-slate-900 mb-3">TMUA Grade: {grade.toFixed(1)}</h3>
-          <div className="relative h-12 bg-slate-200 rounded-full overflow-hidden">
-            {GRADE_MAPPINGS.map((mapping, idx) => {
-              const width =
-                idx < GRADE_MAPPINGS.length - 1
-                  ? ((GRADE_MAPPINGS[idx + 1].score - mapping.score) / 40) * 100
-                  : ((40 - mapping.score) / 40) * 100
+        {showGradeScale && (
+          <div className="mt-6 border-t border-slate-200 pt-6">
+            <h3 className="text-lg md:text-xl font-bold text-slate-900 mb-3">{examTitle} Grade: {grade.toFixed(1)}</h3>
+            <div className="relative h-12 bg-slate-200 rounded-full overflow-hidden">
+              {GRADE_MAPPINGS.map((mapping, idx) => {
+                const width =
+                  idx < GRADE_MAPPINGS.length - 1
+                    ? ((GRADE_MAPPINGS[idx + 1].score - mapping.score) / 40) * 100
+                    : ((40 - mapping.score) / 40) * 100
 
-              const isUserGrade = grade === mapping.grade
+                const isUserGrade = grade === mapping.grade
 
-              return (
-                <div
-                  key={mapping.grade}
-                  className={`absolute h-full flex items-center justify-center text-xs font-semibold ${
-                    isUserGrade ? 'bg-emerald-600 text-white' : 'bg-slate-300 text-slate-700'
-                  }`}
-                  style={{
-                    left: `${(mapping.score / 40) * 100}%`,
-                    width: `${width}%`,
-                  }}
-                >
-                  {mapping.grade.toFixed(1)}
-                </div>
-              )
-            })}
+                return (
+                  <div
+                    key={mapping.grade}
+                    className={`absolute h-full flex items-center justify-center text-xs font-semibold ${
+                      isUserGrade ? 'bg-emerald-600 text-white' : 'bg-slate-300 text-slate-700'
+                    }`}
+                    style={{
+                      left: `${(mapping.score / 40) * 100}%`,
+                      width: `${width}%`,
+                    }}
+                  >
+                    {mapping.grade.toFixed(1)}
+                  </div>
+                )
+              })}
+            </div>
+            <div className="flex justify-between text-xs text-slate-500 mt-2">
+              <span>Score: 0</span>
+              <span>40</span>
+            </div>
           </div>
-          <div className="flex justify-between text-xs text-slate-500 mt-2">
-            <span>Score: 0</span>
-            <span>40</span>
-          </div>
-        </div>
+        )}
 
         <div className="mt-5 grid grid-cols-1 md:grid-cols-3 gap-3">
           <div className="rounded-xl border border-slate-200 bg-white px-4 py-3">
@@ -189,8 +205,7 @@ export default function ResultSummary({
       <section className="brand-card rounded-2xl p-6 md:p-8">
         <h2 className="text-2xl font-black text-slate-900">Question Breakdown</h2>
         <p className="text-slate-600 mt-1">
-          {wrongCount} incorrect question{wrongCount === 1 ? '' : 's'} · Showing {filteredOutcomes.length} /{' '}
-          {questionOutcomes.length}
+          {wrongCount} incorrect question{wrongCount === 1 ? '' : 's'} · Showing {filteredOutcomes.length} / {questionOutcomes.length}
         </p>
         <div className="mt-4 flex flex-wrap gap-2">
           <button
@@ -290,10 +305,7 @@ export default function ResultSummary({
                       Paper {outcome.question.paper}, Question {outcome.question.index + 1}
                     </div>
                     <div className="text-sm text-slate-700">
-                      Status:{' '}
-                      <span className={statusTextClass}>
-                        {statusLabel}
-                      </span>
+                      Status: <span className={statusTextClass}>{statusLabel}</span>
                     </div>
                     <div className="text-sm text-slate-700">
                       Your answer: <span className="font-semibold">{outcome.userAnswer || 'No answer'}</span>
@@ -321,19 +333,14 @@ export default function ResultSummary({
             )
           })}
           {filteredOutcomes.length === 0 && (
-            <div className="rounded-xl border border-slate-200 bg-slate-50 p-4 text-sm text-slate-600">
-              No questions match this filter.
-            </div>
+            <div className="rounded-xl border border-slate-200 bg-slate-50 p-4 text-sm text-slate-600">No questions match this filter.</div>
           )}
         </div>
       </section>
 
       {onRetake && (
         <div className="flex justify-center">
-          <button
-            onClick={onRetake}
-            className="px-6 py-3 bg-tmua-blue text-white rounded-lg hover:bg-blue-900 font-semibold"
-          >
+          <button onClick={onRetake} className="px-6 py-3 bg-tmua-blue text-white rounded-lg hover:bg-blue-900 font-semibold">
             Start New Attempt
           </button>
         </div>

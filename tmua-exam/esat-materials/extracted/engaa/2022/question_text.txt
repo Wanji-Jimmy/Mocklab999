@@ -1,0 +1,809 @@
+
+ENGINEERING D564/11
+ADMISSIONS ASSESSMENT
+2022 60 minutes
+SECTION 1
+INSTRUCTIONS TO CANDIDATES
+Please read these instructions carefully, but do not open this question paper until you are
+told that you may do so. This paper is Section 1 of 2.
+A separate answer sheet is provided for this paper. Please check you have one. You also
+require a soft pencil and an eraser.
+Please complete the answer sheet with your candidate number, centre number, date of birth,
+and name.
+At the end of 60 minutes, your supervisor will collect this question paper and answer sheet
+before giving out Section 2.
+This paper contains two parts, A and B, and you should attempt both parts.
+Part A Mathematics and Physics (20 questions)
+Part B Advanced Mathematics and Advanced Physics (20 questions)
+You are strongly advised to divide your time equally between the two parts: 30 minutes on
+Part A and 30 minutes on Part B. The scores for Part A and Part B are reported separately.
+This paper contains 40 multiple-choice questions. There are no penalties for incorrect
+responses, only marks for correct answers, so you should attempt all 40 questions. Each
+question is worth one mark.
+For each question, choose the one option you consider correct and record your choice on the
+separate answer sheet. If you make a mistake, erase thoroughly and try again.
+You must complete the answer sheet within the time limit.
+You can use the question paper for rough working, but no extra paper is allowed. Only your
+responses on the answer sheet will be marked.
+Dictionaries and calculators are NOT permitted.
+Please wait to be told you may begin before turning this page.
+This question paper consists of 35 printed pages and 5 blank pages.
+© Cambridge University Press & Assessment 2022 PV4
+BLANK PAGE
+2
+PART A Mathematics and Physics
+3
+1 Which one of the following is a simplification of
+ 1  2
+3x2z
+y
+ 
+y3
+ 
+ 
+3xz2
+A
+y4
+3xz2
+B
+y5
+1
+9x2z2
+C
+y5
+9xz2
+D
+y4
+9xz2
+E
+y5
+5
+9x2z2
+F
+y5
+2 There is a constant current in a conducting wire. A charge of 20C passes through the wire in
+1.5 minutes.
+An 18cm straight section of this wire lies in a uniform magnetic field. This section of wire is
+perpendicular to the direction of the field. The magnetic field strength is 0.15T.
+What is the magnitude of the magnetic force on this section of wire?
+A 0.0060N
+B 0.36N
+C 0.60N
+D 0.81N
+E 36N
+F 49N
+G 81N
+H 4900N
+4
+3 Find the complete set of values of x that satisfy the inequality
+3 1
+(5 – x) – (6 – x) – x < 0
+4 2
+1
+A x <
+3
+1
+B x >
+3
+3
+C x <
+5
+3
+D x >
+5
+3
+E x <
+4
+3
+F x >
+4
+3
+G x <
+2
+3
+H x >
+2
+4 Two identical resistors are connected in parallel to a 6.0V battery. The two resistors dissipate a
+total power of 0.15W.
+One of these resistors is removed from the circuit and connected to a 12V battery.
+How much charge passes through this resistor in 6.0 minutes?
+A 0.025C
+B 0.050C
+C 0.15C
+D 0.30C
+E 0.75C
+F 1.5C
+G 9.0C
+H 18C
+5
+5 Rob keeps a record of what he earns each day.
+On Monday, he earned 50% less than he earned on Sunday.
+On Tuesday, he earned 20% more than he earned on Monday.
+On Wednesday, he earned 30% less than he earned on Tuesday.
+On Wednesday, he earned £84.
+How much did Rob earn on Sunday?
+A £15.12
+B £35.28
+C £117.60
+D £200
+E £210
+F £300
+G £1200
+6
+6 Ultrasound is used to find a crack inside a cuboid block of metal. An ultrasound probe is held in
+contact with the top surface of the metal block and perpendicular to the surface. A short pulse
+of ultrasound is sent into the metal block at time t = 0ms and reflects from both the crack and
+the bottom surface of the metal block.
+ultrasound probe
+metal block
+crack
+The times between the emission of the ultrasound pulse and the return of the reflections to the
+probe, and the strengths of the reflected pulses, are measured. The results are shown on the
+graph.
+strength of
+reflected pulse
+0
+0 0.1 0.2 0.3
+time/ms
+The speed of ultrasound in the metal is 5000ms–1.
+What is the distance between the bottom surface of the metal block and the crack?
+A 0.2m
+B 0.3m
+C 0.4m
+D 0.5m
+E 0.6m
+F 1.0m
+7
+7 Which one of the following is a simplification of
+5x2 −17x −12 x2 + x −12
+÷
+25x2 −9 x2 − x − 6
+(x−4)(x+2)
+A
+(x−3)(x+4)
+(x−3)(x+2)
+B
+(5x−3)(x+3)
+(x−4)(x+2)
+C
+(5x−3)(x+4)
+(x−4)(x−3)
+D
+(5x−3)(x−6)
+(x+2)
+E
+(5x+3)
+(x+4)(x−6)
+F
+(5x+3)(x+2)
+(x−3)(x+2)
+G
+(5x+3)(x+3)
+8 Power is supplied to an electric motor at 0.800kW.
+The motor has an efficiency of 60% and is switched on for half an hour.
+How much energy is wasted during this time?
+A 0.160J
+B 0.240J
+C 160J
+D 240J
+E 576J
+F 864J
+G 576000J
+H 864000J
+8
+9 A rectangle PQRS has length (2x – 1)cm and width (x + 1)cm as shown on the diagram.
+A larger rectangle is made by adding 3cm to both the length and the width of PQRS, as shown.
+The larger rectangle has an area of 360cm2.
+3cm
+Q R
+(x + 1)cm
+P S
+(2x – 1)cm 3cm
+[diagram not to scale]
+What is the ratio of PQ to PS?
+A 1 : 2
+B 4 : 7
+C 5 : 8
+D 7 : 11
+E 10 : 17
+F 17 : 31
+9
+10 The graph shows potential difference plotted against current for a filament lamp and a resistor.
+potential difference /V
+10
+8
+6
+4
+2
+0
+0 0.1 0.2 0.3 0.4
+current /A
+The lamp and the resistor are connected in parallel with each other to a 6.0V power supply and
+the current in the lamp, I, is recorded.
+In a second circuit, the lamp and the resistor are now connected in series with each other to the
+same power supply, and the current in the resistor is 0.18A. The potential difference across the
+lamp, V, is recorded.
+What are the values of I in the first circuit and V in the second circuit?
+I /A V /V
+A 0.25 1.6
+B 0.25 3.0
+C 0.25 4.4
+D 0.35 1.6
+E 0.35 3.0
+F 0.35 4.4
+10
+11 PQRS is a trapezium as shown.
+Q R
+40m
+30°
+P S
+[diagram not to scale]
+5
+tan RSQ =
+8
+What is the length of PS, in metres?
+A 45
+B 65
+C 80
+D 120
+40 3
+E 25 +
+3
+64 3
+F 40+
+3
+G 25+ 40 3
+H 64+ 40 3
+11
+12 A transverse wave on a string has a speed of 500ms–1.
+The horizontal distance between two points P and Q on the wave is 4.0m, as shown in the
+diagram.
+X
+6.0mm
+Q
+P
+4.0m
+At time t = 0ms, point X on the string is at its maximum displacement of 6.0mm above
+equilibrium.
+What is the displacement of point X at time t = 7.0ms?
+A 6.0mm above equilibrium
+B between 0mm and 6.0mm above equilibrium
+C 0mm
+D between 0mm and 6.0mm below equilibrium
+E 6.0mm below equilibrium
+12
+13 A solid cylinder has radius rcm and height hcm.
+A cube has side length 3rcm.
+The total surface area of the cylinder is equal to four times the total surface area of the cube.
+Which of the following is an expression for h in terms of r?
+18 
+A  − 2 r
+ π 
+18 
+B  − 1 r
+ π 
+27r
+C
+π
+27 
+D  − 1 r
+ π 
+27 
+E  − 1 r
+4π 
+108r
+F
+π
+108 
+G  − 1 r
+ π 
+108 1
+H  −  r
+ π 2
+13
+14 A piece of metal of mass 50g is at thermal equilibrium in a hot liquid at temperature T.
+The metal is removed from the liquid and immediately placed in 100g of water that is at 20°C.
+The water is stirred and reaches a final temperature of 26°C.
+material specific heat capacity /Jkg–1°C–1
+hot liquid 2000
+metal 350
+water 4200
+What is the temperature T of the hot liquid?
+(Assume that heat transfers to or from the surroundings are negligible.)
+A 38°C
+B 51°C
+C 150°C
+D 170°C
+E 480°C
+14
+15 The variables x and y are related by the equation:
+2y3+1
+x = 5 −
+1− 2y3
+Which of the following is a rearrangement to make y the subject?
+x−4
+A y = 3
+8x−48
+x−6
+B y = 3
+8x−32
+x−2
+C y = 3
+x−6
+x−3
+D y = 3
+x−4
+x−4
+E y = 3
+2x−12
+x−6
+F y = 3
+2x−8
+15
+16 A bar magnet is placed at position X close to one end of a coil and on the axis of the coil as
+shown.
+The graph shows how the velocity of the magnet varies as it is then moved rapidly to position Y
+and back to position X.
+velocity away
+position X position Y
+from coil
+0
+time
+The magnetic field of the bar magnet still affects the coil when the magnet is at position Y.
+Which graph represents how the induced voltage in the coil changes as the magnet moves?
+A induced B induced
+voltage voltage
+0 0
+time time
+C induced D induced
+voltage voltage
+0 0
+time time
+E induced F induced
+voltage voltage
+0 0
+time time
+16
+17 Three different numbers are chosen at random from 1, 2, 3, 4 , 5.
+What is the probability that the three numbers form the three sides of a right-angled triangle?
+1
+A
+15
+1
+B
+10
+3
+C
+10
+1
+D
+3
+2
+E
+5
+2
+F
+3
+4
+G
+5
+17
+18 A small slider of mass 30g is at rest near the bottom of a frictionless slope and in contact with a
+light uncompressed spring as shown.
+spring slider
+height
+[diagram not to scale]
+The spring is compressed by 5.0cm and the slider remains in contact with it.
+The spring is released and causes the slider to rise up the slope to a maximum vertical height
+of 20cm.
+The slider is replaced with one of mass 20g.
+The spring is now compressed by 15cm, and the new slider remains in contact with it.
+To what maximum vertical height does this new slider rise after it is released?
+(the spring obeys Hooke’s law; assume that air resistance is negligible)
+A 40cm
+B 60cm
+C 90cm
+D 120cm
+E 180cm
+F 270cm
+18
+19 The point (–1,5) is translated to the point (3,2) by two successive translations.
+ 3p 
+The first translation is by the vector
+ 
+−4p
+ q 
+The second translation is by the vector
+ 
+−2q
+What is the value of p + q?
+A –14
+B –7
+C –5
+D –1
+E 1
+F 5
+G 7
+H 14
+20 A tall, smooth cylinder contains air at atmospheric pressure of 1.00 ×105Pa. The density of the
+air in the cylinder is 1.20kgm–3.
+A heavy piston is now placed in the top of the cylinder and allowed to fall slowly downwards,
+compressing the air until the piston rests in equilibrium.
+The mass of the piston is 50.0kg and its cross-sectional area is 0.0200m2.
+What is the density of the air in the cylinder when the piston rests in equilibrium?
+(gravitational field strength = 10Nkg–1; assume that the air behaves as an ideal gas and that
+the temperature remains constant)
+A 0.960kgm–3
+B 1.20kgm–3
+C 1.25kgm–3
+D 1.28kgm–3
+E 1.50kgm–3
+F 4.80kgm–3
+19
+BLANK PAGE
+20
+PART B Advanced Mathematics and Advanced Physics
+NOTE: questions in this part that are not covered by the ESAT
+content specification are indicated by a cross through the
+question number.
+21
+21 Find the value of
+4
+2x2−3
+ dx
+x x
+1
+19
+A
+3
+37
+B
+3
+53
+C
+3
+73
+D
+4
+81
+E
+4
+87
+F
+4
+22 The diagram represents a stationary wave in a medium.
+150cm
+The transverse waves that are creating the stationary wave travel at a speed of 300ms–1
+through the medium.
+What is the frequency of the transverse waves?
+A 75Hz
+B 150Hz
+C 200Hz
+D 450Hz
+E 600Hz
+F 1200Hz
+22
+23 The diagram shows a semicircle of radius 5 units and a triangle.
+y
+5 (x,y)
+0 5 10 x
+The triangle has vertices at (0,0), (10,0) and (x,y).
+(x,y) is a point on the arc of the semicircle.
+Which of the following is an expression in terms of x for the area of this triangle?
+A 5 10x−x2
+B 5x 10−x
+C 5x 10x−x2 −20
+D 15x
+E 25x
+F 5x(10 – x)
+23
+24 A stone is thrown vertically upwards from the surface of the Earth and reaches a maximum
+height h.
+The same stone is thrown vertically upwards from the surface of the Moon, with the same initial
+speed.
+What is the maximum height reached by the stone thrown on the Moon?
+(gravitational field strength on the Earth = 10Nkg–1; gravitational field strength on the
+Moon = 1.6Nkg–1; air resistance may be ignored)
+10 
+A   h
+1.6
+10  2
+B   h
+1.6
+ 10 
+C   h
+3.2
+ 10  2
+D   h
+3.2
+ 10 
+E   h
+8.4
+ 10  2
+F   h
+8.4
+ 20 
+G   h
+1.6
+ 20  2
+H   h
+1.6
+24
+25 Four mathematically similar solids, W, X, Y and Z, have the following properties:
+• The ratio of the lengths of W to the lengths of X is 1 : 2
+• The ratio of the surface area of X to the surface area of Y is 2 : 1
+• The ratio of the volume of Y to the volume of Z is 1 : 2
+What is the order of the solids when arranged in increasing volume?
+A W Y X Z
+B W Y Z X
+C W Z Y X
+D Y W X Z
+E Y W Z X
+F Y Z W X
+25
+26 A ray of light is incident on a boundary between a vacuum and medium X at an angle θ as
+shown:
+incident ray reflected ray
+vacuum θ
+medium X
+refracted ray
+The incident ray is partially reflected and partially refracted. The angle between the reflected
+and refracted rays is 90°.
+What is the refractive index of medium X?
+A sinθ
+1
+B
+sinθ
+C cosθ
+1
+D
+cosθ
+E tanθ
+1
+F
+tanθ
+26
+27 Which one of the following expressions is equal to
+( 2+ 20 )2
+( 1+ 5 )3
+A 5 – 1
+5 −1
+B
+2
+6 ( 5 5 −1 )
+C
+31
+3 ( 5 5 −1 )
+D
+31
+−22 +10 2+11 5 − 4 10
+E
+2
+−22 +10 2 +11 5 − 4 10
+F
+4
+27
+28 An electric train is travelling along a straight horizontal track. It passes a point Q on the track at
+time t = 0.
+The distance x that it then travels away from Q is given by the equation:
+x = at + bt2
+where a and b are constants.
+Which of the following statements is/are correct?
+1 The speed of the train increases with time at a constant rate.
+2 The resultant force acting on the train increases with time.
+3 The rate at which energy is transferred to the train increases with time.
+A none of them
+B 1 only
+C 2 only
+D 3 only
+E 1 and 2 only
+F 1 and 3 only
+G 2 and 3 only
+H 1, 2 and 3
+28
+29 Evaluate
+∞
+ 1 1 1 
+ r
++
+r
++
+r 
+2 3 4 
+r=2
+21
+A
+40
+3
+B
+4
+13
+C
+12
+157
+D
+120
+11
+E
+6
+23
+F
+12
+30 A length of wire has resistance R.
+Another length of wire is made from the same material. This wire is twice as long as the first
+wire and has half the diameter.
+Both wires have circular cross-sections.
+The two wires are connected in parallel.
+What is the total resistance of this combination?
+2
+A R
+3
+8
+B R
+9
+C 2R
+D 3R
+E 8R
+F 9R
+29
+31 What is the complete set of real values of x for which
+x2( x2+4 ) < 21
+A – 3 < x < 3
+B – 7 < x < 7
+C x < – 3 or x > 3
+D x < – 7 or x > 7
+E – 7 < x < – 3 or 3 < x < 7
+F x < – 7 or – 3 < x < 3 or x > 7
+30
+32 An empty bucket has a mass of 1.20kg and an internal volume of 0.0150m3. The bucket is
+used to lift water from a well.
+The bucket is attached to a light, inextensible rope which winds onto a rotating cylinder of
+radius 0.200m when a handle is turned.
+handle
+0.600m
+0.200m
+To lift a bucket completely full of water at constant speed, it is necessary to apply a force of
+250N to the handle that acts along the tangent to the circle of radius 0.600m, in which the
+handle moves.
+The energy required to lift the bucket is wasted energy.
+What is the efficiency of the system in lifting water from the well?
+(gravitational field strength = 10Nkg–1; density of water = 1000kgm–3)
+A 2.00%
+B 2.16%
+C 20.0%
+D 21.6%
+E 60.0%
+31
+33 A sector of a circle has perimeter 24.
+For what value of the radius does the sector have the maximum possible area?
+A 3 2
+B 2 6
+C 3 6
+D 6
+E 12
+F 18
+G 36
+34 A uniform metre ruler has a mass of 100g and is 1.00m long.
+A small object of mass 20g is fixed at the 0cm mark, and another small object of mass 80g is
+fixed at the 100cm mark.
+The ruler is balanced on a pivot.
+When the ruler is balanced, what distance is the pivot from the 0cm mark?
+A 15cm
+B 20cm
+C 25cm
+D 35cm
+E 65cm
+F 75cm
+G 80cm
+H 85cm
+32
+35 The curve y = x2 – x – 6 intersects the x-axis at the points A and B, and has a minimum at the
+point C.
+The rectangle ABDE has two of its vertices at A and B.
+The point C lies on the edge DE, between D and E.
+What is the area of the rectangle ABDE?
+A 6
+B 6.25
+C 30
+D 31.25
+E 35
+F 36.75
+G 42
+H 43.75
+33
+36 A circuit comprising two resistors and two batteries, with negligible internal resistance, is set up
+as shown in the diagram. The two junctions in the circuit are labelled X and Y.
+6.0V
+1.0Ω
+3.0V
+X Y
+3.0Ω
+What are the magnitude and direction of the current in the 3.0V battery?
+magnitude of current /A direction of current
+A 1.0 from X to Y
+B 2.0 from X to Y
+C 2.25 from X to Y
+D 6.0 from X to Y
+E 1.0 from Y to X
+F 2.0 from Y to X
+G 2.25 from Y to X
+H 6.0 from Y to X
+34
+37 A straight line passes through the points (0,2a) and (a,0), where a is a positive constant.
+What is the perpendicular distance of the point P (a,2a) from this line?
+2
+A a
+5
+5
+B a
+2
+2 5
+C a
+5
+4 5
+D a
+5
+3 10
+E a
+5
+38 Two isolated spheres have masses m and 2m. They are moving towards each other along the
+same straight line with speeds 4v and v respectively as shown:
+m 4v v 2m
+The spheres collide with each other and coalesce.
+What is the loss of kinetic energy during the collision?
+1
+A mv2
+3
+2
+B mv2
+3
+25
+C mv2
+3
+26
+D mv2
+3
+2
+E mv2
+9
+79
+F mv2
+9
+G 9mv2
+35
+39 Find the sum of the real solutions to the equation
+2 x −( 2 )x+6 +12 =0
+A 8
+B 16
+4+ 2
+C 2 2
+6+ 2
+D 2 2
+E 1+
+1log
+3
+2 2
+F 4 + 2log 3
+2
+40 A steel cable has mass 64kg and cross-sectional area 2.0 ×10−4m2.
+The Young modulus of steel is 2.0 ×1011Pa.
+When the cable lies on horizontal ground its length is 40m.
+What is its extension when it is suspended freely from one end and hangs vertically?
+(gravitational field strength = 10Nkg−1; assume that the cable obeys Hooke’s law)
+A 0m
+B 8.0 ×10−7m
+C 8.0 ×10−6m
+D 1.6 ×10−5m
+E 3.2 ×10−5m
+F 6.4 ×10−5m
+G 3.2 ×10−4m
+H 6.4 ×10−4m
+END OF TEST
+36
+BLANK PAGE
+37
+BLANK PAGE
+38
+BLANK PAGE
+39
+40

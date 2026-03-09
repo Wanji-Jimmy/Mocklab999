@@ -1,0 +1,524 @@
+{
+  "exam": "engaa",
+  "year": "2019",
+  "source": "official-pdf-auto-parse",
+  "paper1": [
+    {
+      "question": "Evaluate ( )2 ( )2 7+ 3 − 7− 3",
+      "answers": {
+        "a": "0",
+        "b": "2 7",
+        "c": "4 7",
+        "d": "2 21",
+        "e": "10",
+        "f": "4 21",
+        "g": "20 4"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "The current–voltage graph for a diode is shown. current /mA 16 14 12 10 8 6 4 2 0 –0.6 –0.4 –0.2 0 0.2 0.4 0.6 0.8 1.0 1.2 1.4 voltage /V The diode is connected in series with a resistor and a 6.0V battery. The current in the circuit is 8.0mA. What is the resistance of the resistor? (Assume that the battery has negligible resistance.)",
+      "answers": {
+        "a": "0.15Ω",
+        "b": "0.60Ω",
+        "c": "0.75Ω",
+        "d": "4.8Ω",
+        "e": "150Ω",
+        "f": "600Ω",
+        "g": "750Ω 5"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "The equation gives y in terms of x: ⎛ x⎞ 2 y=3−4⎜1− ⎟ ⎝ 2⎠ Which one of the following is a rearrangement for x in terms of y? 3− y",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "4 4− y",
+      "answers": {
+        "b": "1.0 1.0 ×10–8 microwave radio wave",
+        "c": "1.0 1.0 ×108 infrared ultraviolet",
+        "d": "1.0 1.0 ×108 visible light infrared",
+        "e": "1.0 ×108 1.0 gamma X-ray",
+        "f": "1.0 ×108 1.0 gamma infrared",
+        "g": "1.0 ×108 1.0 ×1016 infrared radio wave",
+        "a": "1.0 1.0 ×10–8 microwave X-ray",
+        "h": "1.0 ×108 1.0 ×1016 visible light ultraviolet"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "The resistance to the motion of a car is directly proportional to the square of the speed of the car. The car increases its speed by 20%. What is the percentage increase in the resistance to the motion of the car?",
+      "answers": {
+        "a": "20%",
+        "b": "24%",
+        "c": "44%",
+        "d": "120%",
+        "e": "224%",
+        "f": "240%",
+        "g": "400% 7"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "A water-tight cylinder with a thin, freely moving piston contains 2.0 ×10–3m3 of trapped air at atmospheric pressure of 1.0 ×105Pa. When the cylinder is submerged in water of constant density 1000kgm–3, the volume of air in the cylinder decreases to 4.0 ×10–4m3. The piston is at a depth h below the surface of the water and the water surface is open to the atmosphere. What is the depth h? (gravitational field strength = 10Nkg–1; assume that the temperature of the air remains constant and that air is an ideal gas)",
+      "answers": {
+        "a": "40m",
+        "b": "50m",
+        "c": "60m",
+        "d": "400m",
+        "e": "500m",
+        "f": "600m"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "The equation of a curve is y = px2 + qx where p and q are constants. The curve passes through the points (2,6) and (4,–4). What is the value of q – p?",
+      "answers": {
+        "a": "1",
+        "b": "2",
+        "c": "5",
+        "d": "6",
+        "e": "9",
+        "f": "16"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "8 8 The secondary coil of an ideal, 100% efficient transformer is connected to a resistor by cables of total resistance 1500Ω. The current in the primary coil is 4.0A. There are 240 turns in the primary coil and 4800 turns in the secondary coil. What is the power produced as heat in the cables?",
+      "answers": {
+        "a": "60W",
+        "b": "300W",
+        "c": "6000W",
+        "d": "24000W",
+        "e": "120000W",
+        "f": "9600000W"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "Which of the following is a simplification of x(3x+1) 4− x2(3x2 −2x−1) 12x3 −8x2 −7x−1 A x(3x−1)(x−1) 4x2 +4x−1 B x(x+1) 4x2 +4x+1 C x(x+1) 4x2 −4x−1 D x(x−1) 4x2 −4x+1 E x(x−1) 12x3 −8x2 −x+1 F x(3x−1)(x−1) 9",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "Two tanks of water are connected by a solid cylindrical copper bar of length l and diameter d. The bar is insulated. One tank contains water at 90°C and the other tank contains water at temperature θ. solid cylindrical bar insulation d water at temperature θ l water at 90°C For which of the following conditions is thermal energy conducted along the bar at the lowest rate? l /m d /cm θ /°C",
+      "answers": {
+        "a": "0.40 4.0 20",
+        "b": "0.40 4.0 40",
+        "c": "0.40 8.0 20",
+        "d": "0.40 8.0 40",
+        "e": "0.80 4.0 20",
+        "f": "0.80 4.0 40",
+        "g": "0.80 8.0 20",
+        "h": "0.80 8.0 40 10"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "The ball for a garden game is a solid sphere of volume 192cm3. For the children’s version of the game the ball is a solid sphere made of the same material, but the radius is reduced by 25%. What is the volume, in cm3, of the children’s ball?",
+      "answers": {
+        "a": "48",
+        "b": "81",
+        "c": "96",
+        "d": "108",
+        "e": "144"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "The radioactive isotope X becomes the stable isotope Y after a succession of decays involving only the emission of alpha and beta (β –) particles. During the decay of one nucleus from X to Y, a total of seven particles are emitted. It is known that more of these particles are alpha particles than beta particles. The atomic number of X is Z and the mass number of X is A. Which row in the table could give the atomic number and the mass number of Y? atomic number of Y mass number of Y",
+      "answers": {
+        "a": "Z – 2 A – 12",
+        "b": "Z – 5 A – 8",
+        "c": "Z – 8 A – 20",
+        "d": "Z – 10 A – 24",
+        "e": "Z – 11 A – 16 11"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "The diagram shows a right-angled triangle, with sides of length x + 4, 2x + 2 and 3x, all in cm. x + 4 3x 2x + 2 [diagram not to scale] What is the area, in cm2, of the triangle?",
+      "answers": {
+        "a": "10",
+        "b": "12",
+        "c": "28",
+        "d": "36",
+        "e": "40",
+        "f": "54",
+        "g": "70"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "The kinetic energy of an object of mass 4.0kg, travelling in a straight line, increases from 32J to 200J in 3.0 seconds due to a constant resultant force. What is the value of this resultant force?",
+      "answers": {
+        "a": "2.0N",
+        "b": "4.0N",
+        "c": "8.0N",
+        "d": "24N",
+        "e": "28N",
+        "f": "56N 12"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "PR and QS are the diagonals of a rhombus PQRS. PR = (3x + 2)cm QS = (8 – 2x)cm The area of PQRS is 11cm2. What is the difference, in cm, between the two possible lengths of PR? 2",
+      "answers": {
+        "a": "2 3 1",
+        "b": "4 2 1",
+        "c": "5 3",
+        "d": "8",
+        "e": "14 13"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "In the following circuit, all five resistors have the same resistance. V The reading on the voltmeter is 1.0V. What is the voltage across the battery?",
+      "answers": {
+        "a": "4.0V",
+        "b": "5.0V",
+        "c": "6.0V",
+        "d": "7.0V",
+        "e": "8.0V",
+        "f": "9.0V",
+        "g": "10V 14"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "Q S 3 cm 4 cm 4 cm 3 cm P R T [diagram not to scale] The diagram shows two congruent right-angled triangles PQR and TSR with right angles at Q and S, respectively. PQ = TS = 3cm QR = SR = 4cm PRT is a straight line. What is the length, in cm, of QS?",
+      "answers": {
+        "a": "4",
+        "b": "3 2",
+        "c": "5.2",
+        "d": "4 2",
+        "e": "6.4",
+        "f": "8.2",
+        "g": "10 15"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "A block is designed with a cylindrical channel to accommodate a hot-water pipe. The block is 100cm long and it has a square cross-section of side 22.0cm with a cylindrical hole in the middle, as shown in the diagram: [diagram not to scale] The diameter of the cylindrical hole is 14.0cm and the density of the material from which the block is made is 0.100gcm–3. What is the mass of the block? 22 (take π to be ) 7",
+      "answers": {
+        "a": "1.32kg",
+        "b": "3.30kg",
+        "c": "13.2kg",
+        "d": "33.0kg",
+        "e": "132kg",
+        "f": "330kg",
+        "g": "1320kg",
+        "h": "3300kg 16"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "19 h 12cm [diagram not to scale]",
+      "answers": {
+        "a": "solid pyramid has a square base of side length 12cm and a vertical height of hcm. The volume of the pyramid, in cm3, is equal to the total surface area of the pyramid, in cm2. What is the value of h? 1 (volume of pyramid = × area of base × vertical height) 3 72 A 35",
+        "b": "2 3",
+        "c": "6 144 D 23",
+        "e": "8",
+        "f": "2 21 17"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "A sample initially contains equal numbers of atoms of a radioactive isotope X and a stable isotope Y. Isotope X has a half-life of 3 years and decays in a single stage to the stable isotope Y. What is the ratio : number of atoms of X number of atoms of Y in the sample 6 years later?",
+      "answers": {
+        "a": "The sample contains only isotope Y.",
+        "b": "1 : 7",
+        "c": "1 : 4",
+        "d": "1 : 3",
+        "e": "7 : 4 18 PART B Advanced Mathematics and Advanced Physics NOTE: questions in this part that are not covered by the ESAT content specification are indicated by a cross through the question number. 19"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    }
+  ],
+  "paper2": [
+    {
+      "question": "Find the area of the shape bounded by the four lines: 2y + x = 4 x = –6 x = 0 y = 0",
+      "answers": {
+        "a": "4",
+        "b": "12",
+        "c": "21",
+        "d": "25",
+        "e": "27",
+        "f": "30"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "A hydroelectric power station uses the water in a reservoir to power the generators. The water falls through a vertical height of 150m to the turbines which power the generators. The efficiency of the power station is 90% and the output power of the power station is 1800MW. The gravitational field strength is 10Nkg–1 and the density of water is 1000kgm–3. What volume of water passes through the turbines in one minute?",
+      "answers": {
+        "a": "6.48 ×104m3",
+        "b": "7.20 ×104m3",
+        "c": "8.00 ×104m3",
+        "d": "6.48 ×107m3",
+        "e": "7.20 ×107m3",
+        "f": "8.00 ×107m3 20"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "The curve y = x3 + px2 + qx + r has a local maximum when x = –1 and a local minimum when x = 3 What is the value of p?",
+      "answers": {
+        "a": "–9",
+        "b": "–3",
+        "c": "–1",
+        "d": "1",
+        "e": "3",
+        "f": "9"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "A car P of mass 1000kg is travelling north at 30ms–1 along a straight, horizontal road when it hits another car Q which is directly ahead of P and travelling in the same direction. Car Q has a mass of 500kg and is travelling at 20ms–1. The collision lasts for 0.20s and immediately after the collision car Q is moving north at 30ms–1. What is the speed of P immediately after the collision and what is the size of the average resultant force that acts on Q during the collision? (Assume that no external forces act on the cars during the collision.) speed of P /ms–1 average force on Q /N",
+      "answers": {
+        "a": "20 25000",
+        "b": "20 50000",
+        "c": "20 100000",
+        "d": "20 125000",
+        "e": "25 25000",
+        "f": "25 50000",
+        "g": "25 100000",
+        "h": "25 125000 21 1"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "When simplified, is written in the form a+b 2 where a and b are integers. ( )3 1− 2 What is the value of b?",
+      "answers": {
+        "a": "–7",
+        "b": "–5",
+        "c": "–1",
+        "d": "1",
+        "e": "5",
+        "f": "7"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "A metal wire of length 0.50m has a uniform cross-sectional area of 4.0 ×10–7m2. There is a current of 4.0A in the wire. What is the potential difference across the ends of the wire? (resistivity of the metal = 1.6 ×10–7Ωm)",
+      "answers": {
+        "a": "0.05V",
+        "b": "0.20V",
+        "c": "0.80V",
+        "d": "3.2V",
+        "e": "5.0V",
+        "f": "20V 22"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "It is given that 7cosx + tanxsinx = 5 where 0° < x < 90° What are the possible values of tanx? 1 1",
+      "answers": {
+        "a": "or 2 3 1 1",
+        "b": "or 3 2 2 3 2 2",
+        "c": "or 2 3",
+        "d": "3 or 2 2",
+        "e": "3 or 2 23"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "A uniform square trap door of side 0.80m and mass 14kg has a smooth hinge at one edge and is held open at an angle of 30° to the horizontal. It is supported by a single rigid rod placed so that it meets the surface of the trap door at 90° at a distance 0.10m from the top edge of the trap door, as shown. m 1 0 0. m 8 0 0. trap door supporting rod 30° hinge What is the normal contact force exerted on the trap door by the rod? (gravitational field strength = 10Nkg−1)",
+      "answers": {
+        "a": "40N",
+        "b": "35 3N",
+        "c": "40 3N",
+        "d": "80N",
+        "e": "80 3N 3",
+        "f": "280 N 3 24"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "An equilateral triangle of side 8cm is drawn so that its vertices lie on the circumference of a circle, as shown in the diagram. 8cm What is the total of the three areas shaded in the diagram, in cm2?",
+      "answers": {
+        "a": "8(2π−3) ( )",
+        "b": "24 π− 3 ( )",
+        "c": "48 4π− 3 16( )",
+        "d": "4π−6−3 3 3 16( )",
+        "e": "4π−3 3 3 25"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "Two small loudspeakers are placed side by side 30cm apart. They are connected to the same signal generator so that they emit sound of frequency 400Hz in phase with one another. The sounds both reach a microphone placed 40cm directly in front of one of the two loudspeakers as shown. 30cm microphone 40cm What is the phase difference between waves from the loudspeakers as they arrive at the microphone? (speed of sound = 320ms–1)",
+      "answers": {
+        "a": "30°",
+        "b": "36°",
+        "c": "45°",
+        "d": "60°",
+        "e": "72°",
+        "f": "90°",
+        "g": "120° 26"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "Which one of the following is the real solution of the equation 2x+1 x 3×5 − 5 − 2=0 ⎛1⎞",
+      "answers": {
+        "a": "x=log ⎜ ⎟ 5 ⎝3⎠ ⎛2⎞",
+        "b": "x=log ⎜ ⎟ 5 ⎝5⎠ ⎛3⎞",
+        "c": "x=log ⎜ ⎟ 5 ⎝5⎠ ⎛2⎞",
+        "d": "x=log ⎜ ⎟ 5 ⎝3⎠ ⎛5⎞",
+        "e": "x=log ⎜ ⎟ 5 ⎝3⎠ ⎛5⎞",
+        "f": "x=log ⎜ ⎟ 5 ⎝2⎠"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "An astronaut on the Moon throws a ball vertically upwards. The ball has a mass of 2.0g and is thrown upwards at 80ms–1. What is the maximum height gained by the ball? (gravitational field strength close to the Moon’s surface = 1.6Nkg–1)",
+      "answers": {
+        "a": "25m",
+        "b": "50m",
+        "c": "320m",
+        "d": "2000m",
+        "e": "3200m",
+        "f": "4000m 27"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "For a particular function f(x), it is given that: 2 4 ∫ 2f(x)dx + ∫ f (x)dx = 4 –2 2 and also: 2 4 ∫ 5f(x)dx – ∫ f (x)dx = 7 –2 –2 4 Find the value of ∫ f (x)dx 2 1 A 3 11 B 7 11 C 6 13 D 6 13 E 3 28",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "A student has one 300Ω resistor and another resistor of resistance R. The student plots a graph of current I against potential difference V for the 300Ω resistor and then for both resistors connected in parallel. 30 I/mA 20 10 0 0 1 2 3 4 5 6 V/V What is the resistance R?",
+      "answers": {
+        "a": "3.3Ω",
+        "b": "5.0Ω",
+        "c": "10Ω",
+        "d": "100Ω",
+        "e": "200Ω",
+        "f": "600Ω",
+        "g": "1000Ω 29"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "Given that x f(x) = ∫ (3+2t)7dt 0 what is the coefficient of x4 in the expansion of f(x) in powers of x?",
+      "answers": {
+        "a": "70",
+        "b": "162 2835 C 4",
+        "d": "3024",
+        "e": "5670",
+        "f": "15120",
+        "g": "22680"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "A light, vertical, copper wire of length 2.4m and uniform cross-sectional area 2.0 ×10–6m2 supports a load of mass 4.0kg. The Young modulus of copper is 1.2 ×1011Pa. What is the strain energy in the wire? (gravitational field strength = 10Nkg–1; assume that the wire obeys Hooke’s law and that the cross-sectional area remains constant)",
+      "answers": {
+        "a": "8.0 ×10–5J",
+        "b": "1.7 ×10–4J",
+        "c": "4.0 ×10–4J",
+        "d": "8.0 ×10–3J",
+        "e": "4.0 ×10–2J",
+        "f": "1.6 ×10–2J 30"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "The three internal angles in a triangle are α, β and θ, and 3tanα – 2sinβ = 2 5tanα + 6sinβ = 8 What is the value of θ in degrees?",
+      "answers": {
+        "a": "15",
+        "b": "45",
+        "c": "75",
+        "d": "105",
+        "e": "135 31"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "Light travelling in a transparent liquid strikes the surface from below. The angle between the surface of the liquid and the direction of travel of the light is α. The light then travels along the surface between the liquid and the air as shown in the diagram. α Now, light travelling in air strikes the surface from above so that the angle between the surface and the direction of travel of this light is also α. After the light strikes the surface from above, the angle between the surface and the direction of travel of the refracted light is β. Which expression gives β? (all angles are in degrees)",
+      "answers": {
+        "a": "cosβ = cos2α ⎛ 1⎞",
+        "b": "cos β = cos α sin–1 ⎜ ⎝α ⎟ ⎠",
+        "c": "sinβ = sin2α",
+        "d": "β = 90 – (90 – α)2",
+        "e": "β = 0",
+        "f": "β = α"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "Find the complete set of values of x for which x3 – 2x2 – 7x – 4 > 0",
+      "answers": {
+        "a": "x < –1",
+        "b": "x > –1",
+        "c": "–1 < x < 4",
+        "d": "x < –1 or x > 4",
+        "e": "x < 4",
+        "f": "x > 4 32"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "The velocity–time graph is for an 80kg person in a lift that is moving vertically upwards. velocity /ms–1 2.0 X 0.0 0.0 5.0 10.0 20.0 25.0 time /s What is the magnitude of the contact force between the person and the lift floor at the time corresponding to X? (gravitational field strength = 10Nkg–1)",
+      "answers": {
+        "a": "640N",
+        "b": "768N",
+        "c": "800N",
+        "d": "832N",
+        "e": "960N END OF TEST 33 BLANK PAGE 34 BLANK PAGE 35 36"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    }
+  ]
+}

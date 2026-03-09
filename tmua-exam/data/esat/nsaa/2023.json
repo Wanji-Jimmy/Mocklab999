@@ -1,0 +1,1065 @@
+{
+  "exam": "nsaa",
+  "year": "2023",
+  "source": "official-pdf-auto-parse",
+  "mandatoryMath": [
+    {
+      "question": "The surface area of a solid sphere of radius R is equal to the total surface area of 10 solid closed cylinders of radius r and height 4r. Which of the following is an expression for R in terms of r? (The surface area of a sphere of radius R is 4πR2.)",
+      "answers": {
+        "a": "R = 5r",
+        "b": "R = 12r",
+        "c": "R = 2 5r 1",
+        "d": "R = 10 r"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "2",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "3",
+      "answers": {
+        "f": "x = y− p – s",
+        "g": "2 and 3 only",
+        "a": "x = s – p+ y q−r",
+        "b": "x = p+ y – s q−r",
+        "c": "x = s – p− y q−r",
+        "d": "x = p− y – s q−r",
+        "e": "x = s – y− p q−r",
+        "h": "1, 2 and 3 6 PART A Mathematics 3 Which of the following is a correct rearrangement of q−r y = p – s−x to make x the subject? q−r"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "Six numbers in increasing order are: 2, x, x, y, 23.5, 27.5 The mean of the six numbers is 12. The median of the six numbers is 7.25. What is the mode of the six numbers?",
+      "answers": {
+        "a": "4.5",
+        "b": "4.75",
+        "c": "5",
+        "d": "9.625",
+        "e": "10",
+        "f": "11.75 7 PART A Mathematics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "X N Y M P W Z [diagram not to scale] WXYZ is a square of side length 1. WM:MX = 1:2 XN:NY = 3:1 YP:PZ = 4:1 What is the area of triangle MNP? 1 A 3 2 B 5 9 C 20 1 D 30 19 E 60 23 F 60 8 PART A Mathematics",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "Which of the following is a simplification of 4x−8 x−6 ÷ x2 +4x−12 x3 −36x 1 A 4 1 B 4x",
+      "answers": {
+        "c": "4",
+        "d": "4x 4x ( x+6 )",
+        "e": "( x−6 ) 4x ( x− 6 )",
+        "f": "( x+ 6 ) 4 G x ( x+ 6 )2 4 H x ( x−6 )2"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "Given that 2(x−2) 27 3 = (81)2 (2x−3) 9 what is the value of x?",
+      "answers": {
+        "a": "0",
+        "b": "2.5",
+        "c": "3",
+        "d": "6",
+        "e": "7.5",
+        "f": "9",
+        "g": "10.5",
+        "h": "12 9 PART A Mathematics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "The solutions of the equation 3x2 – 6x – 2 = 0 are p and q, where p > q. What is the value of 3p + 2q? 2",
+      "answers": {
+        "a": "–10– 15 3 2",
+        "b": "–10– 3 3 1",
+        "c": "–5– 15 3 1",
+        "d": "–5– 3 3 1",
+        "e": "5+ 15 3 1",
+        "f": "5+ 3 3 2",
+        "g": "10+ 15 3 2",
+        "h": "10+ 3 3"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "Last year, the salary of the coach of a football club was 80% of the salary of the star player. At the start of the new year, the coach received a 15% increase in salary and the star player received a 38% increase in salary. What percentage of the star player’s new salary is the coach’s new salary?",
+      "answers": {
+        "a": "46%",
+        "b": "57%",
+        "c": "613% 5",
+        "d": "662% 3",
+        "e": "77%",
+        "f": "831% 3"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "10 PART A Mathematics 10 Two of the angles of a triangle are 90° and θ, where tanθ = 2 The length of the hypotenuse of the triangle is3 6cm. What is the area of the triangle, in cm2? 9 2 A 2",
+      "answers": {
+        "b": "9 2",
+        "c": "9 3",
+        "d": "9 6",
+        "e": "18 2",
+        "f": "18 3",
+        "g": "18 6"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "An athlete’s training session consists of several complete repetitions of a three-part programme: 1. Walk 100m at an average speed of 6kmh–1 2. Jog 200m at an average speed of 10kmh–1 3. Run 100m at an average speed of 20kmh–1 What is the athlete’s average speed for the complete training session, in kmh–1?",
+      "answers": {
+        "a": "7.2",
+        "b": "9.6",
+        "c": "11.5",
+        "d": "12",
+        "e": "14.4 11 PART A Mathematics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "The line joining the points with coordinates (q,2 – q) and (2q + 2,q – 4) is perpendicular to the line with equation 3x – 4y + 5 = 0 What is the value of q? 2",
+      "answers": {
+        "a": "− 5 1",
+        "b": "− 6",
+        "c": "1 18 D 11 16 E 7 5 F 2",
+        "g": "6"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "Two objects X and Y are similar. The surface area of object Y is double the surface area of object X. The volume of object Y is 7 2cm3 more than the volume of object X. What is the volume of object X, in cm3?",
+      "answers": {
+        "a": "14 –7 2",
+        "b": "14 +7 2 42−7 2 C 17 42+7 2 D 17 7 2 E 3",
+        "f": "7 2",
+        "g": "4 – 2",
+        "h": "4 + 2 12 PART A Mathematics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "h"
+    },
+    {
+      "question": "x, y and z are positive variables. y is inversely proportional to the square of x. When y = 20, x = 3 z is directly proportional to x. When z = 1.2, x = 6 What is z when y = 80?",
+      "answers": {
+        "a": "0.0225",
+        "b": "0.03",
+        "c": "0.15",
+        "d": "0.3",
+        "e": "0.36",
+        "f": "0.6",
+        "g": "1.2"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "The equation ⎛a×104 + 2a×103 ⎞ 2 ⎜ ⎟ = 8×109 ⎜ ⎝ 3×10 −1 ⎟ ⎠ has two solutions for a. What is the positive difference between these two solutions?",
+      "answers": {
+        "a": "0",
+        "b": "2 5",
+        "c": "4 5",
+        "d": "20 5",
+        "e": "40 5",
+        "f": "200 5 13 PART A Mathematics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "For any real number x, the function V(x) is defined as: V(x) = 10 x2+6x+7 What is the smallest value of V(x)?",
+      "answers": {
+        "a": "0.001",
+        "b": "0.01",
+        "c": "0.1",
+        "d": "1",
+        "e": "10",
+        "f": "100",
+        "g": "1000"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "X and Y are the end-points of a line segment. Point P has coordinates (–8,5). ⎯⎯ → ⎛ 4 ⎞ P lies on the line segment XY such that XP:PY is 1:2 and XP = ⎜ ⎝ −3 ⎟ ⎠ ⎯⎯ → ⎛7⎞",
+      "answers": {
+        "a": "(7,5)",
+        "b": "(3,8)",
+        "c": "(1,–12)",
+        "d": "(–3,–10)",
+        "e": "(–7,–7)",
+        "f": "(–11,–4) 14 PART A Mathematics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "The 2nd term of a linear (arithmetic) sequence is equal to twice the 8th term. 9 The 5th term is 4 What is the 20th term of the sequence?",
+      "answers": {
+        "a": "–9 7",
+        "b": "− 4 3",
+        "c": "− 2",
+        "d": "6 31 E 4 27 F 2"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "Find the maximum value of 2 sinx × 3–sinx where 0° ≤ x ≤ 360° 2 A 3",
+      "answers": {
+        "b": "1 3 C 2",
+        "d": "2",
+        "e": "3",
+        "f": "6 15 PART A Mathematics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "Two bags contain counters which are identical except for colour. The first bag contains 3 blue and 2 yellow counters. The second bag contains x red, 1 blue and 2 yellow counters.",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    }
+  ],
+  "partBPhysics": [
+    {
+      "question": "An object has mass m and weight W on the Moon. The Moon has no atmosphere. The object is released from rest at height h above the surface of the Moon. Which expression gives the speed of the object as it reaches the surface? Wh A m 2Wh B m 2mh C W",
+      "answers": {
+        "d": "2mWh",
+        "e": "2mWh Wh F m 2Wh G m 2mh H W"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "g"
+    },
+    {
+      "question": "A spaceship of mass 10000kg is moving at 2.0ms–1 relative to a space station. The spaceship is captured by a robotic arm attached to the space station and brought to rest by a force of 1000N. How far will the spaceship move in its initial direction relative to the space station while the force is being applied? (Assume that the acceleration of the space station is negligible.)",
+      "answers": {
+        "a": "0.050m",
+        "b": "0.10m",
+        "c": "0.20m",
+        "d": "5.0m",
+        "e": "10m",
+        "f": "20m 18 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "A heater is connected in series with a dc power supply, a variable resistor and an ammeter in the circuit shown. A The variable resistor is adjusted until the reading on the ammeter is 0.50A and the resistance of the heater is 8.0Ω. How much energy is converted to thermal energy in 5.0 minutes?",
+      "answers": {
+        "a": "10J",
+        "b": "40J",
+        "c": "160J",
+        "d": "600J",
+        "e": "2400J",
+        "f": "9600J 19 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "A circuit is set up as shown. All three resistors are identical. When the switch is open, the reading on the ammeter is 1.0A and the power transferred from the battery is 1.0W. A The switch is now closed. What is the new reading on the ammeter and what is the new power transferred from the battery? ammeter reading / A power transferred / W",
+      "answers": {
+        "a": "0.67 0.67",
+        "b": "0.67 1.3",
+        "c": "0.67 1.5",
+        "d": "0.67 2.0",
+        "e": "1.0 1.0",
+        "f": "1.0 1.5",
+        "g": "1.0 2.0",
+        "h": "1.0 3.0 20 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "A car travels for a total time of 20s. For the first t seconds its speed is 5.0ms–1 and for the remainder of the journey its speed is 10ms–1. The average speed for the whole journey is 8.5ms–1. What is the value of t?",
+      "answers": {
+        "a": "3.0",
+        "b": "6.0",
+        "c": "10",
+        "d": "17 20 E 3 40 F 3 21 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "A spring is initially unstretched. A force F is used to stretch the spring. The extension x and the energy E stored in the stretched spring are measured for different values of F. The graph shows how the energy E, in J, varies with the extension squared, x2, in cm2.",
+      "answers": {
+        "e": "2.4N",
+        "a": "0.30N",
+        "b": "0.60N",
+        "c": "1.2N",
+        "d": "1.5N",
+        "f": "3.0N",
+        "g": "30N",
+        "h": "60N 22 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "The nuclide symbol for helium-3 is 3He. 2",
+      "answers": {
+        "a": "8Z 2",
+        "b": "8Z 4",
+        "c": "12Z 4",
+        "d": "8Z 5",
+        "e": "12Z 5",
+        "f": "16Z 5",
+        "g": "7Z 8",
+        "h": "16Z 8"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "A solid, cylindrical metal bar has a uniform cross-sectional area of 12cm2 and a volume of 180cm3. The bar rests on a horizontal surface on one of its circular faces. The pressure on the surface due to the bar is 0.45Ncm–2. What is the density of the metal, in gcm–3? (gravitational field strength = 10Nkg–1)",
+      "answers": {
+        "a": "2.5gcm–3",
+        "b": "3.0gcm–3",
+        "c": "3.75gcm–3",
+        "d": "7.5gcm–3",
+        "e": "15gcm–3",
+        "f": "33gcm–3 23 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "A ray of light is directed horizontally towards two long, plane mirrors X and Y which are both at 45° to the horizontal. After two reflections the ray is travelling horizontally again. 45° mirror Y incident ray mirror X 45° Mirror X is now rotated clockwise through less than 45°. After this rotation, mirror X makes an angle θ with the horizontal, where θ < 45°. The direction of the incident ray is unchanged. mirror Y original position of mirror X incident ray new position of mirror X θ In what direction and through what angle should mirror Y be rotated in order for the ray to be still horizontal and travelling to the right after reflecting from mirror Y?",
+      "answers": {
+        "a": "clockwise through an angle θ",
+        "b": "anticlockwise through an angle θ",
+        "c": "clockwise through an angle 2θ",
+        "d": "anticlockwise through an angle 2θ",
+        "e": "clockwise through an angle 45°– θ",
+        "f": "anticlockwise through an angle 45°– θ 24 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "Two samples of pure radioactive isotopes X and Y decay with half-lives of 2 days and 3 days, respectively. Both X and Y decay in a single step into different stable isotopes. Initially the number of atoms of X is twice the number of atoms of Y. After how many days are the expected numbers of atoms of X and Y equal to each other?",
+      "answers": {
+        "a": "The expected numbers of atoms of X and Y are never equal.",
+        "b": "2 days",
+        "c": "3 days",
+        "d": "4 days",
+        "e": "6 days",
+        "f": "12 days 25 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "Two stones are held at rest at the same height at the top of a cliff. One stone is released and falls freely under gravity.",
+      "answers": {
+        "a": "separation B separation 0 0 0 T 0 T time time",
+        "c": "separation D separation 0 0 0 T 0 T time time",
+        "e": "separation F separation 0 0 0 T 0 T time time",
+        "g": "separation H separation 0 0 0 T 0 T time time 26 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "A large, flat, metal plate is coated on one side with a layer of thermally insulating material of the same thickness a as the metal plate. The uninsulated top surface of the metal plate is maintained at a constant temperature T . 1 The bottom surface of the insulating material is maintained at a constant, lower temperature T . 2 The system is in equilibrium. The diagram shows this arrangement. metal plate T 1 T 2 insulating material Which graph could show how the temperature varies with distance from the top surface of the metal plate to the bottom surface of the insulating material?",
+      "answers": {
+        "a": "temperature B temperature T T 1 1 T T 2 2 a a a a 0 2 0 2 distance from top distance from top of metal plate of metal plate",
+        "c": "temperature D temperature T T 1 1 T T 2 2 a a a a 0 2 0 2 distance from top distance from top of metal plate of metal plate",
+        "e": "temperature T 1 T 2 a a 0 2 distance from top of metal plate 27 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "10g of ice at 0°C is added to 20g of liquid water at 30°C. The mixture reaches thermal equilibrium. What is its equilibrium temperature, T? (specific latent heat of fusion of ice = 330Jg−1 specific heat capacity of liquid water = 4.2Jg−1°C−1 assume that there is no heat transfer between the mixture and its surroundings)",
+      "answers": {
+        "a": "T < 0°C",
+        "b": "T = 0°C",
+        "c": "0°C < T < 20°C",
+        "d": "T = 20°C",
+        "e": "20°C < T < 30°C",
+        "f": "T = 30°C",
+        "g": "T > 30°C"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "The voltage output of a power station is stepped up using a transformer before the power is transmitted to a distant town. The primary coil of this transformer has 300 turns and the secondary coil has 1500 turns. In the town, a step-down transformer reduces the voltage supplied by the transmission cables to 33000V for distribution within the town. The step-down transformer supplies a current of 1500 A. The current in the transmission cables is 450A and both transformers are ideal and 100% efficient. What is the voltage output of the power station? (Assume that the resistance of the transmission cables is negligible.)",
+      "answers": {
+        "a": "1980V",
+        "b": "6600V",
+        "c": "22000V",
+        "d": "110000V",
+        "e": "550000V 28 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "A physicist introduces a thin piece of glass into the path of a laser beam in order to delay the beam. The light of the laser beam has a single wavelength L in air. While the beam is inside the glass it completes 10 more complete oscillations compared to the same beam passing through the same thickness of air. 2 The speed of light in air is c and the speed of light in glass is c 3 LASER LASER glass What is the thickness of the glass?",
+      "answers": {
+        "a": "6.7L",
+        "b": "10L",
+        "c": "13L",
+        "d": "15L",
+        "e": "20L",
+        "f": "30L"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "A transverse wave with an amplitude of 3.0cm travels along a stretched string. The wave has a frequency of 12Hz and a wavelength of 0.25m. What is the average speed of a particle in the string as the string oscillates during a time of 2.0s?",
+      "answers": {
+        "a": "36cms–1",
+        "b": "72cms–1",
+        "c": "125cms–1",
+        "d": "144cms–1",
+        "e": "300cms–1 29 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "A copper ring, with a small gap XY, rests in a uniform horizontal magnetic field. The ring lies in the plane of the page and the direction of the magnetic field is horizontal from left to right, as shown in the diagram. magnetic field X Y",
+      "answers": {
+        "a": "The ring moves towards the bottom of the page.",
+        "b": "The ring moves towards the top of the page.",
+        "c": "The ring moves towards the left of the page.",
+        "d": "The ring moves towards the right of the page.",
+        "e": "The ring rotates about an axis perpendicular to the plane of the page in a clockwise direction.",
+        "f": "The ring rotates about an axis perpendicular to the plane of the page in an anti-clockwise direction.",
+        "g": "The ring rotates about an axis that is in the plane of the page and parallel to the field.",
+        "h": "The ring rotates about an axis that is in the plane of the page and perpendicular to the field. 30 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "h"
+    },
+    {
+      "question": "A battery and two resistors X and Y are connected in series. X Y The power transferred by the battery is 6W. Ω The resistance of X is 10 . The voltage across Y is 4V. What is the current in the circuit? 2",
+      "answers": {
+        "a": "A 5 3",
+        "b": "A 5 3",
+        "c": "A 4",
+        "d": "1A 3",
+        "e": "A 10 3",
+        "f": "A 5 31 PART B Physics"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "A cubic block of wood of side length L floats in water with the top face of the block horizontal and above the surface. L The block is displaced downwards by a small distance without becoming fully submerged, 10 and then released. The density of the wood is 0.80gcm −3 and the density of water is 1.0gcm −3. What is the initial acceleration of the block after it is released? (gravitational field strength = 10Nkg −1)",
+      "answers": {
+        "a": "0.80ms −2",
+        "b": "1.0ms −2",
+        "c": "1.25ms −2",
+        "d": "1.80ms −2",
+        "e": "8.0ms −2",
+        "f": "11.0ms −2"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "A diver at the bottom of a lake of depth d fills a syringe with an ideal gas and seals the nozzle. The piston remains free to move. The volume of the gas in the syringe at the bottom of the lake is 90cm3. As the diver returns to the surface, the temperature of the gas does not change. At the surface of the lake the gas in the syringe is at atmospheric pressure and the volume of the gas is 720cm3. d What is the volume of the gas in the syringe at a depth ? 2",
+      "answers": {
+        "a": "160cm3",
+        "b": "180cm3",
+        "c": "206cm3",
+        "d": "225cm3",
+        "e": "288cm3",
+        "f": "315cm3",
+        "g": "360cm3",
+        "h": "405cm3 32 PART C Chemistry PART C Chemistry 33 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    }
+  ],
+  "partCChemistry": [
+    {
+      "question": "An experiment is carried out at two different pressures by changing the volume of the reaction vessel. The experiment measures the rate of the reaction between molecules X and Y to form Z: X(g) + Y(g) → Z(s) Assume that the experiments are carried out under exactly the same conditions apart from the difference in pressure. How will the rate of the reaction change with pressure, if at all, and what is the reason for this? difference in rate of reaction reason",
+      "answers": {
+        "a": "the reaction is faster average kinetic energy of molecules is greater at lower pressure at lower pressure",
+        "b": "the reaction is faster the rate of collisions is greater between molecules at lower pressure at lower pressure",
+        "c": "the reaction is slower average kinetic energy of molecules is less at lower pressure at lower pressure",
+        "d": "the reaction is slower the rate of collisions between molecules is lower at lower pressure at lower pressure",
+        "e": "the reaction rate is the same the average kinetic energy of molecules is the same at both pressures at both pressures"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "Which of the following represents the structure of the addition polymer formed from but-1-ene?",
+      "answers": {
+        "a": "B",
+        "c": "D",
+        "e": "F 34 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "The chart shows the relative abundances of the isotopes of an element. relative 5 abundance 4 3 2 1 0 64 65 66 67 68 relative mass What is the relative atomic mass (A) of this element? r",
+      "answers": {
+        "a": "64.0",
+        "b": "65.4",
+        "c": "65.8",
+        "d": "66.0",
+        "e": "66.6 35 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "In this question, all solutions have the same concentration in moldm–3. Three separate experiments were set up using the same volume of each solution: experiment 1: LiCl(aq) and AgNO (aq) 3 experiment 2: NaCl(aq) and AgNO (aq) 3 experiment 3: KCl(aq) and AgNO (aq) 3 For each experiment, the solid formed was filtered, washed, dried, and weighed. Which of the following statements is/are correct? 1 Experiment 3 forms the greatest mass of solid. 2 Experiment 3 has a noticeably greater rate of reaction than the others. 3 The reaction taking place in each experiment is a redox reaction.",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "How many moles of ions are present in 20cm3 of 0.15moldm–3 magnesium nitrate solution? (Ignore ions produced by dissociation of water.)",
+      "answers": {
+        "a": "0.003mol",
+        "b": "0.006mol",
+        "c": "0.009mol",
+        "d": "0.018mol",
+        "e": "0.133mol",
+        "f": "0.400mol 36 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "Silicon is directly below carbon in the Periodic Table and has a melting point of 1414°C. Which of the following statements explains why silicon has a high melting point?",
+      "answers": {
+        "a": "It forms ions with a charge of 4+.",
+        "b": "Its structure is a giant ionic lattice.",
+        "c": "It has a strong attraction between positive nuclei and delocalised electrons.",
+        "d": "It has strong intermolecular forces.",
+        "e": "Covalent bonds are broken on melting."
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "Atoms of element Q have two full shells of electrons and the third shell requires one more electron to gain a noble gas configuration. Which row of the table correctly describes the elements near to Q in the Periodic Table? element immediately element immediately element immediately element immediately above Q below Q to the left of Q to the right of Q requires one more gains an electron the atom contains electron to fill a is very unreactive",
+      "answers": {
+        "a": "less favourably one fewer proton second shell of compared to Q than Q than Q electrons gains an electron the atom contains",
+        "b": "more favourably more protons is found in Period 3 is a halogen than Q than Q requires one more gains an electron the atom contains electron to fill a is an alkaline earth",
+        "c": "less favourably one more proton second shell of metal than Q than Q electrons contains an extra full the atom contains is very unreactive",
+        "d": "is found in Period 3 shell of electrons one fewer proton compared to Q compared to Q than Q gains an electron the atom contains the atom has an",
+        "e": "more favourably more protons atomic number is found in Period 3 than Q than Q greater than Q 37 PART C Chemistry x−1"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "A simple ion of an element has a mass number x, an atomic number and a charge of –1. 2 How many protons, neutrons and electrons are present in this ion? protons neutrons electrons x−1 x−1 x−1 A 2 2 2 x−1 x+ 1 x+ 1 B 2 2 2 x−1 x+ 1 x−1 C 2 2 2 x−1 x−1 x+ 1 D 2 2 2 x+ 1 x−1 x+ 1 E 2 2 2 x+ 1 x−1 x−1 F 2 2 2",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "Titanium metal can be extracted from titanium(IV) chloride, TiCl . 4 Titanium(IV) chloride is heated to 1000°C with either sodium or magnesium metal in an atmosphere of argon. Which one of the following statements is correct? (A values: Na = 23; Mg = 24; Cl = 35.5; Ti = 48) r",
+      "answers": {
+        "a": "A greater mass of magnesium chloride than sodium chloride is produced for each tonne of titanium made.",
+        "b": "The atmosphere of argon is used as a catalyst.",
+        "c": "In each reaction equation, the ratio of the reacting metal to titanium(IV) chloride is the same.",
+        "d": "Titanium is a weaker oxidising agent than either sodium or magnesium.",
+        "e": "A smaller mass of magnesium than sodium is required to produce 500kg of titanium. 38 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "Ethene gas and hydrogen gas react to form ethane gas. The energy change for this reaction is –150kJmol–1. Using the provided data, what is the mean C–H bond energy? (Bond energy data: H–H = 430kJmol–1; C–C = 350kJmol–1; C=C = 600kJmol–1)",
+      "answers": {
+        "a": "115kJmol–1",
+        "b": "200kJmol–1",
+        "c": "230kJmol–1",
+        "d": "265kJmol–1",
+        "e": "400kJmol–1",
+        "f": "415kJmol–1",
+        "g": "465kJmol–1",
+        "h": "830kJmol–1"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "A water treatment unit processes 355000dm3 of drinking water each day. 0.4mg of chlorine gas is used to kill the bacteria in 1dm3 of the source water. What volume of chlorine gas, if measured at room temperature and pressure, is used each day at the water treatment unit? (A value: Cl = 35.5. Assume that one mole of a gas occupies 24dm3 at room temperature and r pressure.)",
+      "answers": {
+        "a": "6dm3",
+        "b": "12dm3",
+        "c": "48dm3",
+        "d": "96dm3",
+        "e": "300dm3",
+        "f": "600dm3 39 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "Element X is in Group 13, Period 4. It consists of atoms of two isotopes with mass numbers 69 and 71. The relative atomic mass of element X is 69.7. Which of the following statements is/are correct about element X? 1 75% of the atoms of element X have mass number 69. 2 An atom of element X has three electrons in its outer shell. 3 Element X forms an oxide with formula X O that reacts with acids. 2 3",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 40 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "g"
+    },
+    {
+      "question": "One mole of copper reacts completely with an excess of concentrated nitric acid.",
+      "answers": {
+        "a": "Cu + 2HNO → CuNO + NO + H O 3 3 2 2",
+        "b": "Cu + 2HNO → CuO + 2NO + O + H O 3 2 2",
+        "c": "Cu + 2HNO → CuO + 2N O + H O 3 2 4 2",
+        "d": "Cu + 4HNO → Cu(NO ) + N O + 2H O 3 3 2 2 4 2",
+        "e": "Cu + 4HNO → Cu(NO ) + 2NO + 2H O 3 3 2 2 2",
+        "f": "3Cu + 8HNO → 3Cu(NO ) + 2NO + 4H O 3 3 2 2",
+        "g": "3Cu + 8HNO → Cu(NO ) + 2CuO + 6N O + 4H O 3 3 2 2 4 2 41 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "Two experiments were carried out using separate samples of a solution of an acid of concentration 0.40moldm–3 (36gdm–3) and the following observations were made. • 25cm3 of the acid solution exactly neutralised 100cm3 of 0.20moldm–3 sodium hydroxide solution. • Bubbles of gas were given off when magnesium ribbon was added to the acid solution. Which of the following statements can be deduced from this information? 1 It is a monoprotic acid. 2 It is a strong acid. 3 The acid has a relative molar mass (M) of 90. r",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 42 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "When methanol is burned in the apparatus shown it gives out 720kJmol–1. However, only 80% of the energy released is transferred into the water. The starting temperature of the water is 12°C. What mass of methanol would need to be burned to give a 60°C temperature rise in the water? (M value: methanol = 32. Assume that the specific heat capacity of water = 4Jg–1°C–1) r",
+      "answers": {
+        "a": "1.28g",
+        "b": "1.60g",
+        "c": "1.92g",
+        "d": "2.00g",
+        "e": "2.40g 43 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "A student electroplates a solid metal ball with copper. The student dissolves 80.0g of anhydrous copper(II) sulfate in water and makes up the solution to exactly 500cm3 to use as the electrolyte. Two electrodes are placed in this solution. One electrode is the ball to be electroplated and the other electrode is an inert graphite electrode. The electrodes are connected to a battery. After some time, the ball is removed and is found to be coated with 8.00g of copper. Water is added to the remaining solution to give a final volume of exactly 500cm3. What is the final concentration of the copper(II) ions in solution? (A values: O = 16; S = 32; Cu = 64) r",
+      "answers": {
+        "a": "0.25moldm–3",
+        "b": "0.38moldm–3",
+        "c": "0.45moldm–3",
+        "d": "0.50moldm–3",
+        "e": "0.75moldm–3",
+        "f": "0.90moldm–3",
+        "g": "1.0moldm–3 44 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "The structure of cyclohexa-1,4-diene is: Bromine is dissolved in inert organic solvent to form 0.250moldm–3 of bromine solution. What is the minimum volume of this bromine solution required to react completely with 0.10cm3 of cyclohexa-1,4-diene? (M value: cyclohexa-1,4-diene = 80. Density of cyclohexa-1,4-diene = 0.84gcm–3) r",
+      "answers": {
+        "a": "0.042cm3",
+        "b": "0.084cm3",
+        "c": "0.0042cm3",
+        "d": "0.0084cm3",
+        "e": "0.042dm3",
+        "f": "0.084dm3",
+        "g": "0.0042dm3",
+        "h": "0.0084dm3 45 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "h"
+    },
+    {
+      "question": "The relative tendency for metals to form positive ions in solution can be measured using the following apparatus: voltmeter V inert conductor _ + metal 1 metal 2 1moldm–3 solution 1moldm–3 solution of metal 1 ions of metal 2 ions Electrons can pass from metal 1 to metal 2 via the external circuit. The difference in the tendency of the metals to form positive ions is given by the reading on the voltmeter. The higher the reading on the voltmeter the greater the difference in the tendency of the pair of metals to form positive ions. Results from three experiments are given in the following table. experiment metal 1 metal 2 reading on voltmeter / V 1 P Q +0.62 2 S Q +0.30 3 S R +1.24 Using the information in the table, what is the order of reactivity of the four metals P, Q, R and S, from most reactive to least reactive?",
+      "answers": {
+        "a": "P, Q, R, S",
+        "b": "P, Q, S, R",
+        "c": "P, S, Q, R",
+        "d": "P, S, R, Q",
+        "e": "S, P, Q, R",
+        "f": "S, P, R, Q",
+        "g": "S, R, Q, P",
+        "h": "S, R, P, Q 46 PART C Chemistry"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    },
+    {
+      "question": "A sample of aluminium ore (bauxite) contains 75.0% by mass of hydrated aluminium oxide. Hydrated aluminium oxide is one mole of aluminium oxide combined with two moles of water. What is the minimum mass of this sample of bauxite that is required to produce 108 tonnes of aluminium? (1 tonne = 1 × 106g. A values: H = 1; O = 16; Al = 27) r",
+      "answers": {
+        "a": "184 tonnes",
+        "b": "207 tonnes",
+        "c": "272 tonnes",
+        "d": "276 tonnes",
+        "e": "368 tonnes",
+        "f": "421 tonnes",
+        "g": "592 tonnes",
+        "h": "736 tonnes"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "Equal amounts of carbon dioxide and carbon monoxide are produced when 2.0mol of propanol, C H OH, are reacted with a limited supply of oxygen. Water is the only other product 3 7 in this reaction. How many moles of oxygen molecules are used in this reaction?",
+      "answers": {
+        "a": "3.5mol",
+        "b": "7.0mol",
+        "c": "7.5mol",
+        "d": "8.5mol",
+        "e": "15mol",
+        "f": "17mol 47 PART D Biology PART D Biology 48 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "c"
+    }
+  ],
+  "partDBiology": [
+    {
+      "question": "Ambrosia beetles carry fungal spores from tree to tree. The beetles make holes in the branches of trees and create a network of tunnels in the wood. The fungus grows along the walls of the tunnels providing the only food source for the beetles. The fungus can penetrate xylem vessels and block them, which eventually kills the tree. Which option correctly describes the relationship between these organisms?",
+      "answers": {
+        "a": "The beetle and the fungus have a mutualistic relationship.",
+        "b": "The beetle and the tree have a mutualistic relationship.",
+        "c": "The fungus is a parasite on the beetle.",
+        "d": "The fungus is the primary producer that the beetle feeds on.",
+        "e": "The tree is the primary producer that the beetle feeds on. 49 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "Which of the following graphs could describe processes taking place in the leaf of an oak tree in the presence of light? 1 2 rate of mass of photosynthesis carbon dioxide used in the leaf 0 0 0:00 12:00 24:00 temperature / °C time of day 3 rate of photosynthesis 0 0 distance from a light source",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 50 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "The diagram shows the flow of energy in a year’s growth of grass from 1m2 of grassland. 1020kJ in breath, movement and heat loss 120kJ to growth of cow 1860kJ in faeces and urine 3000kJ eaten by the cow 14800kJ to 3520kJ eaten by decomposers other herbivores Which of the following statements is/are correct? 1 62% of the energy consumed by the cow is lost in faeces and urine. 2 The diagram illustrates all the main processes of carbon uptake and release in the carbon cycle. 3 4% of the energy absorbed by the cells of the cow is used for growth.",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 51 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "A Petri dish was filled with agar that had been mixed with starch. The agar is not digested by enzymes used in the experiment. Four small wells were cut in the agar. Three were filled with different solutions. Well Y was filled with water to act as a control. The dish was kept at 30°C for 30 minutes. The surface of the agar was then washed with iodine solution, turning parts of it blue-black in the presence of starch. The Petri dish was placed on a piece of graph paper, as shown in the diagram, to measure the clear areas around the wells. The area of each well should be considered negligible. 0 1 2 3 4 5 6 7 8 cm well Z well W well X well Y starch agar stained blue-black Which of the statements is/are correct? 1 The area of starch digested around well W is 4 times the area digested around well X. 2 Amylase could have been used in well W and protease could have been used in well X. 3 The solution put in well Z could have contained boiled enzyme.",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 52 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "The diagram shows a bubble potometer at the start of an experiment. water screw clip ruler (cm) sealed rubber tube 0 1 2 3 4 5 6 7 8 9 101112 glass tube air bubble The glass tube has an internal diameter of 1mm. After five minutes, one end of the air bubble had moved to the 4cm mark on the scale. Which row is correct? name of process volume of water taken up being investigated / mm3",
+      "answers": {
+        "a": "translocation π × (0.5)2 × 10",
+        "b": "translocation π × (0.5)2 × 15",
+        "c": "translocation 2π × (0.5) × 10",
+        "d": "translocation 2π × (0.5) × 15",
+        "e": "transpiration π × (0.5)2 × 10",
+        "f": "transpiration π × (0.5)2 × 15",
+        "g": "transpiration 2π × (0.5) × 10",
+        "h": "transpiration 2π × (0.5) × 15 53 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "A chemical was added to a cell dividing by mitosis. This chemical binds to molecules, preventing the separation of the replicated chromosomes. Using this information, which of the following effects could this chemical have on this cell division? 1 The four daughter cells contain double the normal number of chromosomes. 2 The gametes contain the haploid number of chromosomes. 3 The cell does not divide and contains the diploid number of replicated chromosomes.",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 54 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "A student viewed a bacterial cell using a microscope. The cell was measured with a µ microscope ruler as shown in the diagram. Each division on this ruler measures 2.5 m. microscope ruler µ 2.5 m bacterial cell The student made a drawing of this cell. The drawing was 5.0cm in length and included the structures that the student expected to see. Which row of the table gives the magnification of the student’s drawing and one of the structures that should be included? magnification of the structure that should be student’s drawing included",
+      "answers": {
+        "a": "2.5 ×10–4 cell wall",
+        "b": "2.5 ×10–4 nucleus",
+        "c": "4.0 ×10–1 cell wall",
+        "d": "4.0 ×10–1 nucleus",
+        "e": "4.0 ×103 cell wall",
+        "f": "4.0 ×103 nucleus",
+        "g": "2.0 ×104 cell wall",
+        "h": "2.0 ×104 nucleus 55 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "The table shows details of genetic characteristics of three species of organisms and the genetic crosses carried out with them. dominant recessive cross organism description of parents in cross characteristic characteristic heterozygous V cattle have horns hornless × hornless horned heterozygous heterozygous W fruit flies grey-bodied ebony-bodied × grey-bodied grey-bodied wrinkled wrinkled homozygous Y pea plants round seeds × seeds seeds round seeds All alleles exhibit simple dominant/recessive relationships. Which of the following statements is/are correct? 1 If two of the offspring from cross V are bred together, three different crosses could result, with three different probabilities of phenotypes in the next generation: 100% hornless, 50% hornless, or 25% hornless. 2 The genotypes of the offspring with the dominant characteristic from cross W will be identifiable through their phenotypes. 3 A farmer planted seeds collected from the offspring of cross Y. If these seeds grew and produced flowers which were then cross-pollinated with each other, the resulting seeds would yield a crop containing 50% homozygous plants.",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 56 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "The table shows the relationship between heart rate and blood output from the left ventricle of a healthy human heart. heart rate in 55 70 80 90 120 140 150 175 beats per minute blood output in dm3 from the left ventricle of the heart 4.0 5.0 5.2 5.6 6.0 6.0 5.8 4.6 each minute Which of the following statements is/are correct? 1 The volume of blood pumped out of the heart each minute is directly proportional to the heart rate. 2 When the heart rate increased from 55 to 70 beats per minute, the blood output from the heart increased by 20%. 3 Blood output from the heart to the lungs will be less than that to the rest of the body.",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 57 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "The diagram shows a flow chart representing the hormonal activity associated with the menstrual cycle. – indicates a negative feedback loop – hypothalamus + indicates a loop in which an ovarian hormone stimulates gonadotrophin-releasing the release of a second hormone hormone (GnRH) from the pituitary gland + anterior – – pituitary hormone 1 hormone 2 ovarian corpus luteum ovarian follicle hormone 3 hormone 4 Which of the following statements about the menstrual cycle is/are correct? 1 Hormone 1 stimulates follicle maturation and the release of hormone 3 from the ovarian follicle. 2 Hormone 4 maintains the uterus lining. 3 At the end of the menstrual cycle the levels of hormone 1 and hormone 2 will reach their highest point and then decrease, leading to menstruation.",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 58 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "A scientist was investigating the effect of substrate concentration on lipase enzyme activity Two test tubes were set up: • one containing a sample of full-fat milk mixed with an alkaline solution, and a pH indicator • one containing lipase The pH indicator turned the alkaline milk sample pink. Both tubes were incubated in a water bath set to an optimum temperature for lipase until the contents had reached this temperature. The scientist then added the lipase to the tube with the milk sample and measured the time taken for the indicator to turn colourless. This colour change was caused by an increase in concentration of one of the products of the reaction. Further samples of the milk were diluted, and added to the same quantity of alkaline solution and pH indicator, to produce another six different substrate concentrations, and the experiment was repeated. All other variables were kept constant. The scientist found that each substrate concentration caused the pH indicator to change to colourless in a different length of time. The results of the reaction in all seven tubes were plotted on a graph. Which option correctly identifies the shape of the graph of the results, the limiting factor during the experiment and an explanation for the change in colour of the pH indicator? substrate concentration the limiting factor the limiting factor the limiting factor is the limiting factor is is substrate is substrate temperature temperature concentration concentration the the the the the the the the indicator indicator indicator indicator indicator indicator indicator indicator changes changes changes changes changes changes changes changes due to an due to a due to an due to a due to an due to a due to an due to a increase decrease increase decrease increase decrease increase decrease in pH in pH in pH in pH in pH in pH in pH in pH",
+      "answers": {
+        "a": "Option unavailable",
+        "b": "Option unavailable"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "f"
+    },
+    {
+      "question": "Even when sufficient oxygen is available, yeast will respire anaerobically using glucose as a substrate. However, if its source of glucose runs out and oxygen is available, yeast can switch to using ethanol as a substrate, which it uses to respire aerobically.",
+      "answers": {
+        "a": "1, 2 and 3 only",
+        "b": "1, 2 and 4 only",
+        "c": "1, 3 and 4 only",
+        "d": "2, 3 and 4 only",
+        "e": "1, 2, 3 and 4 60 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "a"
+    },
+    {
+      "question": "The diagram represents part of the carbon cycle. 1 2 3 plants 4 5 6 7 Which of the arrows represent processes resulting in at least one organic product (contains carbon and hydrogen)?",
+      "answers": {
+        "a": "3 only",
+        "b": "4 only",
+        "c": "5 and 6 only",
+        "d": "1, 2 and 7 only",
+        "e": "3, 5 and 6 only",
+        "f": "1, 2, 3 and 4 only",
+        "g": "3, 4, 5 and 6 only",
+        "h": "1, 2, 3, 4, 5, 6 and 7 61 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "g"
+    },
+    {
+      "question": "In an experiment, 8 identical cubes of potato were each weighed and placed in a different test tube. Each of the test tubes contained a different concentration of sodium chloride solution. All other conditions were kept the same throughout the experiment. After 30 minutes, the potato cubes were removed from the test tubes and weighed, and the percentage change in mass was calculated. 15 percentage change in mass 10 5 0 0 0.2 0.4 0.6 0.8 –5 –10 –15 concentration of sodium chloride / moldm–3 Which of the following statements is/are correct? 1 The initial concentration of sodium chloride inside the potato cubes must be 0.3moldm–3. 2 Osmosis involves the diffusion of water molecules from a solution of high solute concentration to one of low solute concentration. 3 In this experiment, the rate of osmosis is fastest at a sodium chloride concentration of 0.8moldm–3.",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 62 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    },
+    {
+      "question": "The same section of a gene was taken from two different people and the DNA sequenced to show the triplets on one strand. The results for each person are shown. person 1 TCC GCG AGC CCC TTG AGG person 2 TCC GCG AGC CCG TTA AGG Which of the following statements about the sequences could be correct? 1 Person 2 has one mutation in the section of the gene. 2 Both people have the same phenotype for this gene. 3 This section of the gene codes for up to 6 bases.",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 63 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "The family tree shows the inheritance of an autosomal recessive genetic condition. Key male without condition female without condition female with condition 1 2 3 4 Which of the following statements is/are correct for this family? 1 If one cheek cell is collected from each individual, the overall ratio of X chromosomes to Y chromosomes will be 3.67:1 2 The probability of individual 2 and individual 3 having the same alleles on their X chromosomes is 100%. 3 The probability of individual 2 and individual 3 having the same genotype for the condition is 50%. (Assume no mutations.)",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 64 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "b"
+    },
+    {
+      "question": "The sugar present in DNA contains 5 carbons.",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 65 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "The graph shows the change in the pressure in the space X between the wall of the thorax and the lungs (as shown in the diagram) during one complete breathing cycle. wall of thorax –2.5 –3.5 –4.5 –5.5 X lung diaphragm –6.5 0 1 2 3 4 time / s 66 stinu yrartibra / X ecaps ni erusserp Which of the following statements is/are correct? 1 The person is breathing out between 0 and 1.5 seconds. 2 The diaphragm is relaxing between 2 and 3 seconds. 3 The rate of breathing is 15 breaths per minute. (Assume the person continues breathing at the same rate.)",
+      "answers": {
+        "a": "none of them",
+        "b": "1 only",
+        "c": "2 only",
+        "d": "3 only",
+        "e": "1 and 2 only",
+        "f": "1 and 3 only",
+        "g": "2 and 3 only",
+        "h": "1, 2 and 3 PART D Biology"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "g"
+    },
+    {
+      "question": "In a mammal, an impulse travels along a neurone of length 45cm in 3.0 ×10–3 seconds. Transmission across the synapse to another neurone takes 4.0 ×10–10 seconds. The synapse has a width of 20nm. Which row correctly compares the speed of transmission across the synapse with the speed of transmission along the neurone, and what is the method of transmission across the synapse? speed of transmission across the method of transmission synapse compared to speed of across the synapse transmission along the neurone",
+      "answers": {
+        "a": "300 times faster chemical, by active transport",
+        "b": "300 times faster chemical, by diffusion",
+        "c": "300 times faster electrical impulse",
+        "d": "3 times slower chemical, by active transport",
+        "e": "3 times slower chemical, by diffusion",
+        "f": "3 times slower electrical impulse",
+        "g": "300 times slower chemical, by diffusion",
+        "h": "300 times slower electrical impulse"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "e"
+    },
+    {
+      "question": "Four blood cells were taken from a human: • one that was about to start cytokinesis • one actively producing antibodies • two that cannot use oxygen for respiration What is the total number of chromosomes present in all of the cells mentioned above? (Ignore mitochondrial DNA.)",
+      "answers": {
+        "a": "92",
+        "b": "115",
+        "c": "138",
+        "d": "161",
+        "e": "184",
+        "f": "207 67 68"
+      },
+      "explanation": "Explanation pending (official PDF import).",
+      "answer": "d"
+    }
+  ],
+  "partEAdvancedMathPhysics": []
+}
