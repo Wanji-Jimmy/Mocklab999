@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { useMemo, useState } from 'react'
 import SystemSwitchBar from '@/components/SystemSwitchBar'
 import { SupportedYear, getNsaaPartsByYear, isSupportedYear } from '@/lib/exam-catalog'
+import { getOfficialAnswerKeyPdfUrl, getOfficialQuestionPdfUrl } from '@/lib/esat-official-pdf'
 
 export default function NsaaPartSelectPage({ params }: { params: { year: string } }) {
   const [selected, setSelected] = useState<string[]>([])
@@ -23,6 +24,8 @@ export default function NsaaPartSelectPage({ params }: { params: { year: string 
 
   const nsaaYear = params.year as SupportedYear
   const availableParts = getNsaaPartsByYear(nsaaYear)
+  const questionPaperUrl = getOfficialQuestionPdfUrl('NSAA', params.year)
+  const answerKeyUrl = getOfficialAnswerKeyPdfUrl('NSAA', params.year)
 
   const togglePart = (part: string) => {
     setSelected((prev) => {
@@ -52,6 +55,28 @@ export default function NsaaPartSelectPage({ params }: { params: { year: string 
         </div>
         <p className="text-slate-600 mb-2">Paper 1 is mandatory mathematics.</p>
         <p className="text-slate-600 mb-6">Choose 1 or 2 parts for Paper 2 / Paper 3.</p>
+        <div className="mb-6 flex flex-wrap gap-2">
+          {questionPaperUrl && (
+            <a
+              href={questionPaperUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="warm-outline-btn px-3 py-1.5 rounded-lg text-xs font-semibold"
+            >
+              Official Question Paper
+            </a>
+          )}
+          {answerKeyUrl && (
+            <a
+              href={answerKeyUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="warm-outline-btn px-3 py-1.5 rounded-lg text-xs font-semibold"
+            >
+              Official Answer Key
+            </a>
+          )}
+        </div>
 
         <section className="grid md:grid-cols-2 gap-4">
           {availableParts.map((part) => {

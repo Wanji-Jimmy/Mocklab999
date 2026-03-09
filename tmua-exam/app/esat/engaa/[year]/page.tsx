@@ -2,9 +2,12 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import SystemSwitchBar from '@/components/SystemSwitchBar'
 import { isSupportedYear } from '@/lib/exam-catalog'
+import { getOfficialAnswerKeyPdfUrl, getOfficialQuestionPdfUrl } from '@/lib/esat-official-pdf'
 
 export default function EngaaYearPage({ params }: { params: { year: string } }) {
   if (!isSupportedYear(params.year)) notFound()
+  const questionPaperUrl = getOfficialQuestionPdfUrl('ENGAA', params.year)
+  const answerKeyUrl = getOfficialAnswerKeyPdfUrl('ENGAA', params.year)
 
   return (
     <main className="min-h-screen warm-shell p-6 md:p-10">
@@ -20,6 +23,28 @@ export default function EngaaYearPage({ params }: { params: { year: string } }) 
         <section className="warm-card rounded-2xl p-6">
           <h2 className="text-xl font-black text-slate-900">Paper Structure</h2>
           <p className="mt-2 text-slate-600">This mock includes Paper 1 and Paper 2.</p>
+          <div className="mt-3 flex flex-wrap gap-2">
+            {questionPaperUrl && (
+              <a
+                href={questionPaperUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="warm-outline-btn px-3 py-1.5 rounded-lg text-xs font-semibold"
+              >
+                Official Question Paper
+              </a>
+            )}
+            {answerKeyUrl && (
+              <a
+                href={answerKeyUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="warm-outline-btn px-3 py-1.5 rounded-lg text-xs font-semibold"
+              >
+                Official Answer Key
+              </a>
+            )}
+          </div>
           <div className="mt-4 grid md:grid-cols-2 gap-3">
             <div className="warm-card-muted rounded-xl p-4">
               <div className="text-sm font-bold text-slate-900">Paper 1</div>
