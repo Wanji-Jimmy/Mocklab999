@@ -1,4 +1,5 @@
 import importlib.util
+import tempfile
 import sys
 import unittest
 from pathlib import Path
@@ -58,6 +59,30 @@ class BuildTmuaDatasetTests(unittest.TestCase):
     def test_validate_completeness_detects_missing(self):
         issues = mod.validate_completeness([])
         self.assertTrue(any("Expected 320 questions" in i for i in issues))
+
+    def test_validate_quality_warns_on_mismatch(self):
+        questions = [
+            {
+                "year": "2023",
+                "paper": 1,
+                "number": 1,
+                "stem": "s",
+                "explanation": "e",
+                "answer": "C",
+                "options": [{"key": "A", "text": "x"}, {"key": "B", "text": "y"}],
+            }
+        ]
+        warnings = mod.validate_quality(questions)
+        self.assertTrue(any("not in options" in w for w in warnings))
+
+    def test_load_pipeline_config_override(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            cfg_path = root / "pipeline.toml"
+            cfg_path.write_text("[paths]\ntext_questions='custom.json'\n", encoding="utf-8")
+            cfg = mod.load_pipeline_config(root, cfg_path)
+            self.assertEqual(cfg["text_questions"], "custom.json")
+            self.assertIn("image_questions", cfg)
 
 
 if __name__ == "__main__":
