@@ -1,0 +1,4 @@
+interface:
+  display_name: "TMUA PDF to Mock Pipeline"
+  short_description: "TMUA-specific PDF to mock dataset build pipeline."
+  default_prompt: "Use $tmua-pdf-to-mock-pipeline to build and validate TMUA mock-exam data from extracted PDF artifacts."
