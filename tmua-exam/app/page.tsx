@@ -64,7 +64,7 @@ export default function Home() {
 
               <div className="mt-7 grid grid-cols-2 md:grid-cols-4 gap-3">
                 {METRICS.map((metric) => (
-                  <div key={metric.label} className="warm-card-muted rounded-xl p-4">
+                  <div key={`${metric.label}-${metric.value}`} className="warm-card-muted rounded-xl p-4">
                     <div className="text-2xl md:text-3xl font-black warm-accent-text tracking-tight">{metric.value}</div>
                     <div className="text-xs md:text-sm text-slate-600 mt-1">{metric.label}</div>
                   </div>

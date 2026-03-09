@@ -60,7 +60,7 @@ function getCurrentPaperSessionKey(year: string, exam: ExamTrack, partsKey?: str
   return `${SESSION_KEY}_${exam}_${year}${partsKey ? `_${partsKey}` : ''}`
 }
 
-export default function ExamRunner({ year, exam = 'tmua', nsaaParts = [] }: ExamRunnerProps) {
+export default function ExamRunner({ year, exam = 'tmua', nsaaParts }: ExamRunnerProps) {
   const searchParams = useSearchParams()
   const [session, setSession] = useState<ExamSession>(INITIAL_SESSION)
   const [autoAdvance, setAutoAdvance] = useState(false)
@@ -78,7 +78,8 @@ export default function ExamRunner({ year, exam = 'tmua', nsaaParts = [] }: Exam
   const targetPaperParam = searchParams.get('paper')
   const targetQuestionParam = searchParams.get('q')
   const examText = EXAM_TEXT[exam]
-  const selectedNsaaParts = useMemo(() => Array.from(new Set(nsaaParts)).slice(0, 2), [nsaaParts])
+  const nsaaPartsFingerprint = useMemo(() => (nsaaParts || []).join('|'), [nsaaParts])
+  const selectedNsaaParts = useMemo(() => Array.from(new Set(nsaaParts || [])).slice(0, 2), [nsaaPartsFingerprint])
   const nsaaPartsKey = useMemo(() => selectedNsaaParts.join('__'), [selectedNsaaParts])
   const hasPaper3 = exam === 'nsaa' && selectedNsaaParts.length === 2
   const paper1Total = useMemo(() => questions.filter((q) => q.paper === 1).length, [questions])
