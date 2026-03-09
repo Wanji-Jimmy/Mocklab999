@@ -1,6 +1,6 @@
 ---
 name: pdf-to-latex-open
-description: Open-source, reusable workflow for converting arbitrary exam or worksheet PDFs into LaTeX-ready structured JSON. Use when users need PDF question extraction, option parsing, OCR fallback for broken text layers, and clean exports for downstream apps or datasets.
+description: Open-source, reusable workflow for converting arbitrary exam or worksheet PDFs and math-heavy natural language into LaTeX-ready structured JSON. Use when users need PDF question extraction, mathematical text normalization (symbols/functions/powers), option parsing, OCR fallback for broken text layers, and clean exports for downstream apps or datasets.
 ---
 
 # PDF To LaTeX Open
@@ -20,14 +20,17 @@ Check `summary.json` and `*_raw_text.txt` to find parsing failures.
 3. Enable OCR fallback when needed.
 If text is CID-corrupted or image-heavy, rerun with `--ocr-fallback pix2text`.
 
-4. Export for downstream usage.
+4. Normalize mathematical language to LaTeX-like tokens.
+The extractor enables math normalization by default (`--normalize-math on`) to convert common forms like `x squared`, `sqrt(x)`, `≤`, and trig/log function names.
+
+5. Export for downstream usage.
 Use `--format app` for app-friendly records or use `scripts/json_to_latex_snippets.py` to generate `.tex` snippets.
 
 ## Commands
 
 ```bash
 # Baseline extraction
-python3 scripts/extract_pdf_questions.py /path/to/pdfs --out-dir ./output
+python3 scripts/extract_pdf_questions.py /path/to/pdfs --normalize-math on --out-dir ./output
 
 # With OCR fallback and app-style output
 python3 scripts/extract_pdf_questions.py /path/to/pdfs --ocr-fallback pix2text --format app --out-dir ./output

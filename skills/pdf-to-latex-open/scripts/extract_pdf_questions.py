@@ -18,6 +18,23 @@ OPTION_PATTERNS = [
     re.compile(r"\n\s*\(([A-Z])\)\s+"),
 ]
 CID_PATTERN = re.compile(r"\(cid:\d+\)")
+SUPERSCRIPT_MAP = str.maketrans({"²": "^2", "³": "^3", "⁴": "^4", "⁵": "^5", "⁶": "^6", "⁷": "^7", "⁸": "^8", "⁹": "^9"})
+SYMBOL_MAP = {
+    "≤": r"\leq",
+    "≥": r"\geq",
+    "≠": r"\neq",
+    "≈": r"\approx",
+    "±": r"\pm",
+    "×": r"\times",
+    "÷": r"\div",
+    "∞": r"\infty",
+    "π": r"\pi",
+    "θ": r"\theta",
+    "α": r"\alpha",
+    "β": r"\beta",
+    "γ": r"\gamma",
+    "Δ": r"\Delta",
+}
 
 
 @dataclass
@@ -96,7 +113,20 @@ def split_questions(text: str) -> list[str]:
     return [candidate]
 
 
-def parse_questions(text: str, source_file: str) -> list[Question]:
+def normalize_math_text(text: str) -> str:
+    value = clean_text(text).translate(SUPERSCRIPT_MAP)
+    for src, target in SYMBOL_MAP.items():
+        value = value.replace(src, target)
+    value = re.sub(r"\bsqrt\s*\(([^)]+)\)", r"\\sqrt{\1}", value, flags=re.IGNORECASE)
+    value = re.sub(r"\b([A-Za-z])\s+squared\b", r"\1^2", value, flags=re.IGNORECASE)
+    value = re.sub(r"\b([A-Za-z])\s+cubed\b", r"\1^3", value, flags=re.IGNORECASE)
+    value = re.sub(r"\b([A-Za-z])\s+to the power of\s+(\d+)\b", r"\1^\2", value, flags=re.IGNORECASE)
+    value = re.sub(r"\b(sin|cos|tan|log|ln)\b", r"\\\1", value, flags=re.IGNORECASE)
+    value = re.sub(r"\s+", " ", value).strip()
+    return value
+
+
+def parse_questions(text: str, source_file: str, normalize_math: bool = True) -> list[Question]:
     out: list[Question] = []
     parts = split_questions(text)
 
@@ -120,7 +150,8 @@ def parse_questions(text: str, source_file: str) -> list[Question]:
         if len(option_parts) < 3:
             continue
 
-        stem = clean_text(option_parts[0])
+        stem_raw = clean_text(option_parts[0])
+        stem = normalize_math_text(stem_raw) if normalize_math else stem_raw
         options: list[Option] = []
 
         for j in range(1, len(option_parts), 2):
@@ -130,6 +161,8 @@ def parse_questions(text: str, source_file: str) -> list[Question]:
             option_text = option_parts[j + 1]
             option_text = re.split(r"\n\s*(?:[A-Z]|\([A-Z]\))\s+", option_text)[0]
             option_text = clean_text(option_text)
+            if normalize_math:
+                option_text = normalize_math_text(option_text)
             if key and option_text:
                 options.append(Option(key=key, text=option_text))
 
@@ -175,7 +208,7 @@ def collect_pdfs(input_path: Path) -> list[Path]:
     return []
 
 
-def process_pdf(pdf_path: Path, ocr_fallback: str) -> tuple[str, list[Question], float]:
+def process_pdf(pdf_path: Path, ocr_fallback: str, normalize_math: bool) -> tuple[str, list[Question], float]:
     text = extract_text_pdfplumber(pdf_path)
     ratio = cid_ratio(text)
 
@@ -187,11 +220,11 @@ def process_pdf(pdf_path: Path, ocr_fallback: str) -> tuple[str, list[Question],
         except Exception:
             pass
 
-    questions = parse_questions(text, pdf_path.name)
+    questions = parse_questions(text, pdf_path.name, normalize_math=normalize_math)
     return text, questions, ratio
 
 
-def run(input_path: Path, out_dir: Path, fmt: str, ocr_fallback: str) -> None:
+def run(input_path: Path, out_dir: Path, fmt: str, ocr_fallback: str, normalize_math: bool) -> None:
     pdfs = collect_pdfs(input_path)
     if not pdfs:
         raise SystemExit(f"No PDF found at: {input_path}")
@@ -201,7 +234,7 @@ def run(input_path: Path, out_dir: Path, fmt: str, ocr_fallback: str) -> None:
     summary: dict[str, dict] = {}
 
     for pdf in pdfs:
-        text, questions, ratio = process_pdf(pdf, ocr_fallback)
+        text, questions, ratio = process_pdf(pdf, ocr_fallback, normalize_math)
         (out_dir / f"{pdf.stem}_raw_text.txt").write_text(text, encoding="utf-8")
         (out_dir / f"{pdf.stem}_questions.json").write_text(
             json.dumps(to_records(questions), ensure_ascii=False, indent=2), encoding="utf-8"
@@ -236,9 +269,15 @@ def main() -> None:
         default="none",
         help="Fallback OCR backend when text layer quality is poor",
     )
+    parser.add_argument(
+        "--normalize-math",
+        choices=["on", "off"],
+        default="on",
+        help="Normalize common math language/symbols into LaTeX-like tokens",
+    )
     args = parser.parse_args()
 
-    run(args.input, args.out_dir, args.format, args.ocr_fallback)
+    run(args.input, args.out_dir, args.format, args.ocr_fallback, args.normalize_math == "on")
 
 
 if __name__ == "__main__":

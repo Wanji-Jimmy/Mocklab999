@@ -6,6 +6,7 @@ Open-source Codex skill for converting arbitrary exam/worksheet PDFs into LaTeX-
 
 - Reusable Codex skill spec: `SKILL.md`
 - Generic parser script: `scripts/extract_pdf_questions.py`
+  - includes math language normalization (`x squared` -> `x^2`, `sqrt(x)` -> `\\sqrt{x}`, `≤` -> `\\leq`)
 - JSON -> LaTeX snippet exporter: `scripts/json_to_latex_snippets.py`
 - Regex tuning notes: `references/regex-tuning.md`
 - Unit tests + CI workflow
@@ -19,10 +20,13 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 # Parse one PDF
-python3 scripts/extract_pdf_questions.py /absolute/path/to/file.pdf --out-dir ./output
+python3 scripts/extract_pdf_questions.py /absolute/path/to/file.pdf --normalize-math on --out-dir ./output
 
 # Parse a folder with app-format output
 python3 scripts/extract_pdf_questions.py /absolute/path/to/pdfs --format app --out-dir ./output
+
+# Disable math normalization (if you need raw text)
+python3 scripts/extract_pdf_questions.py /absolute/path/to/pdfs --normalize-math off --out-dir ./output
 
 # OCR fallback (requires optional deps)
 pip install -r requirements-optional.txt

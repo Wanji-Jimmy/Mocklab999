@@ -36,6 +36,14 @@ B B
         ratio = mod.cid_ratio(text)
         self.assertGreater(ratio, 0.0)
 
+    def test_normalize_math_text(self):
+        s = "x squared and sqrt(x) ≤ 3 and sin x"
+        out = mod.normalize_math_text(s)
+        self.assertIn("x^2", out)
+        self.assertIn("\\sqrt{x}", out)
+        self.assertIn("\\leq", out)
+        self.assertIn("\\sin", out)
+
 
 if __name__ == "__main__":
     unittest.main()
