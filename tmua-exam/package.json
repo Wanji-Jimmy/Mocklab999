@@ -1,0 +1,39 @@
+{
+  "name": "tmua-exam",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "rm -rf .next-dev && NEXT_DIST_DIR=.next-dev next dev --hostname 127.0.0.1 --port 3001",
+    "dev:clean": "npm run dev",
+    "dev:fast": "NEXT_DIST_DIR=.next-dev next dev --hostname 127.0.0.1 --port 3001",
+    "build": "rm -rf .next-build && NEXT_DIST_DIR=.next-build next build",
+    "start": "NEXT_DIST_DIR=.next-build next start",
+    "lint": "next lint",
+    "verify:data": "node scripts/verify-data.js",
+    "verify:journey": "node scripts/verify-user-journey.js",
+    "verify:all": "npm run verify:data && npm run verify:journey && npm run build && npx tsc --noEmit",
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.9.1",
+    "@react-three/fiber": "^8.17.10",
+    "katex": "^0.16.9",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "@next/swc-darwin-arm64": "^14.1.0",
+    "@types/katex": "^0.16.7",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/three": "^0.183.1",
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "prisma": "^5.9.1",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}

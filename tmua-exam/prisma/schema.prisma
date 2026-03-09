@@ -1,0 +1,58 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model Question {
+  id              String    @id @default(uuid())
+  paper           Int       // 1 or 2
+  index           Int       // 1..20
+  stemLatex       String
+  options         String    // JSON: [{key:"A", latex:"..."}, ...]
+  answerKey       String    // "A", "B", "C", "D", etc.
+  explanationLatex String
+  tags            String    // JSON array
+  difficulty      Int       @default(1)
+  createdAt       DateTime  @default(now())
+  
+  mistakes        Mistake[]
+  
+  @@unique([paper, index])
+  @@index([paper])
+}
+
+model ExamAttempt {
+  id              String    @id @default(uuid())
+  userId          String?   // nullable for guest
+  createdAt       DateTime  @default(now())
+  paper1Answers   String    // JSON map
+  paper2Answers   String    // JSON map
+  paper1Flags     String    // JSON map
+  paper2Flags     String    // JSON map
+  scoreP1         Int
+  scoreP2         Int
+  totalScore      Int
+  grade           Float
+  timeUsedP1      Int?      // seconds
+  timeUsedP2      Int?      // seconds
+  
+  @@index([userId])
+}
+
+model Mistake {
+  id              String    @id @default(uuid())
+  userId          String
+  questionId      String
+  addedAt         DateTime  @default(now())
+  lastReviewedAt  DateTime?
+  reasonTag       String?
+  
+  question        Question  @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  
+  @@unique([userId, questionId])
+  @@index([userId])
+}

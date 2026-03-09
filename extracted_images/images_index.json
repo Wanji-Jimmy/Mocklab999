@@ -1,0 +1,99 @@
+{
+  "TMUA-2016-paper-1": [
+    {
+      "file": "page1_img0.png",
+      "page": 1,
+      "position": {
+        "x0": 330.337,
+        "y0": 51.68649999999991,
+        "x1": 533.716,
+        "y1": 87.43999999999994
+      },
+      "nearby_text": ""
+    }
+  ],
+  "TMUA-2016-paper-2": [
+    {
+      "file": "page1_img0.png",
+      "page": 1,
+      "position": {
+        "x0": 297.17800000000005,
+        "y0": 46.12959999999987,
+        "x1": 530.0100000000001,
+        "y1": 87.06099999999992
+      },
+      "nearby_text": ""
+    },
+    {
+      "file": "page18_img0.png",
+      "page": 18,
+      "position": {
+        "x0": 136.854,
+        "y0": 162.914,
+        "x1": 200.526,
+        "y1": 226.40599999999995
+      },
+      "nearby_text": "(cid:22)(cid:141)(cid:135)(cid:150)(cid:133)(cid:138)(cid:135)(cid:149)(cid:3)(cid:145)(cid:136)(cid:3)(cid:150)(cid:138)(cid:139)(cid:149)(cid:3)(cid:145)(cid:132)(cid:140)(cid:135)(cid:133)(cid:150)"
+    },
+    {
+      "file": "page18_img1.png",
+      "page": 18,
+      "position": {
+        "x0": 136.854,
+        "y0": 225.61400000000003,
+        "x1": 200.526,
+        "y1": 289.106
+      },
+      "nearby_text": "(cid:23)(cid:138)(cid:139)(cid:149)(cid:3)(cid:139)(cid:149)(cid:3)(cid:150)(cid:138)(cid:135)(cid:3)(cid:149)(cid:139)(cid:134)(cid:135)(cid:3)(cid:135)(cid:142)(cid:135)(cid:152)(cid:131)(cid:150)(c"
+    },
+    {
+      "file": "page18_img2.png",
+      "page": 18,
+      "position": {
+        "x0": 136.854,
+        "y0": 288.3140000000001,
+        "x1": 200.526,
+        "y1": 351.80600000000004
+      },
+      "nearby_text": "(cid:3)\n(cid:23)(cid:138)(cid:139)(cid:149)(cid:3)(cid:139)(cid:149)(cid:3)(cid:150)(cid:138)(cid:135)(cid:3)(cid:136)(cid:148)(cid:145)(cid:144)(cid:150)(cid:3)(cid:135)(cid:142)(cid:135)(cid:152)(ci"
+    }
+  ],
+  "TMUA-2017-paper-1": [
+    {
+      "file": "page1_img0.png",
+      "page": 1,
+      "position": {
+        "x0": 299.8739929,
+        "y0": 61.99398039999994,
+        "x1": 540.6059875000001,
+        "y1": 104.06597899999997
+      },
+      "nearby_text": "(cid:3)\n(cid:3)\n(cid:3)\nTEST OF MATHEMATICS D513/11"
+    }
+  ],
+  "TMUA-2017-paper-2": [
+    {
+      "file": "page1_img0.png",
+      "page": 1,
+      "position": {
+        "x0": 299.694,
+        "y0": 62.11399999999992,
+        "x1": 540.306,
+        "y1": 104.18599999999992
+      },
+      "nearby_text": "TEST OF MATHEMATICS D513/12"
+    }
+  ],
+  "TMUA-2018-paper-1": [],
+  "TMUA-2018-paper-2": [],
+  "TMUA-2019-paper-1": [],
+  "TMUA-2019-paper-2": [],
+  "TMUA-2020-paper-1": [],
+  "TMUA-2020-paper-2": [],
+  "TMUA-2021-paper-1": [],
+  "TMUA-2021-paper-2": [],
+  "TMUA-2022-paper-1": [],
+  "TMUA-2022-paper-2": [],
+  "TMUA-2023-paper-1": [],
+  "TMUA-2023-paper-2": []
+}

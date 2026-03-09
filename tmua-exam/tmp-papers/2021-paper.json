@@ -1,0 +1,551 @@
+{
+    "paper1": [
+        {
+            "question": "$$Two circles have the same radius. $$$$ The centre of one circle is (-2, 1). $$$$ The centre of the other circle is (3, -2). $$$$ The circles intersect at two distinct points. $$$$ What is the equation of the straight line through the two points at which the circles intersect?$$",
+            "answers": {
+                "a": "$$3x-5y=4$$",
+                "b": "$$3x+5y=-1$$",
+                "c": "$$5x-3y=-4$$",
+                "d": "$$5x-3y=-1$$",
+                "e": "$$5x-3y=1$$",
+                "f": "$$5x-3y=4$$",
+                "g": "$$5x+3y=1$$"
+            },
+            "explanation": "https://i.imgur.com/1GKCa3N.jpeg",
+            "answer": "f"
+        },
+        {
+            "question": "$$The curve $y=x^3-6x+3$ has turning points at $x = \\alpha$ and $x = \\beta$, where $\\beta > \\alpha$. $$$$ Find $$\\int_{\\alpha}^{\\beta} x^3-6x+3dx$$$$",
+            "answers": {
+                "a": "$$-8\\sqrt{2}$$",
+                "b": "$$-10$$",
+                "c": "$$-10+6\\sqrt{2}$$",
+                "d": "$$0$$",
+                "e": "$$12-8\\sqrt{2}$$",
+                "f": "$$6\\sqrt{2}$$",
+                "g": "$$12$$"
+            },
+            "explanation": "https://i.imgur.com/7F1Wue7.jpeg",
+            "answer": "f"
+        },
+        {
+            "question": "$$An arithmetic progression and a convergent geometric progression each have first term $\\frac{1}{2}$ $$$$ The sum of the second terms of the two progressions is $\\frac{1}{2}$ $$$$ The sum of the third terms of the two progressions is $\\frac{1}{8}$ $$$$ What is the sum to infinity of the geometric progression?$$",
+            "answers": {
+                "a": "$$-2$$",
+                "b": "$$-1$$",
+                "c": "$$-\\frac{1}{2}$$",
+                "d": "$$-\\frac{1}{3}$$",
+                "e": "$$\\frac{1}{3}$$",
+                "f": "$$\\frac{1}{2}$$",
+                "g": "$$1$$",
+                "h": "$$2$$"
+            },
+            "explanation": "https://i.imgur.com/5ZyC1JO.jpeg",
+            "answer": "g"
+        },
+        {
+            "question": "$$Find the minimum value of the function $$2^{2x} - 2^{x+3} + 4$$$$",
+            "answers": {
+                "a": "$$-16$$",
+                "b": "$$-12$$",
+                "c": "$$-8$$",
+                "d": "$$0$$",
+                "e": "$$4$$",
+                "f": "$$20$$"
+            },
+            "explanation": "https://i.imgur.com/AYWZ9u8.jpeg",
+            "answer": "b"
+        },
+        {
+            "question": "https://i.imgur.com/c4JKAhW.jpeg",
+            "answers": {
+                "a": "$$\\frac{8}{3}$$",
+                "b": "$$2\\sqrt{2}$$",
+                "c": "$$3$$",
+                "d": "$$\\frac{16}{5}$$",
+                "e": "$$3\\sqrt{2}$$",
+                "f": "$$4$$"
+            },
+            "explanation": "https://i.imgur.com/pkEWLK8.jpeg",
+            "answer": "f"
+        },
+        {
+            "question": "$$The function $f$ is given by $$f(x) = \\frac{\\cos x + 3}{7 + 5\\cos x - \\sin^2x}$$ Find the positive difference between the maximum and the minimum values of $f(x)$. $$",
+            "answers": {
+                "a": "$$0$$",
+                "b": "$$\\frac{1}{3}$$",
+                "c": "$$\\frac{1}{2}$$",
+                "d": "$$\\frac{2}{3}$$",
+                "e": "$$1$$",
+                "f": "$$2$$"
+            },
+            "explanation": "https://i.imgur.com/rWKYrY2.jpeg",
+            "answer": "d"
+        },
+        {
+            "question": "$$The function $f$ is such that $f(0)=0$, and $xf(x) > 0$ for all non-zero values of $x$. $$$$ It is given that $$\\int_{-2}^2 f(x)dx = 4$$ and $$\\int_{-2}^2 |f(x)|dx = 8$$ Evaluate $$\\int_{-2}^0 f(|x|)dx$$$$",
+            "answers": {
+                "a": "$$-8$$",
+                "b": "$$-6$$",
+                "c": "$$-4$$",
+                "d": "$$-2$$",
+                "e": "$$2$$",
+                "f": "$$4$$",
+                "g": "$$6$$",
+                "h": "$$8$$"
+            },
+            "explanation": "https://i.imgur.com/Hna94i4.jpeg",
+            "answer": "g"
+        },
+        {
+            "question": "$$The line $y=2x+3$ meets the curve $y=x^2+bx+c$ at exactly one point. $$$$ The line $y=4x-2$ also meets the curve $y = x^2 + bx + c$ at exactly one point. $$$$ What is the value of $b-c$?$$",
+            "answers": {
+                "a": "$$-9$$",
+                "b": "$$-5.5$$",
+                "c": "$$-1$$",
+                "d": "$$5$$",
+                "e": "$$6$$",
+                "f": "$$14$$"
+            },
+            "explanation": "https://i.imgur.com/94SIc6l.jpeg",
+            "answer": "a"
+        },
+        {
+            "question": "$$Find the area enclosed by the graph of $$|x| + |y| = 1$$$$",
+            "answers": {
+                "a": "$$\\frac{1}{2}$$",
+                "b": "$$1$$",
+                "c": "$$2$$",
+                "d": "$$4$$",
+                "e": "$$\\frac{1}{2}\\sqrt{2}$$",
+                "f": "$$\\sqrt{2}$$",
+                "g": "$$2\\sqrt{2}$$"
+            },
+            "explanation": "https://i.imgur.com/pxXU8F9.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$Use the trapezium rule with 3 strips to estimate $$\\int_{\\frac{1}{2}}^2 2\\log_{10}x \\: dx$$$$",
+            "answers": {
+                "a": "$$\\log_{10}\\frac{\\sqrt{6}}{2}$$",
+                "b": "$$\\log_{10}\\frac{3}{2}$$",
+                "c": "$$\\log_{10}\\frac{9}{4}$$",
+                "d": "$$\\log_{10}3$$",
+                "e": "$$\\log_{10}\\frac{81}{16}$$",
+                "f": "$$\\log_{10}\\frac{\\sqrt{23}}{2}$$"
+            },
+            "explanation": "https://i.imgur.com/RIfKMG4.jpeg",
+            "answer": "b"
+        },
+        {
+            "question": "$$The function $f$ is given by $$f(x) = x^{\\frac{1}{7}}(x^2 - x + 1)$$ Find the fraction of the interval $0 < x < 1$ for which $f(x)$ is decreasing.$$",
+            "answers": {
+                "a": "$$\\frac{2}{15}$$",
+                "b": "$$\\frac{1}{5}$$",
+                "c": "$$\\frac{1}{3}$$",
+                "d": "$$\\frac{1}{2}$$",
+                "e": "$$\\frac{2}{3}$$",
+                "f": "$$\\frac{4}{5}$$",
+                "g": "$$\\frac{13}{15}$$"
+            },
+            "explanation": "https://i.imgur.com/5mRdnfQ.jpeg",
+            "answer": "a"
+        },
+        {
+            "question": "$$The minimum value of the function $x^4 - p^2x^2$ is $-9$ $$$$ $p$ is a real number. $$$$ Find the minimum value of the function $x^2 - px + 6$$$",
+            "answers": {
+                "a": "$$-3$$",
+                "b": "$$6-\\frac{3\\sqrt{2}}{2}$$",
+                "c": "$$\\frac{3}{2}$$",
+                "d": "$$3$$",
+                "e": "$$\\frac{9}{2}$$",
+                "f": "$$6+\\frac{3\\sqrt{2}}{2}$$"
+            },
+            "explanation": "https://i.imgur.com/Orm1uLj.jpeg",
+            "answer": "e"
+        },
+        {
+            "question": "$$The function $f$ is such that, for every integer $n$ $$\\int_n^{n+1} f(x)dx = n + 1$$ Evaluate $$\\sum_{r=1}^8 (\\int_0^r f(x)dx)$$$$",
+            "answers": {
+                "a": "$$36$$",
+                "b": "$$84$$",
+                "c": "$$120$$",
+                "d": "$$165$$",
+                "e": "$$204$$",
+                "f": "$$288$$"
+            },
+            "explanation": "https://i.imgur.com/HvPSXXJ.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$(This question uses radians.) $$$$ Find the number of distinct values of $x$ that satisfy the equation $$(x+1)(3-x) = 2(1-\\cos(\\pi x))$$$$",
+            "answers": {
+                "a": "$$2$$",
+                "b": "$$3$$",
+                "c": "$$4$$",
+                "d": "$$5$$",
+                "e": "$$6$$",
+                "f": "$$7$$"
+            },
+            "explanation": "https://i.imgur.com/ZVY6gj7.jpeg",
+            "answer": "b"
+        },
+        {
+            "question": "https://i.imgur.com/GEvzu4D.jpeg",
+            "answers": {
+                "a": "$$\\frac{1023}{1024}$$",
+                "b": "$$\\frac{1023}{512}$$",
+                "c": "$$5$$",
+                "d": "$$10$$",
+                "e": "$$\\frac{55}{2}$$",
+                "f": "$$55$$"
+            },
+            "explanation": "https://i.imgur.com/BKHwp0M.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$Consider the expansion of $$(a+bx)^n$$ The third therm, in ascending powers of $x$, is $105x^2$ $$$$ The fourth term, in ascending powers of $x$, is $210x^3$ $$$$ The fourth term, in descending powers of $x$, is $210x^3$ $$$$ Find the value of $(\\frac{a}{b})^2$$$",
+            "answers": {
+                "a": "$$\\frac{1}{4}$$",
+                "b": "$$\\frac{4}{9}$$",
+                "c": "$$\\frac{25}{36}$$",
+                "d": "$$\\frac{5}{6}$$",
+                "e": "$$1$$"
+            },
+            "explanation": "https://i.imgur.com/AEeV5mN.jpeg",
+            "answer": "b"
+        },
+        {
+            "question": "https://i.imgur.com/GcIeFG4.jpeg",
+            "answers": {
+                "a": "A",
+                "b": "B",
+                "c": "C",
+                "d": "D",
+                "e": "E"
+            },
+            "explanation": "https://i.imgur.com/keNXBAm.jpeg",
+            "answer": "a"
+        },
+        {
+            "question": "$$The curve with equation $$x=y^2-6y+11$$ is rotated $90^{\\circ}$ clockwise about the point $P$ to give the curve $C$. $$$$ $P$ has x-coordinate -2 and y-coordinate 3. $$$$ What is the equation of $C$?$$",
+            "answers": {
+                "a": "$$y = -x^2 - 4x - 3$$",
+                "b": "$$y = -x^2 - 4x - 5$$",
+                "c": "$$y = -x^2 - 6x - 7$$",
+                "d": "$$y = -x^2 - 6x - 11$$",
+                "e": "$$y = x^2 - 4x + 5$$",
+                "f": "$$y = x^2 + 4x + 3$$",
+                "g": "$$y = x^2 - 6x + 11$$",
+                "h": "$$y = x^2 + 6x + 7$$"
+            },
+            "explanation": "https://i.imgur.com/iAWrqVN.jpeg",
+            "answer": "b"
+        },
+        {
+            "question": "$$The equation $$\\sin^2(4^{\\cos \\theta} \\times 60^{\\circ}) = \\frac{3}{4}$$ has exactly three solutions in the range $0^{\\circ} \\leq \\theta \\leq x^{\\circ}$ $$$$ What is the range of all possible values of $x$?$$",
+            "answers": {
+                "a": "$$90 \\leq x < 120$$",
+                "b": "$$90 \\leq x < 270$$",
+                "c": "$$120 \\leq x < 240$$",
+                "d": "$$270 \\leq x < 300$$",
+                "e": "$$300 \\leq x < 360$$",
+                "f": "$$450 \\leq x < 630$$"
+            },
+            "explanation": "https://i.imgur.com/mzwxkUf.jpeg",
+            "answer": "b"
+        },
+        {
+            "question": "$$Find the length of the curve with equation $$2\\log_{10}(x-y) = \\log_{10}(2-2x) + \\log_{10}(y+5)$$$$",
+            "answers": {
+                "a": "$$5$$",
+                "b": "$$10$$",
+                "c": "$$15$$",
+                "d": "$$3\\pi$$",
+                "e": "$$9\\pi$$",
+                "f": "$$12\\pi$$"
+            },
+            "explanation": "https://i.imgur.com/EVfdqxm.jpeg",
+            "answer": "d"
+        }
+    ],
+    "paper2": [
+        {
+            "question": "$$Find the value of $$\\int_1^4 (3\\sqrt{x} + \\frac{4}{x^2})dx$$$$",
+            "answers": {
+                "a": "$$-0.75$$",
+                "b": "$$7.125$$",
+                "c": "$$11$$",
+                "d": "$$17$$",
+                "e": "$$18$$",
+                "f": "$$21.875$$",
+                "g": "$$34.5$$"
+            },
+            "explanation": "https://i.imgur.com/CKQHEva.jpeg",
+            "answer": "d"
+        },
+        {
+            "question": "$$$A$(0, 2) and $C$(4, 0) are opposite vertices of the square $ABCD$. $$$$ What is the equation of the straight line through $B$ and $D$?$$",
+            "answers": {
+                "a": "$$y=-2x+5$$",
+                "b": "$$y= -\\frac{1}{2}x - 3$$",
+                "c": "$$y = -\\frac{1}{2}x + 2$$",
+                "d": "$$y = x$$",
+                "e": "$$y = 2x-3$$",
+                "f": "$$y = 2x+2$$"
+            },
+            "explanation": "https://i.imgur.com/E6uOSwi.jpeg",
+            "answer": "e"
+        },
+        {
+            "question": "$$A student is chosen at random from a class. Each student is equally likely to be chosen. $$$$ Which of the following conditions is/are necessary for the probability that the student wears glasses to equal $\\frac{4}{15}$? $$$$ I: Exactly 11 students in the class do not wear glasses. $$$$ II: The number of students in the class is divisible by 3. $$$$ III: The class contains 30 students, and 8 of them wear glasses.$$",
+            "answers": {
+                "a": "none of them",
+                "b": "I only",
+                "c": "II only",
+                "d": "III only",
+                "e": "I and II only",
+                "f": "I and III only",
+                "g": "II and III only",
+                "h": "I, II and III"
+            },
+            "explanation": "https://i.imgur.com/2bV1j6j.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$Consider the following claim about positive integers $a$, $b$ and $c$: $$$$ If $a$ is a factor of $bc$, then $a$ is a factor of $b$ or $a$ is a factor of $c$ $$$$ Which of the following provide(s) a counterexample to this claim? $$$$ I: $a = 5$, $b=10$, $c=20$ $$$$ II: $a=8$, $b=4$, $c=4$ $$$$ III: $a=6$, $b=7$, $c=12$$$",
+            "answers": {
+                "a": "none of them",
+                "b": "I only",
+                "c": "II only",
+                "d": "III only",
+                "e": "I and II only",
+                "f": "I and III only",
+                "g": "II and III only",
+                "h": "I, II and III"
+            },
+            "explanation": "https://i.imgur.com/bDITEPw.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$On which line is the first error in the following argument.$$",
+            "answers": {
+                "a": " $\\sin^2x + \\cos^2x = 1$ for all values of $x$.",
+                "b": " Therefore $\\cos x = \\sqrt{1-\\sin^2x}$ for all values of $x$.",
+                "c": " Hence $1 + \\cos x = 1 + \\sqrt{1-\\sin^2x}$ for all values of $x$. ",
+                "d": " Thus $(1+\\cos x)^2 = (1 + \\sqrt{1 - \\sin^2x})^2$ for all values of $x$. ",
+                "e": " Substituting $x=\\pi$ gives $0=4$."
+            },
+            "explanation": "https://i.imgur.com/3NUZN0i.jpeg",
+            "answer": "b"
+        },
+        {
+            "question": "$$Consider the following two statements about the polynomial $f(x)$: $$$$ $P$: $f(x) = 0$ for exactly three real values of $x$ $$$$ $Q$: $f(x)=0$ for exactly two real values of $x$ $$$$ Which one of the following is correct?$$",
+            "answers": {
+                "a": " $P$ is necessary but not sufficient for $Q$. ",
+                "b": " $P$ is sufficient but not necessary for $Q$. ",
+                "c": " $P$ is necessary and sufficient for $Q$. ",
+                "d": " $P$ is not necessary and not sufficient for $Q$. "
+            },
+            "explanation": "https://i.imgur.com/JLZ2woQ.png",
+            "answer": "d"
+        },
+        {
+            "question": "$$A circle has equation $(x-9)^2 + (y+2)^2 = 4$ $$$$ A square has vertices at (1, 0),  (1, 2), (-1, 2) and (-1, 0). $$$$ A straight line bisects both the area of the circle and the area of the square. $$$$ What is the x-coordinate of the point where this straight line meets the x-axis?$$",
+            "answers": {
+                "a": "$$2$$",
+                "b": "$$3$$",
+                "c": "$$4$$",
+                "d": "$$4.5$$",
+                "e": "$$5$$",
+                "f": "$$6$$",
+                "g": "The straight line is not uniquely determined by the information given, so there is more than one possible point of intersection.",
+                "h": "There is no straight line that bisects both the area of the circle and the area of the square."
+            },
+            "explanation": "https://i.imgur.com/zLuG9vo.jpeg",
+            "answer": "b"
+        },
+        {
+            "question": "$$Consider the following statement about the polynomial $p(x)$, where $a$ and $b$ are real numbers with $a<b$: $$$$ $(\\ast)$ There exists a number $c$ with $a<c<b$ such that $p(c) = 0$. $$$$ Which one of the following is true?$$",
+            "answers": {
+                "a": " The condition $p(a) = p(b)$ is necessary and sufficient for $(\\ast)$ ",
+                "b": " The condition $p(a) = p(b)$ is necessary but not sufficient for $(\\ast)$ ",
+                "c": " The condition $p(a) = p(b)$ is sufficient but not necessary for $(\\ast)$ ",
+                "d": " The condition $p(a) = p(b)$ is not necessary and not sufficient for $(\\ast)$ "
+            },
+            "explanation": "https://i.imgur.com/zY2Bdfu.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "https://i.imgur.com/uYP8TEp.jpeg",
+            "answers": {
+                "a": "A",
+                "b": "B",
+                "c": "C",
+                "d": "D",
+                "e": "E",
+                "f": "F",
+                "g": "G",
+                "h": "H"
+            },
+            "explanation": "https://i.imgur.com/RHG6WMp.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$The first seven terms of a sequence of positive integers are: $$u_1 = 15$$ $$u_2 = 21$$ $$u_3=30$$ $$u_4=37$$ $$u_5=44$$ $$u_6=51$$ $$u_7=59$$ Consider the following statement about this sequence: $$$$ $(\\ast)$ If $n$ is a prime number, then $u_n$ is a multiple of 3 or $u_n$ is a multiple of 5. $$$$ What is the smallest value of $n$ that provides a counterexample to $(\\ast)$?$$",
+            "answers": {
+                "a": "$$1$$",
+                "b": "$$2$$",
+                "c": "$$3$$",
+                "d": "$$4$$",
+                "e": "$$5$$",
+                "f": "$$6$$",
+                "g": "$$7$$"
+            },
+            "explanation": "https://i.imgur.com/TmiWHcQ.jpeg",
+            "answer": "e"
+        },
+        {
+            "question": "https://i.imgur.com/ChpUK7Y.jpeg",
+            "answers": {
+                "a": "It is completely correct.",
+                "b": "It is incorrect, but it would be correct if written in the reverse order.",
+                "c": "It is incorrect, but the student has correctly proved the converse.",
+                "d": "It is incorrect because there is an error in line (II).",
+                "e": "It is incorrect because there is an error in the live (III).",
+                "f": "It is incorrect because there is an error in live (IV)."
+            },
+            "explanation": "https://i.imgur.com/K8IDffb.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$Which of the following statements about polynomials $f$ and $g$ is/are true? $$$$ I: If $f(x) \\geq g(x)$ for all $x \\geq 0$, then $\\int_0^x f(t)dt \\geq \\int_0^x g(t)dt$ for all $x \\geq 0$. $$$$ II: If $f(x) \\geq g(x)$ for all $x \\geq 0$, then $f(x) \\geq g(x)$ for all $x \\geq 0$. $$$$ III: If $f(x) \\geq g(x)$ for all $x \\geq 0$, then $f(x) \\geq g(x)$ for all $x \\geq 0$.$$",
+            "answers": {
+                "a": "none of them",
+                "b": "I only",
+                "c": "II only",
+                "d": "III only",
+                "e": "I and II only",
+                "f": "I and III only",
+                "g": "II and III only",
+                "h": "I, II and III"
+            },
+            "explanation": "https://i.imgur.com/OttiJrv.jpeg",
+            "answer": "b"
+        },
+        {
+            "question": "$$A region $R$ in the (x, y)-plane is defined by the simultaneous inequalities $$y - x < 3$$ $$y - x^2 < 1$$ Which of the following statements is/are true for every point in $R$? $$$$ I: $-1 < x < 2$ $$$$ II: $(y-x)(y-x^2) < 3$ $$$$ III: $y<5$$$",
+            "answers": {
+                "a": "none of them",
+                "b": "I only",
+                "c": "II only",
+                "d": "III only",
+                "e": "I and II only",
+                "f": "I and III only",
+                "g": "II and III only",
+                "h": "I, II and III"
+            },
+            "explanation": "https://i.imgur.com/EG03Oft.jpeg",
+            "answer": "a"
+        },
+        {
+            "question": "$$Consider the following simultaneous equations, where $p$ is a real number: $$p2^x + \\log_2y = 2$$ $$2^x + \\log_2y = 1$$ What is the complete range of $p$ for which these simultaneous equations have a real solution (x, y)?$$",
+            "answers": {
+                "a": "$$p<1$$",
+                "b": "$$p=1$$",
+                "c": "$$p>1$$",
+                "d": " $p < 1$ or $p>2$ ",
+                "e": " $p = 1$ and $p < 2$ ",
+                "f": " $p > 1$ and $p < 2$ ",
+                "g": "$$p > 2$$",
+                "h": " All real values of $p$ "
+            },
+            "explanation": "https://i.imgur.com/GpDIMFf.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$A circle has equation $$x^2 + ax + y^2 + by + c = 0$$ where $a$, $b$ and $c$ are non-zero real constants. $$$$ Which one of the following is a necessary and sufficient condition for the circle to be tangent to the y-axis?$$",
+            "answers": {
+                "a": "$$a^2 = 4c$$",
+                "b": "$$b^2 = 4c$$",
+                "c": "$$\\frac{a}{2} = \\sqrt{\\frac{a^2 + b^2}{4}-c}$$",
+                "d": "$$\\frac{b}{2} = \\sqrt{\\frac{a^2 + b^2}{4}-c}$$",
+                "e": "$$-\\frac{a}{2} = \\sqrt{\\frac{a^2 + b^2}{4}-c}$$",
+                "f": "$$-\\frac{b}{2} = \\sqrt{\\frac{a^2 + b^2}{4}-c}$$"
+            },
+            "explanation": "https://i.imgur.com/nBJBXH3.jpeg",
+            "answer": "b"
+        },
+        {
+            "question": "$$$p$ and $q$ are real numbers, and the equation $$x|x| = px + q$$ has exactly $k$ distinct real solutions for $x$. $$$$ Which one of the following is the complete list of possible values for $k$?$$",
+            "answers": {
+                "a": "$$0, 1, 2$$",
+                "b": "$$0, 1, 2, 3$$",
+                "c": "$$0, 1, 2, 3, 4$$",
+                "d": "$$0, 2, 4$$",
+                "e": "$$1, 2, 3$$",
+                "f": "$$1, 2, 3, 4$$"
+            },
+            "explanation": "https://i.imgur.com/ZTVVBNh.jpeg",
+            "answer": "e"
+        },
+        {
+            "question": "$$Consider the following functions defined for $x>1$: $$f(x) = \\log_2(\\log_2\\sqrt{x})$$ $$g(x) = \\log_2{(\\sqrt{\\log_2x})}$$ Which one of the following is true for all values of $x > 1$?$$",
+            "answers": {
+                "a": " $0 \\leq f(x) \\leq g(x)$ or $g(x) \\leq f(x) \\leq 0$ ",
+                "b": " $0 \\leq g(x) \\leq f(x)$ or $f(x) \\leq g(x) \\leq 0$ ",
+                "c": " $\\frac{1}{2} \\leq f(x) \\leq g(x)$ or $g(x) \\leq f(x) \\leq \\frac{1}{2}$ ",
+                "d": " $\\frac{1}{2} \\leq g(x) \\leq f(x)$ or $f(x) \\leq g(x) \\leq \\frac{1}{2}$ ",
+                "e": " $1 \\leq f(x) \\leq g(x)$ or $g(x) \\leq f(x) \\leq 1$ ",
+                "f": " $1 \\leq g(x) \\leq f(x)$ or $f(x) \\leq g(x) \\leq 1$ "
+            },
+            "explanation": "https://i.imgur.com/s7BlLoh.jpeg",
+            "answer": "f"
+        },
+        {
+            "question": "$$A student chooses two distinct real numbers $x$ and $y$ with $ 0 < x < y < 1 $. $$$$ The student then attempts to draw a triangle $ABC$ with: $$AB = 1$$ $$\\sin A = x$$ $$\\sin B = y$$ Which of the following statements is/are correct? $$$$ I: For some choice of $x$ and $y$, there is exactly one triangle the student could draw. $$$$ II: For some choice of $x$ and $y$, there are exactly two different triangles the student could draw. $$$$ For some choice of $x$ and $y$, there are exactly three different triangles the student could draw. $$$$ (Note that congruent triangles are considered to be the same.)$$",
+            "answers": {
+                "a": "none of them",
+                "b": "I only",
+                "c": "II only",
+                "d": "III only",
+                "e": "I and II only",
+                "f": "I and III only",
+                "g": "II and III only",
+                "h": "I, II and III"
+            },
+            "explanation": "https://i.imgur.com/1UFp23s.png",
+            "answer": "c"
+        },
+        {
+            "question": "$$The angle $\\theta$ can take any of the values $1^{\\circ}, 2^{\\circ}, 3^{\\circ}, ...,359^{\\circ}, 360^{\\circ} $. $$$$ For how many of these values of $\\theta$ is it true that $$\\sin \\theta \\sqrt{1 + \\sin \\theta}\\sqrt{1 - \\sin \\theta} + \\cos \\theta \\sqrt{1 + \\cos \\theta}\\sqrt{1 - \\cos \\theta} = 0$$$$",
+            "answers": {
+                "a": "$$0$$",
+                "b": "$$1$$",
+                "c": "$$2$$",
+                "d": "$$4$$",
+                "e": "$$93$$",
+                "f": "$$182$$",
+                "g": "$$271$$",
+                "h": "$$360$$"
+            },
+            "explanation": "https://i.imgur.com/UyJD8R2.jpeg",
+            "answer": "f"
+        },
+        {
+            "question": "$$A sequence of functions $f_1, f_2, f_3, ...$ is defined by $$f_1(x) = |x|$$ $$f_{n+1}(x) = |f_n(x) + x|$$ for $n \\geq 1$ $$$$ Find the value of $$\\int_{-1}^1 f_{99}(x)dx$$$$",
+            "answers": {
+                "a": "$$0$$",
+                "b": "$$0.5$$",
+                "c": "$$1$$",
+                "d": "$$49.5$$",
+                "e": "$$50$$",
+                "f": "$$99$$",
+                "g": "$$99.5$$",
+                "h": "$$100$$"
+            },
+            "explanation": "https://i.imgur.com/mANwW5X.png",
+            "answer": "e"
+        }
+    ]
+}

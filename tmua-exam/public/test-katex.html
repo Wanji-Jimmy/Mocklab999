@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>KaTeX Test</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.28/dist/katex.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.28/dist/katex.min.js"></script>
+</head>
+<body>
+  <h1>KaTeX Rendering Test</h1>
+  
+  <h2>Test 1: -12√3</h2>
+  <div id="test1"></div>
+  
+  <h2>Test 2: (ax+b)³</h2>
+  <div id="test2"></div>
+  
+  <script>
+    try {
+      katex.render('-12\\sqrt{3}', document.getElementById('test1'), {
+        displayMode: false,
+        throwOnError: false
+      });
+      
+      katex.render('(ax+b)^3', document.getElementById('test2'), {
+        displayMode: false,
+        throwOnError: false
+      });
+      
+      console.log('KaTeX render success');
+    } catch (e) {
+      console.error('KaTeX render error:', e);
+    }
+  </script>
+</body>
+</html>

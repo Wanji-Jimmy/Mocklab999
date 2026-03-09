@@ -1,0 +1,22 @@
+[
+  {
+    "year": "2016",
+    "paper": 2,
+    "number": 20,
+    "stem": "This is the side elevation, front elevation, and plan view of an object.",
+    "options": [
+      {"key": "A", "text": "Option A"},
+      {"key": "B", "text": "Option B"},
+      {"key": "C", "text": "Option C"},
+      {"key": "D", "text": "Option D"},
+      {"key": "E", "text": "Option E"}
+    ],
+    "answer": "A",
+    "explanation": "Test question with images",
+    "imageUrls": [
+      "/extracted_images/TMUA-2016-paper-2/page18_img0.png",
+      "/extracted_images/TMUA-2016-paper-2/page18_img1.png",
+      "/extracted_images/TMUA-2016-paper-2/page18_img2.png"
+    ]
+  }
+]

@@ -1,0 +1,543 @@
+{
+    "paper1": [
+        {
+            "question": "$$Which of the following is an expression for the first derivative with respect to $x$ of $$\\frac{x^3 - 5x^2}{2x\\sqrt{x}}$$$$",
+            "answers": {
+                "a": "$$-\\frac{\\sqrt{x}}{2}$$",
+                "b": "$$\\frac{\\sqrt{x}}{4}$$",
+                "c": "$$\\frac{3x-5}{4\\sqrt{x}}$$",
+                "d": "$$\\frac{3\\sqrt{x} - 5}{4\\sqrt{x}}$$",
+                "e": "$$\\frac{3\\sqrt{x} - 10}{3\\sqrt{x}}$$",
+                "f": "$$\\frac{3x^2 - 10x}{3\\sqrt{x}}$$"
+            },
+            "explanation": "https://i.imgur.com/yhHfoFE.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$$(2x+1)$ and $(x-2)$ are factors of $2x^3 + px^2 + q$ $$$$ What is the value of $2p + q$?$$",
+            "answers": {
+                "a": "$$-10$$",
+                "b": "$$-\\frac{38}{5}$$",
+                "c": "$$-\\frac{22}{3}$$",
+                "d": "$$\\frac{22}{3}$$",
+                "e": "$$\\frac{38}{5}$$",
+                "f": "$$10$$"
+            },
+            "explanation": "https://i.imgur.com/zmYalfK.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$Find the complete set of values of $x$ for which $$(x+4)(x+3)(1-x) > 0$$ and $$(x+2)(x-2) < 0$$$$",
+            "answers": {
+                "a": "$$1 < x < 2$$",
+                "b": "$$-2 < x < 1$$",
+                "c": "$$-2 < x < 2$$",
+                "d": " $x < -2$ or $x > 1$ ",
+                "e": " $x < -4$ or $x > 2$ ",
+                "f": " $x < -4$ or $-3 < x < 1$ ",
+                "g": " $-4 < x < -2$ or $x > 1$ "
+            },
+            "explanation": "https://i.imgur.com/GWXDxZl.jpeg",
+            "answer": "b"
+        },
+        {
+            "question": "$$The 1st, 2nd, and 3rd terms of a geometric progression are also the 1st, 4th and 6th terms, respectively, of an arithmetic progression. $$$$ The sum to infinity of the geometric progression is 12. $$$$ Find the 1st term of the geometric progression.$$",
+            "answers": {
+                "a": "$$1$$",
+                "b": "$$2$$",
+                "c": "$$3$$",
+                "d": "$$4$$",
+                "e": "$$5$$",
+                "f": "$$6$$"
+            },
+            "explanation": "https://i.imgur.com/FRPG6tn.jpeg",
+            "answer": "d"
+        },
+        {
+            "question": "$$The curve $S$ has equation $$y = px^2 + 6x - q$$ where $p$ and $q$ are constants. $$$$ $S$ has a line of symmetry at $x = -\\frac{1}{4}$ and touches the x-axis at exactly one point. $$$$ What is the value of $p + 8q$?$$",
+            "answers": {
+                "a": "$$6$$",
+                "b": "$$18$$",
+                "c": "$$21$$",
+                "d": "$$25$$",
+                "e": "$$38$$"
+            },
+            "explanation": "https://i.imgur.com/K6j60Co.jpeg",
+            "answer": "a"
+        },
+        {
+            "question": "$$Find the maximum value of the function $$f(x) = \\frac{1}{5^{2x} - 4(5^x) + 7}$$$$",
+            "answers": {
+                "a": "$$\\frac{1}{7}$$",
+                "b": "$$\\frac{1}{4}$$",
+                "c": "$$\\frac{1}{3}$$",
+                "d": "$$3$$",
+                "e": "$$4$$",
+                "f": "$$7$$"
+            },
+            "explanation": "https://i.imgur.com/Q4YgZF2.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$Given that $$2^{3x} = 8^{(y+3)}$$ and $$4^{(x+1)} = \\frac{16^{(y+1)}}{8^{(y+3)}}$$ what is the value of $x+y$?$$",
+            "answers": {
+                "a": "$$-23$$",
+                "b": "$$-22$$",
+                "c": "$$-15$$",
+                "d": "$$-14$$",
+                "e": "$$-11$$",
+                "f": "$$-10$$"
+            },
+            "explanation": "https://i.imgur.com/tuA0h8O.jpeg",
+            "answer": "a"
+        },
+        {
+            "question": "$$The function $f$ is defined for all real $x$ as $$f(x) = (p-x)(x+2)$$ Find the complete set of values of $p$ for which the maximum value of $f(x)$ is less than 4.$$",
+            "answers": {
+                "a": "$$-2-4\\sqrt{2} < p < -2+4\\sqrt{2}$$",
+                "b": "$$-2-2\\sqrt{2} < p < -2+2\\sqrt{2}$$",
+                "c": "$$-2\\sqrt{5} < p < 2\\sqrt{5}$$",
+                "d": "$$-6 < p < 2$$",
+                "e": "$$-4 < p < 0$$",
+                "f": "$$-2 < p < 2$$"
+            },
+            "explanation": "https://i.imgur.com/xZXdjCj.jpeg",
+            "answer": "d"
+        },
+        {
+            "question": "$$The quadratic expression $x^2 - 14x + 9$ factorises as $(x - \\alpha)(x - \\beta)$, where $\\alpha$ and $\\beta$ are positive real numbers. $$$$ Which quadratic expression can be factorised as $(x - \\sqrt{\\alpha})(x - \\sqrt{\\beta})$? $$",
+            "answers": {
+                "a": "$$x^2 - \\sqrt{10}x + 3$$",
+                "b": "$$x^2 - \\sqrt{14}x + 3$$",
+                "c": "$$x^2 - \\sqrt{20}x + 3$$",
+                "d": "$$x^2 - 178x + 81$$",
+                "e": "$$x^2 - 176x + 81$$",
+                "f": "$$x^2 + 196x + 81$$"
+            },
+            "explanation": "https://i.imgur.com/frN8eqR.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$The following sequence of transformations is applied to the curve $y = 4x^2$ $$$$ 1. Translation by $(3, -5)$ $$$$ 2. Reflection in the x-axis $$$$ 3. Stretch parallel to the x-axis with scale factor 2 $$$$ What is the equation of the resulting curve?$$",
+            "answers": {
+                "a": "$$y = -x^2 + 12x - 31$$",
+                "b": "$$y = -x^2 + 12x - 41$$",
+                "c": "$$y = x^2 + 12x + 31$$",
+                "d": "$$y = x^2 + 12x + 41$$",
+                "e": "$$y = -16x^2 + 48x - 31$$",
+                "f": "$$y = -16x^2 + 48x - 41$$",
+                "g": "$$y = 16x^2 - 48x + 31$$",
+                "h": "$$y = 16x^2 - 48x + 41$$"
+            },
+            "explanation": "https://i.imgur.com/k9F0Wxi.jpeg",
+            "answer": "a"
+        },
+        {
+            "question": "https://i.imgur.com/ztTDRfE.jpeg",
+            "answers": {
+                "a": "$$\\sqrt{6}$$",
+                "b": "$$3$$",
+                "c": "$$\\frac{18}{5}$$",
+                "d": "$$4$$",
+                "e": "$$6$$",
+                "f": "$$\\frac{33}{5}$$"
+            },
+            "explanation": "https://i.imgur.com/IVp2K9a.jpeg",
+            "answer": "e"
+        },
+        {
+            "question": "$$How many real solutions are there to the equation $$3\\cos x = \\sqrt{x}$$ where $x$ is in radians?$$",
+            "answers": {
+                "a": "$$0$$",
+                "b": "$$1$$",
+                "c": "$$2$$",
+                "d": "$$3$$",
+                "e": "$$4$$",
+                "f": "$$5$$",
+                "g": "infinitely many"
+            },
+            "explanation": "https://i.imgur.com/W5bMid4.jpeg",
+            "answer": "d"
+        },
+        {
+            "question": "$$Find the coefficient of $x^2y^4$ in the expansion of $(1 + x + y^2)^7$$$",
+            "answers": {
+                "a": "$$6$$",
+                "b": "$$10$$",
+                "c": "$$21$$",
+                "d": "$$35$$",
+                "e": "$$105$$",
+                "f": "$$210$$"
+            },
+            "explanation": "https://i.imgur.com/FQRFZhV.jpeg",
+            "answer": "f"
+        },
+        {
+            "question": "$$The area enclosed between the line $y=mx$ and the curve $y=x^3$ is 6. $$$$ What is the value of $m$?$$",
+            "answers": {
+                "a": "$$2$$",
+                "b": "$$4$$",
+                "c": "$$\\sqrt{3}$$",
+                "d": "$$\\sqrt{6}$$",
+                "e": "$$2\\sqrt{3}$$",
+                "f": "$$2\\sqrt{6}$$"
+            },
+            "explanation": "https://i.imgur.com/rS3B56J.jpeg",
+            "answer": "e"
+        },
+        {
+            "question": "$$Find the positive difference between the two real values of $x$ for which $$(\\log_2x)^4 + 12(\\log_2(\\frac{1}{x}))^2 - 2^6 = 0$$$$",
+            "answers": {
+                "a": "$$4$$",
+                "b": "$$16$$",
+                "c": "$$\\frac{15}{4}$$",
+                "d": "$$\\frac{17}{4}$$",
+                "e": "$$\\frac{255}{16}$$",
+                "f": "$$\\frac{257}{16}$$"
+            },
+            "explanation": "https://i.imgur.com/lbkb1kk.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$The circle $C_1$ has equation $(x+2)^2 + (y-1)^2 = 3$ $$$$ The circle $C_2$ has equation $(x-4)^2+(y-1)^2 = 3$ $$$$ The straight line $l$ is a tangent to both $C_1$ and $C_2$ and has a positive gradient. $$$$ The acute angle between $l$ and the x-axis is $\\theta$ $$$$ Find the value of $\\tan \\theta$$$",
+            "answers": {
+                "a": "$$\\frac{1}{2}$$",
+                "b": "$$2$$",
+                "c": "$$\\frac{\\sqrt{2}}{2}$$",
+                "d": "$$\\sqrt{2}$$",
+                "e": "$$\\frac{\\sqrt{6}}{2}$$",
+                "f": "$$\\frac{\\sqrt{6}}{3}$$",
+                "g": "$$\\frac{\\sqrt{3}}{3}$$",
+                "h": "$$\\sqrt{3}$$"
+            },
+            "explanation": "https://i.imgur.com/7WGTqLt.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$Find the complete set of values of $m$ in terms of $c$ such that the graphs of $y=mx+c$ and $y = \\sqrt{x}$ have two points of intersection.$$",
+            "answers": {
+                "a": "$$0 < m<\\frac{1}{4c}$$",
+                "b": "$$0 < m<4c^2$$",
+                "c": "$$m>\\frac{1}{4c}$$",
+                "d": "$$m<\\frac{1}{4c}$$",
+                "e": "$$m>4c^2$$",
+                "f": "$$m<4c^2$$"
+            },
+            "explanation": "https://i.imgur.com/RKTJfsT.jpeg",
+            "answer": "a"
+        },
+        {
+            "question": "$$Find the number of solutions and the sum of the solutions of the equation $$1 - 2\\cos^2x = |\\cos x|$$ where $0 \\leq x \\leq 180^{\\circ}$$$",
+            "answers": {
+                "a": "Number of solutions = $2$, Sum of solutions = $180^{\\circ}$",
+                "b": "Number of solutions = $2$, Sum of solutions = $240^{\\circ}$",
+                "c": "Number of solutions = $3$, Sum of solutions = $180^{\\circ}$",
+                "d": "Number of solutions = $3$, Sum of solutions = $360^{\\circ}$",
+                "e": "Number of solutions = $4$, Sum of solutions = $240^{\\circ}$",
+                "f": "Number of solutions = $4$, Sum of solutions = $360^{\\circ}$"
+            },
+            "explanation": "https://i.imgur.com/HbvOk41.jpeg",
+            "answer": "a"
+        },
+        {
+            "question": "$$Find the lowest positive integer for which $x^2 - 52x - 52$ is positive.$$",
+            "answers": {
+                "a": "$$26$$",
+                "b": "$$27$$",
+                "c": "$$51$$",
+                "d": "$$52$$",
+                "e": "$$53$$",
+                "f": "$$54$$"
+            },
+            "explanation": "https://i.imgur.com/G0gr4zV.jpeg",
+            "answer": "e"
+        },
+        {
+            "question": "$$For how many values of $a$ is the equation $$(x-a)(x^2 - x + a) = 0$$ satisfied by exactly two distinct values of $x$?$$",
+            "answers": {
+                "a": "$$0$$",
+                "b": "$$1$$",
+                "c": "$$2$$",
+                "d": "$$3$$",
+                "e": "$$4$$",
+                "f": "more than $4$"
+            },
+            "explanation": "https://i.imgur.com/GI38Y4f.jpeg",
+            "answer": "c"
+        }
+    ],
+    "paper2": [
+        {
+            "question": "$$Find the complete set of values of $k$ for which the line $y=x-2$ crosses or touches the curve $y=x^2+kx+2$$$",
+            "answers": {
+                "a": "$$-1 \\leq k \\leq 3$$",
+                "b": "$$-3 \\leq k \\leq 5$$",
+                "c": "$$-4 \\leq k \\leq 4$$",
+                "d": " $k \\leq -1$ or $k \\geq 3$ ",
+                "e": " $k \\leq -3$ or $k \\geq 5$ ",
+                "f": " $k \\leq -4$ or $k \\geq 4$ "
+            },
+            "explanation": "https://i.imgur.com/PBJliGF.jpeg",
+            "answer": "e"
+        },
+        {
+            "question": "$$Given $\\tan \\theta = 2$ and $180^{\\circ} < \\theta < 360^{\\circ}$, find the value of $\\cos \\theta$$$",
+            "answers": {
+                "a": "$$\\sqrt{3}$$",
+                "b": "$$-\\sqrt{3}$$",
+                "c": "$$\\frac{\\sqrt{3}}{2}$$",
+                "d": "$$-\\frac{\\sqrt{3}}{2}$$",
+                "e": "$$\\frac{\\sqrt{5}}{5}$$",
+                "f": "$$-\\frac{\\sqrt{5}}{5}$$",
+                "g": "$$\\frac{2\\sqrt{5}}{5}$$",
+                "h": "$$-\\frac{2\\sqrt{5}}{5}$$"
+            },
+            "explanation": "https://i.imgur.com/wv5D5Ym.jpeg",
+            "answer": "f"
+        },
+        {
+            "question": "https://i.imgur.com/W7moXO4.jpeg",
+            "answers": {
+                "a": "The argument is correct.",
+                "b": "The argument is incorrect, and the first error occurs on line (I).",
+                "c": "The argument is incorrect, and the first error occurs on line (II).",
+                "d": "The argument is incorrect, and the first error occurs on line (III).",
+                "e": "The argument is incorrect, and the first error occurs on line (IV).",
+                "f": "The argument is incorrect, and the first error occurs on line (V).",
+                "g": "The argument is incorrect, and the first error occurs on line (VI)."
+            },
+            "explanation": "https://i.imgur.com/1NqhMLT.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$Consider the following statement: $$$$ Every positive integer $N$ that is greater than 6 can be written as the sum of two non-prime integers that are greater than 1. $$$$ Which of the following is/are counterexample(s) to this statement? $$$$ I: $N=5$ $$$$ II: $N=7$ $$$$ III: $N=9$$$",
+            "answers": {
+                "a": "none of them",
+                "b": "I only",
+                "c": "II only",
+                "d": "III only",
+                "e": "I and II only",
+                "f": "I and III only",
+                "g": "II and III only",
+                "h": "I, II and III"
+            },
+            "explanation": "https://i.imgur.com/TXKUPRA.jpeg",
+            "answer": "g"
+        },
+        {
+            "question": "https://i.imgur.com/TDjuQlQ.jpeg",
+            "answers": {
+                "a": "A",
+                "b": "B",
+                "c": "C",
+                "d": "D",
+                "e": "E",
+                "f": "F"
+            },
+            "explanation": "https://i.imgur.com/p1Kl6jC.jpeg",
+            "answer": "a"
+        },
+        {
+            "question": "$$The function $f(x)$ is defined for all real values of $x$. $$$$ Which of the following conditions on $f(x)$ is/are necessary to ensure that $$\\int_{-5}^0 f(x)dx = \\int_{0}^{5} f(x)dx$$ Condition I: $f(x) = f(-x)$ for $-5 \\leq x \\leq 5$ $$$$ Condition II: $f(x) = c$ for $-5 \\leq x \\leq 5$, where $c$ is a constant $$$$ Condition III: $f(x) = -f(-x)$ for $-5 \\leq  x \\leq 5$$$",
+            "answers": {
+                "a": "none of them",
+                "b": "I only",
+                "c": "II only",
+                "d": "III only",
+                "e": "I and II only",
+                "f": "I and III only",
+                "g": "II and III only",
+                "h": "I, II and III"
+            },
+            "explanation": "https://i.imgur.com/TFY3a2g.jpeg",
+            "answer": "a"
+        },
+        {
+            "question": "https://i.imgur.com/b6KyZls.jpeg",
+            "answers": {
+                "a": "A",
+                "b": "B",
+                "c": "C",
+                "d": "D",
+                "e": "E",
+                "f": "F",
+                "g": "G",
+                "h": "H"
+            },
+            "explanation": "https://i.imgur.com/akTHn3T.jpeg",
+            "answer": "h"
+        },
+        {
+            "question": "$$A student is asked to prove whether the following statement $(\\ast)$ is true or false: $$$$ $(\\ast)$ For all real numbers $a$ and $b$, $|a+b| < |a| + |b|$ $$$$ The student's proof is as follows: $$$$ Statement $(\\ast)$ is false. A counterexample is $a=3$, $b=4$, as $|3+4| = 7$ and $|3| + |4| = 7$, but $7<7$ is false. $$$$ Which of the following best describes the student's proof?$$",
+            "answers": {
+                "a": "The statement $(\\ast)$ is true, and the student's proof is not correct.",
+                "b": "The statement $(\\ast)$ is false, but the student's proof is not correct: the counterexample is not valid.",
+                "c": "The statement $(\\ast)$ is false, but the student's proof is not correct: the student needs to give all the values of $a$ and $b$ where $|a+b| < |a| + |b|$ is false.",
+                "d": "The statement $(\\ast)$ is false, but the student's proof is not correct: the student should have instead stated that for all real numbers $a$ and $b$, $|a+b| \\leq |a| + |b|$.",
+                "e": "The statement $(\\ast)$ is false, and the student's proof is fully correct."
+            },
+            "explanation": "https://i.imgur.com/lwGZUPU.jpeg",
+            "answer": "e"
+        },
+        {
+            "question": "$$A student wishes to evaluate the function $f(x) = x\\sin x$, where $x$ is in radians, but has a calculator that only works in degrees. $$$$ What could the student type into their calculator to correctly evaluate $f(4)$?$$",
+            "answers": {
+                "a": "$$(\\pi \\times 4 \\div 180) \\times \\sin(4)$$",
+                "b": "$$(\\pi \\times 4 \\div 180) \\times \\sin(\\pi \\times 4 \\div 180)$$",
+                "c": "$$4 \\times \\sin(\\pi \\times \\div 180)$$",
+                "d": "$$(180 \\times 4 \\div \\pi) \\times \\sin(4)$$",
+                "e": "$$(180 \\times 4 \\div \\pi) \\times \\sin(180 \\times 4 \\div \\pi)$$",
+                "f": "$$4 \\times \\sin(180 \\times 4 \\div \\pi)$$"
+            },
+            "explanation": "https://i.imgur.com/oC5euMO.jpeg",
+            "answer": "f"
+        },
+        {
+            "question": "$$The real numbers $a$, $b$, $c$ and $d$ satisfy both $$0 < a + b < c + d$$ and $$0 < a + c < b + d$$ Which of the following inequalities must be true? $$$$ I: $a < d$ $$$$ II: $b < c$ $$$$ III: $a + b + c + d > 0$$$",
+            "answers": {
+                "a": "none of them",
+                "b": "I only",
+                "c": "II only",
+                "d": "III only",
+                "e": "I and II only",
+                "f": "I and III only",
+                "g": "II and III only",
+                "h": "I, II and III"
+            },
+            "explanation": "https://i.imgur.com/IaMMwiT.jpeg",
+            "answer": "f"
+        },
+        {
+            "question": "https://i.imgur.com/Q2mawIG.jpeg",
+            "answers": {
+                "a": "$$(99, 100)$$",
+                "b": "$$(99, -100)$$",
+                "c": "$$(-99, 100)$$",
+                "d": "$$(-99, -100)$$",
+                "e": "$$(100, 99)$$",
+                "f": "$$(100, -99)$$",
+                "g": "$$(-100, 99)$$",
+                "h": "$$(-100, -99)$$"
+            },
+            "explanation": "https://i.imgur.com/u4O99bc.jpeg",
+            "answer": "g"
+        },
+        {
+            "question": "$$Which one of A\u2013F correctly completes the following statement? $$$$ Given that $a < b$, and $f(x)>0$ for all $x$ with $a < x < b$, the trapezium rule produces an overestimate for $\\int_a^b f(x)dx$ ... $$",
+            "answers": {
+                "a": "... if $f'(x) > 0$ and $f''(x) < 0$ for all $x$ with $a < x < b$ ",
+                "b": "... only if $f'(x)>0$ and $f''(x) < 0$ for all $x$ with $a < x < b$ ",
+                "c": "... if and only if $f'(x) > 0$ and $f''(x) < 0$ for all $x$ with $a < x < b$ ",
+                "d": "... if $f'(x) < 0$ and $f''(x) > 0$ for all $x$ with $a < x < b$ ",
+                "e": "... only if $f'(x) < 0$ and $f''(x) > 0$ for all $x$ with $a < x < b$ ",
+                "f": "... if and only if $f'(x)<0$ and $f''(x) > 0$ for all $x$ with $a < x < b$ "
+            },
+            "explanation": "https://i.imgur.com/R4YYxAD.jpeg",
+            "answer": "d"
+        },
+        {
+            "question": "$$$f(x)$ is a function for which $$\\int_0^3 (f(x))^2dx + \\int_0^3 f(x)dx = \\int_0^1 f(x)dx$$ Which of the following claims about $f(x)$ is/are necessarily true? $$$$ I: $f(x) \\leq 0$ for some $x$ with $1 \\leq x \\leq 3$  $$$$ II: $\\int_0^3 f(x)dx \\leq \\int_0^1f(x)dx$$$",
+            "answers": {
+                "a": "neither of them",
+                "b": "I only",
+                "c": "II only",
+                "d": "I and II"
+            },
+            "explanation": "https://i.imgur.com/CDoIJug.jpeg",
+            "answer": "d"
+        },
+        {
+            "question": "$$An arithmetic sequence $T$ has first term $a$ and common difference $d$, where $a$ and $d$ are non-zero integers. $$$$ Property P is: For some positive integer $m$, the sum of the first $m$ terms of the sequence is equal to the sum of the first $2m$ terms of the sequence. $$$$ For example, when $a = 11$ and $d = \u22122$, the sequence $T$ has property P, because $$11 + 9 + 7 + 5 = 11 + 9 + 7 + 5 + 3 + 1 + (-1) + (-3)$$ i.e. the sum of the first 4 terms equals the sum of the first 8 terms. $$$$ Which of the following statements is/are true? $$$$ I: For $T$ to have property P, it is sufficient that $ad < 0$. $$$$ II: For $T$ to have property P, it is necessary that $d$ is even.$$",
+            "answers": {
+                "a": "neither of them",
+                "b": "I only",
+                "c": "II only",
+                "d": "I and II"
+            },
+            "explanation": "https://i.imgur.com/RqBDCic.jpeg",
+            "answer": "a"
+        },
+        {
+            "question": "$$Which one of the following is a necessary and sufficient condition for $$\\sum_{k=1}^n \\sin(\\frac{k\\pi}{3}) = \\frac{\\sqrt{3}}{2}$$ to be true?$$",
+            "answers": {
+                "a": "$$n = 1$$",
+                "b": "$n$ is a multiple of 3",
+                "c": "$n$ is a multiple of 6",
+                "d": "$n$ is 1 more than a multiple of 3",
+                "e": "$n$ is 1 more than a multiple of 6",
+                "f": "$n$ is 1 more than a multiple of 6 or $n$ is 2 more than a multiple of 6"
+            },
+            "explanation": "https://i.imgur.com/LYUMWHJ.jpeg",
+            "answer": "d"
+        },
+        {
+            "question": "https://i.imgur.com/nDQdVRy.jpeg",
+            "answers": {
+                "a": "The calculation is completely correct.",
+                "b": "The calculation is incorrect, and the first error occurs on line (I).",
+                "c": "The calculation is incorrect, and the first error occurs on line (II).",
+                "d": "The calculation is incorrect, and the first error occurs on line (III).",
+                "e": "The calculation is incorrect, and the first error occurs on line (IV).",
+                "f": "The calculation is incorrect, and the first error occurs on line (V)."
+            },
+            "explanation": "https://i.imgur.com/0UiGoYK.jpeg",
+            "answer": "d"
+        },
+        {
+            "question": "$$A set of six distinct integers is split into two sets of three. $$$$ The first set of three integers has a mean of 10 and a median of 8. $$$$ The second set of three integers has a mean of 12 and a median of 9. $$$$ What is the smallest possible range of the set of all six integers?$$",
+            "answers": {
+                "a": "$$8$$",
+                "b": "$$10$$",
+                "c": "$$11$$",
+                "d": "$$12$$",
+                "e": "$$14$$",
+                "f": "$$15$$"
+            },
+            "explanation": "https://i.imgur.com/MVdlcf9.jpeg",
+            "answer": "e"
+        },
+        {
+            "question": "$$In this question, $f(x) = ax^3 + bx^2 + cx + d$ and $g(x) = px^3 + qx^2 + rx + s$ are cubic polynomials. $$$$ If $f(x) - g(x) > 0$ for every real $x$, which of the following is/are necessarily true? $$$$ I: $a>p$ $$$$ II: if $b=q$ then $c=r$ $$$$ III: $d>s$$$",
+            "answers": {
+                "a": "none of them",
+                "b": "I only",
+                "c": "II only",
+                "d": "III only",
+                "e": "I and II only",
+                "f": "I and III only",
+                "g": "II and III only",
+                "h": "I, II and III"
+            },
+            "explanation": "https://i.imgur.com/bzpjqOU.jpeg",
+            "answer": "g"
+        },
+        {
+            "question": "https://i.imgur.com/OI5GdQF.jpeg",
+            "answers": {
+                "a": "A",
+                "b": "B",
+                "c": "C",
+                "d": "D",
+                "e": "E",
+                "f": "F",
+                "g": "G",
+                "h": "H"
+            },
+            "explanation": "https://i.imgur.com/8TA0za8.png",
+            "answer": "e"
+        },
+        {
+            "question": "$$$x$ is a real number and $f$ is a function. $$$$ Given that exactly one of the following statements is true, which one is it?$$",
+            "answers": {
+                "a": " $x \\geq 0$ only if $f(x) < 0$ ",
+                "b": " $x < 0$ if $f(x) \\geq 0$ ",
+                "c": " $x \\geq 0$ only if $f(x) \\geq 0$ ",
+                "d": " $f(x) < 0$ if $x < 0$ ",
+                "e": " $f(x) \\geq 0$ only if $x \\geq 0$ ",
+                "f": " $f(x) \\geq 0$ if and only if $x<0$ "
+            },
+            "explanation": "https://i.imgur.com/nrs0hDy.jpeg",
+            "answer": "c"
+        }
+    ]
+}

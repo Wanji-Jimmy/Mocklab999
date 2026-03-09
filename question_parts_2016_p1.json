@@ -1,0 +1,394 @@
+[
+  {
+    "year": "2016",
+    "paper": 1,
+    "number": 1,
+    "stem_image": "question_parts/2016-P1/Q1_stem.png",
+    "options": [
+      {
+        "key": "A",
+        "image": "question_parts/2016-P1/Q1_option_A.png"
+      },
+      {
+        "key": "B",
+        "image": "question_parts/2016-P1/Q1_option_B.png"
+      },
+      {
+        "key": "C",
+        "image": "question_parts/2016-P1/Q1_option_C.png"
+      },
+      {
+        "key": "D",
+        "image": "question_parts/2016-P1/Q1_option_D.png"
+      },
+      {
+        "key": "E",
+        "image": "question_parts/2016-P1/Q1_option_E.png"
+      }
+    ]
+  },
+  {
+    "year": "2016",
+    "paper": 1,
+    "number": 2,
+    "stem_image": "question_parts/2016-P1/Q2_stem.png",
+    "options": [
+      {
+        "key": "A",
+        "image": "question_parts/2016-P1/Q2_option_A.png"
+      },
+      {
+        "key": "B",
+        "image": "question_parts/2016-P1/Q2_option_B.png"
+      },
+      {
+        "key": "C",
+        "image": "question_parts/2016-P1/Q2_option_C.png"
+      },
+      {
+        "key": "D",
+        "image": "question_parts/2016-P1/Q2_option_D.png"
+      },
+      {
+        "key": "E",
+        "image": "question_parts/2016-P1/Q2_option_E.png"
+      }
+    ]
+  },
+  {
+    "year": "2016",
+    "paper": 1,
+    "number": 3,
+    "stem_image": "question_parts/2016-P1/Q3_stem.png",
+    "options": [
+      {
+        "key": "A",
+        "image": "question_parts/2016-P1/Q3_option_A.png"
+      },
+      {
+        "key": "B",
+        "image": "question_parts/2016-P1/Q3_option_B.png"
+      },
+      {
+        "key": "C",
+        "image": "question_parts/2016-P1/Q3_option_C.png"
+      },
+      {
+        "key": "D",
+        "image": "question_parts/2016-P1/Q3_option_D.png"
+      },
+      {
+        "key": "E",
+        "image": "question_parts/2016-P1/Q3_option_E.png"
+      }
+    ]
+  },
+  {
+    "year": "2016",
+    "paper": 1,
+    "number": 4,
+    "stem_image": "question_parts/2016-P1/Q4_stem.png",
+    "options": [
+      {
+        "key": "A",
+        "image": "question_parts/2016-P1/Q4_option_A.png"
+      },
+      {
+        "key": "B",
+        "image": "question_parts/2016-P1/Q4_option_B.png"
+      },
+      {
+        "key": "C",
+        "image": "question_parts/2016-P1/Q4_option_C.png"
+      },
+      {
+        "key": "D",
+        "image": "question_parts/2016-P1/Q4_option_D.png"
+      },
+      {
+        "key": "E",
+        "image": "question_parts/2016-P1/Q4_option_E.png"
+      }
+    ]
+  },
+  {
+    "year": "2016",
+    "paper": 1,
+    "number": 5,
+    "stem_image": "question_parts/2016-P1/Q5_stem.png",
+    "options": [
+      {
+        "key": "A",
+        "image": "question_parts/2016-P1/Q5_option_A.png"
+      },
+      {
+        "key": "B",
+        "image": "question_parts/2016-P1/Q5_option_B.png"
+      },
+      {
+        "key": "C",
+        "image": "question_parts/2016-P1/Q5_option_C.png"
+      },
+      {
+        "key": "D",
+        "image": "question_parts/2016-P1/Q5_option_D.png"
+      },
+      {
+        "key": "E",
+        "image": "question_parts/2016-P1/Q5_option_E.png"
+      }
+    ]
+  },
+  {
+    "year": "2016",
+    "paper": 1,
+    "number": 6,
+    "stem_image": "question_parts/2016-P1/Q6_stem.png",
+    "options": [
+      {
+        "key": "A",
+        "image": "question_parts/2016-P1/Q6_option_A.png"
+      },
+      {
+        "key": "B",
+        "image": "question_parts/2016-P1/Q6_option_B.png"
+      },
+      {
+        "key": "C",
+        "image": "question_parts/2016-P1/Q6_option_C.png"
+      },
+      {
+        "key": "D",
+        "image": "question_parts/2016-P1/Q6_option_D.png"
+      },
+      {
+        "key": "E",
+        "image": "question_parts/2016-P1/Q6_option_E.png"
+      }
+    ]
+  },
+  {
+    "year": "2016",
+    "paper": 1,
+    "number": 7,
+    "stem_image": "question_parts/2016-P1/Q7_stem.png",
+    "options": [
+      {
+        "key": "A",
+        "image": "question_parts/2016-P1/Q7_option_A.png"
+      },
+      {
+        "key": "B",
+        "image": "question_parts/2016-P1/Q7_option_B.png"
+      },
+      {
+        "key": "C",
+        "image": "question_parts/2016-P1/Q7_option_C.png"
+      },
+      {
+        "key": "D",
+        "image": "question_parts/2016-P1/Q7_option_D.png"
+      },
+      {
+        "key": "E",
+        "image": "question_parts/2016-P1/Q7_option_E.png"
+      }
+    ]
+  },
+  {
+    "year": "2016",
+    "paper": 1,
+    "number": 8,
+    "stem_image": "question_parts/2016-P1/Q8_stem.png",
+    "options": [
+      {
+        "key": "A",
+        "image": "question_parts/2016-P1/Q8_option_A.png"
+      },
+      {
+        "key": "B",
+        "image": "question_parts/2016-P1/Q8_option_B.png"
+      },
+      {
+        "key": "C",
+        "image": "question_parts/2016-P1/Q8_option_C.png"
+      },
+      {
+        "key": "D",
+        "image": "question_parts/2016-P1/Q8_option_D.png"
+      },
+      {
+        "key": "E",
+        "image": "question_parts/2016-P1/Q8_option_E.png"
+      }
+    ]
+  },
+  {
+    "year": "2016",
+    "paper": 1,
+    "number": 9,
+    "stem_image": "question_parts/2016-P1/Q9_stem.png",
+    "options": [
+      {
+        "key": "A",
+        "image": "question_parts/2016-P1/Q9_option_A.png"
+      },
+      {
+        "key": "B",
+        "image": "question_parts/2016-P1/Q9_option_B.png"
+      },
+      {
+        "key": "C",
+        "image": "question_parts/2016-P1/Q9_option_C.png"
+      },
+      {
+        "key": "D",
+        "image": "question_parts/2016-P1/Q9_option_D.png"
+      },
+      {
+        "key": "E",
+        "image": "question_parts/2016-P1/Q9_option_E.png"
+      }
+    ]
+  },
+  {
+    "year": "2016",
+    "paper": 1,
+    "number": 10,
+    "stem_image": "question_parts/2016-P1/Q10_stem.png",
+    "options": [
+      {
+        "key": "A",
+        "image": "question_parts/2016-P1/Q10_option_A.png"
+      },
+      {
+        "key": "B",
+        "image": "question_parts/2016-P1/Q10_option_B.png"
+      },
+      {
+        "key": "C",
+        "image": "question_parts/2016-P1/Q10_option_C.png"
+      },
+      {
+        "key": "D",
+        "image": "question_parts/2016-P1/Q10_option_D.png"
+      },
+      {
+        "key": "E",
+        "image": "question_parts/2016-P1/Q10_option_E.png"
+      }
+    ]
+  },
+  {
+    "year": "2016",
+    "paper": 1,
+    "number": 11,
+    "stem_image": "question_parts/2016-P1/Q11_stem.png",
+    "options": [
+      {
+        "key": "A",
+        "image": "question_parts/2016-P1/Q11_option_A.png"
+      },
+      {
+        "key": "B",
+        "image": "question_parts/2016-P1/Q11_option_B.png"
+      },
+      {
+        "key": "C",
+        "image": "question_parts/2016-P1/Q11_option_C.png"
+      },
+      {
+        "key": "D",
+        "image": "question_parts/2016-P1/Q11_option_D.png"
+      },
+      {
+        "key": "E",
+        "image": "question_parts/2016-P1/Q11_option_E.png"
+      }
+    ]
+  },
+  {
+    "year": "2016",
+    "paper": 1,
+    "number": 12,
+    "stem_image": "question_parts/2016-P1/Q12_stem.png",
+    "options": [
+      {
+        "key": "A",
+        "image": "question_parts/2016-P1/Q12_option_A.png"
+      },
+      {
+        "key": "B",
+        "image": "question_parts/2016-P1/Q12_option_B.png"
+      },
+      {
+        "key": "C",
+        "image": "question_parts/2016-P1/Q12_option_C.png"
+      },
+      {
+        "key": "D",
+        "image": "question_parts/2016-P1/Q12_option_D.png"
+      },
+      {
+        "key": "E",
+        "image": "question_parts/2016-P1/Q12_option_E.png"
+      }
+    ]
+  },
+  {
+    "year": "2016",
+    "paper": 1,
+    "number": 13,
+    "stem_image": "question_parts/2016-P1/Q13_stem.png",
+    "options": [
+      {
+        "key": "A",
+        "image": "question_parts/2016-P1/Q13_option_A.png"
+      },
+      {
+        "key": "B",
+        "image": "question_parts/2016-P1/Q13_option_B.png"
+      },
+      {
+        "key": "C",
+        "image": "question_parts/2016-P1/Q13_option_C.png"
+      },
+      {
+        "key": "D",
+        "image": "question_parts/2016-P1/Q13_option_D.png"
+      },
+      {
+        "key": "E",
+        "image": "question_parts/2016-P1/Q13_option_E.png"
+      }
+    ]
+  },
+  {
+    "year": "2016",
+    "paper": 1,
+    "number": 14,
+    "stem_image": "question_parts/2016-P1/Q14_stem.png",
+    "options": [
+      {
+        "key": "A",
+        "image": "question_parts/2016-P1/Q14_option_A.png"
+      },
+      {
+        "key": "B",
+        "image": "question_parts/2016-P1/Q14_option_B.png"
+      },
+      {
+        "key": "C",
+        "image": "question_parts/2016-P1/Q14_option_C.png"
+      },
+      {
+        "key": "D",
+        "image": "question_parts/2016-P1/Q14_option_D.png"
+      },
+      {
+        "key": "E",
+        "image": "question_parts/2016-P1/Q14_option_E.png"
+      }
+    ]
+  }
+]

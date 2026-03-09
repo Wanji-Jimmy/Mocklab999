@@ -1,0 +1,534 @@
+{
+    "paper1": [
+        {
+            "question": "$$It is given that the expansion of $(ax+b)^3$ is $8x^3 - px^2 + 18x - 3\\sqrt{3}$, where $a$, $b$ and $p$ are real constants. $$$$ What is the value of $p$?$$",
+            "answers": {
+                "a": "$$-12\\sqrt{3}$$",
+                "b": "$$-6\\sqrt{3}$$",
+                "c": "$$-4\\sqrt{3}$$",
+                "d": "$$-\\sqrt{3}$$",
+                "e": "$$\\sqrt{3}$$",
+                "f": "$$4\\sqrt{3}$$",
+                "g": "$$6\\sqrt{3}$$",
+                "h": "$$12\\sqrt{3}$$"
+            },
+            "explanation": "https://i.imgur.com/ztu73Ba.jpeg",
+            "answer": "h"
+        },
+        {
+            "question": "$$The expression $3x^3 + 13x^2 + 8x + a$, where $a$ is a constant, has $(x+2)$ as a factor. $$$$ Which one of the following is a complete factorisation of the expression?$$",
+            "answers": {
+                "a": "$$(x+2)(x-1)(3x-2)$$",
+                "b": "$$(x+2)(x+1)(3x-2)$$",
+                "c": "$$(x+2)(x+1)(3x+2)$$",
+                "d": "$$(x+2)(x-3)(3x+2)$$",
+                "e": "$$(x+2)(x+3)(3x-2)$$",
+                "f": "$$(x+2)(x+3)(3x+2)$$"
+            },
+            "explanation": "https://i.imgur.com/oeAJocd.jpeg",
+            "answer": "e"
+        },
+        {
+            "question": "$$A line is drawn normal to the curve $y = \\frac{2}{x^2}$ at the point on the curve where $x=1$. $$$$ This line cuts the x-axis at $P$ and the y-axis at $Q$. $$$$ The length of $PQ$ is$$",
+            "answers": {
+                "a": "$$\\frac{3\\sqrt{5}}{2}$$",
+                "b": "$$\\frac{3\\sqrt{17}}{4}$$",
+                "c": "$$\\frac{7\\sqrt{17}}{4}$$",
+                "d": "$$\\frac{35}{4}$$",
+                "e": "$$\\frac{35\\sqrt{5}}{2}$$",
+                "f": "$$\\frac{3\\sqrt{17}}{2}$$"
+            },
+            "explanation": "https://i.imgur.com/n6s3o7F.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$The sequence $a_n$ is defined by the rule for $n \\geq 1$: $$a_n = (-1)^n - (-1)^{n-1} + (-1)^{n+2}$$ Find the value of $$\\sum_{n=1}^{39}a_n$$$$",
+            "answers": {
+                "a": "$$-39$$",
+                "b": "$$-3$$",
+                "c": "$$-1$$",
+                "d": "$$0$$",
+                "e": "$$1$$",
+                "f": "$$3$$",
+                "g": "$$39$$"
+            },
+            "explanation": "https://i.imgur.com/sAFmsrs.jpeg",
+            "answer": "b"
+        },
+        {
+            "question": "$$What is the total area enclosed between the curve $y=x^2-1$, the x-axis and the lines $x=-2$ and $x=2$?$$",
+            "answers": {
+                "a": "$$\\frac{4}{3}$$",
+                "b": "$$\\frac{8}{3}$$",
+                "c": "$$4$$",
+                "d": "$$\\frac{16}{3}$$",
+                "e": "$$12$$",
+                "f": "$$16$$"
+            },
+            "explanation": "https://i.imgur.com/0KYPeuu.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$$P$, $Q$ and $R$ are each mixtures of red and white paint. $$$$ The percentage by volume of red paint in $P$ is $30\\%$. $$$$ The percentage by volume of red paint in $Q$ is $20\\%$. $$$$ The mixtures $P$, $Q$ and $R$ are combined in the proportion 12:5:3 respectively. $$$$ If the resulting mixture contains $25\\%$ by volume of red paint, what percentage by volume of mixture $R$ is red paint?$$",
+            "answers": {
+                "a": "$$25\\%$$",
+                "b": "$$23\\%$$",
+                "c": "$$13\\frac{1}{3}\\%$$",
+                "d": "$$19\\frac{1}{2}\\%$$",
+                "e": "$$9\\frac{3}{4}\\%$$",
+                "f": "It is impossible to achieve this result."
+            },
+            "explanation": "https://i.imgur.com/Cud020D.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$$60 \\%$ of a sports club's members are women and the remainder are men. $$$$ This sports club offers the opportunity to play tennis or cricket. Every member plays exactly one of the two sports. $$$$ $\\frac{2}{5}$ of the male members of the club play cricket; $$$$ $\\frac{2}{3}$ of the cricketing members of the club are women. $$$$ What is the probability that a member of a club, chosen at random, is a women who plays tennis?$$",
+            "answers": {
+                "a": "$$\\frac{1}{5}$$",
+                "b": "$$\\frac{7}{25}$$",
+                "c": "$$\\frac{1}{3}$$",
+                "d": "$$\\frac{11}{25}$$",
+                "e": "$$\\frac{3}{5}$$"
+            },
+            "explanation": "https://i.imgur.com/7fWKIJQ.jpeg",
+            "answer": "b"
+        },
+        {
+            "question": "$$Find the maximum angle $x$ in the range $0^{\\circ} \\leq x \\leq 360^{\\circ}$ which satisfies the equation $$\\cos^2(2x) + \\sqrt{3}\\sin(2x) - \\frac{7}{4} = 0$$$$",
+            "answers": {
+                "a": "$$30^{\\circ}$$",
+                "b": "$$60^{\\circ}$$",
+                "c": "$$120^{\\circ}$$",
+                "d": "$$150^{\\circ}$$",
+                "e": "$$210^{\\circ}$$",
+                "f": "$$240^{\\circ}$$",
+                "g": "$$300^{\\circ}$$",
+                "h": "$$330^{\\circ}$$"
+            },
+            "explanation": "https://i.imgur.com/siEFoAm.jpeg",
+            "answer": "f"
+        },
+        {
+            "question": "$$The line segment joining the points (3, 3) and (7, 5) is a diameter of a circle. $$$$ This circle is translated by 3 units in the negative x-direction, then reflected in the x-axis, and then enlarged by a scale factor of 4 about the centre of the resulting circle. $$$$ The equation of the final circle is$$",
+            "answers": {
+                "a": "$$(x-2)^2 + (y-4)^2 = 320$$",
+                "b": "$$(x-2)^2 + (y+4)^2 = 320$$",
+                "c": "$$(x-2)^2 + (y-4)^2 = 80$$",
+                "d": "$$(x-2)^2 + (y+4)^2 = 80$$",
+                "e": "$$(x-2)^2 + (y-4)^2 = 20$$",
+                "f": "$$(x-2)^2 + (y+4)^2 = 20$$"
+            },
+            "explanation": "https://i.imgur.com/VLXleBX.jpeg",
+            "answer": "d"
+        },
+        {
+            "question": "$$How many solutions does the equation $x\\tan x = 1$ have in the interval $-2\\pi \\leq x \\leq 2\\pi$?$$",
+            "answers": {
+                "a": "$$0$$",
+                "b": "$$1$$",
+                "c": "$$2$$",
+                "d": "$$3$$",
+                "e": "$$4$$",
+                "f": "$$5$$",
+                "g": "$$6$$"
+            },
+            "explanation": "https://i.imgur.com/kgvRhys.jpeg",
+            "answer": "e"
+        },
+        {
+            "question": "$$The real roots of the equation $4^{2x} + 12 = 2^{2x+3}$ are $p$ and $q$, where $p > q$. $$$$ The value of $p-q$ can be expressed as$$",
+            "answers": {
+                "a": "$$\\frac{3}{4}$$",
+                "b": "$$1$$",
+                "c": "$$4$$",
+                "d": "$$-\\frac{1}{2} + \\log_{10}\\frac{3}{2}$$",
+                "e": "$$\\frac{log_{10}3}{log_{10}4}$$",
+                "f": "$$\\frac{log_{10}3}{log_{10}2}$$"
+            },
+            "explanation": "https://i.imgur.com/knSP03A.jpeg",
+            "answer": "e"
+        },
+        {
+            "question": "https://i.imgur.com/m2yZIAW.jpeg",
+            "answers": {
+                "a": "$$250\\pi$$",
+                "b": "$$500\\pi$$",
+                "c": "$$1000\\pi$$",
+                "d": "$$\\frac{250\\sqrt{3}}{3}\\pi$$",
+                "e": "$$\\frac{500\\sqrt{3}}{9}\\pi$$",
+                "f": "$$\\frac{1000\\sqrt{3}}{9}\\pi$$"
+            },
+            "explanation": "https://i.imgur.com/Ngsa2ky.jpeg",
+            "answer": "e"
+        },
+        {
+            "question": "$$How many real roots does the equation $3x^5 - 10x^3 - 120x + 30 = 0$ have?$$",
+            "answers": {
+                "a": "$$1$$",
+                "b": "$$2$$",
+                "c": "$$3$$",
+                "d": "$$4$$",
+                "e": "$$5$$"
+            },
+            "explanation": "https://i.imgur.com/W7pFpQR.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$The terms of an infinite series $S$ are formed by adding together the corresponding terms in two infinite geometric series, $T$ and $U$. $$$$ The first term of $T$ and the first term of $U$ are each 4. $$$$ In order, the first three terms of the combined series $S$ are 8, 3 and $\\frac{5}{4}$ $$$$ What is the sum to infinity of $S$?$$",
+            "answers": {
+                "a": "$$\\frac{32}{5}$$",
+                "b": "$$\\frac{20}{3}$$",
+                "c": "$$\\frac{64}{5}$$",
+                "d": "$$\\frac{40}{3}$$",
+                "e": "$$16$$",
+                "f": "$$32$$"
+            },
+            "explanation": "https://i.imgur.com/azFHnMb.jpeg",
+            "answer": "d"
+        },
+        {
+            "question": "$$The least possible value of the gradient of the curve $y = (2x+a)(x-2a)^2$ at the point where $x=1$, as $a$ varies, is$$",
+            "answers": {
+                "a": "$$-\\frac{49}{4}$$",
+                "b": "$$-8$$",
+                "c": "$$-\\frac{25}{4}$$",
+                "d": "$$\\frac{7}{4}$$",
+                "e": "$$\\frac{47}{16}$$"
+            },
+            "explanation": "https://i.imgur.com/NBWQJIB.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$Given the simultaneous equations $$log_{10}2 + log_{10}(y-1) = 2\\log_{10}x$$ $$\\log_{10}(y+3-3x) = 0$$ the values of $y$ are$$",
+            "answers": {
+                "a": "$$\\frac{5}{2} \\pm \\frac{3\\sqrt{5}}{2}$$",
+                "b": "$$3 \\pm \\sqrt{3}$$",
+                "c": "$$7 \\pm 3\\sqrt{3}$$",
+                "d": "$$3, 9$$",
+                "e": "$$1, 13$$"
+            },
+            "explanation": "https://i.imgur.com/nxPEWpN.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$It is given that for $0 < x < \\pi$ $$y = (1+2\\cos x)\\cos 2x$$ The complete set of values of $x$ for which $y$ is negative is$$",
+            "answers": {
+                "a": "$$0 < x < \\frac{\\pi}{4}, \\frac{2\\pi}{3} < x < \\frac{3\\pi}{4}$$",
+                "b": "$$0 < x < \\frac{\\pi}{4}, \\frac{3\\pi}{4} < x < \\pi$$",
+                "c": "$$0 < x < \\frac{2\\pi}{3}, \\frac{3\\pi}{4} < x < \\pi$$",
+                "d": "$$\\frac{\\pi}{4} < x < \\frac{2\\pi}{3}, \\frac{3\\pi}{4} < x < \\pi$$",
+                "e": "$$\\frac{\\pi}{4} < x < \\frac{2\\pi}{3}$$",
+                "f": "$$\\frac{\\pi}{4} < x < \\frac{3\\pi}{4}$$"
+            },
+            "explanation": "https://i.imgur.com/aHmnTfI.jpeg",
+            "answer": "d"
+        },
+        {
+            "question": "$$The function $\\frac{1-x}{\\sqrt[3]{x^2}}$ is defined for all $x \\neq 0$. $$$$ The complete set of values of $x$ for which the function is decreasing is$$",
+            "answers": {
+                "a": "$$x \\leq -2, x>0$$",
+                "b": "$$-2 \\leq x < 0$$",
+                "c": "$$x \\leq 1, x \\neq 0$$",
+                "d": "$$x \\geq 1$$",
+                "e": "$$-2 \\leq x \\leq 1, x \\neq 0$$",
+                "f": "$$x \\leq -2, x \\geq 1$$"
+            },
+            "explanation": "https://i.imgur.com/7CGFBea.jpeg",
+            "answer": "a"
+        },
+        {
+            "question": "$$The coefficient of $x^3$ in the expansion of $(1+2x+3x^2)^6$ is equal to twice the coefficient of $x^4$ in the expansion of $(1-ax^2)^5$. $$$$ Find all possible values of the constant $a$.$$",
+            "answers": {
+                "a": "$$\\pm 2\\sqrt{2}$$",
+                "b": "$$\\pm \\sqrt{17}$$",
+                "c": "$$\\pm \\sqrt{34}$$",
+                "d": "$$\\pm 2\\sqrt{17}$$",
+                "e": "There are no possible values of $a$."
+            },
+            "explanation": "https://i.imgur.com/bKTIeYl.jpeg",
+            "answer": "b"
+        },
+        {
+            "question": "https://i.imgur.com/uxahHPf.jpeg",
+            "answers": {
+                "a": "$$10\\sqrt{5-2\\sqrt{3}}$$",
+                "b": "$$10\\sqrt{3}$$",
+                "c": "$$10\\sqrt{5}$$",
+                "d": "$$10\\sqrt{7}$$",
+                "e": "$$10\\sqrt{5+2\\sqrt{3}}$$"
+            },
+            "explanation": "https://i.imgur.com/XlWbCcj.png",
+            "answer": "d"
+        }
+    ],
+    "paper2": [
+        {
+            "question": "$$Find the value of $$\\int_1^2 (x^2 - \\frac{4}{x^2})^2dx$$$$",
+            "answers": {
+                "a": "$$\\frac{43}{15}$$",
+                "b": "$$3$$",
+                "c": "$$\\frac{97}{15}$$",
+                "d": "$$\\frac{103}{15}$$",
+                "e": "$$\\frac{163}{15}$$",
+                "f": "$$18$$"
+            },
+            "explanation": "https://i.imgur.com/LMZuzOA.jpeg",
+            "answer": "a"
+        },
+        {
+            "question": "$$$$f(x) = \\frac{(x^2+5)(2x)}{\\sqrt[4]{x^3}}, x>0$$ Which one of the following is equal to $f'(x)$?$$",
+            "answers": {
+                "a": "$$8x^{\\frac{9}{4}} + \\frac{40}{3}x^{\\frac{1}{4}}$$",
+                "b": "$$\\frac{9}{2}x^{\\frac{5}{4}} + \\frac{5}{2}x^{-\\frac{3}{4}}$$",
+                "c": "$$8x^{\\frac{9}{4}} + \\frac{40}{3}x^{-\\frac{1}{4}}$$",
+                "d": "$$\\frac{8}{13}x^{\\frac{13}{4}} + 8x^{\\frac{5}{4}}$$"
+            },
+            "explanation": "https://i.imgur.com/6G3RIpG.jpeg",
+            "answer": "b"
+        },
+        {
+            "question": "$$What is the value, in radians, of the largest angle $x$ in the range $0 \\leq x \\leq 2\\pi$ that satisfies the equation $8\\sin^2x + 4\\cos^2x = 7$?$$",
+            "answers": {
+                "a": "$$\\frac{2\\pi}{3}$$",
+                "b": "$$\\frac{5\\pi}{6}$$",
+                "c": "$$\\frac{4\\pi}{3}$$",
+                "d": "$$\\frac{5\\pi}{3}$$",
+                "e": "$$\\frac{7\\pi}{4}$$",
+                "f": "$$\\frac{11\\pi}{6}$$"
+            },
+            "explanation": "https://i.imgur.com/6MGZLGK.jpeg",
+            "answer": "d"
+        },
+        {
+            "question": "$$Five sealed urns, labelled $P$, $Q$, $R$, $S$ and $T$, each contain the same (non-zero) number of balls. The following statements are attached to the urns. $$$$ Urn $P$: This urns contains one or four balls. $$$$ Urn $Q$: This urn contains two or four balls. $$$$ Urn $R$: This urn contains more than two balls and fewer than five balls. $$$$ Urn $S$: This urn contains one or two balls. $$$$ Urn $T$: This urn contains fewer than three balls. $$$$ Exactly one of the urns has a true statement attached to it. $$$$ Which urn is it?$$",
+            "answers": {
+                "a": "Urn P",
+                "b": "Urn Q",
+                "c": "Urn R",
+                "d": "Urn S",
+                "e": "Urn T"
+            },
+            "explanation": "https://i.imgur.com/WdcPdYx.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$Consider the statement: $$$$ $(\\ast)$ A whole number $n$ is prime if it is 1 less or 5 less than a multiple of 6. $$$$ How many counterexamples to $(\\ast)$ are there in the range $0 < n < 50$?$$",
+            "answers": {
+                "a": "$$2$$",
+                "b": "$$3$$",
+                "c": "$$4$$",
+                "d": "$$5$$",
+                "e": "$$6$$"
+            },
+            "explanation": "https://i.imgur.com/iClaC87.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$The sequence of functions $f_1(x), f_2(x), f_3(x),...$ is defined as follows: $$f_1(x) = x^{10}$$ $$f_{n+1}(x) = xf'_n(x)$$ for $n \\geq 1$ $$$$ where $f'_n(x) = \\frac{df_n(x)}{dx}$ $$$$ Find the value of $$\\sum_{n+1}^{20} f_n(x)$$$$",
+            "answers": {
+                "a": "$$\\frac{x^{10}(x^{20}-1)}{x-1}$$",
+                "b": "$$\\frac{x^{10}(x^{21}-1)}{x-1}$$",
+                "c": "$$(\\frac{10^{20}-1}{9})x^{10}$$",
+                "d": "$$(\\frac{10^{21} - 1}{9})x^{10}$$",
+                "e": "$$(\\frac{(10x)^{20}-1}{10x-1})x^{10}$$",
+                "f": "$$(\\frac{(10x)^{21} - 1}{10x-1})x^{10}$$",
+                "g": "$$x^{10} + x^9 + x^8 + ... + x + 1$$",
+                "h": "$$x^{10} + 10x^9 + (10 \\times 9)x^8 + ... + (10 \\times 9 \\times ... \\times 2)x + (10 \\times 9 \\times ... \\times 2 \\times 1)$$"
+            },
+            "explanation": "https://i.imgur.com/pXeYWVz.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "https://i.imgur.com/BAfkqyh.jpeg",
+            "answers": {
+                "a": "(1). Then (2), so (6), so (8), so (7), and therefore (4), hence $(\\ast)$ as required.",
+                "b": "(1). Then (2), so (7), so (8), so (6), and therefore (4), hence $(\\ast)$ as required.",
+                "c": "(1). Then (3), so (5), so (9), so (7), and therefore (4), hence $(\\ast)$ as required.",
+                "d": "(1). Then (3), so (7), so (9), so (5), and therefore (4), hence $(\\ast)$ as required.",
+                "e": "(1). Then (4), so (5), so (9), so (7), and therefore (3), hence $(\\ast)$ as required.",
+                "f": "(1). Then (4), so (6), so (8), so (7), and therefore (2), hence $(\\ast)$ as required.",
+                "g": "(1). Then (4), so (7), so (8), so (6), and therefore (2), hence $(\\ast)$ as required.",
+                "h": "(1). Then (4), so (7), so (9), so (5), and therefore (3), hence $(\\ast)$ as required."
+            },
+            "explanation": "https://i.imgur.com/WFq5CoA.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$A region is defined by the inequalities $x+y>6$ and $x-y > -4$ $$$$ Consider the three statements: $$$$ I: $x>1$ $$$$ II: $y > 5$ $$$$ III: $(x+y)(x-y) > -24$ $$$$ Which of the above statements is/are true for every point in the region?$$",
+            "answers": {
+                "a": "none of them",
+                "b": "I only",
+                "c": "II only",
+                "d": "III only",
+                "e": "I and II only",
+                "f": "I and III only",
+                "g": "II and III only",
+                "h": "I, II and III"
+            },
+            "explanation": "https://i.imgur.com/AiQnp9R.jpeg",
+            "answer": "b"
+        },
+        {
+            "question": "https://i.imgur.com/dLD7Tro.jpeg",
+            "answers": {
+                "a": "A",
+                "b": "B",
+                "c": "C",
+                "d": "D",
+                "e": "E",
+                "f": "F",
+                "g": "G",
+                "h": "H"
+            },
+            "explanation": "https://i.imgur.com/kVp5tfx.jpeg",
+            "answer": "d"
+        },
+        {
+            "question": "$$In this question $x$ and $y$ are non-zero real numbers. $$$$ Which one of the following is sufficient to conclude that $x < y$?$$",
+            "answers": {
+                "a": "$$x^4 < y^4$$",
+                "b": "$$y^4 < x^4$$",
+                "c": "$$x^{-1} < y^{-1}$$",
+                "d": "$$y^{-1} < x^{-1}$$",
+                "e": "$$x^{\\frac{3}{5}} < y^{\\frac{3}{4}}$$",
+                "f": "$$y^{\\frac{3}{5}} < x^{\\frac{3}{4}}$$"
+            },
+            "explanation": "https://i.imgur.com/yzvPi1F.jpeg",
+            "answer": "e"
+        },
+        {
+            "question": "$$$f(x)$ is a polynomial with real coefficients. $$$$ The equation $f(x) = 0$ has exactly two real roots, $x=-p$ and $x=p$, where $p > 0$. $$$$ Consider the following three statements: $$$$ I: $f'(x) = 0$ for exactly one value of $x$ between $-p$ and $p$ $$$$ II: The area between the curve $y=f(x)$, the x-axis and the lines $x=-p$ and $x=p$ is given by $2\\int_0^pf(x)dx$ $$$$ III: The graph of $y=-f(-x)$ intersects the x-axis at the points $x=-p$ and $x=p$ only $$$$ Which of the above statements must be true?$$",
+            "answers": {
+                "a": "none of them",
+                "b": "I only",
+                "c": "II only",
+                "d": "III only",
+                "e": "I and II only",
+                "f": "I and III only",
+                "g": "II and III only",
+                "h": "I, II and III"
+            },
+            "explanation": "https://i.imgur.com/PMW29on.jpeg",
+            "answer": "d"
+        },
+        {
+            "question": "$$The first term of an arithmetic sequence is $a$ and the common difference is $d$. $$$$ The sum of the first $n$ terms is denoted by $S_n$. $$$$ If $S_8 > 3S_6$, what can be deduced about the sign of $a$ and the sign of $d$?$$",
+            "answers": {
+                "a": "both $a$ and $d$ are negative",
+                "b": "$a$ is positive, $d$ is negative",
+                "c": "$a$ is negative, $d$ is positive",
+                "d": "$a$ is negative, but the sign of $d$ cannot be deduced",
+                "e": "$d$ is negative, but the sign of $a$ cannot be deduced",
+                "f": "neither the sign $a$ nor the sign $b$ can be deduced"
+            },
+            "explanation": "https://i.imgur.com/K0th5NV.jpeg",
+            "answer": "f"
+        },
+        {
+            "question": "https://i.imgur.com/ogWl6Gn.jpeg",
+            "answers": {
+                "a": "Line 1",
+                "b": "Line 2",
+                "c": "Line 3",
+                "d": "Line 4",
+                "e": "Line 5",
+                "f": "Line 6"
+            },
+            "explanation": "https://i.imgur.com/FyA5Op2.jpeg",
+            "answer": "e"
+        },
+        {
+            "question": "$$$f(x) = ax^4 + bx^3 + cx^2 + dx + e$, where $a$, $b$, $c$, $d$ and $e$ are real numbers. $$$$ Suppose $f(x) = 1$ has $p$ distinct real solutions, $f(x) = 2$ has $q$ distinct real solutions, $f(x) = 3$ has $r$ distinct real solutions, and $f(x)=4$ has $s$ distinct real solutions. $$$$ Which one of the following is not possible?$$",
+            "answers": {
+                "a": " $p=1$, $q=2$, $r=4$ and $s=3$ ",
+                "b": " $p=1$, $q=3$, $r=2$ and $s=4$ ",
+                "c": " $p=1$, $q=4$, $r=3$ and $s=2$ ",
+                "d": " $p=2$, $q=4$, $r=3$ and $s=1$ ",
+                "e": " $p=4$, $q=3$, $r=2$ and $s=1$ "
+            },
+            "explanation": "https://i.imgur.com/PRarx7I.png",
+            "answer": "b"
+        },
+        {
+            "question": "$$Consider the quadratic $f(x) = x^2 - 2px + q$ and the statement: $$$$ $(\\ast)$ $f(x) = 0$ has two real roots whose difference is greater than 2 and less than 4. $$$$ Which one of the following statements is true if and only if $(\\ast)$ is true?$$",
+            "answers": {
+                "a": "$$q < p^2 < q+4$$",
+                "b": "$$\\sqrt{q+1} < p < \\sqrt{q+4}$$",
+                "c": "$$q-3 \\leq p^2 - 4 \\leq q$$",
+                "d": "$$q < p^2 - 1 < q+3$$",
+                "e": "$$q-2 < p^2 - 3 < q+2$$"
+            },
+            "explanation": "https://i.imgur.com/x22W9XQ.jpeg",
+            "answer": "d"
+        },
+        {
+            "question": "https://i.imgur.com/27iHS3s.jpeg",
+            "answers": {
+                "a": "$$4.2$$",
+                "b": "$$4.5$$",
+                "c": "$$4.8$$",
+                "d": "$$5.25$$",
+                "e": "$$6$$"
+            },
+            "explanation": "https://i.imgur.com/8RrQo28.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$Consider these simultaneous equations, where $c$ is a constant: $$y=3\\sin x + 2$$ $$y = x+c$$ Which of the following statements is/are true? $$$$ I: For some value of $c$: there is exactly one solution with $0 \\leq x \\leq \\pi$ and there is at least one solution with $-\\pi < x < 0$. $$$$ II: For some value of $c$: there is exactly one solution with $0 \\leq x \\leq \\pi$ and there are no solutions with $-\\pi < x < 0$. $$$$ III: For some value of $c$: there is exactly one solution with $0 \\leq x \\leq \\pi$ and there are no solutions with $x > \\pi$.$$",
+            "answers": {
+                "a": "none of them",
+                "b": "I only",
+                "c": "II only",
+                "d": "III only",
+                "e": "I and II only",
+                "f": "I and III only",
+                "g": "II and III only",
+                "h": "I, II and III"
+            },
+            "explanation": "https://i.imgur.com/eFik5xT.jpeg",
+            "answer": "h"
+        },
+        {
+            "question": "$$Consider this statement about a function $f(x)$: $$$$ $(\\ast)$ If $(f(x))^2 \\leq 1$ for all $-1 \\leq x \\leq 1$ then $\\int_{-1}^1 (f(x))^2dx \\leq \\int_{-1}^1f(x)dx$ $$$$ Which one of the following functions provides a counterexample to $(\\ast)$?$$",
+            "answers": {
+                "a": "$$f(x) = x + \\frac{1}{2}$$",
+                "b": "$$f(x) = x - \\frac{1}{2}$$",
+                "c": "$$f(x) = x + x^3$$",
+                "d": "$$f(x) = x - x^3$$",
+                "e": "$$f(x) = x^2 + x^4$$",
+                "f": "$$f(x) = x^2 - x^4$$"
+            },
+            "explanation": "https://i.imgur.com/cXBwrUm.jpeg",
+            "answer": "d"
+        },
+        {
+            "question": "https://i.imgur.com/cDfeUR1.jpeg",
+            "answers": {
+                "a": "exactly 6",
+                "b": "either 6 or 7",
+                "c": "exactly 7",
+                "d": "either 7 or 8",
+                "e": "exactly 8",
+                "f": "either 8 or 9",
+                "g": "exactly 9"
+            },
+            "explanation": "https://i.imgur.com/MD3xcbU.jpeg",
+            "answer": "f"
+        },
+        {
+            "question": "$$Each interior angle of a regular polygon with $n$ sides is $\\frac{3}{4}$ of each interior angle of a second regular polygon with $m$ sides. $$$$ How many pairs of positive integers $n$ and $m$ are there for which this statement is true?$$",
+            "answers": {
+                "a": "none",
+                "b": "$$1$$",
+                "c": "$$2$$",
+                "d": "$$3$$",
+                "e": "$$4$$",
+                "f": "$$5$$",
+                "g": "$$6$$",
+                "h": "infinitely many"
+            },
+            "explanation": "https://i.imgur.com/4UzSy4w.jpeg",
+            "answer": "e"
+        }
+    ]
+}

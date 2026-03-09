@@ -1,0 +1,620 @@
+[
+  {
+    "year": "2017",
+    "paper": 2,
+    "number": 10,
+    "stem": "f(x) is a function defined for all real values of x.\nWhich one of the following is a sufficient condition for 3f(x)dx = 0?\n1\n(cid:7)",
+    "options": [
+      {
+        "key": "A",
+        "text": "f(2) = 0"
+      },
+      {
+        "key": "B",
+        "text": "f(1) = f(3) = 0"
+      },
+      {
+        "key": "C",
+        "text": "f( x) = f(x) for all x\n− −"
+      },
+      {
+        "key": "D",
+        "text": "f(x+2) = f(2 x) for all x\n− −"
+      },
+      {
+        "key": "E",
+        "text": "f(x 2) = f(2 x) for all x\n− − −\n(cid:139)(cid:3)(cid:56)(cid:38)(cid:47)(cid:40)(cid:54)(cid:3)(cid:21)(cid:19)(cid:20)(cid:26) (cid:20)(cid:21)"
+      }
+    ],
+    "answer": "A",
+    "explanation": "[需人工补充]"
+  },
+  {
+    "year": "2018",
+    "paper": 1,
+    "number": 10,
+    "stem": "x and y satisfy |2−x| ≤ 6 and |y +2| ≤ 4.\nWhat is the greatest possible value of |xy|?",
+    "options": [
+      {
+        "key": "A",
+        "text": "16"
+      },
+      {
+        "key": "B",
+        "text": "24"
+      },
+      {
+        "key": "C",
+        "text": "32"
+      },
+      {
+        "key": "D",
+        "text": "40"
+      },
+      {
+        "key": "E",
+        "text": "48"
+      },
+      {
+        "key": "F",
+        "text": "There is no greatest possible value.\n12"
+      }
+    ],
+    "answer": "A",
+    "explanation": "[需人工补充]"
+  },
+  {
+    "year": "2018",
+    "paper": 2,
+    "number": 18,
+    "stem": "f(x) is a polynomial function defined for all real x.\nWhich of the following is a necessary condition for the inequality\n(cid:2) (cid:3)\nf(a)+f(b) a+b\n≥ f\n2 2\nto be true for all real numbers a and b with a < b?",
+    "options": [
+      {
+        "key": "A",
+        "text": "f(x) ≥ 0 for all real x"
+      },
+      {
+        "key": "B",
+        "text": "f(cid:2)(x) ≥ 0 for all real x"
+      },
+      {
+        "key": "C",
+        "text": "f(cid:2)(cid:2)(x) ≥ 0 for all real x"
+      },
+      {
+        "key": "D",
+        "text": "f(x) ≤ 0 for all real x"
+      },
+      {
+        "key": "E",
+        "text": "f(cid:2)(x) ≤ 0 for all real x"
+      },
+      {
+        "key": "F",
+        "text": "f(cid:2)(cid:2)(x) ≤ 0 for all real x\n20"
+      }
+    ],
+    "answer": "A",
+    "explanation": "[需人工补充]"
+  },
+  {
+    "year": "2019",
+    "paper": 1,
+    "number": 1,
+    "stem": "f(x) is a quadratic function in x.\nThe graph of y = f(x) passes through the point (1,−1) and has a turning point at\n(−1,3).\nFind an expression for f(x).",
+    "options": [
+      {
+        "key": "A",
+        "text": "−x2 −2x+2"
+      },
+      {
+        "key": "B",
+        "text": "−x2 +2x+3"
+      },
+      {
+        "key": "C",
+        "text": "x2 −2x"
+      },
+      {
+        "key": "D",
+        "text": "x2 +2x−4"
+      },
+      {
+        "key": "E",
+        "text": "2x2 +4x+1"
+      },
+      {
+        "key": "F",
+        "text": "−2x2 −4x+5\n3"
+      }
+    ],
+    "answer": "A",
+    "explanation": "[需人工补充]"
+  },
+  {
+    "year": "2019",
+    "paper": 1,
+    "number": 9,
+    "stem": "C 40\n3",
+    "options": [
+      {
+        "key": "D",
+        "text": "45\n16"
+      },
+      {
+        "key": "E",
+        "text": "45\n8"
+      },
+      {
+        "key": "F",
+        "text": "45\n4\n7\n\n6 The circles with equations\n(x+4) 2 +(y +1) 2 = 64 and\n(x−8) 2 +(y −4) 2 = r2 where r > 0\nhave exactly one point in common.\nFind the difference between the two possible values of r."
+      },
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "16"
+      },
+      {
+        "key": "D",
+        "text": "26"
+      },
+      {
+        "key": "E",
+        "text": "50\n8\n\n7 A curve has equation\ny = (2q −x2 )(2qx+3)\nThe gradient of the curve at x = −1 is a function of q.\nFind the value of q which minimises the gradient of the curve at x = −1."
+      },
+      {
+        "key": "A",
+        "text": "−1"
+      },
+      {
+        "key": "B",
+        "text": "−3\n4"
+      },
+      {
+        "key": "C",
+        "text": "−1\n2"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      },
+      {
+        "key": "E",
+        "text": "1\n2"
+      },
+      {
+        "key": "F",
+        "text": "3\n4"
+      },
+      {
+        "key": "G",
+        "text": "1\n9\n\n8 The function f is such that 0 < f(x) < 1 for 0 ≤ x ≤ 1.\n(cid:2)\nThe trapezium rule with n equal intervals is used to estimate 1 f(x)dx and\n0\nproduces an underestimate.\nUsing the same number of equal intervals, for which one of the following does the\ntrapezium rule produce an overestimate?\n(cid:2)"
+      },
+      {
+        "key": "A",
+        "text": "1 (f(x)+1)dx\n0\n(cid:2)"
+      },
+      {
+        "key": "B",
+        "text": "1 2f(x)dx\n0\n(cid:2)"
+      },
+      {
+        "key": "C",
+        "text": "0 f(x+1)dx\n−1\n(cid:2)"
+      },
+      {
+        "key": "D",
+        "text": "0 f(−x)dx\n−1\n(cid:2)"
+      },
+      {
+        "key": "E",
+        "text": "1 (1−f(x))dx\n0\n10\n\n9 p is a positive constant.\n√ √\nFind the area enclosed between the curves y = p x and x = p y"
+      },
+      {
+        "key": "A",
+        "text": "2p5 − 1p2\n2\n3 2"
+      },
+      {
+        "key": "B",
+        "text": "4p5 −p2\n2\n3"
+      },
+      {
+        "key": "C",
+        "text": "p4\n6"
+      },
+      {
+        "key": "D",
+        "text": "p4\n3"
+      },
+      {
+        "key": "E",
+        "text": "2p3 − 1p4\n3 2"
+      },
+      {
+        "key": "F",
+        "text": "4p3 −p4\n3"
+      },
+      {
+        "key": "G",
+        "text": "2p4\n11"
+      }
+    ],
+    "answer": "A",
+    "explanation": "[需人工补充]"
+  },
+  {
+    "year": "2019",
+    "paper": 1,
+    "number": 14,
+    "stem": "x satisfies the simultaneous equations\n√\nsin2x+ 3cos2x = −1\nand √ √\n3sin2x−cos2x = 3\nwhere 0◦ ≤ x ≤ 360◦.\nFind the sum of the possible values of x.",
+    "options": [
+      {
+        "key": "A",
+        "text": "210◦"
+      },
+      {
+        "key": "B",
+        "text": "330◦"
+      },
+      {
+        "key": "C",
+        "text": "390◦"
+      },
+      {
+        "key": "D",
+        "text": "660◦"
+      },
+      {
+        "key": "E",
+        "text": "780◦"
+      },
+      {
+        "key": "F",
+        "text": "930◦\n16"
+      }
+    ],
+    "answer": "A",
+    "explanation": "[需人工补充]"
+  },
+  {
+    "year": "2019",
+    "paper": 2,
+    "number": 3,
+    "stem": "D 22\n3",
+    "options": [
+      {
+        "key": "E",
+        "text": "38\n5"
+      },
+      {
+        "key": "F",
+        "text": "10\n4\n\n3 a, b and c are real numbers.\nGiven that ab = ac, which of the following statements must be true?\nI a = 0\nII b = 0 or c = 0\nIII b = c"
+      },
+      {
+        "key": "A",
+        "text": "none of them"
+      },
+      {
+        "key": "B",
+        "text": "I only"
+      },
+      {
+        "key": "C",
+        "text": "II only"
+      },
+      {
+        "key": "D",
+        "text": "III only"
+      },
+      {
+        "key": "E",
+        "text": "I and II only"
+      },
+      {
+        "key": "F",
+        "text": "I and III only"
+      },
+      {
+        "key": "G",
+        "text": "II and III only\nH I, II and III\n5"
+      }
+    ],
+    "answer": "A",
+    "explanation": "[需人工补充]"
+  },
+  {
+    "year": "2019",
+    "paper": 2,
+    "number": 8,
+    "stem": "a, b and c are real numbers with a < b < c <0\nWhich of the following statements must be true?\nI ac < ab < a2\nII b(c+a) > 0\nc a\nIII >\nb b\nA none of them",
+    "options": [
+      {
+        "key": "B",
+        "text": "I only"
+      },
+      {
+        "key": "C",
+        "text": "II only"
+      },
+      {
+        "key": "D",
+        "text": "III only"
+      },
+      {
+        "key": "E",
+        "text": "I and II only"
+      },
+      {
+        "key": "F",
+        "text": "I and III only"
+      },
+      {
+        "key": "G",
+        "text": "II and III only\nH I, II and III\n10"
+      }
+    ],
+    "answer": "A",
+    "explanation": "[需人工补充]"
+  },
+  {
+    "year": "2020",
+    "paper": 2,
+    "number": 13,
+    "stem": "f(x) is a function for which\n(cid:4) (cid:4) (cid:4)\n3(cid:6) (cid:7) 3 1\n2\nf(x) dx + f(x)dx = f(x)dx\n0 0 0\nWhich of the following claims about f(x) is/are necessarily true?\nI f(x) ≤ 0 for some x with 1 ≤ x ≤ 3\n(cid:5) (cid:5)\nII 3 f(x)dx ≤ 1 f(x)dx\n0 0\nA neither of them",
+    "options": [
+      {
+        "key": "B",
+        "text": "I only"
+      },
+      {
+        "key": "C",
+        "text": "II only"
+      },
+      {
+        "key": "D",
+        "text": "I and II\n15"
+      }
+    ],
+    "answer": "A",
+    "explanation": "[需人工补充]"
+  },
+  {
+    "year": "2020",
+    "paper": 2,
+    "number": 20,
+    "stem": "x is a real number and f is a function.\nGiven that exactly one of the following statements is true, which one is it?",
+    "options": [
+      {
+        "key": "A",
+        "text": "x ≥ 0 only if f(x) < 0"
+      },
+      {
+        "key": "B",
+        "text": "x < 0 if f(x) ≥ 0"
+      },
+      {
+        "key": "C",
+        "text": "x ≥ 0 only if f(x) ≥ 0"
+      },
+      {
+        "key": "D",
+        "text": "f(x) < 0 if x < 0"
+      },
+      {
+        "key": "E",
+        "text": "f(x) ≥ 0 only if x ≥ 0"
+      },
+      {
+        "key": "F",
+        "text": "f(x) ≥ 0 if and only if x < 0\n22\n\nBLANK PAGE\n23\n\nBLANK PAGE\nThis document was initially designed for print and as such does not reach accessibility standard WCAG\n2.1 in a number of ways including missing text alternatives and missing document structure.\nIf you need this document in a different format please email\nadmissionstesting@cambridgeassessment.org.uk telling us your name, email address and requirements\nand we will respond within 15 working days.\n24"
+      }
+    ],
+    "answer": "A",
+    "explanation": "[需人工补充]"
+  },
+  {
+    "year": "2021",
+    "paper": 2,
+    "number": 16,
+    "stem": "p and q are real numbers, and the equation\nx|x| = px+q\nhas exactly k distinct real solutions for x.\nWhich one of the following is the complete list of possible values for k?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0, 1, 2"
+      },
+      {
+        "key": "B",
+        "text": "0, 1, 2, 3"
+      },
+      {
+        "key": "C",
+        "text": "0, 1, 2, 3, 4"
+      },
+      {
+        "key": "D",
+        "text": "0, 2, 4"
+      },
+      {
+        "key": "E",
+        "text": "1, 2, 3"
+      },
+      {
+        "key": "F",
+        "text": "1, 2, 3, 4\n18"
+      }
+    ],
+    "answer": "A",
+    "explanation": "[需人工补充]"
+  },
+  {
+    "year": "2022",
+    "paper": 1,
+    "number": 4,
+    "stem": "B 0 < p < 4\nC –1 < p < 9\nD p < 0 or p > 4\nE p < –1 or p > 9\nF all real values of p\n4\n\n3 Given the following statements about a function f\n• f(cid:398)(x) (cid:3404) a for all x\n• f(0) (cid:3404) 1, f(1) (cid:3404) 2\n1\n• (cid:179) f(x)dx (cid:3404) 1\n0\nfind the value of a.\nA –6\nB –3\nC –2",
+    "options": [
+      {
+        "key": "D",
+        "text": "2"
+      },
+      {
+        "key": "E",
+        "text": "3"
+      },
+      {
+        "key": "F",
+        "text": "6\n5\n\n4\n6\nr r + 3\nThese sectors of circles are similar.\nThe arc length of the smaller sector is 6.\nThe difference between the areas of the sectors is 21.\nFind the positive difference between the perimeters of the sectors."
+      },
+      {
+        "key": "A",
+        "text": "4.5"
+      },
+      {
+        "key": "B",
+        "text": "7"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "9"
+      },
+      {
+        "key": "E",
+        "text": "10.5"
+      },
+      {
+        "key": "F",
+        "text": "14"
+      },
+      {
+        "key": "G",
+        "text": "15\n6"
+      }
+    ],
+    "answer": "A",
+    "explanation": "[需人工补充]"
+  },
+  {
+    "year": "2022",
+    "paper": 1,
+    "number": 17,
+    "stem": "16 The solutions to 7x4 – 6x2 + 1 (cid:3404) 0 are (cid:3399)cos(cid:537) and (cid:3399)cos(cid:533).\nWhich one of the following equations has solutions (cid:3399)sin(cid:537) and (cid:3399)sin(cid:533)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "7x4 – 8x2 – 5 (cid:3404) 0"
+      },
+      {
+        "key": "B",
+        "text": "7x4 – 8x2 + 2 (cid:3404) 0"
+      },
+      {
+        "key": "C",
+        "text": "7x4 – 6x2 – 2 (cid:3404) 0"
+      },
+      {
+        "key": "D",
+        "text": "7x4 – 6x2 + 1 (cid:3404) 0"
+      },
+      {
+        "key": "E",
+        "text": "7x4 + 6x2 – 1 (cid:3404) 0"
+      },
+      {
+        "key": "F",
+        "text": "7x4 + 6x2 + 5 (cid:3404) 0\n18\n\n17\n–x2 + 6x – 5\nx – 1\n30°\nFind the complete set of values of x for which there are two non-congruent triangles with the\nside lengths and angle as shown in the diagram."
+      },
+      {
+        "key": "A",
+        "text": "1 < x < 3"
+      },
+      {
+        "key": "B",
+        "text": "1 < x < 4"
+      },
+      {
+        "key": "C",
+        "text": "1 < x < 5"
+      },
+      {
+        "key": "D",
+        "text": "3 < x < 4"
+      },
+      {
+        "key": "E",
+        "text": "3 < x < 5"
+      },
+      {
+        "key": "F",
+        "text": "4 < x < 5\n19"
+      }
+    ],
+    "answer": "A",
+    "explanation": "[需人工补充]"
+  },
+  {
+    "year": "2022",
+    "paper": 1,
+    "number": 20,
+    "stem": "n is the number of points of intersection of the graphs\ny (cid:3404) |x2 – a2| and y (cid:3404) a2|x – 1|\nwhere a is a real number.\nWhat is the smallest value of n that is not possible?",
+    "options": [
+      {
+        "key": "A",
+        "text": "n (cid:3404) 1"
+      },
+      {
+        "key": "B",
+        "text": "n (cid:3404) 2"
+      },
+      {
+        "key": "C",
+        "text": "n (cid:3404) 3"
+      },
+      {
+        "key": "D",
+        "text": "n (cid:3404) 4"
+      },
+      {
+        "key": "E",
+        "text": "n (cid:3404) 5\n22\n\nBLANK PAGE\n23\n\nBLANK PAGE\n24"
+      }
+    ],
+    "answer": "A",
+    "explanation": "[需人工补充]"
+  },
+  {
+    "year": "2022",
+    "paper": 2,
+    "number": 11,
+    "stem": "z\nx x\nP R\nO\ny\nQ\nThe diagram shows a kite PQRS whose diagonals meet at O.\nOP (cid:3404) x\nOQ (cid:3404) y\nOR (cid:3404) x\nOS (cid:3404) z\nWhich of the following is necessary and sufficient for angle SPQ to be a right angle?\nA x (cid:3404) y (cid:3404) z",
+    "options": [
+      {
+        "key": "B",
+        "text": "2x (cid:3404) y + z"
+      },
+      {
+        "key": "C",
+        "text": "x2 (cid:3404) yz"
+      },
+      {
+        "key": "D",
+        "text": "y (cid:3404) z"
+      },
+      {
+        "key": "E",
+        "text": "y2 (cid:3404) x2 + z2\n13"
+      }
+    ],
+    "answer": "A",
+    "explanation": "[需人工补充]"
+  }
+]

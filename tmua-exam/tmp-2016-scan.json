@@ -1,0 +1,301 @@
+{
+  "issues": [
+    "2016-P1-Q3 stem suspicious",
+    "2016-P1-Q4 stem bad token",
+    "2016-P1-Q4 stem suspicious",
+    "2016-P1-Q8 stem bad token",
+    "2016-P1-Q8 stem suspicious",
+    "2016-P1-Q16 stem bad token",
+    "2016-P1-Q17 stem bad token",
+    "2016-P1-Q17 stem suspicious",
+    "2016-P1-Q18 stem suspicious",
+    "2016-P2-Q1 stem bad token",
+    "2016-P2-Q2 stem bad token",
+    "2016-P2-Q6 stem bad token",
+    "2016-P2-Q6 stem suspicious",
+    "2016-P2-Q17 stem bad token",
+    "2016-P2-Q17 stem suspicious"
+  ],
+  "rows": [
+    {
+      "key": "2016-P1-Q1",
+      "stem": "It is given that the expansion of $(ax+b)^3 is $8x^3 - px^2 + 18x - 3\\sqrt{3}, where $a, $b and $p are real constants.    What is the value of $p?",
+      "image": false,
+      "opt1": "-12\\sqrt{3}",
+      "opt2": "-6\\sqrt{3}"
+    },
+    {
+      "key": "2016-P1-Q10",
+      "stem": "How many solutions does the equation $x\\tan x = 1 have in the interval $-2\\pi \\leq x \\leq 2\\pi?",
+      "image": false,
+      "opt1": "0",
+      "opt2": "1"
+    },
+    {
+      "key": "2016-P1-Q11",
+      "stem": "The real roots of the equation $4^{2x} + 12 = 2^{2x+3} are $p and $q, where $p > q.    The value of $p-q can be expressed as",
+      "image": false,
+      "opt1": "\\frac{3}{4}",
+      "opt2": "1"
+    },
+    {
+      "key": "2016-P1-Q12",
+      "stem": "A right circular cylinder is contained within a sphere of radius 5 cm in such a way that the whole of the circumferences of both ends of the cylinder are in contact with the sphere",
+      "image": true,
+      "opt1": "250\\pi",
+      "opt2": "500\\pi"
+    },
+    {
+      "key": "2016-P1-Q13",
+      "stem": "How many real roots does the equation $3x^5 - 10x^3 - 120x + 30 = 0 have?",
+      "image": false,
+      "opt1": "1",
+      "opt2": "2"
+    },
+    {
+      "key": "2016-P1-Q14",
+      "stem": "The terms of an infinite series $S are formed by adding together the corresponding terms in two infinite geometric series, $T and $U.    The first term of $T and the first term of ",
+      "image": false,
+      "opt1": "\\frac{32}{5}",
+      "opt2": "\\frac{20}{3}"
+    },
+    {
+      "key": "2016-P1-Q15",
+      "stem": "The least possible value of the gradient of the curve $y = (2x+a)(x-2a)^2 at the point where $x=1, as $a varies, is",
+      "image": false,
+      "opt1": "-\\frac{49}{4}",
+      "opt2": "-8"
+    },
+    {
+      "key": "2016-P1-Q16",
+      "stem": "Given the simultaneous equations $$log_{10}2 + log_{10}(y-1) = 2\\log_{10}x$$ $$\\log_{10}(y+3-3x) = 0$$ the values of $y are",
+      "image": false,
+      "opt1": "\\frac{5}{2} \\pm \\frac{3\\sqrt{5}}{2}",
+      "opt2": "3 \\pm \\sqrt{3}"
+    },
+    {
+      "key": "2016-P1-Q17",
+      "stem": "It is given that for $0 < x < \\pi $$y = (1+2\\cos x)\\cos 2x$$ The complete set of values of $x for which $y is negative is",
+      "image": false,
+      "opt1": "0 < x < \\frac{\\pi}{4}, \\frac{2\\pi}{3} < x < \\frac{3\\pi}{4}",
+      "opt2": "0 < x < \\frac{\\pi}{4}, \\frac{3\\pi}{4} < x < \\pi"
+    },
+    {
+      "key": "2016-P1-Q18",
+      "stem": "The function $\\frac{1-x}{\\sqrt[3]{x^2}} is defined for all $x \\neq 0.    The complete set of values of $x for which the function is decreasing is",
+      "image": false,
+      "opt1": "x \\leq -2, x>0",
+      "opt2": "-2 \\leq x < 0"
+    },
+    {
+      "key": "2016-P1-Q19",
+      "stem": "The coefficient of $x^3 in the expansion of $(1+2x+3x^2)^6 is equal to twice the coefficient of $x^4 in the expansion of $(1-ax^2)^5.    Find all possible values of the constant $a",
+      "image": false,
+      "opt1": "\\pm 2\\sqrt{2}",
+      "opt2": "\\pm \\sqrt{17}"
+    },
+    {
+      "key": "2016-P1-Q2",
+      "stem": "The expression $3x^3 + 13x^2 + 8x + a, where $a is a constant, has $(x+2) as a factor.    Which one of the following is a complete factorisation of the expression?",
+      "image": false,
+      "opt1": "(x+2)(x-1)(3x-2)",
+      "opt2": "(x+2)(x+1)(3x-2)"
+    },
+    {
+      "key": "2016-P1-Q20",
+      "stem": "The diagram shows a square-based pyramid with base PQRS and vertex O. All the edges of the pyramid are of length 20 metres. Find the shortest distance, in metres, along the outer s",
+      "image": true,
+      "opt1": "10\\sqrt{5-2\\sqrt{3}}",
+      "opt2": "10\\sqrt{3}"
+    },
+    {
+      "key": "2016-P1-Q3",
+      "stem": "A line is drawn normal to the curve $y = \\frac{2}{x^2} at the point on the curve where $x=1.    This line cuts the x-axis at $P and the y-axis at $Q.    The length of $PQ is",
+      "image": false,
+      "opt1": "\\frac{3\\sqrt{5}}{2}",
+      "opt2": "\\frac{3\\sqrt{17}}{4}"
+    },
+    {
+      "key": "2016-P1-Q4",
+      "stem": "The sequence $a_n is defined by the rule for $n \\geq 1: $$a_n = (-1)^n - (-1)^{n-1} + (-1)^{n+2}$$ Find the value of $$\\sum_{n=1}^{39}a_n$$",
+      "image": false,
+      "opt1": "-39",
+      "opt2": "-3"
+    },
+    {
+      "key": "2016-P1-Q5",
+      "stem": "What is the total area enclosed between the curve $y=x^2-1, the x-axis and the lines $x=-2 and $x=2?",
+      "image": false,
+      "opt1": "\\frac{4}{3}",
+      "opt2": "\\frac{8}{3}"
+    },
+    {
+      "key": "2016-P1-Q6",
+      "stem": "$P, $Q and $R are each mixtures of red and white paint.    The percentage by volume of red paint in $P is $30\\%$.    The percentage by volume of red paint in $Q is $20\\%$.    The m",
+      "image": false,
+      "opt1": "25\\%",
+      "opt2": "23\\%"
+    },
+    {
+      "key": "2016-P1-Q7",
+      "stem": "$60 \\%$ of a sports club's members are women and the remainder are men.    This sports club offers the opportunity to play tennis or cricket. Every member plays exactly one of the ",
+      "image": false,
+      "opt1": "\\frac{1}{5}",
+      "opt2": "\\frac{7}{25}"
+    },
+    {
+      "key": "2016-P1-Q8",
+      "stem": "Find the maximum angle $x in the range $0^{\\circ} \\leq x \\leq 360^{\\circ} which satisfies the equation $$\\cos^2(2x) + \\sqrt{3}\\sin(2x) - \\frac{7}{4} = 0$$",
+      "image": false,
+      "opt1": "30^{\\circ}",
+      "opt2": "60^{\\circ}"
+    },
+    {
+      "key": "2016-P1-Q9",
+      "stem": "The line segment joining the points (3, 3) and (7, 5) is a diameter of a circle.    This circle is translated by 3 units in the negative x-direction, then reflected in the x-axis, ",
+      "image": false,
+      "opt1": "(x-2)^2 + (y-4)^2 = 320",
+      "opt2": "(x-2)^2 + (y+4)^2 = 320"
+    },
+    {
+      "key": "2016-P2-Q1",
+      "stem": "Find the value of $$\\int_1^2 (x^2 - \\frac{4}{x^2})^2dx$$",
+      "image": false,
+      "opt1": "\\frac{43}{15}",
+      "opt2": "3"
+    },
+    {
+      "key": "2016-P2-Q10",
+      "stem": "In this question $x and $y are non-zero real numbers.    Which one of the following is sufficient to conclude that $x < y?",
+      "image": false,
+      "opt1": "x^4 < y^4",
+      "opt2": "y^4 < x^4"
+    },
+    {
+      "key": "2016-P2-Q11",
+      "stem": "$f(x) is a polynomial with real coefficients.    The equation $f(x) = 0 has exactly two real roots, $x=-p and $x=p, where $p > 0.    Consider the following three statements:    I: ",
+      "image": false,
+      "opt1": "none of them",
+      "opt2": "I only"
+    },
+    {
+      "key": "2016-P2-Q12",
+      "stem": "The first term of an arithmetic sequence is $a and the common difference is $d.    The sum of the first $n terms is denoted by $S_n.    If $S_8 > 3S_6, what can be deduced about th",
+      "image": false,
+      "opt1": "both $a and $d are negative",
+      "opt2": "$a is positive, $d is negative"
+    },
+    {
+      "key": "2016-P2-Q13",
+      "stem": "In this question, a, b, and c are positive integers. The following is an attempted proof of the false statement: If a divides bc, then a divides b or a divides c. Which line contai",
+      "image": true,
+      "opt1": "Line 1",
+      "opt2": "Line 2"
+    },
+    {
+      "key": "2016-P2-Q14",
+      "stem": "$f(x) = ax^4 + bx^3 + cx^2 + dx + e, where $a, $b, $c, $d and $e are real numbers.    Suppose $f(x) = 1 has $p distinct real solutions, $f(x) = 2 has $q distinct real solutions, $f",
+      "image": false,
+      "opt1": "$p=1, $q=2, $r=4 and $s=3",
+      "opt2": "$p=1, $q=3, $r=2 and $s=4"
+    },
+    {
+      "key": "2016-P2-Q15",
+      "stem": "Consider the quadratic $f(x) = x^2 - 2px + q and the statement:    $(\\ast) $f(x) = 0 has two real roots whose difference is greater than 2 and less than 4.    Which one of the foll",
+      "image": false,
+      "opt1": "q < p^2 < q+4",
+      "opt2": "\\sqrt{q+1} < p < \\sqrt{q+4}"
+    },
+    {
+      "key": "2016-P2-Q16",
+      "stem": "The figure shows trapezium PQRS with PQ parallel to SR. The diagonals meet at X. U lies on SP and T lies on RQ such that UT passes through X and is parallel to PQ. The length of PQ",
+      "image": true,
+      "opt1": "4.2",
+      "opt2": "4.5"
+    },
+    {
+      "key": "2016-P2-Q17",
+      "stem": "Consider these simultaneous equations, where $c is a constant: $$y=3\\sin x + 2$$ $$y = x+c$$ Which of the following statements is/are true?    I: For some value of $c: there is exa",
+      "image": false,
+      "opt1": "none of them",
+      "opt2": "I only"
+    },
+    {
+      "key": "2016-P2-Q18",
+      "stem": "Consider this statement about a function $f(x):    $(\\ast) If $(f(x))^2 \\leq 1 for all $-1 \\leq x \\leq 1 then $\\int_{-1}^1 (f(x))^2dx \\leq \\int_{-1}^1f(x)dx    Which one of the fol",
+      "image": false,
+      "opt1": "f(x) = x + \\frac{1}{2}",
+      "opt2": "f(x) = x - \\frac{1}{2}"
+    },
+    {
+      "key": "2016-P2-Q19",
+      "stem": "Some identical unit cubes are glued face-to-face to form a 3D object. Sketches are made from the right-hand side, from the front, and from above. The side elevation, front elevatio",
+      "image": true,
+      "opt1": "exactly 6",
+      "opt2": "either 6 or 7"
+    },
+    {
+      "key": "2016-P2-Q2",
+      "stem": "$$f(x) = \\frac{(x^2+5)(2x)}{\\sqrt[4]{x^3}}, x>0$$ Which one of the following is equal to $f'(x)?",
+      "image": false,
+      "opt1": "8x^{\\frac{9}{4}} + \\frac{40}{3}x^{\\frac{1}{4}}",
+      "opt2": "\\frac{9}{2}x^{\\frac{5}{4}} + \\frac{5}{2}x^{-\\frac{3}{4}}"
+    },
+    {
+      "key": "2016-P2-Q20",
+      "stem": "Each interior angle of a regular polygon with $n sides is $\\frac{3}{4} of each interior angle of a second regular polygon with $m sides.    How many pairs of positive integers $n a",
+      "image": false,
+      "opt1": "none",
+      "opt2": "1"
+    },
+    {
+      "key": "2016-P2-Q3",
+      "stem": "What is the value, in radians, of the largest angle $x in the range $0 \\leq x \\leq 2\\pi that satisfies the equation $8\\sin^2x + 4\\cos^2x = 7?",
+      "image": false,
+      "opt1": "\\frac{2\\pi}{3}",
+      "opt2": "\\frac{5\\pi}{6}"
+    },
+    {
+      "key": "2016-P2-Q4",
+      "stem": "Five sealed urns, labelled $P, $Q, $R, $S and $T, each contain the same (non-zero) number of balls. The following statements are attached to the urns.    Urn $P: This urns contains",
+      "image": false,
+      "opt1": "Urn P",
+      "opt2": "Urn Q"
+    },
+    {
+      "key": "2016-P2-Q5",
+      "stem": "Consider the statement:    $(\\ast) A whole number $n is prime if it is 1 less or 5 less than a multiple of 6.    How many counterexamples to $(\\ast) are there in the range $0 < n <",
+      "image": false,
+      "opt1": "2",
+      "opt2": "3"
+    },
+    {
+      "key": "2016-P2-Q6",
+      "stem": "The sequence of functions $f_1(x), f_2(x), f_3(x),...$ is defined as follows: $$f_1(x) = x^{10}$$ $$f_{n+1}(x) = xf'_n(x)$$ for $n \\geq 1    where $f'_n(x) = \\frac{df_n(x)}{dx}    ",
+      "image": false,
+      "opt1": "\\frac{x^{10}(x^{20}-1)}{x-1}",
+      "opt2": "\\frac{x^{10}(x^{21}-1)}{x-1}"
+    },
+    {
+      "key": "2016-P2-Q7",
+      "stem": "The four real numbers a, b, c, and d are all greater than 1. Suppose that they satisfy the equation log_c d = (log_a b)^2. Use the given lines to construct a proof that log_b d = (",
+      "image": true,
+      "opt1": "(1). Then (2), so (6), so (8), so (7), and therefore (4), hence $(\\ast) as required.",
+      "opt2": "(1). Then (2), so (7), so (8), so (6), and therefore (4), hence $(\\ast) as required."
+    },
+    {
+      "key": "2016-P2-Q8",
+      "stem": "A region is defined by the inequalities $x+y>6 and $x-y > -4    Consider the three statements:    I: $x>1    II: $y > 5    III: $(x+y)(x-y) > -24    Which of the above statements i",
+      "image": false,
+      "opt1": "none of them",
+      "opt2": "I only"
+    },
+    {
+      "key": "2016-P2-Q9",
+      "stem": "Triangles ABC and XYZ have the same area. Which of the extra conditions, taken independently, would imply that they are congruent?",
+      "image": true,
+      "opt1": "A",
+      "opt2": "B"
+    }
+  ]
+}

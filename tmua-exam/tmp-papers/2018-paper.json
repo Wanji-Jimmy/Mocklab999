@@ -1,0 +1,534 @@
+{
+    "paper1": [
+        {
+            "question": "$$Find the value of $$\\int_1^4 \\frac{3-2x}{x\\sqrt x}\\:dx",
+            "answers": {
+                "a": "$$-\\frac{13}{2}$$",
+                "b": "$$-\\frac{85}{16}$$",
+                "c": "$$-\\frac{13}{8}$$",
+                "d": "$$-1$$",
+                "e": "$$-\\frac{1}{4}$$",
+                "f": "$$\\frac{7}{4}$$",
+                "g": "$$7$$"
+            },
+            "explanation": "https://i.imgur.com/emBQMjm.jpeg",
+            "answer": "d"
+        },
+        {
+            "question": "$$An arithmetic progression has first term $a$ and common difference $d$. $$$$ The sum of the first 5 terms is equal to the sum of the first 8 terms. $$$$ Which one of the following expresses the relationship between $a$ and $d$?$$",
+            "answers": {
+                "a": "$$a = -\\frac{38}{3}d$$",
+                "b": "$$a = -7d$$",
+                "c": "$$a = -6d$$",
+                "d": "$$a = 6d$$",
+                "e": "$$a = 7d$$",
+                "f": "$$a = \\frac{38}{3}d$$"
+            },
+            "answer": "c",
+            "explanation": "https://i.imgur.com/FlFRV1h.jpeg"
+        },
+        {
+            "question": "$$Find the shortest distance between the two circles with equations: $$(x+2)^2 + (y-3)^2 = 18$$ $$(x-7)^2 + (y+6)^2 = 2",
+            "answers": {
+                "a": "$$0$$",
+                "b": "$$4$$",
+                "c": "$$16$$",
+                "d": "$$2\\sqrt{2}$$",
+                "e": "$$5\\sqrt{2}$$"
+            },
+            "answer": "e",
+            "explanation": "https://i.imgur.com/nrcZOO6.jpeg"
+        },
+        {
+            "question": "$$Consider the simultaneous equations $$3x^2 + 2xy = 4$$ $$x + y = a$$ where $a$ is a real constant. $$$$ Find the complete set of values of $a$ for which the equations have two distinct real solutions for $x$.$$",
+            "answers": {
+                "a": "There are no values of $a$.",
+                "b": "$$-2 < a < 2$$",
+                "c": "$$-1 < a < 1$$",
+                "d": "$$a = 0$$",
+                "e": "$a<-1$ or $a>1$",
+                "f": "$a<-2$ or $a>2$",
+                "g": "All real values of $a$."
+            },
+            "answer": "g",
+            "explanation": "https://i.imgur.com/AQUGd96.jpeg"
+        },
+        {
+            "question": "$$The function $f$ is defined by $f(x) = x^3 + ax^2 + bx + c$ $$$$ $a$, $b$ and $c$ take the values 1, 2, and 3 with no two of them being equal and not necessarily in this order. $$$$ The remainder $f(x)$ is divided by $(x+2)$ is $R$. $$$$ The remainder $f(x)$ is divided by $(x+3)$ is $S$. $$$$ What is the largest possible value of $R-S$?$$",
+            "answers": {
+                "a": "$$-26$$",
+                "b": "$$5$$",
+                "c": "$$7$$",
+                "d": "$$17$$",
+                "e": "$$29$$"
+            },
+            "answer": "d",
+            "explanation": "https://i.imgur.com/Bpeitne.jpeg"
+        },
+        {
+            "question": "$$Find the number of solutions of the equation $$x\\sin(2x) = \\cos(2x)$$ with $0 \\leq x \\leq 2\\pi$.$$",
+            "answers": {
+                "a": "$$0$$",
+                "b": "$$1$$",
+                "c": "$$2$$",
+                "d": "$$3$$",
+                "e": "$$4$$"
+            },
+            "answer": "e",
+            "explanation": "https://i.imgur.com/wLUnZbj.jpeg"
+        },
+        {
+            "question": "$$The non-zero constant $k$ is chosen so that the coefficients of $x^6$ in the expansions of $(1+kx^2)^7$ and $(k+x)^{10}$ are equal. $$$$ What is the value of $k$?$$",
+            "answers": {
+                "a": "$$\\frac{1}{6}$$",
+                "b": "$$6$$",
+                "c": "$$\\frac{\\sqrt{6}}{6}$$",
+                "d": "$$\\sqrt{6}$$",
+                "e": "$$\\frac{\\sqrt{30}}{30}$$",
+                "f": "$$\\sqrt{30}$$"
+            },
+            "answer": "a",
+            "explanation": "https://i.imgur.com/1oFaVDx.jpeg"
+        },
+        {
+            "question": "$$The sum to infinity of a geometric progression is 6. $$$$ The sum to infinity of the squares of each term in the progression is 12. $$$$ Find the sum to infinity of the cubes of each term in the progression.$$",
+            "answers": {
+                "a": "$$8$$",
+                "b": "$$18$$",
+                "c": "$$24$$",
+                "d": "$$\\frac{216}{7}$$",
+                "e": "$$72$$",
+                "f": "$$216$$"
+            },
+            "answer": "d",
+            "explanation": "https://i.imgur.com/lehd0l4.jpeg"
+        },
+        {
+            "question": "$$Find the complete set of values of the constant $c$ for which the cubic equation $$2x^3 - 3x^2 - 12x + c = 0$$ has three distinct real solutions.$$",
+            "answers": {
+                "a": "$$-20 < c < 7$$",
+                "b": "$$-7 < c < 20$$",
+                "c": "$$c > 7$$",
+                "d": "$$c > -7$$",
+                "e": "$$c < 20$$",
+                "f": "$$c < -20$$"
+            },
+            "answer": "b",
+            "explanation": "https://i.imgur.com/1ijLymo.jpeg"
+        },
+        {
+            "question": "$$$x$ and $y$ satisfy $|2-x| \\leq 6$ and $|y+2| \\leq 4$. $$$$ What is the greatest possible value of $|xy|$?$$",
+            "answers": {
+                "a": "$$16$$",
+                "b": "$$24$$",
+                "c": "$$32$$",
+                "d": "$$40$$",
+                "e": "$$48$$",
+                "f": "There is no greatest possible value."
+            },
+            "answer": "e",
+            "explanation": "https://i.imgur.com/qgyhdKx.jpeg"
+        },
+        {
+            "question": "$$The line $y=mx+5$, where $m > 0$, is normal to the curve $y = 10 -x^2$ at the point ($p$, $q$). $$$$ What is the value of $p$?$$",
+            "answers": {
+                "a": "$$\\frac{\\sqrt{2}}{6}$$",
+                "b": "$$-\\frac{\\sqrt{2}}{6}$$",
+                "c": "$$\\frac{3\\sqrt{2}}{2}$$",
+                "d": "$$-\\frac{3\\sqrt{2}}{2}$$",
+                "e": "$$\\sqrt{5}$$",
+                "f": "$$-\\sqrt{5}$$"
+            },
+            "answer": "c",
+            "explanation": "https://i.imgur.com/QuW1F9O.jpeg"
+        },
+        {
+            "question": "$$A curve has equation $y = f(x)$, where $$f(x) = x(x-p)(x-q)(r-x)$$ with $0 < p < q < r$. $$$$ You are given that: $$\\int_0^r f(x)\\:dx = 0$$ $$\\int_0^q f(x)\\:dx = -2$$ $$\\int_p^r f(x)\\:dx = -3$$ What is the total area enclosed by the curve and the x-axis for $0 \\leq x \\leq r$?$$",
+            "answers": {
+                "a": "$$0$$",
+                "b": "$$1$$",
+                "c": "$$4$$",
+                "d": "$$5$$",
+                "e": "$$6$$",
+                "f": "$$10$$"
+            },
+            "answer": "f",
+            "explanation": "https://i.imgur.com/KdWIUA5.jpeg"
+        },
+        {
+            "question": "https://i.imgur.com/FiFJLx1.jpeg",
+            "answers": {
+                "a": "A",
+                "b": "B",
+                "c": "C",
+                "d": "D",
+                "e": "E",
+                "f": "F"
+            },
+            "answer": "c",
+            "explanation": "https://i.imgur.com/ooLuPjU.jpeg"
+        },
+        {
+            "question": "$$The line $y = mx+4$ passes through the points ($3$, $\\log_2{p}$) and ($\\log_2{p}, 4$). $$$$ What are the possible values of $p$?$$",
+            "answers": {
+                "a": "$p = 1$ and $p = 4$",
+                "b": "$p = 1$ and $p = 16$",
+                "c": "$p = \\frac{1}{4}$ and $p = 4$",
+                "d": "$p = \\frac{1}{4}$ and $p = 64$",
+                "e": "$p = \\frac{1}{64}$ and $p = 4$",
+                "f": "$p = \\frac{1}{64}$ and $p = 16$"
+            },
+            "answer": "b",
+            "explanation": "https://i.imgur.com/SaPmkwU.jpeg"
+        },
+        {
+            "question": "$$Find the sum of the real solutions of the equation: $$3^x - (\\sqrt{3})^{x+4} + 20 = 0$$$$",
+            "answers": {
+                "a": "$$1$$",
+                "b": "$$4$$",
+                "c": "$$9$$",
+                "d": "$$\\log_3{20}$$",
+                "e": "$$2\\log_3{20}$$",
+                "f": "$$4\\log_3{20}$$"
+            },
+            "answer": "e",
+            "explanation": "https://i.imgur.com/gO8bQ3L.jpeg"
+        },
+        {
+            "question": "$$The curve $C$ has equation $y = x^2 + bx + 2$, where $b \\geq 0$. $$$$ Find the value of $b$ that minimises the distance between the origin and the stationary point of the curve C.$$",
+            "answers": {
+                "a": "$$b = 0$$",
+                "b": "$$b = 1$$",
+                "c": "$$b = 2$$",
+                "d": "$$b = \\frac{\\sqrt{6}}{2}$$",
+                "e": "$$b = \\sqrt{2}$$",
+                "f": "$$b = \\sqrt{6}$$"
+            },
+            "answer": "f",
+            "explanation": "https://i.imgur.com/QbsXupm.jpeg"
+        },
+        {
+            "question": "$$There are two sets of data: the mean of the first set is 15, and the mean of the second set is 20. $$$$ One of the pieces of data from the first set is exchanged with one of the pieces of data from the second set. $$$$ As a result, the mean of the first set of data increases from 15 to 16, and the mean of the second set of data decreases from 20 to 17. $$$$ What is the mean of the set made by combining all the data?$$",
+            "answers": {
+                "a": "$$16\\frac{1}{4}$$",
+                "b": "$$16\\frac{1}{3}$$",
+                "c": "$$16\\frac{1}{2}$$",
+                "d": "$$16\\frac{2}{3}$$",
+                "e": "$$16\\frac{3}{4}$$"
+            },
+            "answer": "a",
+            "explanation": "https://i.imgur.com/NpO8gAZ.jpeg"
+        },
+        {
+            "question": "$$What is the smallest positive value of $a$ for which the line $x = a$ is a line of symmetry of the graph $y = \\sin(2x - \\frac{4\\pi}{3})$?$$",
+            "answers": {
+                "a": "$$\\frac{\\pi}{12}$$",
+                "b": "$$\\frac{5\\pi}{12}$$",
+                "c": "$$\\frac{7\\pi}{12}$$",
+                "d": "$$\\frac{11\\pi}{12}$$",
+                "e": "$$\\frac{19\\pi}{12}$$"
+            },
+            "answer": "b",
+            "explanation": "https://i.imgur.com/4tEctOk.jpeg"
+        },
+        {
+            "question": "$$A triangle $ABC$ is to be drawn with $AB = 10$cm, $BC = 7$cm and the angle at $A$ equal to $\\theta$, where $\\theta$ is a certain specified angle. $$$$ Of the two possible triangles that could be drawn, the larger triangle has three times the area of the smaller one. $$$$ What is the value of $\\cos{\\theta}$?$$",
+            "answers": {
+                "a": "$$\\frac{5}{7}$$",
+                "b": "$$\\frac{151}{200}$$",
+                "c": "$$\\frac{7\\sqrt{2}}{5}$$",
+                "d": "$$\\frac{\\sqrt{17}}{5}$$",
+                "e": "$$\\frac{\\sqrt{51}}{8}$$",
+                "f": "$$\\frac{\\sqrt{34}}{8}$$"
+            },
+            "answer": "d",
+            "explanation": "https://i.imgur.com/X1BinUd.png"
+        },
+        {
+            "question": "$$Find the value of $$\\sin^2{0^{\\circ}} + \\sin^2{1^{\\circ}} + \\sin^2{2^{\\circ}} + \\sin^2{3^{\\circ}} + \\: ... \\: + \\sin^2{87^{\\circ}} + \\sin^2{88^{\\circ}} + \\sin^2{89^{\\circ}} + \\sin^2{90^{\\circ}}$$$$",
+            "answers": {
+                "a": "$$0.5$$",
+                "b": "$$1$$",
+                "c": "$$1.5$$",
+                "d": "$$45$$",
+                "e": "$$45.5$$",
+                "f": "$$46$$"
+            },
+            "answer": "e",
+            "explanation": "https://i.imgur.com/EIIBWUR.jpeg"
+        }
+    ],
+    "paper2": [
+        {
+            "question": "$$The function $f$ is given, for $x>0$, by $$f(x) = \\frac{x^3 -4x}{2\\sqrt{x}}$$ Find the value of $f'(4)$.$$",
+            "answers": {
+                "a": "$$3$$",
+                "b": "$$9$$",
+                "c": "$$9.5$$",
+                "d": "$$12$$",
+                "e": "$$39.5$$",
+                "f": "$$88$$"
+            },
+            "answer": "c",
+            "explanation": "https://i.imgur.com/RbOK7Wj.jpeg"
+        },
+        {
+            "question": "$$Find the value of the constant term in the expansion of $$(x^6 - \\frac{1}{x^2})^{12}$$$$",
+            "answers": {
+                "a": "$$-495$$",
+                "b": "$$-220$$",
+                "c": "$$-66$$",
+                "d": "$$66$$",
+                "e": "$$220$$",
+                "f": "$$495$$"
+            },
+            "answer": "b",
+            "explanation": "https://i.imgur.com/Cj9cUke.jpeg"
+        },
+        {
+            "question": "$$A car journey consists of two parts. In the first part, the average speed is $u$km/h. In the second part, the average speed is $v$km/h. Hence the average speed for the whole journey is $\\frac{1}{2}(u + v)$km/h. $$$$ Which of the following examples of car journeys provide(s) a counterexample to the statement? $$$$ I: In the first part of the journey, the car travels at a constant speed of 50 km/h for 100 km. In the second part of the journey, the car travels at a constant speed of 40 km/h for 100 km. $$$$ II: In the first part of the journey, the car travels at a constant speed of 50 km/h for one hour. In the second part of the journey, the car travels at a constant speed of 40 km/h for one hour. $$$$ III: In the first part of the journey, the car travels at a constant speed of 50 km/h for 80 km. In the second part of the journey, the car travels at a constant speed of 40 km/h for 100 km.$$",
+            "answers": {
+                "a": "none of them",
+                "b": "I only",
+                "c": "II only",
+                "d": "III only",
+                "e": "I and II only",
+                "f": "I and III only",
+                "g": "II and III only",
+                "h": "I, II and III"
+            },
+            "answer": "f",
+            "explanation": "https://i.imgur.com/V45J9bZ.jpeg"
+        },
+        {
+            "question": "$$The non-zero real number $c$ is such that the equation $\\cos x = c$ has two solutions for $0 < x < \\frac{3}{2} \\pi$. $$$$ How many solutions of the equation $\\cos^22x = c^2$ are there in the range $0 < x < \\frac{3}{2}\\pi$?$$",
+            "answers": {
+                "a": "$$2$$",
+                "b": "$$3$$",
+                "c": "$$4$$",
+                "d": "$$6$$",
+                "e": "$$7$$",
+                "f": "$$8$$"
+            },
+            "answer": "d",
+            "explanation": "https://i.imgur.com/TNHz31N.jpeg"
+        },
+        {
+            "question": "$$The two diagonals of the quadrilateral $Q$ are perpendicular. $$$$ Consider the following statements: $$$$ I: One of the diagonals $Q$ is a line of symmetry of $Q$. $$$$ II: The midpoints of the sides of $Q$ are the vertices of a square. $$$$ Which of these statements is/are necessarily true for the quadrilateral $Q$?$$",
+            "answers": {
+                "a": "neither of them",
+                "b": "I only",
+                "c": "II only",
+                "d": "I and II"
+            },
+            "answer": "a",
+            "explanation": "https://i.imgur.com/OlbsRIE.jpeg"
+        },
+        {
+            "question": "$$Which one of the following functions provides a counterexample to the statement: $$$$ if $f'(x) > 0$ for all real $x$, then $f(x) > 0$ for all real $x$.$$",
+            "answers": {
+                "a": "$$f(x) = x^2+1$$",
+                "b": "$$f(x) = x^2 - 1$$",
+                "c": "$$f(x) = x^3 + x + 1$$",
+                "d": "$$f(x) = 1 - x$$",
+                "e": "$$f(x) = 2^x$$"
+            },
+            "answer": "c",
+            "explanation": "https://i.imgur.com/5tIH4OG.jpeg"
+        },
+        {
+            "question": "$$Sequence 1 is an arithmetic progression with first term 11 and common difference 3. $$$$ Sequence 2 is an arithmetic progression with first term 2 and common difference 5. $$$$ Some numbers that appear in Sequence 1 also appear in Sequence 2. Let $N$ be the 20th such number. $$$$ What is the remainder when $N$ is divided by 7?$$",
+            "answers": {
+                "a": "$$0$$",
+                "b": "$$1$$",
+                "c": "$$2$$",
+                "d": "$$3$$",
+                "e": "$$4$$",
+                "f": "$$5$$",
+                "g": "$$6$$"
+            },
+            "answer": "b",
+            "explanation": "https://i.imgur.com/BBSTz4R.jpeg"
+        },
+        {
+            "question": "https://i.imgur.com/rhD1apV.jpeg",
+            "answers": {
+                "a": "none of them",
+                "b": "I only",
+                "c": "II only",
+                "d": "III only",
+                "e": "I and II only",
+                "f": "I and III only",
+                "g": "II and III only",
+                "h": "I, II, and III"
+            },
+            "answer": "d",
+            "explanation": "https://i.imgur.com/dFnTAbh.jpeg"
+        },
+        {
+            "question": "https://i.imgur.com/oHvJPRJ.jpeg",
+            "answers": {
+                "a": "The solution is correct.",
+                "b": "Only one of $x=\\frac{5}{8}$ and $x=\\frac{5}{2}$ is correct and the error arises as a result of step (II).",
+                "c": "Only one of $x=\\frac{5}{8}$ and $x=\\frac{5}{2}$ is correct and the error arises as a result of step (III).",
+                "d": "Only one of $x=\\frac{5}{8}$ and $x=\\frac{5}{2}$ is correct and the error arises as a result of step (IV).",
+                "e": "There is another value of $x$ that satisfies the original equation and the error arises as a result of step (II).",
+                "f": "There is another value of $x$ that satisfies the original equation and the error arises as a result of step (III).",
+                "g": "There is another value of $x$ that satisfies the original equation and the error arises as a result of step (IV)."
+            },
+            "answer": "f",
+            "explanation": "https://i.imgur.com/U8bsqgW.jpeg"
+        },
+        {
+            "question": "https://i.imgur.com/k0wjxxI.jpeg",
+            "answers": {
+                "a": "A",
+                "b": "B",
+                "c": "C",
+                "d": "D",
+                "e": "E",
+                "f": "F",
+                "g": "G",
+                "h": "H"
+            },
+            "answer": "b",
+            "explanation": "https://i.imgur.com/pmKAyBe.jpeg"
+        },
+        {
+            "question": "$$Consider the equation $2^x = mx + c$, where $m$ and $c$ are real constants. $$$$ Which of the following statements is/are true? $$$$ I: The equation has a negative real solution only if $c > 1$. $$$$ II: The equation has two distinct real solutions if $c > 1$. $$$$ III: The equation has two distinct positive real solutions if and only if $c \\leq 1$.$$",
+            "answers": {
+                "a": "none of them",
+                "b": "I only",
+                "c": "II only",
+                "d": "III only",
+                "e": "I and II only",
+                "f": "I and III only",
+                "g": "II and III only",
+                "h": "I, II and III"
+            },
+            "answer": "a",
+            "explanation": "https://i.imgur.com/twESq9r.jpeg"
+        },
+        {
+            "question": "$$Consider the following statement: $$$$ For any positive integer $N$ there is a positive integer $K$ such that $N(Km + 1) - 1$ is not prime for any positive integer $m$. $$$$ Which one of the following is the negation of this statement?$$",
+            "answers": {
+                "a": "For any positive integer $N$ there is a positive integer $K$ such that there is a positive integer $m$ for which $N(Km + 1) - 1$ is prime.",
+                "b": "For any positive integer $N$ there is a positive integer $K$ such that there is a positive integer $m$ for which $N(Km + 1) - 1$ is not prime.",
+                "c": "For any positive integer $N$ there is a positive integer $K$ such that for any positive integer $m$, $N(Km + 1) - 1$ is not prime.",
+                "d": "For any positive integer $N$ any positive integer $K$ and any positive integer $m$, $N(Km + 1) - 1$ is not prime.",
+                "e": "There is a positive integer $N$ such that for any positive integer $K$ there is a positive integer $m$ for which $N(Km + 1) - 1$ is not prime.",
+                "f": "There is a positive integer $N$ such that for any positive integer $K$ there is a positive integer $m$ for which $N(Km + 1) - 1$ is prime.",
+                "g": "There is a positive integer $N$ such that for any positive integer $K$ and any positive integer $m$, $N(Km + 1) - 1$ is prime.",
+                "h": "There is a positive integer $N$ such that for any positive integer $K$ for which there is no positive integer $m$ for which $N(Km + 1) - 1$ is prime."
+            },
+            "answer": "f",
+            "explanation": "https://i.imgur.com/1HH14N6.jpeg"
+        },
+        {
+            "question": "https://i.imgur.com/xMK9jga.jpeg",
+            "answers": {
+                "a": "The proof is correct.",
+                "b": "The proof is incorrect, and the first error occurs in line (I).",
+                "c": "The proof is incorrect, and the first error occurs in line (II).",
+                "d": "The proof is incorrect, and the first error occurs in line (III).",
+                "e": "The proof is incorrect, and the first error occurs in line (IV).",
+                "f": "The proof is incorrect, and the first error occurs in line (V)."
+            },
+            "answer": "f",
+            "explanation": "https://i.imgur.com/lwIP57B.jpeg"
+        },
+        {
+            "question": "$$In the triangle $PQR$, $PR = 2$, $QR = p$ and $\\angle RPQ = 30^{\\circ}$. $$$$ What is the set of all the values of $p$ for which this information uniquely determines the length of $PQ$?$$",
+            "answers": {
+                "a": "$$p = 1$$",
+                "b": "$$p = \\sqrt{3}$$",
+                "c": "$$1 \\leq p < 2$$",
+                "d": "$$\\sqrt{3} \\leq p < 2$$",
+                "e": "$p = 1$ or $p \\geq 2$",
+                "f": "$p = \\sqrt{}3$ or $p \\geq 2$",
+                "g": "$$p < 2$$",
+                "h": "$$p \\geq 2$$"
+            },
+            "answer": "e",
+            "explanation": "https://i.imgur.com/18kTrBq.jpeg"
+        },
+        {
+            "question": "$$It is given that $f(x) = x^3 + 3qx^2 + 2$, where $q$ is a real constant. $$$$ The equation $f(x) = 0$ has 3 distinct real roots. $$$$ Which of the following statements is/are necessarily true? $$$$ I: The equation $f(x) + 1 = 0$ has $3$ distinct real roots. $$$$ II: The equation $f(x + 1) = 0$ has $3$ distinct real roots. $$$$ III: The equation $f(-x) - 1 = 0$ has $3$ distinct real roots.$$",
+            "answers": {
+                "a": "none of them",
+                "b": "I only",
+                "c": "II only",
+                "d": "III only",
+                "e": "I and II only",
+                "f": "I and III only",
+                "g": "II and III only",
+                "h": "I, II, and III"
+            },
+            "answer": "g",
+            "explanation": "https://i.imgur.com/ty0kZVm.jpeg"
+        },
+        {
+            "question": "$$In this question, $x_1, x_2,x_3$, ... is an arithmetic progression, all of whose terms are integers. $$$$ Let $n$ be a positive integer. If the median of the first $n$ terms of the sequence is an integer, which of the following three statements must be true? $$$$ I: The median of the first $n+2$ terms in an integer. $$$$ II: The median of the first $2n$ terms is an integer. $$$$ III: The median of $x_2, x_4, x_6, ... ,x_{2n}$ is an integer.$$",
+            "answers": {
+                "a": "none of them",
+                "b": "I only",
+                "c": "II only",
+                "d": "III only",
+                "e": "I and II only",
+                "f": "I and III only",
+                "g": "II and III only",
+                "h": "I, II, and III"
+            },
+            "answer": "f",
+            "explanation": "https://i.imgur.com/Ud88NWM.jpeg"
+        },
+        {
+            "question": "$$A positive integer is called a squaresum if and only if it can be written as the sum of the squares of two integers. For example, 61 and 9 are both squaresums since $61 = 5^2 + 6^2$ and $9 = 3^2 + 0^2$. $$$$ A prime number is called awkward if and only if it has a remainder of 3 when divided by 4. For example, 23 is awkward since $23 = 5 \\times 4 + 3$. $$$$ A (true) theorem due to Fermat states that: $$$$ A positive integer is a squaresum if and only if each of its awkward prime factors occurs to an even power in its prime factorisation. $$$$ It follows that $5 \\times 23^2$ is a squaresum, since 23 occurs to the power 2, but $5 \\times 23^3$ is not, since 23 occurs to the power 3. $$$$ Which one of the following statements is not true?$$",
+            "answers": {
+                "a": "Every square number is a squaresum.",
+                "b": "If $N$ and $M$ are squaresums, then so is $NM$.",
+                "c": "If $NM$ is a squaresum, then $N$ and $M$ are squaresums.",
+                "d": "If $N$ is not a squaresum, the $kN$ is a squaresum for some number $k$ which is a product of awkward primes."
+            },
+            "answer": "c",
+            "explanation": "https://i.imgur.com/5pPjWel.jpeg"
+        },
+        {
+            "question": "$$$f(x)$ is a polynomial function defined for all real $x$. $$$$ Which of the following is a necessary condition for the inequality $$\\frac{f(a) + f(b)}{2} \\geq f(\\frac{a + b}{2})$$ to be true for all real numbers $a$ and $b$ with $a < b$?$$",
+            "answers": {
+                "a": "$f(x) \\geq 0$ for all real $x$",
+                "b": "$f'(x) \\geq 0$ for all real $x$",
+                "c": "$f''(x) \\geq 0$ for all real $x$",
+                "d": "$f(x) \\leq 0$ for all real $x$",
+                "e": "$f'(x) \\leq 0$ for all real $x$",
+                "f": "$f''(x) \\leq 0$ for all real $x$"
+            },
+            "answer": "c",
+            "explanation": "https://i.imgur.com/7bcZsa3.jpeg"
+        },
+        {
+            "question": "$$Three real numbers $x$, $y$ and $z$ satisfy $x > y > z > 1$. $$$$ Which one of the following statements must be true?$$",
+            "answers": {
+                "a": "$$\\frac{2^{z+1}}{2^x} > \\frac{2^x + 2^z}{2^y}$$",
+                "b": "$$2 > \\frac{3^x + 3^z}{3^y}$$",
+                "c": "$$\\frac{2 \\times 5^x}{5^z} > \\frac{5^x + 5^z}{5^y}$$",
+                "d": "$$2 < \\frac{7^x + 7^z}{7^y}$$"
+            },
+            "answer": "c",
+            "explanation": "https://i.imgur.com/um8RqLL.jpeg"
+        },
+        {
+            "question": "$$It is given that the equation $\\sqrt{x+p} + \\sqrt{x} = p$ has at least one real solution for $x$, where $p$ is a real constant. $$$$ What is the complete set of possible values for $p$?$$",
+            "answers": {
+                "a": "$p=1$ or $p=0$",
+                "b": "$p=0$ or $p\\geq 1$",
+                "c": "$$p \\geq -x$$",
+                "d": "$$p \\geq \\sqrt{x}$$",
+                "e": "$$p \\geq 0$$",
+                "f": "$$p \\geq 1$$"
+            },
+            "answer": "b",
+            "explanation": "https://i.imgur.com/krD1t4K.jpeg"
+        }
+    ]
+}

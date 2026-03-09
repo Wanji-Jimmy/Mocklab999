@@ -1,0 +1,544 @@
+{
+    "paper1": [
+        {
+            "question": "$$$f(x)$ is a quadratic function in $x$. $$$$ The graph of $y = f(x)$ passes through the point (1, -1) and has a turning point at (-1, 3). $$$$ Find an expression for $f(x)$.$$",
+            "answers": {
+                "a": "$$-x^2 - 2x + 2$$",
+                "b": "$$-x^2 + 2x + 3$$",
+                "c": "$$x^2 - 2x$$",
+                "d": "$$x^2 + 2x - 4$$",
+                "e": "$$2x^2 + 4x + 1$$",
+                "f": "$$-2x^2 - 4x + 5$$"
+            },
+            "explanation": "https://i.imgur.com/1Xa1ODf.jpeg",
+            "answer": "a"
+        },
+        {
+            "question": "$$Find the complete set of values of the real constant $k$ for which the expression $$x^2 + kx + 2x + 1 - 2k$$ is positive for all real values of $x$.$$",
+            "answers": {
+                "a": "$$-12 < k < 0$$",
+                "b": "$k < -12$ or $k > 0$",
+                "c": "$$-\\sqrt{6} - 3 < k < \\sqrt{6} - 3$$",
+                "d": "$k < -\\sqrt{6} - 3$ or $k > \\sqrt{6} - 3$",
+                "e": "$$-2 < k < \\frac{1}{2}$$",
+                "f": "$k < -2$ or $k > \\frac{1}{2}$",
+                "g": "$$0 < k < 4$$",
+                "h": "$k < 0$ or $k > 4$"
+            },
+            "explanation": "https://i.imgur.com/FBsgU2c.jpeg",
+            "answer": "a"
+        },
+        {
+            "question": "$$Find the coefficient of $x$ in the expression: $$(1 + x)^0 + (1 + x)^1 + (1 + x)^2 + (1 + x)^3 +... + (1 + x)^{79} + (1 + x)^{80}$$$$",
+            "answers": {
+                "a": "$$80$$",
+                "b": "$$81$$",
+                "c": "$$324$$",
+                "d": "$$628$$",
+                "e": "$$3240$$",
+                "f": "$$3321$$",
+                "g": "$$6480$$",
+                "h": "$$6642$$"
+            },
+            "explanation": "https://i.imgur.com/FXX1b9L.jpeg",
+            "answer": "e"
+        },
+        {
+            "question": "$$The sequence $x_n$ is given by for $n \\geq 1$: $$x_1 = 10$$ $$x_{n+1} = \\sqrt{x_n}$$ What is the value of $x_{100}$? $$$$ [Note that $a^{b^c}$ means $a^{(b^c)}$]$$",
+            "answers": {
+                "a": "$$10^{2^{99}}$$",
+                "b": "$$10^{2^{100}}$$",
+                "c": "$$10^{2^{-99}}$$",
+                "d": "$$10^{2^{-100}}$$",
+                "e": "$$10^{-2^{99}}$$",
+                "f": "$$10^{-2^{100}}$$",
+                "g": "$$10^{-2^{-99}}$$",
+                "h": "$$10^{-2^{-100}}$$"
+            },
+            "explanation": "https://i.imgur.com/5CjYgQl.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$$S$ is a geometric sequence. $$$$ The sum of the first 6 terms of $S$ is equal to 9 times the sum of the first 3 terms of $S$. $$$$ The 7th term of $S$ is 360. $$$$ Find the 1st term of $S$.$$",
+            "answers": {
+                "a": "$$\\frac{40}{27}$$",
+                "b": "$$\\frac{40}{9}$$",
+                "c": "$$\\frac{40}{3}$$",
+                "d": "$$\\frac{45}{16}$$",
+                "e": "$$\\frac{45}{8}$$",
+                "f": "$$\\frac{45}{4}$$"
+            },
+            "explanation": "https://i.imgur.com/xIuaTf1.jpeg",
+            "answer": "e"
+        },
+        {
+            "question": "$$The circles with equations $$(x+4)^2 + (y+1)^2 = 64$$ $$(x-8)^2 + (y-4)^2 = r^2$$ have exactly one point in common. $$$$ Find the difference between the two possible values of $r$.$$",
+            "answers": {
+                "a": "$$4$$",
+                "b": "$$10$$",
+                "c": "$$16$$",
+                "d": "$$26$$",
+                "e": "$$50$$"
+            },
+            "explanation": "https://i.imgur.com/pIhXsOK.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$A curve has equation $$y = (2q - x^2)(2qx + 3)$$ The gradient of the curve at $x=-1$ is a function of $q$. $$$$ Find the value of $q$ that minimises the gradient of the curve at $x=-1$.$$",
+            "answers": {
+                "a": "$$-1$$",
+                "b": "$$-\\frac{3}{4}$$",
+                "c": "$$-\\frac{1}{2}$$",
+                "d": "$$0$$",
+                "e": "$$\\frac{1}{2}$$",
+                "f": "$$\\frac{3}{4}$$",
+                "g": "$$1$$"
+            },
+            "explanation": "https://i.imgur.com/ZkR310a.jpeg",
+            "answer": "f"
+        },
+        {
+            "question": "$$A function $f$ is such that $0 < f(x) < 1$ for $0 \\leq x \\leq 1$. $$$$ The trapezium rule with $n$ equal intervals is used to estimate $\\int_0^1 f(x)dx$ and produces an underestimate. $$$$ Using the same number of equal intervals, for which one of the following does the trapezium rule produce an overestimate?$$",
+            "answers": {
+                "a": "$$\\int_0^1 (f(x) + 1)dx$$",
+                "b": "$$\\int_0^1 2f(x)dx$$",
+                "c": "$$\\int_{-1}^0 f(x+1)dx$$",
+                "d": "$$\\int_{-1}^0 f(-x)dx$$",
+                "e": "$$\\int_0^1 (1-f(x))dx$$"
+            },
+            "explanation": "https://i.imgur.com/MjtHf4M.jpeg",
+            "answer": "e"
+        },
+        {
+            "question": "$$$p$ is a positive constant. $$$$ Find the area enclosed between the curves $y = p\\sqrt{x}$ and $x = p\\sqrt{y}$$$",
+            "answers": {
+                "a": "$$\\frac{2}{3}p^{\\frac{5}{2}} - \\frac{1}{2}p^2$$",
+                "b": "$$\\frac{4}{3}p^{\\frac{5}{2}} - p^2$$",
+                "c": "$$\\frac{p^4}{6}$$",
+                "d": "$$\\frac{p^4}{3}$$",
+                "e": "$$\\frac{2}{3}p^3 - \\frac{1}{2}p^4$$",
+                "f": "$$\\frac{4}{3}p^3 - p^4$$",
+                "g": "$$2p^4$$"
+            },
+            "explanation": "https://i.imgur.com/a17ePx6.jpeg",
+            "answer": "d"
+        },
+        {
+            "question": "$$Evaluate $$\\int_{-1}^3 |x|(1-x)dx$$$$",
+            "answers": {
+                "a": "$$\\frac{17}{3}$$",
+                "b": "$$-\\frac{17}{3}$$",
+                "c": "$$\\frac{16}{3}$$",
+                "d": "$$-\\frac{16}{3}$$",
+                "e": "$$\\frac{11}{3}$$",
+                "f": "$$-\\frac{11}{3}$$"
+            },
+            "explanation": "https://i.imgur.com/glGFTTC.jpeg",
+            "answer": "f"
+        },
+        {
+            "question": "$$Find the sum of the real values of $x$ that satisfy the simultaneous equations: $$\\log_3{(xy^2)} = 1$$ $$(\\log_3x)(\\log_3y) = -3$$$$",
+            "answers": {
+                "a": "$$\\frac{1}{3}$$",
+                "b": "$$1$$",
+                "c": "$$3$$",
+                "d": "$$3\\frac{1}{9}$$",
+                "e": "$$9\\frac{1}{27}$$",
+                "f": "$$9\\frac{1}{3}$$",
+                "g": "$$27$$",
+                "h": "$$27\\frac{1}{9}$$"
+            },
+            "explanation": "https://i.imgur.com/hmPR0bG.jpeg",
+            "answer": "h"
+        },
+        {
+            "question": "$$It is given that for $t \\geq 1$ $$\\frac{dV}{dt} = \\frac{24\\pi (t-1)}{(1 + \\sqrt{t})}$$ and $V = 7$ when $t = 1$. $$$$ Find the value of $V$ when $t=9$.$$",
+            "answers": {
+                "a": "$$208\\pi + 7$$",
+                "b": "$$216\\pi + 7$$",
+                "c": "$$224\\pi + 7$$",
+                "d": "$$416\\pi + 7$$",
+                "e": "$$608\\pi + 7$$",
+                "f": "$$744\\pi + 7$$"
+            },
+            "explanation": "https://i.imgur.com/cgyQsdk.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$Find the maximum value of $$4^{\\sin x} - 4 \\times 2^{\\sin x} + \\frac{17}{4}$$ for real $x$.$$",
+            "answers": {
+                "a": "$$\\frac{1}{4}$$",
+                "b": "$$\\frac{5}{2}$$",
+                "c": "$$\\frac{13}{2}$$",
+                "d": "$$\\frac{21}{2}$$",
+                "e": "$$\\frac{65}{4}$$",
+                "f": "There is no maximum value."
+            },
+            "explanation": "https://i.imgur.com/TIazDO9.jpeg",
+            "answer": "b"
+        },
+        {
+            "question": "$$$x$ satisfies the simultaneous equations $$\\sin{2x} + \\sqrt{3}\\cos{2x} = -1$$ and $$\\sqrt{3}\\sin{2x} - \\cos{2x} = \\sqrt{3}$$ where $0^{\\circ} \\leq x \\leq 360^{\\circ}$. $$$$ Find the sum of the possible values of $x$.$$",
+            "answers": {
+                "a": "$$210^{\\circ}$$",
+                "b": "$$330^{\\circ}$$",
+                "c": "$$390^{\\circ}$$",
+                "d": "$$660^{\\circ}$$",
+                "e": "$$780^{\\circ}$$",
+                "f": "$$930^{\\circ}$$"
+            },
+            "explanation": "https://i.imgur.com/7vYRgLe.jpeg",
+            "answer": "b"
+        },
+        {
+            "question": "$$Find the real non-zero solution to the equation $$\\frac{2^{(9^x)}}{8^{(3^x)}} = \\frac{1}{4}$$$$",
+            "answers": {
+                "a": "$$\\log_32$$",
+                "b": "$$2\\log_32$$",
+                "c": "$$1$$",
+                "d": "$$2$$",
+                "e": "$$\\log_23$$",
+                "f": "$$2\\log_23$$"
+            },
+            "explanation": "https://i.imgur.com/g2pVySw.jpeg",
+            "answer": "a"
+        },
+        {
+            "question": "$$Given that $$2\\int_0^1 f(x)dx + 5\\int_1^2 f(x)dx = 14$$ and $$\\int_0^1 f(x+1)dx = 6$$ find the value of $$\\int_0^2 f(x)dx$$$$",
+            "answers": {
+                "a": "$$-8$$",
+                "b": "$$-4$$",
+                "c": "$$-2$$",
+                "d": "$$2$$",
+                "e": "$$4$$",
+                "f": "$$\\frac{29}{5}$$",
+                "g": "$$\\frac{32}{5}$$",
+                "h": "$$14$$"
+            },
+            "explanation": "https://i.imgur.com/KDk7gWi.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$Find the fraction of the interval $0 \\leq \\theta \\leq \\pi$ for which the inequality $$(\\sin{(2\\theta)} - \\frac{1}{2})(\\sin{\\theta} - \\cos{\\theta}) \\geq 0$$ is satisfied.$$",
+            "answers": {
+                "a": "$$\\frac{1}{12}$$",
+                "b": "$$\\frac{1}{6}$$",
+                "c": "$$\\frac{1}{4}$$",
+                "d": "$$\\frac{5}{12}$$",
+                "e": "$$\\frac{7}{12}$$",
+                "f": "$$\\frac{3}{4}$$",
+                "g": "$$\\frac{5}{6}$$",
+                "h": "$$\\frac{11}{12}$$"
+            },
+            "explanation": "https://i.imgur.com/R77guBC.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$Find the shortest distance between the curve $y = x^2 + 4$ and the line $y = 2x -2$.$$",
+            "answers": {
+                "a": "$$2$$",
+                "b": "$$\\sqrt{5}$$",
+                "c": "$$\\frac{6\\sqrt{5}}{5}$$",
+                "d": "$$3$$",
+                "e": "$$\\frac{5\\sqrt{5}}{3}$$",
+                "f": "$$5$$",
+                "g": "$$6$$"
+            },
+            "explanation": "https://i.imgur.com/UqMs9lk.jpeg",
+            "answer": "b"
+        },
+        {
+            "question": "$$Find the value of $$\\sum_{k = 0}^{90} \\sin ({10 + 90k})^{\\circ}$$$$",
+            "answers": {
+                "a": "$$0$$",
+                "b": "$$\\sin 10^{\\circ}$$",
+                "c": "$$\\sin 100^{\\circ}$$",
+                "d": "$$\\sin 190^{\\circ}$$",
+                "e": "$$\\sin 280^{\\circ}$$",
+                "f": "$$1$$"
+            },
+            "explanation": "https://i.imgur.com/D4m12pc.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$What is the complete range of values of $k$ for which the curves with equations $$y = x^3 - 12x$$ and $$y = k - (x-2)^2$$ intersect at three distinct points, of which exactly two have positive x-coordinates?$$",
+            "answers": {
+                "a": "$$-4 < k < 0$$",
+                "b": "$$-4 < k < 4$$",
+                "c": "$$-4 < k < 16$$",
+                "d": "$$-16 < k < 0$$",
+                "e": "$$-16 < k < 4$$",
+                "f": "$$-16 < k < 16$$"
+            },
+            "explanation": "https://i.imgur.com/upOUwT7.jpeg",
+            "answer": "e"
+        }
+    ],
+    "paper2": [
+        {
+            "question": "$$Find the coefficient of the $x^4$ term in the expansion $$x^2(2x + \\frac{1}{x})^6$$$$",
+            "answers": {
+                "a": "$$15$$",
+                "b": "$$30$$",
+                "c": "$$60$$",
+                "d": "$$120$$",
+                "e": "$$240$$"
+            },
+            "explanation": "https://i.imgur.com/KJgTLLl.jpeg",
+            "answer": "e"
+        },
+        {
+            "question": "$$$(2x+1)$ and $(x-2)$ are factors of $2x^3 + px^2 + q$. $$$$ What is the value of $2p+q$?$$",
+            "answers": {
+                "a": "$$-10$$",
+                "b": "$$-\\frac{38}{5}$$",
+                "c": "$$-\\frac{22}{3}$$",
+                "d": "$$\\frac{22}{3}$$",
+                "e": "$$\\frac{38}{5}$$",
+                "f": "$$10$$"
+            },
+            "explanation": "https://i.imgur.com/IlQbwX6.jpeg",
+            "answer": "c"
+        },
+        {
+            "question": "$$$a$, $b$ and $c$ are real numbers. $$$$ Given that $ab = ac$, which of the following statements must be true? $$$$ I: $a=0$ $$$$ II: $b=0$ or $c=0$ $$$$ III: $b=c$$$",
+            "answers": {
+                "a": "none of them",
+                "b": "I only",
+                "c": "II only",
+                "d": "III only",
+                "e": "I and II only",
+                "f": "I and III only",
+                "g": "II and III only",
+                "h": "I, II and III"
+            },
+            "explanation": "https://i.imgur.com/QMHBS8u.jpeg",
+            "answer": "a"
+        },
+        {
+            "question": "$$Consider the following conjecture: $$$$ If $N$ is a positive integer that consists of the digit 1 followed by an odd number of 0 digits and then a final digit 1, then N is a prime number. $$$$ Here are three numbers: $$$$ I: $N = 101$ (which is prime) $$$$ II: $N = 1001$ (which equals to $7 \\times 11 \\times 13$) $$$$ III: $N=10001$ (which equals to $73 \\times 137$) $$$$ Which of these provide(s) a counterexample to the conjecture?$$",
+            "answers": {
+                "a": "none of them",
+                "b": "I only",
+                "c": "II only",
+                "d": "III only",
+                "e": "I and II only",
+                "f": "I and III only",
+                "g": "II and III only",
+                "h": "I, II and III"
+            },
+            "explanation": "https://i.imgur.com/WDlVb8C.jpeg",
+            "answer": "d"
+        },
+        {
+            "question": "$$Consider the following statement about the positive integers $a$, $b$ and $n$: $$$$ $(\\ast)$: $ab$ is divisible by $n$ $$$$ The condition 'either $a$ or $b$ is divisible by $n$' is:$$",
+            "answers": {
+                "a": "necessary but not sufficient for $(\\ast)$",
+                "b": "sufficient but not necessary for $(\\ast)$",
+                "c": "necessary and sufficient for $(\\ast)$",
+                "d": "not necessary and not sufficient for $(\\ast)$"
+            },
+            "explanation": "https://i.imgur.com/6IzUQqQ.jpeg",
+            "answer": "b"
+        },
+        {
+            "question": "https://i.imgur.com/SF2PPDP.jpeg",
+            "answers": {
+                "a": "It is completely correct",
+                "b": "It is incorrect, and the first error occurs on line (I)",
+                "c": "It is incorrect, and the first error occurs on line (II)",
+                "d": "It is incorrect, and the first error occurs on line (III)",
+                "e": "It is incorrect, and the first error is that extra solutions were introduced on line (IV)",
+                "f": "It is incorrect, and the first error is that extra solutions were introduced on line (V)",
+                "g": "It is incorrect, and the first error is not eliminating the values where $\\tan x$ is undefined on line (VI)"
+            },
+            "explanation": "https://i.imgur.com/pZ1OLZx.jpeg",
+            "answer": "d"
+        },
+        {
+            "question": "$$For which one of the following statements can the fact that $122 + 162 = 202$ be used to produce a counterexample?$$",
+            "answers": {
+                "a": "If $a$, $b$ and $c$ are positive integers which satisfy the equation $a^2 + b^2 = c^2$, and the three numbers have no common divisor, then two of them are odd and the other is even.",
+                "b": "The equation $a^4 + b^2 = c^2$ has no solutions for which $a$, $b$ and $c$ are positive integers.",
+                "c": "The equation $a^4 + b^4 = c^4$ has no solutions for which $a$, $b$ and $c$ are positive integers.",
+                "d": "If $a$, $b$ and $c$ are positive integers which satisfy the equation $a^2 + b^2 = c^2$, then one is the arithmetic mean of the other two."
+            },
+            "explanation": "https://i.imgur.com/Q5KJZc8.jpeg",
+            "answer": "b"
+        },
+        {
+            "question": "$$$a$, $b$ and $c$ are real numbers with $a < b < c < 0$ $$$$ Which of the following statements must be true? $$$$ I: $ac < ab < a^2$ $$$$ II: $b(c+a) > 0$ $$$$ III: $\\frac{c}{b} > \\frac{a}{b}$$$",
+            "answers": {
+                "a": "none of them",
+                "b": "I only",
+                "c": "II only",
+                "d": "III only",
+                "e": "I and II only",
+                "f": "I and III only",
+                "g": "II and III only",
+                "h": "I, II and III"
+            },
+            "explanation": "https://i.imgur.com/nnyBMvX.jpeg",
+            "answer": "e"
+        },
+        {
+            "question": "$$A large circular table has 40 chairs round it. $$$$ What is the smallest number of people who can be sitting at the table already such that the next person to sit down must sit next to someone?$$",
+            "answers": {
+                "a": "$$9$$",
+                "b": "$$10$$",
+                "c": "$$13$$",
+                "d": "$$14$$",
+                "e": "$$19$$",
+                "f": "$$20$$"
+            },
+            "explanation": "https://i.imgur.com/MvdK4OJ.jpeg",
+            "answer": "d"
+        },
+        {
+            "question": "$$$PQRS$ is a quadrilateral, labelled anticlockwise. $$$$ Which one of the following is a necessary but not sufficient condition for $PQRS$ to be a parallelogram?$$",
+            "answers": {
+                "a": "$PQ = SR$ and $PS$ is parallel to $QR$",
+                "b": "$PQ = SR$ and $PQ$ is parallel to $SR$",
+                "c": "$PQ = QR = SR = PS$",
+                "d": "$PR = QS$"
+            },
+            "explanation": "https://i.imgur.com/I8BaJ0n.jpeg",
+            "answer": "a"
+        },
+        {
+            "question": "$$An arithmetic series has $n$ terms, all of which are integers. $$$$ The sum of the series is 20. $$$$ Which of the following statements must be true? $$$$ I: The first term of the series is even. $$$$ II: $n$ is even. $$$$ III: The common difference is even.$$",
+            "answers": {
+                "a": "none of them",
+                "b": "I only",
+                "c": "II only",
+                "d": "III only",
+                "e": "I and II only",
+                "f": "I and III only",
+                "g": "II and III only",
+                "h": "I, II and III"
+            },
+            "explanation": "https://i.imgur.com/BpBELNl.jpeg",
+            "answer": "a"
+        },
+        {
+            "question": "$$Most students in a large college study Mathematics. A teacher chooses three different students at random, one after the other. $$$$ Consider the three probabilities: $$$$ $R = P$(At least one of the students chosen studies Mathematics) $$$$ $S = P$(The second student chosen studies Mathematics) $$$$ $T = P$(All three of the students chosen study Mathematics) $$$$ Which of the following is true?$$",
+            "answers": {
+                "a": "$$R < S < T$$",
+                "b": "$$R < T < S$$",
+                "c": "$$S < R < T$$",
+                "d": "$$S < T < R$$",
+                "e": "$$T < R < S$$",
+                "f": "$$T < S < R$$"
+            },
+            "explanation": "https://i.imgur.com/IOUuC4J.jpeg",
+            "answer": "f"
+        },
+        {
+            "question": "$$A student approximates the integral $\\int_a^b \\sin^2x$ dx using the trapezium rule with 4 strips. The resulting approximation is an overestimate. $$$$ Which of the following is/are necessarily true? $$$$ I: If the student approximates $\\int_{-b}^{-a} \\sin^2x$ dx in the same way, the result will be an overestimate. $$$$ II: If the student approximates $\\int_{a}^{b} \\cos^2x$ dx in the same way, the result will be an underestimate.$$",
+            "answers": {
+                "a": "neither of them",
+                "b": "I only",
+                "c": "II only",
+                "d": "I and II"
+            },
+            "explanation": "https://i.imgur.com/O7lI3Bq.png",
+            "answer": "d"
+        },
+        {
+            "question": "$$Consider the following statements about the polynomial $p(x)$, where $a < b$: $$$$ I: $p(a) \\leq p(b)$ $$$$ II: $p'(a) \\leq p'(b)$ $$$$ III: $p''(a) \\leq p''(b)$ $$$$ Which of these statements is a necessary condition for $p(x)$ to be increasing for $a \\leq x \\leq b$?$$",
+            "answers": {
+                "a": "none of them",
+                "b": "I only",
+                "c": "II only",
+                "d": "III only",
+                "e": "I and II only",
+                "f": "I and III only",
+                "g": "II and III only",
+                "h": "I, II and III"
+            },
+            "explanation": "https://i.imgur.com/VY9F52G.jpeg",
+            "answer": "b"
+        },
+        {
+            "question": "$$The numbers $a$, $b$ and $c$ are each greater than 1. $$$$ The following logarithms are all the same base: $$\\log(ab^2c) = 7$$ $$\\log(a^2bc^2) = 11$$ $$\\log(a^2b^2c^3) = 15$$ What is this base?$$",
+            "answers": {
+                "a": "$$a$$",
+                "b": "$$b$$",
+                "c": "$$c$$",
+                "d": "It is possible to determine the base, but the base is not $a$, $b$ or $c$.",
+                "e": "There is insufficient information given to determine the base."
+            },
+            "explanation": "https://i.imgur.com/HxGn6Yn.jpeg",
+            "answer": "b"
+        },
+        {
+            "question": "https://i.imgur.com/q4Sq9mn.jpeg",
+            "answers": {
+                "a": "$$A$$",
+                "b": "$$B$$",
+                "c": "$$C$$",
+                "d": "$$D$$",
+                "e": "$$E$$",
+                "f": "$$F$$",
+                "g": "$$G$$",
+                "h": "$$H$$"
+            },
+            "explanation": "https://i.imgur.com/GsxPQYV.jpeg",
+            "answer": "f"
+        },
+        {
+            "question": "$$A multiple-choice test question offered the following four options relating to a certain statement: $$$$ A: The statement is true if and only if $x>1$ $$$$ B: The statement is true if $x > 1$ $$$$ C: The statement is true if and only if $x>2$ $$$$ D: The statement is true if $x>2$ $$$$ Given that exactly one of these options was correct, which one was it?$$",
+            "answers": {
+                "a": "$$A$$",
+                "b": "$$B$$",
+                "c": "$$C$$",
+                "d": "$$D$$"
+            },
+            "explanation": "https://i.imgur.com/1R2fxlM.jpeg",
+            "answer": "d"
+        },
+        {
+            "question": "$$Consider the following inequality: $$(\\ast): a|x| + 1 \\leq |x-2|$$ where $a$ is a real constant. $$$$ Which one of the following describes the complete set of values of $a$ such that $(\\ast)$ is true for all real $x$?$$",
+            "answers": {
+                "a": "$$a \\leq \\frac{3}{2}$$",
+                "b": "$$a \\leq 1$$",
+                "c": "$$a \\leq \\frac{1}{2}$$",
+                "d": "$$a \\leq 0$$",
+                "e": "$$a \\leq -\\frac{1}{2}$$",
+                "f": "$$a \\leq -1$$",
+                "g": "$$a \\leq -\\frac{3}{2}$$",
+                "h": "There are no such values of $a$."
+            },
+            "explanation": "https://i.imgur.com/JYUDVJO.png",
+            "answer": "e"
+        },
+        {
+            "question": "$$Find the value of the expression $$\\sqrt{8 - 4\\sqrt{2} + 1} + \\sqrt{9 - 12\\sqrt{2} + 8}$$$$",
+            "answers": {
+                "a": "$$\\sqrt{26 - 16\\sqrt{2}}$$",
+                "b": "$$4\\sqrt{2} - 4$$",
+                "c": "$$-2$$",
+                "d": "$$4 - 4\\sqrt{2}$$",
+                "e": "$$2$$",
+                "f": "$$\\sqrt{26} - 4\\sqrt{2}$$",
+                "g": "$$1$$"
+            },
+            "explanation": "https://i.imgur.com/n0iiUIV.jpeg",
+            "answer": "e"
+        },
+        {
+            "question": "$$When the graph of the function $y = f(x)$, defined on the real numbers, is reflected in the y-axis and then translated by 2 units in the negative x-direction, the result is the graph of the function $y = g(x)$. $$$$ When the graph of the same function $y = f(x)$ is translated by 2 units in the negative x-direction and then reflected in the y-axis, the result is the graph of the function $y = h(x)$. $$$$ Which one of the following conditions on $y = f(x)$ is necessary and sufficient for the functions $g(x)$ and $h(x)$ to be identical?$$",
+            "answers": {
+                "a": "$f(x) = f(x+2)$ for all $x$",
+                "b": "$f(x) = f(x+4)$ for all $x$",
+                "c": "$f(x) = f(x+8)$ for all $x$",
+                "d": "$f(x) = f(-x)$ for all $x$",
+                "e": "$f(x) = f(2-x)$ for all $x$",
+                "f": "$f(x) = f(4-x)$ for all $x$",
+                "g": "$f(x) = f(8-x)$ for all $x$"
+            },
+            "explanation": "https://i.imgur.com/5Yol4Hb.jpeg",
+            "answer": "b"
+        }
+    ]
+}

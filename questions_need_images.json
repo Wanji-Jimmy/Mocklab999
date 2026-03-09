@@ -1,0 +1,1982 @@
+[
+  {
+    "year": "2017",
+    "paper": 2,
+    "number": 2,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "PQRS is a rectangle.\nThe coordinates of P and Q are (0,6) and (1,8) respectively.\nThe perpendicular "
+  },
+  {
+    "year": "2017",
+    "paper": 2,
+    "number": 3,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "The first term of a geometric progression is 2√3 and the fourth term is 9\nWhat is the sum to infinit"
+  },
+  {
+    "year": "2017",
+    "paper": 2,
+    "number": 5,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "Consider the following three statements:\n1 10p2 +1 and 10p2 1 are both prime when p is an odd prime."
+  },
+  {
+    "year": "2017",
+    "paper": 2,
+    "number": 6,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "A sequence u , u , u , ... is defined as follows:\n0 1 2\nu = 1\n1\nu n = 4xu n−1 dx for n (cid:2) 1\n(ci"
+  },
+  {
+    "year": "2017",
+    "paper": 2,
+    "number": 7,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "The graphs of two functions are shown here:\ny = ax is shown with a solid line, where a is a positive"
+  },
+  {
+    "year": "2017",
+    "paper": 2,
+    "number": 8,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 4,
+    "stem_preview": "Which one of the following numbers is smallest in value?"
+  },
+  {
+    "year": "2017",
+    "paper": 2,
+    "number": 10,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 3,
+    "stem_preview": "f(x) is a function defined for all real values of x.\nWhich one of the following is a sufficient cond"
+  },
+  {
+    "year": "2017",
+    "paper": 2,
+    "number": 11,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "The function f(x) is increasing and f(0) = 0.\nThe positive constants a and b are such that a < b.\nTh"
+  },
+  {
+    "year": "2017",
+    "paper": 2,
+    "number": 13,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "The positive real numbers a 10 −3, b 10 −2 and c 10 −1 are each in standard form,\n× × ×\nand\n(a 10\n−3"
+  },
+  {
+    "year": "2017",
+    "paper": 2,
+    "number": 14,
+    "stem_issue": "high_cid",
+    "stem_score": 14,
+    "bad_options": 0,
+    "stem_preview": "The diagram below shows the graph of y = x2 2bx+c. The vertex of this graph is\n−\nat the point P.\nWhi"
+  },
+  {
+    "year": "2017",
+    "paper": 2,
+    "number": 15,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "The function f is defined on the positive integers as follows:\nf(1) = 5, and for n (cid:2) 1: f(n+1)"
+  },
+  {
+    "year": "2017",
+    "paper": 2,
+    "number": 16,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 3,
+    "stem_preview": "Consider the following statement:\n( ) If f(x) is an integer for every integer x, then f′ (x) is an i"
+  },
+  {
+    "year": "2017",
+    "paper": 2,
+    "number": 18,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 2,
+    "stem_preview": "Consider the following problem:\nn 10\n1 1\nSolve the inequality < , where n is a positive integer.\n(ci"
+  },
+  {
+    "year": "2017",
+    "paper": 2,
+    "number": 19,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "Which one of the following is a sufficient condition for the equation\nx3 3x2 +a = 0, where a is a co"
+  },
+  {
+    "year": "2017",
+    "paper": 2,
+    "number": 20,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 4,
+    "stem_preview": "I have forgotten my 5-character computer password, but I know that it consists of\nthe letters a, b, "
+  },
+  {
+    "year": "2018",
+    "paper": 1,
+    "number": 1,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "Find the value of\n(cid:2)\n4 3−2x\n√ dx\nx x"
+  },
+  {
+    "year": "2018",
+    "paper": 1,
+    "number": 2,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "An arithmetic progression has first term a and common difference d.\nThe sum of the first 5 terms is "
+  },
+  {
+    "year": "2018",
+    "paper": 1,
+    "number": 3,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "Find the shortest distance between the two circles with equations:\n(x+2) 2 +(y −3) 2 = 18\n(x−7) 2 +("
+  },
+  {
+    "year": "2018",
+    "paper": 1,
+    "number": 4,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "Consider the simultaneous equations\n3x2 +2xy = 4\nx+y = a\nwhere a is a real constant.\nFind the comple"
+  },
+  {
+    "year": "2018",
+    "paper": 1,
+    "number": 5,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "The function f is defined by f(x) = x3 +ax2 +bx+c.\na, b and c take the values 1, 2 and 3 with no two"
+  },
+  {
+    "year": "2018",
+    "paper": 1,
+    "number": 6,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "Find the number of solutions of the equation\nxsin2x = cos2x\nwith 0 ≤ x ≤ 2π."
+  },
+  {
+    "year": "2018",
+    "paper": 1,
+    "number": 7,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "The non-zero constant k is chosen so that the coefficients of x6 in the expansions of\n(1+kx2)7 and ("
+  },
+  {
+    "year": "2018",
+    "paper": 1,
+    "number": 8,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "The sum to infinity of a geometric progression is 6.\nThe sum to infinity of the squares of each term"
+  },
+  {
+    "year": "2018",
+    "paper": 1,
+    "number": 9,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Find the complete set of values of the constant c for which the cubic equation\n2x3 −3x2 −12x+c = 0\nh"
+  },
+  {
+    "year": "2018",
+    "paper": 1,
+    "number": 10,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "x and y satisfy |2−x| ≤ 6 and |y +2| ≤ 4.\nWhat is the greatest possible value of |xy|?"
+  },
+  {
+    "year": "2018",
+    "paper": 1,
+    "number": 11,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "The line y = mx+5, where m > 0, is normal to the curve y = 10−x2 at the\npoint (p,q).\nWhat is the val"
+  },
+  {
+    "year": "2018",
+    "paper": 1,
+    "number": 12,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "A curve has equation y = f(x), where\nf(x) = x(x−p)(x−q)(r−x)\nwith 0 < p < q < r.\nYou are given that:"
+  },
+  {
+    "year": "2018",
+    "paper": 1,
+    "number": 13,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 3,
+    "stem_preview": "The function f(x) has derivative f(cid:3)(x).\nThe diagram below shows the graph of y = f(cid:3)(x).\n"
+  },
+  {
+    "year": "2018",
+    "paper": 1,
+    "number": 14,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "The line y = mx+4 passes through the points (3, log p) and (log p, 4).\n2 2\nWhat are the possible val"
+  },
+  {
+    "year": "2018",
+    "paper": 1,
+    "number": 15,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Find the sum of the real solutions of the equation:\n√\n3 x −( 3) x+4 +20 = 0"
+  },
+  {
+    "year": "2018",
+    "paper": 1,
+    "number": 16,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "The curve C has equation y = x2 +bx+2, where b ≥ 0.\nFind the value of b that minimises the distance "
+  },
+  {
+    "year": "2018",
+    "paper": 1,
+    "number": 17,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "There are two sets of data: the mean of the first set is 15, and the mean of the\nsecond set is 20.\nO"
+  },
+  {
+    "year": "2018",
+    "paper": 1,
+    "number": 18,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "What is the smallest positive value of a for which the line x = a is a line of\nsymmetry of the graph"
+  },
+  {
+    "year": "2018",
+    "paper": 1,
+    "number": 19,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "A triangle ABC is to be drawn with AB = 10cm, BC = 7cm and the angle at A\nequal to θ, where θ is a c"
+  },
+  {
+    "year": "2018",
+    "paper": 1,
+    "number": 20,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Find the value of\nsin 2 0 ◦ +sin 2 1 ◦ +sin 2 2 ◦ +sin 2 3 ◦ +···+sin 2 87 ◦ +sin 2 88 ◦ +sin 2 89 ◦"
+  },
+  {
+    "year": "2018",
+    "paper": 2,
+    "number": 2,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Find the value of the constant term in the expansion of\n(cid:2) (cid:3)\n1\nx6 −\nx2"
+  },
+  {
+    "year": "2018",
+    "paper": 2,
+    "number": 3,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Consider the following statement:"
+  },
+  {
+    "year": "2018",
+    "paper": 2,
+    "number": 4,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "The non-zero real number c is such that the equation cosx = c has two solutions for\n0 < x < 3π.\nHow "
+  },
+  {
+    "year": "2018",
+    "paper": 2,
+    "number": 5,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 4,
+    "stem_preview": "The two diagonals of the quadrilateral Q are perpendicular.\nConsider the following statements:\nI One"
+  },
+  {
+    "year": "2018",
+    "paper": 2,
+    "number": 6,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "Which one of the following functions provides a counterexample to the statement:\nif f(cid:2)(x) > 0 "
+  },
+  {
+    "year": "2018",
+    "paper": 2,
+    "number": 7,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "Sequence 1 is an arithmetic progression with first term 11 and common difference 3.\nSequence 2 is an"
+  },
+  {
+    "year": "2018",
+    "paper": 2,
+    "number": 8,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "The diagram shows an example of a mountain profile.\nupstroke:\ndownstroke:\nThis consists of upstrokes"
+  },
+  {
+    "year": "2018",
+    "paper": 2,
+    "number": 10,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "The function f(x) is defined for all real numbers.\nConsider the following three conditions, where a "
+  },
+  {
+    "year": "2018",
+    "paper": 2,
+    "number": 11,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Consider the equation 2x = mx+c, where m and c are real constants.\nWhich of the following statements"
+  },
+  {
+    "year": "2018",
+    "paper": 2,
+    "number": 14,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "In the triangle PQR, PR = 2, QR = p and ∠RPQ = 30◦.\nWhat is the set of all the values of p for which"
+  },
+  {
+    "year": "2018",
+    "paper": 2,
+    "number": 15,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "It is given that f(x) = x3 +3qx2 +2, where q is a real constant.\nThe equation f(x) = 0 has 3 distinc"
+  },
+  {
+    "year": "2018",
+    "paper": 2,
+    "number": 16,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "In this question, x , x , x , ... is an arithmetic progression, all of whose terms\n1 2 3\nare integer"
+  },
+  {
+    "year": "2018",
+    "paper": 2,
+    "number": 19,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 4,
+    "stem_preview": "Three real numbers x, y and z satisfy x > y > z > 1.\nWhich one of the following statements must be t"
+  },
+  {
+    "year": "2018",
+    "paper": 2,
+    "number": 20,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "It is given that the equation x+p+ x = p has at least one real solution for x,\nwhere p is a real con"
+  },
+  {
+    "year": "2019",
+    "paper": 1,
+    "number": 1,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "f(x) is a quadratic function in x.\nThe graph of y = f(x) passes through the point (1,−1) and has a t"
+  },
+  {
+    "year": "2019",
+    "paper": 1,
+    "number": 2,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 4,
+    "stem_preview": "Find the complete set of values of the real constant k for which the expression\nx2 +kx+2x+1−2k\nis po"
+  },
+  {
+    "year": "2019",
+    "paper": 1,
+    "number": 3,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "Find the coefficient of x in the expression:\n(1+x) 0 +(1+x) 1 +(1+x) 2 +(1+x) 3 +···+(1+x) 79 +(1+x)"
+  },
+  {
+    "year": "2019",
+    "paper": 1,
+    "number": 4,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "The sequence x is given by:\nn\nx = 10\n√\nx = x for n ≥ 1\nn+1 n\nWhat is the value of x ?\n[Note that\nabc"
+  },
+  {
+    "year": "2019",
+    "paper": 1,
+    "number": 5,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "S is a geometric sequence.\nThe sum of the first 6 terms of S is equal to 9 times the sum of the firs"
+  },
+  {
+    "year": "2019",
+    "paper": 1,
+    "number": 6,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "The circles with equations\n(x+4) 2 +(y +1) 2 = 64 and\n(x−8) 2 +(y −4) 2 = r2 where r > 0\nhave exactl"
+  },
+  {
+    "year": "2019",
+    "paper": 1,
+    "number": 7,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "A curve has equation\ny = (2q −x2 )(2qx+3)\nThe gradient of the curve at x = −1 is a function of q.\nFi"
+  },
+  {
+    "year": "2019",
+    "paper": 1,
+    "number": 8,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 2,
+    "stem_preview": "The function f is such that 0 < f(x) < 1 for 0 ≤ x ≤ 1.\n(cid:2)\nThe trapezium rule with n equal inte"
+  },
+  {
+    "year": "2019",
+    "paper": 1,
+    "number": 9,
+    "stem_issue": "too_short",
+    "stem_score": 6,
+    "bad_options": 20,
+    "stem_preview": "C 40\n3"
+  },
+  {
+    "year": "2019",
+    "paper": 1,
+    "number": 10,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Evaluate\n(cid:3)\n|x|(1−x)dx\n−1"
+  },
+  {
+    "year": "2019",
+    "paper": 1,
+    "number": 11,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "Find the sum of the real values of x that satisfy the simultaneous equations:\nlog\n(xy2\n) = 1\n(log x)"
+  },
+  {
+    "year": "2019",
+    "paper": 1,
+    "number": 12,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "It is given that\ndV 24π(t−1)\n= √ for t ≥ 1\ndt (1+ t )\nand V = 7 when t = 1.\nFind the value of V when"
+  },
+  {
+    "year": "2019",
+    "paper": 1,
+    "number": 13,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "Find the maximum value of\n4 sinx −4×2 sinx + 17\nfor real x."
+  },
+  {
+    "year": "2019",
+    "paper": 1,
+    "number": 14,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "x satisfies the simultaneous equations\n√\nsin2x+ 3cos2x = −1\nand √ √\n3sin2x−cos2x = 3\nwhere 0◦ ≤ x ≤ "
+  },
+  {
+    "year": "2019",
+    "paper": 1,
+    "number": 15,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Find the real non-zero solution to the equation\n2(9x)\n=\n8(3x) 4"
+  },
+  {
+    "year": "2019",
+    "paper": 1,
+    "number": 16,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "Given that (cid:3) (cid:3)\n1 2\n2 f(x)dx+5 f(x)dx = 14\n0 1\nand (cid:3)\nf(x+1)dx = 6\nfind the value of"
+  },
+  {
+    "year": "2019",
+    "paper": 1,
+    "number": 17,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "Find the fraction of the interval 0 ≤ θ ≤ π for which the inequality\n(cid:4) (cid:5)(cid:4) (cid:5)\n"
+  },
+  {
+    "year": "2019",
+    "paper": 1,
+    "number": 18,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "Find the shortest distance between the curve y = x2 +4 and the line y = 2x−2."
+  },
+  {
+    "year": "2019",
+    "paper": 1,
+    "number": 19,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Find the value of\n(cid:6)90\nsin(10+90k) ◦\nk=0"
+  },
+  {
+    "year": "2019",
+    "paper": 1,
+    "number": 20,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "What is the complete range of values of k for which the curves with equations\ny = x3 −12x\nand\ny = k "
+  },
+  {
+    "year": "2019",
+    "paper": 2,
+    "number": 1,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "Find the coefficient of the x4 term in the expansion of\n(cid:2) (cid:3)\n1\nx2 2x+\nx"
+  },
+  {
+    "year": "2019",
+    "paper": 2,
+    "number": 2,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "(2x+1) and (x−2) are factors of 2x3 +px2 +q.\nWhat is the value of 2p+q?"
+  },
+  {
+    "year": "2019",
+    "paper": 2,
+    "number": 3,
+    "stem_issue": "too_short",
+    "stem_score": 6,
+    "bad_options": 7,
+    "stem_preview": "D 22\n3"
+  },
+  {
+    "year": "2019",
+    "paper": 2,
+    "number": 4,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Consider the following conjecture:\nIf N is a positive integer that consists of the digit 1 followed "
+  },
+  {
+    "year": "2019",
+    "paper": 2,
+    "number": 8,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "a, b and c are real numbers with a < b < c <0\nWhich of the following statements must be true?\nI ac <"
+  },
+  {
+    "year": "2019",
+    "paper": 2,
+    "number": 9,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "A large circular table has 40 chairs round it.\nWhat is the smallest number of people who can be sitt"
+  },
+  {
+    "year": "2019",
+    "paper": 2,
+    "number": 10,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 2,
+    "stem_preview": "PQRS is a quadrilateral, labelled anticlockwise.\nWhich one of the following is a necessary but not s"
+  },
+  {
+    "year": "2019",
+    "paper": 2,
+    "number": 11,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "An arithmetic series has n terms, all of which are integers.\nThe sum of the series is 20.\nWhich of t"
+  },
+  {
+    "year": "2019",
+    "paper": 2,
+    "number": 12,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Most students in a large college study Mathematics. A teacher chooses three\ndifferent students at ra"
+  },
+  {
+    "year": "2019",
+    "paper": 2,
+    "number": 13,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 4,
+    "stem_preview": "A student approximates the integral b sin2xdx using the trapezium rule with\na\n4 strips. The resultin"
+  },
+  {
+    "year": "2019",
+    "paper": 2,
+    "number": 14,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Consider the following statements about the polynomial p(x), where a < b:\nI p(a) ≤ p(b)\nII p(cid:2)("
+  },
+  {
+    "year": "2019",
+    "paper": 2,
+    "number": 15,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 3,
+    "stem_preview": "The numbers a, b and c are each greater than 1.\nThe following logarithms are all to the same base:\nl"
+  },
+  {
+    "year": "2019",
+    "paper": 2,
+    "number": 18,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Consider the following inequality:\n(∗): a|x|+1 ≤ |x−2|\nwhere a is a real constant.\nWhich one of the "
+  },
+  {
+    "year": "2019",
+    "paper": 2,
+    "number": 19,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "Find the value of the expression\n(cid:5) (cid:5)\n√ √\n8−4 2+1+ 9−12 2+8\n(cid:6) √"
+  },
+  {
+    "year": "2020",
+    "paper": 1,
+    "number": 1,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Which of the following is an expression for the first derivative with respect to x of\nx3 −5x2\n√\n2x x"
+  },
+  {
+    "year": "2020",
+    "paper": 1,
+    "number": 2,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "(2x+1) and (x−2) are factors of 2x3 +px2 +q\nWhat is the value of 2p+q?"
+  },
+  {
+    "year": "2020",
+    "paper": 1,
+    "number": 3,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "Find the complete set of values of x for which\n(x+4)(x+3)(1−x) > 0 and (x+2)(x−2) < 0"
+  },
+  {
+    "year": "2020",
+    "paper": 1,
+    "number": 4,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "The 1st, 2nd and 3rd terms of a geometric progression are also the 1st, 4th and 6th\nterms, respectiv"
+  },
+  {
+    "year": "2020",
+    "paper": 1,
+    "number": 5,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "The curve S has equation\ny = px2 +6x−q\nwhere p and q are constants.\nS has a line of symmetry at x = "
+  },
+  {
+    "year": "2020",
+    "paper": 1,
+    "number": 6,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Find the maximum value of the function\nf(x) =\n52x −4(5x)+7"
+  },
+  {
+    "year": "2020",
+    "paper": 1,
+    "number": 7,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Given that\n3x (y+3)\n2 = 8\nand\n16(y+1)\n(x+1)\n4 =\n8(y+3)\nwhat is the value of x+y?"
+  },
+  {
+    "year": "2020",
+    "paper": 1,
+    "number": 8,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 4,
+    "stem_preview": "The function f is defined for all real x as\nf(x) = (p−x)(x+2)\nFind the complete set of values of p f"
+  },
+  {
+    "year": "2020",
+    "paper": 1,
+    "number": 9,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "The quadratic expression x2 −14x+9 factorises as (x−α)(x−β), where α and β\nare positive real numbers"
+  },
+  {
+    "year": "2020",
+    "paper": 1,
+    "number": 10,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "The following sequence of transformations is applied to the curve y = 4x2\n(cid:2) (cid:3)\n1. Transla"
+  },
+  {
+    "year": "2020",
+    "paper": 1,
+    "number": 11,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "The quadratic function shown passes through (2,0) and (q,0), where q > 2.\ny\nR\nx\nq\nS\nWhat is the valu"
+  },
+  {
+    "year": "2020",
+    "paper": 1,
+    "number": 12,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "How many real solutions are there to the equation\n√\n3cosx = x\nwhere x is in radians?"
+  },
+  {
+    "year": "2020",
+    "paper": 1,
+    "number": 13,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Find the coefficient of x2y4 in the expansion of (1+x+y2)7"
+  },
+  {
+    "year": "2020",
+    "paper": 1,
+    "number": 14,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "The area enclosed between the line y = mx and the curve y = x3 is 6.\nWhat is the value of m?"
+  },
+  {
+    "year": "2020",
+    "paper": 1,
+    "number": 15,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Find the positive difference between the two real values of x for which\n(cid:2) (cid:2) (cid:3)(cid:"
+  },
+  {
+    "year": "2020",
+    "paper": 1,
+    "number": 16,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "The circle C has equation (x+2)2 +(y −1)2 = 3\nThe circle C has equation (x−4)2 +(y −1)2 = 3\nThe stra"
+  },
+  {
+    "year": "2020",
+    "paper": 1,
+    "number": 17,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Find the complete set of values of m in terms of c such that the graphs of\n√\ny = mx+c and y = x have"
+  },
+  {
+    "year": "2020",
+    "paper": 1,
+    "number": 19,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Find the lowest positive integer for which x2 −52x−52 is positive."
+  },
+  {
+    "year": "2020",
+    "paper": 1,
+    "number": 20,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "For how many values of a is the equation\n(x−a)(x2 −x+a) = 0\nsatisfied by exactly two distinct values"
+  },
+  {
+    "year": "2020",
+    "paper": 2,
+    "number": 1,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Find the complete set of values of k for which the line y = x−2 crosses or touches\nthe curve y = x2 "
+  },
+  {
+    "year": "2020",
+    "paper": 2,
+    "number": 2,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "Given that tanθ = 2 and 180◦ < θ < 360◦, find the value of cosθ\n√"
+  },
+  {
+    "year": "2020",
+    "paper": 2,
+    "number": 4,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Consider the following statement:\nEvery positive integer N that is greater than 6 can be written as "
+  },
+  {
+    "year": "2020",
+    "paper": 2,
+    "number": 6,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "The function f(x) is defined for all real values of x.\nWhich of the following conditions on f(x) is/"
+  },
+  {
+    "year": "2020",
+    "paper": 2,
+    "number": 7,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Consider the following conditions on a parallelogram PQRS, labelled\nanticlockwise:\nI length of PQ = "
+  },
+  {
+    "year": "2020",
+    "paper": 2,
+    "number": 9,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 4,
+    "stem_preview": "A student wishes to evaluate the function f(x) = xsinx, where x is in radians, but\nhas a calculator "
+  },
+  {
+    "year": "2020",
+    "paper": 2,
+    "number": 10,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "The real numbers a, b, c and d satisfy both\n0 < a+b < c+d\nand\n0 < a+c < b+d\nWhich of the following i"
+  },
+  {
+    "year": "2020",
+    "paper": 2,
+    "number": 11,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "A spiral line is drawn as shown.\ny\n4\n2\n−5 −4 −3 −2 −1 0 1 2 3 4 5 x\n−1\n−2\n−3\n−4\n−5\nThis spiral patte"
+  },
+  {
+    "year": "2020",
+    "paper": 2,
+    "number": 13,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 3,
+    "stem_preview": "f(x) is a function for which\n(cid:4) (cid:4) (cid:4)\n3(cid:6) (cid:7) 3 1\n2\nf(x) dx + f(x)dx = f(x)d"
+  },
+  {
+    "year": "2020",
+    "paper": 2,
+    "number": 14,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 4,
+    "stem_preview": "An arithmetic sequence T has first term a and common difference d, where a and d\nare non-zero intege"
+  },
+  {
+    "year": "2020",
+    "paper": 2,
+    "number": 17,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "A set of six distinct integers is split into two sets of three.\nThe first set of three integers has "
+  },
+  {
+    "year": "2020",
+    "paper": 2,
+    "number": 18,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "In this question, f(x) = ax3 +bx2 +cx+d and g(x) = px3 +qx2 +rx+s are cubic\npolynomials.\nIf f(x)−g(x"
+  },
+  {
+    "year": "2020",
+    "paper": 2,
+    "number": 19,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "Nine people are sitting in the squares of a 3 by 3 grid, one in each square, as shown.\nTwo people ar"
+  },
+  {
+    "year": "2020",
+    "paper": 2,
+    "number": 20,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 2,
+    "stem_preview": "x is a real number and f is a function.\nGiven that exactly one of the following statements is true, "
+  },
+  {
+    "year": "2021",
+    "paper": 1,
+    "number": 1,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "Two circles have the same radius.\nThe centre of one circle is (–2, 1).\nThe centre of the other circl"
+  },
+  {
+    "year": "2021",
+    "paper": 1,
+    "number": 2,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "The curve y = x3 − 6x+ 3 has turning points at x = α and x = β, where β > α.\nFind \u0002\nβ\nx 3 − 6x+3dx\nα"
+  },
+  {
+    "year": "2021",
+    "paper": 1,
+    "number": 3,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "An arithmetic progression and a convergent geometric progression each\nhave first term\n1\nThe sum of t"
+  },
+  {
+    "year": "2021",
+    "paper": 1,
+    "number": 4,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Find the minimum value of the function\n2 2x − 2 x+3 +4"
+  },
+  {
+    "year": "2021",
+    "paper": 1,
+    "number": 5,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "The function f is such that\n\u0003\nf(m)f(n) if mn is a multiple of 3\nf(mn) =\nmn if mn is not a multiple o"
+  },
+  {
+    "year": "2021",
+    "paper": 1,
+    "number": 6,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "The function f is given by\ncos x +3\nf(x) =\n7+5cos x − sin2 x\nFind the positive difference between th"
+  },
+  {
+    "year": "2021",
+    "paper": 1,
+    "number": 7,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "The function f is such that f(0) = 0, and xf(x) > 0 for all non-zero values of x.\nIt is given that\n\u0002"
+  },
+  {
+    "year": "2021",
+    "paper": 1,
+    "number": 8,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "The line y = 2x + 3 meets the curve y = x2 + bx + c at exactly one point.\nThe line y = 4x − 2 also m"
+  },
+  {
+    "year": "2021",
+    "paper": 1,
+    "number": 9,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "Find the area enclosed by the graph of\n|x| + |y| = 1"
+  },
+  {
+    "year": "2021",
+    "paper": 1,
+    "number": 10,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "Use the trapezium rule with 3 strips to estimate\n\u0002\n2log x dx\n1\n√"
+  },
+  {
+    "year": "2021",
+    "paper": 1,
+    "number": 11,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "The function f is given by\nf(x) = x 7 1 (x 2 − x+1)\nFind the fraction of the interval 0 < x < 1 for "
+  },
+  {
+    "year": "2021",
+    "paper": 1,
+    "number": 12,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "The minimum value of the function x4 − p2x2 is −9\np is a real number.\nFind the minimum value of the "
+  },
+  {
+    "year": "2021",
+    "paper": 1,
+    "number": 13,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 9,
+    "stem_preview": "G\n(cid:20)(cid:22)\n12 The minimum value of the function x4 − p2x2 is −9\np is a real number.\nFind the"
+  },
+  {
+    "year": "2021",
+    "paper": 1,
+    "number": 14,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "This question uses radians.\nFind the number of distinct values of x that satisfy the equation\n(x + 1"
+  },
+  {
+    "year": "2021",
+    "paper": 1,
+    "number": 15,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 3,
+    "stem_preview": "The diagram shows the graph of y = f(x).\ny\n0\nx\n0 1 2 3 4\nThe graph consists of alternating straight-"
+  },
+  {
+    "year": "2021",
+    "paper": 1,
+    "number": 16,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 3,
+    "stem_preview": "Consider the expansion of\n(a + bx) n\nThe third term, in ascending powers of x, is 105x2\nThe fourth t"
+  },
+  {
+    "year": "2021",
+    "paper": 1,
+    "number": 17,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 3,
+    "stem_preview": "Which of the following sketches shows the graph of\nsin(x2 + y 2 ) =\nwhere x2 + y2 ≤ 8π ?\ny y"
+  },
+  {
+    "year": "2021",
+    "paper": 1,
+    "number": 18,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "The curve with equation\nx = y 2 − 6y +11\nis rotated 90o clockwise about the point P to give the curv"
+  },
+  {
+    "year": "2021",
+    "paper": 1,
+    "number": 19,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "The equation\n\b\nsin 2 4 cos θ × 60 o =\nhas exactly three solutions in the range 0o ≤ θ ≤ xo\nWhat is t"
+  },
+  {
+    "year": "2021",
+    "paper": 1,
+    "number": 20,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "Find the length of the curve with equation\n2log (x − y) = log (2 − 2x)+log (y +5)\n10 10 10"
+  },
+  {
+    "year": "2021",
+    "paper": 2,
+    "number": 1,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "Find the value of (cid:2) (cid:3) (cid:4)\n4 √\n3 x+ dx\nx2"
+  },
+  {
+    "year": "2021",
+    "paper": 2,
+    "number": 2,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "A(0,2) and C(4,0) are opposite vertices of the square ABCD.\nWhat is the equation of the straight lin"
+  },
+  {
+    "year": "2021",
+    "paper": 2,
+    "number": 3,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "A student is chosen at random from a class. Each student is equally likely to be\nchosen.\nWhich of th"
+  },
+  {
+    "year": "2021",
+    "paper": 2,
+    "number": 4,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Consider the following claim about positive integers a, b and c:\nif a is a factor of bc, then a is a"
+  },
+  {
+    "year": "2021",
+    "paper": 2,
+    "number": 7,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "A circle has equation (x−9)2 +(y +2)2 = 4"
+  },
+  {
+    "year": "2021",
+    "paper": 2,
+    "number": 9,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Consider the following statements about a polynomial f(x):\nI f(x) = px3 +qx2 +rx+s, where p (cid:4)="
+  },
+  {
+    "year": "2021",
+    "paper": 2,
+    "number": 10,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "The first seven terms of a sequence of positive integers are:\nu = 15\nu = 21\nu = 30\nu = 37\nu = 44\nu ="
+  },
+  {
+    "year": "2021",
+    "paper": 2,
+    "number": 12,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Which of the following statements about polynomials f and g is/are true?\n(cid:6) (cid:6)\nI If f(x) ≥"
+  },
+  {
+    "year": "2021",
+    "paper": 2,
+    "number": 13,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "A region R in the (x,y)-plane is defined by the simultaneous inequalities\ny −x < 3\ny −x2 < 1\nWhich o"
+  },
+  {
+    "year": "2021",
+    "paper": 2,
+    "number": 14,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "Consider the following simultaneous equations, where p is a real number:\np2 x +log y = 2\n2 x +log y "
+  },
+  {
+    "year": "2021",
+    "paper": 2,
+    "number": 15,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "A circle has equation\nx2 +ax+y2 +by +c = 0\nwhere a, b and c are non-zero real constants.\nWhich one o"
+  },
+  {
+    "year": "2021",
+    "paper": 2,
+    "number": 16,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "p and q are real numbers, and the equation\nx|x| = px+q\nhas exactly k distinct real solutions for x.\n"
+  },
+  {
+    "year": "2021",
+    "paper": 2,
+    "number": 18,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "A student chooses two distinct real numbers x and y with 0 < x < y < 1.\nThe student then attempts to"
+  },
+  {
+    "year": "2021",
+    "paper": 2,
+    "number": 19,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "The angle θ can take any of the values 1◦, 2◦, 3◦, ..., 359◦, 360◦.\nFor how many of these values of "
+  },
+  {
+    "year": "2021",
+    "paper": 2,
+    "number": 20,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "A sequence of functions f , f , f , ... is defined by\n1 2 3\nf (x) = |x|\nf (x) = |f (x)+x| for n ≥ 1\n"
+  },
+  {
+    "year": "2022",
+    "paper": 1,
+    "number": 1,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "How many real solutions are there to the equation\n2cos4(cid:537) – 5cos2(cid:537) + 3 (cid:3404) 0\ni"
+  },
+  {
+    "year": "2022",
+    "paper": 1,
+    "number": 2,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "Find the complete set of values of p for which the equation\nx2 – 2px + y2 – 6y – p2 + 8p + 9 (cid:34"
+  },
+  {
+    "year": "2022",
+    "paper": 1,
+    "number": 3,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Given the following statements about a function f\n• f(cid:398)(x) (cid:3404) a for all x\n• f(0) (cid"
+  },
+  {
+    "year": "2022",
+    "paper": 1,
+    "number": 4,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 9,
+    "stem_preview": "B 0 < p < 4\nC –1 < p < 9\nD p < 0 or p > 4\nE p < –1 or p > 9\nF all real values of p\n4\n\n3 Given the fo"
+  },
+  {
+    "year": "2022",
+    "paper": 1,
+    "number": 5,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "The terms x of a sequence follow the rule\nn\nx + p\nx (cid:3404) n\nn+1\nx + q\nn\nwhere p and q are real "
+  },
+  {
+    "year": "2022",
+    "paper": 1,
+    "number": 6,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "Given that\nlog 20\n(cid:179) 2 xdx (cid:3404) log M\nlog 5\nwhat is the value of M?"
+  },
+  {
+    "year": "2022",
+    "paper": 1,
+    "number": 7,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "Find the finite area enclosed between the line y (cid:3404) 0 and the curve y (cid:3404) x2 – 4|x| –"
+  },
+  {
+    "year": "2022",
+    "paper": 1,
+    "number": 8,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "A geometric sequence has first term a and common ratio r, where a and r are positive integers\nand r "
+  },
+  {
+    "year": "2022",
+    "paper": 1,
+    "number": 9,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "This question is about pairs of functions f and g that satisfy\nf(x) – g(x) (cid:3404) 2sinx\nf(x)g(x)"
+  },
+  {
+    "year": "2022",
+    "paper": 1,
+    "number": 10,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "A sequence of translations is applied to the graph of y (cid:3404) x3\nWhich of the following graphs "
+  },
+  {
+    "year": "2022",
+    "paper": 1,
+    "number": 11,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Evaluate\n100 ( )\n(cid:166)log 31–n\nn=1"
+  },
+  {
+    "year": "2022",
+    "paper": 1,
+    "number": 12,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "A family of quadratic curves is given by\n(cid:167) k (cid:183) 2 k2\ny\nk\n(cid:3404) 2(cid:168)x – (ci"
+  },
+  {
+    "year": "2022",
+    "paper": 1,
+    "number": 13,
+    "stem_issue": "high_cid",
+    "stem_score": 13,
+    "bad_options": 7,
+    "stem_preview": "Given that\n(cid:167) 2 (cid:183)(cid:167) 2 (cid:183)\n(cid:168)a3+ (cid:184)(cid:168) –b3 (cid:184) "
+  },
+  {
+    "year": "2022",
+    "paper": 1,
+    "number": 14,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "A circle has centre O and radius 6.\n(cid:652)\nP, Q and R are points on the circumference with angle "
+  },
+  {
+    "year": "2022",
+    "paper": 1,
+    "number": 15,
+    "stem_issue": "too_short",
+    "stem_score": 6,
+    "bad_options": 56,
+    "stem_preview": "D –\n23"
+  },
+  {
+    "year": "2022",
+    "paper": 1,
+    "number": 17,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "16 The solutions to 7x4 – 6x2 + 1 (cid:3404) 0 are (cid:3399)cos(cid:537) and (cid:3399)cos(cid:533)"
+  },
+  {
+    "year": "2022",
+    "paper": 1,
+    "number": 18,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "It is given that\nf(x) (cid:3404) x2(x – 1)2(x – 2)\ng(x) (cid:3404) –p(x – q)2(x – r)2\nwhere p, q and"
+  },
+  {
+    "year": "2022",
+    "paper": 1,
+    "number": 19,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Circle C is defined as x2 + y2 (cid:3404) 25"
+  },
+  {
+    "year": "2022",
+    "paper": 1,
+    "number": 20,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 4,
+    "stem_preview": "n is the number of points of intersection of the graphs\ny (cid:3404) |x2 – a2| and y (cid:3404) a2|x"
+  },
+  {
+    "year": "2022",
+    "paper": 2,
+    "number": 1,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "Determine the number of stationary points on the curve with equation\ny (cid:3404) 3x4 + 4x3 + 6x2 – "
+  },
+  {
+    "year": "2022",
+    "paper": 2,
+    "number": 2,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "Find the coefficient of the x5 term in the expansion of\n( 1+x )5 ×(cid:166)xi\ni=0"
+  },
+  {
+    "year": "2022",
+    "paper": 2,
+    "number": 3,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Consider the following statement about the positive integer n\nif n is prime, then n2 + 2 is not prim"
+  },
+  {
+    "year": "2022",
+    "paper": 2,
+    "number": 5,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "A straight line L passes through (1,2).\nLet P be the statement\nif the y-intercept of L is negative, "
+  },
+  {
+    "year": "2022",
+    "paper": 2,
+    "number": 8,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "A selection, S, of n terms is taken from the arithmetic sequence 1, 4, 7, 10, … , 70.\nConsider the f"
+  },
+  {
+    "year": "2022",
+    "paper": 2,
+    "number": 9,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "Consider the following statement:\n(∗) For all real numbers x, if x < k then x2 < k\nWhat is the compl"
+  },
+  {
+    "year": "2022",
+    "paper": 2,
+    "number": 10,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 30,
+    "stem_preview": "Which of the following statements is/are true?\nI For all real numbers x and for all positive integer"
+  },
+  {
+    "year": "2022",
+    "paper": 2,
+    "number": 11,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 3,
+    "stem_preview": "z\nx x\nP R\nO\ny\nQ\nThe diagram shows a kite PQRS whose diagonals meet at O.\nOP (cid:3404) x\nOQ (cid:340"
+  },
+  {
+    "year": "2022",
+    "paper": 2,
+    "number": 12,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Place the following integrals in order of size, starting with the smallest.\nP (cid:3404) (cid:179)2 "
+  },
+  {
+    "year": "2022",
+    "paper": 2,
+    "number": 13,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 2,
+    "stem_preview": "Consider the statement (∗) about a real number x:\n(∗) There exists a real number y such that x – xy "
+  },
+  {
+    "year": "2022",
+    "paper": 2,
+    "number": 16,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "In this question, a , …, a and b , …, b and c , …, c are three sequences of integers\n1 100 1 100 1 1"
+  },
+  {
+    "year": "2022",
+    "paper": 2,
+    "number": 17,
+    "stem_issue": "high_cid",
+    "stem_score": 29,
+    "bad_options": 0,
+    "stem_preview": "A student answered the following question:\na and b are non-zero real numbers.\nProve that the equatio"
+  },
+  {
+    "year": "2022",
+    "paper": 2,
+    "number": 18,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "P, Q, R and S show the graphs of\ny (cid:3404) (cos x)cos x, y (cid:3404) (sin x)sin x, y (cid:3404) "
+  },
+  {
+    "year": "2022",
+    "paper": 2,
+    "number": 19,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 3,
+    "stem_preview": "A polygon has n vertices, where n (cid:149) 3. It has the following properties:\n• Every vertex of th"
+  },
+  {
+    "year": "2023",
+    "paper": 1,
+    "number": 1,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "Given that\n∫ (ax+b)dx=1\nand\n∫ x(ax+b)dx=1\nfind the value of a + b."
+  },
+  {
+    "year": "2023",
+    "paper": 1,
+    "number": 2,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "The graphs of y = x2 + 5x + 6 and y = mx – 3, where m is a constant, are plotted on the same\nset of "
+  },
+  {
+    "year": "2023",
+    "paper": 1,
+    "number": 3,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "For any integer n ≥ 0,\nn+1\n∫ f(x)dx = n+1\nn\nEvaluate\n3 3 3 3 3\n∫ f(x)dx + ∫ f(x)dx + ∫ f(x)dx + ∫ f("
+  },
+  {
+    "year": "2023",
+    "paper": 1,
+    "number": 4,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 4,
+    "stem_preview": "Evaluate\nπ\n∑ ∞ sin ⎛ ⎜nπ+ ⎞ ⎟\n⎝ 3⎠\nn=0\n2n"
+  },
+  {
+    "year": "2023",
+    "paper": 1,
+    "number": 5,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "The following shape has two lines of reflectional symmetry.\nN S O\nT\nR\nM U P\n[diagram not to scale]\nM"
+  },
+  {
+    "year": "2023",
+    "paper": 1,
+    "number": 6,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "In the simplified expansion of (2+3x)12, how many of the terms have a coefficient that is\ndivisible "
+  },
+  {
+    "year": "2023",
+    "paper": 1,
+    "number": 7,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "P(x) and Q(x) are defined as follows:\nP(x) = 2 x + 4\nQ(x) = 2(2x – 2) – 2(x + 2) + 16\nFind the large"
+  },
+  {
+    "year": "2023",
+    "paper": 1,
+    "number": 8,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "A triangle XYZ is called fun if it has the following properties:\nangle YXZ = 30°\nXY = 3 a\nYZ = a\nwhe"
+  },
+  {
+    "year": "2023",
+    "paper": 1,
+    "number": 9,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "How many solutions are there to\n(1 + 3cos3θ)2 = 4\nin the interval 0° ≤ θ ≤ 180°?"
+  },
+  {
+    "year": "2023",
+    "paper": 1,
+    "number": 10,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "The trapezium rule with 4 strips is used to estimate the integral:\n∫ 2 4−x2 dx\n−2\nWhat is the positi"
+  },
+  {
+    "year": "2023",
+    "paper": 1,
+    "number": 11,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "It is given that f(x) = x2 – 6x\nThe curves y = f(kx) and y = f(x – c) have the same minimum point, w"
+  },
+  {
+    "year": "2023",
+    "paper": 1,
+    "number": 12,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "How many solutions are there to the equation\n2tan2x\n=1\n4sin2x\nin the range 0 ≤ x ≤ 2π?"
+  },
+  {
+    "year": "2023",
+    "paper": 1,
+    "number": 13,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "Point P lies on the circle with equation (x – 2)2 + (y – 1)2 = 16\nPoint Q lies on the circle with eq"
+  },
+  {
+    "year": "2023",
+    "paper": 1,
+    "number": 14,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "The function\nf(x) = x3 + 2mx2 + n, m > 0\nhas three distinct real roots.\nWhat is the complete range o"
+  },
+  {
+    "year": "2023",
+    "paper": 1,
+    "number": 15,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "The difference between the maximum and minimum values of the function f(x) = acosx ,\nwhere a > 0 and"
+  },
+  {
+    "year": "2023",
+    "paper": 1,
+    "number": 16,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "A right-angled triangle has vertices at (2, 3), (9, –1) and (5, k).\nFind the sum of all the possible"
+  },
+  {
+    "year": "2023",
+    "paper": 1,
+    "number": 17,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "A circle C is defined by\nn\nx2 + y2 = 2n(x + y)\nwhere n is a positive integer."
+  },
+  {
+    "year": "2023",
+    "paper": 1,
+    "number": 18,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "You are given that\n8k 16k2 32k3 ⎛2k ⎞ n\nS = 4 + + + + L + 4⎜ ⎟ + L\n7 49 343 ⎝ 7 ⎠\nThe value for k is"
+  },
+  {
+    "year": "2023",
+    "paper": 1,
+    "number": 19,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "The solution to the differential equation\ndy\n= |−6x| for all x\ndx\nis y = f(x) + c, where c is a cons"
+  },
+  {
+    "year": "2023",
+    "paper": 1,
+    "number": 20,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 3,
+    "stem_preview": "The diagram shows the graph of y = f(x)\nThe function f attains its maximum value of 2 at x = 1, and "
+  },
+  {
+    "year": "2023",
+    "paper": 2,
+    "number": 1,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "Given that\n1 1 3\n− =\nx −6 x +6 11\nwhat is the value of x?"
+  },
+  {
+    "year": "2023",
+    "paper": 2,
+    "number": 2,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "Evaluate\n16 2 16 2\n⎛ 1 ⎞ ⎛ 1 ⎞\n∫ + x dx − ∫ − x dx\n⎜ ⎟ ⎜ ⎟\nx x\n⎝ ⎠ ⎝ ⎠\n9 9"
+  },
+  {
+    "year": "2023",
+    "paper": 2,
+    "number": 3,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Consider the claim:\nFor all positive real numbers x and y,\nxy = x y\nWhich of the following is/are a "
+  },
+  {
+    "year": "2023",
+    "paper": 2,
+    "number": 6,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Consider the following equation where a is a real number and a > 1:\n(∗) ax = x\nWhich of the followin"
+  },
+  {
+    "year": "2023",
+    "paper": 2,
+    "number": 7,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 4,
+    "stem_preview": "The graph of the line ax + by = c is drawn, where a, b and c are real non-zero constants.\nWhich one "
+  },
+  {
+    "year": "2023",
+    "paper": 2,
+    "number": 8,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "A student draws a triangle that is acute-angled or obtuse-angled but not right-angled.\nThe student c"
+  },
+  {
+    "year": "2023",
+    "paper": 2,
+    "number": 9,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Consider the following statement about a pentagon P:\n(∗) If at least one of the interior angles in P"
+  },
+  {
+    "year": "2023",
+    "paper": 2,
+    "number": 11,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "In this question, k is a positive integer.\nConsider the following theorem:\nIf 2 k +1 is a prime, the"
+  },
+  {
+    "year": "2023",
+    "paper": 2,
+    "number": 12,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 4,
+    "stem_preview": "In this question, p is a real constant.\nThe equation sinx cos2x = p2sinx has n distinct solutions in"
+  },
+  {
+    "year": "2023",
+    "paper": 2,
+    "number": 13,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 5,
+    "stem_preview": "Let x be a real number.\nWhich one of the following statements is a sufficient condition for exactly "
+  },
+  {
+    "year": "2023",
+    "paper": 2,
+    "number": 15,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 7,
+    "stem_preview": "The base 10 number 0.03841 has the value\n0 × 10–1 + 3 × 10–2 + 8 × 10–3 + 4 × 10–4 + 1 × 10–5 = 0.03"
+  },
+  {
+    "year": "2023",
+    "paper": 2,
+    "number": 16,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "A sequence is defined by:\nu = a\nu = b\nu = u + u for n ≥ 1\nn+2 n n+1\nwhere a and b are positive integ"
+  },
+  {
+    "year": "2023",
+    "paper": 2,
+    "number": 17,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "The ceiling of x, written ⌈x⌉, is defined to be the value of x rounded up to the nearest integer.\nFo"
+  },
+  {
+    "year": "2023",
+    "paper": 2,
+    "number": 18,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "The equation x4 + bx2 + c = 0 has four distinct real roots if and only if which of the following\ncon"
+  },
+  {
+    "year": "2023",
+    "paper": 2,
+    "number": 19,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "In this question, f(x) is a non-constant polynomial, and g(x) = xf ′(x)\nf(x) = 0 for exactly M real "
+  },
+  {
+    "year": "2023",
+    "paper": 2,
+    "number": 20,
+    "stem_issue": "ok",
+    "stem_score": 0,
+    "bad_options": 6,
+    "stem_preview": "Let f be a polynomial with real coefficients.\nThe integral I where p < q is defined by\np,q\nq\nI = ∫\n("
+  }
+]
