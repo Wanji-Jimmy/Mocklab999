@@ -17,6 +17,8 @@ import nsaa2023 from '@/data/esat/nsaa/2023.json'
 import { NsaaPartKey } from '@/lib/exam-catalog'
 import { Question } from '@/lib/types'
 
+const PLACEHOLDER_MARKER = 'diagram/text unavailable'
+
 type RawPaperQuestion = {
   question: string
   answers: Record<string, string>
@@ -65,12 +67,34 @@ const NSAA_BY_YEAR: Record<string, NsaaYearData> = {
   '2023': nsaa2023 as NsaaYearData,
 }
 
+type PlaceholderStats = {
+  questionCount: number
+  optionCount: number
+}
+
 function cleanLatex(raw: string): string {
   return String(raw || '').replace(/\r\n/g, '\n').replace(/\${4,}/g, '\n\n').trim()
 }
 
 function isImageUrl(value: string): boolean {
   return /^https?:\/\/\S+\.(png|jpe?g|gif|webp|svg)(\?\S*)?$/i.test(value.trim())
+}
+
+function countPlaceholderStats(rows: RawPaperQuestion[]): PlaceholderStats {
+  let questionCount = 0
+  let optionCount = 0
+
+  for (const row of rows) {
+    const placeholderOptionCount = Object.values(row.answers || {}).filter((value) =>
+      String(value || '').toLowerCase().includes(PLACEHOLDER_MARKER),
+    ).length
+    if (placeholderOptionCount > 0) {
+      questionCount += 1
+      optionCount += placeholderOptionCount
+    }
+  }
+
+  return { questionCount, optionCount }
 }
 
 function toQuestionList(
@@ -120,6 +144,12 @@ export function getEngaaQuestionsByYear(year: string): Question[] {
   return [...p1, ...p2]
 }
 
+export function getEngaaPlaceholderStatsByYear(year: string): PlaceholderStats {
+  const source = ENGAA_BY_YEAR[year]
+  if (!source) return { questionCount: 0, optionCount: 0 }
+  return countPlaceholderStats([...source.paper1, ...source.paper2])
+}
+
 function getNsaaRowsByPart(source: NsaaYearData, part: NsaaPartKey): RawPaperQuestion[] {
   if (part === 'part-b-physics') return source.partBPhysics
   if (part === 'part-c-chemistry') return source.partCChemistry
@@ -141,4 +171,16 @@ export function getNsaaQuestionsByYearAndParts(year: string, parts: NsaaPartKey[
     return toQuestionList('NSAA', year, paperNumber, getNsaaRowsByPart(source, part), part)
   })
   return [...mandatoryMath, ...papers]
+}
+
+export function getNsaaPlaceholderStatsByYear(year: string): PlaceholderStats {
+  const source = NSAA_BY_YEAR[year]
+  if (!source) return { questionCount: 0, optionCount: 0 }
+  return countPlaceholderStats([
+    ...source.mandatoryMath,
+    ...source.partBPhysics,
+    ...source.partCChemistry,
+    ...source.partDBiology,
+    ...(source.partEAdvancedMathPhysics || []),
+  ])
 }

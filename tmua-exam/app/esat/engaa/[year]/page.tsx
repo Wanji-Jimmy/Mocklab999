@@ -3,11 +3,13 @@ import { notFound } from 'next/navigation'
 import SystemSwitchBar from '@/components/SystemSwitchBar'
 import { isSupportedYear } from '@/lib/exam-catalog'
 import { getOfficialAnswerKeyPdfUrl, getOfficialQuestionPdfUrl } from '@/lib/esat-official-pdf'
+import { getEngaaPlaceholderStatsByYear } from '@/lib/esat-questions'
 
 export default function EngaaYearPage({ params }: { params: { year: string } }) {
   if (!isSupportedYear(params.year)) notFound()
   const questionPaperUrl = getOfficialQuestionPdfUrl('ENGAA', params.year)
   const answerKeyUrl = getOfficialAnswerKeyPdfUrl('ENGAA', params.year)
+  const quality = getEngaaPlaceholderStatsByYear(params.year)
 
   return (
     <main className="min-h-screen warm-shell p-6 md:p-10">
@@ -55,6 +57,11 @@ export default function EngaaYearPage({ params }: { params: { year: string } }) 
               <div className="text-sm text-slate-600 mt-1">Second paper from official {params.year} ENGAA set.</div>
             </div>
           </div>
+          {quality.questionCount > 0 && (
+            <div className="mt-4 rounded-lg border border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-900">
+              {quality.questionCount} diagram question(s) in this year may need the official PDF for full figures.
+            </div>
+          )}
 
           <Link
             href={`/esat/mock?exam=engaa&year=${params.year}`}
