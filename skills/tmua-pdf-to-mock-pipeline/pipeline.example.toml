@@ -1,0 +1,9 @@
+[paths]
+text_questions = "tmua_questions_v3.json"
+image_questions = "image_based_60_questions.json"
+answers = "extracted_answers.json"
+explanations = "extracted_explanations.json"
+complete_output = "tmua_questions_complete_320.json"
+with_answers_output = "tmua_questions_with_answers_320.json"
+report_output = "tmua_pipeline_report.json"
+app_sync_output = "tmua-exam/data/tmua_questions_with_answers_320.json"

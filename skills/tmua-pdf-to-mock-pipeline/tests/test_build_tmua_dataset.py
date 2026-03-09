@@ -37,6 +37,28 @@ class BuildTmuaDatasetTests(unittest.TestCase):
         self.assertEqual(questions[0]["answer"], "B")
         self.assertEqual(questions[0]["explanation"], "exp")
 
+    def test_autofix_dedup_and_answer(self):
+        questions = [
+            {
+                "year": "2023",
+                "paper": 1,
+                "number": 1,
+                "stem": "abc\u0001",
+                "explanation": "ok\ue001",
+                "answer": "Z",
+                "options": [{"key": "A", "text": "x"}, {"key": "A", "text": "dup"}],
+            }
+        ]
+        stats = mod.apply_autofixes(questions)
+        self.assertEqual(len(questions[0]["options"]), 1)
+        self.assertEqual(questions[0]["answer"], "A")
+        self.assertGreaterEqual(stats["dedupedOptions"], 1)
+        self.assertGreaterEqual(stats["fixedAnswerKey"], 1)
+
+    def test_validate_completeness_detects_missing(self):
+        issues = mod.validate_completeness([])
+        self.assertTrue(any("Expected 320 questions" in i for i in issues))
+
 
 if __name__ == "__main__":
     unittest.main()
