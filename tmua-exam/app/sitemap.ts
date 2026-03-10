@@ -6,9 +6,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = [
     '/',
     '/dashboard',
-    '/esat',
-    '/esat/engaa',
-    '/esat/nsaa',
     '/guides',
   ]
 

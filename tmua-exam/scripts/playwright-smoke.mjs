@@ -2,8 +2,7 @@ import { chromium } from 'playwright'
 
 const BASE = 'http://127.0.0.1:3001'
 const routes = [
-  '/', '/dashboard', '/esat', '/esat/engaa', '/esat/engaa/2016', '/esat/nsaa', '/esat/nsaa/2016',
-  '/esat/mock?exam=engaa&year=2016', '/esat/mock?exam=nsaa&year=2016&parts=part-b-physics', '/account', '/mistakes', '/guides'
+  '/', '/dashboard', '/exam/2016', '/account', '/mistakes', '/guides'
 ]
 
 const browser = await chromium.launch({ headless: true })

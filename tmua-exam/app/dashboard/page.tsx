@@ -196,9 +196,6 @@ export default function DashboardPage() {
                 <Link href={`/exam/${quickStartYear}`} className="warm-primary-btn px-5 py-2.5 rounded-lg">
                   {latestInProgressYear ? `Resume ${latestInProgressYear}` : `Start Latest Year (${latestYear})`}
                 </Link>
-                <Link href="/esat" className="warm-outline-btn px-5 py-2.5 rounded-lg font-semibold">
-                  Open ESAT
-                </Link>
                 <Link href="/account" className="warm-outline-btn px-5 py-2.5 rounded-lg font-semibold">
                   Open My Account
                 </Link>

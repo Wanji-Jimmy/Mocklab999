@@ -79,14 +79,11 @@ export default function GuideDetailPage({ params }: { params: { slug: string } }
         <section className="warm-card rounded-2xl p-6">
           <h2 className="text-xl font-black text-slate-900">Next Step</h2>
           <p className="mt-2 text-slate-700">
-            Confirm your target course requirements, run a timed mock in the relevant system, then review mistakes before planning the next paper.
+            Confirm your target course requirements, run a timed TMUA mock, then review mistakes before planning the next paper.
           </p>
           <div className="mt-4 flex flex-wrap gap-3">
             <Link href="/dashboard" className="warm-primary-btn px-4 py-2 rounded-lg text-sm font-semibold">
               Open TMUA Workflow
-            </Link>
-            <Link href="/esat" className="warm-outline-btn px-4 py-2 rounded-lg text-sm font-semibold">
-              Open ESAT Workflow
             </Link>
           </div>
         </section>
