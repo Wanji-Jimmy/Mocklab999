@@ -4,7 +4,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react'
 import Link from 'next/link'
 import AnimatedBackdrop from '@/components/AnimatedBackdrop'
 import LatexRenderer from '@/components/LatexRenderer'
-import MockLabLogo from '@/components/MockLabLogo'
+import TmuaSiteHeader from '@/components/TmuaSiteHeader'
 import { fetchAuthMe, fetchMistakesV2, fetchQuestionsV2, removeMistakeV2 } from '@/lib/client-api'
 import { Question } from '@/lib/types'
 import { clearMistakes, getCurrentUserEmail, getMistakes, MistakeItem, removeMistake } from '@/lib/storage'
@@ -144,6 +144,45 @@ export default function MistakesPage() {
     const yearQuestions = questionsByYear[selectedMistake.year] || []
     return yearQuestions.find((question) => question.id === selectedMistake.id) || null
   }, [questionsByYear, selectedMistake])
+
+  const latestMistake = useMemo(() => {
+    if (mistakes.length === 0) return null
+    return [...mistakes].sort((a, b) => b.addedAt.localeCompare(a.addedAt))[0] ?? null
+  }, [mistakes])
+
+  const uniqueYearsCovered = useMemo(() => new Set(mistakes.map((item) => item.year)).size, [mistakes])
+  const paper1Count = useMemo(() => mistakes.filter((item) => item.paper === 1).length, [mistakes])
+  const paper2Count = useMemo(() => mistakes.filter((item) => item.paper === 2).length, [mistakes])
+
+  const mistakeSummaryCards = [
+    {
+      label: 'Saved mistakes',
+      value: String(mistakes.length),
+      detail: mistakes.length
+        ? `${uniqueYearsCovered} year${uniqueYearsCovered === 1 ? '' : 's'} represented`
+        : 'Your mistake book is empty until you save a question.',
+    },
+    {
+      label: 'Filtered now',
+      value: String(filtered.length),
+      detail:
+        yearFilter !== 'ALL' || paperFilter !== 'ALL' || queryFilter.trim().length > 0
+          ? 'Current filters are active.'
+          : 'Showing the full book.',
+    },
+    {
+      label: 'Paper split',
+      value: `${paper1Count}/${paper2Count}`,
+      detail: 'Paper 1 / Paper 2 saved-question balance.',
+    },
+    {
+      label: 'Latest saved',
+      value: latestMistake ? `${latestMistake.year} · Q${latestMistake.index + 1}` : 'None',
+      detail: latestMistake
+        ? `Paper ${latestMistake.paper} · ${new Date(latestMistake.addedAt).toLocaleDateString()}`
+        : 'Save incorrect questions from any reviewed mock.',
+    },
+  ]
 
   const loadYearQuestions = useCallback(async (year: string) => {
     if (questionsByYear[year]) return
@@ -326,23 +365,49 @@ export default function MistakesPage() {
   }, [selectedMistake, filtered, selectedMistakeIndex])
 
   return (
-    <div className="warm-shell relative overflow-hidden p-6 md:p-10">
-      <AnimatedBackdrop tone="warm" />
-      <div className="relative z-10 max-w-5xl mx-auto space-y-5">
-        <div className="flex items-center justify-between gap-4">
-          <MockLabLogo tone="warm" />
-          <Link href="/dashboard" className="warm-outline-btn px-4 py-2 rounded-lg text-sm">
-            Back Dashboard
-          </Link>
-        </div>
+    <main className="warm-shell min-h-screen overflow-hidden p-6 md:p-10">
+      <AnimatedBackdrop intensity="strong" tone="warm" />
+      <div className="relative z-10 mx-auto flex max-w-6xl flex-col gap-6">
+        <TmuaSiteHeader active="mistakes" />
 
-        <header className="warm-card rounded-3xl p-6 md:p-8 flex flex-wrap items-start justify-between gap-4">
-          <div>
-            <p className="text-xs uppercase tracking-wide font-semibold text-slate-500">Personal Practice</p>
-            <h1 className="text-3xl md:text-4xl font-black text-slate-900">Mistake Center</h1>
-            <p className="mt-2 text-slate-600">Track weak points, reopen exact questions, and clean up your mistake list quickly.</p>
+        <section className="warm-card relative overflow-hidden rounded-[2rem] p-7 md:p-9">
+          <div className="absolute inset-0 bg-gradient-to-b from-white/88 via-white/82 to-white/86" aria-hidden />
+          <div className="relative z-10">
+            <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+              <div>
+                <p className="warm-pill inline-flex rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em]">
+                  Personal Practice
+                </p>
+                <h1 className="mt-4 max-w-4xl text-3xl font-black tracking-tight text-slate-900 md:text-5xl">
+                  Review saved TMUA mistakes without losing the exact paper and question position.
+                </h1>
+                <p className="mt-4 max-w-3xl text-base leading-relaxed text-slate-600 md:text-lg">
+                  Use this page when you already know a question matters: filter the saved list, open the full explanation, and jump
+                  straight back into the matching TMUA paper when you want the original exam context.
+                </p>
+              </div>
+
+              <div className="flex flex-wrap gap-3">
+                <Link href="/dashboard" className="warm-primary-btn rounded-lg px-5 py-2.5 text-sm">
+                  Open Full Mock Hub
+                </Link>
+                <Link href="/account" className="warm-outline-btn rounded-lg px-5 py-2.5 text-sm font-semibold">
+                  Open My Account
+                </Link>
+              </div>
+            </div>
+
+            <div className="mt-7 grid gap-3 md:grid-cols-2 xl:grid-cols-4">
+              {mistakeSummaryCards.map((card) => (
+                <div key={card.label} className="warm-card-muted rounded-2xl p-4">
+                  <div className="text-xs font-semibold uppercase tracking-[0.14em] text-slate-500">{card.label}</div>
+                  <div className="mt-2 text-2xl font-black tracking-tight text-slate-900 md:text-3xl">{card.value}</div>
+                  <div className="mt-2 text-sm leading-relaxed text-slate-600">{card.detail}</div>
+                </div>
+              ))}
+            </div>
           </div>
-        </header>
+        </section>
 
         {!email && (
           <div className="warm-card rounded-2xl p-6">
@@ -603,6 +668,6 @@ export default function MistakesPage() {
           {infoMessage}
         </div>
       )}
-    </div>
+    </main>
   )
 }

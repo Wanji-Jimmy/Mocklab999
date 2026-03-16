@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import MockLabLogo from '@/components/MockLabLogo'
 
-type NavKey = 'home' | 'dashboard' | 'score-converter' | 'resources' | 'guides' | 'account'
+type NavKey = 'home' | 'dashboard' | 'score-converter' | 'resources' | 'guides' | 'account' | 'mistakes'
 
 const NAV_ITEMS: Array<{ key: NavKey; href: string; label: string }> = [
   { key: 'home', href: '/', label: 'Home' },
@@ -10,6 +10,7 @@ const NAV_ITEMS: Array<{ key: NavKey; href: string; label: string }> = [
   { key: 'resources', href: '/resources', label: 'Resources' },
   { key: 'guides', href: '/guides', label: 'Guides' },
   { key: 'account', href: '/account', label: 'My Account' },
+  { key: 'mistakes', href: '/mistakes', label: 'Mistake Center' },
 ]
 
 export default function TmuaSiteHeader({ active }: { active?: NavKey }) {

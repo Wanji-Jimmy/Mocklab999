@@ -4,7 +4,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import Link from 'next/link'
 import AnimatedBackdrop from '@/components/AnimatedBackdrop'
 import LatexRenderer from '@/components/LatexRenderer'
-import MockLabLogo from '@/components/MockLabLogo'
+import TmuaSiteHeader from '@/components/TmuaSiteHeader'
 import {
   addMistakeV2,
   fetchAttemptsV2,
@@ -351,6 +351,42 @@ export default function AccountPage() {
     if (!reviewQuestionId) return -1
     return filteredReviewRows.findIndex((row) => row.questionId === reviewQuestionId)
   }, [filteredReviewRows, reviewQuestionId])
+
+  const latestAttempt = sortedAttempts[0] ?? null
+
+  const bestAttempt = useMemo(() => {
+    if (attempts.length === 0) return null
+    return attempts.reduce((best, attempt) => (attempt.totalScore > best.totalScore ? attempt : best), attempts[0])
+  }, [attempts])
+
+  const accountSummaryCards = [
+    {
+      label: 'Session',
+      value: currentEmail ? 'Signed in' : 'Guest mode',
+      detail: currentEmail
+        ? `${backendSessionActive ? 'Cloud account' : 'Local workspace'}${usingLocalFallback ? ' · offline fallback' : ''}`
+        : 'Sign in to keep records across devices.',
+    },
+    {
+      label: 'Attempts saved',
+      value: String(sortedAttempts.length),
+      detail: latestAttempt
+        ? `Latest ${latestAttempt.year} · ${new Date(latestAttempt.takenAt).toLocaleDateString()}`
+        : 'No completed full mocks yet.',
+    },
+    {
+      label: 'Mistakes saved',
+      value: String(sortedMistakes.length),
+      detail: sortedMistakes.length
+        ? `${mistakeYears.length} year${mistakeYears.length === 1 ? '' : 's'} covered`
+        : 'Add mistakes from any reviewed paper.',
+    },
+    {
+      label: 'Best result',
+      value: bestAttempt ? `${bestAttempt.totalScore}/40` : 'No score',
+      detail: bestAttempt ? `${bestAttempt.year} · Grade ${bestAttempt.grade.toFixed(1)}` : 'Results appear after your first submission.',
+    },
+  ]
 
   const joinedCode = codeDigits.join('')
   const resendSeconds = Math.max(0, Math.ceil((resendAvailableAt - now) / 1000))
@@ -1167,31 +1203,49 @@ export default function AccountPage() {
   }, [selectedAttempt, filteredReviewRows, reviewQuestionId, selectedReviewRowIndex])
 
   return (
-    <div className="warm-shell relative overflow-hidden p-6 md:p-10">
-      <AnimatedBackdrop tone="warm" />
-      <div className="relative z-10 max-w-6xl mx-auto space-y-6">
-        <div className="flex items-center justify-between gap-4">
-          <MockLabLogo tone="warm" />
-          <div className="flex gap-2">
-            <Link href="/dashboard" className="warm-outline-btn px-4 py-2 rounded-lg text-sm font-semibold">
-              Dashboard
-            </Link>
-            <Link href="/" className="warm-outline-btn px-4 py-2 rounded-lg text-sm font-semibold">
-              Intro
-            </Link>
-          </div>
-        </div>
+    <main className="warm-shell min-h-screen overflow-hidden p-6 md:p-10">
+      <AnimatedBackdrop intensity="strong" tone="warm" />
+      <div className="relative z-10 mx-auto flex max-w-6xl flex-col gap-6">
+        <TmuaSiteHeader active="account" />
 
-        <header className="warm-card rounded-3xl p-7 md:p-8 flex flex-wrap items-start justify-between gap-4">
-          <div>
-            <p className="text-xs uppercase tracking-wide font-semibold text-slate-500">Personal Workspace</p>
-            <h1 className="text-3xl md:text-4xl font-black text-slate-900">My Account</h1>
-            <p className="mt-2 text-slate-600">View your exam history and manage your mistake book in one place.</p>
+        <section className="warm-card relative overflow-hidden rounded-[2rem] p-7 md:p-9">
+          <div className="absolute inset-0 bg-gradient-to-b from-white/88 via-white/82 to-white/86" aria-hidden />
+          <div className="relative z-10">
+            <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+              <div>
+                <p className="warm-pill inline-flex rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em]">
+                  Personal Workspace
+                </p>
+                <h1 className="mt-4 max-w-4xl text-3xl font-black tracking-tight text-slate-900 md:text-5xl">
+                  Keep mock history, backup files, and mistake review in one TMUA account hub.
+                </h1>
+                <p className="mt-4 max-w-3xl text-base leading-relaxed text-slate-600 md:text-lg">
+                  This page is for the records around the exam engine: sign in, export your data, reopen detailed attempt review,
+                  and keep the mistake book usable across multiple study sessions.
+                </p>
+              </div>
+
+              <div className="flex flex-wrap gap-3">
+                <Link href="/dashboard" className="warm-primary-btn rounded-lg px-5 py-2.5 text-sm">
+                  Open Full Mock Hub
+                </Link>
+                <Link href="/mistakes" className="warm-outline-btn rounded-lg px-5 py-2.5 text-sm font-semibold">
+                  Open Mistake Center
+                </Link>
+              </div>
+            </div>
+
+            <div className="mt-7 grid gap-3 md:grid-cols-2 xl:grid-cols-4">
+              {accountSummaryCards.map((card) => (
+                <div key={card.label} className="warm-card-muted rounded-2xl p-4">
+                  <div className="text-xs font-semibold uppercase tracking-[0.14em] text-slate-500">{card.label}</div>
+                  <div className="mt-2 text-2xl font-black tracking-tight text-slate-900 md:text-3xl">{card.value}</div>
+                  <div className="mt-2 text-sm leading-relaxed text-slate-600">{card.detail}</div>
+                </div>
+              ))}
+            </div>
           </div>
-          <Link href="/dashboard" className="warm-outline-btn px-4 py-2 rounded-lg text-sm">
-            Back to Dashboard
-          </Link>
-        </header>
+        </section>
 
         <section className="warm-card rounded-2xl p-6 md:p-7">
           <h2 className="font-bold text-slate-900 text-xl">Account Security</h2>
@@ -1897,6 +1951,6 @@ export default function AccountPage() {
           {infoMessage}
         </div>
       )}
-    </div>
+    </main>
   )
 }
