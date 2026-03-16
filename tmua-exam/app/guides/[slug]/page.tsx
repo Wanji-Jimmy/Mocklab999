@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
+import AnimatedBackdrop from '@/components/AnimatedBackdrop'
+import TmuaSiteHeader from '@/components/TmuaSiteHeader'
 import { ADMISSIONS_GUIDES, getGuideBySlug } from '@/lib/admissions-guides'
 
 export function generateStaticParams() {
@@ -39,10 +41,13 @@ export default function GuideDetailPage({ params }: { params: { slug: string } }
 
   return (
     <main className="min-h-screen warm-shell p-6 md:p-10">
+      <AnimatedBackdrop intensity="strong" tone="warm" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <div className="max-w-5xl mx-auto space-y-6">
+      <div className="relative z-10 max-w-5xl mx-auto space-y-6">
+        <TmuaSiteHeader active="guides" />
+
         <header className="warm-card rounded-2xl p-6 md:p-8">
-          <p className="inline-flex warm-pill rounded-full px-3 py-1 text-xs font-semibold tracking-wide uppercase">Admissions Guide</p>
+          <p className="inline-flex warm-pill rounded-full px-3 py-1 text-xs font-semibold tracking-wide uppercase">TMUA Admissions Guide</p>
           <h1 className="mt-3 text-3xl md:text-4xl font-black text-slate-900">{guide.title}</h1>
           <p className="mt-3 text-slate-600">{guide.description}</p>
           <div className="mt-4 text-sm text-slate-700">Audience: {guide.audience}</div>
@@ -83,7 +88,13 @@ export default function GuideDetailPage({ params }: { params: { slug: string } }
           </p>
           <div className="mt-4 flex flex-wrap gap-3">
             <Link href="/dashboard" className="warm-primary-btn px-4 py-2 rounded-lg text-sm font-semibold">
-              Open TMUA Workflow
+              Open full mock
+            </Link>
+            <Link href="/score-converter" className="warm-outline-btn px-4 py-2 rounded-lg text-sm font-semibold">
+              Convert a score
+            </Link>
+            <Link href="/resources" className="warm-outline-btn px-4 py-2 rounded-lg text-sm font-semibold">
+              Read resources
             </Link>
           </div>
         </section>

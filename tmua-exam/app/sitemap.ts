@@ -6,6 +6,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = [
     '/',
     '/dashboard',
+    '/score-converter',
+    '/resources',
     '/guides',
   ]
 

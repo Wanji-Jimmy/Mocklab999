@@ -3,8 +3,8 @@
 import { useEffect, useMemo, useState } from 'react'
 import Link from 'next/link'
 import AnimatedBackdrop from '@/components/AnimatedBackdrop'
-import MockLabLogo from '@/components/MockLabLogo'
 import RevealOnScroll from '@/components/RevealOnScroll'
+import TmuaSiteHeader from '@/components/TmuaSiteHeader'
 import { fetchAttemptsV2, fetchAuthMe, fetchMistakesV2 } from '@/lib/client-api'
 import { getCurrentUserEmail, getExamAttempts, getMistakes, ExamAttempt } from '@/lib/storage'
 
@@ -148,40 +148,30 @@ export default function DashboardPage() {
       <AnimatedBackdrop intensity="strong" tone="warm" />
 
       <div className="relative z-10 max-w-6xl mx-auto space-y-7">
-        <header className="flex items-center justify-between gap-4">
-          <MockLabLogo href="/" tone="warm" />
-          <div className="flex gap-2">
-            <Link href="/" className="warm-outline-btn px-4 py-2 rounded-lg font-semibold text-sm">
-              Intro Page
-            </Link>
-            <Link href="/account" className="warm-primary-btn px-4 py-2 rounded-lg text-sm">
-              My Account
-            </Link>
-          </div>
-        </header>
+        <TmuaSiteHeader active="dashboard" />
 
         <RevealOnScroll>
           <section className="warm-card rounded-3xl p-7 md:p-9 overflow-hidden relative">
             <div className="absolute inset-0 bg-gradient-to-b from-white/86 via-white/80 to-white/88" aria-hidden />
             <div className="relative z-10">
               <p className="inline-flex warm-pill rounded-full px-3 py-1 text-xs font-semibold tracking-wide uppercase">
-                Pre-Exam Hub
+                Full Mock Hub
               </p>
               <h1 className="mt-4 text-3xl md:text-4xl font-black tracking-tight text-slate-900 leading-tight max-w-5xl">
-                Choose Your Year, Enter Paper 1 and Paper 2, and Start the Full Mock Workflow
+                Choose a year, resume saved progress, or use a TMUA planning tool before the next paper.
               </h1>
               <p className="mt-3 text-slate-600 max-w-4xl">
-                Select any year from 2016 to 2023 and launch the timed two-paper exam. Results and mistakes sync to My Account.
+                The mock engine stays unchanged. This page is where you pick the next paper set, check your current position, and jump to score planning or review resources.
               </p>
 
               <div className="mt-6 grid md:grid-cols-3 gap-4">
                 <div className="warm-card-muted rounded-xl p-4">
-                <div className="text-xs uppercase tracking-wide text-slate-500">Account Status</div>
-                <div className="text-base font-bold text-slate-900 mt-1">{email ? email : 'Not signed in'}</div>
-                {usingLocalFallback && (
-                  <div className="text-[11px] text-amber-700 mt-1">Offline fallback: showing local cached records.</div>
-                )}
-              </div>
+                  <div className="text-xs uppercase tracking-wide text-slate-500">Account Status</div>
+                  <div className="text-base font-bold text-slate-900 mt-1">{email ? email : 'Not signed in'}</div>
+                  {usingLocalFallback && (
+                    <div className="text-[11px] text-amber-700 mt-1">Offline fallback: showing local cached records.</div>
+                  )}
+                </div>
                 <div className="warm-card-muted rounded-xl p-4">
                   <div className="text-xs uppercase tracking-wide text-slate-500">Mock Records</div>
                   <div className="text-2xl font-black warm-accent-text mt-1">{attemptCount}</div>
@@ -195,6 +185,12 @@ export default function DashboardPage() {
               <div className="mt-6 flex flex-wrap gap-3">
                 <Link href={`/exam/${quickStartYear}`} className="warm-primary-btn px-5 py-2.5 rounded-lg">
                   {latestInProgressYear ? `Resume ${latestInProgressYear}` : `Start Latest Year (${latestYear})`}
+                </Link>
+                <Link href="/score-converter" className="warm-outline-btn px-5 py-2.5 rounded-lg font-semibold">
+                  Convert a Score
+                </Link>
+                <Link href="/resources" className="warm-outline-btn px-5 py-2.5 rounded-lg font-semibold">
+                  Open Resources
                 </Link>
                 <Link href="/account" className="warm-outline-btn px-5 py-2.5 rounded-lg font-semibold">
                   Open My Account
@@ -213,6 +209,41 @@ export default function DashboardPage() {
         </RevealOnScroll>
 
         <RevealOnScroll delayMs={90}>
+          <section className="grid gap-4 md:grid-cols-3">
+            <article className="warm-card rounded-2xl p-5">
+              <div className="text-xs uppercase tracking-[0.14em] text-slate-500">Quick Tool</div>
+              <h2 className="mt-2 text-lg font-black text-slate-900">Score converter</h2>
+              <p className="mt-2 text-sm leading-relaxed text-slate-600">
+                Turn your raw TMUA score into a grade band and use that band to decide the next revision move.
+              </p>
+              <Link href="/score-converter" className="warm-primary-btn mt-4 rounded-lg px-4 py-2 text-sm">
+                Open converter
+              </Link>
+            </article>
+            <article className="warm-card rounded-2xl p-5">
+              <div className="text-xs uppercase tracking-[0.14em] text-slate-500">Quick Tool</div>
+              <h2 className="mt-2 text-lg font-black text-slate-900">Resources</h2>
+              <p className="mt-2 text-sm leading-relaxed text-slate-600">
+                Read short pages on Paper 2 logic, mock review, and how to turn each paper into a cleaner next step.
+              </p>
+              <Link href="/resources" className="warm-primary-btn mt-4 rounded-lg px-4 py-2 text-sm">
+                Browse resources
+              </Link>
+            </article>
+            <article className="warm-card rounded-2xl p-5">
+              <div className="text-xs uppercase tracking-[0.14em] text-slate-500">Quick Tool</div>
+              <h2 className="mt-2 text-lg font-black text-slate-900">Admissions guides</h2>
+              <p className="mt-2 text-sm leading-relaxed text-slate-600">
+                Use course-level TMUA pages for Cambridge, UCL, LSE, Warwick, Durham, and related pathways.
+              </p>
+              <Link href="/guides" className="warm-primary-btn mt-4 rounded-lg px-4 py-2 text-sm">
+                Read guides
+              </Link>
+            </article>
+          </section>
+        </RevealOnScroll>
+
+        <RevealOnScroll delayMs={130}>
           <section>
             <div className="mb-4 flex items-center justify-between">
               <h2 className="text-2xl md:text-3xl font-black tracking-tight text-slate-900">TMUA Year Sets (2016-2023)</h2>

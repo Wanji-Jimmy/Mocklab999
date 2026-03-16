@@ -6,8 +6,8 @@ import ExamLaunchTransition from '@/components/ExamLaunchTransition'
 import { LanguageProvider } from '@/components/LanguageProvider'
 
 export const metadata: Metadata = {
-  title: 'MockLab999 | TMUA + ESAT Mock Platform',
-  description: 'Prepare for UK admissions tests with realistic mocks, course-specific pathways, and weakness diagnosis.',
+  title: 'MockLab999 | TMUA Preparation Platform',
+  description: 'Prepare for TMUA with full timed mocks, score conversion, mistake review, and application-focused guides.',
 }
 
 export default function RootLayout({
