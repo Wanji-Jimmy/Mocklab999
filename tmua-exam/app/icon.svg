@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="16" y1="12" x2="112" y2="116" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f172a" />
+      <stop offset="1" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="mark" x1="24" y1="24" x2="96" y2="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffd07a" />
+      <stop offset="0.55" stop-color="#d8d65e" />
+      <stop offset="1" stop-color="#79c76b" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(102 30) rotate(127.769) scale(25.1863)">
+      <stop stop-color="#f7ec8a" />
+      <stop offset="1" stop-color="#9bcf65" stop-opacity="0.1" />
+    </radialGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg)" />
+  <rect x="3" y="3" width="122" height="122" rx="25" fill="none" stroke="#d6e7a1" stroke-opacity="0.35" stroke-width="2" />
+  <circle cx="103" cy="29" r="17" fill="url(#glow)" />
+  <circle cx="103" cy="29" r="8" fill="#b5dc67" />
+  <path d="M25 90 39 35h10l15 31 15-31h10l14 55H92L83 57 68 90H60L45 57 36 90H25Z" fill="url(#mark)" />
+</svg>

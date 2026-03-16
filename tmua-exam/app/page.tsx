@@ -1,10 +1,10 @@
-'use client'
-
 import Link from 'next/link'
+import type { Metadata } from 'next'
 import AnimatedBackdrop from '@/components/AnimatedBackdrop'
 import RevealOnScroll from '@/components/RevealOnScroll'
 import TmuaSiteHeader from '@/components/TmuaSiteHeader'
 import { ADMISSIONS_GUIDES } from '@/lib/admissions-guides'
+import { absoluteUrl, SITE_NAME } from '@/lib/site'
 import { TMUA_RESOURCE_GROUPS } from '@/lib/tmua-resources'
 
 const HERO_FACTS = [
@@ -29,13 +29,45 @@ const PLATFORM_BLOCKS = [
   },
 ]
 
+export const metadata: Metadata = {
+  title: 'UK admissions test prep for TMUA applicants',
+  description:
+    'Use MockLab999 for timed TMUA mocks, score conversion, focused resources, and course-specific guides for high-intent applicants.',
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    title: 'MockLab999 for TMUA applicants',
+    description:
+      'Timed TMUA mocks, score conversion, focused resources, and course-specific preparation pages in one platform.',
+    url: absoluteUrl('/'),
+    siteName: SITE_NAME,
+  },
+  twitter: {
+    card: 'summary',
+    title: 'MockLab999 for TMUA applicants',
+    description:
+      'Timed TMUA mocks, score conversion, focused resources, and course-specific preparation pages in one platform.',
+  },
+}
+
 export default function Home() {
   const featuredGuides = ADMISSIONS_GUIDES.slice(0, 4)
   const featuredResources = TMUA_RESOURCE_GROUPS.flatMap((group) => group.items).slice(0, 3)
+  const homeJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: SITE_NAME,
+    url: absoluteUrl('/'),
+    description:
+      'Timed TMUA mocks, score conversion, focused resources, and course-specific preparation pages in one platform.',
+    inLanguage: 'en',
+  }
 
   return (
-    <div className="warm-shell relative overflow-hidden p-6 md:p-10">
+    <main className="warm-shell relative overflow-hidden p-6 md:p-10">
       <AnimatedBackdrop intensity="strong" tone="warm" />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }} />
 
       <div className="relative z-10 mx-auto flex max-w-6xl flex-col gap-6">
         <TmuaSiteHeader active="home" />
@@ -132,6 +164,6 @@ export default function Home() {
           </section>
         </RevealOnScroll>
       </div>
-    </div>
+    </main>
   )
 }

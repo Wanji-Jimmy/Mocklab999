@@ -1,12 +1,30 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import AnimatedBackdrop from '@/components/AnimatedBackdrop'
 import RevealOnScroll from '@/components/RevealOnScroll'
 import TmuaSiteHeader from '@/components/TmuaSiteHeader'
 import { ADMISSIONS_GUIDES } from '@/lib/admissions-guides'
+import { absoluteUrl, SITE_NAME } from '@/lib/site'
 
-export const metadata = {
-  title: 'TMUA Guides | MockLab999',
+export const metadata: Metadata = {
+  title: 'TMUA Guides',
   description: 'Course-specific TMUA guides for applicants targeting Cambridge, UCL, LSE, Warwick, Durham, and related pathways.',
+  alternates: {
+    canonical: '/guides',
+  },
+  openGraph: {
+    title: `TMUA Guides | ${SITE_NAME}`,
+    description:
+      'Course-specific TMUA guides for applicants targeting Cambridge, UCL, LSE, Warwick, Durham, and related pathways.',
+    url: absoluteUrl('/guides'),
+    siteName: SITE_NAME,
+  },
+  twitter: {
+    card: 'summary',
+    title: `TMUA Guides | ${SITE_NAME}`,
+    description:
+      'Course-specific TMUA guides for applicants targeting Cambridge, UCL, LSE, Warwick, Durham, and related pathways.',
+  },
 }
 
 export default function GuidesIndexPage() {

@@ -1,8 +1,8 @@
 import type { MetadataRoute } from 'next'
 import { ADMISSIONS_GUIDES } from '@/lib/admissions-guides'
+import { absoluteUrl } from '@/lib/site'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = 'https://mocklab999.com'
   const staticRoutes = [
     '/',
     '/dashboard',
@@ -12,14 +12,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ]
 
   const staticEntries = staticRoutes.map((route) => ({
-    url: `${base}${route}`,
+    url: absoluteUrl(route),
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,
     priority: route === '/' ? 1 : 0.7,
   }))
 
   const guideEntries = ADMISSIONS_GUIDES.map((guide) => ({
-    url: `${base}/guides/${guide.slug}`,
+    url: absoluteUrl(`/guides/${guide.slug}`),
     lastModified: new Date(guide.updatedAt),
     changeFrequency: 'weekly' as const,
     priority: 0.8,

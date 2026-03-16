@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import AnimatedBackdrop from '@/components/AnimatedBackdrop'
 import TmuaSiteHeader from '@/components/TmuaSiteHeader'
 import { ADMISSIONS_GUIDES, getGuideBySlug } from '@/lib/admissions-guides'
+import { absoluteUrl, SITE_NAME } from '@/lib/site'
 
 export function generateStaticParams() {
   return ADMISSIONS_GUIDES.map((guide) => ({ slug: guide.slug }))
@@ -12,11 +13,26 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const guide = getGuideBySlug(params.slug)
   if (!guide) {
-    return { title: 'Guide Not Found | MockLab999' }
+    return { title: 'Guide Not Found' }
   }
   return {
-    title: `${guide.title} | MockLab999`,
+    title: guide.title,
     description: guide.description,
+    alternates: {
+      canonical: `/guides/${guide.slug}`,
+    },
+    openGraph: {
+      title: `${guide.title} | ${SITE_NAME}`,
+      description: guide.description,
+      url: absoluteUrl(`/guides/${guide.slug}`),
+      siteName: SITE_NAME,
+      type: 'article',
+    },
+    twitter: {
+      card: 'summary',
+      title: `${guide.title} | ${SITE_NAME}`,
+      description: guide.description,
+    },
   }
 }
 
@@ -39,10 +55,56 @@ export default function GuideDetailPage({ params }: { params: { slug: string } }
     })),
   }
 
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: absoluteUrl('/'),
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Guides',
+        item: absoluteUrl('/guides'),
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: guide.title,
+        item: absoluteUrl(`/guides/${guide.slug}`),
+      },
+    ],
+  }
+
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: guide.title,
+    description: guide.description,
+    author: {
+      '@type': 'Organization',
+      name: SITE_NAME,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: SITE_NAME,
+    },
+    dateModified: guide.updatedAt,
+    datePublished: guide.updatedAt,
+    mainEntityOfPage: absoluteUrl(`/guides/${guide.slug}`),
+    about: guide.primaryTest,
+  }
+
   return (
     <main className="min-h-screen warm-shell p-6 md:p-10">
       <AnimatedBackdrop intensity="strong" tone="warm" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
       <div className="relative z-10 max-w-5xl mx-auto space-y-6">
         <TmuaSiteHeader active="guides" />
 

@@ -1,12 +1,28 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import AnimatedBackdrop from '@/components/AnimatedBackdrop'
 import RevealOnScroll from '@/components/RevealOnScroll'
 import TmuaSiteHeader from '@/components/TmuaSiteHeader'
+import { absoluteUrl, SITE_NAME } from '@/lib/site'
 import { TMUA_RESOURCE_GROUPS } from '@/lib/tmua-resources'
 
-export const metadata = {
-  title: 'TMUA Resources | MockLab999',
+export const metadata: Metadata = {
+  title: 'TMUA Resources',
   description: 'Short TMUA preparation pages for Paper 2 logic, mock review, pacing, and score planning.',
+  alternates: {
+    canonical: '/resources',
+  },
+  openGraph: {
+    title: `TMUA Resources | ${SITE_NAME}`,
+    description: 'Short TMUA preparation pages for Paper 2 logic, mock review, pacing, and score planning.',
+    url: absoluteUrl('/resources'),
+    siteName: SITE_NAME,
+  },
+  twitter: {
+    card: 'summary',
+    title: `TMUA Resources | ${SITE_NAME}`,
+    description: 'Short TMUA preparation pages for Paper 2 logic, mock review, pacing, and score planning.',
+  },
 }
 
 export default function ResourcesPage() {
