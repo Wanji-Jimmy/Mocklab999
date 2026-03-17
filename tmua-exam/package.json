@@ -22,6 +22,7 @@
     "@prisma/client": "^5.9.1",
     "@react-three/fiber": "^8.17.10",
     "katex": "^0.16.9",
+    "lucide-react": "^0.577.0",
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",

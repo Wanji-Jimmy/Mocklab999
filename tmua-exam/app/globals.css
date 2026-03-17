@@ -17,6 +17,15 @@
   --warm-slate: #6a7451;
   --warm-border: #dde9bf;
   --warm-bg: #f6f8ef;
+  --nav-blue: #0f2439;
+  --academic-gold: #d4af37;
+  --gold-hover: #b5952f;
+  --bg-cream: #f5f2eb;
+  --text-main: #1f2937;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
