@@ -2,7 +2,7 @@ import Link from 'next/link'
 import AnimatedBackdrop from '@/components/AnimatedBackdrop'
 import RevealOnScroll from '@/components/RevealOnScroll'
 import TmuaSiteHeader from '@/components/TmuaSiteHeader'
-import { MAT_MANIFEST, STEP_MANIFEST, uniqueYears } from '@/lib/admissions-library'
+import { MAT_MANIFEST, STEP_MANIFEST, TMUA_MANIFEST, uniqueYears } from '@/lib/admissions-library'
 
 const MODULES = [
   {
@@ -14,10 +14,10 @@ const MODULES = [
   },
   {
     title: 'TMUA Papers',
-    description: 'Open TMUA year sets by paper, so Paper 1 and Paper 2 can be launched separately.',
+    description: 'Browse locally hosted official TMUA papers, worked answers, and answer keys, with direct entry into the exam engine.',
     href: '/tmua/papers',
-    stat: '8 years',
-    detail: 'Direct paper entry',
+    stat: `${TMUA_MANIFEST.count} files`,
+    detail: `${uniqueYears(TMUA_MANIFEST.items).slice(-1)[0]}-${uniqueYears(TMUA_MANIFEST.items)[0]} + specimen`,
   },
   {
     title: 'STEP Papers & Solutions',

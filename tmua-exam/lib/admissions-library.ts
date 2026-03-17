@@ -1,9 +1,10 @@
+import tmuaManifestRaw from '@/data/admissions/tmua-manifest.json'
 import stepManifestRaw from '@/data/admissions/step-manifest.json'
 import matManifestRaw from '@/data/admissions/mat-manifest.json'
 
 export type AdmissionsMaterialItem = {
   id: string
-  exam: 'step' | 'mat'
+  exam: 'tmua' | 'step' | 'mat'
   title: string
   year: number | null
   category: string
@@ -13,10 +14,11 @@ export type AdmissionsMaterialItem = {
   publicUrl: string
   relativePath: string
   sizeBytes: number
+  sortOrder?: number
 }
 
 export type AdmissionsManifest = {
-  exam: 'step' | 'mat'
+  exam: 'tmua' | 'step' | 'mat'
   sourcePage: string
   generatedAt: string
   count: number
@@ -24,6 +26,7 @@ export type AdmissionsManifest = {
   items: AdmissionsMaterialItem[]
 }
 
+export const TMUA_MANIFEST = tmuaManifestRaw as AdmissionsManifest
 export const STEP_MANIFEST = stepManifestRaw as AdmissionsManifest
 export const MAT_MANIFEST = matManifestRaw as AdmissionsManifest
 
