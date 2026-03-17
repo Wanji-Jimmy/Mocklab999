@@ -31,29 +31,29 @@ const FEATURE_CARDS = [
   },
 ] as const
 
-const PRICING_PLANS = [
+const ACCESS_PANELS = [
   {
-    name: 'Starter',
-    price: 'Free',
-    description: 'For students who want to sit full mocks and see where their current TMUA level actually is.',
+    name: 'Full Mocks',
+    title: 'Free',
+    description: 'Sit full TMUA papers by year and use them to see your real timing level before admissions deadlines.',
     items: ['Full TMUA year selection', 'Score conversion tool', 'Guide library access'],
     cta: 'Open Dashboard',
     href: '/dashboard',
     featured: false,
   },
   {
-    name: 'Practice System',
-    price: 'Core Workflow',
-    description: 'For applicants who want a stable routine: timed mocks, post-paper review, and a cleaner next action every week.',
+    name: 'Review Workflow',
+    title: 'Included',
+    description: 'Use the account space, mistake center, and result flow as part of the same free platform workflow.',
     items: ['Mistake center workflow', 'Account workspace', 'Structured next-step tools'],
     cta: 'Open My Account',
     href: '/account',
     featured: true,
   },
   {
-    name: 'Admissions Prep',
-    price: 'Course-Focused',
-    description: 'For students who need TMUA preparation tied to Economics, Mathematics, Computing, and related application paths.',
+    name: 'Application Guides',
+    title: 'Open Access',
+    description: 'Read TMUA-focused guide pages for Economics, Mathematics, Computer Science, and related admissions paths.',
     items: ['High-intent guides', 'Score planning support', 'Course-specific reading pages'],
     cta: 'Read Guides',
     href: '/guides',
@@ -64,7 +64,7 @@ const PRICING_PLANS = [
 export const metadata: Metadata = {
   title: 'Master the TMUA | MockLab999',
   description:
-    'Premium-style TMUA landing page with full mocks, expert-style review workflow, and course-focused preparation for Oxbridge-minded applicants.',
+    'Free TMUA landing page with full mocks, review workflow, and course-focused preparation for Oxbridge-minded applicants.',
   alternates: {
     canonical: '/',
   },
@@ -105,7 +105,7 @@ export default function Home() {
           <nav className="hidden items-center gap-8 text-sm font-medium text-white/82 md:flex">
             <a href="#home" className="transition hover:text-white">Home</a>
             <a href="#about-tmua" className="transition hover:text-white">About TMUA</a>
-            <a href="#pricing" className="transition hover:text-white">Pricing</a>
+            <a href="#free-access" className="transition hover:text-white">Free Access</a>
             <a href="#contact" className="transition hover:text-white">Contact</a>
           </nav>
 
@@ -128,8 +128,8 @@ export default function Home() {
             >
               About TMUA
             </a>
-            <a href="#pricing" className="whitespace-nowrap rounded-full border border-white/14 px-3 py-1.5 transition hover:bg-white/10 hover:text-white">
-              Pricing
+            <a href="#free-access" className="whitespace-nowrap rounded-full border border-white/14 px-3 py-1.5 transition hover:bg-white/10 hover:text-white">
+              Free Access
             </a>
             <a href="#contact" className="whitespace-nowrap rounded-full border border-white/14 px-3 py-1.5 transition hover:bg-white/10 hover:text-white">
               Contact
@@ -175,7 +175,7 @@ export default function Home() {
               Master the TMUA. Achieve Your Oxbridge Dream.
             </h1>
             <p className="mt-6 max-w-3xl text-lg leading-8 text-[#ede7d8] sm:text-xl">
-              Premium mock exams and expert resources for the Test of Mathematics for University Admission.
+              Free TMUA mocks, structured review tools, and application-focused resources for the Test of Mathematics for University Admission.
             </p>
             <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
               <Link
@@ -263,51 +263,50 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="pricing" className="bg-[var(--nav-blue)] px-4 py-16 text-white sm:px-6 lg:px-8 lg:py-24">
+      <section id="free-access" className="bg-[var(--nav-blue)] px-4 py-16 text-white sm:px-6 lg:px-8 lg:py-24">
         <div className="mx-auto max-w-6xl">
           <RevealOnScroll>
             <div className="max-w-3xl">
-              <p className="text-sm font-semibold uppercase tracking-[0.26em] text-white/68">Pricing</p>
+              <p className="text-sm font-semibold uppercase tracking-[0.26em] text-white/68">Free Access</p>
               <h2 className={`${playfair.className} mt-4 text-4xl font-semibold sm:text-5xl`}>
-                Pick the access path that matches how you prepare.
+                Everything on this platform is free to use.
               </h2>
               <p className="mt-6 text-lg leading-8 text-white/74">
-                This landing page keeps the pricing language simple. The real distinction is not flashy tiers; it is whether you want raw access,
-                structured workflow, or course-focused preparation material.
+                Use the platform in the way that fits your preparation: full mocks, review workflow, or admissions reading.
               </p>
             </div>
           </RevealOnScroll>
 
           <div className="mt-10 grid gap-6 lg:grid-cols-3">
-            {PRICING_PLANS.map((plan, index) => (
-              <RevealOnScroll key={plan.name} delayMs={80 + index * 60}>
+            {ACCESS_PANELS.map((panel, index) => (
+              <RevealOnScroll key={panel.name} delayMs={80 + index * 60}>
                 <article
                   className={`rounded-[1.75rem] border p-8 ${
-                    plan.featured
+                    panel.featured
                       ? 'border-[var(--academic-gold)] bg-white text-[var(--text-main)] shadow-[0_24px_60px_rgba(0,0,0,0.24)]'
                       : 'border-white/14 bg-white/6 text-white'
                   }`}
                 >
-                  <div className="text-sm uppercase tracking-[0.22em] opacity-72">{plan.name}</div>
-                  <div className={`${playfair.className} mt-4 text-4xl font-semibold`}>{plan.price}</div>
-                  <p className={`mt-4 text-base leading-7 ${plan.featured ? 'text-gray-600' : 'text-white/72'}`}>{plan.description}</p>
-                  <ul className={`mt-6 space-y-3 text-sm ${plan.featured ? 'text-gray-700' : 'text-white/82'}`}>
-                    {plan.items.map((item) => (
+                  <div className="text-sm uppercase tracking-[0.22em] opacity-72">{panel.name}</div>
+                  <div className={`${playfair.className} mt-4 text-4xl font-semibold`}>{panel.title}</div>
+                  <p className={`mt-4 text-base leading-7 ${panel.featured ? 'text-gray-600' : 'text-white/72'}`}>{panel.description}</p>
+                  <ul className={`mt-6 space-y-3 text-sm ${panel.featured ? 'text-gray-700' : 'text-white/82'}`}>
+                    {panel.items.map((item) => (
                       <li key={item} className="flex items-start gap-3">
-                        <span className={`mt-1 h-2.5 w-2.5 rounded-full ${plan.featured ? 'bg-[var(--academic-gold)]' : 'bg-white/72'}`} />
+                        <span className={`mt-1 h-2.5 w-2.5 rounded-full ${panel.featured ? 'bg-[var(--academic-gold)]' : 'bg-white/72'}`} />
                         <span>{item}</span>
                       </li>
                     ))}
                   </ul>
                   <Link
-                    href={plan.href}
+                    href={panel.href}
                     className={`mt-8 inline-flex rounded-md px-5 py-3 text-sm font-semibold transition ${
-                      plan.featured
+                      panel.featured
                         ? 'bg-[var(--academic-gold)] text-[var(--text-main)] hover:bg-[var(--gold-hover)]'
                         : 'border border-white/24 bg-white/10 text-white hover:bg-white/16'
                     }`}
                   >
-                    {plan.cta}
+                    {panel.cta}
                   </Link>
                 </article>
               </RevealOnScroll>
