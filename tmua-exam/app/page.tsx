@@ -102,10 +102,10 @@ export default function Home() {
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-4 sm:px-6 lg:px-8">
           <MockLabLogo />
 
-          <nav className="hidden items-center gap-8 text-sm font-medium text-white/82 md:flex">
+          <nav className="hidden items-center gap-8 text-sm font-medium text-[#f4f1e8]/92 [text-shadow:0_1px_2px_rgba(0,0,0,0.2)] md:flex">
             <a href="#home" className="transition hover:text-white">Home</a>
             <a href="#about-tmua" className="transition hover:text-white">About TMUA</a>
-            <a href="#free-access" className="transition hover:text-white">Free Access</a>
+            <a href="#pricing" className="transition hover:text-white">Pricing</a>
             <a href="#contact" className="transition hover:text-white">Contact</a>
           </nav>
 
@@ -128,8 +128,8 @@ export default function Home() {
             >
               About TMUA
             </a>
-            <a href="#free-access" className="whitespace-nowrap rounded-full border border-white/14 px-3 py-1.5 transition hover:bg-white/10 hover:text-white">
-              Free Access
+            <a href="#pricing" className="whitespace-nowrap rounded-full border border-white/14 px-3 py-1.5 transition hover:bg-white/10 hover:text-white">
+              Pricing
             </a>
             <a href="#contact" className="whitespace-nowrap rounded-full border border-white/14 px-3 py-1.5 transition hover:bg-white/10 hover:text-white">
               Contact
@@ -140,7 +140,7 @@ export default function Home() {
 
       <section
         id="home"
-        className="relative isolate flex min-h-[80vh] items-center justify-center overflow-hidden border-b border-[color:rgba(15,36,57,0.08)]"
+        className="relative isolate flex min-h-[75vh] items-center justify-center overflow-hidden border-b border-[color:rgba(15,36,57,0.08)] sm:min-h-[80vh]"
       >
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute inset-y-0 left-0 w-[72%] sm:w-[62%]">
@@ -150,7 +150,7 @@ export default function Home() {
               fill
               priority
               sizes="(max-width: 640px) 72vw, 62vw"
-              className="object-cover object-center scale-[1.14] blur-[4px] brightness-[0.5] saturate-[0.9]"
+              className="object-cover object-center scale-[1.14] blur-[4px] brightness-[0.68] saturate-[0.92]"
             />
           </div>
           <div className="absolute inset-y-0 right-0 w-[72%] sm:w-[58%]">
@@ -160,11 +160,11 @@ export default function Home() {
               fill
               priority
               sizes="(max-width: 640px) 72vw, 58vw"
-              className="object-cover object-center scale-[1.18] blur-[4px] brightness-[0.48] saturate-[0.88]"
+              className="object-cover object-center scale-[1.18] blur-[4px] brightness-[0.66] saturate-[0.9]"
             />
           </div>
-          <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(8,18,31,0.72)_0%,rgba(8,18,31,0.58)_22%,rgba(8,18,31,0.42)_44%,rgba(8,18,31,0.42)_56%,rgba(8,18,31,0.58)_78%,rgba(8,18,31,0.72)_100%)]" />
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.1)_0%,rgba(255,255,255,0)_36%),linear-gradient(180deg,rgba(15,36,57,0.14)_0%,rgba(15,36,57,0.22)_100%)]" />
+          <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(15,36,57,0.86)_0%,rgba(15,36,57,0.78)_22%,rgba(15,36,57,0.6)_44%,rgba(15,36,57,0.6)_56%,rgba(15,36,57,0.78)_78%,rgba(15,36,57,0.86)_100%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.12)_0%,rgba(255,255,255,0)_36%),linear-gradient(180deg,rgba(15,36,57,0.18)_0%,rgba(15,36,57,0.12)_100%)]" />
           <div className="absolute inset-y-0 left-1/2 w-px -translate-x-1/2 bg-white/12 blur-sm" />
           <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-[rgba(15,36,57,0.38)] via-transparent to-transparent" />
         </div>
@@ -195,12 +195,12 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative z-10 -mt-16 px-4 pb-16 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-6xl rounded-[2rem] border border-[color:rgba(212,175,55,0.45)] bg-[var(--bg-cream)] p-6 shadow-[0_24px_60px_rgba(15,36,57,0.16)] sm:p-8 lg:p-10">
-          <div className="grid gap-8 md:grid-cols-3">
+      <section className="bg-[#F5F2EB] px-6 py-24">
+        <div className="mx-auto max-w-6xl">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
             {FEATURE_CARDS.map(({ title, description, Icon }) => (
               <RevealOnScroll key={title}>
-                <article className="rounded-2xl border border-[color:rgba(15,36,57,0.08)] bg-white/68 p-6 shadow-[0_12px_30px_rgba(15,36,57,0.06)]">
+                <article className="rounded-xl bg-white p-8 shadow-md">
                   <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[color:rgba(212,175,55,0.14)] text-[var(--nav-blue)]">
                     <Icon className="h-6 w-6" />
                   </div>
@@ -263,11 +263,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="free-access" className="bg-[var(--nav-blue)] px-4 py-16 text-white sm:px-6 lg:px-8 lg:py-24">
+      <section id="pricing" className="bg-[var(--nav-blue)] px-4 py-16 text-white sm:px-6 lg:px-8 lg:py-24">
         <div className="mx-auto max-w-6xl">
           <RevealOnScroll>
             <div className="max-w-3xl">
-              <p className="text-sm font-semibold uppercase tracking-[0.26em] text-white/68">Free Access</p>
+              <p className="text-sm font-semibold uppercase tracking-[0.26em] text-white/68">Pricing</p>
               <h2 className={`${playfair.className} mt-4 text-4xl font-semibold sm:text-5xl`}>
                 Everything on this platform is free to use.
               </h2>
