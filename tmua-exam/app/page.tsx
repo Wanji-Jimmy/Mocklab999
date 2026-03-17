@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { Inter, Playfair_Display } from 'next/font/google'
@@ -8,9 +9,6 @@ import { absoluteUrl, SITE_NAME } from '@/lib/site'
 
 const inter = Inter({ subsets: ['latin'], display: 'swap' })
 const playfair = Playfair_Display({ subsets: ['latin'], display: 'swap' })
-
-const HERO_IMAGE =
-  'https://images.unsplash.com/photo-1531346808168-9de9ad4a42b1?auto=format&fit=crop&w=1600&q=80'
 
 const FEATURE_CARDS = [
   {
@@ -143,13 +141,33 @@ export default function Home() {
       <section
         id="home"
         className="relative isolate flex min-h-[80vh] items-center justify-center overflow-hidden border-b border-[color:rgba(15,36,57,0.08)]"
-        style={{
-          backgroundImage: `linear-gradient(rgba(7, 18, 31, 0.66), rgba(7, 18, 31, 0.66)), url(${HERO_IMAGE})`,
-          backgroundPosition: 'center',
-          backgroundSize: 'cover',
-        }}
       >
-        <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(15,36,57,0.36)_0%,rgba(15,36,57,0.18)_45%,rgba(15,36,57,0.5)_100%)]" />
+        <div className="absolute inset-0 overflow-hidden">
+          <div className="absolute inset-y-0 left-0 w-[72%] sm:w-[62%]">
+            <Image
+              src="/hero/cambridge-kings-college.jpg"
+              alt=""
+              fill
+              priority
+              sizes="(max-width: 640px) 72vw, 62vw"
+              className="object-cover object-center scale-[1.14] blur-[4px] brightness-[0.5] saturate-[0.9]"
+            />
+          </div>
+          <div className="absolute inset-y-0 right-0 w-[72%] sm:w-[58%]">
+            <Image
+              src="/hero/oxford-radcliffe-camera.jpg"
+              alt=""
+              fill
+              priority
+              sizes="(max-width: 640px) 72vw, 58vw"
+              className="object-cover object-center scale-[1.18] blur-[4px] brightness-[0.48] saturate-[0.88]"
+            />
+          </div>
+          <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(8,18,31,0.72)_0%,rgba(8,18,31,0.58)_22%,rgba(8,18,31,0.42)_44%,rgba(8,18,31,0.42)_56%,rgba(8,18,31,0.58)_78%,rgba(8,18,31,0.72)_100%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.1)_0%,rgba(255,255,255,0)_36%),linear-gradient(180deg,rgba(15,36,57,0.14)_0%,rgba(15,36,57,0.22)_100%)]" />
+          <div className="absolute inset-y-0 left-1/2 w-px -translate-x-1/2 bg-white/12 blur-sm" />
+          <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-[rgba(15,36,57,0.38)] via-transparent to-transparent" />
+        </div>
         <div className="relative z-10 mx-auto flex max-w-5xl flex-col items-center px-6 py-24 text-center text-white sm:px-8">
           <RevealOnScroll>
             <p className="text-sm uppercase tracking-[0.28em] text-white/72">TMUA admissions preparation</p>
