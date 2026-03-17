@@ -1,7 +1,8 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { Inter, Playfair_Display } from 'next/font/google'
-import { BarChart3, Brain, FileText, Shield } from 'lucide-react'
+import { BarChart3, Brain, FileText } from 'lucide-react'
+import MockLabLogo from '@/components/MockLabLogo'
 import RevealOnScroll from '@/components/RevealOnScroll'
 import { absoluteUrl, SITE_NAME } from '@/lib/site'
 
@@ -101,12 +102,7 @@ export default function Home() {
 
       <header className="sticky top-0 z-40 border-b border-[color:rgba(212,175,55,0.3)] bg-[color:rgba(15,36,57,0.96)] backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-4 sm:px-6 lg:px-8">
-          <Link href="/" className="flex items-center gap-3 text-white">
-            <span className="flex h-11 w-11 items-center justify-center rounded-full border border-[var(--academic-gold)]/60 bg-white/5">
-              <Shield className="h-5 w-5 text-[var(--academic-gold)]" />
-            </span>
-            <span className={`${playfair.className} text-2xl font-semibold tracking-tight`}>Mocklab999</span>
-          </Link>
+          <MockLabLogo />
 
           <nav className="hidden items-center gap-8 text-sm font-medium text-white/82 md:flex">
             <a href="#home" className="transition hover:text-white">Home</a>

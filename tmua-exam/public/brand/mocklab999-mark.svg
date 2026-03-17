@@ -12,6 +12,7 @@
       <stop offset="1" stop-color="#b98361" />
     </linearGradient>
   </defs>
+
   <rect width="256" height="256" rx="56" fill="url(#bg)" />
   <g transform="translate(26 24) scale(0.62)" fill="none" stroke="url(#metal)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
     <path d="M64 42c-22 0-39 17-39 39s17 39 39 39" />
