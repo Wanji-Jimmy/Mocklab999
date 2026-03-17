@@ -1,16 +1,27 @@
 import Link from 'next/link'
 import MockLabLogo from '@/components/MockLabLogo'
 
-type NavKey = 'home' | 'dashboard' | 'score-converter' | 'resources' | 'guides' | 'account' | 'mistakes'
+type NavKey =
+  | 'home'
+  | 'dashboard'
+  | 'tmua-mock'
+  | 'tmua-papers'
+  | 'step'
+  | 'mat'
+  | 'score-converter'
+  | 'resources'
+  | 'guides'
+  | 'account'
+  | 'mistakes'
 
 const NAV_ITEMS: Array<{ key: NavKey; href: string; label: string }> = [
   { key: 'home', href: '/', label: 'Home' },
-  { key: 'dashboard', href: '/dashboard', label: 'Full Mock' },
-  { key: 'score-converter', href: '/score-converter', label: 'Score Converter' },
-  { key: 'resources', href: '/resources', label: 'Resources' },
-  { key: 'guides', href: '/guides', label: 'Guides' },
+  { key: 'dashboard', href: '/dashboard', label: 'Platform' },
+  { key: 'tmua-mock', href: '/tmua/mock', label: 'TMUA Mock' },
+  { key: 'tmua-papers', href: '/tmua/papers', label: 'TMUA Papers' },
+  { key: 'step', href: '/step', label: 'STEP' },
+  { key: 'mat', href: '/mat', label: 'MAT' },
   { key: 'account', href: '/account', label: 'My Account' },
-  { key: 'mistakes', href: '/mistakes', label: 'Mistake Center' },
 ]
 
 export default function TmuaSiteHeader({ active }: { active?: NavKey }) {

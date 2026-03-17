@@ -93,7 +93,7 @@ export default function ScoreConverterClient() {
                 </div>
               </div>
               <div className="mt-5 flex flex-wrap gap-3">
-                <Link href="/dashboard" className="warm-primary-btn rounded-lg px-4 py-2 text-sm">
+                <Link href="/tmua/mock" className="warm-primary-btn rounded-lg px-4 py-2 text-sm">
                   Start full mock
                 </Link>
                 <Link href="/resources" className="warm-outline-btn rounded-lg px-4 py-2 text-sm font-semibold">

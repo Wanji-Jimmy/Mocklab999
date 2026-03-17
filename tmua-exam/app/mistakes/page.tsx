@@ -388,8 +388,8 @@ export default function MistakesPage() {
               </div>
 
               <div className="flex flex-wrap gap-3">
-                <Link href="/dashboard" className="warm-primary-btn rounded-lg px-5 py-2.5 text-sm">
-                  Open Full Mock Hub
+                <Link href="/tmua/mock" className="warm-primary-btn rounded-lg px-5 py-2.5 text-sm">
+                  Open TMUA Mock
                 </Link>
                 <Link href="/account" className="warm-outline-btn rounded-lg px-5 py-2.5 text-sm font-semibold">
                   Open My Account

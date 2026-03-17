@@ -6,9 +6,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = [
     '/',
     '/dashboard',
+    '/tmua/mock',
+    '/tmua/papers',
+    '/step',
+    '/mat',
     '/score-converter',
     '/resources',
     '/guides',
+    '/account',
+    '/mistakes',
   ]
 
   const staticEntries = staticRoutes.map((route) => ({

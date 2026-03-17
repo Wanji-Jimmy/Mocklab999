@@ -10,7 +10,7 @@ const MESSAGES = [
   'Focus for 90 minutes. Own this mock.',
 ]
 
-const WARM_ROUTES = new Set(['/', '/dashboard', '/account', '/mistakes', '/guides', '/resources', '/score-converter', '/esat', '/esat/engaa', '/esat/nsaa'])
+const WARM_ROUTES = new Set(['/', '/dashboard', '/account', '/mistakes', '/guides', '/resources', '/score-converter', '/step', '/mat', '/tmua/mock', '/tmua/papers', '/esat', '/esat/engaa', '/esat/nsaa'])
 const PUSH_DELAY_MS = 360
 const MIN_LAUNCH_MS = 860
 const REVEAL_MS = 620

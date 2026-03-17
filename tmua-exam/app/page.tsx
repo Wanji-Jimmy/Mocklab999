@@ -168,13 +168,13 @@ export default function Home() {
                 href="/dashboard"
                 className="rounded-md bg-[var(--academic-gold)] px-8 py-4 text-lg font-semibold text-[var(--text-main)] shadow-[0_18px_38px_rgba(0,0,0,0.24)] transition hover:bg-[var(--gold-hover)]"
               >
-                Start Practicing Now
+                Enter Platform
               </Link>
               <Link
-                href="/score-converter"
+                href="/tmua/mock"
                 className="rounded-md border border-white/36 bg-white/10 px-8 py-4 text-lg font-semibold text-white transition hover:bg-white/16"
               >
-                Convert My Score
+                Open TMUA Mock
               </Link>
             </div>
           </RevealOnScroll>
@@ -318,7 +318,7 @@ export default function Home() {
               </div>
               <div className="flex flex-col gap-4 sm:flex-row lg:flex-col">
                 <Link
-                  href="/dashboard"
+                  href="/tmua/mock"
                   className="rounded-md bg-[var(--academic-gold)] px-7 py-4 text-center text-base font-semibold text-[var(--text-main)] transition hover:bg-[var(--gold-hover)]"
                 >
                   Open Full Mock

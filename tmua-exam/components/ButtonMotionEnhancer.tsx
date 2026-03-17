@@ -4,7 +4,7 @@ import { useEffect } from 'react'
 import { usePathname } from 'next/navigation'
 
 const SELECTOR = '.warm-primary-btn, .warm-outline-btn'
-const WARM_ROUTES = new Set(['/', '/dashboard', '/account'])
+const WARM_ROUTES = new Set(['/', '/dashboard', '/account', '/mistakes', '/resources', '/guides', '/score-converter', '/step', '/mat', '/tmua/mock', '/tmua/papers'])
 
 export default function ButtonMotionEnhancer() {
   const pathname = usePathname()

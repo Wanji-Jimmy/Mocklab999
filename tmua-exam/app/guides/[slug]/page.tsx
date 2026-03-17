@@ -149,7 +149,7 @@ export default function GuideDetailPage({ params }: { params: { slug: string } }
             Confirm your target course requirements, run a timed TMUA mock, then review mistakes before planning the next paper.
           </p>
           <div className="mt-4 flex flex-wrap gap-3">
-            <Link href="/dashboard" className="warm-primary-btn px-4 py-2 rounded-lg text-sm font-semibold">
+            <Link href="/tmua/mock" className="warm-primary-btn px-4 py-2 rounded-lg text-sm font-semibold">
               Open full mock
             </Link>
             <Link href="/score-converter" className="warm-outline-btn px-4 py-2 rounded-lg text-sm font-semibold">
